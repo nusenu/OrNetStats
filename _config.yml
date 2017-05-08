@@ -1,0 +1,19 @@
+markdown: kramdown
+title: OrNetStats
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: OrNetStats
+
+description: Stats about the Tor Network
+author:
+  name: OrNetStats
+  email: ornetstats AT riseup
+  github: nusenu
+  twitter: nusenu_
+  bio: Stats about the Tor Network
+
+BASE_PATH: /OrNetStats
