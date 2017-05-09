@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org).
+For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
 Guardonly relays have the guard flag but not the exit flag.
 Since exits are less common than guards their guard probability is usually 0% even when they have the guard flag.

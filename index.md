@@ -32,8 +32,8 @@ The table is sorted by guard probability.
 | [Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w](endtoend-correlation-groups#nicholas-merrill-nick-at-calyx-dot-com-btc---14w) |        0.13 |       0.53 |        13 |               2 | 2016-04-01     |                           4 |
 | [aTorRelay@gmail.com](endtoend-correlation-groups#atorrelaygmailcom)                                                                     |        0.11 |       0.14 |         9 |               6 | 2017-03-21     |                           1 |
 | [tor@schlarman.org - 15icgtSewYphZqN1tr9H22sbaVkQiU](endtoend-correlation-groups#torschlarmanorg---15icgtsewyphzqn1tr9h22sbavkqiu)       |        0.09 |       0.17 |         2 |               2 | 2017-04-30     |                           1 |
-| [Digineo GmbH &lt;tor AT digineo dot de&gt;](endtoend-correlation-groups#digineo-gmbh-tor-at-digineo-dot-de)                             |        0.03 |       0.3  |         2 |               2 | 2017-02-16     |                           1 |
 | [visualbasic033@gmail.com](endtoend-correlation-groups#visualbasic033gmailcom)                                                           |        0.03 |       0.48 |         3 |               3 | 2016-08-08     |                           1 |
+| [Digineo GmbH &lt;tor AT digineo dot de&gt;](endtoend-correlation-groups#digineo-gmbh-tor-at-digineo-dot-de)                             |        0.03 |       0.3  |         2 |               2 | 2017-02-16     |                           1 |
 | [George Shuklin &lt;george.shuklin@gmail.com&gt;](endtoend-correlation-groups#george-shuklin-georgeshuklingmailcom)                      |        0.02 |       0.02 |         2 |               2 | 2016-07-21     |                           1 |
 | [tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt;](endtoend-correlation-groups#tornoisebridgenet-admintornoisebridgenet)            |        0.01 |       0.91 |         5 |               2 | 2015-05-20     |                           1 |
 
@@ -167,9 +167,9 @@ A OS-distribution-over-time graph (by relay count) can be found on the [Torproje
 | snowflake                                  |         2 |
 | obfs4, scramblesuit                        |         2 |
 | obfs2, obfs3, obfs4, scramblesuit          |         2 |
-| fte, obfs3                                 |         1 |
 | obfs3 websocket, websocket                 |         1 |
 | fte, meek, meek, obfs3, scramblesuit       |         1 |
+| fte, obfs3                                 |         1 |
 
 ## Data Source
 
