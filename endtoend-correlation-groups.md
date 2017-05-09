@@ -5,9 +5,9 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)
+For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
-"Guardonly relays have the guard flag but not the exit flag. 
+Guardonly relays have the guard flag but not the exit flag.
 Since exits are less common than guards their guard probability is usually 0% even when they have the guard flag.
 The number next to the contactinfo shows the number of relays running with the given ContactInfo (excluding middle-only relays).
 Middle-only relays (no guard and exit flag) are excluded to reduce the size of this list.
@@ -16,11 +16,11 @@ At the end of this page you can find a comma separated list of fingerprints of a
 
 ## If your relay is listed here
 Please configure [MyFamily](https://www.torproject.org/docs/tor-manual.html.en#MyFamily) in your torrc configuration files.
-This page should help you debugging your MyFamily configuration. The number in the last column should equal to the number of
+This page should help you with debugging your MyFamily configuration. The number in the last column should equal to the number of
 relays you operate (for every relay).
 
 Once MyFamily is fixed the relays will automatically disappear from this page (within ~24 hours).
-If you need help with MyFamily configuration you can reach out to the 
+If you need help with the MyFamily configuration you can reach out to the
 [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 You can also use tools that handle MyFamily automatically (I maintain an ansible role - 
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftypedetes](https://atlas.torproject.org/#details/92A6085EABAADD928B6F8E871540A1A41CBC08BA)        | 2016-08-24   | Yes         |                    27 |
 | [niftychipmunk](https://atlas.torproject.org/#details/609E598FB6A00BCF7872906B602B705B64541C50)       | 2016-08-28   | Yes         |                    27 |
 | [niftydormouse](https://atlas.torproject.org/#details/E6FAC9A7F33EE66F03C55C119770B2D45D3C576B)       | 2016-11-25   | Yes         |                    27 |
-| [niftynutria](https://atlas.torproject.org/#details/9A857254F379194D1CD76F4A79A20D2051BEDA3F)         | 2016-11-25   | Yes         |                    27 |
 | [niftygundi](https://atlas.torproject.org/#details/5DEF791E0025EA398CB26F4A10DC11394EB6FAAB)          | 2016-11-25   | Yes         |                    27 |
+| [niftynutria](https://atlas.torproject.org/#details/9A857254F379194D1CD76F4A79A20D2051BEDA3F)         | 2016-11-25   | Yes         |                    27 |
 | [niftyporcupine](https://atlas.torproject.org/#details/7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3)      | 2016-11-25   | Yes         |                    27 |
 | [niftyvolcanorabbit](https://atlas.torproject.org/#details/C08DE49658E5B3CFC6F2A952B453C4B608C9A16A)  | 2016-02-06   | No          |                    27 |
 | [niftywoodmouse](https://atlas.torproject.org/#details/14877C6384A9E793F422C8D1DDA447CACA4F7C4B)      | 2016-09-18   | No          |                    27 |
@@ -87,8 +87,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Cayambe](https://atlas.torproject.org/#details/EA147A10B261A03B863B428A8EB45513038E6793)    | 2016-10-02   | Yes         |                     6 |
+| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Tungurahua](https://atlas.torproject.org/#details/7CB15FA5CD985B9BBD6AC386C62C206A1F391C23) | 2016-10-02   | Yes         |                     6 |
 | [Cotopaxi](https://atlas.torproject.org/#details/4623A9EC53BFD83155929E56D6F7B55B5E718C24)   | 2016-05-24   | Yes         |                     6 |
 | [Antisana](https://atlas.torproject.org/#details/4FDD4AFD8653DE16EE2DFCD7012570DA953CDF4C)   | 2016-11-19   | No          |                     6 |
@@ -111,13 +111,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
-## ContactInfo: George Shuklin &lt;george.shuklin@gmail.com&gt; (2) {#george-shuklin-georgeshuklingmailcom}
-
-| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
-| [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
-
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -125,6 +118,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
+
+## ContactInfo: George Shuklin &lt;george.shuklin@gmail.com&gt; (2) {#george-shuklin-georgeshuklingmailcom}
+
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
+| [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
 
 ## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (5) {#tornoisebridgenet-admintornoisebridgenet}
 
