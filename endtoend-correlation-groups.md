@@ -61,8 +61,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [hacktheplanet](https://atlas.torproject.org/#details/503B81114811247C0D2D1317A929E5100370FB2D)  | 2017-04-01   | Yes         |                     1 |
-| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
+| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [celerity](https://atlas.torproject.org/#details/07DE0162672BA711A396D7056E053C1748B566DB)       | 2017-02-09   | No          |                     1 |
 | [yougotrelay](https://atlas.torproject.org/#details/75F5826C4DA47146F9D2665BBB10859494DA9E94)    | 2017-03-03   | No          |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/B2E944604E6895EF9FC0F38B3FA80F79CFA68ED9)  | 2017-05-06   | No          |                     1 |
