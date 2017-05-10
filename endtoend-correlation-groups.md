@@ -27,12 +27,12 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse@to-surf-and-protect.net (22) {#abuseto-surf-and-protectnet}
+## ContactInfo: abuse@to-surf-and-protect.net (24) {#abuseto-surf-and-protectnet}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [niftychipmunk](https://atlas.torproject.org/#details/609E598FB6A00BCF7872906B602B705B64541C50)       | 2016-08-28   | Yes         |                    27 |
 | [niftypedetes](https://atlas.torproject.org/#details/92A6085EABAADD928B6F8E871540A1A41CBC08BA)        | 2016-08-24   | Yes         |                    27 |
+| [niftychipmunk](https://atlas.torproject.org/#details/609E598FB6A00BCF7872906B602B705B64541C50)       | 2016-08-28   | Yes         |                    27 |
 | [niftydormouse](https://atlas.torproject.org/#details/E6FAC9A7F33EE66F03C55C119770B2D45D3C576B)       | 2016-11-25   | Yes         |                    27 |
 | [niftynutria](https://atlas.torproject.org/#details/9A857254F379194D1CD76F4A79A20D2051BEDA3F)         | 2016-11-25   | Yes         |                    27 |
 | [niftygundi](https://atlas.torproject.org/#details/5DEF791E0025EA398CB26F4A10DC11394EB6FAAB)          | 2016-11-25   | Yes         |                    27 |
@@ -49,22 +49,24 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftykangaroorat](https://atlas.torproject.org/#details/6357029B55455D2825C42E19DA8DD98200D95D03)    | 2016-10-16   | No          |                    27 |
 | [niftyhutia](https://atlas.torproject.org/#details/644DECC5A1879C0FE23DE927DD7049F58BBDF349)          | 2016-09-22   | No          |                    27 |
 | [niftycottontail](https://atlas.torproject.org/#details/71AB4726D830FAE776D74AEF790CF04D8E0151B4)     | 2016-02-05   | No          |                    27 |
+| [niftyjerboa](https://atlas.torproject.org/#details/8EE0534532EA31AA5172B1892F53B2F25C76EB02)         | 2016-08-30   | No          |                    27 |
+| [niftyquokka](https://atlas.torproject.org/#details/906DCB390F2BA987AE258D745E60BAAABAD31DE8)         | 2016-08-03   | No          |                    27 |
 | [niftypika](https://atlas.torproject.org/#details/B771AA877687F88E6F1CA5354756DF6C8A7B6B24)           | 2016-01-25   | No          |                    27 |
 | [niftycapybara](https://atlas.torproject.org/#details/BC82F2190DE2E97DE65F49B4A95572374BDC0789)       | 2016-08-30   | No          |                    27 |
 | [niftyvolcanorabbit](https://atlas.torproject.org/#details/C08DE49658E5B3CFC6F2A952B453C4B608C9A16A)  | 2016-02-06   | No          |                    27 |
 | [niftygerbil](https://atlas.torproject.org/#details/CDA2EA326E2272C57ACB26773D7252C211795B78)         | 2016-05-22   | No          |                    27 |
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (5) {#contactgpgfingerprint-contactname-conta}
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [hacktheplanet](https://atlas.torproject.org/#details/503B81114811247C0D2D1317A929E5100370FB2D)  | 2017-04-01   | Yes         |                     1 |
 | [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
-| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | Yes         |                     1 |
 | [celerity](https://atlas.torproject.org/#details/07DE0162672BA711A396D7056E053C1748B566DB)       | 2017-02-09   | No          |                     1 |
 | [yougotrelay](https://atlas.torproject.org/#details/75F5826C4DA47146F9D2665BBB10859494DA9E94)    | 2017-03-03   | No          |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/B2E944604E6895EF9FC0F38B3FA80F79CFA68ED9)  | 2017-05-06   | No          |                     1 |
+| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | No          |                     1 |
 
 ## ContactInfo: aTorRelay@gmail.com (9) {#atorrelaygmailcom}
 
@@ -97,19 +99,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    12 |
 | [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    12 |
 
-## ContactInfo: tor@schlarman.org - 15icgtSewYphZqN1tr9H22sbaVkQiU (2) {#torschlarmanorg---15icgtsewyphzqn1tr9h22sbavkqiu}
-
-| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [schlarman](https://atlas.torproject.org/#details/1CFF09D57C01E91556BC599F1AE27961D69B9967) | 2017-04-30   | Yes         |                     1 |
-| [torlabs](https://atlas.torproject.org/#details/4603006F29B4A93084B23E35E2056243A3AE8F79)   | 2017-04-25   | No          |                     1 |
-
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
 | Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+
+## ContactInfo: George Shuklin &lt;george.shuklin@gmail.com&gt; (2) {#george-shuklin-georgeshuklingmailcom}
+
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
+| [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
 
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
@@ -132,4 +134,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-42ED91DD3768F6A2A194D094A7432CBE8DA004B1,EE5B1908BC169F219EE9F74637D396D43EC1B58D,609E598FB6A00BCF7872906B602B705B64541C50,503B81114811247C0D2D1317A929E5100370FB2D,9A857254F379194D1CD76F4A79A20D2051BEDA3F,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,92A6085EABAADD928B6F8E871540A1A41CBC08BA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,5DEF791E0025EA398CB26F4A10DC11394EB6FAAB,E6FAC9A7F33EE66F03C55C119770B2D45D3C576B,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7,1CFF09D57C01E91556BC599F1AE27961D69B9967
+42ED91DD3768F6A2A194D094A7432CBE8DA004B1,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,609E598FB6A00BCF7872906B602B705B64541C50,503B81114811247C0D2D1317A929E5100370FB2D,9A857254F379194D1CD76F4A79A20D2051BEDA3F,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,92A6085EABAADD928B6F8E871540A1A41CBC08BA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,5DEF791E0025EA398CB26F4A10DC11394EB6FAAB,E6FAC9A7F33EE66F03C55C119770B2D45D3C576B,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7
