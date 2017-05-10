@@ -35,6 +35,7 @@ The table is sorted by guard probability.
 | [George Shuklin &lt;george.shuklin@gmail.com&gt;](endtoend-correlation-groups#george-shuklin-georgeshuklingmailcom)                      | 0.02        | 0.02       | 2         | 2               | 2016-07-21     | 1                           |
 | [visualbasic033@gmail.com](endtoend-correlation-groups#visualbasic033gmailcom)                                                           | 0.02        | 0.45       | 3         | 3               | 2016-08-08     | 1                           |
 | [tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt;](endtoend-correlation-groups#tornoisebridgenet-admintornoisebridgenet)            | 0.01        | 0.94       | 5         | 2               | 2015-05-20     | 1                           |
+| **Summary**                                                                                                                              | **0.74**    | **6.07**   | **62**    | \-              | \-             | \-                          |
 
 For a detailed list of (known) relays in end-to-end correlation position see **[this page](endtoend-correlation-groups)**.
 
