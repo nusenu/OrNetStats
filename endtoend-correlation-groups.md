@@ -58,8 +58,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Cayambe](https://atlas.torproject.org/#details/EA147A10B261A03B863B428A8EB45513038E6793)    | 2016-10-02   | Yes         |                     6 |
-| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Tungurahua](https://atlas.torproject.org/#details/7CB15FA5CD985B9BBD6AC386C62C206A1F391C23) | 2016-10-02   | Yes         |                     6 |
+| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Cotopaxi](https://atlas.torproject.org/#details/4623A9EC53BFD83155929E56D6F7B55B5E718C24)   | 2016-05-24   | Yes         |                     6 |
 | [Cuicocha](https://atlas.torproject.org/#details/1447CB81A31B3701F7D5CB82E84B0AF2436189E0)   | 2017-03-21   | No          |                     1 |
 | [Illiniza](https://atlas.torproject.org/#details/1A253681CBC0836C71AA7D6D0FC9B01D6B38045F)   | 2017-03-21   | No          |                     1 |
