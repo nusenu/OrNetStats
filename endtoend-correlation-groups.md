@@ -27,39 +27,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse@to-surf-and-protect.net (27) {#abuseto-surf-and-protectnet}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [niftychipmunk](https://atlas.torproject.org/#details/609E598FB6A00BCF7872906B602B705B64541C50)       | 2016-08-28   | Yes         |                    31 |
-| [niftypedetes](https://atlas.torproject.org/#details/92A6085EABAADD928B6F8E871540A1A41CBC08BA)        | 2016-08-24   | Yes         |                    31 |
-| [niftydormouse](https://atlas.torproject.org/#details/E6FAC9A7F33EE66F03C55C119770B2D45D3C576B)       | 2016-11-25   | Yes         |                    31 |
-| [niftygundi](https://atlas.torproject.org/#details/5DEF791E0025EA398CB26F4A10DC11394EB6FAAB)          | 2016-11-25   | Yes         |                    31 |
-| [niftynutria](https://atlas.torproject.org/#details/9A857254F379194D1CD76F4A79A20D2051BEDA3F)         | 2016-11-25   | Yes         |                    31 |
-| [niftyporcupine](https://atlas.torproject.org/#details/7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3)      | 2016-11-25   | Yes         |                    31 |
-| [niftyhedgehog](https://atlas.torproject.org/#details/1084200B44021D308EA4253F256794671B1D099A)       | 2016-08-23   | No          |                    32 |
-| [niftywoodmouse](https://atlas.torproject.org/#details/14877C6384A9E793F422C8D1DDA447CACA4F7C4B)      | 2016-09-18   | No          |                    32 |
-| [niftymouse](https://atlas.torproject.org/#details/24E91955D969AEA1D80413C64FE106FAE7FD2EA9)          | 2016-07-27   | No          |                    31 |
-| [niftycottonmouse](https://atlas.torproject.org/#details/28F4F392F8F19E3FBDE09616D9DB8143A1E2DDD3)    | 2016-10-23   | No          |                    31 |
-| [niftypatagonianmara](https://atlas.torproject.org/#details/2D10B49892B7F5AC7BF40873A2B2FAFC6C7C1144) | 2016-10-01   | No          |                    31 |
-| [niftysquirrel](https://atlas.torproject.org/#details/348B89013EDDD99E4755951D1EC284D9FED71226)       | 2016-09-20   | No          |                    32 |
-| [niftyplagiodontia](https://atlas.torproject.org/#details/5D5006E4992F2F97DF4F8B926C3688870EB52BD8)   | 2016-09-22   | No          |                    31 |
-| [niftytexasmouse](https://atlas.torproject.org/#details/5D5817EA15062AC623F9F60F388C649BEFE946EA)     | 2016-10-23   | No          |                    31 |
-| [niftytucotuco](https://atlas.torproject.org/#details/619349D82424C601CAEB94161A4CF778993DAEE7)       | 2016-10-20   | No          |                    31 |
-| [niftykangaroorat](https://atlas.torproject.org/#details/6357029B55455D2825C42E19DA8DD98200D95D03)    | 2016-10-16   | No          |                    31 |
-| [niftyhutia](https://atlas.torproject.org/#details/644DECC5A1879C0FE23DE927DD7049F58BBDF349)          | 2016-09-22   | No          |                    31 |
-| [niftycottontail](https://atlas.torproject.org/#details/71AB4726D830FAE776D74AEF790CF04D8E0151B4)     | 2016-02-05   | No          |                    31 |
-| [niftyllipika](https://atlas.torproject.org/#details/7DC52AE6667A30536BA2383CD102CFC24F20AD71)        | 2016-12-02   | No          |                    31 |
-| [niftyjerboa](https://atlas.torproject.org/#details/8EE0534532EA31AA5172B1892F53B2F25C76EB02)         | 2016-08-30   | No          |                    31 |
-| [niftyquokka](https://atlas.torproject.org/#details/906DCB390F2BA987AE258D745E60BAAABAD31DE8)         | 2016-08-03   | No          |                    31 |
-| [niftypika](https://atlas.torproject.org/#details/B771AA877687F88E6F1CA5354756DF6C8A7B6B24)           | 2016-01-25   | No          |                    31 |
-| [niftycapybara](https://atlas.torproject.org/#details/BC82F2190DE2E97DE65F49B4A95572374BDC0789)       | 2016-08-30   | No          |                    31 |
-| [niftyvolcanorabbit](https://atlas.torproject.org/#details/C08DE49658E5B3CFC6F2A952B453C4B608C9A16A)  | 2016-02-06   | No          |                    31 |
-| [niftygerbil](https://atlas.torproject.org/#details/CDA2EA326E2272C57ACB26773D7252C211795B78)         | 2016-05-22   | No          |                    31 |
-| [niftyguineapig](https://atlas.torproject.org/#details/EC1997D51892E4607C68E800549A1E7E4694005A)      | 2016-05-25   | No          |                    31 |
-| [niftyrat](https://atlas.torproject.org/#details/FDA70EC93DB01E3CB418CB6943B0C68464B18B4C)            | 2016-09-17   | No          |                    31 |
-| [niftychinchilla](https://atlas.torproject.org/#details/FE3587D12AACD55486E7024A5EC8CE0994643BA0)     | 2016-07-28   | No          |                     5 |
-
 ## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (5) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -76,8 +43,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Cayambe](https://atlas.torproject.org/#details/EA147A10B261A03B863B428A8EB45513038E6793)    | 2016-10-02   | Yes         |                     6 |
+| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     6 |
 | [Tungurahua](https://atlas.torproject.org/#details/7CB15FA5CD985B9BBD6AC386C62C206A1F391C23) | 2016-10-02   | Yes         |                     6 |
 | [Cotopaxi](https://atlas.torproject.org/#details/4623A9EC53BFD83155929E56D6F7B55B5E718C24)   | 2016-05-24   | Yes         |                     6 |
 | [Cuicocha](https://atlas.torproject.org/#details/1447CB81A31B3701F7D5CB82E84B0AF2436189E0)   | 2017-03-21   | No          |                     1 |
@@ -138,4 +105,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-42ED91DD3768F6A2A194D094A7432CBE8DA004B1,EE5B1908BC169F219EE9F74637D396D43EC1B58D,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,609E598FB6A00BCF7872906B602B705B64541C50,503B81114811247C0D2D1317A929E5100370FB2D,9A857254F379194D1CD76F4A79A20D2051BEDA3F,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,92A6085EABAADD928B6F8E871540A1A41CBC08BA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,5DEF791E0025EA398CB26F4A10DC11394EB6FAAB,E6FAC9A7F33EE66F03C55C119770B2D45D3C576B,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7
+42ED91DD3768F6A2A194D094A7432CBE8DA004B1,EE5B1908BC169F219EE9F74637D396D43EC1B58D,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,503B81114811247C0D2D1317A929E5100370FB2D,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7
