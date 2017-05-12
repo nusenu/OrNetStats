@@ -36,9 +36,9 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dc6jgk12](https://atlas.torproject.org/#details/A853BA9862837B5FC8E4FF784829DB3BE6F53A75)     | 2016-11-13   | Yes         |                    21 |
 | [Artikel5ev6](https://atlas.torproject.org/#details/4DD902046E7155BBE79C34EE6D53BF7408B98CE4)  | 2017-03-05   | Yes         |                    21 |
 | [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)      | 2016-11-11   | Yes         |                    21 |
+| [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)      | 2016-10-06   | Yes         |                    21 |
 | [dc6jgk5](https://atlas.torproject.org/#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)      | 2016-09-05   | Yes         |                    21 |
 | [dc6jgk7](https://atlas.torproject.org/#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)      | 2016-11-04   | Yes         |                    21 |
-| [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)      | 2016-10-06   | Yes         |                    21 |
 | [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)     | 2016-11-11   | Yes         |                    21 |
 | [dc6jgk15TEST](https://atlas.torproject.org/#details/4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A) | 2017-04-27   | Yes         |                     1 |
 | [utzer2](https://atlas.torproject.org/#details/035D2E216B065B961E404BD172336050E5AF4EEA)       | 2017-03-02   | Yes         |                    21 |
@@ -53,6 +53,18 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [artikel5ev2](https://atlas.torproject.org/#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)  | 2016-10-29   | No          |                    21 |
 | [dc6jgk2](https://atlas.torproject.org/#details/E754AA9939DE56E388390930B302142FA319085F)      | 2014-04-11   | No          |                    21 |
 
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (5) {#contactgpgfingerprint-contactname-conta}
+
+| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hacktheplanet](https://atlas.torproject.org/#details/503B81114811247C0D2D1317A929E5100370FB2D)  | 2017-04-01   | Yes         |                     1 |
+| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
+| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | Yes         |                     1 |
+| [celerity](https://atlas.torproject.org/#details/07DE0162672BA711A396D7056E053C1748B566DB)       | 2017-02-09   | No          |                     1 |
+| [yougotrelay](https://atlas.torproject.org/#details/75F5826C4DA47146F9D2665BBB10859494DA9E94)    | 2017-03-03   | No          |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/CC6510EFBD46295322803A1ED6A13B0E43A43D0C)  | 2017-05-11   | No          |                     1 |
+
 ## ContactInfo: aTorRelay@gmail.com (9) {#atorrelaygmailcom}
 
 | Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
@@ -66,18 +78,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Sangay](https://atlas.torproject.org/#details/329EA46CC86E9DF8CDA3F06F3B403D8D89772D47)     | 2016-11-16   | No          |                     6 |
 | [Antisana](https://atlas.torproject.org/#details/4FDD4AFD8653DE16EE2DFCD7012570DA953CDF4C)   | 2016-11-19   | No          |                     6 |
 | [Atacazo](https://atlas.torproject.org/#details/83E6F0C19588C5601741FB55D007C2374ED66FF3)    | 2017-03-21   | No          |                     1 |
-
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (5) {#contactgpgfingerprint-contactname-conta}
-
-| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hacktheplanet](https://atlas.torproject.org/#details/503B81114811247C0D2D1317A929E5100370FB2D)  | 2017-04-01   | Yes         |                     1 |
-| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
-| [hacktheplanet](https://atlas.torproject.org/#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
-| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | Yes         |                     1 |
-| [celerity](https://atlas.torproject.org/#details/07DE0162672BA711A396D7056E053C1748B566DB)       | 2017-02-09   | No          |                     1 |
-| [yougotrelay](https://atlas.torproject.org/#details/75F5826C4DA47146F9D2665BBB10859494DA9E94)    | 2017-03-03   | No          |                     1 |
-| [hacktheplanet](https://atlas.torproject.org/#details/CC6510EFBD46295322803A1ED6A13B0E43A43D0C)  | 2017-05-11   | No          |                     1 |
 
 ## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (13) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
