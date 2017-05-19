@@ -19,7 +19,7 @@ Please configure [MyFamily](https://www.torproject.org/docs/tor-manual.html.en#M
 This page should help you with debugging your MyFamily configuration. The number in the last column should equal to the number of
 relays you operate (for every relay).
 
-Once MyFamily is fixed the relays will automatically disappear from this page (within a ~week).
+Once MyFamily is fixed the relays will automatically disappear from this page (within a ~1-2 days).
 If you need help with the MyFamily configuration you can reach out to the
 [tor-relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).
 You can also use tools that handle MyFamily automatically (I maintain an ansible role - 
@@ -96,20 +96,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
-## ContactInfo: George Shuklin &lt;george.shuklin@gmail.com&gt; (2) {#george-shuklin-georgeshuklingmailcom}
-
-| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
-| [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
-
-## ContactInfo: torman@memeware.net (2) {#tormanmemewarenet}
-
-| Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [deeppacket](https://atlas.torproject.org/#details/DFC5F4F0FFCBA62EC816536D46B184E0A1DDE29F) | 2017-04-27   | Yes         |                     1 |
-| [thotpatrol](https://atlas.torproject.org/#details/FD7DC7A6FC2890B18085E964879D8D078622D288) | 2017-05-11   | No          |                     1 |
-
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -131,4 +117,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-42ED91DD3768F6A2A194D094A7432CBE8DA004B1,B39AD54B73A70DA68F6FC26CD0A874DE762B7825,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,48B93C88B90608913C1D7FD9378DBB970BF994EC,503B81114811247C0D2D1317A929E5100370FB2D,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,DFC5F4F0FFCBA62EC816536D46B184E0A1DDE29F,1A835E3663068222F28F7C5AF3216F4B27B50B57,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,138ED47EE2156E6492FDE0B61338D973C9717F32,A019AF72731C2731CA90C01B2C5F279289B5E177,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7,04738935F40F06E03312097C7411EEC67EB99E93
+42ED91DD3768F6A2A194D094A7432CBE8DA004B1,B39AD54B73A70DA68F6FC26CD0A874DE762B7825,48B93C88B90608913C1D7FD9378DBB970BF994EC,503B81114811247C0D2D1317A929E5100370FB2D,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,138ED47EE2156E6492FDE0B61338D973C9717F32,A019AF72731C2731CA90C01B2C5F279289B5E177,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7,04738935F40F06E03312097C7411EEC67EB99E93
