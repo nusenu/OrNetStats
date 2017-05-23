@@ -31,9 +31,9 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     8 |
-| [Tungurahua](https://atlas.torproject.org/#details/7CB15FA5CD985B9BBD6AC386C62C206A1F391C23) | 2016-10-02   | Yes         |                     8 |
 | [Cotopaxi](https://atlas.torproject.org/#details/4623A9EC53BFD83155929E56D6F7B55B5E718C24)   | 2016-05-24   | Yes         |                     8 |
+| [Tungurahua](https://atlas.torproject.org/#details/7CB15FA5CD985B9BBD6AC386C62C206A1F391C23) | 2016-10-02   | Yes         |                     8 |
+| [Pichincha](https://atlas.torproject.org/#details/68F175CCABE727AA2D2309BCD8789499CEE36ED7)  | 2016-05-24   | Yes         |                     8 |
 | [Cayambe](https://atlas.torproject.org/#details/EA147A10B261A03B863B428A8EB45513038E6793)    | 2016-10-02   | Yes         |                     8 |
 | [Cuicocha](https://atlas.torproject.org/#details/1447CB81A31B3701F7D5CB82E84B0AF2436189E0)   | 2017-03-21   | No          |                     1 |
 | [Illiniza](https://atlas.torproject.org/#details/1A253681CBC0836C71AA7D6D0FC9B01D6B38045F)   | 2017-03-21   | No          |                     1 |
@@ -47,23 +47,23 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                        | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [SnapTorSTRAS](https://atlas.torproject.org/#details/04738935F40F06E03312097C7411EEC67EB99E93)  | 2016-11-26   | Yes         |                     4 |
 | [SnapTorZie](https://atlas.torproject.org/#details/A019AF72731C2731CA90C01B2C5F279289B5E177)    | 2017-05-03   | Yes         |                     1 |
+| [SnapTorSTRAS](https://atlas.torproject.org/#details/04738935F40F06E03312097C7411EEC67EB99E93)  | 2016-11-26   | Yes         |                     4 |
 | [SnapTorCAN](https://atlas.torproject.org/#details/B39AD54B73A70DA68F6FC26CD0A874DE762B7825)    | 2016-11-12   | Yes         |                     4 |
 | [SnapTorUSA](https://atlas.torproject.org/#details/48B93C88B90608913C1D7FD9378DBB970BF994EC)    | 2017-03-12   | Yes         |                     4 |
 | [SnapTorExitUS](https://atlas.torproject.org/#details/B164C656D44C1936E6D5E79183E3C7F341C663CD) | 2017-03-12   | No          |                     4 |
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (3) {#contactgpgfingerprint-contactname-conta}
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
+| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | Yes         |                     1 |
 | [celerity](https://atlas.torproject.org/#details/07DE0162672BA711A396D7056E053C1748B566DB)       | 2017-02-09   | No          |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/3DB867F8B66ACBECEAB3AC3E0DBE3140E2AE39AB)  | 2017-05-20   | No          |                     1 |
 | [yougotrelay](https://atlas.torproject.org/#details/75F5826C4DA47146F9D2665BBB10859494DA9E94)    | 2017-03-03   | No          |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/D587E7F49CDED6AB83816DC0CAAB629A3FDAA6B4)  | 2017-05-21   | No          |                     1 |
-| [darknumbat](https://atlas.torproject.org/#details/EE5B1908BC169F219EE9F74637D396D43EC1B58D)     | 2016-12-25   | No          |                     1 |
 
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
@@ -94,7 +94,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [freebogatovorg](https://atlas.torproject.org/#details/8C0EC687FF21E240812530349ED26218717750F9) | 2017-05-09   | Yes         |                     1 |
 | [freebogatovorg](https://atlas.torproject.org/#details/20675FAEDCC1E51C300E33A90250B28AF2E9864E) | 2017-04-23   | No          |                     1 |
 
-## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (5) {#tornoisebridgenet-admintornoisebridgenet}
+## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (9) {#tornoisebridgenet-admintornoisebridgenet}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -111,4 +111,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-B39AD54B73A70DA68F6FC26CD0A874DE762B7825,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,48B93C88B90608913C1D7FD9378DBB970BF994EC,503B81114811247C0D2D1317A929E5100370FB2D,8C0EC687FF21E240812530349ED26218717750F9,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,A019AF72731C2731CA90C01B2C5F279289B5E177,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7,04738935F40F06E03312097C7411EEC67EB99E93
+B39AD54B73A70DA68F6FC26CD0A874DE762B7825,EE5B1908BC169F219EE9F74637D396D43EC1B58D,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,48B93C88B90608913C1D7FD9378DBB970BF994EC,503B81114811247C0D2D1317A929E5100370FB2D,8C0EC687FF21E240812530349ED26218717750F9,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,7CB15FA5CD985B9BBD6AC386C62C206A1F391C23,A019AF72731C2731CA90C01B2C5F279289B5E177,043199D2C41E640430B77388B80D442D379BD8E2,8D13A1B5F11E79DCD3B2868215251769C8076AA1,4623A9EC53BFD83155929E56D6F7B55B5E718C24,EA147A10B261A03B863B428A8EB45513038E6793,68F175CCABE727AA2D2309BCD8789499CEE36ED7,04738935F40F06E03312097C7411EEC67EB99E93
