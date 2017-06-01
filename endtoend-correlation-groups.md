@@ -44,14 +44,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [utzer2](https://atlas.torproject.org/#details/035D2E216B065B961E404BD172336050E5AF4EEA)       | 2017-03-02   | Yes         |                    21 |
 | [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)     | 2016-11-11   | Yes         |                    21 |
 | [artikel5ev1](https://atlas.torproject.org/#details/0BC8BA32CC3CB0F598E0C92778F7C0946DFBCE91)  | 2016-10-19   | No          |                    21 |
-| [tweinbrenner](https://atlas.torproject.org/#details/340C8447003B79B4EF30617F983BDEA5EF1E254F) | 2017-03-03   | No          |                    21 |
-| [dc6jgk1](https://atlas.torproject.org/#details/486740353B905AA4731F82C0B4CC25821A62C6E3)      | 2014-06-09   | No          |                    21 |
 | [artikel5ev3](https://atlas.torproject.org/#details/7458E9E8AA636DE53F383575E41AA4A6227376D9)  | 2016-11-07   | No          |                    21 |
-| [dc6jgk4](https://atlas.torproject.org/#details/868A253C330F40FBE435D9320849397F85823E86)      | 2014-08-04   | No          |                    21 |
-| [h3rmi](https://atlas.torproject.org/#details/A690C6AA8102C027D297AF3401BFE16918CCF7A6)        | 2016-07-22   | No          |                    21 |
-| [dc6jgk3](https://atlas.torproject.org/#details/B5E0F84850C6948839F8BBB4E7E5B5A8F490EA4F)      | 2014-05-17   | No          |                    21 |
 | [artikel5ev2](https://atlas.torproject.org/#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)  | 2016-10-29   | No          |                    21 |
-| [dc6jgk2](https://atlas.torproject.org/#details/E754AA9939DE56E388390930B302142FA319085F)      | 2014-04-11   | No          |                    21 |
 
 ## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
 
@@ -61,13 +55,11 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dorrisdeebrown](https://atlas.torproject.org/#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | Yes         |                     1 |
 | [edwardsnowden1](https://atlas.torproject.org/#details/0818DAE0E2DDF795AEDEAC60B15E71901084F281) | 2016-11-15   | No          |                     1 |
 | [hessel0](https://atlas.torproject.org/#details/14F92FF956105932E9DEC5B82A7778A0B1BD9A52)        | 2016-09-02   | No          |                     1 |
-| [criticalmass](https://atlas.torproject.org/#details/1D3174338A1131A53E098443E76E1103CDED00DC)   | 2016-12-30   | No          |                     1 |
 | [andregorz0](https://atlas.torproject.org/#details/23038A7F2845EBA2234ECD6651BD4A7762F51B18)     | 2016-11-15   | No          |                     1 |
 | [hessel1](https://atlas.torproject.org/#details/4888770464F0E900EFEF1BA181EA873D13F7713C)        | 2016-09-02   | No          |                     1 |
 | [amazonas](https://atlas.torproject.org/#details/4E021F36F95EDD4F93F824020E3C5BFEA7B595CC)       | 2014-02-13   | No          |                     3 |
 | [hessel2](https://atlas.torproject.org/#details/5EB8D862E70981B8690DEDEF546789E26AB2BD24)        | 2016-09-02   | No          |                     1 |
 | [politkovskaja](https://atlas.torproject.org/#details/64D500C4D7F989ECD74B42ABB068818EF95525F3)  | 2014-02-13   | No          |                     3 |
-| [iVPN](https://atlas.torproject.org/#details/A2534EF23390CAE079B1586F0FDF9CE11F556062)           | 2016-12-30   | No          |                     1 |
 | [edwardsnowden2](https://atlas.torproject.org/#details/ABF7FBF389C9A747938B639B20E80620B460B2A9) | 2016-11-15   | No          |                     1 |
 | [freeBogatov](https://atlas.torproject.org/#details/F657ACB301CBAB4283F9CEC6D82ABE2FA62A398A)    | 2014-02-13   | No          |                     3 |
 
