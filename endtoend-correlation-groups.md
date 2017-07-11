@@ -32,12 +32,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [dc6jgk8](https://atlas.torproject.org/#details/1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA)             | 2016-11-06   | Yes         |                    21 |
-| [dc6jgk11](https://atlas.torproject.org/#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)            | 2016-11-11   | Yes         |                    21 |
 | [dc6jgk7](https://atlas.torproject.org/#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)             | 2016-11-04   | Yes         |                    21 |
+| [dc6jgk11](https://atlas.torproject.org/#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)            | 2016-11-11   | Yes         |                    21 |
 | [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)             | 2016-11-11   | Yes         |                    21 |
 | [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)             | 2016-10-06   | Yes         |                    21 |
-| [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)            | 2016-11-11   | Yes         |                    21 |
 | [utzer1](https://atlas.torproject.org/#details/B4CA5FDB58A06914689BA23ED2C5FED79CFB3950)              | 2017-03-01   | Yes         |                    21 |
+| [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)            | 2016-11-11   | Yes         |                    21 |
 | [dc6jgk5](https://atlas.torproject.org/#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)             | 2016-09-05   | Yes         |                    21 |
 | [dc6jgk12](https://atlas.torproject.org/#details/A853BA9862837B5FC8E4FF784829DB3BE6F53A75)            | 2016-11-13   | Yes         |                    21 |
 | [utzer2](https://atlas.torproject.org/#details/035D2E216B065B961E404BD172336050E5AF4EEA)              | 2017-03-02   | Yes         |                    21 |
@@ -61,13 +61,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
 | [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
 
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
-
-| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
-
 ## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (4) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -85,28 +78,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
 
-## ContactInfo: Abuse Department &lt;abuse AT hartvoorinternetvrijhei (2) {#abuse-department-abuse-at-hartvoorinternetvrijhei}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hviv103](https://atlas.torproject.org/#details/D12D357D91DD3B79E2AD9FDB160F9A4558147E05) | 2015-09-06   | Yes         |                     1 |
-| [hviv104](https://atlas.torproject.org/#details/81B75D534F91BFB7C57AB67DA10BCEF622582AE8) | 2014-04-09   | No          |                     1 |
-
-## ContactInfo: https://freebogatov.org (2) {#httpsfreebogatovorg}
-
-| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [freebogatovorg](https://atlas.torproject.org/#details/8C0EC687FF21E240812530349ED26218717750F9) | 2017-05-09   | Yes         |                     1 |
-| [freebogatovorg](https://atlas.torproject.org/#details/20675FAEDCC1E51C300E33A90250B28AF2E9864E) | 2017-04-23   | No          |                     1 |
-
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
-
 ## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (5) {#tornoisebridgenet-admintornoisebridgenet}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -120,4 +91,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-20198F4E1A0E23F32C6265DF749BA003DDAF79B1,035D2E216B065B961E404BD172336050E5AF4EEA,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,8C0EC687FF21E240812530349ED26218717750F9,A853BA9862837B5FC8E4FF784829DB3BE6F53A75,78BC2254D3B31CD865F7682633AA438212132532,7B700C0C207EBD0002E00F499BE265519AC3C25A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,D844412187933013C9D36F32AC279D72945F0BD0,D12D357D91DD3B79E2AD9FDB160F9A4558147E05,A20840A16CB658024B0D3A0E3F19A9C0E34C843F,1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A,D86D10F1ADFCB8C58A521E165837D3A90C699418,B4CA5FDB58A06914689BA23ED2C5FED79CFB3950,D5B8C38539C509380767D4DE20DE84CF84EE8299,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
+20198F4E1A0E23F32C6265DF749BA003DDAF79B1,035D2E216B065B961E404BD172336050E5AF4EEA,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,A853BA9862837B5FC8E4FF784829DB3BE6F53A75,78BC2254D3B31CD865F7682633AA438212132532,7B700C0C207EBD0002E00F499BE265519AC3C25A,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,1A835E3663068222F28F7C5AF3216F4B27B50B57,D844412187933013C9D36F32AC279D72945F0BD0,A20840A16CB658024B0D3A0E3F19A9C0E34C843F,1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A,D86D10F1ADFCB8C58A521E165837D3A90C699418,B4CA5FDB58A06914689BA23ED2C5FED79CFB3950,D5B8C38539C509380767D4DE20DE84CF84EE8299,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
