@@ -27,23 +27,22 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: see https://www.artikel5ev.de/torcontact/ (13) {#see-httpswwwartikel5evdetorcontact}
+## ContactInfo: see https://www.artikel5ev.de/torcontact/ (12) {#see-httpswwwartikel5evdetorcontact}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [dc6jgk8](https://atlas.torproject.org/#details/1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA)             | 2016-11-06   | Yes         |                    21 |
-| [dc6jgk7](https://atlas.torproject.org/#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)             | 2016-11-04   | Yes         |                    21 |
-| [utzer1](https://atlas.torproject.org/#details/B4CA5FDB58A06914689BA23ED2C5FED79CFB3950)              | 2017-03-01   | Yes         |                    21 |
-| [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)            | 2016-11-11   | Yes         |                    21 |
-| [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)             | 2016-11-11   | Yes         |                    21 |
-| [dc6jgk5](https://atlas.torproject.org/#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)             | 2016-09-05   | Yes         |                    21 |
-| [dc6jgk12](https://atlas.torproject.org/#details/A853BA9862837B5FC8E4FF784829DB3BE6F53A75)            | 2016-11-13   | Yes         |                    21 |
+| [dc6jgk7](https://atlas.torproject.org/#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)             | 2016-11-04   | Yes         |                    20 |
+| [dc6jgk8](https://atlas.torproject.org/#details/1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA)             | 2016-11-06   | Yes         |                    20 |
+| [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)            | 2016-11-11   | Yes         |                    20 |
+| [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)             | 2016-11-11   | Yes         |                    20 |
+| [dc6jgk12](https://atlas.torproject.org/#details/A853BA9862837B5FC8E4FF784829DB3BE6F53A75)            | 2016-11-13   | Yes         |                    20 |
+| [dc6jgk5](https://atlas.torproject.org/#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)             | 2016-09-05   | Yes         |                    20 |
+| [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)             | 2016-10-06   | Yes         |                    20 |
+| [utzer2](https://atlas.torproject.org/#details/035D2E216B065B961E404BD172336050E5AF4EEA)              | 2017-03-02   | Yes         |                    20 |
 | [noiwillnotfixfamily](https://atlas.torproject.org/#details/4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A) | 2017-04-27   | Yes         |                     1 |
-| [utzer2](https://atlas.torproject.org/#details/035D2E216B065B961E404BD172336050E5AF4EEA)              | 2017-03-02   | Yes         |                    21 |
-| [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)             | 2016-10-06   | Yes         |                    21 |
-| [artikel5ev1](https://atlas.torproject.org/#details/0BC8BA32CC3CB0F598E0C92778F7C0946DFBCE91)         | 2016-10-19   | No          |                    21 |
-| [artikel5ev3](https://atlas.torproject.org/#details/7458E9E8AA636DE53F383575E41AA4A6227376D9)         | 2016-11-07   | No          |                    21 |
-| [artikel5ev2](https://atlas.torproject.org/#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)         | 2016-10-29   | No          |                    21 |
+| [artikel5ev1](https://atlas.torproject.org/#details/0BC8BA32CC3CB0F598E0C92778F7C0946DFBCE91)         | 2016-10-19   | No          |                    20 |
+| [artikel5ev3](https://atlas.torproject.org/#details/7458E9E8AA636DE53F383575E41AA4A6227376D9)         | 2016-11-07   | No          |                    20 |
+| [artikel5ev2](https://atlas.torproject.org/#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)         | 2016-10-29   | No          |                    20 |
 
 ## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (12) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
@@ -68,14 +67,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
-
-## ContactInfo: yscoder@foxmail.com (3) {#yscoderfoxmailcom}
-
-| Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [keepongoing](https://atlas.torproject.org/#details/D844412187933013C9D36F32AC279D72945F0BD0)     | 2017-05-31   | Yes         |                     1 |
-| [xietongguanguan](https://atlas.torproject.org/#details/1D5DD271A465B227B35526FA0A82658BDDF9680E) | 2017-06-08   | No          |                     1 |
-| [xietongguan](https://atlas.torproject.org/#details/C567E7F2CC9335ECED038FE564A64974B9E2BC88)     | 2017-06-08   | No          |                     1 |
 
 ## ContactInfo: George Shuklin &lt;george.shuklin@gmail.com&gt; (2) {#george-shuklin-georgeshuklingmailcom}
 
@@ -119,7 +110,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
 
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+
+| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
+| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-D12D357D91DD3B79E2AD9FDB160F9A4558147E05,1A835E3663068222F28F7C5AF3216F4B27B50B57,1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D86D10F1ADFCB8C58A521E165837D3A90C699418,B4CA5FDB58A06914689BA23ED2C5FED79CFB3950,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A,D844412187933013C9D36F32AC279D72945F0BD0,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,035D2E216B065B961E404BD172336050E5AF4EEA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,A853BA9862837B5FC8E4FF784829DB3BE6F53A75,D5B8C38539C509380767D4DE20DE84CF84EE8299,A20840A16CB658024B0D3A0E3F19A9C0E34C843F,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,78BC2254D3B31CD865F7682633AA438212132532,42ED91DD3768F6A2A194D094A7432CBE8DA004B1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A
+D12D357D91DD3B79E2AD9FDB160F9A4558147E05,1A835E3663068222F28F7C5AF3216F4B27B50B57,1B06E7B8B4DAAED1895A73FFDB1B3E24FFBCA0CA,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D86D10F1ADFCB8C58A521E165837D3A90C699418,B4CA5FDB58A06914689BA23ED2C5FED79CFB3950,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,035D2E216B065B961E404BD172336050E5AF4EEA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,A853BA9862837B5FC8E4FF784829DB3BE6F53A75,D5B8C38539C509380767D4DE20DE84CF84EE8299,A20840A16CB658024B0D3A0E3F19A9C0E34C843F,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,78BC2254D3B31CD865F7682633AA438212132532,42ED91DD3768F6A2A194D094A7432CBE8DA004B1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A
