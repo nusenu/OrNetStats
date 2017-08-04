@@ -36,11 +36,11 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dc6jgk6](https://atlas.torproject.org/#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)             | 2016-10-06   | Yes         |                    20 |
 | [dc6jgk11](https://atlas.torproject.org/#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)            | 2016-11-11   | Yes         |                    20 |
 | [dc6jgk10](https://atlas.torproject.org/#details/D86D10F1ADFCB8C58A521E165837D3A90C699418)            | 2016-11-11   | Yes         |                    20 |
-| [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)             | 2016-11-11   | Yes         |                    20 |
 | [dc6jgk12](https://atlas.torproject.org/#details/A853BA9862837B5FC8E4FF784829DB3BE6F53A75)            | 2016-11-13   | Yes         |                    20 |
+| [noiwillnotfixfamily](https://atlas.torproject.org/#details/4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A) | 2017-04-27   | Yes         |                     1 |
+| [dc6jgk9](https://atlas.torproject.org/#details/78BC2254D3B31CD865F7682633AA438212132532)             | 2016-11-11   | Yes         |                    20 |
 | [dc6jgk5](https://atlas.torproject.org/#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)             | 2016-09-05   | Yes         |                    20 |
 | [utzer1](https://atlas.torproject.org/#details/B4CA5FDB58A06914689BA23ED2C5FED79CFB3950)              | 2017-03-01   | Yes         |                    20 |
-| [noiwillnotfixfamily](https://atlas.torproject.org/#details/4DAD2D02EC7F3D278AF20B119652BC3CC4988D6A) | 2017-04-27   | Yes         |                     1 |
 | [artikel5ev1](https://atlas.torproject.org/#details/0BC8BA32CC3CB0F598E0C92778F7C0946DFBCE91)         | 2016-10-19   | No          |                    20 |
 | [artikel5ev3](https://atlas.torproject.org/#details/7458E9E8AA636DE53F383575E41AA4A6227376D9)         | 2016-11-07   | No          |                    20 |
 | [artikel5ev2](https://atlas.torproject.org/#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)         | 2016-10-29   | No          |                    20 |
@@ -52,14 +52,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
 | [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (6) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (5) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     3 |
 | [NeelTorRelay1](https://atlas.torproject.org/#details/A20840A16CB658024B0D3A0E3F19A9C0E34C843F)      | 2017-01-17   | Yes         |                     4 |
 | [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     3 |
-| [NeelTorExitCZ](https://atlas.torproject.org/#details/1602E42D1DE3C7B3EF042F357F906DE55FA6C7C6)      | 2016-08-10   | No          |                     4 |
 | [NeelTorExitUA](https://atlas.torproject.org/#details/976652C0FF243539B1A966F2C27F00C3724545C0)      | 2017-07-23   | No          |                     1 |
 | [NeelTorExitUSMwest](https://atlas.torproject.org/#details/FF3A6898F1348224E6ABA8B8E98F15770E5DD362) | 2017-07-14   | No          |                     1 |
 
@@ -86,12 +85,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (8) {#tornoisebridgenet-admintornoisebridgenet}
+## ContactInfo: tor.noisebridge.net &lt;admin@tor.noisebridge.net&gt; (9) {#tornoisebridgenet-admintornoisebridgenet}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [noisebridge01a](https://atlas.torproject.org/#details/1A835E3663068222F28F7C5AF3216F4B27B50B57) | 2015-05-20   | Yes         |                     1 |
 | [noiseexit03d](https://atlas.torproject.org/#details/02A627FA195809A3ABE031B7864CCA7A310F1D44)   | 2017-05-21   | No          |                     4 |
+| [noiseexit01b](https://atlas.torproject.org/#details/3591E0E966309AD335BE62FF694E8A898F97A6C9)   | 2014-04-16   | No          |                     4 |
 | [noiseexit03c](https://atlas.torproject.org/#details/7016E939A2DD6EF2FB66A33F1DD45357458B737F)   | 2017-05-21   | No          |                     4 |
 | [noiseexit03a](https://atlas.torproject.org/#details/8175A86D8896CEA37FDC67311F9BDC1DDCBE8136)   | 2017-05-20   | No          |                     4 |
 | [noiseexit01d](https://atlas.torproject.org/#details/C6F6B70AD9115C65B618B0AF3FD10B0432626CA9)   | 2014-04-16   | No          |                     4 |
