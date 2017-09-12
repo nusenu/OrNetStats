@@ -27,13 +27,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: &lt;ich at crashboy dot ws&gt; (2) {#ichatcrashboydotws}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Reichsfunkmast](https://atlas.torproject.org/#details/9E654F92F84908427A2EABFF43349BCC32838F1D)      | 2017-06-02   | Yes         |                     1 |
-| [ReichsfunkmastExit1](https://atlas.torproject.org/#details/EFD58598483BD9AC0814965AE6A564128D988FE8) | 2017-09-09   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -93,4 +86,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-7D9D9F3A9EFF95607E08CE186A14617C291FF56B,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,9E654F92F84908427A2EABFF43349BCC32838F1D,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
+7D9D9F3A9EFF95607E08CE186A14617C291FF56B,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,20198F4E1A0E23F32C6265DF749BA003DDAF79B1,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
