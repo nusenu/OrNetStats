@@ -68,13 +68,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
 | [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
-## ContactInfo: Random Person &lt;determine AT riseup dot net&gt; (2) {#random-person-determine-at-riseup-dot-net}
-
-| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Torhax](https://atlas.torproject.org/#details/7D9D9F3A9EFF95607E08CE186A14617C291FF56B)   | 2017-09-02   | Yes         |                     1 |
-| [Torlulzy](https://atlas.torproject.org/#details/44553AF9E923836AF44FB7F368F44B3497E03B3A) | 2017-09-03   | No          |                     1 |
-
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -82,6 +75,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
+
+## ContactInfo: Random Person &lt;determine AT riseup dot net&gt; (2) {#random-person-determine-at-riseup-dot-net}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Torhax](https://atlas.torproject.org/#details/7D9D9F3A9EFF95607E08CE186A14617C291FF56B)   | 2017-09-02   | Yes         |                     1 |
+| [Torlulzy](https://atlas.torproject.org/#details/44553AF9E923836AF44FB7F368F44B3497E03B3A) | 2017-09-03   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
