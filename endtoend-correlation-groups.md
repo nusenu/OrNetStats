@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-09-22 10:00 UTC**
+Tor network data as of: **2017-09-23 13:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
+
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (4) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
+| [NeelTorRelay1](https://atlas.torproject.org/#details/3A3811F5ECD29528E3855C76B7B58D9B94AAEC51)      | 2017-08-28   | Yes         |                     1 |
+| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
+| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     1 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -53,15 +62,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [NSA42](https://atlas.torproject.org/#details/20198F4E1A0E23F32C6265DF749BA003DDAF79B1)       | 2016-02-15   | Yes         |                     1 |
 | [freeBogatov](https://atlas.torproject.org/#details/CB6FF27F3A474F6A67D20683C9C97DC275F2658F) | 2016-07-21   | No          |                     1 |
-
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (4) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
-| [NeelTorRelay1](https://atlas.torproject.org/#details/3A3811F5ECD29528E3855C76B7B58D9B94AAEC51)      | 2017-08-28   | Yes         |                     1 |
-| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
-| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     1 |
 
 ## ContactInfo: Syncaddict &lt;tor-node-operations@syncaddict.net&gt; (2) {#syncaddict-tor-node-operationssyncaddictnet}
 
