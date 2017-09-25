@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-09-25 15:00 UTC**
+Tor network data as of: **2017-09-25 21:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,7 +33,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CalyxInstitute07](https://atlas.torproject.org/#details/1B9FACF25E17D26E307EA7CFA7D455B144B032E5) | 2013-11-05   | Yes         |                    13 |
+| [CalyxInstitute10](https://atlas.torproject.org/#details/42ED91DD3768F6A2A194D094A7432CBE8DA004B1) | 2016-04-01   | Yes         |                     4 |
+| [CalyxInstitute14](https://atlas.torproject.org/#details/0011BD2485AD45D984EC4159C88FC066E5E3300E) | 2014-12-23   | No          |                    14 |
+| [CalyxInstitute08](https://atlas.torproject.org/#details/0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB) | 2013-11-12   | No          |                    13 |
+| [CalyxInstitute15](https://atlas.torproject.org/#details/47E49319DD67784F1E65B5793371BE467365979E) | 2015-08-21   | No          |                    13 |
+| [CalyxInstitute04](https://atlas.torproject.org/#details/501B3DBF250B094A05CA5DBC424AD4C3D46721A2) | 2013-07-08   | No          |                    13 |
+| [CalyxInstitute11](https://atlas.torproject.org/#details/6C143720FFF8469EF6A5C5B4066366340CF6C0D1) | 2014-11-24   | No          |                    14 |
+| [CalyxInstitute06](https://atlas.torproject.org/#details/6F4E9FD00D4251D98BE96FB1AA546FE34676A95B) | 2013-11-23   | No          |                    13 |
+| [CalyxInstitute09](https://atlas.torproject.org/#details/7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2) | 2013-11-19   | No          |                    13 |
 | [CalyxInstitute03](https://atlas.torproject.org/#details/84D361B736A8CD1E8818D0FC186892E91AB76881) | 2013-06-23   | No          |                    13 |
+| [CalyxInstitute13](https://atlas.torproject.org/#details/A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E) | 2014-12-20   | No          |                    14 |
+| [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    13 |
+| [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    13 |
 
 ## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
 
@@ -61,13 +73,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 
-## ContactInfo: Syncaddict &lt;tor-node-operations@syncaddict.net&gt; (2) {#syncaddict-tor-node-operationssyncaddictnet}
-
-| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
-| [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
-
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -75,6 +80,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
+
+## ContactInfo: Syncaddict &lt;tor-node-operations@syncaddict.net&gt; (2) {#syncaddict-tor-node-operationssyncaddictnet}
+
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
+| [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -86,7 +98,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFsalyut4](https://atlas.torproject.org/#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     4 |
 | [VSIFskylab](https://atlas.torproject.org/#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     4 |
 
+## ContactInfo: Brandon Kuschel &lt;kusch023 AT nospam UMN dot edu. (2) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
+
+| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Charybdis](https://atlas.torproject.org/#details/8096552438C9B8AB82BDCB8D5896128B61AAFAF9) | 2016-10-26   | Yes         |                     1 |
+| [Minotaur](https://atlas.torproject.org/#details/2F0F32AB1E5B943CA7D062C03F18960C86E70D94)  | 2015-12-13   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,57436E58262FCB32263108C23631DC6C7064A17F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,8D13A1B5F11E79DCD3B2868215251769C8076AA1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,57436E58262FCB32263108C23631DC6C7064A17F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,8D13A1B5F11E79DCD3B2868215251769C8076AA1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,8096552438C9B8AB82BDCB8D5896128B61AAFAF9
