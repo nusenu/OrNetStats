@@ -98,6 +98,35 @@ Relays are aggregated based on effective families. Effective families are relays
 
 **[Show more](maincwfamilies)**
 
+## Top 10 Countries by CW Fraction
+
+| Country   |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
+|:----------|-----------------:|-----------:|----------:|----------:|
+| fr        |            23.29 |      26.55 |     19.38 |       912 |
+| de        |            19.1  |      21.78 |      7.08 |      1340 |
+| us        |            12.31 |      10.41 |     16.31 |      1167 |
+| nl        |            11.46 |      11.3  |     13.68 |       504 |
+| ca        |             4.96 |       4.76 |      6.87 |       282 |
+| gb        |             3.71 |       3    |      3.8  |       261 |
+| se        |             3.28 |       3.54 |      2.56 |       191 |
+| ch        |             2.89 |       2.04 |      5.98 |       168 |
+| ro        |             2.21 |       1.4  |      5.52 |        87 |
+| ru        |             1.92 |       1.66 |      1.36 |       323 |
+
+## Top 10 Autonomous System Names by CW Fraction
+
+| AS Name                     |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
+|:----------------------------|-----------------:|-----------:|----------:|----------:|
+| OVH SAS                     |            16.23 |      18.42 |     13.14 |       614 |
+| Online S.a.s.               |            12.48 |      14.39 |     11.27 |       425 |
+| Digital Ocean, Inc.         |             7.58 |       8.67 |      2.19 |       372 |
+| Hetzner Online GmbH         |             7.11 |       8.44 |      1.46 |       328 |
+| Host Europe GmbH            |             1.83 |       2.56 |      0    |        46 |
+| SURFnet bv                  |             1.69 |       2.1  |      1.27 |        11 |
+| myLoc managed IT AG         |             1.42 |       1.52 |      0.81 |        37 |
+| SOFTplus Entwicklungen GmbH |             1.12 |       0.06 |      5.44 |        27 |
+| ITL Company                 |             0.96 |       1.23 |      0.25 |        49 |
+| ISPpro Internet KG          |             0.95 |       1.34 |      0    |        34 |
 
 ## Tor Version Distribution (Relays)
 
@@ -136,8 +165,8 @@ The following table shows how many relays run a tor version that is no longer su
 | Linux   |             93.1 |      92.2 |       92.9 |      6228 |
 | BSD     |              6.4 |       7.5 |        6.7 |       323 |
 | Windows |              0.2 |       0.1 |        0   |       174 |
-| SunOS   |              0   |       0   |        0.1 |         4 |
 | Darwin  |              0   |       0   |        0.1 |        15 |
+| SunOS   |              0   |       0   |        0.1 |         4 |
 
 A OS-distribution-over-time graph (by relay count) can be found on the [Torproject Metrics page](https://metrics.torproject.org/platforms.html)
 
