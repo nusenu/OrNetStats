@@ -102,18 +102,18 @@ Relays are aggregated based on effective families. Effective families are relays
 
 ## Top 10 Countries by CW Fraction
 
-| Country                                               |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
-|:------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
-| [fr](https://atlas.torproject.org/#search/country:fr) |            23.1  |      26.33 |     19.27 |       915 |
-| [de](https://atlas.torproject.org/#search/country:de) |            18.83 |      21.67 |      6.15 |      1334 |
-| [us](https://atlas.torproject.org/#search/country:us) |            11.97 |      10.04 |     16.21 |      1147 |
-| [nl](https://atlas.torproject.org/#search/country:nl) |            11.42 |      11.03 |     14.28 |       506 |
-| [ca](https://atlas.torproject.org/#search/country:ca) |             4.88 |       4.85 |      6.09 |       276 |
-| [se](https://atlas.torproject.org/#search/country:se) |             3.68 |       3.92 |      2.9  |       188 |
-| [gb](https://atlas.torproject.org/#search/country:gb) |             3.53 |       3.02 |      3.05 |       258 |
-| [ch](https://atlas.torproject.org/#search/country:ch) |             2.99 |       2.24 |      5.78 |       167 |
-| [ro](https://atlas.torproject.org/#search/country:ro) |             2.58 |       1.41 |      7.39 |        87 |
-| [ru](https://atlas.torproject.org/#search/country:ru) |             1.94 |       1.82 |      0.95 |       318 |
+| Country                                                           |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
+|:------------------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
+| [France](https://atlas.torproject.org/#search/country:fr)         |            23.1  |      26.33 |     19.27 |       915 |
+| [Germany](https://atlas.torproject.org/#search/country:de)        |            18.83 |      21.67 |      6.15 |      1334 |
+| [United States](https://atlas.torproject.org/#search/country:us)  |            11.97 |      10.04 |     16.21 |      1147 |
+| [Netherlands](https://atlas.torproject.org/#search/country:nl)    |            11.42 |      11.03 |     14.28 |       506 |
+| [Canada](https://atlas.torproject.org/#search/country:ca)         |             4.88 |       4.85 |      6.09 |       276 |
+| [Sweden](https://atlas.torproject.org/#search/country:se)         |             3.68 |       3.92 |      2.9  |       188 |
+| [United Kingdom](https://atlas.torproject.org/#search/country:gb) |             3.53 |       3.02 |      3.05 |       258 |
+| [Switzerland](https://atlas.torproject.org/#search/country:ch)    |             2.99 |       2.24 |      5.78 |       167 |
+| [Romania](https://atlas.torproject.org/#search/country:ro)        |             2.58 |       1.41 |      7.39 |        87 |
+| [Russia](https://atlas.torproject.org/#search/country:ru)         |             1.94 |       1.82 |      0.95 |       318 |
 
 **[Show more](countriesbycw)**
 
