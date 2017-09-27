@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# List of Countries with Tor Relays
+# Countries with Tor Relays
 
 Tor network data as of: **2017-09-27 14:00 UTC**
 

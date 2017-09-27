@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# List of relays running end-of-life tor releases
+# Relays running end-of-life Tor releases
 
 Tor network data as of: **2017-09-27 14:00 UTC**
 
