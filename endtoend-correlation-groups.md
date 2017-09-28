@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-09-27 14:00 UTC**
+Tor network data as of: **2017-09-28 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,22 +29,12 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: contact at iponu dot net (5) {#contact-at-iponu-dot-net}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [IPonU0](https://atlas.torproject.org/#details/334206422CBA6FC135D5EFDF0DB394736F6AF9CD)  | 2017-08-03   | Yes         |                     2 |
-| [IPonUca](https://atlas.torproject.org/#details/E21800671183EE1C72E461C49CE3219E03F34890) | 2017-08-08   | Yes         |                     4 |
-| [IPonU1](https://atlas.torproject.org/#details/B0CD400A49DECB159B3C120F5098A86E3241CD92)  | 2017-08-08   | Yes         |                     4 |
-| [IPonUpl](https://atlas.torproject.org/#details/DF54ABAB31C581D7EA81876139F4335A3278950F) | 2017-08-09   | Yes         |                     4 |
-| [IPonUfr](https://atlas.torproject.org/#details/75BF0D235742EA934B895FB2EFB9C12D44037192) | 2017-09-21   | No          |                     2 |
-
 ## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [netnognrelay](https://atlas.torproject.org/#details/57436E58262FCB32263108C23631DC6C7064A17F)   | 2017-07-16   | Yes         |                     1 |
 | [justhelpingout](https://atlas.torproject.org/#details/16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C) | 2017-08-14   | Yes         |                     1 |
+| [netnognrelay](https://atlas.torproject.org/#details/57436E58262FCB32263108C23631DC6C7064A17F)   | 2017-07-16   | Yes         |                     1 |
 | [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/FF48FFC2C35AEDAF87EBE2B20A0EC14579D9C0FC)  | 2017-09-24   | No          |                     1 |
 
@@ -78,10 +68,17 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
 | [NeelTorRelay1](https://atlas.torproject.org/#details/3A3811F5ECD29528E3855C76B7B58D9B94AAEC51)      | 2017-08-28   | Yes         |                     1 |
+| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
 | [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
 | [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     1 |
+
+## ContactInfo: Syncaddict &lt;tor-node-operations@syncaddict.net&gt; (2) {#syncaddict-tor-node-operationssyncaddictnet}
+
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
+| [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
@@ -90,13 +87,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
-
-## ContactInfo: Syncaddict &lt;tor-node-operations@syncaddict.net&gt; (2) {#syncaddict-tor-node-operationssyncaddictnet}
-
-| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
-| [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -118,4 +108,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-2CC9D3C144E7CA341F06EC2CFB7B52F35690828F,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,57436E58262FCB32263108C23631DC6C7064A17F,DF54ABAB31C581D7EA81876139F4335A3278950F,B0CD400A49DECB159B3C120F5098A86E3241CD92,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E21800671183EE1C72E461C49CE3219E03F34890,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,334206422CBA6FC135D5EFDF0DB394736F6AF9CD,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,8D13A1B5F11E79DCD3B2868215251769C8076AA1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,8096552438C9B8AB82BDCB8D5896128B61AAFAF9
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,57436E58262FCB32263108C23631DC6C7064A17F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,9A630383897133B05DB56532ECC91214CF195F68,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51,8D13A1B5F11E79DCD3B2868215251769C8076AA1,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940,8096552438C9B8AB82BDCB8D5896128B61AAFAF9
