@@ -131,6 +131,8 @@ Relays are aggregated based on effective families. Effective families are relays
 | ISPpro Internet KG  |             0.93 |       1.33 |      0    |        34 |
 | Linode, LLC         |             0.83 |       0.53 |      0.49 |       200 |
 
+**[Show more](asnameshare)**
+
 ## Tor Version Distribution (Relays)
 
 ### Major Versions
