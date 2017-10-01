@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-09-30 21:00 UTC**
+Tor network data as of: **2017-10-01 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,24 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; 14wntQ8cB (13) {#nicholas-merrill-nick-at-calyx-dot-com-14wntq8cb}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [CalyxInstitute07](https://atlas.torproject.org/#details/1B9FACF25E17D26E307EA7CFA7D455B144B032E5) | 2013-11-05   | Yes         |                    12 |
-| [CalyxInstitute10](https://atlas.torproject.org/#details/42ED91DD3768F6A2A194D094A7432CBE8DA004B1) | 2016-04-01   | Yes         |                     4 |
-| [CalyxInstitute14](https://atlas.torproject.org/#details/0011BD2485AD45D984EC4159C88FC066E5E3300E) | 2014-12-23   | No          |                    13 |
-| [CalyxInstitute08](https://atlas.torproject.org/#details/0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB) | 2013-11-12   | No          |                    12 |
-| [CalyxInstitute15](https://atlas.torproject.org/#details/47E49319DD67784F1E65B5793371BE467365979E) | 2015-08-21   | No          |                    12 |
-| [CalyxInstitute04](https://atlas.torproject.org/#details/501B3DBF250B094A05CA5DBC424AD4C3D46721A2) | 2013-07-08   | No          |                    12 |
-| [CalyxInstitute11](https://atlas.torproject.org/#details/6C143720FFF8469EF6A5C5B4066366340CF6C0D1) | 2014-11-24   | No          |                    13 |
-| [CalyxInstitute06](https://atlas.torproject.org/#details/6F4E9FD00D4251D98BE96FB1AA546FE34676A95B) | 2013-11-23   | No          |                    12 |
-| [CalyxInstitute09](https://atlas.torproject.org/#details/7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2) | 2013-11-19   | No          |                    12 |
-| [CalyxInstitute03](https://atlas.torproject.org/#details/84D361B736A8CD1E8818D0FC186892E91AB76881) | 2013-06-23   | No          |                    12 |
-| [CalyxInstitute13](https://atlas.torproject.org/#details/A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E) | 2014-12-20   | No          |                    13 |
-| [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    12 |
-| [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    12 |
-
 ## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -55,15 +37,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [netnognrelay](https://atlas.torproject.org/#details/57436E58262FCB32263108C23631DC6C7064A17F)   | 2017-07-16   | Yes         |                     1 |
 | [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/FF48FFC2C35AEDAF87EBE2B20A0EC14579D9C0FC)  | 2017-09-24   | No          |                     1 |
-
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (4) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
-| [NeelTorRelay1](https://atlas.torproject.org/#details/3A3811F5ECD29528E3855C76B7B58D9B94AAEC51)      | 2017-08-28   | Yes         |                     1 |
-| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
-| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -82,6 +55,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
 | [DutchOutlet](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+
+| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | Yes         |                     2 |
+| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
+| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+
 ## ContactInfo: visualbasic033@gmail.com (3) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -90,13 +71,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 | [sowinetz](https://atlas.torproject.org/#details/A041B285B228241C3185483EEF42F0BC96D40BFB)  | 2016-08-08   | No          |                     1 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (4) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | Yes         |                     2 |
-| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelay1](https://atlas.torproject.org/#details/3A3811F5ECD29528E3855C76B7B58D9B94AAEC51)      | 2017-08-28   | Yes         |                     1 |
+| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
+| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
+| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     1 |
 
 ## ContactInfo: Brandon Kuschel &lt;kusch023 AT nospam UMN dot edu. (2) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
 
