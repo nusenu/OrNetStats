@@ -177,13 +177,13 @@ A OS-distribution-over-time graph (by relay count) can be found on the [Torproje
 
 ## IPv6 Relay Stats
 
-### How many relays are IPv6 ready?
+### What cw fraction / guard/middle/exit probability has an IPv6 ORPort?
 
 |   CW Fraction(%) |   Guard(%) |   Middle(%) |   Exit(%) |   #Relays |
 |-----------------:|-----------:|------------:|----------:|----------:|
 |            17.97 |      16.88 |        13.8 |     27.68 |       571 |
 
-### What portion of exit relays allows IPv6 exiting?
+### What exit probability allows IPv6 exiting?
 
 |   Exit(%) |   #Exit Relays |
 |----------:|---------------:|
