@@ -5,92 +5,86 @@ layout: default
 
 # Tor Relays by Country
 
-Tor network data as of: **2017-10-10 20:00 UTC**
+Tor network data as of: **2017-10-11 10:00 UTC**
 
 Countries are sorted by their consensus weight.
 
 |    | Country                                                                  |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
 |---:|:-------------------------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
-|  0 | [France](https://atlas.torproject.org/#search/country:fr)                |            22.67 |      25.71 |     19.67 |       922 |
-|  1 | [Germany](https://atlas.torproject.org/#search/country:de)               |            19.84 |      22.14 |      7.27 |      1329 |
-|  2 | [United States](https://atlas.torproject.org/#search/country:us)         |            12.75 |      11.07 |     16.1  |      1157 |
-|  3 | [Netherlands](https://atlas.torproject.org/#search/country:nl)           |            10.63 |      10.08 |     13.94 |       507 |
-|  4 | [Canada](https://atlas.torproject.org/#search/country:ca)                |             4.62 |       4.9  |      4.28 |       262 |
-|  5 | [Sweden](https://atlas.torproject.org/#search/country:se)                |             3.22 |       2.94 |      4.94 |       193 |
-|  6 | [United Kingdom](https://atlas.torproject.org/#search/country:gb)        |             3.19 |       3.04 |      4.3  |       259 |
-|  7 | [Switzerland](https://atlas.torproject.org/#search/country:ch)           |             2.52 |       2.77 |      1.87 |       142 |
-|  8 | [Romania](https://atlas.torproject.org/#search/country:ro)               |             2.4  |       1.34 |      6.58 |        90 |
-|  9 | [Russia](https://atlas.torproject.org/#search/country:ru)                |             2.09 |       1.86 |      1.18 |       308 |
-| 10 | [Ukraine](https://atlas.torproject.org/#search/country:ua)               |             1.58 |       1.76 |      0.92 |       119 |
-| 11 | [Denmark](https://atlas.torproject.org/#search/country:dk)               |             1.5  |       2.07 |      0.32 |        55 |
-| 12 | [Poland](https://atlas.torproject.org/#search/country:pl)                |             1.22 |       0.81 |      2.99 |        77 |
-| 13 | [Hungary](https://atlas.torproject.org/#search/country:hu)               |             1.06 |       1.15 |      0.72 |        42 |
-| 14 | [Norway](https://atlas.torproject.org/#search/country:no)                |             0.95 |       0.95 |      0.7  |        45 |
-| 15 | [Czechia](https://atlas.torproject.org/#search/country:cz)               |             0.93 |       1.23 |      0.03 |        75 |
-| 16 | [Italy](https://atlas.torproject.org/#search/country:it)                 |             0.86 |       0.98 |      0.09 |        70 |
-| 17 | [Finland](https://atlas.torproject.org/#search/country:fi)               |             0.8  |       0.9  |      0.54 |        72 |
-| 18 | [Panama](https://atlas.torproject.org/#search/country:pa)                |             0.8  |       0.06 |      2.95 |        10 |
-| 19 | [Austria](https://atlas.torproject.org/#search/country:at)               |             0.69 |       0.84 |      0.05 |        61 |
-| 20 | [Bulgaria](https://atlas.torproject.org/#search/country:bg)              |             0.56 |       0.57 |      0.32 |        64 |
-| 21 | [Slovakia](https://atlas.torproject.org/#search/country:sk)              |             0.48 |       0.14 |      1.87 |        20 |
-| 22 | [Liberia](https://atlas.torproject.org/#search/country:lr)               |             0.48 |       0    |      2.41 |         1 |
-| 23 | [Seychelles](https://atlas.torproject.org/#search/country:sc)            |             0.46 |       0.03 |      2.07 |        20 |
-| 24 | [Latvia](https://atlas.torproject.org/#search/country:lv)                |             0.42 |       0.3  |      0.51 |        39 |
-| 25 | [Republic of Lithuania](https://atlas.torproject.org/#search/country:lt) |             0.42 |       0.5  |      0.05 |        37 |
-| 26 | [Spain](https://atlas.torproject.org/#search/country:es)                 |             0.36 |       0.35 |      0.02 |        52 |
-| 27 | [Republic of Moldova](https://atlas.torproject.org/#search/country:md)   |             0.36 |       0.21 |      0.87 |        35 |
-| 28 | [Ireland](https://atlas.torproject.org/#search/country:ie)               |             0.3  |       0.39 |      0.01 |        30 |
-| 29 | [Belgium](https://atlas.torproject.org/#search/country:be)               |             0.29 |       0.22 |      0    |        31 |
-| 30 | [Greece](https://atlas.torproject.org/#search/country:gr)                |             0.12 |       0.09 |      0.21 |        21 |
-| 31 | [Portugal](https://atlas.torproject.org/#search/country:pt)              |             0.12 |       0.09 |      0.1  |        13 |
-| 32 | [Luxembourg](https://atlas.torproject.org/#search/country:lu)            |             0.11 |       0    |      0.13 |         8 |
-| 33 | [Japan](https://atlas.torproject.org/#search/country:jp)                 |             0.1  |       0.03 |      0.04 |        75 |
-| 34 | [Singapore](https://atlas.torproject.org/#search/country:sg)             |             0.06 |       0    |      0.06 |        54 |
-| 35 | [India](https://atlas.torproject.org/#search/country:in)                 |             0.06 |       0.01 |      0.03 |        38 |
-| 36 | [Iceland](https://atlas.torproject.org/#search/country:is)               |             0.06 |       0.03 |      0.11 |        19 |
+|  0 | [France](https://atlas.torproject.org/#search/country:fr)                |            22.57 |      25.81 |     19.38 |       906 |
+|  1 | [Germany](https://atlas.torproject.org/#search/country:de)               |            19.92 |      22.5  |      7.05 |      1329 |
+|  2 | [United States](https://atlas.torproject.org/#search/country:us)         |            12.68 |      10.85 |     15.93 |      1172 |
+|  3 | [Netherlands](https://atlas.torproject.org/#search/country:nl)           |            10.65 |       9.98 |     13.68 |       506 |
+|  4 | [Canada](https://atlas.torproject.org/#search/country:ca)                |             4.91 |       4.76 |      6.17 |       266 |
+|  5 | [United Kingdom](https://atlas.torproject.org/#search/country:gb)        |             3.25 |       3.09 |      4.11 |       259 |
+|  6 | [Sweden](https://atlas.torproject.org/#search/country:se)                |             3.14 |       2.92 |      4.64 |       190 |
+|  7 | [Romania](https://atlas.torproject.org/#search/country:ro)               |             2.53 |       1.33 |      7.16 |        91 |
+|  8 | [Switzerland](https://atlas.torproject.org/#search/country:ch)           |             2.46 |       2.74 |      1.58 |       143 |
+|  9 | [Russia](https://atlas.torproject.org/#search/country:ru)                |             1.99 |       1.82 |      0.91 |       303 |
+| 10 | [Ukraine](https://atlas.torproject.org/#search/country:ua)               |             1.58 |       1.78 |      1.02 |       119 |
+| 11 | [Denmark](https://atlas.torproject.org/#search/country:dk)               |             1.51 |       2.18 |      0.3  |        56 |
+| 12 | [Poland](https://atlas.torproject.org/#search/country:pl)                |             1.2  |       0.78 |      2.92 |        74 |
+| 13 | [Norway](https://atlas.torproject.org/#search/country:no)                |             1.04 |       0.98 |      1.12 |        45 |
+| 14 | [Hungary](https://atlas.torproject.org/#search/country:hu)               |             0.95 |       1.02 |      0.73 |        42 |
+| 15 | [Czechia](https://atlas.torproject.org/#search/country:cz)               |             0.9  |       1.24 |      0.03 |        75 |
+| 16 | [Panama](https://atlas.torproject.org/#search/country:pa)                |             0.85 |       0.06 |      2.77 |        10 |
+| 17 | [Italy](https://atlas.torproject.org/#search/country:it)                 |             0.82 |       0.97 |      0.09 |        68 |
+| 18 | [Finland](https://atlas.torproject.org/#search/country:fi)               |             0.81 |       0.89 |      0.54 |        80 |
+| 19 | [Bulgaria](https://atlas.torproject.org/#search/country:bg)              |             0.63 |       0.64 |      0.53 |        67 |
+| 20 | [Austria](https://atlas.torproject.org/#search/country:at)               |             0.62 |       0.83 |      0.03 |        59 |
+| 21 | [Liberia](https://atlas.torproject.org/#search/country:lr)               |             0.47 |       0    |      2.29 |         1 |
+| 22 | [Slovakia](https://atlas.torproject.org/#search/country:sk)              |             0.46 |       0.13 |      1.77 |        19 |
+| 23 | [Seychelles](https://atlas.torproject.org/#search/country:sc)            |             0.45 |       0.03 |      1.95 |        19 |
+| 24 | [Latvia](https://atlas.torproject.org/#search/country:lv)                |             0.43 |       0.31 |      0.46 |        39 |
+| 25 | [Republic of Lithuania](https://atlas.torproject.org/#search/country:lt) |             0.42 |       0.48 |      0.04 |        37 |
+| 26 | [Spain](https://atlas.torproject.org/#search/country:es)                 |             0.39 |       0.36 |      0.02 |        52 |
+| 27 | [Republic of Moldova](https://atlas.torproject.org/#search/country:md)   |             0.34 |       0.18 |      0.83 |        35 |
+| 28 | [Belgium](https://atlas.torproject.org/#search/country:be)               |             0.32 |       0.23 |      0    |        32 |
+| 29 | [Ireland](https://atlas.torproject.org/#search/country:ie)               |             0.32 |       0.43 |      0.01 |        29 |
+| 30 | [Luxembourg](https://atlas.torproject.org/#search/country:lu)            |             0.14 |       0    |      0.14 |         8 |
+| 31 | [Greece](https://atlas.torproject.org/#search/country:gr)                |             0.13 |       0.1  |      0.25 |        19 |
+| 32 | [Portugal](https://atlas.torproject.org/#search/country:pt)              |             0.12 |       0.08 |      0.17 |        12 |
+| 33 | [Japan](https://atlas.torproject.org/#search/country:jp)                 |             0.1  |       0.01 |      0.04 |        77 |
+| 34 | [India](https://atlas.torproject.org/#search/country:in)                 |             0.07 |       0    |      0.03 |        40 |
+| 35 | [Singapore](https://atlas.torproject.org/#search/country:sg)             |             0.06 |       0    |      0.05 |        54 |
+| 36 | [Iceland](https://atlas.torproject.org/#search/country:is)               |             0.06 |       0.03 |      0.12 |        19 |
 | 37 | [Estonia](https://atlas.torproject.org/#search/country:ee)               |             0.06 |       0.09 |      0    |         7 |
-| 38 | [Croatia](https://atlas.torproject.org/#search/country:hr)               |             0.06 |       0    |      0.27 |         6 |
-| 39 | [Israel](https://atlas.torproject.org/#search/country:il)                |             0.05 |       0.06 |      0    |        14 |
-| 40 | [South Africa](https://atlas.torproject.org/#search/country:za)          |             0.04 |       0    |      0.21 |         9 |
-| 41 | [Turkey](https://atlas.torproject.org/#search/country:tr)                |             0.04 |       0.04 |      0.02 |         4 |
-| 42 | [Albania](https://atlas.torproject.org/#search/country:al)               |             0.03 |       0.05 |      0    |         5 |
-| 43 | [St Kitts and Nevis](https://atlas.torproject.org/#search/country:kn)    |             0.03 |       0.01 |      0.11 |         2 |
-| 44 | [Costa Rica](https://atlas.torproject.org/#search/country:cr)            |             0.02 |       0    |      0.04 |         5 |
-| 45 | [Slovenia](https://atlas.torproject.org/#search/country:si)              |             0.02 |       0    |      0.13 |         2 |
-| 46 | [Australia](https://atlas.torproject.org/#search/country:au)             |             0.01 |       0    |      0    |        55 |
-| 47 | [Brazil](https://atlas.torproject.org/#search/country:br)                |             0.01 |       0    |      0.01 |        30 |
-| 48 | [Hong Kong](https://atlas.torproject.org/#search/country:hk)             |             0.01 |       0    |      0.03 |        17 |
-| 49 | [Taiwan](https://atlas.torproject.org/#search/country:tw)                |             0.01 |       0    |      0.03 |        13 |
-| 50 | [Malaysia](https://atlas.torproject.org/#search/country:my)              |             0.01 |       0    |      0    |        12 |
-| 51 | [Republic of Korea](https://atlas.torproject.org/#search/country:kr)     |             0.01 |       0    |      0    |        12 |
-| 52 | [Argentina](https://atlas.torproject.org/#search/country:ar)             |             0    |       0    |      0    |        15 |
-| 53 | [Vietnam](https://atlas.torproject.org/#search/country:vn)               |             0    |       0    |      0    |        14 |
+| 38 | [Croatia](https://atlas.torproject.org/#search/country:hr)               |             0.06 |       0    |      0.22 |         7 |
+| 39 | [Israel](https://atlas.torproject.org/#search/country:il)                |             0.04 |       0.05 |      0    |        15 |
+| 40 | [South Africa](https://atlas.torproject.org/#search/country:za)          |             0.04 |       0    |      0.21 |        10 |
+| 41 | [Albania](https://atlas.torproject.org/#search/country:al)               |             0.03 |       0.05 |      0    |         5 |
+| 42 | [Turkey](https://atlas.torproject.org/#search/country:tr)                |             0.03 |       0.04 |      0.02 |         5 |
+| 43 | [Costa Rica](https://atlas.torproject.org/#search/country:cr)            |             0.02 |       0    |      0.05 |         6 |
+| 44 | [St Kitts and Nevis](https://atlas.torproject.org/#search/country:kn)    |             0.02 |       0    |      0.09 |         2 |
+| 45 | [Australia](https://atlas.torproject.org/#search/country:au)             |             0.01 |       0    |      0    |        54 |
+| 46 | [Brazil](https://atlas.torproject.org/#search/country:br)                |             0.01 |       0    |      0    |        24 |
+| 47 | [Hong Kong](https://atlas.torproject.org/#search/country:hk)             |             0.01 |       0    |      0.03 |        17 |
+| 48 | [Taiwan](https://atlas.torproject.org/#search/country:tw)                |             0.01 |       0    |      0.03 |        14 |
+| 49 | [Malaysia](https://atlas.torproject.org/#search/country:my)              |             0.01 |       0    |      0    |        12 |
+| 50 | [Republic of Korea](https://atlas.torproject.org/#search/country:kr)     |             0.01 |       0    |      0    |        12 |
+| 51 | [Slovenia](https://atlas.torproject.org/#search/country:si)              |             0.01 |       0    |      0.09 |         2 |
+| 52 | [Vietnam](https://atlas.torproject.org/#search/country:vn)               |             0    |       0    |      0    |        15 |
+| 53 | [Argentina](https://atlas.torproject.org/#search/country:ar)             |             0    |       0    |      0    |        13 |
 | 54 | [New Zealand](https://atlas.torproject.org/#search/country:nz)           |             0    |       0    |      0    |        10 |
 | 55 | [Indonesia](https://atlas.torproject.org/#search/country:id)             |             0    |       0    |      0    |         6 |
-| 56 | [Iran](https://atlas.torproject.org/#search/country:ir)                  |             0    |       0    |      0    |         5 |
-| 57 | [Chile](https://atlas.torproject.org/#search/country:cl)                 |             0    |       0    |      0    |         4 |
-| 58 | [Serbia](https://atlas.torproject.org/#search/country:rs)                |             0    |       0    |      0    |         3 |
-| 59 | [Mexico](https://atlas.torproject.org/#search/country:mx)                |             0    |       0    |      0    |         3 |
-| 60 | [Morocco](https://atlas.torproject.org/#search/country:ma)               |             0    |       0    |      0    |         3 |
-| 61 | [Kyrgyzstan](https://atlas.torproject.org/#search/country:kg)            |             0    |       0    |      0    |         3 |
-| 62 | [Armenia](https://atlas.torproject.org/#search/country:am)               |             0    |       0    |      0    |         3 |
-| 63 | [Thailand](https://atlas.torproject.org/#search/country:th)              |             0    |       0    |      0    |         2 |
-| 64 | [Paraguay](https://atlas.torproject.org/#search/country:py)              |             0    |       0    |      0    |         2 |
-| 65 | [Kazakhstan](https://atlas.torproject.org/#search/country:kz)            |             0    |       0    |      0    |         2 |
-| 66 | [Isle of Man](https://atlas.torproject.org/#search/country:im)           |             0    |       0    |      0    |         2 |
-| 67 | [Cyprus](https://atlas.torproject.org/#search/country:cy)                |             0    |       0    |      0    |         2 |
-| 68 | [Uruguay](https://atlas.torproject.org/#search/country:uy)               |             0    |       0    |      0    |         1 |
-| 69 | [El Salvador](https://atlas.torproject.org/#search/country:sv)           |             0    |       0    |      0    |         1 |
-| 70 | [Saudi Arabia](https://atlas.torproject.org/#search/country:sa)          |             0    |       0    |      0    |         1 |
-| 71 | [Qatar](https://atlas.torproject.org/#search/country:qa)                 |             0    |       0    |      0    |         1 |
-| 72 | [Philippines](https://atlas.torproject.org/#search/country:ph)           |             0    |       0    |      0    |         1 |
-| 73 | [French Polynesia](https://atlas.torproject.org/#search/country:pf)      |             0    |       0    |      0    |         1 |
-| 74 | [Mongolia](https://atlas.torproject.org/#search/country:mn)              |             0    |       0    |      0    |         1 |
-| 75 | [Macedonia](https://atlas.torproject.org/#search/country:mk)             |             0    |       0    |      0    |         1 |
-| 76 | [Kenya](https://atlas.torproject.org/#search/country:ke)                 |             0    |       0    |      0    |         1 |
-| 77 | [Jamaica](https://atlas.torproject.org/#search/country:jm)               |             0    |       0    |      0    |         1 |
-| 78 | [Guatemala](https://atlas.torproject.org/#search/country:gt)             |             0    |       0    |      0    |         1 |
-| 79 | [Ghana](https://atlas.torproject.org/#search/country:gh)                 |             0    |       0    |      0    |         1 |
-| 80 | [Algeria](https://atlas.torproject.org/#search/country:dz)               |             0    |       0    |      0    |         1 |
-| 81 | [Dominican Republic](https://atlas.torproject.org/#search/country:do)    |             0    |       0    |      0    |         1 |
-| 82 | [United Arab Emirates](https://atlas.torproject.org/#search/country:ae)  |             0    |       0    |      0    |         1 |
+| 56 | [Kazakhstan](https://atlas.torproject.org/#search/country:kz)            |             0    |       0    |      0    |         3 |
+| 57 | [Kyrgyzstan](https://atlas.torproject.org/#search/country:kg)            |             0    |       0    |      0    |         3 |
+| 58 | [Iran](https://atlas.torproject.org/#search/country:ir)                  |             0    |       0    |      0    |         3 |
+| 59 | [Chile](https://atlas.torproject.org/#search/country:cl)                 |             0    |       0    |      0    |         3 |
+| 60 | [Thailand](https://atlas.torproject.org/#search/country:th)              |             0    |       0    |      0    |         2 |
+| 61 | [Mexico](https://atlas.torproject.org/#search/country:mx)                |             0    |       0    |      0    |         2 |
+| 62 | [Morocco](https://atlas.torproject.org/#search/country:ma)               |             0    |       0    |      0    |         2 |
+| 63 | [Isle of Man](https://atlas.torproject.org/#search/country:im)           |             0    |       0    |      0    |         2 |
+| 64 | [Cyprus](https://atlas.torproject.org/#search/country:cy)                |             0    |       0    |      0    |         2 |
+| 65 | [Uruguay](https://atlas.torproject.org/#search/country:uy)               |             0    |       0    |      0    |         1 |
+| 66 | [Serbia](https://atlas.torproject.org/#search/country:rs)                |             0    |       0    |      0    |         1 |
+| 67 | [Paraguay](https://atlas.torproject.org/#search/country:py)              |             0    |       0    |      0    |         1 |
+| 68 | [Philippines](https://atlas.torproject.org/#search/country:ph)           |             0    |       0    |      0    |         1 |
+| 69 | [French Polynesia](https://atlas.torproject.org/#search/country:pf)      |             0    |       0    |      0    |         1 |
+| 70 | [Mongolia](https://atlas.torproject.org/#search/country:mn)              |             0    |       0    |      0    |         1 |
+| 71 | [Kenya](https://atlas.torproject.org/#search/country:ke)                 |             0    |       0    |      0    |         1 |
+| 72 | [Algeria](https://atlas.torproject.org/#search/country:dz)               |             0    |       0    |      0    |         1 |
+| 73 | [Dominican Republic](https://atlas.torproject.org/#search/country:do)    |             0    |       0    |      0    |         1 |
+| 74 | [Colombia](https://atlas.torproject.org/#search/country:co)              |             0    |       0    |      0    |         1 |
+| 75 | [Armenia](https://atlas.torproject.org/#search/country:am)               |             0    |       0    |      0    |         1 |
+| 76 | [United Arab Emirates](https://atlas.torproject.org/#search/country:ae)  |             0    |       0    |      0    |         1 |
