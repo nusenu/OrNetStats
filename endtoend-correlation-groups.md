@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-10-22 07:00 UTC**
+Tor network data as of: **2017-10-23 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -55,6 +55,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
 | [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     2 |
 
+## ContactInfo: emerson tor@emersonveenstra.net bitcoin:126gyYcBji (4) {#emerson-toremersonveenstranet-bitcoin126gyycbji}
+
+| Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [emvnrelay1](https://atlas.torproject.org/#details/C20681C998369024A91C6692100A1080E1FCCC28) | 2017-09-30   | Yes         |                     5 |
+| [emvnexit3](https://atlas.torproject.org/#details/24337497701FD761A5E7FB7A4E5DC72D5421045F)  | 2017-10-04   | No          |                     1 |
+| [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
+| [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
+
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -65,15 +74,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFsalyut4](https://atlas.torproject.org/#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     4 |
 | [VSIFskylab](https://atlas.torproject.org/#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     4 |
 
-## ContactInfo: emerson tor@emersonveenstra.net bitcoin:126gyYcBji (4) {#emerson-toremersonveenstranet-bitcoin126gyycbji}
-
-| Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [emvnrelay1](https://atlas.torproject.org/#details/C20681C998369024A91C6692100A1080E1FCCC28) | 2017-09-30   | Yes         |                     5 |
-| [emvnexit3](https://atlas.torproject.org/#details/24337497701FD761A5E7FB7A4E5DC72D5421045F)  | 2017-10-04   | No          |                     1 |
-| [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
-| [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
-
 ## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (4) {#anonymaid-team-infoanonymaidnet}
 
 | Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
@@ -82,14 +82,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 | [DutchMaid02](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
-
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
 ## ContactInfo: visualbasic033@gmail.com (2) {#visualbasic033gmailcom}
 
@@ -101,4 +93,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C20681C998369024A91C6692100A1080E1FCCC28,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
+C20681C998369024A91C6692100A1080E1FCCC28,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
