@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-10-24 22:00 UTC**
+Tor network data as of: **2017-10-25 04:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -55,6 +55,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
 | [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
 
+## ContactInfo: visualbasic033@gmail.com (2) {#visualbasic033gmailcom}
+
+| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
+| [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
+
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -64,13 +71,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFenterprise](https://atlas.torproject.org/#details/59AE2B55941324B24354ADAAF971FC2C9F836963) | 2017-06-15   | No          |                     4 |
 | [VSIFsalyut4](https://atlas.torproject.org/#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     4 |
 | [VSIFskylab](https://atlas.torproject.org/#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     4 |
-
-## ContactInfo: visualbasic033@gmail.com (2) {#visualbasic033gmailcom}
-
-| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
-| [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
