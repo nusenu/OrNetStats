@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-10-25 04:00 UTC**
+Tor network data as of: **2017-10-27 21:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,16 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: emerson tor@emersonveenstra.net bitcoin:126gyYcBji (5) {#emerson-toremersonveenstranet-bitcoin126gyycbji}
+
+| Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [emvnrelay1](https://atlas.torproject.org/#details/C20681C998369024A91C6692100A1080E1FCCC28) | 2017-09-30   | Yes         |                     5 |
+| [emvnrelay3](https://atlas.torproject.org/#details/F28D09994482AFD27655A3289DE9EAE7F7688715) | 2017-10-02   | Yes         |                     5 |
+| [emvnexit3](https://atlas.torproject.org/#details/24337497701FD761A5E7FB7A4E5DC72D5421045F)  | 2017-10-04   | No          |                     1 |
+| [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
+| [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
+
 ## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -46,21 +56,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 | [DutchMaid02](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
-## ContactInfo: emerson tor@emersonveenstra.net bitcoin:126gyYcBji (4) {#emerson-toremersonveenstranet-bitcoin126gyycbji}
-
-| Nickname                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [emvnrelay1](https://atlas.torproject.org/#details/C20681C998369024A91C6692100A1080E1FCCC28) | 2017-09-30   | Yes         |                     5 |
-| [emvnexit3](https://atlas.torproject.org/#details/24337497701FD761A5E7FB7A4E5DC72D5421045F)  | 2017-10-04   | No          |                     1 |
-| [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
-| [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
-
 ## ContactInfo: visualbasic033@gmail.com (2) {#visualbasic033gmailcom}
 
 | Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [doutreval](https://atlas.torproject.org/#details/CB4EBE9C475A60A5F2CDA92C83CE093BD945D940) | 2015-12-04   | Yes         |                     1 |
 | [dlavolos](https://atlas.torproject.org/#details/6E41F9BC3FE626D1897865CE9A9335D09A8DA5FE)  | 2016-03-07   | No          |                     1 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -75,4 +83,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C20681C998369024A91C6692100A1080E1FCCC28,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
+C20681C998369024A91C6692100A1080E1FCCC28,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299,F28D09994482AFD27655A3289DE9EAE7F7688715,CB4EBE9C475A60A5F2CDA92C83CE093BD945D940
