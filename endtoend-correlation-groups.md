@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-11-02 14:00 UTC**
+Tor network data as of: **2017-11-03 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -38,14 +38,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [emvnexit2](https://atlas.torproject.org/#details/4B007F4B6DF506278BB2CE54F08767728551867A)  | 2017-10-02   | No          |                     5 |
 | [emvnexit1](https://atlas.torproject.org/#details/7E42EB420668BBE44DA9974B4F81B527A220CAEE)  | 2017-10-02   | No          |                     5 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
-| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
-| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     2 |
-
 ## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (4) {#anonymaid-team-infoanonymaidnet}
 
 | Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
@@ -65,7 +57,22 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFsalyut4](https://atlas.torproject.org/#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     4 |
 | [VSIFskylab](https://atlas.torproject.org/#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     4 |
 
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelay2](https://atlas.torproject.org/#details/D5B8C38539C509380767D4DE20DE84CF84EE8299)      | 2016-09-05   | Yes         |                     1 |
+| [NeelTorExitUSWest](https://atlas.torproject.org/#details/0D8211D34F29F51D690303E319766E1B7C28BADB)  | 2017-05-25   | No          |                     1 |
+| [NeelTorExitUSMdwst](https://atlas.torproject.org/#details/46583FB9E1E914D26D05F8073A740857DBCDFE70) | 2017-08-23   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C20681C998369024A91C6692100A1080E1FCCC28,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299
+C20681C998369024A91C6692100A1080E1FCCC28,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299
