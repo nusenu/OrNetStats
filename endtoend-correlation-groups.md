@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-11-11 09:00 UTC**
+Tor network data as of: **2017-11-12 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: &lt;none&gt; (2) {#none}
-
-| Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [creepybreath](https://atlas.torproject.org/#details/6ECEDF01852D50484056F217A1F43C31136AAD7C) | 2017-11-02   | Yes         |                     1 |
-| [626Net](https://atlas.torproject.org/#details/99948736C2BA7A13D27CB058DDC54B93A04190F1)       | 2017-10-08   | No          |                     1 |
-
 ## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (4) {#anonymaid-team-infoanonymaidnet}
 
 | Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
@@ -44,6 +37,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 | [DutchMaid02](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
+
+## ContactInfo: &lt;none&gt; (2) {#none}
+
+| Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [creepybreath](https://atlas.torproject.org/#details/6ECEDF01852D50484056F217A1F43C31136AAD7C) | 2017-11-02   | Yes         |                     1 |
+| [626Net](https://atlas.torproject.org/#details/99948736C2BA7A13D27CB058DDC54B93A04190F1)       | 2017-10-08   | No          |                     1 |
 
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
