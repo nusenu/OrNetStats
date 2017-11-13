@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-11-12 09:00 UTC**
+Tor network data as of: **2017-11-13 11:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -38,13 +38,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 | [DutchMaid02](https://atlas.torproject.org/#details/F0AAF9279CF541144C374D4D60CDCFA45CDB86E3) | 2017-07-05   | No          |                     1 |
 
-## ContactInfo: &lt;none&gt; (2) {#none}
-
-| Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [creepybreath](https://atlas.torproject.org/#details/6ECEDF01852D50484056F217A1F43C31136AAD7C) | 2017-11-02   | Yes         |                     1 |
-| [626Net](https://atlas.torproject.org/#details/99948736C2BA7A13D27CB058DDC54B93A04190F1)       | 2017-10-08   | No          |                     1 |
-
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
 | Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -73,4 +66,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,6ECEDF01852D50484056F217A1F43C31136AAD7C,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299
