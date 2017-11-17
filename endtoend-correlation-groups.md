@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-11-15 08:00 UTC**
+Tor network data as of: **2017-11-17 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,22 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: tormazter@sentries.org z is s (3) {#tormaztersentriesorg-z-is-s}
+## ContactInfo: tormazter@sentries.org z is s (5) {#tormaztersentriesorg-z-is-s}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [SentriesExperiment6](https://atlas.torproject.org/#details/6FD47CBB2EE50EE1819D0A5BACA47A7BA636F375) | 2017-11-07   | Yes         |                     3 |
+| [SentriesExperiment5](https://atlas.torproject.org/#details/8665341D2E466A8010C6187571B71FD155F4D0F2) | 2017-11-07   | Yes         |                     3 |
 | [SentriesExperiment4](https://atlas.torproject.org/#details/49F5F13DAA45D6BF6A97DBD5E008DF99F50207DD) | 2017-11-06   | Yes         |                     3 |
 | [SentriesExit2](https://atlas.torproject.org/#details/366E36894AF7ED5AEAE3D26FBEBD3FA29AA34FDD)       | 2016-09-11   | No          |                     2 |
 | [SentriesExit1](https://atlas.torproject.org/#details/EBFBFC15C343AE2A16DFBED651E44DCA81E29083)       | 2016-09-01   | No          |                     2 |
+
+## ContactInfo: &lt;none&gt; (2) {#none}
+
+| Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [creepybreath](https://atlas.torproject.org/#details/6ECEDF01852D50484056F217A1F43C31136AAD7C) | 2017-11-02   | Yes         |                     1 |
+| [626Net](https://atlas.torproject.org/#details/99948736C2BA7A13D27CB058DDC54B93A04190F1)       | 2017-10-08   | No          |                     1 |
 
 ## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (4) {#anonymaid-team-infoanonymaidnet}
 
@@ -67,4 +76,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,49F5F13DAA45D6BF6A97DBD5E008DF99F50207DD,BF5068641A54A9433CA612BDFF7F098B72EB9762,D5B8C38539C509380767D4DE20DE84CF84EE8299,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,6ECEDF01852D50484056F217A1F43C31136AAD7C,49F5F13DAA45D6BF6A97DBD5E008DF99F50207DD,BF5068641A54A9433CA612BDFF7F098B72EB9762,6FD47CBB2EE50EE1819D0A5BACA47A7BA636F375,D5B8C38539C509380767D4DE20DE84CF84EE8299,8665341D2E466A8010C6187571B71FD155F4D0F2,3A3811F5ECD29528E3855C76B7B58D9B94AAEC51
