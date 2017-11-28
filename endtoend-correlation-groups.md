@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-11-27 20:00 UTC**
+Tor network data as of: **2017-11-28 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,12 +29,22 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
+## ContactInfo: abuse AT torworld.org - BTC 17iwdtpmgHdPt15twdT2 (4) {#abuse-at-torworldorg---btc-17iwdtpmghdpt15twdt2}
+
+| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Freya](https://atlas.torproject.org/#details/88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199)   | 2016-10-28   | Yes         |                     5 |
+| [Vor](https://atlas.torproject.org/#details/157106182B9F33663CAEDCD883D302316331DE5E)     | 2016-12-11   | Yes         |                     5 |
+| [Tyr](https://atlas.torproject.org/#details/C238E705C538F5844B75DF1E082323387212C931)     | 2017-10-13   | Yes         |                     5 |
+| [Astraea](https://atlas.torproject.org/#details/660CD5F78740B89A34A5C31BE46877EFD891163A) | 2017-11-27   | No          |                     1 |
+
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (5) {#contactgpgfingerprint-contactname-conta}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
 | [netnognrelay](https://atlas.torproject.org/#details/BA66A1600751BF6BB39056A40FAD5831CC46AC56)   | 2017-11-13   | Yes         |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/9F729DB3AE1ED73B19A846E217255CF017EEB2B5)  | 2017-10-02   | Yes         |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/8543F771796E16FD614113C1CA366355D049AD22)  | 2017-11-23   | No          |                     1 |
 | [hacktheplanet](https://atlas.torproject.org/#details/DE1E577F9A955F380B23C41CE86198DE12DECDDD)  | 2017-11-23   | No          |                     1 |
 
@@ -67,4 +77,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BF5068641A54A9433CA612BDFF7F098B72EB9762,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,BA66A1600751BF6BB39056A40FAD5831CC46AC56,8D13A1B5F11E79DCD3B2868215251769C8076AA1
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,C238E705C538F5844B75DF1E082323387212C931,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,157106182B9F33663CAEDCD883D302316331DE5E,BF5068641A54A9433CA612BDFF7F098B72EB9762,16273E9FFDF2B5EF64EE187AB1A71D6C6287F02C,9F729DB3AE1ED73B19A846E217255CF017EEB2B5,BA66A1600751BF6BB39056A40FAD5831CC46AC56,8D13A1B5F11E79DCD3B2868215251769C8076AA1,88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199
