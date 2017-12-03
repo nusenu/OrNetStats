@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-12-03 08:00 UTC**
+Tor network data as of: **2017-12-03 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Freya](https://atlas.torproject.org/#details/88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199)   | 2016-10-28   | Yes         |                     5 |
-| [Mani](https://atlas.torproject.org/#details/B756D7123D759EAB62CB6A09148AD65AC216F3E3)    | 2017-11-25   | Yes         |                     5 |
 | [Vor](https://atlas.torproject.org/#details/157106182B9F33663CAEDCD883D302316331DE5E)     | 2016-12-11   | Yes         |                     5 |
+| [Mani](https://atlas.torproject.org/#details/B756D7123D759EAB62CB6A09148AD65AC216F3E3)    | 2017-11-25   | Yes         |                     5 |
 | [Tyr](https://atlas.torproject.org/#details/C238E705C538F5844B75DF1E082323387212C931)     | 2017-10-13   | Yes         |                     5 |
 | [Astraea](https://atlas.torproject.org/#details/660CD5F78740B89A34A5C31BE46877EFD891163A) | 2017-11-27   | No          |                     2 |
 | [Gawain](https://atlas.torproject.org/#details/CDAF4916D0553E1E7B81CF83556073761E98A5F4)  | 2017-12-01   | No          |                     2 |
