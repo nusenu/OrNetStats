@@ -69,7 +69,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    13 |
 | [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    13 |
 
-## ContactInfo: 0x590865E8 Matthias Fritzsche &lt;txt dot file AT txt (2) {#0x590865e8-matthias-fritzsche-txt-dot-file-at-txt}
+## ContactInfo: 0x590865E8 Matthias Fritzsche &lt;txt dot file AT txt (2) {#x590865e8-matthias-fritzsche-txt-dot-file-at-txt}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
