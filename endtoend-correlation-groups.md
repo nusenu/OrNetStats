@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2017-12-13 20:00 UTC**
+Tor network data as of: **2017-12-14 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,18 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (7) {#contactgpgfingerprint-contactname-conta}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [WhatAboutNothing](https://atlas.torproject.org/#details/16C8E7A263F11F3BA89EEA13EFBD1D0260E6D21F) | 2017-12-04   | Yes         |                     1 |
-| [justhelpingout](https://atlas.torproject.org/#details/C4F69F1DF9D73E3E0046F3793081288DF5C66247)   | 2017-11-28   | Yes         |                     1 |
-| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1)   | 2017-03-05   | Yes         |                     1 |
-| [netnognrelay](https://atlas.torproject.org/#details/BA66A1600751BF6BB39056A40FAD5831CC46AC56)     | 2017-11-13   | Yes         |                     1 |
-| [hacktheplanet](https://atlas.torproject.org/#details/9F729DB3AE1ED73B19A846E217255CF017EEB2B5)    | 2017-10-02   | Yes         |                     1 |
-| [hacktheplanet](https://atlas.torproject.org/#details/578181FDA505323F16896F1CFCBD025DA8465FA3)    | 2017-11-29   | No          |                     1 |
-| [hacktheplanet](https://atlas.torproject.org/#details/6549C60CC844036B7C7C22A75B2C384041EFEAB1)    | 2017-11-29   | No          |                     1 |
-
 ## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; 14wntQ8cB (13) {#nicholas-merrill-nick-at-calyx-dot-com-14wntq8cb}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -59,13 +47,30 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    13 |
 | [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    13 |
 
-## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (3) {#anonymaid-team-infoanonymaidnet}
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (6) {#contactgpgfingerprint-contactname-conta}
 
-| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
-| [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
-| [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
+| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [justhelpingout](https://atlas.torproject.org/#details/C4F69F1DF9D73E3E0046F3793081288DF5C66247) | 2017-11-28   | Yes         |                     1 |
+| [PieceOfShitSrv](https://atlas.torproject.org/#details/8D13A1B5F11E79DCD3B2868215251769C8076AA1) | 2017-03-05   | Yes         |                     1 |
+| [netnognrelay](https://atlas.torproject.org/#details/BA66A1600751BF6BB39056A40FAD5831CC46AC56)   | 2017-11-13   | Yes         |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/9F729DB3AE1ED73B19A846E217255CF017EEB2B5)  | 2017-10-02   | Yes         |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/578181FDA505323F16896F1CFCBD025DA8465FA3)  | 2017-11-29   | No          |                     1 |
+| [hacktheplanet](https://atlas.torproject.org/#details/6549C60CC844036B7C7C22A75B2C384041EFEAB1)  | 2017-11-29   | No          |                     1 |
+
+## ContactInfo: 0x590865E8 Matthias Fritzsche &lt;txt dot file AT txt (2) {#0x590865e8-matthias-fritzsche-txt-dot-file-at-txt}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [txtfileTorNode65536](https://atlas.torproject.org/#details/489D94333DF66D57FFE34D9D59CC2D97E2CB0053) | 2014-08-03   | Yes         |                     1 |
+| [txtfileTorNode16384](https://atlas.torproject.org/#details/9B71C6617CD59A3081BC34DAB4586E7BD17243BD) | 2017-12-04   | No          |                     1 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
 
@@ -83,19 +88,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [freeBogatov](https://atlas.torproject.org/#details/F4594608272C82407E9D137F1AE89A408CCFD285)    | 2017-11-01   | No          |                    12 |
 | [dorrisdeebrown](https://atlas.torproject.org/#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    12 |
 
-## ContactInfo: 0x590865E8 Matthias Fritzsche &lt;txt dot file AT txt (2) {#0x590865e8-matthias-fritzsche-txt-dot-file-at-txt}
+## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (3) {#anonymaid-team-infoanonymaidnet}
 
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [txtfileTorNode65536](https://atlas.torproject.org/#details/489D94333DF66D57FFE34D9D59CC2D97E2CB0053) | 2014-08-03   | Yes         |                     1 |
-| [txtfileTorNode16384](https://atlas.torproject.org/#details/9B71C6617CD59A3081BC34DAB4586E7BD17243BD) | 2017-12-04   | No          |                     1 |
-
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
-
-| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
+| [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
+| [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (5) {#vsif-support-support-at-vsif-dot-ca}
 
