@@ -5,1000 +5,1005 @@ layout: default
 
 # Autonomous System Names by CW
 
-Tor network data as of: **2018-01-03 07:00 UTC**
+Tor network data as of: **2018-01-04 11:00 UTC**
 
-|     | AS Name                                                                                 |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
-|----:|:----------------------------------------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
-|   0 | OVH SAS                                                                                 |            15.62 |      15.73 |      7.5  |       504 |
-|   1 | Online S.a.s.                                                                           |            10.1  |      12.92 |     11.93 |       391 |
-|   2 | Hetzner Online GmbH                                                                     |             7.51 |       8.84 |      1.51 |       298 |
-|   3 | DigitalOcean, LLC                                                                       |             5.49 |       6.17 |      1.62 |       312 |
-|   4 | Host Europe GmbH                                                                        |             2.43 |       3.46 |      0    |        43 |
-|   5 | THC Projects SRL                                                                        |             1.35 |       2.9  |      0    |        17 |
-|   6 | SURFnet bv                                                                              |             1.28 |       1.08 |      0.99 |        12 |
-|   7 | myLoc managed IT AG                                                                     |             1.21 |       2.15 |      0.57 |        39 |
-|   8 | SOFTplus Entwicklungen GmbH                                                             |             1.11 |       0    |      4.39 |        17 |
-|   9 | NForce Entertainment B.V.                                                               |             0.99 |       0    |      3.83 |        16 |
-|  10 | ISPpro Internet KG                                                                      |             0.98 |       1.78 |      0    |        28 |
-|  11 | Contabo GmbH                                                                            |             0.91 |       1.57 |      0.46 |        50 |
-|  12 | Linode, LLC                                                                             |             0.88 |       0.37 |      0.47 |       195 |
-|  13 | CYBERDYNE                                                                               |             0.86 |       0    |      3.55 |         6 |
-|  14 | LeaseWeb Netherlands B.V.                                                               |             0.82 |       0.33 |      0.61 |        44 |
-|  15 | Voxility S.R.L.                                                                         |             0.82 |       0.29 |      2.38 |        12 |
-|  16 | Quintex Alliance Consulting                                                             |             0.81 |       0    |      3.35 |        50 |
-|  17 | WorldStream B.V.                                                                        |             0.8  |       1.28 |      0    |        18 |
-|  18 | ITL Company                                                                             |             0.71 |       1.27 |      0.03 |        41 |
-|  19 | Zwiebelfreunde e.V.                                                                     |             0.68 |       0    |      2.8  |         6 |
-|  20 | Leaseweb Deutschland GmbH                                                               |             0.66 |       0.58 |      0.86 |        15 |
-|  21 | Hurricane Electric, Inc.                                                                |             0.64 |       0.53 |      1.62 |        15 |
-|  22 | Init7 Switzerland Ltd.                                                                  |             0.62 |       1.25 |      0    |        20 |
-|  23 | Keyweb AG                                                                               |             0.6  |       0.49 |      1.26 |        30 |
-|  24 | YISP B.V.                                                                               |             0.6  |       0    |      2.49 |         6 |
-|  25 | Bahnhof Internet AB                                                                     |             0.55 |       0.17 |      0.27 |        24 |
-|  26 | Choopa, LLC                                                                             |             0.54 |       0.18 |      0    |       106 |
-|  27 | OkServers LLC                                                                           |             0.53 |       0    |      2.18 |         2 |
-|  28 | SUNET SUNET Swedish University Network                                                  |             0.52 |       0.95 |      0    |         8 |
-|  29 | Private Layer INC                                                                       |             0.51 |       0.73 |      0.09 |        19 |
-|  30 | MCI Communications Services, Inc. d/b/a Verizon Business                                |             0.47 |       0.7  |      0.1  |        42 |
-|  31 | SITAB Infrastruktur                                                                     |             0.45 |       0    |      0    |         4 |
-|  32 | Altibox AS                                                                              |             0.44 |       0.92 |      0    |        10 |
-|  33 | Foreningen for digitala fri- och rattigheter                                            |             0.43 |       0    |      1.76 |         6 |
-|  34 | Microsoft Corporation                                                                   |             0.42 |       0.35 |      0.01 |        27 |
-|  35 | Massachusetts Institute of Technology                                                   |             0.42 |       0.34 |      0.28 |        10 |
-|  36 | Google Fiber Inc.                                                                       |             0.42 |       0.23 |      0    |         9 |
-|  37 | Global Layer B.V.                                                                       |             0.42 |       0.13 |      0.66 |         7 |
-|  38 | Cogent Communications                                                                   |             0.4  |       0.73 |      0    |        26 |
-|  39 | EVANZO e-commerce GmbH                                                                  |             0.39 |       0.72 |      0    |        11 |
-|  40 | Makonix SIA                                                                             |             0.39 |       0.68 |      0.09 |        29 |
-|  41 | Lynet Internett AS                                                                      |             0.38 |       0.55 |      0    |         8 |
-|  42 | 1&amp;1 Internet SE                                                                     |             0.38 |       0.45 |      0.07 |        20 |
-|  43 | netcup GmbH                                                                             |             0.38 |       0.31 |      0    |        26 |
-|  44 | Nobis Technology Group, LLC                                                             |             0.37 |       0.79 |      0    |         2 |
-|  45 | M5i Limited                                                                             |             0.36 |       0    |      1.5  |         1 |
-|  46 | Parfumuri Femei.com SRL                                                                 |             0.35 |       0.55 |      0    |         9 |
-|  47 | Flokinet Ltd                                                                            |             0.35 |       0.24 |      0.75 |        22 |
-|  48 | Deutsche Telekom AG                                                                     |             0.35 |       0.04 |      0.01 |       183 |
-|  49 | Tetaneutral.net                                                                         |             0.35 |       0    |      1.45 |         2 |
-|  50 | OOO Fishnet Communications                                                              |             0.33 |       0.66 |      0.01 |        15 |
-|  51 | FranTech Solutions                                                                      |             0.33 |       0.16 |      0.68 |        15 |
-|  52 | QuadraNet, Inc                                                                          |             0.33 |       0.02 |      0.88 |        28 |
-|  53 | Quasi Networks LTD.                                                                     |             0.28 |       0.07 |      1.04 |         8 |
-|  54 | ServerAstra Kft.                                                                        |             0.27 |       0.27 |      0.58 |        12 |
-|  55 | Zencurity ApS                                                                           |             0.27 |       0.25 |      0.64 |         3 |
-|  56 | Oy Creanova Hosting Solutions Ltd.                                                      |             0.27 |       0.21 |      0.55 |        19 |
-|  57 | I.C.S. Trabia-Network S.R.L.                                                            |             0.27 |       0.07 |      0.97 |        25 |
-|  58 | Alistar Security Srl                                                                    |             0.27 |       0    |      1.12 |         2 |
-|  59 | KPN B.V.                                                                                |             0.26 |       0.53 |      0    |        15 |
-|  60 | Telenor Norge AS                                                                        |             0.26 |       0.48 |      0    |        30 |
-|  61 | Netaction Telecom Srl-d                                                                 |             0.26 |       0.39 |      0.11 |         9 |
-|  62 | BENESTRA, s.r.o.                                                                        |             0.26 |       0    |      1.07 |         4 |
-|  63 | WEDOS Internet, a.s.                                                                    |             0.25 |       0.48 |      0    |        16 |
-|  64 | Xs4all Internet BV                                                                      |             0.25 |       0.27 |      0.04 |        31 |
-|  65 | UAB Cherry Servers                                                                      |             0.25 |       0.22 |      0.17 |        12 |
-|  66 | Foerderverein Freie Netzwerke e.V.                                                      |             0.25 |       0    |      0    |         3 |
-|  67 | Joshua Peter McQuistan                                                                  |             0.23 |       0.27 |      0    |         6 |
-|  68 | Brass Horn Communications                                                               |             0.22 |       0    |      0.94 |         6 |
-|  69 | Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.                             |             0.21 |       0.29 |      0    |        12 |
-|  70 | Orange                                                                                  |             0.21 |       0.09 |      0    |        31 |
-|  71 | The Calyx Institute                                                                     |             0.21 |       0.01 |      0.85 |        11 |
-|  72 | Telia Company AB                                                                        |             0.2  |       0.41 |      0    |        17 |
-|  73 | INTERNET CZ, a.s.                                                                       |             0.2  |       0.41 |      0    |        13 |
-|  74 | RWTH Aachen University                                                                  |             0.2  |       0.29 |      0    |         3 |
-|  75 | Emerald Onion                                                                           |             0.2  |       0    |      0.85 |         4 |
-|  76 | Unithost Internet B.V.                                                                  |             0.2  |       0    |      0.85 |         1 |
-|  77 | Seflow S.N.C. Di Marco Brame' &amp; C.                                                  |             0.19 |       0.21 |      0    |         9 |
-|  78 | Amazon.com, Inc.                                                                        |             0.19 |       0.13 |      0    |        53 |
-|  79 | Techcrea Solutions SARL                                                                 |             0.19 |       0.13 |      0    |        10 |
-|  80 | Google LLC                                                                              |             0.19 |       0.06 |      0    |        19 |
-|  81 | Hostio Solutions B.V.                                                                   |             0.18 |       0.21 |      0.25 |         4 |
-|  82 | 23media GmbH                                                                            |             0.18 |       0.17 |      0.36 |        11 |
-|  83 | T-Mobile Thuis BV                                                                       |             0.18 |       0.01 |      0    |         2 |
-|  84 | University of North Carolina at Chapel Hill                                             |             0.18 |       0    |      0.77 |         2 |
-|  85 | Broadnet AS                                                                             |             0.18 |       0    |      0.74 |         5 |
-|  86 | Liteserver VOF                                                                          |             0.18 |       0    |      0.6  |         8 |
-|  87 | Solar Communications GmbH                                                               |             0.18 |       0    |      0    |        10 |
-|  88 | BornFiber Service Provider ApS                                                          |             0.17 |       0.37 |      0    |         4 |
-|  89 | IPAX OG                                                                                 |             0.17 |       0.37 |      0    |         3 |
-|  90 | MediaServicePlus LLC                                                                    |             0.17 |       0.31 |      0.04 |        13 |
-|  91 | M247 Ltd                                                                                |             0.17 |       0.19 |      0    |        36 |
-|  92 | Free SAS                                                                                |             0.17 |       0.06 |      0    |        49 |
-|  93 | Hextet Systems                                                                          |             0.17 |       0    |      0.73 |         6 |
-|  94 | KW Datacenter                                                                           |             0.16 |       0.12 |      0.17 |        32 |
-|  95 | PJSC Rostelecom                                                                         |             0.16 |       0.08 |      0.08 |        34 |
-|  96 | Leaseweb USA, Inc.                                                                      |             0.16 |       0.02 |      0.59 |         4 |
-|  97 | Wikimedia Foundation, Inc.                                                              |             0.15 |       0.34 |      0    |         2 |
-|  98 | Unilogic Networks B.V.                                                                  |             0.15 |       0.32 |      0    |         1 |
-|  99 | Nine Internet Solutions AG                                                              |             0.15 |       0.09 |      0.44 |         5 |
-| 100 | Tech Futures Interactive Inc.                                                           |             0.15 |       0    |      0.62 |         4 |
-| 101 | Cambrium IT Services B.V.                                                               |             0.14 |       0.29 |      0    |         3 |
-| 102 | TELE2                                                                                   |             0.14 |       0.02 |      0.52 |         3 |
-| 103 | Liberty Global Operations B.V.                                                          |             0.14 |       0.01 |      0.02 |       104 |
-| 104 | Danish network for Research and Education                                               |             0.13 |       0.28 |      0    |         3 |
-| 105 | Icme Limited                                                                            |             0.13 |       0.18 |      0    |        18 |
-| 106 | Bezeq International                                                                     |             0.13 |       0.08 |      0.38 |         6 |
-| 107 | ASERGO Scandinavia ApS                                                                  |             0.13 |       0    |      0    |         1 |
-| 108 | MivoCloud SRL                                                                           |             0.12 |       0.26 |      0    |         4 |
-| 109 | H88 S.A.                                                                                |             0.12 |       0.26 |      0    |         2 |
-| 110 | YOUR.ORG, INC.                                                                          |             0.12 |       0.26 |      0    |         1 |
-| 111 | sprint S.A.                                                                             |             0.12 |       0.04 |      0.41 |         5 |
-| 112 | Accelerated IT Services GmbH                                                            |             0.12 |       0.04 |      0.01 |        14 |
-| 113 | Ownit AB                                                                                |             0.12 |       0    |      0    |         3 |
-| 114 | i3D.net B.V                                                                             |             0.11 |       0.25 |      0    |         2 |
-| 115 | Team Cymru Inc.                                                                         |             0.11 |       0.24 |      0    |         2 |
-| 116 | Deninet KFT                                                                             |             0.11 |       0.24 |      0    |         1 |
-| 117 | Greek Research and Technology Network S.A                                               |             0.11 |       0.23 |      0    |        11 |
-| 118 | JSC ISPsystem                                                                           |             0.11 |       0.22 |      0    |         6 |
-| 119 | Iway AG                                                                                 |             0.11 |       0.12 |      0    |         7 |
-| 120 | GHOSTnet GmbH                                                                           |             0.11 |       0.11 |      0.25 |         5 |
-| 121 | VimpelCom                                                                               |             0.11 |       0.08 |      0.02 |        13 |
-| 122 | D-hosting die Rackspace &amp; Connectivity GmbH                                         |             0.11 |       0    |      0.46 |         1 |
-| 123 | Host Sailor Ltd.                                                                        |             0.11 |       0    |      0.21 |         8 |
-| 124 | EDIS GmbH                                                                               |             0.11 |       0    |      0    |         6 |
-| 125 | Turnkey Internet Inc.                                                                   |             0.11 |       0    |      0    |         2 |
-| 126 | Iws Networks LLC                                                                        |             0.1  |       0.22 |      0    |         1 |
-| 127 | MULTACOM CORPORATION                                                                    |             0.1  |       0.19 |      0.07 |         5 |
-| 128 | Universitaet Stuttgart                                                                  |             0.1  |       0.17 |      0    |         5 |
-| 129 | velia.net Internetdienste GmbH                                                          |             0.1  |       0.16 |      0.08 |         4 |
-| 130 | IP-Only Networks AB                                                                     |             0.1  |       0.1  |      0.24 |         2 |
-| 131 | Aruba S.p.A.                                                                            |             0.1  |       0.08 |      0    |        17 |
-| 132 | DataShack, LC                                                                           |             0.1  |       0.06 |      0    |         4 |
-| 133 | Coolhousing s.r.o.                                                                      |             0.1  |       0.05 |      0    |         6 |
-| 134 | WholeSale Internet, Inc.                                                                |             0.1  |       0.03 |      0.11 |         4 |
-| 135 | Tehnologii Budushego LLC                                                                |             0.1  |       0    |      0.44 |         1 |
-| 136 | Entidad Publica Empresarial Red.es                                                      |             0.1  |       0    |      0    |         1 |
-| 137 | T-Mobile Czech Republic a.s.                                                            |             0.09 |       0.2  |      0    |         2 |
-| 138 | Blix Solutions AS                                                                       |             0.09 |       0.2  |      0    |         2 |
-| 139 | Simon Frerichs                                                                          |             0.09 |       0.19 |      0    |         2 |
-| 140 | Qwest Communications Company, LLC                                                       |             0.09 |       0.18 |      0.02 |        21 |
-| 141 | M-net Telekommunikations GmbH                                                           |             0.09 |       0.18 |      0    |        15 |
-| 142 | Telia Finland Oyj                                                                       |             0.09 |       0.16 |      0    |        11 |
-| 143 | Alexhost Srl                                                                            |             0.09 |       0.15 |      0    |         9 |
-| 144 | Psychz Networks                                                                         |             0.09 |       0.13 |      0    |        10 |
-| 145 | AT&amp;T Services, Inc.                                                                 |             0.09 |       0.11 |      0    |        25 |
-| 146 | DataClub S.A.                                                                           |             0.09 |       0.05 |      0.27 |         2 |
-| 147 | Volia                                                                                   |             0.09 |       0.05 |      0    |        10 |
-| 148 | Ikoula Net SAS                                                                          |             0.09 |       0.05 |      0    |         5 |
-| 149 | Dotsi, Unipessoal Lda.                                                                  |             0.09 |       0.05 |      0    |         5 |
-| 150 | RCS &amp; RDS                                                                           |             0.09 |       0.04 |      0.05 |        10 |
-| 151 | FOP Smirnov V'yacheslav Valentunovuch                                                   |             0.09 |       0.04 |      0    |         4 |
-| 152 | Rial Com JSC                                                                            |             0.09 |       0    |      0.4  |         1 |
-| 153 | DataWagon LLC                                                                           |             0.09 |       0    |      0.4  |         1 |
-| 154 | LIAZO SARL                                                                              |             0.09 |       0    |      0.38 |         2 |
-| 155 | Lukman Multimedia Sp. z o.o                                                             |             0.09 |       0    |      0    |         1 |
-| 156 | Seti Weba Ltd                                                                           |             0.08 |       0.18 |      0    |         2 |
-| 157 | The University of Western Ontario                                                       |             0.08 |       0.18 |      0    |         1 |
-| 158 | eSecureData                                                                             |             0.08 |       0.17 |      0    |         1 |
-| 159 | Hostkey B.v.                                                                            |             0.08 |       0.09 |      0.17 |         3 |
-| 160 | UAB Rakrejus                                                                            |             0.08 |       0.07 |      0.16 |        12 |
-| 161 | Joe's Datacenter, LLC                                                                   |             0.08 |       0.04 |      0    |         3 |
-| 162 | ACONET                                                                                  |             0.08 |       0    |      0.33 |         1 |
-| 163 | Comcast Cable Communications, LLC                                                       |             0.08 |       0    |      0.03 |        93 |
-| 164 | nexellent ag                                                                            |             0.08 |       0    |      0    |         1 |
-| 165 | Tamatiya EOOD                                                                           |             0.07 |       0.16 |      0    |         3 |
-| 166 | EnergiMidt Fiberbredband A/S                                                            |             0.07 |       0.16 |      0    |         3 |
-| 167 | NORDUnet                                                                                |             0.07 |       0.16 |      0    |         1 |
-| 168 | InMotion Hosting, Inc.                                                                  |             0.07 |       0.16 |      0    |         1 |
-| 169 | Bytemark Limited                                                                        |             0.07 |       0.14 |      0    |         7 |
-| 170 | Frontier Communications of America, Inc.                                                |             0.07 |       0.13 |      0    |        13 |
-| 171 | Aktsiaselts WaveCom                                                                     |             0.07 |       0.13 |      0    |         2 |
-| 172 | Net By Net Holding LLC                                                                  |             0.07 |       0.12 |      0    |        10 |
-| 173 | ServeTheWorld AS                                                                        |             0.07 |       0.11 |      0.07 |         3 |
-| 174 | Mir Telematiki Ltd                                                                      |             0.07 |       0.1  |      0.07 |         6 |
-| 175 | Serverius Holding B.V.                                                                  |             0.07 |       0.1  |      0    |         7 |
-| 176 | Swiftway Sp. z o.o.                                                                     |             0.07 |       0.07 |      0    |        17 |
-| 177 | Denetron LLC                                                                            |             0.07 |       0.06 |      0.17 |         2 |
-| 178 | Thor Data Center ehf                                                                    |             0.07 |       0.03 |      0.15 |        17 |
-| 179 | 1&amp;1 Versatel Deutschland GmbH                                                       |             0.07 |       0.03 |      0    |        37 |
-| 180 | RADIOGRAFICA COSTARRICENSE                                                              |             0.07 |       0.02 |      0.2  |        12 |
-| 181 | Time Warner Cable Internet LLC                                                          |             0.07 |       0.02 |      0    |        53 |
-| 182 | LLC Campus Networks                                                                     |             0.07 |       0    |      0.32 |         2 |
-| 183 | Netwerkvereniging Coloclue                                                              |             0.07 |       0    |      0.31 |         2 |
-| 184 | SFR SA                                                                                  |             0.07 |       0    |      0.22 |        15 |
-| 185 | Magyar Telekom plc.                                                                     |             0.06 |       0.14 |      0    |         5 |
-| 186 | Zdruzenie pouzivatelov Slovenskej akademickej datovej siete                             |             0.06 |       0.14 |      0    |         2 |
-| 187 | Limited liability company Mail.Ru                                                       |             0.06 |       0.14 |      0    |         1 |
-| 188 | Studentersamfundet i Trondhjem                                                          |             0.06 |       0.13 |      0    |         1 |
-| 189 | Bouygues Telecom SA                                                                     |             0.06 |       0.11 |      0    |        10 |
-| 190 | Obenetwork AB                                                                           |             0.06 |       0.11 |      0    |         4 |
-| 191 | Strato AG                                                                               |             0.06 |       0.08 |      0    |        16 |
-| 192 | Ch-net S.r.l.                                                                           |             0.06 |       0.07 |      0    |         2 |
-| 193 | vanoppen.biz LLC                                                                        |             0.06 |       0.05 |      0    |         9 |
-| 194 | prgmr.com, Inc.                                                                         |             0.06 |       0.04 |      0    |         6 |
-| 195 | Martin Prager trading as NbIServ                                                        |             0.06 |       0.03 |      0.2  |        12 |
-| 196 | XMission, L.C.                                                                          |             0.06 |       0.02 |      0.21 |         4 |
-| 197 | Digicube sas                                                                            |             0.06 |       0.02 |      0.13 |         4 |
-| 198 | Specialized Bulletin Board Systems                                                      |             0.06 |       0    |      0.27 |         1 |
-| 199 | Association Gitoyen                                                                     |             0.06 |       0    |      0.27 |         1 |
-| 200 | Lanet Network Ltd                                                                       |             0.06 |       0    |      0.22 |         6 |
-| 201 | ColoCrossing                                                                            |             0.06 |       0    |      0    |        18 |
-| 202 | SkyNet Ltd.                                                                             |             0.06 |       0    |      0    |         5 |
-| 203 | Freifunk Frankfurt am Main e.V.                                                         |             0.05 |       0.12 |      0    |         1 |
-| 204 | BHost Inc                                                                               |             0.05 |       0.11 |      0    |         2 |
-| 205 | Eonix Corporation                                                                       |             0.05 |       0.1  |      0    |         6 |
-| 206 | Civil associaton Init Lab                                                               |             0.05 |       0.1  |      0    |         1 |
-| 207 | iomart Cloud Services Limited.                                                          |             0.05 |       0.09 |      0.03 |         5 |
-| 208 | LLC Baxet                                                                               |             0.05 |       0.09 |      0.03 |         4 |
-| 209 | Sologigabit S.L.                                                                        |             0.05 |       0.07 |      0    |         9 |
-| 210 | MAROSNET Telecommunication Company LLC                                                  |             0.05 |       0.05 |      0    |         5 |
-| 211 | OJS Moscow city telephone network                                                       |             0.05 |       0.05 |      0    |         4 |
-| 212 | PRO-ZETA a.s.                                                                           |             0.05 |       0.05 |      0    |         2 |
-| 213 | Cablevision Systems Corp.                                                               |             0.05 |       0.02 |      0    |        10 |
-| 214 | Visual Online S.A.                                                                      |             0.05 |       0    |      0.24 |         1 |
-| 215 | Telefonica De Espana                                                                    |             0.05 |       0    |      0    |        14 |
-| 216 | The New York Internet Company                                                           |             0.05 |       0    |      0    |         3 |
-| 217 | Hosteam S.c. Tomasz Groszewski Bartosz Waszak Lukasz Groszewski                         |             0.05 |       0    |      0    |         2 |
-| 218 | Zayo France SAS                                                                         |             0.05 |       0    |      0    |         1 |
-| 219 | ITsjefen AS                                                                             |             0.04 |       0.1  |      0    |         1 |
-| 220 | PlusServer GmbH                                                                         |             0.04 |       0.09 |      0    |         4 |
-| 221 | Master Internet s.r.o.                                                                  |             0.04 |       0.09 |      0    |         4 |
-| 222 | AllTele Allmanna Svenska Telefonaktiebolaget                                            |             0.04 |       0.09 |      0    |         4 |
-| 223 | Sinarohost LTD                                                                          |             0.04 |       0.09 |      0    |         3 |
-| 224 | Nav Communications Srl                                                                  |             0.04 |       0.09 |      0    |         2 |
-| 225 | Hostwinds LLC.                                                                          |             0.04 |       0.09 |      0    |         2 |
-| 226 | TOV Trest Ukrtelebud                                                                    |             0.04 |       0.09 |      0    |         1 |
-| 227 | ELB Multimedia SARL                                                                     |             0.04 |       0.09 |      0    |         1 |
-| 228 | Computer Wired SRL                                                                      |             0.04 |       0.09 |      0    |         1 |
-| 229 | GorillaServers, Inc.                                                                    |             0.04 |       0.08 |      0    |         3 |
-| 230 | Daticum JSC                                                                             |             0.04 |       0.08 |      0    |         1 |
-| 231 | Com Hem AB                                                                              |             0.04 |       0.07 |      0    |         7 |
-| 232 | DNA Oyj                                                                                 |             0.04 |       0.07 |      0    |         5 |
-| 233 | Hyperoptic Ltd                                                                          |             0.04 |       0.07 |      0    |         4 |
-| 234 | OOO Network of data-centers Selectel                                                    |             0.04 |       0.06 |      0    |         7 |
-| 235 | Keminet Ltd.                                                                            |             0.04 |       0.06 |      0    |         5 |
-| 236 | PE Ivanov Vitaliy Sergeevich                                                            |             0.04 |       0.05 |      0    |         7 |
-| 237 | JSC ER-Telecom Holding                                                                  |             0.04 |       0.01 |      0    |        14 |
-| 238 | Concorde inc.                                                                           |             0.04 |       0    |      0.19 |         1 |
-| 239 | COLT Technology Services Group Limited                                                  |             0.04 |       0    |      0.18 |         3 |
-| 240 | Aqua Ray SAS                                                                            |             0.04 |       0    |      0.17 |         1 |
-| 241 | University of Waterloo                                                                  |             0.04 |       0    |      0.15 |         2 |
-| 242 | sol.net Network Services                                                                |             0.04 |       0    |      0.02 |         2 |
-| 243 | HostHatch, Inc                                                                          |             0.04 |       0    |      0    |         9 |
-| 244 | HostUS                                                                                  |             0.04 |       0    |      0    |         6 |
-| 245 | Marco Sandro Naf                                                                        |             0.04 |       0    |      0    |         1 |
-| 246 | Lightstream Transmission and Telecom Inc                                                |             0.04 |       0    |      0    |         1 |
-| 247 | Hostiserver Ltd                                                                         |             0.04 |       0    |      0    |         1 |
-| 248 | Comvive Servidores S.L.                                                                 |             0.04 |       0    |      0    |         1 |
-| 249 | Reliable Hosting Services                                                               |             0.03 |       0.08 |      0    |         1 |
-| 250 | Infium, UAB                                                                             |             0.03 |       0.08 |      0    |         1 |
-| 251 | CESNET z.s.p.o.                                                                         |             0.03 |       0.08 |      0    |         1 |
-| 252 | Wowrack.com                                                                             |             0.03 |       0.07 |      0    |         4 |
-| 253 | Istanbuldc Veri Merkezi Ltd. Sti                                                        |             0.03 |       0.07 |      0    |         3 |
-| 254 | UNINETT AS                                                                              |             0.03 |       0.07 |      0    |         2 |
-| 255 | VKontakte Ltd                                                                           |             0.03 |       0.07 |      0    |         1 |
-| 256 | PLANET IC GmbH                                                                          |             0.03 |       0.07 |      0    |         1 |
-| 257 | Karlsruhe Institute of Technology                                                       |             0.03 |       0.07 |      0    |         1 |
-| 258 | AbeloHost B.V.                                                                          |             0.03 |       0.07 |      0    |         1 |
-| 259 | Arrowhead A/S                                                                           |             0.03 |       0.06 |      0    |         5 |
-| 260 | 2COM Co Ltd.                                                                            |             0.03 |       0.06 |      0    |         4 |
-| 261 | 7heaven LLC                                                                             |             0.03 |       0.06 |      0    |         3 |
-| 262 | Sternforth Ltd.                                                                         |             0.03 |       0.06 |      0    |         2 |
-| 263 | POST Luxembourg                                                                         |             0.03 |       0.06 |      0    |         1 |
-| 264 | GloboTech Communications                                                                |             0.03 |       0.06 |      0    |         1 |
-| 265 | Dgn Teknoloji A.s.                                                                      |             0.03 |       0.06 |      0    |         1 |
-| 266 | CloudHosting SIA                                                                        |             0.03 |       0.06 |      0    |         1 |
-| 267 | ATW Internet Kft.                                                                       |             0.03 |       0.06 |      0    |         1 |
-| 268 | Centrilogic, Inc.                                                                       |             0.03 |       0.05 |      0.03 |         3 |
-| 269 | LLC tc Tel Center                                                                       |             0.03 |       0.05 |      0    |         4 |
-| 270 | Incero LLC                                                                              |             0.03 |       0.05 |      0    |         4 |
-| 271 | Continuum Data Centers, LLC.                                                            |             0.03 |       0.05 |      0    |         4 |
-| 272 | Monkey Brains                                                                           |             0.03 |       0.03 |      0.06 |         3 |
-| 273 | Content Delivery Network Ltd                                                            |             0.03 |       0.03 |      0    |         7 |
-| 274 | British Telecommunications PLC                                                          |             0.03 |       0.02 |      0    |        28 |
-| 275 | Perspectiva Ltd.                                                                        |             0.03 |       0.02 |      0    |         6 |
-| 276 | Inter Connects Inc                                                                      |             0.03 |       0.01 |      0.09 |         2 |
-| 277 | SuperNetwork s.r.o.                                                                     |             0.03 |       0.01 |      0    |         2 |
-| 278 | Andreas Fink trading as Fink Telecom Services                                           |             0.03 |       0    |      0.16 |         2 |
-| 279 | PLUTEX GmbH                                                                             |             0.03 |       0    |      0.15 |         1 |
-| 280 | Claranet Ltd                                                                            |             0.03 |       0    |      0.15 |         1 |
-| 281 | Astralus B.V.                                                                           |             0.03 |       0    |      0.14 |         8 |
-| 282 | Hotwire Communications                                                                  |             0.03 |       0    |      0.12 |         1 |
-| 283 | Transip B.V.                                                                            |             0.03 |       0    |      0.01 |         8 |
-| 284 | Vodafone Kabel Deutschland GmbH                                                         |             0.03 |       0    |      0    |        44 |
-| 285 | Histate Global Corp.                                                                    |             0.03 |       0    |      0    |        11 |
-| 286 | wilhelm.tel GmbH                                                                        |             0.03 |       0    |      0    |         8 |
-| 287 | MK Netzdienste GmbH &amp; Co. KG                                                        |             0.03 |       0    |      0    |         2 |
-| 288 | NetFire, LLC                                                                            |             0.03 |       0    |      0    |         1 |
-| 289 | Fiberby ApS                                                                             |             0.03 |       0    |      0    |         1 |
-| 290 | Klimenko Anna.Aleksandrovna PE                                                          |             0.02 |       0.06 |      0    |         1 |
-| 291 | East Telecom Ltd.                                                                       |             0.02 |       0.06 |      0    |         1 |
-| 292 | Stockholms Stadsnat AB                                                                  |             0.02 |       0.05 |      0    |         3 |
-| 293 | Sprint                                                                                  |             0.02 |       0.05 |      0    |         3 |
-| 294 | 23VNet Kft.                                                                             |             0.02 |       0.05 |      0    |         2 |
-| 295 | WebNX, Inc.                                                                             |             0.02 |       0.05 |      0    |         1 |
-| 296 | Verixi Sprl                                                                             |             0.02 |       0.05 |      0    |         1 |
-| 297 | NetsurfUSA, Inc.                                                                        |             0.02 |       0.05 |      0    |         1 |
-| 298 | MnogoByte LLC                                                                           |             0.02 |       0.05 |      0    |         1 |
-| 299 | Metronet                                                                                |             0.02 |       0.05 |      0    |         1 |
-| 300 | Mediam Oy                                                                               |             0.02 |       0.05 |      0    |         1 |
-| 301 | Jsc ru-center                                                                           |             0.02 |       0.05 |      0    |         1 |
-| 302 | Free Software Foundation, Inc.                                                          |             0.02 |       0.05 |      0    |         1 |
-| 303 | EPB Fiber Optics                                                                        |             0.02 |       0.05 |      0    |         1 |
-| 304 | dao Consulting, LLC                                                                     |             0.02 |       0.05 |      0    |         1 |
-| 305 | ADISTA SAS                                                                              |             0.02 |       0.05 |      0    |         1 |
-| 306 | Mediacom Communications Corp                                                            |             0.02 |       0.04 |      0    |         5 |
-| 307 | New Dream Network, LLC                                                                  |             0.02 |       0.04 |      0    |         4 |
-| 308 | Lucky Net Ltd                                                                           |             0.02 |       0.04 |      0    |         3 |
-| 309 | Hostpro Ltd.                                                                            |             0.02 |       0.04 |      0    |         3 |
-| 310 | Webaxys SAS                                                                             |             0.02 |       0.04 |      0    |         2 |
-| 311 | RM Engineering LLC                                                                      |             0.02 |       0.04 |      0    |         2 |
-| 312 | Szervernet Ltd                                                                          |             0.02 |       0.04 |      0    |         1 |
-| 313 | SYN LTD                                                                                 |             0.02 |       0.04 |      0    |         1 |
-| 314 | Sorta-hosting-smllc                                                                     |             0.02 |       0.04 |      0    |         1 |
-| 315 | Plusine Systems B.V.                                                                    |             0.02 |       0.04 |      0    |         1 |
-| 316 | NetAssist LLC                                                                           |             0.02 |       0.04 |      0    |         1 |
-| 317 | Levonline AB                                                                            |             0.02 |       0.04 |      0    |         1 |
-| 318 | ITnet S.r.l.                                                                            |             0.02 |       0.04 |      0    |         1 |
-| 319 | Avolo Telecom Srl                                                                       |             0.02 |       0.03 |      0.05 |         4 |
-| 320 | Mobiltel Ead                                                                            |             0.02 |       0.03 |      0    |         6 |
-| 321 | Sunrise Communications AG                                                               |             0.02 |       0.03 |      0    |         2 |
-| 322 | Saint-Petersburg Computer Networks Ltd.                                                 |             0.02 |       0.03 |      0    |         2 |
-| 323 | FOP Kazakov Oleksandr Oleksandrovich                                                    |             0.02 |       0.03 |      0    |         2 |
-| 324 | SAKURA Internet Inc.                                                                    |             0.02 |       0.02 |      0    |        12 |
-| 325 | Orange Espagne S.A.U.                                                                   |             0.02 |       0.02 |      0    |         9 |
-| 326 | MTS PJSC                                                                                |             0.02 |       0.02 |      0    |         7 |
-| 327 | Edutel BV                                                                               |             0.02 |       0.02 |      0    |         4 |
-| 328 | BelCloud Hosting Corporation                                                            |             0.02 |       0.01 |      0    |         8 |
-| 329 | Login, Inc.                                                                             |             0.02 |       0    |      0.1  |         2 |
-| 330 | GANDI SAS                                                                               |             0.02 |       0    |      0.08 |         6 |
-| 331 | PE Freehost                                                                             |             0.02 |       0    |      0.08 |         2 |
-| 332 | Maxnet Telecom, Ltd                                                                     |             0.02 |       0    |      0.08 |         1 |
-| 333 | Brezhnev D.S. PE                                                                        |             0.02 |       0    |      0.08 |         1 |
-| 334 | Boston University                                                                       |             0.02 |       0    |      0.08 |         1 |
-| 335 | Hydra Communications Ltd                                                                |             0.02 |       0    |      0.04 |         6 |
-| 336 | TOCICI LLC                                                                              |             0.02 |       0    |      0.04 |         2 |
-| 337 | Vodafone GmbH                                                                           |             0.02 |       0    |      0    |        30 |
-| 338 | Telefonica Germany                                                                      |             0.02 |       0    |      0    |        30 |
-| 339 | RamNode LLC                                                                             |             0.02 |       0    |      0    |        11 |
-| 340 | SIA Bighost.lv                                                                          |             0.02 |       0    |      0    |        10 |
-| 341 | Swisscom Switzerland Ltd                                                                |             0.02 |       0    |      0    |         8 |
-| 342 | RouteLabel V.O.F.                                                                       |             0.02 |       0    |      0    |         5 |
-| 343 | Bredband2 AB                                                                            |             0.02 |       0    |      0    |         3 |
-| 344 | TOV Magnus Limited                                                                      |             0.02 |       0    |      0    |         1 |
-| 345 | PJSC Industrial Media Network                                                           |             0.02 |       0    |      0    |         1 |
-| 346 | Info Data Center Ltd.                                                                   |             0.02 |       0    |      0    |         1 |
-| 347 | Fibersphere Communications, Inc.                                                        |             0.02 |       0    |      0    |         1 |
-| 348 | Bollnas energi AB                                                                       |             0.02 |       0    |      0    |         1 |
-| 349 | Penkiu kontinentu komunikaciju centras, Ltd.                                            |             0.01 |       0.04 |      0    |         1 |
-| 350 | Next Host SRL                                                                           |             0.01 |       0.04 |      0    |         1 |
-| 351 | inAsset Networks, S.L.                                                                  |             0.01 |       0.04 |      0    |         1 |
-| 352 | TELUS Communications Inc.                                                               |             0.01 |       0.03 |      0    |         3 |
-| 353 | Telia Stofa A/S                                                                         |             0.01 |       0.03 |      0    |         3 |
-| 354 | Solcon Internetdiensten B.V.                                                            |             0.01 |       0.03 |      0    |         3 |
-| 355 | Livenet Sp. z o.o.                                                                      |             0.01 |       0.03 |      0    |         3 |
-| 356 | JSC Mediasoft ekspert                                                                   |             0.01 |       0.03 |      0    |         3 |
-| 357 | Novotelecom Ltd                                                                         |             0.01 |       0.03 |      0    |         2 |
-| 358 | Netelligent Hosting Services Inc.                                                       |             0.01 |       0.03 |      0    |         2 |
-| 359 | Cogeco Peer 1                                                                           |             0.01 |       0.03 |      0    |         2 |
-| 360 | Andrews &amp; Arnold Ltd                                                                |             0.01 |       0.03 |      0    |         2 |
-| 361 | University of Washington                                                                |             0.01 |       0.03 |      0    |         1 |
-| 362 | UK Dedicated Servers Limited                                                            |             0.01 |       0.03 |      0    |         1 |
-| 363 | Techstorage sp. z o.o.                                                                  |             0.01 |       0.03 |      0    |         1 |
-| 364 | RGnet, LLC                                                                              |             0.01 |       0.03 |      0    |         1 |
-| 365 | OJSC Comcor                                                                             |             0.01 |       0.03 |      0    |         1 |
-| 366 | IP-Connect LLC                                                                          |             0.01 |       0.03 |      0    |         1 |
-| 367 | Inovare-Prim SRL                                                                        |             0.01 |       0.03 |      0    |         1 |
-| 368 | HOSTING90 systems s.r.o.                                                                |             0.01 |       0.03 |      0    |         1 |
-| 369 | Arvig Enterprises Inc.                                                                  |             0.01 |       0.03 |      0    |         1 |
-| 370 | Ziggo                                                                                   |             0.01 |       0.02 |      0    |        10 |
-| 371 | Neterra Ltd.                                                                            |             0.01 |       0.02 |      0    |         6 |
-| 372 | Total Server Solutions L.L.C.                                                           |             0.01 |       0.02 |      0    |         3 |
-| 373 | AS33891 Netzbetrieb GmbH                                                                |             0.01 |       0.02 |      0    |         3 |
-| 374 | Petersburg Internet Network ltd.                                                        |             0.01 |       0.02 |      0    |         2 |
-| 375 | Inetcom LLC                                                                             |             0.01 |       0.02 |      0    |         2 |
-| 376 | HEG US Inc.                                                                             |             0.01 |       0.02 |      0    |         2 |
-| 377 | Flashdance Ab                                                                           |             0.01 |       0.02 |      0    |         2 |
-| 378 | SpaceNet AG                                                                             |             0.01 |       0.02 |      0    |         1 |
-| 379 | Sharktech                                                                               |             0.01 |       0.02 |      0    |         1 |
-| 380 | Orange Espagne SA                                                                       |             0.01 |       0.02 |      0    |         1 |
-| 381 | Genossenschaft GGA Maur                                                                 |             0.01 |       0.02 |      0    |         1 |
-| 382 | Fx Software Srl                                                                         |             0.01 |       0.02 |      0    |         1 |
-| 383 | FuslVZ Ltd.                                                                             |             0.01 |       0.02 |      0    |         1 |
-| 384 | DA International Group Ltd.                                                             |             0.01 |       0.02 |      0    |         1 |
-| 385 | CentroNet a.s.                                                                          |             0.01 |       0.02 |      0    |         1 |
-| 386 | Casablanca INT                                                                          |             0.01 |       0.02 |      0    |         1 |
-| 387 | California Institute of Technology                                                      |             0.01 |       0.02 |      0    |         1 |
-| 388 | ACE Telecom Kft                                                                         |             0.01 |       0.02 |      0    |         1 |
-| 389 | Nazwa.pl Sp.z.o.o.                                                                      |             0.01 |       0.01 |      0.01 |         3 |
-| 390 | Level 3 Communications, Inc.                                                            |             0.01 |       0.01 |      0    |         6 |
-| 391 | IT Expert LLC                                                                           |             0.01 |       0.01 |      0    |         5 |
-| 392 | Ticinocom SA                                                                            |             0.01 |       0.01 |      0    |         2 |
-| 393 | Delta Softmedia Ltd.                                                                    |             0.01 |       0.01 |      0    |         2 |
-| 394 | KSS-Telecom OOO                                                                         |             0.01 |       0    |      0.07 |         2 |
-| 395 | Priority Colo Inc                                                                       |             0.01 |       0    |      0.07 |         1 |
-| 396 | Omnis Network, LLC                                                                      |             0.01 |       0    |      0.06 |         2 |
-| 397 | Greenhost BV                                                                            |             0.01 |       0    |      0.06 |         2 |
-| 398 | Cyberverse, Inc.                                                                        |             0.01 |       0    |      0.06 |         1 |
-| 399 | PE Tetyana Mysyk                                                                        |             0.01 |       0    |      0.05 |         1 |
-| 400 | Global Data Networks LLC                                                                |             0.01 |       0    |      0.04 |         4 |
-| 401 | SC Fastweb SRL                                                                          |             0.01 |       0    |      0.04 |         1 |
-| 402 | Carnegie Mellon University                                                              |             0.01 |       0    |      0.04 |         1 |
-| 403 | Art Invest Ltd                                                                          |             0.01 |       0    |      0.04 |         1 |
-| 404 | Leaseweb Asia Pacific pte. ltd.                                                         |             0.01 |       0    |      0.03 |         6 |
-| 405 | Hostinger International Limited                                                         |             0.01 |       0    |      0.02 |         6 |
-| 406 | Get AS                                                                                  |             0.01 |       0    |      0.02 |         3 |
-| 407 | Cox Communications Inc.                                                                 |             0.01 |       0    |      0.01 |        23 |
-| 408 | EWE-Tel GmbH                                                                            |             0.01 |       0    |      0.01 |         7 |
-| 409 | Charter Communications                                                                  |             0.01 |       0    |      0    |        23 |
-| 410 | Virgin Media Limited                                                                    |             0.01 |       0    |      0    |        22 |
-| 411 | Tele Danmark                                                                            |             0.01 |       0    |      0    |        10 |
-| 412 | Quickline AG                                                                            |             0.01 |       0    |      0    |         8 |
-| 413 | Elisa Oyj                                                                               |             0.01 |       0    |      0    |         8 |
-| 414 | Telecom Italia                                                                          |             0.01 |       0    |      0    |         7 |
-| 415 | Sky UK Limited                                                                          |             0.01 |       0    |      0    |         7 |
-| 416 | Shine Servers Llp                                                                       |             0.01 |       0    |      0    |         6 |
-| 417 | DAOU TECHNOLOGY                                                                         |             0.01 |       0    |      0    |         6 |
-| 418 | Artnet Spolka z ograniczona odpowiedzialnoscia                                          |             0.01 |       0    |      0    |         6 |
-| 419 | Unit-IS Ltd.                                                                            |             0.01 |       0    |      0    |         5 |
-| 420 | UK-2 Limited                                                                            |             0.01 |       0    |      0    |         5 |
-| 421 | Tele2 Telecommunication GmbH                                                            |             0.01 |       0    |      0    |         5 |
-| 422 | Taiwan Academic Network TANet Information Center                                        |             0.01 |       0    |      0    |         5 |
-| 423 | Input Output Flood LLC                                                                  |             0.01 |       0    |      0    |         5 |
-| 424 | Fastweb                                                                                 |             0.01 |       0    |      0    |         5 |
-| 425 | vollmar.net GmbH                                                                        |             0.01 |       0    |      0    |         4 |
-| 426 | PVimpelCom                                                                              |             0.01 |       0    |      0    |         4 |
-| 427 | First Colo GmbH                                                                         |             0.01 |       0    |      0    |         4 |
-| 428 | Bell Canada                                                                             |             0.01 |       0    |      0    |         4 |
-| 429 | TIS Dialog LLC                                                                          |             0.01 |       0    |      0    |         2 |
-| 430 | Longmont Power &amp; Communications                                                     |             0.01 |       0    |      0    |         2 |
-| 431 | home.pl S.A.                                                                            |             0.01 |       0    |      0    |         2 |
-| 432 | Axtel, S.A.B. de C.V.                                                                   |             0.01 |       0    |      0    |         2 |
-| 433 | Telecom.ru Ltd                                                                          |             0.01 |       0    |      0    |         1 |
-| 434 | Stanford University                                                                     |             0.01 |       0    |      0    |         1 |
-| 435 | Slovak Telecom, a. s.                                                                   |             0.01 |       0    |      0    |         1 |
-| 436 | SITEL Sp z o. o.                                                                        |             0.01 |       0    |      0    |         1 |
-| 437 | Rices Privately owned enterprise                                                        |             0.01 |       0    |      0    |         1 |
-| 438 | Private Entrepreneur Liudmyla V. Murad                                                  |             0.01 |       0    |      0    |         1 |
-| 439 | NTE Bredband AS                                                                         |             0.01 |       0    |      0    |         1 |
-| 440 | Kom lan Ltd                                                                             |             0.01 |       0    |      0    |         1 |
-| 441 | JSC Internet-Cosmos                                                                     |             0.01 |       0    |      0    |         1 |
-| 442 | Indiana University                                                                      |             0.01 |       0    |      0    |         1 |
-| 443 | Hostline, Uab                                                                           |             0.01 |       0    |      0    |         1 |
-| 444 | Hiper A/S                                                                               |             0.01 |       0    |      0    |         1 |
-| 445 | Flex Ltd.                                                                               |             0.01 |       0    |      0    |         1 |
-| 446 | ETS TELEPHONE COMPANY, INC.                                                             |             0.01 |       0    |      0    |         1 |
-| 447 | Corbina Telecom LLC                                                                     |             0.01 |       0    |      0    |         1 |
-| 448 | Andreas Fahl trading as Megaservers.de                                                  |             0.01 |       0    |      0    |         1 |
-| 449 | Adamo Telecom Iberia S.A.                                                               |             0.01 |       0    |      0    |         1 |
-| 450 | Dynamic ASP Inc.                                                                        |             0    |       0.02 |      0    |         1 |
-| 451 | Condointernet.net                                                                       |             0    |       0.02 |      0    |         1 |
-| 452 | Tiscali UK Limited                                                                      |             0    |       0.01 |      0    |         5 |
-| 453 | Xtra Telecom S.A.                                                                       |             0    |       0.01 |      0    |         3 |
-| 454 | Enzu Inc                                                                                |             0    |       0.01 |      0    |         3 |
-| 455 | Telia Lietuva, AB                                                                       |             0    |       0.01 |      0    |         2 |
-| 456 | netzquadrat GmbH                                                                        |             0    |       0.01 |      0    |         1 |
-| 457 | Tiera Centr Ltd                                                                         |             0    |       0.01 |      0    |         1 |
-| 458 | OOO MediaSeti                                                                           |             0    |       0.01 |      0    |         1 |
-| 459 | Next point Host EOOD.                                                                   |             0    |       0.01 |      0    |         1 |
-| 460 | Nevod Ltd                                                                               |             0    |       0.01 |      0    |         1 |
-| 461 | meerfarbig GmbH &amp; Co. KG                                                            |             0    |       0.01 |      0    |         1 |
-| 462 | LLC Internet Tehnologii                                                                 |             0    |       0.01 |      0    |         1 |
-| 463 | KAMP Netzwerkdienste GmbH                                                               |             0    |       0.01 |      0    |         1 |
-| 464 | Integra Telecom, Inc.                                                                   |             0    |       0.01 |      0    |         1 |
-| 465 | Host Palace Internet Services                                                           |             0    |       0.01 |      0    |         1 |
-| 466 | GTT a.s.                                                                                |             0    |       0.01 |      0    |         1 |
-| 467 | Croatian Academic and Research Network                                                  |             0    |       0.01 |      0    |         1 |
-| 468 | Cloudlayer8 Limited                                                                     |             0    |       0.01 |      0    |         1 |
-| 469 | Solar Invest UK LTD.                                                                    |             0    |       0    |      0.03 |         1 |
-| 470 | Octopuce s.a.r.l.                                                                       |             0    |       0    |      0.03 |         1 |
-| 471 | IQ PL Sp. z o.o.                                                                        |             0    |       0    |      0.03 |         1 |
-| 472 | GoDaddy.com, LLC                                                                        |             0    |       0    |      0.03 |         1 |
-| 473 | CityNet Telekom Ltd.                                                                    |             0    |       0    |      0.03 |         1 |
-| 474 | Telecom3 Sverige AB                                                                     |             0    |       0    |      0.02 |         2 |
-| 475 | Snel.com B.V.                                                                           |             0    |       0    |      0.02 |         1 |
-| 476 | Netsign Networks GmbH                                                                   |             0    |       0    |      0.02 |         1 |
-| 477 | Cybersmart                                                                              |             0    |       0    |      0.02 |         1 |
-| 478 | BiConsult Eood                                                                          |             0    |       0    |      0.02 |         1 |
-| 479 | AxcelX Technologies LLC                                                                 |             0    |       0    |      0.02 |         1 |
-| 480 | Data Communication Business Group                                                       |             0    |       0    |      0.01 |         6 |
-| 481 | BRIGHT HOUSE NETWORKS, LLC                                                              |             0    |       0    |      0.01 |         5 |
-| 482 | Dreamscape Networks Limited                                                             |             0    |       0    |      0.01 |         2 |
-| 483 | Verein zur Foerderung freier Netze ZVR: 814804682                                       |             0    |       0    |      0.01 |         1 |
-| 484 | CoreSpace, Inc.                                                                         |             0    |       0    |      0.01 |         1 |
-| 485 | Northeastern University                                                                 |             0    |       0    |      0    |        20 |
-| 486 | Equinix Asia Pacific                                                                    |             0    |       0    |      0    |        14 |
-| 487 | Kabel BW                                                                                |             0    |       0    |      0    |        13 |
-| 488 | InterBS S.R.L. BAEHOST                                                                  |             0    |       0    |      0    |        11 |
-| 489 | Shinjiru Technology Sdn Bhd                                                             |             0    |       0    |      0    |        10 |
-| 490 | Korea Telecom                                                                           |             0    |       0    |      0    |        10 |
-| 491 | TekSavvy Solutions, Inc.                                                                |             0    |       0    |      0    |         9 |
-| 492 | NetCologne GmbH                                                                         |             0    |       0    |      0    |         9 |
-| 493 | Shaw Communications Inc.                                                                |             0    |       0    |      0    |         8 |
-| 494 | QSC AG                                                                                  |             0    |       0    |      0    |         8 |
-| 495 | Internode Pty Ltd                                                                       |             0    |       0    |      0    |         8 |
-| 496 | TPG Telecom Limited                                                                     |             0    |       0    |      0    |         7 |
-| 497 | Cloudie Limited                                                                         |             0    |       0    |      0    |         7 |
-| 498 | A1 Telekom Austria AG                                                                   |             0    |       0    |      0    |         7 |
-| 499 | SoftLayer Technologies Inc.                                                             |             0    |       0    |      0    |         6 |
-| 500 | So-net Entertainment Corporation                                                        |             0    |       0    |      0    |         6 |
-| 501 | NC Numericable S.A.                                                                     |             0    |       0    |      0    |         6 |
-| 502 | Kabelfernsehen Muenchen ServiCenter GmbH &amp; Co.KG                                    |             0    |       0    |      0    |         6 |
-| 503 | Associao Rede Nacional de Ensino e Pesquisa                                             |             0    |       0    |      0    |         6 |
-| 504 | Proximus NV                                                                             |             0    |       0    |      0    |         5 |
-| 505 | Prometeus di Daniela Agro                                                               |             0    |       0    |      0    |         5 |
-| 506 | OTEnet S.A.                                                                             |             0    |       0    |      0    |         5 |
-| 507 | NTT Communications Corporation                                                          |             0    |       0    |      0    |         5 |
-| 508 | Individual Network Berlin e.V.                                                          |             0    |       0    |      0    |         5 |
-| 509 | Hutchison Global Communications                                                         |             0    |       0    |      0    |         5 |
-| 510 | CLARO S.A.                                                                              |             0    |       0    |      0    |         5 |
-| 511 | Aruba SAS                                                                               |             0    |       0    |      0    |         5 |
-| 512 | WideOpenWest Finance LLC                                                                |             0    |       0    |      0    |         4 |
-| 513 | Telstra Pty Ltd                                                                         |             0    |       0    |      0    |         4 |
-| 514 | Telenet BVBA                                                                            |             0    |       0    |      0    |         4 |
-| 515 | Spark New Zealand Trading Ltd.                                                          |             0    |       0    |      0    |         4 |
-| 516 | Rogers Communications Canada Inc.                                                       |             0    |       0    |      0    |         4 |
-| 517 | RCN                                                                                     |             0    |       0    |      0    |         4 |
-| 518 | RackBank Datacenters Private Ltd                                                        |             0    |       0    |      0    |         4 |
-| 519 | Optima Telecom Ltd.                                                                     |             0    |       0    |      0    |         4 |
-| 520 | NTT PC Communications, Inc.                                                             |             0    |       0    |      0    |         4 |
-| 521 | Jump Networks Ltd                                                                       |             0    |       0    |      0    |         4 |
-| 522 | Iskratelecom CJSC                                                                       |             0    |       0    |      0    |         4 |
-| 523 | Connexions4London Ltd                                                                   |             0    |       0    |      0    |         4 |
-| 524 | CHT Compamy Ltd                                                                         |             0    |       0    |      0    |         4 |
-| 525 | Zen Internet Ltd                                                                        |             0    |       0    |      0    |         3 |
-| 526 | Wobcom GmbH                                                                             |             0    |       0    |      0    |         3 |
-| 527 | Wind Telecomunicazioni SpA                                                              |             0    |       0    |      0    |         3 |
-| 528 | Webpass Inc.                                                                            |             0    |       0    |      0    |         3 |
-| 529 | Vectra S.A.                                                                             |             0    |       0    |      0    |         3 |
-| 530 | uvensys GmbH                                                                            |             0    |       0    |      0    |         3 |
-| 531 | TELEFNICA BRASIL S.A                                                                    |             0    |       0    |      0    |         3 |
-| 532 | Tele Columbus AG                                                                        |             0    |       0    |      0    |         3 |
-| 533 | TalkTalk                                                                                |             0    |       0    |      0    |         3 |
-| 534 | Softbank BB Corp.                                                                       |             0    |       0    |      0    |         3 |
-| 535 | SkyMesh Pty Ltd                                                                         |             0    |       0    |      0    |         3 |
-| 536 | rh-tec Business GmbH                                                                    |             0    |       0    |      0    |         3 |
-| 537 | Rackspace Ltd.                                                                          |             0    |       0    |      0    |         3 |
-| 538 | Portlane AB                                                                             |             0    |       0    |      0    |         3 |
-| 539 | NextGenTel AS                                                                           |             0    |       0    |      0    |         3 |
-| 540 | Locaweb Servios de Internet S/A                                                         |             0    |       0    |      0    |         3 |
-| 541 | Lightup Network Solutions GmbH &amp; Co. KG                                             |             0    |       0    |      0    |         3 |
-| 542 | Kyivstar PJSC                                                                           |             0    |       0    |      0    |         3 |
-| 543 | Internetport Sweden AB                                                                  |             0    |       0    |      0    |         3 |
-| 544 | HostDime.com, Inc.                                                                      |             0    |       0    |      0    |         3 |
-| 545 | GMO Internet,Inc                                                                        |             0    |       0    |      0    |         3 |
-| 546 | ecotel communication ag                                                                 |             0    |       0    |      0    |         3 |
-| 547 | CloudVPS B.V.                                                                           |             0    |       0    |      0    |         3 |
-| 548 | Cable One, Inc.                                                                         |             0    |       0    |      0    |         3 |
-| 549 | Windstream Communications LLC                                                           |             0    |       0    |      0    |         2 |
-| 550 | Wholesale Services Provider                                                             |             0    |       0    |      0    |         2 |
-| 551 | Vodafone NZ Ltd.                                                                        |             0    |       0    |      0    |         2 |
-| 552 | Vodafone Italia S.p.A.                                                                  |             0    |       0    |      0    |         2 |
-| 553 | Virtono Networks SRL                                                                    |             0    |       0    |      0    |         2 |
-| 554 | VIPnet d.o.o.                                                                           |             0    |       0    |      0    |         2 |
-| 555 | Videotron Telecom Ltee                                                                  |             0    |       0    |      0    |         2 |
-| 556 | US Internet Corp                                                                        |             0    |       0    |      0    |         2 |
-| 557 | Unwired                                                                                 |             0    |       0    |      0    |         2 |
-| 558 | University of Utah                                                                      |             0    |       0    |      0    |         2 |
-| 559 | Trustica s.r.o.                                                                         |             0    |       0    |      0    |         2 |
-| 560 | Tiscali SpA                                                                             |             0    |       0    |      0    |         2 |
-| 561 | Tim Celular S.A.                                                                        |             0    |       0    |      0    |         2 |
-| 562 | TELEFNICA CHILE S.A.                                                                    |             0    |       0    |      0    |         2 |
-| 563 | Tele 2 Nederland B.V.                                                                   |             0    |       0    |      0    |         2 |
-| 564 | TAZ Verlags- und Vertriebs GmbH                                                         |             0    |       0    |      0    |         2 |
-| 565 | Symphony Communication Thailand PCL.                                                    |             0    |       0    |      0    |         2 |
-| 566 | Sonic Telecom LLC                                                                       |             0    |       0    |      0    |         2 |
-| 567 | SHYAM SPECTRA PVT LTD                                                                   |             0    |       0    |      0    |         2 |
-| 568 | Servicos De Comunicacoes E Multimedia S.A.                                              |             0    |       0    |      0    |         2 |
-| 569 | Qhoster Ltd.                                                                            |             0    |       0    |      0    |         2 |
-| 570 | PT Cloud Hosting Indonesia                                                              |             0    |       0    |      0    |         2 |
-| 571 | PS Internet Company LLC                                                                 |             0    |       0    |      0    |         2 |
-| 572 | PrimaCom Berlin GmbH                                                                    |             0    |       0    |      0    |         2 |
-| 573 | PCCW Limited                                                                            |             0    |       0    |      0    |         2 |
-| 574 | Parknet F.M.B.A                                                                         |             0    |       0    |      0    |         2 |
-| 575 | OU Web Hosting Solutions                                                                |             0    |       0    |      0    |         2 |
-| 576 | Orange Slovensko a.s.                                                                   |             0    |       0    |      0    |         2 |
-| 577 | Novus Entertainment Inc.                                                                |             0    |       0    |      0    |         2 |
-| 578 | Nos Comunicacoes, S.A.                                                                  |             0    |       0    |      0    |         2 |
-| 579 | Nianet A/S                                                                              |             0    |       0    |      0    |         2 |
-| 580 | Netia SA                                                                                |             0    |       0    |      0    |         2 |
-| 581 | NET1 Ltd.                                                                               |             0    |       0    |      0    |         2 |
-| 582 | Nessus GmbH                                                                             |             0    |       0    |      0    |         2 |
-| 583 | Nebula Oy                                                                               |             0    |       0    |      0    |         2 |
-| 584 | National Chiao Tung University                                                          |             0    |       0    |      0    |         2 |
-| 585 | MYREPUBLIC LIMITED                                                                      |             0    |       0    |      0    |         2 |
-| 586 | Multimedia Polska S.A.                                                                  |             0    |       0    |      0    |         2 |
-| 587 | Microplex PTY LTD                                                                       |             0    |       0    |      0    |         2 |
-| 588 | LLC KomTehCentr                                                                         |             0    |       0    |      0    |         2 |
-| 589 | LeapSwitch Networks Pvt Ltd                                                             |             0    |       0    |      0    |         2 |
-| 590 | KDDI CORPORATION                                                                        |             0    |       0    |      0    |         2 |
-| 591 | JSC RTComm.RU                                                                           |             0    |       0    |      0    |         2 |
-| 592 | Iwacom Sp. Z O.o.                                                                       |             0    |       0    |      0    |         2 |
-| 593 | Iteranet LLC                                                                            |             0    |       0    |      0    |         2 |
-| 594 | IT7 Networks Inc                                                                        |             0    |       0    |      0    |         2 |
-| 595 | IP TELECOM GLOBAL                                                                       |             0    |       0    |      0    |         2 |
-| 596 | Internet Initiative Japan Inc.                                                          |             0    |       0    |      0    |         2 |
-| 597 | INSYS LLC                                                                               |             0    |       0    |      0    |         2 |
-| 598 | Informacines sistemos ir technologijos, UAB                                             |             0    |       0    |      0    |         2 |
-| 599 | Infobunker, L.L.C.                                                                      |             0    |       0    |      0    |         2 |
-| 600 | inexio Informationstechnologie und Telekommunikation Gmbh                               |             0    |       0    |      0    |         2 |
-| 601 | ImproWare AG                                                                            |             0    |       0    |      0    |         2 |
-| 602 | iksnet bilgisayar destek hizmetleri anonim sirketi                                      |             0    |       0    |      0    |         2 |
-| 603 | HostSlim BV                                                                             |             0    |       0    |      0    |         2 |
-| 604 | Host Virtual, Inc                                                                       |             0    |       0    |      0    |         2 |
-| 605 | HighSpeed Office Limited                                                                |             0    |       0    |      0    |         2 |
-| 606 | ENTEGA Medianet GmbH                                                                    |             0    |       0    |      0    |         2 |
-| 607 | EE Limited                                                                              |             0    |       0    |      0    |         2 |
-| 608 | EBOX                                                                                    |             0    |       0    |      0    |         2 |
-| 609 | DIGI Tavkozlesi es Szolgaltato Kft.                                                     |             0    |       0    |      0    |         2 |
-| 610 | Dial Telecom, a.s.                                                                      |             0    |       0    |      0    |         2 |
-| 611 | Dennis Rainer Warnholz trading as active-servers.com                                    |             0    |       0    |      0    |         2 |
-| 612 | Colo4, LLC                                                                              |             0    |       0    |      0    |         2 |
-| 613 | Cogeco Cable                                                                            |             0    |       0    |      0    |         2 |
-| 614 | Codero                                                                                  |             0    |       0    |      0    |         2 |
-| 615 | CJSC Ural WES                                                                           |             0    |       0    |      0    |         2 |
-| 616 | CallPlus Services Limited                                                               |             0    |       0    |      0    |         2 |
-| 617 | CAIW Diensten B.V.                                                                      |             0    |       0    |      0    |         2 |
-| 618 | BrainStorm Network, Inc                                                                 |             0    |       0    |      0    |         2 |
-| 619 | Bradler &amp; Krantz GmbH &amp; Co. KG                                                  |             0    |       0    |      0    |         2 |
-| 620 | BIGLOBE Inc.                                                                            |             0    |       0    |      0    |         2 |
-| 621 | Biddeford Internet Corp                                                                 |             0    |       0    |      0    |         2 |
-| 622 | BELNET                                                                                  |             0    |       0    |      0    |         2 |
-| 623 | ArubaCloud Limited                                                                      |             0    |       0    |      0    |         2 |
-| 624 | Armstrong Cable Services                                                                |             0    |       0    |      0    |         2 |
-| 625 | Argon Data Communication                                                                |             0    |       0    |      0    |         2 |
-| 626 | ANGANI-AS                                                                               |             0    |       0    |      0    |         2 |
-| 627 | Zyztm Research Division 10 B.V.                                                         |             0    |       0    |      0    |         1 |
-| 628 | Zayo Bandwidth                                                                          |             0    |       0    |      0    |         1 |
-| 629 | York University                                                                         |             0    |       0    |      0    |         1 |
-| 630 | Yahoo Japan Corporation                                                                 |             0    |       0    |      0    |         1 |
-| 631 | Xirra GmbH                                                                              |             0    |       0    |      0    |         1 |
-| 632 | WTT HK Limited                                                                          |             0    |       0    |      0    |         1 |
-| 633 | Wien Energie GmbH                                                                       |             0    |       0    |      0    |         1 |
-| 634 | WIBO Baltic UAB                                                                         |             0    |       0    |      0    |         1 |
-| 635 | WEST CALL SPb LLC                                                                       |             0    |       0    |      0    |         1 |
-| 636 | WebJanssen ISP ltd &amp; Co KG                                                          |             0    |       0    |      0    |         1 |
-| 637 | VSE NET GmbH                                                                            |             0    |       0    |      0    |         1 |
-| 638 | Vodafone Portugal - Communicacoes Pessoais S.A.                                         |             0    |       0    |      0    |         1 |
-| 639 | VNET a.s.                                                                               |             0    |       0    |      0    |         1 |
-| 640 | Vladivostokskaya Set LTD                                                                |             0    |       0    |      0    |         1 |
-| 641 | Vivacom                                                                                 |             0    |       0    |      0    |         1 |
-| 642 | Virtual Citadel Inc.                                                                    |             0    |       0    |      0    |         1 |
-| 643 | Viettel Group                                                                           |             0    |       0    |      0    |         1 |
-| 644 | Vienna University Computer Center                                                       |             0    |       0    |      0    |         1 |
-| 645 | VELTON.TELECOM Ltd                                                                      |             0    |       0    |      0    |         1 |
-| 646 | Utelisys Communications B.V.                                                            |             0    |       0    |      0    |         1 |
-| 647 | UNIVERSIDADE ESTADUAL DE CAMPINAS                                                       |             0    |       0    |      0    |         1 |
-| 648 | Universidad Nacional Autonoma de Mexico                                                 |             0    |       0    |      0    |         1 |
-| 649 | Uninet S.A. de C.V.                                                                     |             0    |       0    |      0    |         1 |
-| 650 | Unified Layer                                                                           |             0    |       0    |      0    |         1 |
-| 651 | UGMK-Telecom LLC                                                                        |             0    |       0    |      0    |         1 |
-| 652 | UAB Porenta                                                                             |             0    |       0    |      0    |         1 |
-| 653 | Tyfon                                                                                   |             0    |       0    |      0    |         1 |
-| 654 | TUNISIANA                                                                               |             0    |       0    |      0    |         1 |
-| 655 | Tunisia BackBone AS                                                                     |             0    |       0    |      0    |         1 |
-| 656 | Trytech Ltd.                                                                            |             0    |       0    |      0    |         1 |
-| 657 | TRICOM                                                                                  |             0    |       0    |      0    |         1 |
-| 658 | TOKAI Communications Corporation                                                        |             0    |       0    |      0    |         1 |
-| 659 | TIME dotCom Berhad                                                                      |             0    |       0    |      0    |         1 |
-| 660 | Tikona Infinet Ltd.                                                                     |             0    |       0    |      0    |         1 |
-| 661 | Tieteen tietotekniikan keskus Oy                                                        |             0    |       0    |      0    |         1 |
-| 662 | The Corporation for Financing &amp; Promoting Technology                                |             0    |       0    |      0    |         1 |
-| 663 | The Computer Shop Netlink                                                               |             0    |       0    |      0    |         1 |
-| 664 | TeNeT Scientific Production Enterprise LLC                                              |             0    |       0    |      0    |         1 |
-| 665 | Teloise                                                                                 |             0    |       0    |      0    |         1 |
-| 666 | Teleradiocompany Teleos-1 Ltd                                                           |             0    |       0    |      0    |         1 |
-| 667 | Telenor A/S                                                                             |             0    |       0    |      0    |         1 |
-| 668 | Telekomunikacja Podlasie Sp. z o.o.                                                     |             0    |       0    |      0    |         1 |
-| 669 | TELEKOM SRBIJA a.d.                                                                     |             0    |       0    |      0    |         1 |
-| 670 | Telekom Slovenije d.d.                                                                  |             0    |       0    |      0    |         1 |
-| 671 | Telecom Argentina S.A.                                                                  |             0    |       0    |      0    |         1 |
-| 672 | Telecel S.A.                                                                            |             0    |       0    |      0    |         1 |
-| 673 | Telecable de Asturias,SA                                                                |             0    |       0    |      0    |         1 |
-| 674 | TekTonic                                                                                |             0    |       0    |      0    |         1 |
-| 675 | TDS TELECOM                                                                             |             0    |       0    |      0    |         1 |
-| 676 | TBayTel                                                                                 |             0    |       0    |      0    |         1 |
-| 677 | TAU INTERNET Lukasz Chajkaluk                                                           |             0    |       0    |      0    |         1 |
-| 678 | Tarr Kft.                                                                               |             0    |       0    |      0    |         1 |
-| 679 | TAL.DE Klaus Internet Service GmbH                                                      |             0    |       0    |      0    |         1 |
-| 680 | T-Systems International GmbH                                                            |             0    |       0    |      0    |         1 |
-| 681 | T-Mobile Austria GmbH                                                                   |             0    |       0    |      0    |         1 |
-| 682 | T-2, d.o.o.                                                                             |             0    |       0    |      0    |         1 |
-| 683 | Synergy Internet Services Florida                                                       |             0    |       0    |      0    |         1 |
-| 684 | SYNAPSECOM S.A. Provider of Telecommunications and Internet Services                    |             0    |       0    |      0    |         1 |
-| 685 | SWITCH                                                                                  |             0    |       0    |      0    |         1 |
-| 686 | SWAN, a.s.                                                                              |             0    |       0    |      0    |         1 |
-| 687 | SupraNet Communications, Inc.                                                           |             0    |       0    |      0    |         1 |
-| 688 | SUNY at Stony Brook                                                                     |             0    |       0    |      0    |         1 |
-| 689 | Sun Network Hong Kong Limited - HongKong Backbone                                       |             0    |       0    |      0    |         1 |
-| 690 | Summit Internet Australia                                                               |             0    |       0    |      0    |         1 |
-| 691 | Suddenlink Communications                                                               |             0    |       0    |      0    |         1 |
-| 692 | Start LLC                                                                               |             0    |       0    |      0    |         1 |
-| 693 | Start Communications                                                                    |             0    |       0    |      0    |         1 |
-| 694 | Starry Network Limited                                                                  |             0    |       0    |      0    |         1 |
-| 695 | Starman AS                                                                              |             0    |       0    |      0    |         1 |
-| 696 | Spoldzielnia Telekomunikacyjna OST                                                      |             0    |       0    |      0    |         1 |
-| 697 | Spirit Telecom Australia Pty Ltd                                                        |             0    |       0    |      0    |         1 |
-| 698 | Spin Internet Service                                                                   |             0    |       0    |      0    |         1 |
-| 699 | Speedbone Internet &amp; Connectivity GmbH                                              |             0    |       0    |      0    |         1 |
-| 700 | Source XS B.V.                                                                          |             0    |       0    |      0    |         1 |
-| 701 | SnapServ Ltd                                                                            |             0    |       0    |      0    |         1 |
-| 702 | SkipLink, LLC                                                                           |             0    |       0    |      0    |         1 |
-| 703 | Singtel Fibre Broadband                                                                 |             0    |       0    |      0    |         1 |
-| 704 | Simply Transit Ltd                                                                      |             0    |       0    |      0    |         1 |
-| 705 | Sigterm Mikal Villa                                                                     |             0    |       0    |      0    |         1 |
-| 706 | Sibinet, Ltd.                                                                           |             0    |       0    |      0    |         1 |
-| 707 | SIA Lattelecom                                                                          |             0    |       0    |      0    |         1 |
-| 708 | SIA Digitalas Ekonomikas Attistibas Centrs                                              |             0    |       0    |      0    |         1 |
-| 709 | Serverbase AG                                                                           |             0    |       0    |      0    |         1 |
-| 710 | ServeNET Solution Limited Partnership                                                   |             0    |       0    |      0    |         1 |
-| 711 | SECURED SERVERS LLC                                                                     |             0    |       0    |      0    |         1 |
-| 712 | Science Production Company Trifle Ltd.                                                  |             0    |       0    |      0    |         1 |
-| 713 | Sc Cloud Troopers International Srl                                                     |             0    |       0    |      0    |         1 |
-| 714 | SatTel Corporation, Ltd.                                                                |             0    |       0    |      0    |         1 |
-| 715 | SAREnet, S.A.                                                                           |             0    |       0    |      0    |         1 |
-| 716 | Sardegna Wifi Srl                                                                       |             0    |       0    |      0    |         1 |
-| 717 | Rychly drat, s.r.o.                                                                     |             0    |       0    |      0    |         1 |
-| 718 | Ruscom Ltd.                                                                             |             0    |       0    |      0    |         1 |
-| 719 | rsnet s.r.o.                                                                            |             0    |       0    |      0    |         1 |
-| 720 | rrbone UG haftungsbeschraenkt                                                           |             0    |       0    |      0    |         1 |
-| 721 | Riseup Networks                                                                         |             0    |       0    |      0    |         1 |
-| 722 | RFTkabel Brandenburg GmbH                                                               |             0    |       0    |      0    |         1 |
-| 723 | Rethem Hosting LLC                                                                      |             0    |       0    |      0    |         1 |
-| 724 | Reliance Communications Ltd.DAKC MUMBAI                                                 |             0    |       0    |      0    |         1 |
-| 725 | Regional Information Technologies Ltd.                                                  |             0    |       0    |      0    |         1 |
-| 726 | Redcom-Internet Inc.                                                                    |             0    |       0    |      0    |         1 |
-| 727 | RCL CJSC                                                                                |             0    |       0    |      0    |         1 |
-| 728 | Ratt Internet Kapacitet i Sverige AB                                                    |             0    |       0    |      0    |         1 |
-| 729 | Rakuten Communications Corp.                                                            |             0    |       0    |      0    |         1 |
-| 730 | Radio Muzyka Fakty Sp. z o.o.                                                           |             0    |       0    |      0    |         1 |
-| 731 | Racknation S.A.                                                                         |             0    |       0    |      0    |         1 |
-| 732 | Rachamim Aviel Twito trading as A.B INTERNET SOLUTIONS                                  |             0    |       0    |      0    |         1 |
-| 733 | R Cable y Telecomunicaciones Galicia, S.A.                                              |             0    |       0    |      0    |         1 |
-| 734 | Quartz Telecom LLC                                                                      |             0    |       0    |      0    |         1 |
-| 735 | Purevoltage Enterprises Inc.                                                            |             0    |       0    |      0    |         1 |
-| 736 | Public Telecommunication Corporation                                                    |             0    |       0    |      0    |         1 |
-| 737 | PT. Raja Sepadan Abadi                                                                  |             0    |       0    |      0    |         1 |
-| 738 | PT. Mediatama Telematika Nusantara                                                      |             0    |       0    |      0    |         1 |
-| 739 | Primus Telecommunications                                                               |             0    |       0    |      0    |         1 |
-| 740 | Prima S.A.                                                                              |             0    |       0    |      0    |         1 |
-| 741 | PJSC Telesystems of Ukraine                                                             |             0    |       0    |      0    |         1 |
-| 742 | PJSC MegaFon                                                                            |             0    |       0    |      0    |         1 |
-| 743 | Philippine Long Distance Telephone Company                                              |             0    |       0    |      0    |         1 |
-| 744 | PCextreme B.V.                                                                          |             0    |       0    |      0    |         1 |
-| 745 | Patrik Lagerman WEB, Enskild Firma                                                      |             0    |       0    |      0    |         1 |
-| 746 | Panamaserver.com                                                                        |             0    |       0    |      0    |         1 |
-| 747 | OTK LLC.                                                                                |             0    |       0    |      0    |         1 |
-| 748 | Origin Broadband Limited                                                                |             0    |       0    |      0    |         1 |
-| 749 | Orange Polska Spolka Akcyjna                                                            |             0    |       0    |      0    |         1 |
-| 750 | OPTINET                                                                                 |             0    |       0    |      0    |         1 |
-| 751 | Ooredoo Q.S.C.                                                                          |             0    |       0    |      0    |         1 |
-| 752 | OOO Post ltd                                                                            |             0    |       0    |      0    |         1 |
-| 753 | OOO National Telecommunications                                                         |             0    |       0    |      0    |         1 |
-| 754 | OOO Bryansk Svyaz-TV                                                                    |             0    |       0    |      0    |         1 |
-| 755 | Onetsolutions Sasu                                                                      |             0    |       0    |      0    |         1 |
-| 756 | Omskie kabelnye seti Ltd.                                                               |             0    |       0    |      0    |         1 |
-| 757 | OJSC Ufanet                                                                             |             0    |       0    |      0    |         1 |
-| 758 | Ojsc oao Tattelecom                                                                     |             0    |       0    |      0    |         1 |
-| 759 | Occino GmbH                                                                             |             0    |       0    |      0    |         1 |
-| 760 | Ocala Electric Utility                                                                  |             0    |       0    |      0    |         1 |
-| 761 | OAO Osnova Telecom                                                                      |             0    |       0    |      0    |         1 |
-| 762 | NSS S.A.                                                                                |             0    |       0    |      0    |         1 |
-| 763 | North State Telephone Co.                                                               |             0    |       0    |      0    |         1 |
-| 764 | noris network AG                                                                        |             0    |       0    |      0    |         1 |
-| 765 | NINET Company Nis d.o.o.                                                                |             0    |       0    |      0    |         1 |
-| 766 | Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH                        |             0    |       0    |      0    |         1 |
-| 767 | Nexinto GmbH                                                                            |             0    |       0    |      0    |         1 |
-| 768 | Nexeon Technologies, Inc.                                                               |             0    |       0    |      0    |         1 |
-| 769 | New Wave Communications                                                                 |             0    |       0    |      0    |         1 |
-| 770 | New Telesystems - TV, Ltd.                                                              |             0    |       0    |      0    |         1 |
-| 771 | Nette sp. z o.o.                                                                        |             0    |       0    |      0    |         1 |
-| 772 | NetStack-AS                                                                             |             0    |       0    |      0    |         1 |
-| 773 | netplus.ch SA                                                                           |             0    |       0    |      0    |         1 |
-| 774 | NetNet                                                                                  |             0    |       0    |      0    |         1 |
-| 775 | NetCom BW GmbH                                                                          |             0    |       0    |      0    |         1 |
-| 776 | Netcetera Ltd.                                                                          |             0    |       0    |      0    |         1 |
-| 777 | Net-style Atarim Ltd                                                                    |             0    |       0    |      0    |         1 |
-| 778 | Net Onboard Sdn Bhd - Quality &amp; Reliable Cloud Hosting Provider                     |             0    |       0    |      0    |         1 |
-| 779 | Nej.cz s.r.o.                                                                           |             0    |       0    |      0    |         1 |
-| 780 | National Telecommunication Corporation HQ                                               |             0    |       0    |      0    |         1 |
-| 781 | National Internet Backbone                                                              |             0    |       0    |      0    |         1 |
-| 782 | National Computer Systems Co Ltd                                                        |             0    |       0    |      0    |         1 |
-| 783 | National Central University                                                             |             0    |       0    |      0    |         1 |
-| 784 | Mythic Beasts Ltd                                                                       |             0    |       0    |      0    |         1 |
-| 785 | MYREPUBLIC PTY LTD                                                                      |             0    |       0    |      0    |         1 |
-| 786 | MyRepublic Ltd.                                                                         |             0    |       0    |      0    |         1 |
-| 787 | MT-MPLS                                                                                 |             0    |       0    |      0    |         1 |
-| 788 | Moselle Telecom                                                                         |             0    |       0    |      0    |         1 |
-| 789 | Mittwald CM Service GmbH und Co.KG                                                      |             0    |       0    |      0    |         1 |
-| 790 | mitko.com Eood                                                                          |             0    |       0    |      0    |         1 |
-| 791 | MILLICOM CABLE COSTA RICA S.A.                                                          |             0    |       0    |      0    |         1 |
-| 792 | Mike Kaldig                                                                             |             0    |       0    |      0    |         1 |
-| 793 | Midcontinent Communications                                                             |             0    |       0    |      0    |         1 |
-| 794 | mhs internet AG                                                                         |             0    |       0    |      0    |         1 |
-| 795 | Metronet telekomunikacije d.d.                                                          |             0    |       0    |      0    |         1 |
-| 796 | Melbikomas UAB                                                                          |             0    |       0    |      0    |         1 |
-| 797 | McGill University                                                                       |             0    |       0    |      0    |         1 |
-| 798 | Manx Telecom                                                                            |             0    |       0    |      0    |         1 |
-| 799 | manitu GmbH                                                                             |             0    |       0    |      0    |         1 |
-| 800 | ManagedWay                                                                              |             0    |       0    |      0    |         1 |
-| 801 | Mammoth Media Pty Ltd                                                                   |             0    |       0    |      0    |         1 |
-| 802 | Mahanagar Telephone Nigam Limited                                                       |             0    |       0    |      0    |         1 |
-| 803 | Mada ALArab LTD                                                                         |             0    |       0    |      0    |         1 |
-| 804 | Loveservers LTD                                                                         |             0    |       0    |      0    |         1 |
-| 805 | Lost Oasis SARL                                                                         |             0    |       0    |      0    |         1 |
-| 806 | Long Lines Internet                                                                     |             0    |       0    |      0    |         1 |
-| 807 | LLHost Inc                                                                              |             0    |       0    |      0    |         1 |
-| 808 | LLC TOMTEL                                                                              |             0    |       0    |      0    |         1 |
-| 809 | LLC Murmansk Multiservice Networks                                                      |             0    |       0    |      0    |         1 |
-| 810 | LLC IT Business                                                                         |             0    |       0    |      0    |         1 |
-| 811 | LLC CloudSol                                                                            |             0    |       0    |      0    |         1 |
-| 812 | LIWEST Kabelmedien GmbH                                                                 |             0    |       0    |      0    |         1 |
-| 813 | Liquid Web, L.L.C                                                                       |             0    |       0    |      0    |         1 |
-| 814 | Limestone Networks, Inc.                                                                |             0    |       0    |      0    |         1 |
-| 815 | Lightspeed Communications, LLC                                                          |             0    |       0    |      0    |         1 |
-| 816 | LigaLink, Ltd.                                                                          |             0    |       0    |      0    |         1 |
-| 817 | Lennart Seitz                                                                           |             0    |       0    |      0    |         1 |
-| 818 | Krasnoyarsklespromproekt OJSC                                                           |             0    |       0    |      0    |         1 |
-| 819 | Koumbit                                                                                 |             0    |       0    |      0    |         1 |
-| 820 | komro GmbH                                                                              |             0    |       0    |      0    |         1 |
-| 821 | KIFU Governmental Info Tech Development Agency                                          |             0    |       0    |      0    |         1 |
-| 822 | Kcom                                                                                    |             0    |       0    |      0    |         1 |
-| 823 | Kangaroot BVBA                                                                          |             0    |       0    |      0    |         1 |
-| 824 | kabelplus GmbH                                                                          |             0    |       0    |      0    |         1 |
-| 825 | K Telecom                                                                               |             0    |       0    |      0    |         1 |
-| 826 | K Net Solutions Pvt Ltd                                                                 |             0    |       0    |      0    |         1 |
-| 827 | Jupiter Telecommunications Co., Ltd.                                                    |             0    |       0    |      0    |         1 |
-| 828 | JSC Vostoktelecom                                                                       |             0    |       0    |      0    |         1 |
-| 829 | JSC Transtelecom                                                                        |             0    |       0    |      0    |         1 |
-| 830 | JSC Kazakhtelecom                                                                       |             0    |       0    |      0    |         1 |
-| 831 | JMDI Jacek Maleszko                                                                     |             0    |       0    |      0    |         1 |
-| 832 | Jisc Services Limited                                                                   |             0    |       0    |      0    |         1 |
-| 833 | iWelt AG                                                                                |             0    |       0    |      0    |         1 |
-| 834 | It services                                                                             |             0    |       0    |      0    |         1 |
-| 835 | itself s.r.o.                                                                           |             0    |       0    |      0    |         1 |
-| 836 | iTools JSC                                                                              |             0    |       0    |      0    |         1 |
-| 837 | ISKON INTERNET d.d. za informatiku i telekomunikacije                                   |             0    |       0    |      0    |         1 |
-| 838 | IP-Max SA                                                                               |             0    |       0    |      0    |         1 |
-| 839 | Intersvyaz-2 JSC                                                                        |             0    |       0    |      0    |         1 |
-| 840 | Internetia Sp.z o.o.                                                                    |             0    |       0    |      0    |         1 |
-| 841 | Inter.Net Germany                                                                       |             0    |       0    |      0    |         1 |
-| 842 | Intelsc Ltd.                                                                            |             0    |       0    |      0    |         1 |
-| 843 | Innsbrucker Kommunalbetriebe AG                                                         |             0    |       0    |      0    |         1 |
-| 844 | Inforoom Ltd.                                                                           |             0    |       0    |      0    |         1 |
-| 845 | Infomaniak Network SA                                                                   |             0    |       0    |      0    |         1 |
-| 846 | Infoline Ltd.                                                                           |             0    |       0    |      0    |         1 |
-| 847 | Individual Entrepreneur Tetiana Markova                                                 |             0    |       0    |      0    |         1 |
-| 848 | iiNet Limited                                                                           |             0    |       0    |      0    |         1 |
-| 849 | iCONNECT                                                                                |             0    |       0    |      0    |         1 |
-| 850 | Ic-voronezh                                                                             |             0    |       0    |      0    |         1 |
-| 851 | Iberbanda S.A.                                                                          |             0    |       0    |      0    |         1 |
-| 852 | Hutchison Drei Austria GmbH                                                             |             0    |       0    |      0    |         1 |
-| 853 | htp GmbH                                                                                |             0    |       0    |      0    |         1 |
-| 854 | Hostway Services, Inc.                                                                  |             0    |       0    |      0    |         1 |
-| 855 | HostMySite                                                                              |             0    |       0    |      0    |         1 |
-| 856 | Hosting.de GmbH                                                                         |             0    |       0    |      0    |         1 |
-| 857 | Hosting Ukraine LTD                                                                     |             0    |       0    |      0    |         1 |
-| 858 | Hosting Services, Inc.                                                                  |             0    |       0    |      0    |         1 |
-| 859 | Horyzont Technologie Internetowe sp.z.o.o.                                              |             0    |       0    |      0    |         1 |
-| 860 | HopOne Internet Corporation                                                             |             0    |       0    |      0    |         1 |
-| 861 | HL komm Telekommunikations GmbH                                                         |             0    |       0    |      0    |         1 |
-| 862 | HitMe.pl Marek Bajerski                                                                 |             0    |       0    |      0    |         1 |
-| 863 | Hilton Cesar Bender &amp; Cia Ltda                                                      |             0    |       0    |      0    |         1 |
-| 864 | Highwinds Network Group, Inc.                                                           |             0    |       0    |      0    |         1 |
-| 865 | Hiawatha Broadband Communications, Inc                                                  |             0    |       0    |      0    |         1 |
-| 866 | Heinlein-Support GmbH                                                                   |             0    |       0    |      0    |         1 |
-| 867 | hd.net.nz                                                                               |             0    |       0    |      0    |         1 |
-| 868 | Hawaiian Telcom Services Company, Inc.                                                  |             0    |       0    |      0    |         1 |
-| 869 | GX INTERNET E WEB HOSTING SERV DE INFORMATICA LTDA                                      |             0    |       0    |      0    |         1 |
-| 870 | Gtd Internet S.A.                                                                       |             0    |       0    |      0    |         1 |
-| 871 | Grande Communications Networks, LLC                                                     |             0    |       0    |      0    |         1 |
-| 872 | GPTC Autonomous System, Tripoli Libya                                                   |             0    |       0    |      0    |         1 |
-| 873 | Gorset Ltd.                                                                             |             0    |       0    |      0    |         1 |
-| 874 | Ginernet S.l.                                                                           |             0    |       0    |      0    |         1 |
-| 875 | GigaMonster                                                                             |             0    |       0    |      0    |         1 |
-| 876 | Gigabit Hosting Sdn Bhd                                                                 |             0    |       0    |      0    |         1 |
-| 877 | GEORGIA PUBLIC WEB, INC.                                                                |             0    |       0    |      0    |         1 |
-| 878 | GENERAL COMMUNICATION, INC.                                                             |             0    |       0    |      0    |         1 |
-| 879 | G-Core Labs S.A.                                                                        |             0    |       0    |      0    |         1 |
-| 880 | FUJITSU LIMITED                                                                         |             0    |       0    |      0    |         1 |
-| 881 | Freenet Ltd.                                                                            |             0    |       0    |      0    |         1 |
-| 882 | FreeBit Co.,Ltd.                                                                        |             0    |       0    |      0    |         1 |
-| 883 | FortressITX                                                                             |             0    |       0    |      0    |         1 |
-| 884 | Fork Networking, LLC                                                                    |             0    |       0    |      0    |         1 |
-| 885 | Final Frontier Corporation                                                              |             0    |       0    |      0    |         1 |
-| 886 | FibreStream, Inc.                                                                       |             0    |       0    |      0    |         1 |
-| 887 | FIBIA P/S                                                                               |             0    |       0    |      0    |         1 |
-| 888 | FIBERNETICS CORPORATION                                                                 |             0    |       0    |      0    |         1 |
-| 889 | Fiber 1 Ltd.                                                                            |             0    |       0    |      0    |         1 |
-| 890 | FASTER CZ spol. s r.o.                                                                  |             0    |       0    |      0    |         1 |
-| 891 | FAIRPOINT COMMUNICATIONS, INC.                                                          |             0    |       0    |      0    |         1 |
-| 892 | Exetel Pty Ltd                                                                          |             0    |       0    |      0    |         1 |
-| 893 | Exa Networks Limited                                                                    |             0    |       0    |      0    |         1 |
-| 894 | Exa Bytes Network Sdn.Bhd.                                                              |             0    |       0    |      0    |         1 |
-| 895 | Everest Broadcasting Company Ltd                                                        |             0    |       0    |      0    |         1 |
-| 896 | European Backbone Networks Inc.                                                         |             0    |       0    |      0    |         1 |
-| 897 | Euronet Communications B.V.                                                             |             0    |       0    |      0    |         1 |
-| 898 | eTOP sp. z o.o.                                                                         |             0    |       0    |      0    |         1 |
-| 899 | ESDS Software Solution Pvt. Ltd.                                                        |             0    |       0    |      0    |         1 |
-| 900 | ENTEL CHILE S.A.                                                                        |             0    |       0    |      0    |         1 |
-| 901 | ennit server GmbH                                                                       |             0    |       0    |      0    |         1 |
-| 902 | encoLine GmbH                                                                           |             0    |       0    |      0    |         1 |
-| 903 | Ellijay Telephone Company                                                               |             0    |       0    |      0    |         1 |
-| 904 | Elkdata OU                                                                              |             0    |       0    |      0    |         1 |
-| 905 | Electric Plant Board of the City of Glasgow, Kentucky                                   |             0    |       0    |      0    |         1 |
-| 906 | Eircom                                                                                  |             0    |       0    |      0    |         1 |
-| 907 | Eigo Solutii Srl                                                                        |             0    |       0    |      0    |         1 |
-| 908 | EastLink                                                                                |             0    |       0    |      0    |         1 |
-| 909 | DSi DATA s.r.o.                                                                         |             0    |       0    |      0    |         1 |
-| 910 | DomoLAN Ltd.                                                                            |             0    |       0    |      0    |         1 |
-| 911 | dogado GmbH                                                                             |             0    |       0    |      0    |         1 |
-| 912 | DoclerWeb Kft.                                                                          |             0    |       0    |      0    |         1 |
-| 913 | Digital Energy Technologies Limited                                                     |             0    |       0    |      0    |         1 |
-| 914 | Digital Energy Technologies Chile SpA                                                   |             0    |       0    |      0    |         1 |
-| 915 | Digit One LLC                                                                           |             0    |       0    |      0    |         1 |
-| 916 | Deteque LLC                                                                             |             0    |       0    |      0    |         1 |
-| 917 | DataCorpore Servios e Representaes                                                      |             0    |       0    |      0    |         1 |
-| 918 | Dansk Net A/S                                                                           |             0    |       0    |      0    |         1 |
-| 919 | Cyber Wurx LLC                                                                          |             0    |       0    |      0    |         1 |
-| 920 | Cutting Edge Communications, Inc.                                                       |             0    |       0    |      0    |         1 |
-| 921 | Corporate Colocation Inc.                                                               |             0    |       0    |      0    |         1 |
-| 922 | CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP                                     |             0    |       0    |      0    |         1 |
-| 923 | COPEL Telecomunicaes S.A.                                                               |             0    |       0    |      0    |         1 |
-| 924 | Cooolbox AD                                                                             |             0    |       0    |      0    |         1 |
-| 925 | CONTINENTAL BROADBAND PENNSYLVANIA, INC.                                                |             0    |       0    |      0    |         1 |
-| 926 | Consortium GARR                                                                         |             0    |       0    |      0    |         1 |
-| 927 | Consorci de Serveis Universitaris de Catalunya                                          |             0    |       0    |      0    |         1 |
-| 928 | Consolidated Communications, Inc.                                                       |             0    |       0    |      0    |         1 |
-| 929 | ConSol Consulting &amp; Solutions Software GmbH                                         |             0    |       0    |      0    |         1 |
-| 930 | Conseev LLC                                                                             |             0    |       0    |      0    |         1 |
-| 931 | Complea A/S                                                                             |             0    |       0    |      0    |         1 |
-| 932 | Companhia de Telecomunicacoes de Macau SARL                                             |             0    |       0    |      0    |         1 |
-| 933 | COMCEL GUATEMALA S.A.                                                                   |             0    |       0    |      0    |         1 |
-| 934 | COMA s.r.o.                                                                             |             0    |       0    |      0    |         1 |
-| 935 | CMC Telecom Infrastructure Company                                                      |             0    |       0    |      0    |         1 |
-| 936 | CMB                                                                                     |             0    |       0    |      0    |         1 |
-| 937 | Clouvider Limited                                                                       |             0    |       0    |      0    |         1 |
-| 938 | Cloudsigma Ag                                                                           |             0    |       0    |      0    |         1 |
-| 939 | Cloud South                                                                             |             0    |       0    |      0    |         1 |
-| 940 | Closed Joint Stock Company TransTeleCom                                                 |             0    |       0    |      0    |         1 |
-| 941 | Closed Joint Stock Company SibTransTelecom                                              |             0    |       0    |      0    |         1 |
-| 942 | Clarkson University                                                                     |             0    |       0    |      0    |         1 |
-| 943 | CJSC TSI Service                                                                        |             0    |       0    |      0    |         1 |
-| 944 | Citycable                                                                               |             0    |       0    |      0    |         1 |
-| 945 | Cincinnati Bell Telephone Company LLC                                                   |             0    |       0    |      0    |         1 |
-| 946 | Chaos Computer Club e.V.                                                                |             0    |       0    |      0    |         1 |
-| 947 | Centro Educacional Nossa Senhora Auxiliadora                                            |             0    |       0    |      0    |         1 |
-| 948 | CELL-C                                                                                  |             0    |       0    |      0    |         1 |
-| 949 | CDM                                                                                     |             0    |       0    |      0    |         1 |
-| 950 | CABO SERVICOS DE TELECOMUNICACOES LTDA                                                  |             0    |       0    |      0    |         1 |
-| 951 | CABLEVISION S.A.                                                                        |             0    |       0    |      0    |         1 |
-| 952 | Cablenet Communication Systems Ltd                                                      |             0    |       0    |      0    |         1 |
-| 953 | Cablelynx                                                                               |             0    |       0    |      0    |         1 |
-| 954 | C&amp;S Breitband GmbH                                                                  |             0    |       0    |      0    |         1 |
-| 955 | Buzinessware FZCO                                                                       |             0    |       0    |      0    |         1 |
-| 956 | Business Consulting LLC                                                                 |             0    |       0    |      0    |         1 |
-| 957 | Brutele SC                                                                              |             0    |       0    |      0    |         1 |
-| 958 | Brownrice Internet, Inc.                                                                |             0    |       0    |      0    |         1 |
-| 959 | Brightbox Systems Ltd                                                                   |             0    |       0    |      0    |         1 |
-| 960 | Brasil Telecom S/A - Filial Distrito Federal                                            |             0    |       0    |      0    |         1 |
-| 961 | Bowdoin College                                                                         |             0    |       0    |      0    |         1 |
-| 962 | BEST-NET s.r.o.                                                                         |             0    |       0    |      0    |         1 |
-| 963 | Bergon Internet Ltd.                                                                    |             0    |       0    |      0    |         1 |
-| 964 | Balnet Ltd.                                                                             |             0    |       0    |      0    |         1 |
-| 965 | B2B2C Inc                                                                               |             0    |       0    |      0    |         1 |
-| 966 | B2 Net Solutions Inc.                                                                   |             0    |       0    |      0    |         1 |
-| 967 | Avensys Networks Ltd                                                                    |             0    |       0    |      0    |         1 |
-| 968 | Aureon Network Services                                                                 |             0    |       0    |      0    |         1 |
-| 969 | Association GRIFON                                                                      |             0    |       0    |      0    |         1 |
-| 970 | Ask4 Limited                                                                            |             0    |       0    |      0    |         1 |
-| 971 | Asahi Net                                                                               |             0    |       0    |      0    |         1 |
-| 972 | AS250.net Foundation                                                                    |             0    |       0    |      0    |         1 |
-| 973 | Artfiles New Media GmbH                                                                 |             0    |       0    |      0    |         1 |
-| 974 | ARTERIA Networks Corporation                                                            |             0    |       0    |      0    |         1 |
-| 975 | ARDH GLOBAL INDONESIA, PT                                                               |             0    |       0    |      0    |         1 |
-| 976 | Arcade Solutions AG                                                                     |             0    |       0    |      0    |         1 |
-| 977 | Arachnitec, INC.                                                                        |             0    |       0    |      0    |         1 |
-| 978 | Andorra Telecom Sau                                                                     |             0    |       0    |      0    |         1 |
-| 979 | AMSNET Andrzej Szreter                                                                  |             0    |       0    |      0    |         1 |
-| 980 | Amsio B.V.                                                                              |             0    |       0    |      0    |         1 |
-| 981 | AltusHost B.V.                                                                          |             0    |       0    |      0    |         1 |
-| 982 | AlpineDC SA                                                                             |             0    |       0    |      0    |         1 |
-| 983 | Alibaba China Technology Co., Ltd.                                                      |             0    |       0    |      0    |         1 |
-| 984 | ALDIS Telecom Ltd                                                                       |             0    |       0    |      0    |         1 |
-| 985 | Alastyr Telekomunikasyon A.S.                                                           |             0    |       0    |      0    |         1 |
-| 986 | Airstream Communications, LLC                                                           |             0    |       0    |      0    |         1 |
-| 987 | Agentia de Administrare a Retelei Nationale de Informatica pentru Educatie si Cercetare |             0    |       0    |      0    |         1 |
-| 988 | ABC Domain LLC                                                                          |             0    |       0    |      0    |         1 |
-| 989 | Aalto University Student Union                                                          |             0    |       0    |      0    |         1 |
-| 990 | 3S S.A.                                                                                 |             0    |       0    |      0    |         1 |
-| 991 | 365 Online technology joint stock company                                               |             0    |       0    |      0    |         1 |
-| 992 | 31173 Services AB                                                                       |             0    |       0    |      0    |         1 |
+|     | AS Name                                                              |   CW Fraction(%) |   Guard(%) |   Exit(%) |   #Relays |
+|----:|:---------------------------------------------------------------------|-----------------:|-----------:|----------:|----------:|
+|   0 | OVH SAS                                                              |            15.47 |      15.95 |      7.77 |       514 |
+|   1 | Online S.a.s.                                                        |             9.89 |      12.34 |     12.2  |       392 |
+|   2 | Hetzner Online GmbH                                                  |             7.59 |       8.72 |      1.53 |       289 |
+|   3 | DigitalOcean, LLC                                                    |             5.27 |       5.88 |      1.61 |       317 |
+|   4 | Host Europe GmbH                                                     |             2.37 |       3.31 |      0    |        43 |
+|   5 | THC Projects SRL                                                     |             1.44 |       3.21 |      0    |        17 |
+|   6 | myLoc managed IT AG                                                  |             1.27 |       2.29 |      0.64 |        40 |
+|   7 | SURFnet bv                                                           |             1.11 |       0.49 |      0.99 |        12 |
+|   8 | SOFTplus Entwicklungen GmbH                                          |             1.08 |       0    |      4.37 |        17 |
+|   9 | ISPpro Internet KG                                                   |             1.02 |       1.88 |      0    |        28 |
+|  10 | Linode, LLC                                                          |             1.02 |       0.38 |      0.52 |       204 |
+|  11 | NForce Entertainment B.V.                                            |             0.92 |       0    |      3.53 |        16 |
+|  12 | Contabo GmbH                                                         |             0.9  |       1.56 |      0.5  |        51 |
+|  13 | LeaseWeb Netherlands B.V.                                            |             0.9  |       0.28 |      0.57 |        46 |
+|  14 | CYBERDYNE                                                            |             0.86 |       0    |      3.55 |         6 |
+|  15 | Quintex Alliance Consulting                                          |             0.82 |       0    |      3.39 |        50 |
+|  16 | WorldStream B.V.                                                     |             0.77 |       1.16 |      0    |        17 |
+|  17 | Voxility S.R.L.                                                      |             0.75 |       0.33 |      2.04 |        12 |
+|  18 | ITL Company                                                          |             0.72 |       1.39 |      0.03 |        40 |
+|  19 | Hurricane Electric, Inc.                                             |             0.68 |       0.64 |      1.61 |        15 |
+|  20 | Init7 Switzerland Ltd.                                               |             0.67 |       1.39 |      0    |        21 |
+|  21 | Zwiebelfreunde e.V.                                                  |             0.65 |       0    |      2.68 |         6 |
+|  22 | Leaseweb Deutschland GmbH                                            |             0.63 |       0.59 |      0.83 |        15 |
+|  23 | YISP B.V.                                                            |             0.58 |       0    |      2.4  |         6 |
+|  24 | MCI Communications Services, Inc. d/b/a Verizon Business             |             0.55 |       0.83 |      0.11 |        47 |
+|  25 | Bahnhof Internet AB                                                  |             0.55 |       0.21 |      0.25 |        24 |
+|  26 | Keyweb AG                                                            |             0.54 |       0.45 |      1.15 |        28 |
+|  27 | Choopa, LLC                                                          |             0.54 |       0.19 |      0    |       107 |
+|  28 | Google Fiber Inc.                                                    |             0.52 |       0.26 |      0    |         9 |
+|  29 | OkServers LLC                                                        |             0.5  |       0    |      2.08 |         2 |
+|  30 | SUNET SUNET Swedish University Network                               |             0.49 |       0.97 |      0    |         7 |
+|  31 | Private Layer INC                                                    |             0.48 |       0.65 |      0.09 |        19 |
+|  32 | Massachusetts Institute of Technology                                |             0.44 |       0.36 |      0.31 |        10 |
+|  33 | SITAB Infrastruktur                                                  |             0.44 |       0    |      0    |         4 |
+|  34 | Altibox AS                                                           |             0.42 |       0.91 |      0    |        10 |
+|  35 | Microsoft Corporation                                                |             0.4  |       0.33 |      0.01 |        27 |
+|  36 | Foreningen for digitala fri- och rattigheter                         |             0.4  |       0    |      1.67 |         6 |
+|  37 | Cogent Communications                                                |             0.39 |       0.73 |      0    |        25 |
+|  38 | Deutsche Telekom AG                                                  |             0.39 |       0.03 |      0.01 |       183 |
+|  39 | Makonix SIA                                                          |             0.38 |       0.69 |      0.02 |        24 |
+|  40 | Nobis Technology Group, LLC                                          |             0.37 |       0.83 |      0    |         2 |
+|  41 | Lynet Internett AS                                                   |             0.37 |       0.51 |      0    |         7 |
+|  42 | FranTech Solutions                                                   |             0.37 |       0.25 |      0.68 |        15 |
+|  43 | Global Layer B.V.                                                    |             0.36 |       0.03 |      0.66 |         6 |
+|  44 | M5i Limited                                                          |             0.36 |       0    |      1.5  |         1 |
+|  45 | EVANZO e-commerce GmbH                                               |             0.35 |       0.79 |      0    |        10 |
+|  46 | OOO Fishnet Communications                                           |             0.34 |       0.7  |      0    |        16 |
+|  47 | 1&amp;1 Internet SE                                                  |             0.34 |       0.45 |      0.07 |        18 |
+|  48 | Quasi Networks LTD.                                                  |             0.34 |       0.07 |      1.26 |         8 |
+|  49 | netcup GmbH                                                          |             0.33 |       0.4  |      0    |        29 |
+|  50 | Parfumuri Femei.com SRL                                              |             0.32 |       0.6  |      0    |         8 |
+|  51 | Netaction Telecom Srl-d                                              |             0.32 |       0.44 |      0.11 |        11 |
+|  52 | Joshua Peter McQuistan                                               |             0.32 |       0.28 |      0    |         7 |
+|  53 | Flokinet Ltd                                                         |             0.32 |       0.21 |      0.73 |        21 |
+|  54 | Tetaneutral.net                                                      |             0.32 |       0    |      1.33 |         2 |
+|  55 | Oy Creanova Hosting Solutions Ltd.                                   |             0.31 |       0.23 |      0.56 |        19 |
+|  56 | I.C.S. Trabia-Network S.R.L.                                         |             0.3  |       0.06 |      1.05 |        25 |
+|  57 | BENESTRA, s.r.o.                                                     |             0.29 |       0    |      1.21 |         4 |
+|  58 | WEDOS Internet, a.s.                                                 |             0.28 |       0.5  |      0    |        16 |
+|  59 | RWTH Aachen University                                               |             0.28 |       0.45 |      0    |         3 |
+|  60 | QuadraNet, Inc                                                       |             0.28 |       0.03 |      0.83 |        30 |
+|  61 | ServerAstra Kft.                                                     |             0.27 |       0.25 |      0.62 |        12 |
+|  62 | Xs4all Internet BV                                                   |             0.26 |       0.33 |      0.05 |        34 |
+|  63 | Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.          |             0.26 |       0.29 |      0    |        13 |
+|  64 | Alistar Security Srl                                                 |             0.26 |       0    |      1.07 |         2 |
+|  65 | Telenor Norge AS                                                     |             0.25 |       0.47 |      0    |        30 |
+|  66 | TUTNET TUT Autonomous System                                         |             0.25 |       0    |      0    |        10 |
+|  67 | Foerderverein Freie Netzwerke e.V.                                   |             0.24 |       0    |      0    |         3 |
+|  68 | INTERNET CZ, a.s.                                                    |             0.22 |       0.49 |      0    |        13 |
+|  69 | Telia Company AB                                                     |             0.22 |       0.46 |      0    |        18 |
+|  70 | Nine Internet Solutions AG                                           |             0.21 |       0.19 |      0.52 |         5 |
+|  71 | KPN B.V.                                                             |             0.2  |       0.4  |      0    |        15 |
+|  72 | Zencurity ApS                                                        |             0.2  |       0.12 |      0.62 |         3 |
+|  73 | Google LLC                                                           |             0.2  |       0.07 |      0    |        20 |
+|  74 | Unithost Internet B.V.                                               |             0.2  |       0    |      0.86 |         1 |
+|  75 | Broadnet AS                                                          |             0.2  |       0    |      0.85 |         6 |
+|  76 | Wikimedia Foundation, Inc.                                           |             0.19 |       0.42 |      0    |         2 |
+|  77 | UAB Cherry Servers                                                   |             0.19 |       0.24 |      0    |        11 |
+|  78 | Seflow S.N.C. Di Marco Brame' &amp; C.                               |             0.19 |       0.21 |      0    |         9 |
+|  79 | Amazon.com, Inc.                                                     |             0.19 |       0.16 |      0    |        56 |
+|  80 | Techcrea Solutions SARL                                              |             0.19 |       0.12 |      0    |        10 |
+|  81 | 23media GmbH                                                         |             0.19 |       0.1  |      0.39 |        11 |
+|  82 | The Calyx Institute                                                  |             0.19 |       0    |      0.78 |        11 |
+|  83 | Orange                                                               |             0.19 |       0    |      0    |        34 |
+|  84 | Free SAS                                                             |             0.18 |       0.07 |      0    |        61 |
+|  85 | Emerald Onion                                                        |             0.18 |       0    |      0.77 |         4 |
+|  86 | University of North Carolina at Chapel Hill                          |             0.18 |       0    |      0.77 |         2 |
+|  87 | M247 Ltd                                                             |             0.17 |       0.19 |      0    |        35 |
+|  88 | PJSC Rostelecom                                                      |             0.17 |       0.08 |      0.09 |        35 |
+|  89 | Hextet Systems                                                       |             0.17 |       0    |      0.72 |         6 |
+|  90 | Brass Horn Communications                                            |             0.17 |       0    |      0.72 |         5 |
+|  91 | BornFiber Service Provider ApS                                       |             0.16 |       0.36 |      0    |         4 |
+|  92 | MediaServicePlus LLC                                                 |             0.16 |       0.32 |      0.04 |        13 |
+|  93 | T-Mobile Thuis BV                                                    |             0.16 |       0.01 |      0    |         2 |
+|  94 | Solar Communications GmbH                                            |             0.16 |       0    |      0    |        10 |
+|  95 | Iway AG                                                              |             0.15 |       0.21 |      0    |         8 |
+|  96 | KW Datacenter                                                        |             0.15 |       0.14 |      0.16 |        30 |
+|  97 | Liberty Global Operations B.V.                                       |             0.15 |       0.03 |      0.02 |       104 |
+|  98 | Leaseweb USA, Inc.                                                   |             0.15 |       0.01 |      0.59 |         4 |
+|  99 | Tech Futures Interactive Inc.                                        |             0.15 |       0    |      0.61 |         4 |
+| 100 | IPAX OG                                                              |             0.14 |       0.32 |      0    |         3 |
+| 101 | Hostio Solutions B.V.                                                |             0.14 |       0.27 |      0    |         3 |
+| 102 | Icme Limited                                                         |             0.14 |       0.21 |      0    |        18 |
+| 103 | Bezeq International                                                  |             0.14 |       0.09 |      0.4  |         6 |
+| 104 | TELE2                                                                |             0.14 |       0.02 |      0.53 |         3 |
+| 105 | EnergiMidt Fiberbredband A/S                                         |             0.13 |       0.28 |      0    |         3 |
+| 106 | GHOSTnet GmbH                                                        |             0.13 |       0.15 |      0.25 |         5 |
+| 107 | Digicube sas                                                         |             0.13 |       0.02 |      0.17 |         6 |
+| 108 | EDIS GmbH                                                            |             0.13 |       0    |      0    |         5 |
+| 109 | Ownit AB                                                             |             0.13 |       0    |      0    |         3 |
+| 110 | ASERGO Scandinavia ApS                                               |             0.13 |       0    |      0    |         1 |
+| 111 | Team Cymru Inc.                                                      |             0.12 |       0.27 |      0    |         2 |
+| 112 | H88 S.A.                                                             |             0.12 |       0.27 |      0    |         2 |
+| 113 | Greek Research and Technology Network S.A                            |             0.12 |       0.25 |      0    |        11 |
+| 114 | T-Mobile Czech Republic a.s.                                         |             0.11 |       0.26 |      0    |         2 |
+| 115 | YOUR.ORG, INC.                                                       |             0.11 |       0.26 |      0    |         1 |
+| 116 | MULTACOM CORPORATION                                                 |             0.11 |       0.21 |      0.07 |         5 |
+| 117 | velia.net Internetdienste GmbH                                       |             0.11 |       0.18 |      0.09 |         4 |
+| 118 | i3D.net B.V                                                          |             0.11 |       0.18 |      0    |         3 |
+| 119 | Universitaet Stuttgart                                               |             0.11 |       0.17 |      0    |         5 |
+| 120 | Tele2 Telecommunication GmbH                                         |             0.11 |       0.05 |      0    |         8 |
+| 121 | WholeSale Internet, Inc.                                             |             0.11 |       0.03 |      0.12 |         4 |
+| 122 | Hostkey B.v.                                                         |             0.11 |       0    |      0.21 |         3 |
+| 123 | Turnkey Internet Inc.                                                |             0.11 |       0    |      0    |         2 |
+| 124 | MivoCloud SRL                                                        |             0.1  |       0.23 |      0    |         4 |
+| 125 | Danish network for Research and Education                            |             0.1  |       0.23 |      0    |         3 |
+| 126 | Unilogic Networks B.V.                                               |             0.1  |       0.22 |      0    |         1 |
+| 127 | Qwest Communications Company, LLC                                    |             0.1  |       0.18 |      0.02 |        22 |
+| 128 | Psychz Networks                                                      |             0.1  |       0.16 |      0    |        10 |
+| 129 | IP-Only Networks AB                                                  |             0.1  |       0.1  |      0.26 |         2 |
+| 130 | Aruba S.p.A.                                                         |             0.1  |       0.08 |      0    |        17 |
+| 131 | Dotsi, Unipessoal Lda.                                               |             0.1  |       0.06 |      0.02 |         5 |
+| 132 | sprint S.A.                                                          |             0.1  |       0.03 |      0.37 |         5 |
+| 133 | Comcast Cable Communications, LLC                                    |             0.1  |       0.02 |      0.04 |        97 |
+| 134 | Tehnologii Budushego LLC                                             |             0.1  |       0    |      0.43 |         1 |
+| 135 | Rial Com JSC                                                         |             0.1  |       0    |      0.42 |         1 |
+| 136 | Coolhousing s.r.o.                                                   |             0.1  |       0    |      0    |         6 |
+| 137 | Entidad Publica Empresarial Red.es                                   |             0.1  |       0    |      0    |         1 |
+| 138 | JSC ISPsystem                                                        |             0.09 |       0.2  |      0    |         5 |
+| 139 | FOP Smirnov V'yacheslav Valentunovuch                                |             0.09 |       0.19 |      0    |         4 |
+| 140 | Cambrium IT Services B.V.                                            |             0.09 |       0.19 |      0    |         3 |
+| 141 | Alexhost Srl                                                         |             0.09 |       0.17 |      0    |         9 |
+| 142 | AT&amp;T Services, Inc.                                              |             0.09 |       0.14 |      0    |        23 |
+| 143 | BHost Inc                                                            |             0.09 |       0.14 |      0    |         3 |
+| 144 | UAB Rakrejus                                                         |             0.09 |       0.09 |      0.16 |        13 |
+| 145 | vanoppen.biz LLC                                                     |             0.09 |       0.09 |      0    |        10 |
+| 146 | VimpelCom                                                            |             0.09 |       0.08 |      0.01 |        14 |
+| 147 | Ikoula Net SAS                                                       |             0.09 |       0.05 |      0    |         5 |
+| 148 | DataShack, LC                                                        |             0.09 |       0.04 |      0    |         4 |
+| 149 | DataWagon LLC                                                        |             0.09 |       0    |      0.4  |         1 |
+| 150 | D-hosting die Rackspace &amp; Connectivity GmbH                      |             0.09 |       0    |      0.4  |         1 |
+| 151 | LIAZO SARL                                                           |             0.09 |       0    |      0.37 |         2 |
+| 152 | Host Sailor Ltd.                                                     |             0.09 |       0    |      0.1  |         6 |
+| 153 | Seti Weba Ltd                                                        |             0.08 |       0.19 |      0    |         2 |
+| 154 | Blix Solutions AS                                                    |             0.08 |       0.18 |      0    |         2 |
+| 155 | The University of Western Ontario                                    |             0.08 |       0.18 |      0    |         1 |
+| 156 | Telia Finland Oyj                                                    |             0.08 |       0.15 |      0    |        11 |
+| 157 | Mir Telematiki Ltd                                                   |             0.08 |       0.13 |      0.07 |         6 |
+| 158 | Ch-net S.r.l.                                                        |             0.08 |       0.09 |      0    |         2 |
+| 159 | Denetron LLC                                                         |             0.08 |       0.08 |      0.18 |         2 |
+| 160 | Accelerated IT Services GmbH                                         |             0.08 |       0.05 |      0.01 |        12 |
+| 161 | DataClub S.A.                                                        |             0.08 |       0.03 |      0.27 |         2 |
+| 162 | Martin Prager trading as NbIServ                                     |             0.08 |       0.03 |      0.25 |        16 |
+| 163 | Thor Data Center ehf                                                 |             0.08 |       0.03 |      0.16 |        17 |
+| 164 | Joe's Datacenter, LLC                                                |             0.08 |       0.02 |      0    |         3 |
+| 165 | ACONET                                                               |             0.08 |       0    |      0.34 |         1 |
+| 166 | Iws Networks LLC                                                     |             0.08 |       0    |      0    |         1 |
+| 167 | eSecureData                                                          |             0.07 |       0.17 |      0    |         1 |
+| 168 | Tamatiya EOOD                                                        |             0.07 |       0.16 |      0    |         3 |
+| 169 | ServeTheWorld AS                                                     |             0.07 |       0.13 |      0.06 |         3 |
+| 170 | Frontier Communications of America, Inc.                             |             0.07 |       0.13 |      0    |        13 |
+| 171 | Net By Net Holding LLC                                               |             0.07 |       0.13 |      0    |        10 |
+| 172 | Aktsiaselts WaveCom                                                  |             0.07 |       0.13 |      0    |         2 |
+| 173 | LLC Campus Networks                                                  |             0.07 |       0    |      0.3  |         2 |
+| 174 | Visual Online S.A.                                                   |             0.07 |       0    |      0.3  |         1 |
+| 175 | RADIOGRAFICA COSTARRICENSE                                           |             0.07 |       0    |      0.21 |        12 |
+| 176 | SFR SA                                                               |             0.07 |       0    |      0.2  |        18 |
+| 177 | Telefonica De Espana                                                 |             0.07 |       0    |      0    |        14 |
+| 178 | Lukman Multimedia Sp. z o.o                                          |             0.07 |       0    |      0    |         1 |
+| 179 | Zdruzenie pouzivatelov Slovenskej akademickej datovej siete          |             0.06 |       0.15 |      0    |         2 |
+| 180 | Simon Frerichs                                                       |             0.06 |       0.15 |      0    |         2 |
+| 181 | Magyar Telekom plc.                                                  |             0.06 |       0.14 |      0    |         5 |
+| 182 | Bytemark Limited                                                     |             0.06 |       0.13 |      0    |         7 |
+| 183 | NORDUnet                                                             |             0.06 |       0.13 |      0    |         1 |
+| 184 | Limited liability company Mail.Ru                                    |             0.06 |       0.13 |      0    |         1 |
+| 185 | ITsjefen AS                                                          |             0.06 |       0.13 |      0    |         1 |
+| 186 | iomart Cloud Services Limited.                                       |             0.06 |       0.1  |      0.03 |         5 |
+| 187 | Obenetwork AB                                                        |             0.06 |       0.1  |      0    |         4 |
+| 188 | OJS Moscow city telephone network                                    |             0.06 |       0.07 |      0    |         5 |
+| 189 | MAROSNET Telecommunication Company LLC                               |             0.06 |       0.07 |      0    |         5 |
+| 190 | PRO-ZETA a.s.                                                        |             0.06 |       0.07 |      0    |         2 |
+| 191 | Swiftway Sp. z o.o.                                                  |             0.06 |       0.06 |      0    |        18 |
+| 192 | Serverius Holding B.V.                                               |             0.06 |       0.06 |      0    |         7 |
+| 193 | RCS &amp; RDS                                                        |             0.06 |       0.04 |      0    |        10 |
+| 194 | XMission, L.C.                                                       |             0.06 |       0.02 |      0.2  |         5 |
+| 195 | Time Warner Cable Internet LLC                                       |             0.06 |       0.02 |      0    |        48 |
+| 196 | 1&amp;1 Versatel Deutschland GmbH                                    |             0.06 |       0.02 |      0    |        36 |
+| 197 | prgmr.com, Inc.                                                      |             0.06 |       0.02 |      0    |         6 |
+| 198 | Association Gitoyen                                                  |             0.06 |       0    |      0.27 |         1 |
+| 199 | Netwerkvereniging Coloclue                                           |             0.06 |       0    |      0.23 |         2 |
+| 200 | Lanet Network Ltd                                                    |             0.06 |       0    |      0.22 |         6 |
+| 201 | Stiftelsen Chalmers Studenthem                                       |             0.06 |       0    |      0    |         1 |
+| 202 | nexellent ag                                                         |             0.06 |       0    |      0    |         1 |
+| 203 | InMotion Hosting, Inc.                                               |             0.05 |       0.13 |      0    |         1 |
+| 204 | PlusServer GmbH                                                      |             0.05 |       0.12 |      0    |         4 |
+| 205 | Studentersamfundet i Trondhjem                                       |             0.05 |       0.12 |      0    |         1 |
+| 206 | Freifunk Frankfurt am Main e.V.                                      |             0.05 |       0.12 |      0    |         1 |
+| 207 | Deninet KFT                                                          |             0.05 |       0.11 |      0    |         1 |
+| 208 | Eonix Corporation                                                    |             0.05 |       0.1  |      0    |         6 |
+| 209 | LLC Baxet                                                            |             0.05 |       0.09 |      0.02 |         4 |
+| 210 | M-net Telekommunikations GmbH                                        |             0.05 |       0.09 |      0    |        17 |
+| 211 | Bouygues Telecom SA                                                  |             0.05 |       0.09 |      0    |        11 |
+| 212 | Volia                                                                |             0.05 |       0.08 |      0    |        10 |
+| 213 | Sologigabit S.L.                                                     |             0.05 |       0.07 |      0    |        10 |
+| 214 | Com Hem AB                                                           |             0.05 |       0.06 |      0    |         7 |
+| 215 | JSC ER-Telecom Holding                                               |             0.05 |       0.01 |      0.03 |        16 |
+| 216 | Specialized Bulletin Board Systems                                   |             0.05 |       0    |      0.23 |         1 |
+| 217 | LES.NET                                                              |             0.05 |       0    |      0.21 |         1 |
+| 218 | Cablevision Systems Corp.                                            |             0.05 |       0    |      0    |        10 |
+| 219 | Liteserver VOF                                                       |             0.05 |       0    |      0    |         9 |
+| 220 | HostUS                                                               |             0.05 |       0    |      0    |         8 |
+| 221 | Hosteam S.c. Tomasz Groszewski Bartosz Waszak Lukasz Groszewski      |             0.05 |       0    |      0    |         2 |
+| 222 | Zayo France SAS                                                      |             0.04 |       0.11 |      0    |         1 |
+| 223 | VKontakte Ltd                                                        |             0.04 |       0.1  |      0    |         1 |
+| 224 | Master Internet s.r.o.                                               |             0.04 |       0.09 |      0    |         4 |
+| 225 | AllTele Allmanna Svenska Telefonaktiebolaget                         |             0.04 |       0.09 |      0    |         4 |
+| 226 | Sinarohost LTD                                                       |             0.04 |       0.09 |      0    |         3 |
+| 227 | Nav Communications Srl                                               |             0.04 |       0.09 |      0    |         2 |
+| 228 | Hostwinds LLC.                                                       |             0.04 |       0.09 |      0    |         2 |
+| 229 | WebNX, Inc.                                                          |             0.04 |       0.09 |      0    |         1 |
+| 230 | UK Dedicated Servers Limited                                         |             0.04 |       0.09 |      0    |         1 |
+| 231 | TOV Trest Ukrtelebud                                                 |             0.04 |       0.09 |      0    |         1 |
+| 232 | Reliable Hosting Services                                            |             0.04 |       0.09 |      0    |         1 |
+| 233 | ELB Multimedia SARL                                                  |             0.04 |       0.09 |      0    |         1 |
+| 234 | Daticum JSC                                                          |             0.04 |       0.09 |      0    |         1 |
+| 235 | Civil associaton Init Lab                                            |             0.04 |       0.09 |      0    |         1 |
+| 236 | CESNET z.s.p.o.                                                      |             0.04 |       0.08 |      0    |         1 |
+| 237 | PE Ivanov Vitaliy Sergeevich                                         |             0.04 |       0.07 |      0    |         7 |
+| 238 | Keminet Ltd.                                                         |             0.04 |       0.07 |      0    |         5 |
+| 239 | Strato AG                                                            |             0.04 |       0.06 |      0    |        13 |
+| 240 | OOO Network of data-centers Selectel                                 |             0.04 |       0.06 |      0    |         6 |
+| 241 | Incero LLC                                                           |             0.04 |       0.06 |      0    |         4 |
+| 242 | Content Delivery Network Ltd                                         |             0.04 |       0.04 |      0    |         7 |
+| 243 | British Telecommunications PLC                                       |             0.04 |       0.03 |      0    |        30 |
+| 244 | SuperNetwork s.r.o.                                                  |             0.04 |       0.02 |      0    |         2 |
+| 245 | ColoCrossing                                                         |             0.04 |       0.01 |      0    |        17 |
+| 246 | Astralus B.V.                                                        |             0.04 |       0    |      0.19 |         8 |
+| 247 | Aqua Ray SAS                                                         |             0.04 |       0    |      0.18 |         1 |
+| 248 | COLT Technology Services Group Limited                               |             0.04 |       0    |      0.17 |         3 |
+| 249 | University of Waterloo                                               |             0.04 |       0    |      0.17 |         2 |
+| 250 | Concorde inc.                                                        |             0.04 |       0    |      0.17 |         1 |
+| 251 | Andreas Fink trading as Fink Telecom Services                        |             0.04 |       0    |      0.16 |         2 |
+| 252 | The New York Internet Company                                        |             0.04 |       0    |      0    |         3 |
+| 253 | Marco Sandro Naf                                                     |             0.04 |       0    |      0    |         1 |
+| 254 | Lightstream Transmission and Telecom Inc                             |             0.04 |       0    |      0    |         1 |
+| 255 | Freifunk Nordwest e.V.                                               |             0.04 |       0    |      0    |         1 |
+| 256 | Wowrack.com                                                          |             0.03 |       0.08 |      0    |         3 |
+| 257 | UNINETT AS                                                           |             0.03 |       0.08 |      0    |         2 |
+| 258 | NetAssist LLC                                                        |             0.03 |       0.08 |      0    |         1 |
+| 259 | Infium, UAB                                                          |             0.03 |       0.08 |      0    |         1 |
+| 260 | EPB Fiber Optics                                                     |             0.03 |       0.08 |      0    |         1 |
+| 261 | Arrowhead A/S                                                        |             0.03 |       0.07 |      0    |         5 |
+| 262 | Hyperoptic Ltd                                                       |             0.03 |       0.07 |      0    |         4 |
+| 263 | Stockholms Stadsnat AB                                               |             0.03 |       0.07 |      0    |         3 |
+| 264 | Istanbuldc Veri Merkezi Ltd. Sti                                     |             0.03 |       0.07 |      0    |         3 |
+| 265 | GorillaServers, Inc.                                                 |             0.03 |       0.07 |      0    |         3 |
+| 266 | Jsc ru-center                                                        |             0.03 |       0.07 |      0    |         1 |
+| 267 | AbeloHost B.V.                                                       |             0.03 |       0.07 |      0    |         1 |
+| 268 | Continuum Data Centers, LLC.                                         |             0.03 |       0.06 |      0    |         4 |
+| 269 | 2COM Co Ltd.                                                         |             0.03 |       0.06 |      0    |         4 |
+| 270 | 7heaven LLC                                                          |             0.03 |       0.06 |      0    |         3 |
+| 271 | PLANET IC GmbH                                                       |             0.03 |       0.06 |      0    |         1 |
+| 272 | NetsurfUSA, Inc.                                                     |             0.03 |       0.06 |      0    |         1 |
+| 273 | Dgn Teknoloji A.s.                                                   |             0.03 |       0.06 |      0    |         1 |
+| 274 | Centrilogic, Inc.                                                    |             0.03 |       0.05 |      0.04 |         3 |
+| 275 | DNA Oyj                                                              |             0.03 |       0.05 |      0    |         6 |
+| 276 | LLC tc Tel Center                                                    |             0.03 |       0.05 |      0    |         4 |
+| 277 | Avolo Telecom Srl                                                    |             0.03 |       0.04 |      0.05 |         4 |
+| 278 | Inter Connects Inc                                                   |             0.03 |       0.02 |      0.09 |         2 |
+| 279 | Perspectiva Ltd.                                                     |             0.03 |       0.02 |      0    |         6 |
+| 280 | MK Netzdienste GmbH &amp; Co. KG                                     |             0.03 |       0.01 |      0    |         2 |
+| 281 | PLUTEX GmbH                                                          |             0.03 |       0    |      0.12 |         1 |
+| 282 | Hotwire Communications                                               |             0.03 |       0    |      0.12 |         1 |
+| 283 | TOCICI LLC                                                           |             0.03 |       0    |      0.04 |         2 |
+| 284 | sol.net Network Services                                             |             0.03 |       0    |      0.01 |         2 |
+| 285 | Vodafone Kabel Deutschland GmbH                                      |             0.03 |       0    |      0    |        46 |
+| 286 | SAKURA Internet Inc.                                                 |             0.03 |       0    |      0    |        12 |
+| 287 | RamNode LLC                                                          |             0.03 |       0    |      0    |        12 |
+| 288 | Histate Global Corp.                                                 |             0.03 |       0    |      0    |        12 |
+| 289 | HostHatch, Inc                                                       |             0.03 |       0    |      0    |         7 |
+| 290 | SkyNet Ltd.                                                          |             0.03 |       0    |      0    |         4 |
+| 291 | Fiberby ApS                                                          |             0.03 |       0    |      0    |         1 |
+| 292 | Comvive Servidores S.L.                                              |             0.03 |       0    |      0    |         1 |
+| 293 | Hostpro Ltd.                                                         |             0.02 |       0.06 |      0    |         3 |
+| 294 | Sternforth Ltd.                                                      |             0.02 |       0.06 |      0    |         2 |
+| 295 | HEG US Inc.                                                          |             0.02 |       0.06 |      0    |         2 |
+| 296 | Metronet                                                             |             0.02 |       0.06 |      0    |         1 |
+| 297 | GloboTech Communications                                             |             0.02 |       0.06 |      0    |         1 |
+| 298 | East Telecom Ltd.                                                    |             0.02 |       0.06 |      0    |         1 |
+| 299 | dao Consulting, LLC                                                  |             0.02 |       0.06 |      0    |         1 |
+| 300 | Computer Wired SRL                                                   |             0.02 |       0.06 |      0    |         1 |
+| 301 | Sprint                                                               |             0.02 |       0.05 |      0    |         4 |
+| 302 | JSC Mediasoft ekspert                                                |             0.02 |       0.05 |      0    |         3 |
+| 303 | 23VNet Kft.                                                          |             0.02 |       0.05 |      0    |         2 |
+| 304 | Verixi Sprl                                                          |             0.02 |       0.05 |      0    |         1 |
+| 305 | POST Luxembourg                                                      |             0.02 |       0.05 |      0    |         1 |
+| 306 | Plusine Systems B.V.                                                 |             0.02 |       0.05 |      0    |         1 |
+| 307 | Mediam Oy                                                            |             0.02 |       0.05 |      0    |         1 |
+| 308 | Klimenko Anna.Aleksandrovna PE                                       |             0.02 |       0.05 |      0    |         1 |
+| 309 | ITnet S.r.l.                                                         |             0.02 |       0.05 |      0    |         1 |
+| 310 | HOSTING90 systems s.r.o.                                             |             0.02 |       0.05 |      0    |         1 |
+| 311 | Free Software Foundation, Inc.                                       |             0.02 |       0.05 |      0    |         1 |
+| 312 | CloudHosting SIA                                                     |             0.02 |       0.05 |      0    |         1 |
+| 313 | ATW Internet Kft.                                                    |             0.02 |       0.05 |      0    |         1 |
+| 314 | New Dream Network, LLC                                               |             0.02 |       0.04 |      0    |         4 |
+| 315 | Lucky Net Ltd                                                        |             0.02 |       0.04 |      0    |         3 |
+| 316 | RM Engineering LLC                                                   |             0.02 |       0.04 |      0    |         2 |
+| 317 | FOP Kazakov Oleksandr Oleksandrovich                                 |             0.02 |       0.04 |      0    |         2 |
+| 318 | RGnet, LLC                                                           |             0.02 |       0.04 |      0    |         1 |
+| 319 | inAsset Networks, S.L.                                               |             0.02 |       0.04 |      0    |         1 |
+| 320 | Nazwa.pl Sp.z.o.o.                                                   |             0.02 |       0.03 |      0.02 |         3 |
+| 321 | MTS PJSC                                                             |             0.02 |       0.03 |      0    |         6 |
+| 322 | Mobiltel Ead                                                         |             0.02 |       0.03 |      0    |         6 |
+| 323 | Edutel BV                                                            |             0.02 |       0.03 |      0    |         4 |
+| 324 | Saint-Petersburg Computer Networks Ltd.                              |             0.02 |       0.03 |      0    |         2 |
+| 325 | Monkey Brains                                                        |             0.02 |       0.02 |      0.05 |         3 |
+| 326 | Ziggo                                                                |             0.02 |       0.01 |      0    |        11 |
+| 327 | BelCloud Hosting Corporation                                         |             0.02 |       0.01 |      0    |         8 |
+| 328 | UK-2 Limited                                                         |             0.02 |       0.01 |      0    |         5 |
+| 329 | PE Freehost                                                          |             0.02 |       0    |      0.11 |         2 |
+| 330 | Login, Inc.                                                          |             0.02 |       0    |      0.11 |         2 |
+| 331 | Claranet Ltd                                                         |             0.02 |       0    |      0.11 |         1 |
+| 332 | Maxnet Telecom, Ltd                                                  |             0.02 |       0    |      0.09 |         1 |
+| 333 | GANDI SAS                                                            |             0.02 |       0    |      0.08 |         6 |
+| 334 | Brezhnev D.S. PE                                                     |             0.02 |       0    |      0.08 |         1 |
+| 335 | Boston University                                                    |             0.02 |       0    |      0.08 |         1 |
+| 336 | Hydra Communications Ltd                                             |             0.02 |       0    |      0.04 |         6 |
+| 337 | Transip B.V.                                                         |             0.02 |       0    |      0.01 |         7 |
+| 338 | Vodafone GmbH                                                        |             0.02 |       0    |      0    |        30 |
+| 339 | Telefonica Germany                                                   |             0.02 |       0    |      0    |        30 |
+| 340 | Tele Danmark                                                         |             0.02 |       0    |      0    |        10 |
+| 341 | SIA Bighost.lv                                                       |             0.02 |       0    |      0    |        10 |
+| 342 | Orange Espagne S.A.U.                                                |             0.02 |       0    |      0    |        10 |
+| 343 | Swisscom Switzerland Ltd                                             |             0.02 |       0    |      0    |         8 |
+| 344 | wilhelm.tel GmbH                                                     |             0.02 |       0    |      0    |         7 |
+| 345 | RouteLabel V.O.F.                                                    |             0.02 |       0    |      0    |         4 |
+| 346 | Bredband2 AB                                                         |             0.02 |       0    |      0    |         4 |
+| 347 | T-2, d.o.o.                                                          |             0.02 |       0    |      0    |         2 |
+| 348 | home.pl S.A.                                                         |             0.02 |       0    |      0    |         2 |
+| 349 | TOV Magnus Limited                                                   |             0.02 |       0    |      0    |         1 |
+| 350 | MnogoByte LLC                                                        |             0.02 |       0    |      0    |         1 |
+| 351 | Info Data Center Ltd.                                                |             0.02 |       0    |      0    |         1 |
+| 352 | Indiana University                                                   |             0.02 |       0    |      0    |         1 |
+| 353 | CyrusOne LLC                                                         |             0.02 |       0    |      0    |         1 |
+| 354 | ADISTA SAS                                                           |             0.02 |       0    |      0    |         1 |
+| 355 | Adamo Telecom Iberia S.A.                                            |             0.02 |       0    |      0    |         1 |
+| 356 | University of Washington                                             |             0.01 |       0.04 |      0    |         1 |
+| 357 | Szervernet Ltd                                                       |             0.01 |       0.04 |      0    |         1 |
+| 358 | SYN LTD                                                              |             0.01 |       0.04 |      0    |         1 |
+| 359 | Levonline AB                                                         |             0.01 |       0.04 |      0    |         1 |
+| 360 | Neterra Ltd.                                                         |             0.01 |       0.03 |      0    |         6 |
+| 361 | TELUS Communications Inc.                                            |             0.01 |       0.03 |      0    |         4 |
+| 362 | Total Server Solutions L.L.C.                                        |             0.01 |       0.03 |      0    |         3 |
+| 363 | Solcon Internetdiensten B.V.                                         |             0.01 |       0.03 |      0    |         3 |
+| 364 | Livenet Sp. z o.o.                                                   |             0.01 |       0.03 |      0    |         3 |
+| 365 | Petersburg Internet Network ltd.                                     |             0.01 |       0.03 |      0    |         2 |
+| 366 | Novotelecom Ltd                                                      |             0.01 |       0.03 |      0    |         2 |
+| 367 | Netelligent Hosting Services Inc.                                    |             0.01 |       0.03 |      0    |         2 |
+| 368 | Inetcom LLC                                                          |             0.01 |       0.03 |      0    |         2 |
+| 369 | Cogeco Peer 1                                                        |             0.01 |       0.03 |      0    |         2 |
+| 370 | Andrews &amp; Arnold Ltd                                             |             0.01 |       0.03 |      0    |         2 |
+| 371 | Techstorage sp. z o.o.                                               |             0.01 |       0.03 |      0    |         1 |
+| 372 | Sunrise Communications AG                                            |             0.01 |       0.03 |      0    |         1 |
+| 373 | Penkiu kontinentu komunikaciju centras, Ltd.                         |             0.01 |       0.03 |      0    |         1 |
+| 374 | OJSC Comcor                                                          |             0.01 |       0.03 |      0    |         1 |
+| 375 | Next Host SRL                                                        |             0.01 |       0.03 |      0    |         1 |
+| 376 | Karlsruhe Institute of Technology                                    |             0.01 |       0.03 |      0    |         1 |
+| 377 | Inovare-Prim SRL                                                     |             0.01 |       0.03 |      0    |         1 |
+| 378 | DA International Group Ltd.                                          |             0.01 |       0.03 |      0    |         1 |
+| 379 | Condointernet.net                                                    |             0.01 |       0.03 |      0    |         1 |
+| 380 | Arvig Enterprises Inc.                                               |             0.01 |       0.03 |      0    |         1 |
+| 381 | ACE Telecom Kft                                                      |             0.01 |       0.03 |      0    |         1 |
+| 382 | Xtra Telecom S.A.                                                    |             0.01 |       0.02 |      0    |         4 |
+| 383 | Orange Espagne SA                                                    |             0.01 |       0.02 |      0    |         2 |
+| 384 | Flashdance Ab                                                        |             0.01 |       0.02 |      0    |         2 |
+| 385 | AS33891 Netzbetrieb GmbH                                             |             0.01 |       0.02 |      0    |         2 |
+| 386 | SpaceNet AG                                                          |             0.01 |       0.02 |      0    |         1 |
+| 387 | Sharktech                                                            |             0.01 |       0.02 |      0    |         1 |
+| 388 | LLC CloudSol                                                         |             0.01 |       0.02 |      0    |         1 |
+| 389 | Genossenschaft GGA Maur                                              |             0.01 |       0.02 |      0    |         1 |
+| 390 | Fx Software Srl                                                      |             0.01 |       0.02 |      0    |         1 |
+| 391 | Dynamic ASP Inc.                                                     |             0.01 |       0.02 |      0    |         1 |
+| 392 | Delta Softmedia Ltd.                                                 |             0.01 |       0.02 |      0    |         1 |
+| 393 | CentroNet a.s.                                                       |             0.01 |       0.02 |      0    |         1 |
+| 394 | IT Expert LLC                                                        |             0.01 |       0.01 |      0    |         5 |
+| 395 | WideOpenWest Finance LLC                                             |             0.01 |       0.01 |      0    |         4 |
+| 396 | Telia Lietuva, AB                                                    |             0.01 |       0.01 |      0    |         3 |
+| 397 | Priority Colo Inc                                                    |             0.01 |       0    |      0.07 |         1 |
+| 398 | Omnis Network, LLC                                                   |             0.01 |       0    |      0.06 |         2 |
+| 399 | Cyberverse, Inc.                                                     |             0.01 |       0    |      0.06 |         1 |
+| 400 | Global Data Networks LLC                                             |             0.01 |       0    |      0.05 |         4 |
+| 401 | PE Tetyana Mysyk                                                     |             0.01 |       0    |      0.05 |         1 |
+| 402 | Carnegie Mellon University                                           |             0.01 |       0    |      0.05 |         1 |
+| 403 | Solar Invest UK LTD.                                                 |             0.01 |       0    |      0.04 |         1 |
+| 404 | SC Fastweb SRL                                                       |             0.01 |       0    |      0.04 |         1 |
+| 405 | Art Invest Ltd                                                       |             0.01 |       0    |      0.04 |         1 |
+| 406 | Leaseweb Asia Pacific pte. ltd.                                      |             0.01 |       0    |      0.03 |         6 |
+| 407 | Cox Communications Inc.                                              |             0.01 |       0    |      0.01 |        24 |
+| 408 | EWE-Tel GmbH                                                         |             0.01 |       0    |      0.01 |         7 |
+| 409 | Hostinger International Limited                                      |             0.01 |       0    |      0.01 |         5 |
+| 410 | Charter Communications                                               |             0.01 |       0    |      0    |        24 |
+| 411 | Virgin Media Limited                                                 |             0.01 |       0    |      0    |        20 |
+| 412 | SoftLayer Technologies Inc.                                          |             0.01 |       0    |      0    |        11 |
+| 413 | Quickline AG                                                         |             0.01 |       0    |      0    |        10 |
+| 414 | NetCologne GmbH                                                      |             0.01 |       0    |      0    |        10 |
+| 415 | Elisa Oyj                                                            |             0.01 |       0    |      0    |         8 |
+| 416 | Telecom Italia                                                       |             0.01 |       0    |      0    |         7 |
+| 417 | Sky UK Limited                                                       |             0.01 |       0    |      0    |         7 |
+| 418 | PVimpelCom                                                           |             0.01 |       0    |      0    |         7 |
+| 419 | Shine Servers Llp                                                    |             0.01 |       0    |      0    |         6 |
+| 420 | DAOU TECHNOLOGY                                                      |             0.01 |       0    |      0    |         6 |
+| 421 | Artnet Spolka z ograniczona odpowiedzialnoscia                       |             0.01 |       0    |      0    |         6 |
+| 422 | Unit-IS Ltd.                                                         |             0.01 |       0    |      0    |         5 |
+| 423 | Input Output Flood LLC                                               |             0.01 |       0    |      0    |         5 |
+| 424 | Fastweb                                                              |             0.01 |       0    |      0    |         5 |
+| 425 | vollmar.net GmbH                                                     |             0.01 |       0    |      0    |         4 |
+| 426 | Mediacom Communications Corp                                         |             0.01 |       0    |      0    |         4 |
+| 427 | First Colo GmbH                                                      |             0.01 |       0    |      0    |         4 |
+| 428 | Bell Canada                                                          |             0.01 |       0    |      0    |         4 |
+| 429 | University of Utah                                                   |             0.01 |       0    |      0    |         3 |
+| 430 | US Internet Corp                                                     |             0.01 |       0    |      0    |         2 |
+| 431 | Longmont Power &amp; Communications                                  |             0.01 |       0    |      0    |         2 |
+| 432 | Axtel, S.A.B. de C.V.                                                |             0.01 |       0    |      0    |         2 |
+| 433 | UAB Esnet                                                            |             0.01 |       0    |      0    |         1 |
+| 434 | TIS Dialog LLC                                                       |             0.01 |       0    |      0    |         1 |
+| 435 | Stanford University                                                  |             0.01 |       0    |      0    |         1 |
+| 436 | Rices Privately owned enterprise                                     |             0.01 |       0    |      0    |         1 |
+| 437 | Private Entrepreneur Liudmyla V. Murad                               |             0.01 |       0    |      0    |         1 |
+| 438 | PJSC Industrial Media Network                                        |             0.01 |       0    |      0    |         1 |
+| 439 | JSC Internet-Cosmos                                                  |             0.01 |       0    |      0    |         1 |
+| 440 | Hostline, Uab                                                        |             0.01 |       0    |      0    |         1 |
+| 441 | Hiper A/S                                                            |             0.01 |       0    |      0    |         1 |
+| 442 | ETS TELEPHONE COMPANY, INC.                                          |             0.01 |       0    |      0    |         1 |
+| 443 | Complea A/S                                                          |             0.01 |       0    |      0    |         1 |
+| 444 | C&amp;S Breitband GmbH                                               |             0.01 |       0    |      0    |         1 |
+| 445 | netzquadrat GmbH                                                     |             0    |       0.02 |      0    |         1 |
+| 446 | KAMP Netzwerkdienste GmbH                                            |             0    |       0.02 |      0    |         1 |
+| 447 | IP-Max SA                                                            |             0    |       0.02 |      0    |         1 |
+| 448 | GTT a.s.                                                             |             0    |       0.02 |      0    |         1 |
+| 449 | Croatian Academic and Research Network                               |             0    |       0.02 |      0    |         1 |
+| 450 | Cloudlayer8 Limited                                                  |             0    |       0.02 |      0    |         1 |
+| 451 | California Institute of Technology                                   |             0    |       0.02 |      0    |         1 |
+| 452 | Level 3 Communications, Inc.                                         |             0    |       0.01 |      0    |         6 |
+| 453 | Tiscali UK Limited                                                   |             0    |       0.01 |      0    |         5 |
+| 454 | Enzu Inc                                                             |             0    |       0.01 |      0    |         3 |
+| 455 | Webaxys SAS                                                          |             0    |       0.01 |      0    |         1 |
+| 456 | Ukrainian Internet Names Center LTD                                  |             0    |       0.01 |      0    |         1 |
+| 457 | Tiera Centr Ltd                                                      |             0    |       0.01 |      0    |         1 |
+| 458 | Sorta-hosting-smllc                                                  |             0    |       0.01 |      0    |         1 |
+| 459 | OOO MediaSeti                                                        |             0    |       0.01 |      0    |         1 |
+| 460 | Next point Host EOOD.                                                |             0    |       0.01 |      0    |         1 |
+| 461 | LLC Internet Tehnologii                                              |             0    |       0.01 |      0    |         1 |
+| 462 | Krasnoyarsklespromproekt OJSC                                        |             0    |       0.01 |      0    |         1 |
+| 463 | FuslVZ Ltd.                                                          |             0    |       0.01 |      0    |         1 |
+| 464 | Octopuce s.a.r.l.                                                    |             0    |       0    |      0.03 |         1 |
+| 465 | IQ PL Sp. z o.o.                                                     |             0    |       0    |      0.03 |         1 |
+| 466 | GoDaddy.com, LLC                                                     |             0    |       0    |      0.03 |         1 |
+| 467 | CityNet Telekom Ltd.                                                 |             0    |       0    |      0.03 |         1 |
+| 468 | Data Communication Business Group                                    |             0    |       0    |      0.02 |         6 |
+| 469 | Get AS                                                               |             0    |       0    |      0.02 |         3 |
+| 470 | KSS-Telecom OOO                                                      |             0    |       0    |      0.02 |         2 |
+| 471 | Snel.com B.V.                                                        |             0    |       0    |      0.02 |         1 |
+| 472 | Netsign Networks GmbH                                                |             0    |       0    |      0.02 |         1 |
+| 473 | Cybersmart                                                           |             0    |       0    |      0.02 |         1 |
+| 474 | BiConsult Eood                                                       |             0    |       0    |      0.02 |         1 |
+| 475 | AxcelX Technologies LLC                                              |             0    |       0    |      0.02 |         1 |
+| 476 | BRIGHT HOUSE NETWORKS, LLC                                           |             0    |       0    |      0.01 |         6 |
+| 477 | HostDime.com, Inc.                                                   |             0    |       0    |      0.01 |         4 |
+| 478 | Greenhost BV                                                         |             0    |       0    |      0.01 |         3 |
+| 479 | Telecom3 Sverige AB                                                  |             0    |       0    |      0.01 |         2 |
+| 480 | Verein zur Foerderung freier Netze ZVR: 814804682                    |             0    |       0    |      0.01 |         1 |
+| 481 | Sardegna Wifi Srl                                                    |             0    |       0    |      0.01 |         1 |
+| 482 | GEORGIA PUBLIC WEB, INC.                                             |             0    |       0    |      0.01 |         1 |
+| 483 | CoreSpace, Inc.                                                      |             0    |       0    |      0.01 |         1 |
+| 484 | Northeastern University                                              |             0    |       0    |      0    |        20 |
+| 485 | Kabel BW                                                             |             0    |       0    |      0    |        18 |
+| 486 | Equinix Asia Pacific                                                 |             0    |       0    |      0    |        14 |
+| 487 | Proximus NV                                                          |             0    |       0    |      0    |        12 |
+| 488 | Shinjiru Technology Sdn Bhd                                          |             0    |       0    |      0    |        11 |
+| 489 | InterBS S.R.L. BAEHOST                                               |             0    |       0    |      0    |        11 |
+| 490 | TekSavvy Solutions, Inc.                                             |             0    |       0    |      0    |        10 |
+| 491 | Shaw Communications Inc.                                             |             0    |       0    |      0    |         9 |
+| 492 | Korea Telecom                                                        |             0    |       0    |      0    |         9 |
+| 493 | Internode Pty Ltd                                                    |             0    |       0    |      0    |         9 |
+| 494 | Cloudie Limited                                                      |             0    |       0    |      0    |         9 |
+| 495 | QSC AG                                                               |             0    |       0    |      0    |         8 |
+| 496 | A1 Telekom Austria AG                                                |             0    |       0    |      0    |         8 |
+| 497 | TPG Telecom Limited                                                  |             0    |       0    |      0    |         7 |
+| 498 | NC Numericable S.A.                                                  |             0    |       0    |      0    |         6 |
+| 499 | Associao Rede Nacional de Ensino e Pesquisa                          |             0    |       0    |      0    |         6 |
+| 500 | Vodafone Italia S.p.A.                                               |             0    |       0    |      0    |         5 |
+| 501 | Tiscali SpA                                                          |             0    |       0    |      0    |         5 |
+| 502 | Taiwan Academic Network TANet Information Center                     |             0    |       0    |      0    |         5 |
+| 503 | Prometeus di Daniela Agro                                            |             0    |       0    |      0    |         5 |
+| 504 | OTEnet S.A.                                                          |             0    |       0    |      0    |         5 |
+| 505 | NTT Communications Corporation                                       |             0    |       0    |      0    |         5 |
+| 506 | Kyivstar PJSC                                                        |             0    |       0    |      0    |         5 |
+| 507 | Kabelfernsehen Muenchen ServiCenter GmbH &amp; Co.KG                 |             0    |       0    |      0    |         5 |
+| 508 | Individual Network Berlin e.V.                                       |             0    |       0    |      0    |         5 |
+| 509 | Hutchison Global Communications                                      |             0    |       0    |      0    |         5 |
+| 510 | Zen Internet Ltd                                                     |             0    |       0    |      0    |         4 |
+| 511 | Wind Telecomunicazioni SpA                                           |             0    |       0    |      0    |         4 |
+| 512 | uvensys GmbH                                                         |             0    |       0    |      0    |         4 |
+| 513 | Telstra Pty Ltd                                                      |             0    |       0    |      0    |         4 |
+| 514 | TELEFNICA BRASIL S.A                                                 |             0    |       0    |      0    |         4 |
+| 515 | Tele Columbus AG                                                     |             0    |       0    |      0    |         4 |
+| 516 | Spark New Zealand Trading Ltd.                                       |             0    |       0    |      0    |         4 |
+| 517 | So-net Entertainment Corporation                                     |             0    |       0    |      0    |         4 |
+| 518 | rh-tec Business GmbH                                                 |             0    |       0    |      0    |         4 |
+| 519 | RCN                                                                  |             0    |       0    |      0    |         4 |
+| 520 | RackBank Datacenters Private Ltd                                     |             0    |       0    |      0    |         4 |
+| 521 | Orange Polska Spolka Akcyjna                                         |             0    |       0    |      0    |         4 |
+| 522 | Optima Telecom Ltd.                                                  |             0    |       0    |      0    |         4 |
+| 523 | NTT PC Communications, Inc.                                          |             0    |       0    |      0    |         4 |
+| 524 | Jump Networks Ltd                                                    |             0    |       0    |      0    |         4 |
+| 525 | Iskratelecom CJSC                                                    |             0    |       0    |      0    |         4 |
+| 526 | Internetport Sweden AB                                               |             0    |       0    |      0    |         4 |
+| 527 | DIGI Tavkozlesi es Szolgaltato Kft.                                  |             0    |       0    |      0    |         4 |
+| 528 | Connexions4London Ltd                                                |             0    |       0    |      0    |         4 |
+| 529 | CLARO S.A.                                                           |             0    |       0    |      0    |         4 |
+| 530 | CHT Compamy Ltd                                                      |             0    |       0    |      0    |         4 |
+| 531 | Aruba SAS                                                            |             0    |       0    |      0    |         4 |
+| 532 | Zayo Bandwidth                                                       |             0    |       0    |      0    |         3 |
+| 533 | Wobcom GmbH                                                          |             0    |       0    |      0    |         3 |
+| 534 | Webpass Inc.                                                         |             0    |       0    |      0    |         3 |
+| 535 | Vectra S.A.                                                          |             0    |       0    |      0    |         3 |
+| 536 | Telenet BVBA                                                         |             0    |       0    |      0    |         3 |
+| 537 | TDS TELECOM                                                          |             0    |       0    |      0    |         3 |
+| 538 | TalkTalk                                                             |             0    |       0    |      0    |         3 |
+| 539 | Softbank BB Corp.                                                    |             0    |       0    |      0    |         3 |
+| 540 | Rogers Communications Canada Inc.                                    |             0    |       0    |      0    |         3 |
+| 541 | Rackspace Ltd.                                                       |             0    |       0    |      0    |         3 |
+| 542 | Portlane AB                                                          |             0    |       0    |      0    |         3 |
+| 543 | Nos Comunicacoes, S.A.                                               |             0    |       0    |      0    |         3 |
+| 544 | NextGenTel AS                                                        |             0    |       0    |      0    |         3 |
+| 545 | Netia SA                                                             |             0    |       0    |      0    |         3 |
+| 546 | Locaweb Servios de Internet S/A                                      |             0    |       0    |      0    |         3 |
+| 547 | Lightup Network Solutions GmbH &amp; Co. KG                          |             0    |       0    |      0    |         3 |
+| 548 | GMO Internet,Inc                                                     |             0    |       0    |      0    |         3 |
+| 549 | ecotel communication ag                                              |             0    |       0    |      0    |         3 |
+| 550 | CloudVPS B.V.                                                        |             0    |       0    |      0    |         3 |
+| 551 | Wholesale Services Provider                                          |             0    |       0    |      0    |         2 |
+| 552 | Vodafone Portugal - Communicacoes Pessoais S.A.                      |             0    |       0    |      0    |         2 |
+| 553 | Vodafone NZ Ltd.                                                     |             0    |       0    |      0    |         2 |
+| 554 | Virtono Networks SRL                                                 |             0    |       0    |      0    |         2 |
+| 555 | Videotron Telecom Ltee                                               |             0    |       0    |      0    |         2 |
+| 556 | Unwired                                                              |             0    |       0    |      0    |         2 |
+| 557 | Tunisia BackBone AS                                                  |             0    |       0    |      0    |         2 |
+| 558 | Trustica s.r.o.                                                      |             0    |       0    |      0    |         2 |
+| 559 | Tim Celular S.A.                                                     |             0    |       0    |      0    |         2 |
+| 560 | Ticinocom SA                                                         |             0    |       0    |      0    |         2 |
+| 561 | Telia Stofa A/S                                                      |             0    |       0    |      0    |         2 |
+| 562 | Tele 2 Nederland B.V.                                                |             0    |       0    |      0    |         2 |
+| 563 | TAZ Verlags- und Vertriebs GmbH                                      |             0    |       0    |      0    |         2 |
+| 564 | Symphony Communication Thailand PCL.                                 |             0    |       0    |      0    |         2 |
+| 565 | SWITCH                                                               |             0    |       0    |      0    |         2 |
+| 566 | Starman AS                                                           |             0    |       0    |      0    |         2 |
+| 567 | Sonic Telecom LLC                                                    |             0    |       0    |      0    |         2 |
+| 568 | SkyMesh Pty Ltd                                                      |             0    |       0    |      0    |         2 |
+| 569 | SHYAM SPECTRA PVT LTD                                                |             0    |       0    |      0    |         2 |
+| 570 | Servicos De Comunicacoes E Multimedia S.A.                           |             0    |       0    |      0    |         2 |
+| 571 | Qhoster Ltd.                                                         |             0    |       0    |      0    |         2 |
+| 572 | PS Internet Company LLC                                              |             0    |       0    |      0    |         2 |
+| 573 | Primus Telecommunications                                            |             0    |       0    |      0    |         2 |
+| 574 | PrimaCom Berlin GmbH                                                 |             0    |       0    |      0    |         2 |
+| 575 | Parknet F.M.B.A                                                      |             0    |       0    |      0    |         2 |
+| 576 | OU Web Hosting Solutions                                             |             0    |       0    |      0    |         2 |
+| 577 | Orange Slovensko a.s.                                                |             0    |       0    |      0    |         2 |
+| 578 | OOO NI                                                               |             0    |       0    |      0    |         2 |
+| 579 | OJSC Ufanet                                                          |             0    |       0    |      0    |         2 |
+| 580 | NSS S.A.                                                             |             0    |       0    |      0    |         2 |
+| 581 | Novus Entertainment Inc.                                             |             0    |       0    |      0    |         2 |
+| 582 | Nianet A/S                                                           |             0    |       0    |      0    |         2 |
+| 583 | NET1 Ltd.                                                            |             0    |       0    |      0    |         2 |
+| 584 | Nessus GmbH                                                          |             0    |       0    |      0    |         2 |
+| 585 | Nebula Oy                                                            |             0    |       0    |      0    |         2 |
+| 586 | National Chiao Tung University                                       |             0    |       0    |      0    |         2 |
+| 587 | MYREPUBLIC LIMITED                                                   |             0    |       0    |      0    |         2 |
+| 588 | Multimedia Polska S.A.                                               |             0    |       0    |      0    |         2 |
+| 589 | MT-MPLS                                                              |             0    |       0    |      0    |         2 |
+| 590 | Microplex PTY LTD                                                    |             0    |       0    |      0    |         2 |
+| 591 | LLC KomTehCentr                                                      |             0    |       0    |      0    |         2 |
+| 592 | LIWEST Kabelmedien GmbH                                              |             0    |       0    |      0    |         2 |
+| 593 | LeapSwitch Networks Pvt Ltd                                          |             0    |       0    |      0    |         2 |
+| 594 | KDDI CORPORATION                                                     |             0    |       0    |      0    |         2 |
+| 595 | JSC RTComm.RU                                                        |             0    |       0    |      0    |         2 |
+| 596 | Iwacom Sp. Z O.o.                                                    |             0    |       0    |      0    |         2 |
+| 597 | Iteranet LLC                                                         |             0    |       0    |      0    |         2 |
+| 598 | IT7 Networks Inc                                                     |             0    |       0    |      0    |         2 |
+| 599 | IP TELECOM GLOBAL                                                    |             0    |       0    |      0    |         2 |
+| 600 | Internet Initiative Japan Inc.                                       |             0    |       0    |      0    |         2 |
+| 601 | Informacines sistemos ir technologijos, UAB                          |             0    |       0    |      0    |         2 |
+| 602 | Infobunker, L.L.C.                                                   |             0    |       0    |      0    |         2 |
+| 603 | inexio Informationstechnologie und Telekommunikation Gmbh            |             0    |       0    |      0    |         2 |
+| 604 | ImproWare AG                                                         |             0    |       0    |      0    |         2 |
+| 605 | Ic-voronezh                                                          |             0    |       0    |      0    |         2 |
+| 606 | HostSlim BV                                                          |             0    |       0    |      0    |         2 |
+| 607 | HighSpeed Office Limited                                             |             0    |       0    |      0    |         2 |
+| 608 | Hathway IP Over Cable Internet                                       |             0    |       0    |      0    |         2 |
+| 609 | ENTEGA Medianet GmbH                                                 |             0    |       0    |      0    |         2 |
+| 610 | EE Limited                                                           |             0    |       0    |      0    |         2 |
+| 611 | EBOX                                                                 |             0    |       0    |      0    |         2 |
+| 612 | Dial Telecom, a.s.                                                   |             0    |       0    |      0    |         2 |
+| 613 | Dennis Rainer Warnholz trading as active-servers.com                 |             0    |       0    |      0    |         2 |
+| 614 | Colo4, LLC                                                           |             0    |       0    |      0    |         2 |
+| 615 | Cogeco Cable                                                         |             0    |       0    |      0    |         2 |
+| 616 | Codero                                                               |             0    |       0    |      0    |         2 |
+| 617 | CJSC Ural WES                                                        |             0    |       0    |      0    |         2 |
+| 618 | CallPlus Services Limited                                            |             0    |       0    |      0    |         2 |
+| 619 | CAIW Diensten B.V.                                                   |             0    |       0    |      0    |         2 |
+| 620 | Cable One, Inc.                                                      |             0    |       0    |      0    |         2 |
+| 621 | Business Consulting LLC                                              |             0    |       0    |      0    |         2 |
+| 622 | Brasil Telecom S/A - Filial Distrito Federal                         |             0    |       0    |      0    |         2 |
+| 623 | BrainStorm Network, Inc                                              |             0    |       0    |      0    |         2 |
+| 624 | Bradler &amp; Krantz GmbH &amp; Co. KG                               |             0    |       0    |      0    |         2 |
+| 625 | Biddeford Internet Corp                                              |             0    |       0    |      0    |         2 |
+| 626 | BELNET                                                               |             0    |       0    |      0    |         2 |
+| 627 | ArubaCloud Limited                                                   |             0    |       0    |      0    |         2 |
+| 628 | Armstrong Cable Services                                             |             0    |       0    |      0    |         2 |
+| 629 | Argon Data Communication                                             |             0    |       0    |      0    |         2 |
+| 630 | ANGANI-AS                                                            |             0    |       0    |      0    |         2 |
+| 631 | Zyztm Research Division 10 B.V.                                      |             0    |       0    |      0    |         1 |
+| 632 | York University                                                      |             0    |       0    |      0    |         1 |
+| 633 | Yahoo Japan Corporation                                              |             0    |       0    |      0    |         1 |
+| 634 | Xirra GmbH                                                           |             0    |       0    |      0    |         1 |
+| 635 | WTT HK Limited                                                       |             0    |       0    |      0    |         1 |
+| 636 | Windstream Communications LLC                                        |             0    |       0    |      0    |         1 |
+| 637 | Wien Energie GmbH                                                    |             0    |       0    |      0    |         1 |
+| 638 | WIBO Baltic UAB                                                      |             0    |       0    |      0    |         1 |
+| 639 | WGO Telecomunicaes Ltda                                              |             0    |       0    |      0    |         1 |
+| 640 | WEST CALL SPb LLC                                                    |             0    |       0    |      0    |         1 |
+| 641 | WebJanssen ISP ltd &amp; Co KG                                       |             0    |       0    |      0    |         1 |
+| 642 | VSE NET GmbH                                                         |             0    |       0    |      0    |         1 |
+| 643 | Vodafone-panafon Hellenic Telecommunications Company SA              |             0    |       0    |      0    |         1 |
+| 644 | Vodafone Net Iletisim Hizmetleri Anonim Sirketi                      |             0    |       0    |      0    |         1 |
+| 645 | Vodafone Czech Republic a.s.                                         |             0    |       0    |      0    |         1 |
+| 646 | VNET a.s.                                                            |             0    |       0    |      0    |         1 |
+| 647 | Vladivostokskaya Set LTD                                             |             0    |       0    |      0    |         1 |
+| 648 | Vivacom                                                              |             0    |       0    |      0    |         1 |
+| 649 | Virtual Citadel Inc.                                                 |             0    |       0    |      0    |         1 |
+| 650 | VIPnet d.o.o.                                                        |             0    |       0    |      0    |         1 |
+| 651 | Viking Tech AB                                                       |             0    |       0    |      0    |         1 |
+| 652 | Vienna University Computer Center                                    |             0    |       0    |      0    |         1 |
+| 653 | VELTON.TELECOM Ltd                                                   |             0    |       0    |      0    |         1 |
+| 654 | UNIVERSIDADE ESTADUAL DE CAMPINAS                                    |             0    |       0    |      0    |         1 |
+| 655 | Universidad Nacional Autonoma de Mexico                              |             0    |       0    |      0    |         1 |
+| 656 | Uninet S.A. de C.V.                                                  |             0    |       0    |      0    |         1 |
+| 657 | Unified Layer                                                        |             0    |       0    |      0    |         1 |
+| 658 | UGMK-Telecom LLC                                                     |             0    |       0    |      0    |         1 |
+| 659 | UAB Porenta                                                          |             0    |       0    |      0    |         1 |
+| 660 | Tyfon                                                                |             0    |       0    |      0    |         1 |
+| 661 | Trytech Ltd.                                                         |             0    |       0    |      0    |         1 |
+| 662 | TRICOM                                                               |             0    |       0    |      0    |         1 |
+| 663 | TOV Global-NET                                                       |             0    |       0    |      0    |         1 |
+| 664 | TOKAI Communications Corporation                                     |             0    |       0    |      0    |         1 |
+| 665 | TIME dotCom Berhad                                                   |             0    |       0    |      0    |         1 |
+| 666 | Tieteen tietotekniikan keskus Oy                                     |             0    |       0    |      0    |         1 |
+| 667 | The Corporation for Financing &amp; Promoting Technology             |             0    |       0    |      0    |         1 |
+| 668 | The Computer Shop Netlink                                            |             0    |       0    |      0    |         1 |
+| 669 | Teleradiocompany Teleos-1 Ltd                                        |             0    |       0    |      0    |         1 |
+| 670 | Telenor A/S                                                          |             0    |       0    |      0    |         1 |
+| 671 | Telekomunikacja Podlasie Sp. z o.o.                                  |             0    |       0    |      0    |         1 |
+| 672 | TELEKOM SRBIJA a.d.                                                  |             0    |       0    |      0    |         1 |
+| 673 | Telekom Slovenije d.d.                                               |             0    |       0    |      0    |         1 |
+| 674 | TELEFNICA CHILE S.A.                                                 |             0    |       0    |      0    |         1 |
+| 675 | Telecom Argentina S.A.                                               |             0    |       0    |      0    |         1 |
+| 676 | Telecel S.A.                                                         |             0    |       0    |      0    |         1 |
+| 677 | Telecable de Asturias,SA                                             |             0    |       0    |      0    |         1 |
+| 678 | TekTonic                                                             |             0    |       0    |      0    |         1 |
+| 679 | TBayTel                                                              |             0    |       0    |      0    |         1 |
+| 680 | TAU INTERNET Lukasz Chajkaluk                                        |             0    |       0    |      0    |         1 |
+| 681 | Tarr Kft.                                                            |             0    |       0    |      0    |         1 |
+| 682 | TAL.DE Klaus Internet Service GmbH                                   |             0    |       0    |      0    |         1 |
+| 683 | T-Systems International GmbH                                         |             0    |       0    |      0    |         1 |
+| 684 | T-Mobile Austria GmbH                                                |             0    |       0    |      0    |         1 |
+| 685 | Syrian Telecom                                                       |             0    |       0    |      0    |         1 |
+| 686 | Synergy Internet Services Florida                                    |             0    |       0    |      0    |         1 |
+| 687 | SYNAPSECOM S.A. Provider of Telecommunications and Internet Services |             0    |       0    |      0    |         1 |
+| 688 | SWAN, a.s.                                                           |             0    |       0    |      0    |         1 |
+| 689 | SupraNet Communications, Inc.                                        |             0    |       0    |      0    |         1 |
+| 690 | SUNY at Stony Brook                                                  |             0    |       0    |      0    |         1 |
+| 691 | Sun Network Hong Kong Limited - HongKong Backbone                    |             0    |       0    |      0    |         1 |
+| 692 | Summit Internet Australia                                            |             0    |       0    |      0    |         1 |
+| 693 | Sudatel                                                              |             0    |       0    |      0    |         1 |
+| 694 | Start Communications                                                 |             0    |       0    |      0    |         1 |
+| 695 | Starry Network Limited                                               |             0    |       0    |      0    |         1 |
+| 696 | Spoldzielnia Telekomunikacyjna OST                                   |             0    |       0    |      0    |         1 |
+| 697 | Spirit Telecom Australia Pty Ltd                                     |             0    |       0    |      0    |         1 |
+| 698 | Spin Internet Service                                                |             0    |       0    |      0    |         1 |
+| 699 | Speedbone Internet &amp; Connectivity GmbH                           |             0    |       0    |      0    |         1 |
+| 700 | Source XS B.V.                                                       |             0    |       0    |      0    |         1 |
+| 701 | SnapServ Ltd                                                         |             0    |       0    |      0    |         1 |
+| 702 | Singtel Fibre Broadband                                              |             0    |       0    |      0    |         1 |
+| 703 | Simply Transit Ltd                                                   |             0    |       0    |      0    |         1 |
+| 704 | Sigterm Mikal Villa                                                  |             0    |       0    |      0    |         1 |
+| 705 | Sibinet, Ltd.                                                        |             0    |       0    |      0    |         1 |
+| 706 | SIA Lattelecom                                                       |             0    |       0    |      0    |         1 |
+| 707 | SIA Digitalas Ekonomikas Attistibas Centrs                           |             0    |       0    |      0    |         1 |
+| 708 | SERVICIO Y EQUIPO EN TELEFONA INTERNET Y TV S.A. DE C.V.             |             0    |       0    |      0    |         1 |
+| 709 | Serverbase AG                                                        |             0    |       0    |      0    |         1 |
+| 710 | ServeNET Solution Limited Partnership                                |             0    |       0    |      0    |         1 |
+| 711 | Sercomtel Participaes S.A.                                           |             0    |       0    |      0    |         1 |
+| 712 | Serbia BroadBand-Srpske Kablovske mreze d.o.o.                       |             0    |       0    |      0    |         1 |
+| 713 | SECURED SERVERS LLC                                                  |             0    |       0    |      0    |         1 |
+| 714 | Science Production Company Trifle Ltd.                               |             0    |       0    |      0    |         1 |
+| 715 | Sc Cloud Troopers International Srl                                  |             0    |       0    |      0    |         1 |
+| 716 | SatTel Corporation, Ltd.                                             |             0    |       0    |      0    |         1 |
+| 717 | SAREnet, S.A.                                                        |             0    |       0    |      0    |         1 |
+| 718 | Rychly drat, s.r.o.                                                  |             0    |       0    |      0    |         1 |
+| 719 | Ruscom Ltd.                                                          |             0    |       0    |      0    |         1 |
+| 720 | rsnet s.r.o.                                                         |             0    |       0    |      0    |         1 |
+| 721 | rrbone UG haftungsbeschraenkt                                        |             0    |       0    |      0    |         1 |
+| 722 | Riseup Networks                                                      |             0    |       0    |      0    |         1 |
+| 723 | RFTkabel Brandenburg GmbH                                            |             0    |       0    |      0    |         1 |
+| 724 | Rethem Hosting LLC                                                   |             0    |       0    |      0    |         1 |
+| 725 | Reliance Communications Ltd.DAKC MUMBAI                              |             0    |       0    |      0    |         1 |
+| 726 | Regional Information Technologies Ltd.                               |             0    |       0    |      0    |         1 |
+| 727 | Redcom-Internet Inc.                                                 |             0    |       0    |      0    |         1 |
+| 728 | RCL CJSC                                                             |             0    |       0    |      0    |         1 |
+| 729 | Ratt Internet Kapacitet i Sverige AB                                 |             0    |       0    |      0    |         1 |
+| 730 | Rakuten Communications Corp.                                         |             0    |       0    |      0    |         1 |
+| 731 | Radio Muzyka Fakty Sp. z o.o.                                        |             0    |       0    |      0    |         1 |
+| 732 | Racknation S.A.                                                      |             0    |       0    |      0    |         1 |
+| 733 | Rachamim Aviel Twito trading as A.B INTERNET SOLUTIONS               |             0    |       0    |      0    |         1 |
+| 734 | R Cable y Telecomunicaciones Galicia, S.A.                           |             0    |       0    |      0    |         1 |
+| 735 | Quartz Telecom LLC                                                   |             0    |       0    |      0    |         1 |
+| 736 | PT. Raja Sepadan Abadi                                               |             0    |       0    |      0    |         1 |
+| 737 | PT. Mediatama Telematika Nusantara                                   |             0    |       0    |      0    |         1 |
+| 738 | PT Cloud Hosting Indonesia                                           |             0    |       0    |      0    |         1 |
+| 739 | Private Joint-stock Company farlep-invest                            |             0    |       0    |      0    |         1 |
+| 740 | Prima S.A.                                                           |             0    |       0    |      0    |         1 |
+| 741 | PJSC MegaFon                                                         |             0    |       0    |      0    |         1 |
+| 742 | Philippine Long Distance Telephone Company                           |             0    |       0    |      0    |         1 |
+| 743 | PCextreme B.V.                                                       |             0    |       0    |      0    |         1 |
+| 744 | PCCW Limited                                                         |             0    |       0    |      0    |         1 |
+| 745 | Partner Communications Ltd.                                          |             0    |       0    |      0    |         1 |
+| 746 | Panamaserver.com                                                     |             0    |       0    |      0    |         1 |
+| 747 | OTK LLC.                                                             |             0    |       0    |      0    |         1 |
+| 748 | Origin Broadband Limited                                             |             0    |       0    |      0    |         1 |
+| 749 | Orange Cote D'ivoire                                                 |             0    |       0    |      0    |         1 |
+| 750 | Orange Belgium SA                                                    |             0    |       0    |      0    |         1 |
+| 751 | OPTINET                                                              |             0    |       0    |      0    |         1 |
+| 752 | Ooredoo Q.S.C.                                                       |             0    |       0    |      0    |         1 |
+| 753 | OOO Post ltd                                                         |             0    |       0    |      0    |         1 |
+| 754 | OOO National Telecommunications                                      |             0    |       0    |      0    |         1 |
+| 755 | OOO Bryansk Svyaz-TV                                                 |             0    |       0    |      0    |         1 |
+| 756 | OnX Enterprise Solutions Inc.                                        |             0    |       0    |      0    |         1 |
+| 757 | Onetsolutions Sasu                                                   |             0    |       0    |      0    |         1 |
+| 758 | Omskie kabelnye seti Ltd.                                            |             0    |       0    |      0    |         1 |
+| 759 | OJSC RITC                                                            |             0    |       0    |      0    |         1 |
+| 760 | Occino GmbH                                                          |             0    |       0    |      0    |         1 |
+| 761 | Ocala Electric Utility                                               |             0    |       0    |      0    |         1 |
+| 762 | Obyedinyonniye Lokalniye Seti Ltd.                                   |             0    |       0    |      0    |         1 |
+| 763 | OAO Osnova Telecom                                                   |             0    |       0    |      0    |         1 |
+| 764 | NTE Bredband AS                                                      |             0    |       0    |      0    |         1 |
+| 765 | North State Telephone Co.                                            |             0    |       0    |      0    |         1 |
+| 766 | noris network AG                                                     |             0    |       0    |      0    |         1 |
+| 767 | Nizhnetagilskie Kompyuternye Seti LLC                                |             0    |       0    |      0    |         1 |
+| 768 | NINET Company Nis d.o.o.                                             |             0    |       0    |      0    |         1 |
+| 769 | Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH     |             0    |       0    |      0    |         1 |
+| 770 | Nexinto GmbH                                                         |             0    |       0    |      0    |         1 |
+| 771 | Nexeon Technologies, Inc.                                            |             0    |       0    |      0    |         1 |
+| 772 | New Wave Communications                                              |             0    |       0    |      0    |         1 |
+| 773 | New Telesystems - TV, Ltd.                                           |             0    |       0    |      0    |         1 |
+| 774 | Nevod Ltd                                                            |             0    |       0    |      0    |         1 |
+| 775 | Nette sp. z o.o.                                                     |             0    |       0    |      0    |         1 |
+| 776 | NetStack-AS                                                          |             0    |       0    |      0    |         1 |
+| 777 | netplus.ch SA                                                        |             0    |       0    |      0    |         1 |
+| 778 | NetNet                                                               |             0    |       0    |      0    |         1 |
+| 779 | NetCom BW GmbH                                                       |             0    |       0    |      0    |         1 |
+| 780 | Netcetera Ltd.                                                       |             0    |       0    |      0    |         1 |
+| 781 | Net-style Atarim Ltd                                                 |             0    |       0    |      0    |         1 |
+| 782 | Net Onboard Sdn Bhd - Quality &amp; Reliable Cloud Hosting Provider  |             0    |       0    |      0    |         1 |
+| 783 | Nej.cz s.r.o.                                                        |             0    |       0    |      0    |         1 |
+| 784 | National Internet Backbone                                           |             0    |       0    |      0    |         1 |
+| 785 | National Computer Systems Co Ltd                                     |             0    |       0    |      0    |         1 |
+| 786 | National Central University                                          |             0    |       0    |      0    |         1 |
+| 787 | Mythic Beasts Ltd                                                    |             0    |       0    |      0    |         1 |
+| 788 | MYREPUBLIC PTY LTD                                                   |             0    |       0    |      0    |         1 |
+| 789 | MyRepublic Ltd.                                                      |             0    |       0    |      0    |         1 |
+| 790 | Moselle Telecom                                                      |             0    |       0    |      0    |         1 |
+| 791 | Mittwald CM Service GmbH und Co.KG                                   |             0    |       0    |      0    |         1 |
+| 792 | mitko.com Eood                                                       |             0    |       0    |      0    |         1 |
+| 793 | MILLICOM CABLE COSTA RICA S.A.                                       |             0    |       0    |      0    |         1 |
+| 794 | Mike Kaldig                                                          |             0    |       0    |      0    |         1 |
+| 795 | Midcontinent Communications                                          |             0    |       0    |      0    |         1 |
+| 796 | mhs internet AG                                                      |             0    |       0    |      0    |         1 |
+| 797 | Metronet telekomunikacije d.d.                                       |             0    |       0    |      0    |         1 |
+| 798 | Melbikomas UAB                                                       |             0    |       0    |      0    |         1 |
+| 799 | meerfarbig GmbH &amp; Co. KG                                         |             0    |       0    |      0    |         1 |
+| 800 | McGill University                                                    |             0    |       0    |      0    |         1 |
+| 801 | Manx Telecom                                                         |             0    |       0    |      0    |         1 |
+| 802 | Manuel Wannemacher                                                   |             0    |       0    |      0    |         1 |
+| 803 | manitu GmbH                                                          |             0    |       0    |      0    |         1 |
+| 804 | ManagedWay                                                           |             0    |       0    |      0    |         1 |
+| 805 | Mammoth Media Pty Ltd                                                |             0    |       0    |      0    |         1 |
+| 806 | Mahanagar Telephone Nigam Limited                                    |             0    |       0    |      0    |         1 |
+| 807 | Loveservers LTD                                                      |             0    |       0    |      0    |         1 |
+| 808 | Lost Oasis SARL                                                      |             0    |       0    |      0    |         1 |
+| 809 | Long Lines Internet                                                  |             0    |       0    |      0    |         1 |
+| 810 | LLHost Inc                                                           |             0    |       0    |      0    |         1 |
+| 811 | LLC TOMTEL                                                           |             0    |       0    |      0    |         1 |
+| 812 | LLC Murmansk Multiservice Networks                                   |             0    |       0    |      0    |         1 |
+| 813 | LLC IT Business                                                      |             0    |       0    |      0    |         1 |
+| 814 | Liquid Web, L.L.C                                                    |             0    |       0    |      0    |         1 |
+| 815 | Limited Company Information and Consulting Agency                    |             0    |       0    |      0    |         1 |
+| 816 | Limestone Networks, Inc.                                             |             0    |       0    |      0    |         1 |
+| 817 | LigaLink, Ltd.                                                       |             0    |       0    |      0    |         1 |
+| 818 | Lennart Seitz                                                        |             0    |       0    |      0    |         1 |
+| 819 | Langate Ltd                                                          |             0    |       0    |      0    |         1 |
+| 820 | Koumbit                                                              |             0    |       0    |      0    |         1 |
+| 821 | komro GmbH                                                           |             0    |       0    |      0    |         1 |
+| 822 | Kom lan Ltd                                                          |             0    |       0    |      0    |         1 |
+| 823 | KIFU Governmental Info Tech Development Agency                       |             0    |       0    |      0    |         1 |
+| 824 | KhmelnitskInfocom LTD                                                |             0    |       0    |      0    |         1 |
+| 825 | Kcom                                                                 |             0    |       0    |      0    |         1 |
+| 826 | Kangaroot BVBA                                                       |             0    |       0    |      0    |         1 |
+| 827 | kabelplus GmbH                                                       |             0    |       0    |      0    |         1 |
+| 828 | K Telecom                                                            |             0    |       0    |      0    |         1 |
+| 829 | Jupiter Telecommunications Co., Ltd.                                 |             0    |       0    |      0    |         1 |
+| 830 | JSC Vostoktelecom                                                    |             0    |       0    |      0    |         1 |
+| 831 | JSC Transtelecom                                                     |             0    |       0    |      0    |         1 |
+| 832 | JSC Kazakhtelecom                                                    |             0    |       0    |      0    |         1 |
+| 833 | JSC AIST                                                             |             0    |       0    |      0    |         1 |
+| 834 | JMDI Jacek Maleszko                                                  |             0    |       0    |      0    |         1 |
+| 835 | Jisc Services Limited                                                |             0    |       0    |      0    |         1 |
+| 836 | iWelt AG                                                             |             0    |       0    |      0    |         1 |
+| 837 | It services                                                          |             0    |       0    |      0    |         1 |
+| 838 | itself s.r.o.                                                        |             0    |       0    |      0    |         1 |
+| 839 | iTools JSC                                                           |             0    |       0    |      0    |         1 |
+| 840 | Intersvyaz-2 JSC                                                     |             0    |       0    |      0    |         1 |
+| 841 | Internetia Sp.z o.o.                                                 |             0    |       0    |      0    |         1 |
+| 842 | Interhost Communication Solutions Ltd.                               |             0    |       0    |      0    |         1 |
+| 843 | Inter.Net Germany                                                    |             0    |       0    |      0    |         1 |
+| 844 | Intelsc Ltd.                                                         |             0    |       0    |      0    |         1 |
+| 845 | Integra Telecom, Inc.                                                |             0    |       0    |      0    |         1 |
+| 846 | Innsbrucker Kommunalbetriebe AG                                      |             0    |       0    |      0    |         1 |
+| 847 | Inforoom Ltd.                                                        |             0    |       0    |      0    |         1 |
+| 848 | Information Technology Company ITC                                   |             0    |       0    |      0    |         1 |
+| 849 | Infomaniak Network SA                                                |             0    |       0    |      0    |         1 |
+| 850 | Infoline Ltd.                                                        |             0    |       0    |      0    |         1 |
+| 851 | Individual Entrepreneur Tetiana Markova                              |             0    |       0    |      0    |         1 |
+| 852 | iksnet bilgisayar destek hizmetleri anonim sirketi                   |             0    |       0    |      0    |         1 |
+| 853 | iiNet Limited                                                        |             0    |       0    |      0    |         1 |
+| 854 | iCONNECT                                                             |             0    |       0    |      0    |         1 |
+| 855 | Iberbanda S.A.                                                       |             0    |       0    |      0    |         1 |
+| 856 | Hutchison Drei Austria GmbH                                          |             0    |       0    |      0    |         1 |
+| 857 | htp GmbH                                                             |             0    |       0    |      0    |         1 |
+| 858 | Hostway Services, Inc.                                               |             0    |       0    |      0    |         1 |
+| 859 | HostMySite                                                           |             0    |       0    |      0    |         1 |
+| 860 | Hostiserver Ltd                                                      |             0    |       0    |      0    |         1 |
+| 861 | Hosting.de GmbH                                                      |             0    |       0    |      0    |         1 |
+| 862 | Hosting Ukraine LTD                                                  |             0    |       0    |      0    |         1 |
+| 863 | Hosting Services, Inc.                                               |             0    |       0    |      0    |         1 |
+| 864 | Host Virtual, Inc                                                    |             0    |       0    |      0    |         1 |
+| 865 | Host Palace Internet Services                                        |             0    |       0    |      0    |         1 |
+| 866 | Horyzont Technologie Internetowe sp.z.o.o.                           |             0    |       0    |      0    |         1 |
+| 867 | HopOne Internet Corporation                                          |             0    |       0    |      0    |         1 |
+| 868 | HL komm Telekommunikations GmbH                                      |             0    |       0    |      0    |         1 |
+| 869 | HitMe.pl Marek Bajerski                                              |             0    |       0    |      0    |         1 |
+| 870 | Hilton Cesar Bender &amp; Cia Ltda                                   |             0    |       0    |      0    |         1 |
+| 871 | Highwinds Network Group, Inc.                                        |             0    |       0    |      0    |         1 |
+| 872 | Hiawatha Broadband Communications, Inc                               |             0    |       0    |      0    |         1 |
+| 873 | Herault Telecom                                                      |             0    |       0    |      0    |         1 |
+| 874 | Heinlein-Support GmbH                                                |             0    |       0    |      0    |         1 |
+| 875 | hd.net.nz                                                            |             0    |       0    |      0    |         1 |
+| 876 | Hawaiian Telcom Services Company, Inc.                               |             0    |       0    |      0    |         1 |
+| 877 | GX INTERNET E WEB HOSTING SERV DE INFORMATICA LTDA                   |             0    |       0    |      0    |         1 |
+| 878 | Gtd Internet S.A.                                                    |             0    |       0    |      0    |         1 |
+| 879 | Grande Communications Networks, LLC                                  |             0    |       0    |      0    |         1 |
+| 880 | Gorset Ltd.                                                          |             0    |       0    |      0    |         1 |
+| 881 | GO p.l.c.                                                            |             0    |       0    |      0    |         1 |
+| 882 | Ginernet S.l.                                                        |             0    |       0    |      0    |         1 |
+| 883 | Gigabit Hosting Sdn Bhd                                              |             0    |       0    |      0    |         1 |
+| 884 | GENERAL COMMUNICATION, INC.                                          |             0    |       0    |      0    |         1 |
+| 885 | G-Core Labs S.A.                                                     |             0    |       0    |      0    |         1 |
+| 886 | FUJITSU LIMITED                                                      |             0    |       0    |      0    |         1 |
+| 887 | Freenet Ltd.                                                         |             0    |       0    |      0    |         1 |
+| 888 | FreeBit Co.,Ltd.                                                     |             0    |       0    |      0    |         1 |
+| 889 | FortressITX                                                          |             0    |       0    |      0    |         1 |
+| 890 | Fork Networking, LLC                                                 |             0    |       0    |      0    |         1 |
+| 891 | Final Frontier Corporation                                           |             0    |       0    |      0    |         1 |
+| 892 | FibreStream, Inc.                                                    |             0    |       0    |      0    |         1 |
+| 893 | FIBIA P/S                                                            |             0    |       0    |      0    |         1 |
+| 894 | FIBERNETICS CORPORATION                                              |             0    |       0    |      0    |         1 |
+| 895 | Fiber 1 Ltd.                                                         |             0    |       0    |      0    |         1 |
+| 896 | FASTER CZ spol. s r.o.                                               |             0    |       0    |      0    |         1 |
+| 897 | Exetel Pty Ltd                                                       |             0    |       0    |      0    |         1 |
+| 898 | Exa Networks Limited                                                 |             0    |       0    |      0    |         1 |
+| 899 | Exa Bytes Network Sdn.Bhd.                                           |             0    |       0    |      0    |         1 |
+| 900 | Everest Broadcasting Company Ltd                                     |             0    |       0    |      0    |         1 |
+| 901 | European Backbone Networks Inc.                                      |             0    |       0    |      0    |         1 |
+| 902 | Euronet Communications B.V.                                          |             0    |       0    |      0    |         1 |
+| 903 | eTOP sp. z o.o.                                                      |             0    |       0    |      0    |         1 |
+| 904 | ESDS Software Solution Pvt. Ltd.                                     |             0    |       0    |      0    |         1 |
+| 905 | ENTEL CHILE S.A.                                                     |             0    |       0    |      0    |         1 |
+| 906 | encoLine GmbH                                                        |             0    |       0    |      0    |         1 |
+| 907 | Ellijay Telephone Company                                            |             0    |       0    |      0    |         1 |
+| 908 | Elkdata OU                                                           |             0    |       0    |      0    |         1 |
+| 909 | Electric Plant Board of the City of Glasgow, Kentucky                |             0    |       0    |      0    |         1 |
+| 910 | Eircom                                                               |             0    |       0    |      0    |         1 |
+| 911 | Eigo Solutii Srl                                                     |             0    |       0    |      0    |         1 |
+| 912 | EastLink                                                             |             0    |       0    |      0    |         1 |
+| 913 | Dreamscape Networks Limited                                          |             0    |       0    |      0    |         1 |
+| 914 | DomoLAN Ltd.                                                         |             0    |       0    |      0    |         1 |
+| 915 | dogado GmbH                                                          |             0    |       0    |      0    |         1 |
+| 916 | DoclerWeb Kft.                                                       |             0    |       0    |      0    |         1 |
+| 917 | Digital Energy Technologies Limited                                  |             0    |       0    |      0    |         1 |
+| 918 | Digital Energy Technologies Chile SpA                                |             0    |       0    |      0    |         1 |
+| 919 | Digit One LLC                                                        |             0    |       0    |      0    |         1 |
+| 920 | Deteque LLC                                                          |             0    |       0    |      0    |         1 |
+| 921 | DataCorpore Servios e Representaes                                   |             0    |       0    |      0    |         1 |
+| 922 | Dansk Net A/S                                                        |             0    |       0    |      0    |         1 |
+| 923 | Cyprus Telecommunications Authority                                  |             0    |       0    |      0    |         1 |
+| 924 | Cyber Wurx LLC                                                       |             0    |       0    |      0    |         1 |
+| 925 | Cutting Edge Communications, Inc.                                    |             0    |       0    |      0    |         1 |
+| 926 | Corporate Colocation Inc.                                            |             0    |       0    |      0    |         1 |
+| 927 | CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP                  |             0    |       0    |      0    |         1 |
+| 928 | COPEL Telecomunicaes S.A.                                            |             0    |       0    |      0    |         1 |
+| 929 | Cooolbox AD                                                          |             0    |       0    |      0    |         1 |
+| 930 | CONTINENTAL BROADBAND PENNSYLVANIA, INC.                             |             0    |       0    |      0    |         1 |
+| 931 | Consortium GARR                                                      |             0    |       0    |      0    |         1 |
+| 932 | Consorci de Serveis Universitaris de Catalunya                       |             0    |       0    |      0    |         1 |
+| 933 | Consolidated Communications, Inc.                                    |             0    |       0    |      0    |         1 |
+| 934 | ConSol Consulting &amp; Solutions Software GmbH                      |             0    |       0    |      0    |         1 |
+| 935 | Conseev LLC                                                          |             0    |       0    |      0    |         1 |
+| 936 | Companhia de Telecomunicacoes de Macau SARL                          |             0    |       0    |      0    |         1 |
+| 937 | COMCEL GUATEMALA S.A.                                                |             0    |       0    |      0    |         1 |
+| 938 | COLOMBIA TELECOMUNICACIONES S.A. ESP                                 |             0    |       0    |      0    |         1 |
+| 939 | CMC Telecom Infrastructure Company                                   |             0    |       0    |      0    |         1 |
+| 940 | CMB                                                                  |             0    |       0    |      0    |         1 |
+| 941 | Clouvider Limited                                                    |             0    |       0    |      0    |         1 |
+| 942 | Cloudsigma Ag                                                        |             0    |       0    |      0    |         1 |
+| 943 | Cloud South                                                          |             0    |       0    |      0    |         1 |
+| 944 | Closed Joint Stock Company TransTeleCom                              |             0    |       0    |      0    |         1 |
+| 945 | Closed Joint Stock Company SibTransTelecom                           |             0    |       0    |      0    |         1 |
+| 946 | CJSC TSI Service                                                     |             0    |       0    |      0    |         1 |
+| 947 | Citycable                                                            |             0    |       0    |      0    |         1 |
+| 948 | Cincinnati Bell Telephone Company LLC                                |             0    |       0    |      0    |         1 |
+| 949 | Chaos Computer Club e.V.                                             |             0    |       0    |      0    |         1 |
+| 950 | Centro Educacional Nossa Senhora Auxiliadora                         |             0    |       0    |      0    |         1 |
+| 951 | CELL-C                                                               |             0    |       0    |      0    |         1 |
+| 952 | CDM                                                                  |             0    |       0    |      0    |         1 |
+| 953 | CDLAN s.r.l.                                                         |             0    |       0    |      0    |         1 |
+| 954 | Casablanca INT                                                       |             0    |       0    |      0    |         1 |
+| 955 | California State University, Office of the Chancellor                |             0    |       0    |      0    |         1 |
+| 956 | CABO SERVICOS DE TELECOMUNICACOES LTDA                               |             0    |       0    |      0    |         1 |
+| 957 | CABLEVISION S.A.                                                     |             0    |       0    |      0    |         1 |
+| 958 | Cablenet Communication Systems Ltd                                   |             0    |       0    |      0    |         1 |
+| 959 | Cablelynx                                                            |             0    |       0    |      0    |         1 |
+| 960 | Buzinessware FZCO                                                    |             0    |       0    |      0    |         1 |
+| 961 | Brutele SC                                                           |             0    |       0    |      0    |         1 |
+| 962 | Brownrice Internet, Inc.                                             |             0    |       0    |      0    |         1 |
+| 963 | Brightbox Systems Ltd                                                |             0    |       0    |      0    |         1 |
+| 964 | Bowdoin College                                                      |             0    |       0    |      0    |         1 |
+| 965 | BIGLOBE Inc.                                                         |             0    |       0    |      0    |         1 |
+| 966 | BEST-NET s.r.o.                                                      |             0    |       0    |      0    |         1 |
+| 967 | Bergon Internet Ltd.                                                 |             0    |       0    |      0    |         1 |
+| 968 | BEK Communications Cooperative                                       |             0    |       0    |      0    |         1 |
+| 969 | Balnet Ltd.                                                          |             0    |       0    |      0    |         1 |
+| 970 | B2 Net Solutions Inc.                                                |             0    |       0    |      0    |         1 |
+| 971 | Avensys Networks Ltd                                                 |             0    |       0    |      0    |         1 |
+| 972 | Aureon Network Services                                              |             0    |       0    |      0    |         1 |
+| 973 | Association GRIFON                                                   |             0    |       0    |      0    |         1 |
+| 974 | Ask4 Limited                                                         |             0    |       0    |      0    |         1 |
+| 975 | Asahi Net                                                            |             0    |       0    |      0    |         1 |
+| 976 | AS250.net Foundation                                                 |             0    |       0    |      0    |         1 |
+| 977 | ARTERIA Networks Corporation                                         |             0    |       0    |      0    |         1 |
+| 978 | ARP NETWORKS, INC.                                                   |             0    |       0    |      0    |         1 |
+| 979 | ARDH GLOBAL INDONESIA, PT                                            |             0    |       0    |      0    |         1 |
+| 980 | Arcade Solutions AG                                                  |             0    |       0    |      0    |         1 |
+| 981 | Arachnitec, INC.                                                     |             0    |       0    |      0    |         1 |
+| 982 | Andreas Fahl trading as Megaservers.de                               |             0    |       0    |      0    |         1 |
+| 983 | Andorra Telecom Sau                                                  |             0    |       0    |      0    |         1 |
+| 984 | AMSNET Andrzej Szreter                                               |             0    |       0    |      0    |         1 |
+| 985 | Amsio B.V.                                                           |             0    |       0    |      0    |         1 |
+| 986 | AltusHost B.V.                                                       |             0    |       0    |      0    |         1 |
+| 987 | AlpineDC SA                                                          |             0    |       0    |      0    |         1 |
+| 988 | Alibaba China Technology Co., Ltd.                                   |             0    |       0    |      0    |         1 |
+| 989 | ALDIS Telecom Ltd                                                    |             0    |       0    |      0    |         1 |
+| 990 | Alastyr Telekomunikasyon A.S.                                        |             0    |       0    |      0    |         1 |
+| 991 | Airstream Communications, LLC                                        |             0    |       0    |      0    |         1 |
+| 992 | AEG                                                                  |             0    |       0    |      0    |         1 |
+| 993 | ABC Domain LLC                                                       |             0    |       0    |      0    |         1 |
+| 994 | Aalto University Student Union                                       |             0    |       0    |      0    |         1 |
+| 995 | 3S S.A.                                                              |             0    |       0    |      0    |         1 |
+| 996 | 365 Online technology joint stock company                            |             0    |       0    |      0    |         1 |
+| 997 | 31173 Services AB                                                    |             0    |       0    |      0    |         1 |
