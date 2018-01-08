@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-01-07 08:00 UTC**
+Tor network data as of: **2018-01-08 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -60,14 +60,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 
-## ContactInfo: Brandon Kuschel &lt;kusch023 AT nospam UMN dot edu. (2) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
-
-| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Charybdis](https://atlas.torproject.org/#details/8096552438C9B8AB82BDCB8D5896128B61AAFAF9) | 2016-10-26   | Yes         |                     1 |
-| [Minotaur](https://atlas.torproject.org/#details/2F0F32AB1E5B943CA7D062C03F18960C86E70D94)  | 2015-12-13   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,BF5068641A54A9433CA612BDFF7F098B72EB9762,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,42ED91DD3768F6A2A194D094A7432CBE8DA004B1,8096552438C9B8AB82BDCB8D5896128B61AAFAF9
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,BF5068641A54A9433CA612BDFF7F098B72EB9762,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,42ED91DD3768F6A2A194D094A7432CBE8DA004B1
