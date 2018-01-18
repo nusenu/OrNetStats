@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-01-17 08:00 UTC**
+Tor network data as of: **2018-01-18 10:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -54,6 +54,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [CalyxInstitute12](https://atlas.torproject.org/#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    12 |
 | [CalyxInstitute01](https://atlas.torproject.org/#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    12 |
 
+## ContactInfo: - (2) {#-}
+
+| Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [chrissrelay](https://atlas.torproject.org/#details/55C95AC7FB3005DDDC73FECD9AB9D2CDA2986D78) | 2018-01-02   | Yes         |                     1 |
+| [RainbowDash](https://atlas.torproject.org/#details/7FD90DB48DB568884DEA6EE3F89CF27250CF83A6) | 2017-12-30   | No          |                     1 |
+
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
 | Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -64,4 +71,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,42ED91DD3768F6A2A194D094A7432CBE8DA004B1
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,55C95AC7FB3005DDDC73FECD9AB9D2CDA2986D78,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,42ED91DD3768F6A2A194D094A7432CBE8DA004B1
