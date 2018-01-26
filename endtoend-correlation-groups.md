@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-01-25 08:00 UTC**
+Tor network data as of: **2018-01-26 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -36,8 +36,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Forseti](https://atlas.torproject.org/#details/CE946DFEC40A1BFC3665A4727F54354F57297497) | 2018-01-14   | Yes         |                     7 |
 | [Hlin](https://atlas.torproject.org/#details/3844DFD3446832A3C8A137EEA616D4EEB370C788)    | 2017-11-25   | Yes         |                    10 |
 | [Freya](https://atlas.torproject.org/#details/88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199)   | 2016-10-28   | Yes         |                    10 |
-| [Mani](https://atlas.torproject.org/#details/B756D7123D759EAB62CB6A09148AD65AC216F3E3)    | 2017-11-25   | Yes         |                    10 |
 | [Tyr](https://atlas.torproject.org/#details/C238E705C538F5844B75DF1E082323387212C931)     | 2017-10-13   | Yes         |                    10 |
+| [Mani](https://atlas.torproject.org/#details/B756D7123D759EAB62CB6A09148AD65AC216F3E3)    | 2017-11-25   | Yes         |                    10 |
 | [Vor](https://atlas.torproject.org/#details/157106182B9F33663CAEDCD883D302316331DE5E)     | 2016-12-11   | Yes         |                    10 |
 | [Astraea](https://atlas.torproject.org/#details/660CD5F78740B89A34A5C31BE46877EFD891163A) | 2017-11-27   | No          |                     8 |
 | [Atlas](https://atlas.torproject.org/#details/CD215F33C626689BDED65C200AA9DAEBB9DBF687)   | 2017-12-12   | No          |                     8 |
@@ -75,6 +75,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [chrissrelay](https://atlas.torproject.org/#details/55C95AC7FB3005DDDC73FECD9AB9D2CDA2986D78) | 2018-01-02   | Yes         |                     1 |
 | [RainbowDash](https://atlas.torproject.org/#details/7FD90DB48DB568884DEA6EE3F89CF27250CF83A6) | 2017-12-30   | No          |                     1 |
 
+## ContactInfo: tor-mngr AT scalaire DOT fr (2) {#tor-mngr-at-scalaire-dot-fr}
+
+| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [servicePublic2](https://atlas.torproject.org/#details/AC51642FA7A01C47B66F9747ABB41A2BC07C41F4) | 2011-11-01   | Yes         |                     1 |
+| [servicePublic3](https://atlas.torproject.org/#details/5E5040EA472AEB11C3DD4BEAC37EBE50EF40C93B) | 2017-11-27   | No          |                     1 |
+
 ## ContactInfo: AnonyMaid Team &lt;info@anonymaid.net&gt; (3) {#anonymaid-team-infoanonymaidnet}
 
 | Nickname                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
@@ -89,13 +96,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
-
-## ContactInfo: tor-mngr AT scalaire DOT fr (2) {#tor-mngr-at-scalaire-dot-fr}
-
-| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [servicePublic2](https://atlas.torproject.org/#details/AC51642FA7A01C47B66F9747ABB41A2BC07C41F4) | 2011-11-01   | Yes         |                     1 |
-| [servicePublic3](https://atlas.torproject.org/#details/5E5040EA472AEB11C3DD4BEAC37EBE50EF40C93B) | 2017-11-27   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
