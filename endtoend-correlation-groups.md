@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-04 14:00 UTC**
+Tor network data as of: **2018-02-05 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -59,6 +59,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [spiraldog](https://atlas.torproject.org/#details/0446B1B4FF9574389E9F7519A2805855EE4835D3) | 2017-02-01   | Yes         |                     1 |
 | [spiralcat](https://atlas.torproject.org/#details/83FA0683C771754B497343875A07AA089D1FA778) | 2018-02-02   | No          |                     1 |
 
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelay1](https://atlas.torproject.org/#details/D31BFE2048AD5B77CA072E977B5961861A2415E6)     | 2018-01-21   | Yes         |                     1 |
+| [NeelTorExitUSWest](https://atlas.torproject.org/#details/331243DA4C5EC6F4886F4E56EEFB5800300FDC57) | 2018-01-13   | No          |                     2 |
+| [NeelTorExitUSEast](https://atlas.torproject.org/#details/76BD45BAC8CC057D0A6DE927711F3F378555D731) | 2018-01-06   | No          |                     2 |
+
 ## ContactInfo: ninja.turtle5@aol.com (4) {#ninjaturtle5aolcom}
 
 | Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
@@ -75,14 +83,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchDroid](https://atlas.torproject.org/#details/BF5068641A54A9433CA612BDFF7F098B72EB9762)  | 2017-08-09   | Yes         |                     1 |
 | [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
-
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay1](https://atlas.torproject.org/#details/D31BFE2048AD5B77CA072E977B5961861A2415E6)     | 2018-01-21   | Yes         |                     1 |
-| [NeelTorExitUSWest](https://atlas.torproject.org/#details/331243DA4C5EC6F4886F4E56EEFB5800300FDC57) | 2018-01-13   | No          |                     2 |
-| [NeelTorExitUSEast](https://atlas.torproject.org/#details/76BD45BAC8CC057D0A6DE927711F3F378555D731) | 2018-01-06   | No          |                     2 |
 
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
