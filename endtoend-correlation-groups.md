@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-05 08:00 UTC**
+Tor network data as of: **2018-02-06 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -52,13 +52,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: oliver.farnan@cs.ox.ac.uk (2) {#oliverfarnancsoxacuk}
-
-| Nickname                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [spiraldog](https://atlas.torproject.org/#details/0446B1B4FF9574389E9F7519A2805855EE4835D3) | 2017-02-01   | Yes         |                     1 |
-| [spiralcat](https://atlas.torproject.org/#details/83FA0683C771754B497343875A07AA089D1FA778) | 2018-02-02   | No          |                     1 |
-
 ## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -66,6 +59,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [NeelTorRelay1](https://atlas.torproject.org/#details/D31BFE2048AD5B77CA072E977B5961861A2415E6)     | 2018-01-21   | Yes         |                     1 |
 | [NeelTorExitUSWest](https://atlas.torproject.org/#details/331243DA4C5EC6F4886F4E56EEFB5800300FDC57) | 2018-01-13   | No          |                     2 |
 | [NeelTorExitUSEast](https://atlas.torproject.org/#details/76BD45BAC8CC057D0A6DE927711F3F378555D731) | 2018-01-06   | No          |                     2 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: ninja.turtle5@aol.com (4) {#ninjaturtle5aolcom}
 
@@ -84,14 +84,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [DutchMaid04](https://atlas.torproject.org/#details/44182447E5E9F2997754CE53FFB4881942B5B3C6) | 2017-10-01   | No          |                     1 |
 | [DutchMaid03](https://atlas.torproject.org/#details/7FAB8FED1A821455902BEA3388A6DA5BF6F78198) | 2017-10-01   | No          |                     1 |
 
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
-
-| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-CE946DFEC40A1BFC3665A4727F54354F57297497,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,C238E705C538F5844B75DF1E082323387212C931,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,665C6832018E2594955F097B60CBBE307AFB0891,157106182B9F33663CAEDCD883D302316331DE5E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,B756D7123D759EAB62CB6A09148AD65AC216F3E3,3844DFD3446832A3C8A137EEA616D4EEB370C788,0446B1B4FF9574389E9F7519A2805855EE4835D3,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6,88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199
+CE946DFEC40A1BFC3665A4727F54354F57297497,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,C238E705C538F5844B75DF1E082323387212C931,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,665C6832018E2594955F097B60CBBE307AFB0891,157106182B9F33663CAEDCD883D302316331DE5E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BF5068641A54A9433CA612BDFF7F098B72EB9762,B756D7123D759EAB62CB6A09148AD65AC216F3E3,3844DFD3446832A3C8A137EEA616D4EEB370C788,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6,88C3708A9D71ECEC1910B63C3FAA5BF60CD7E199
