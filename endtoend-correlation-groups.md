@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-11 00:00 UTC**
+Tor network data as of: **2018-02-12 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,19 +29,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse AT torworld.org - BTC 17iwdtpmgHdPt15twdT2 (9) {#abuse-at-torworldorg---btc-17iwdtpmghdpt15twdt2}
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Mimir](https://atlas.torproject.org/#details/665C6832018E2594955F097B60CBBE307AFB0891)   | 2018-01-23   | Yes         |                     8 |
-| [Forseti](https://atlas.torproject.org/#details/CE946DFEC40A1BFC3665A4727F54354F57297497) | 2018-01-14   | Yes         |                     8 |
-| [Hlin](https://atlas.torproject.org/#details/3844DFD3446832A3C8A137EEA616D4EEB370C788)    | 2017-11-25   | Yes         |                    11 |
-| [Mani](https://atlas.torproject.org/#details/B756D7123D759EAB62CB6A09148AD65AC216F3E3)    | 2017-11-25   | Yes         |                    11 |
-| [Tyr](https://atlas.torproject.org/#details/C238E705C538F5844B75DF1E082323387212C931)     | 2017-10-13   | Yes         |                    11 |
-| [Vor](https://atlas.torproject.org/#details/157106182B9F33663CAEDCD883D302316331DE5E)     | 2016-12-11   | Yes         |                    11 |
-| [Astraea](https://atlas.torproject.org/#details/660CD5F78740B89A34A5C31BE46877EFD891163A) | 2017-11-27   | No          |                     8 |
-| [Atlas](https://atlas.torproject.org/#details/CD215F33C626689BDED65C200AA9DAEBB9DBF687)   | 2017-12-12   | No          |                     8 |
-| [Gawain](https://atlas.torproject.org/#details/CDAF4916D0553E1E7B81CF83556073761E98A5F4)  | 2017-12-01   | No          |                     8 |
+| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
+| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
 ## ContactInfo: ninja.turtle5@aol.com (6) {#ninjaturtle5aolcom}
 
@@ -53,14 +47,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Michelangelo](https://atlas.torproject.org/#details/8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763) | 2018-01-10   | Yes         |                     1 |
 | [Raphael](https://atlas.torproject.org/#details/17A24B8AC9EE2BBA27B49C28BCEFB8C9331FA100)      | 2018-01-30   | No          |                     1 |
 | [Leonardo](https://atlas.torproject.org/#details/FA87C61BA5B748145C29405A514259F7664F8A2A)     | 2018-01-30   | No          |                     1 |
-
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
 ## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
 
@@ -96,4 +82,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-CE946DFEC40A1BFC3665A4727F54354F57297497,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,C238E705C538F5844B75DF1E082323387212C931,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,665C6832018E2594955F097B60CBBE307AFB0891,157106182B9F33663CAEDCD883D302316331DE5E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,FEEF24CDF15BB59B418D1BF94A64BD3E62BB2CF3,B756D7123D759EAB62CB6A09148AD65AC216F3E3,3844DFD3446832A3C8A137EEA616D4EEB370C788,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,FEEF24CDF15BB59B418D1BF94A64BD3E62BB2CF3,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6
