@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-12 18:00 UTC**
+Tor network data as of: **2018-02-13 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,13 +37,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: ninja.turtle5@aol.com (6) {#ninjaturtle5aolcom}
+## ContactInfo: ninja.turtle5@aol.com (5) {#ninjaturtle5aolcom}
 
 | Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Splinter](https://atlas.torproject.org/#details/D95980C15F79E094AE255BA8F1B57FD6C81F2B54)     | 2018-01-17   | Yes         |                     1 |
 | [Karai](https://atlas.torproject.org/#details/3AF69B3ECCB000879CA1BCD0B36B619DBF712291)        | 2018-01-11   | Yes         |                     1 |
-| [Donatello](https://atlas.torproject.org/#details/FEEF24CDF15BB59B418D1BF94A64BD3E62BB2CF3)    | 2018-02-02   | Yes         |                     1 |
 | [Michelangelo](https://atlas.torproject.org/#details/8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763) | 2018-01-10   | Yes         |                     1 |
 | [Raphael](https://atlas.torproject.org/#details/17A24B8AC9EE2BBA27B49C28BCEFB8C9331FA100)      | 2018-01-30   | No          |                     1 |
 | [Leonardo](https://atlas.torproject.org/#details/FA87C61BA5B748145C29405A514259F7664F8A2A)     | 2018-01-30   | No          |                     1 |
