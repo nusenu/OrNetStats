@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-13 07:00 UTC**
+Tor network data as of: **2018-02-14 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,22 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
+
+| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hackeriet1](https://atlas.torproject.org/#details/E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F)     | 2015-12-02   | Yes         |                     1 |
+| [criticalmass](https://atlas.torproject.org/#details/1D3174338A1131A53E098443E76E1103CDED00DC)   | 2016-12-30   | No          |                    12 |
+| [HaveHeart](https://atlas.torproject.org/#details/204DFD2A2C6A0DC1FA0EACB495218E0B661704FD)      | 2017-10-03   | No          |                    12 |
+| [amazonas](https://atlas.torproject.org/#details/5974B3F4C66D83BBC9622E0F0F023FE48428DB9B)       | 2017-11-01   | No          |                    12 |
+| [CriticalMass](https://atlas.torproject.org/#details/77131D7E2EC1CA9B8D737502256DA9103599CE51)   | 2017-10-03   | No          |                    12 |
+| [sofia](https://atlas.torproject.org/#details/7BFB908A3AA5B491DA4CA72CCBEE0E1F2A939B55)          | 2017-10-03   | No          |                    12 |
+| [amartysen](https://atlas.torproject.org/#details/8EF8766E1645A41A2AE1565EB673A4957C8D5AD2)      | 2017-11-01   | No          |                    12 |
+| [iVPN](https://atlas.torproject.org/#details/A2534EF23390CAE079B1586F0FDF9CE11F556062)           | 2016-12-30   | No          |                    12 |
+| [HSLtor](https://atlas.torproject.org/#details/E43A346CB81DDF364B6FF68235AFADBA0E8692B8)         | 2017-01-22   | No          |                    12 |
+| [freeBogatov](https://atlas.torproject.org/#details/F4594608272C82407E9D137F1AE89A408CCFD285)    | 2017-11-01   | No          |                    12 |
+| [dorrisdeebrown](https://atlas.torproject.org/#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    12 |
+
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -47,21 +63,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Raphael](https://atlas.torproject.org/#details/17A24B8AC9EE2BBA27B49C28BCEFB8C9331FA100)      | 2018-01-30   | No          |                     1 |
 | [Leonardo](https://atlas.torproject.org/#details/FA87C61BA5B748145C29405A514259F7664F8A2A)     | 2018-01-30   | No          |                     1 |
 
-## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
-| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hackeriet1](https://atlas.torproject.org/#details/E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F)     | 2015-12-02   | Yes         |                     1 |
-| [criticalmass](https://atlas.torproject.org/#details/1D3174338A1131A53E098443E76E1103CDED00DC)   | 2016-12-30   | No          |                    12 |
-| [HaveHeart](https://atlas.torproject.org/#details/204DFD2A2C6A0DC1FA0EACB495218E0B661704FD)      | 2017-10-03   | No          |                    12 |
-| [amazonas](https://atlas.torproject.org/#details/5974B3F4C66D83BBC9622E0F0F023FE48428DB9B)       | 2017-11-01   | No          |                    12 |
-| [CriticalMass](https://atlas.torproject.org/#details/77131D7E2EC1CA9B8D737502256DA9103599CE51)   | 2017-10-03   | No          |                    12 |
-| [sofia](https://atlas.torproject.org/#details/7BFB908A3AA5B491DA4CA72CCBEE0E1F2A939B55)          | 2017-10-03   | No          |                    12 |
-| [amartysen](https://atlas.torproject.org/#details/8EF8766E1645A41A2AE1565EB673A4957C8D5AD2)      | 2017-11-01   | No          |                    12 |
-| [iVPN](https://atlas.torproject.org/#details/A2534EF23390CAE079B1586F0FDF9CE11F556062)           | 2016-12-30   | No          |                    12 |
-| [HSLtor](https://atlas.torproject.org/#details/E43A346CB81DDF364B6FF68235AFADBA0E8692B8)         | 2017-01-22   | No          |                    12 |
-| [freeBogatov](https://atlas.torproject.org/#details/F4594608272C82407E9D137F1AE89A408CCFD285)    | 2017-11-01   | No          |                    12 |
-| [dorrisdeebrown](https://atlas.torproject.org/#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    12 |
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
 
@@ -71,14 +78,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [NeelTorExitUSWest](https://atlas.torproject.org/#details/331243DA4C5EC6F4886F4E56EEFB5800300FDC57) | 2018-01-13   | No          |                     2 |
 | [NeelTorExitUSEast](https://atlas.torproject.org/#details/76BD45BAC8CC057D0A6DE927711F3F378555D731) | 2018-01-06   | No          |                     2 |
 
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+## ContactInfo: Abuse Department &lt;abuse AT hartvoorinternetvrijhei (3) {#abuse-department-abuse-at-hartvoorinternetvrijhei}
 
 | Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+| [hviv103](https://atlas.torproject.org/#details/D12D357D91DD3B79E2AD9FDB160F9A4558147E05)  | 2015-09-06   | Yes         |                     2 |
+| [hvivtest](https://atlas.torproject.org/#details/51AD729928D05E4204A1CCDEBA4C90F94FA9AB63) | 2018-01-27   | No          |                     1 |
+| [hviv104](https://atlas.torproject.org/#details/81B75D534F91BFB7C57AB67DA10BCEF622582AE8)  | 2014-04-09   | No          |                     2 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,FEEF24CDF15BB59B418D1BF94A64BD3E62BB2CF3,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6
+D12D357D91DD3B79E2AD9FDB160F9A4558147E05,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6
