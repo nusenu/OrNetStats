@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-14 06:00 UTC**
+Tor network data as of: **2018-02-15 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -70,14 +70,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (3) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay1](https://atlas.torproject.org/#details/D31BFE2048AD5B77CA072E977B5961861A2415E6)     | 2018-01-21   | Yes         |                     1 |
-| [NeelTorExitUSWest](https://atlas.torproject.org/#details/331243DA4C5EC6F4886F4E56EEFB5800300FDC57) | 2018-01-13   | No          |                     2 |
-| [NeelTorExitUSEast](https://atlas.torproject.org/#details/76BD45BAC8CC057D0A6DE927711F3F378555D731) | 2018-01-06   | No          |                     2 |
-
 ## ContactInfo: Abuse Department &lt;abuse AT hartvoorinternetvrijhei (3) {#abuse-department-abuse-at-hartvoorinternetvrijhei}
 
 | Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -89,4 +81,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-D12D357D91DD3B79E2AD9FDB160F9A4558147E05,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291,D31BFE2048AD5B77CA072E977B5961861A2415E6
+D12D357D91DD3B79E2AD9FDB160F9A4558147E05,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D95980C15F79E094AE255BA8F1B57FD6C81F2B54,8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,3AF69B3ECCB000879CA1BCD0B36B619DBF712291
