@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-15 12:00 UTC**
+Tor network data as of: **2018-02-16 14:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Atlas](https://atlas.torproject.org)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+
+| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
+| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+
 ## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (11) {#httpswwwtorserversnetdonatehtml-support-a}
 
 | Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
@@ -45,30 +53,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [freeBogatov](https://atlas.torproject.org/#details/F4594608272C82407E9D137F1AE89A408CCFD285)    | 2017-11-01   | No          |                    12 |
 | [dorrisdeebrown](https://atlas.torproject.org/#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    12 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://atlas.torproject.org/#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://atlas.torproject.org/#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://atlas.torproject.org/#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
-
 ## ContactInfo: ninja.turtle5@aol.com (5) {#ninjaturtle5aolcom}
 
 | Nickname                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Splinter](https://atlas.torproject.org/#details/D95980C15F79E094AE255BA8F1B57FD6C81F2B54)     | 2018-01-17   | Yes         |                     1 |
 | [Karai](https://atlas.torproject.org/#details/3AF69B3ECCB000879CA1BCD0B36B619DBF712291)        | 2018-01-11   | Yes         |                     1 |
 | [Michelangelo](https://atlas.torproject.org/#details/8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763) | 2018-01-10   | Yes         |                     1 |
+| [Splinter](https://atlas.torproject.org/#details/D95980C15F79E094AE255BA8F1B57FD6C81F2B54)     | 2018-01-17   | Yes         |                     1 |
 | [Raphael](https://atlas.torproject.org/#details/17A24B8AC9EE2BBA27B49C28BCEFB8C9331FA100)      | 2018-01-30   | No          |                     1 |
 | [Leonardo](https://atlas.torproject.org/#details/FA87C61BA5B748145C29405A514259F7664F8A2A)     | 2018-01-30   | No          |                     1 |
-
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
-
-| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: Abuse Department &lt;abuse AT hartvoorinternetvrijhei (3) {#abuse-department-abuse-at-hartvoorinternetvrijhei}
 
@@ -77,6 +70,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [hviv103](https://atlas.torproject.org/#details/D12D357D91DD3B79E2AD9FDB160F9A4558147E05)  | 2015-09-06   | Yes         |                     2 |
 | [hvivtest](https://atlas.torproject.org/#details/51AD729928D05E4204A1CCDEBA4C90F94FA9AB63) | 2018-01-27   | No          |                     1 |
 | [hviv104](https://atlas.torproject.org/#details/81B75D534F91BFB7C57AB67DA10BCEF622582AE8)  | 2014-04-09   | No          |                     2 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://atlas.torproject.org/#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://atlas.torproject.org/#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
