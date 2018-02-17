@@ -204,6 +204,6 @@ A OS-distribution-over-time graph (by relay count) can be found on the [Torproje
 ## Data Source
 
 OrNetStats uses public data provided by The Tor Project:
-* [Onionoo](https://onionoo.torproject.org/onionoo.html)
+* [Onionoo](https://metrics.torproject.org/onionoo.html)
 * [CollecTor](https://metrics.torproject.org/collector.html)
 
