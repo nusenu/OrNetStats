@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-18 07:00 UTC**
+Tor network data as of: **2018-02-19 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -57,9 +57,9 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Karai](https://metrics.torproject.org/rs.html#details/3AF69B3ECCB000879CA1BCD0B36B619DBF712291)        | 2018-01-11   | Yes         |                     1 |
-| [Splinter](https://metrics.torproject.org/rs.html#details/D95980C15F79E094AE255BA8F1B57FD6C81F2B54)     | 2018-01-17   | Yes         |                     1 |
 | [Michelangelo](https://metrics.torproject.org/rs.html#details/8A4D7D35FB4D3613DF0D264CAF16CF0DA2706763) | 2018-01-10   | Yes         |                     1 |
+| [Splinter](https://metrics.torproject.org/rs.html#details/D95980C15F79E094AE255BA8F1B57FD6C81F2B54)     | 2018-01-17   | Yes         |                     1 |
+| [Karai](https://metrics.torproject.org/rs.html#details/3AF69B3ECCB000879CA1BCD0B36B619DBF712291)        | 2018-01-11   | Yes         |                     1 |
 | [Raphael](https://metrics.torproject.org/rs.html#details/17A24B8AC9EE2BBA27B49C28BCEFB8C9331FA100)      | 2018-01-30   | No          |                     1 |
 | [Leonardo](https://metrics.torproject.org/rs.html#details/FA87C61BA5B748145C29405A514259F7664F8A2A)     | 2018-01-30   | No          |                     1 |
 
