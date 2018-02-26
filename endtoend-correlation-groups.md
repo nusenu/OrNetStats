@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-25 18:00 UTC**
+Tor network data as of: **2018-02-26 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -61,7 +61,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [servicePublic2](https://metrics.torproject.org/rs.html#details/AC51642FA7A01C47B66F9747ABB41A2BC07C41F4) | 2011-11-01   | Yes         |                     1 |
 | [servicePublic3](https://metrics.torproject.org/rs.html#details/5E5040EA472AEB11C3DD4BEAC37EBE50EF40C93B) | 2017-11-27   | No          |                     1 |
 
+## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [VSIFweb](https://metrics.torproject.org/rs.html#details/78378DDD015C4E1C9242A5EC41158AF1E24CF43E)        | 2017-06-23   | Yes         |                     5 |
+| [VSIFviking1](https://metrics.torproject.org/rs.html#details/1DEB985E3EEC0E7E0F6A887B417065E63522C5E2)    | 2017-06-15   | No          |                     7 |
+| [VSIFenterprise](https://metrics.torproject.org/rs.html#details/59AE2B55941324B24354ADAAF971FC2C9F836963) | 2017-06-15   | No          |                     7 |
+| [VSIFsalyut4](https://metrics.torproject.org/rs.html#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     7 |
+| [VSIFcopernicus](https://metrics.torproject.org/rs.html#details/D509A7A321FF9660665B75CB19F0FF09964C0B80) | 2018-02-11   | No          |                     5 |
+| [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     5 |
+| [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,AC51642FA7A01C47B66F9747ABB41A2BC07C41F4
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,AC51642FA7A01C47B66F9747ABB41A2BC07C41F4
