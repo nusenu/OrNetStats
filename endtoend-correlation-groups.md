@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-02-27 16:00 UTC**
+Tor network data as of: **2018-02-28 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -51,8 +51,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [amartysen](https://metrics.torproject.org/rs.html#details/8EF8766E1645A41A2AE1565EB673A4957C8D5AD2)      | 2017-11-01   | No          |                    13 |
 | [iVPN](https://metrics.torproject.org/rs.html#details/A2534EF23390CAE079B1586F0FDF9CE11F556062)           | 2016-12-30   | No          |                    13 |
 | [HSLtor](https://metrics.torproject.org/rs.html#details/E43A346CB81DDF364B6FF68235AFADBA0E8692B8)         | 2017-01-22   | No          |                    13 |
-| [freeBogatov](https://metrics.torproject.org/rs.html#details/F4594608272C82407E9D137F1AE89A408CCFD285)    | 2017-11-01   | No          |                    13 |
+| [freeKleptikov](https://metrics.torproject.org/rs.html#details/F4594608272C82407E9D137F1AE89A408CCFD285)  | 2017-11-01   | No          |                    13 |
 | [dorrisdeebrown](https://metrics.torproject.org/rs.html#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    13 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -66,13 +73,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     5 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: wambo@cock.li (2) {#wambocockli}
-
-| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [wambonode](https://metrics.torproject.org/rs.html#details/F199D4DEE13C9CD5D33A5C019E87D251E80FFBFE)          | 2018-01-30   | Yes         |                     1 |
-| [wamboexit253452353](https://metrics.torproject.org/rs.html#details/196C0E4F13081077A21830C146555D58CB09C7A8) | 2017-03-24   | No          |                     1 |
-
 ## ContactInfo: tor-mngr AT scalaire DOT fr (2) {#tor-mngr-at-scalaire-dot-fr}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -83,4 +83,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-F199D4DEE13C9CD5D33A5C019E87D251E80FFBFE,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,AC51642FA7A01C47B66F9747ABB41A2BC07C41F4
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F,AC51642FA7A01C47B66F9747ABB41A2BC07C41F4
