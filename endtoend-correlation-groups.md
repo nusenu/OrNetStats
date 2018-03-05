@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-03 08:00 UTC**
+Tor network data as of: **2018-03-05 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,24 +37,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: https://www.torservers.net/donate.html &lt;support .A (12) {#httpswwwtorserversnetdonatehtml-support-a}
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
-| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hackeriet1](https://metrics.torproject.org/rs.html#details/E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F)     | 2015-12-02   | Yes         |                     1 |
-| [politkovskaja](https://metrics.torproject.org/rs.html#details/0FF233C8D78A17B8DB7C8257D2E05CD5AA7C6B88)  | 2018-02-19   | No          |                    13 |
-| [criticalmass](https://metrics.torproject.org/rs.html#details/1D3174338A1131A53E098443E76E1103CDED00DC)   | 2016-12-30   | No          |                    13 |
-| [HaveHeart](https://metrics.torproject.org/rs.html#details/204DFD2A2C6A0DC1FA0EACB495218E0B661704FD)      | 2017-10-03   | No          |                    13 |
-| [amazonas](https://metrics.torproject.org/rs.html#details/5974B3F4C66D83BBC9622E0F0F023FE48428DB9B)       | 2017-11-01   | No          |                    13 |
-| [CriticalMass](https://metrics.torproject.org/rs.html#details/77131D7E2EC1CA9B8D737502256DA9103599CE51)   | 2017-10-03   | No          |                    13 |
-| [sofia](https://metrics.torproject.org/rs.html#details/7BFB908A3AA5B491DA4CA72CCBEE0E1F2A939B55)          | 2017-10-03   | No          |                    13 |
-| [amartysen](https://metrics.torproject.org/rs.html#details/8EF8766E1645A41A2AE1565EB673A4957C8D5AD2)      | 2017-11-01   | No          |                    13 |
-| [iVPN](https://metrics.torproject.org/rs.html#details/A2534EF23390CAE079B1586F0FDF9CE11F556062)           | 2016-12-30   | No          |                    13 |
-| [HSLtor](https://metrics.torproject.org/rs.html#details/E43A346CB81DDF364B6FF68235AFADBA0E8692B8)         | 2017-01-22   | No          |                    13 |
-| [freeKleptikov](https://metrics.torproject.org/rs.html#details/F4594608272C82407E9D137F1AE89A408CCFD285)  | 2017-11-01   | No          |                    13 |
-| [dorrisdeebrown](https://metrics.torproject.org/rs.html#details/FDAED15C98CFE7A416E5676F614254F78406105C) | 2016-12-23   | No          |                    13 |
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E379A6CACEFAFE1B8EA68503BFCFF1215BF1EE7F
+C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16
