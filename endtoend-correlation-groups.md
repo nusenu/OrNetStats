@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-11 07:00 UTC**
+Tor network data as of: **2018-03-12 11:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,14 +49,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     6 |
 
-## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
-| [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
-
-## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (8) {#httptorjonnymobi-torsupport-at-jonny-dot}
+## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (7) {#httptorjonnymobi-torsupport-at-jonny-dot}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -65,9 +58,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [jtorexit8011](https://metrics.torproject.org/rs.html#details/7E208E3C8B0F6C7C444356E87FA4510E80695D2C)  | 2018-01-31   | No          |                     1 |
 | [nwtorexit](https://metrics.torproject.org/rs.html#details/9297AFFD300382ADF962801E4DA48D6DCAF6A564)     | 2018-02-22   | No          |                     1 |
 | [jtorexit8012](https://metrics.torproject.org/rs.html#details/95C6809D830C53D58538443623230758A61A7D27)  | 2018-02-07   | No          |                     1 |
-| [mtor051288001](https://metrics.torproject.org/rs.html#details/A5F20C5A4ADF1F4B5E83B451D4817CB8BA3CC72E) | 2018-02-07   | No          |                     1 |
 | [jtorexit8013](https://metrics.torproject.org/rs.html#details/BC76695D1308310E94A3B832D62885C4E023273E)  | 2018-01-31   | No          |                     1 |
 | [mtor025688001](https://metrics.torproject.org/rs.html#details/F1E447ABD9B46C13F4B16D47150ADFAE66B56864) | 2018-02-05   | No          |                     1 |
+
+## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
+| [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
