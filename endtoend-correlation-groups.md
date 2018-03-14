@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-13 09:00 UTC**
+Tor network data as of: **2018-03-14 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -53,8 +53,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [lilanode01](https://metrics.torproject.org/rs.html#details/BB77057975A3D57775E31D460F53C7907F35BE8A)    | 2018-03-02   | Yes         |                     1 |
 | [lilanode02](https://metrics.torproject.org/rs.html#details/E001990D803AD72FA8968ED511CE4E18E00059B7)    | 2018-03-02   | Yes         |                     1 |
+| [lilanode01](https://metrics.torproject.org/rs.html#details/BB77057975A3D57775E31D460F53C7907F35BE8A)    | 2018-03-02   | Yes         |                     1 |
 | [jtorexit8011](https://metrics.torproject.org/rs.html#details/7E208E3C8B0F6C7C444356E87FA4510E80695D2C)  | 2018-01-31   | No          |                     1 |
 | [nwtorexit](https://metrics.torproject.org/rs.html#details/9297AFFD300382ADF962801E4DA48D6DCAF6A564)     | 2018-02-22   | No          |                     1 |
 | [jtorexit8012](https://metrics.torproject.org/rs.html#details/95C6809D830C53D58538443623230758A61A7D27)  | 2018-02-07   | No          |                     1 |
