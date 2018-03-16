@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-15 16:00 UTC**
+Tor network data as of: **2018-03-16 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -67,7 +67,18 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [jtorexit8012](https://metrics.torproject.org/rs.html#details/95C6809D830C53D58538443623230758A61A7D27) | 2018-02-07   | No          |                     1 |
 | [jtorexit8013](https://metrics.torproject.org/rs.html#details/BC76695D1308310E94A3B832D62885C4E023273E) | 2018-01-31   | No          |                     1 |
 
+## ContactInfo: arisbe cni net (6) {#arisbe-cni-net}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorNodeAlbania](https://metrics.torproject.org/rs.html#details/D3E5EDDBE5159388704D6785BE51930AAFACEC6F)  | 2015-12-31   | Yes         |                     6 |
+| [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270)  | 2016-03-02   | No          |                     6 |
+| [TorExitMoldova2](https://metrics.torproject.org/rs.html#details/41C59606AFE1D1AA6EC6EF6719690B856F0B6587) | 2017-07-24   | No          |                     5 |
+| [TorExitAlbania](https://metrics.torproject.org/rs.html#details/516D1B9E22484202322828D8CAC30325030017E2)  | 2018-03-14   | No          |                     1 |
+| [TorExitFinland](https://metrics.torproject.org/rs.html#details/9B31F1F1C1554F9FFB3455911F82E818EF7C7883)  | 2015-12-31   | No          |                     6 |
+| [TorExitMoldova](https://metrics.torproject.org/rs.html#details/B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1)  | 2017-05-24   | No          |                     5 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BB77057975A3D57775E31D460F53C7907F35BE8A,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,E001990D803AD72FA8968ED511CE4E18E00059B7
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BB77057975A3D57775E31D460F53C7907F35BE8A,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D3E5EDDBE5159388704D6785BE51930AAFACEC6F,E001990D803AD72FA8968ED511CE4E18E00059B7
