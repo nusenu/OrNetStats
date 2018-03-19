@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-18 21:00 UTC**
+Tor network data as of: **2018-03-19 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,17 +37,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (6) {#httptorjonnymobi-torsupport-at-jonny-dot}
-
-| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [lilanode02](https://metrics.torproject.org/rs.html#details/E001990D803AD72FA8968ED511CE4E18E00059B7)   | 2018-03-02   | Yes         |                     1 |
-| [lilanode01](https://metrics.torproject.org/rs.html#details/BB77057975A3D57775E31D460F53C7907F35BE8A)   | 2018-03-02   | Yes         |                     1 |
-| [jtorexit8011](https://metrics.torproject.org/rs.html#details/7E208E3C8B0F6C7C444356E87FA4510E80695D2C) | 2018-01-31   | No          |                     1 |
-| [nwtorexit](https://metrics.torproject.org/rs.html#details/9297AFFD300382ADF962801E4DA48D6DCAF6A564)    | 2018-02-22   | No          |                     1 |
-| [jtorexit8012](https://metrics.torproject.org/rs.html#details/95C6809D830C53D58538443623230758A61A7D27) | 2018-02-07   | No          |                     1 |
-| [jtorexit8013](https://metrics.torproject.org/rs.html#details/BC76695D1308310E94A3B832D62885C4E023273E) | 2018-01-31   | No          |                     1 |
-
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -66,6 +55,17 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+
+## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (6) {#httptorjonnymobi-torsupport-at-jonny-dot}
+
+| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [lilanode02](https://metrics.torproject.org/rs.html#details/E001990D803AD72FA8968ED511CE4E18E00059B7)   | 2018-03-02   | Yes         |                     1 |
+| [lilanode01](https://metrics.torproject.org/rs.html#details/BB77057975A3D57775E31D460F53C7907F35BE8A)   | 2018-03-02   | Yes         |                     1 |
+| [jtorexit8011](https://metrics.torproject.org/rs.html#details/7E208E3C8B0F6C7C444356E87FA4510E80695D2C) | 2018-01-31   | No          |                     1 |
+| [nwtorexit](https://metrics.torproject.org/rs.html#details/9297AFFD300382ADF962801E4DA48D6DCAF6A564)    | 2018-02-22   | No          |                     1 |
+| [jtorexit8012](https://metrics.torproject.org/rs.html#details/95C6809D830C53D58538443623230758A61A7D27) | 2018-02-07   | No          |                     1 |
+| [jtorexit8013](https://metrics.torproject.org/rs.html#details/BC76695D1308310E94A3B832D62885C4E023273E) | 2018-01-31   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
