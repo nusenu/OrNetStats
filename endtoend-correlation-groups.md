@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-03-26 13:00 UTC**
+Tor network data as of: **2018-03-27 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -56,19 +56,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     6 |
 
-## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (7) {#httptorjonnymobi-torsupport-at-jonny-dot}
+## ContactInfo: DuckSounds31@aol.com (3) {#ducksounds31aolcom}
 
-| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [lilanode01](https://metrics.torproject.org/rs.html#details/BB77057975A3D57775E31D460F53C7907F35BE8A)   | 2018-03-02   | Yes         |                     1 |
-| [lilanode02](https://metrics.torproject.org/rs.html#details/E001990D803AD72FA8968ED511CE4E18E00059B7)   | 2018-03-02   | Yes         |                     1 |
-| [lilaexit1](https://metrics.torproject.org/rs.html#details/4DDAE1B46CFB1EDEFDB6C2559046CAD3D7001A03)    | 2018-03-22   | No          |                     1 |
-| [lilaexit3](https://metrics.torproject.org/rs.html#details/589BF866587709F9079B532B63C7D51F2A59343E)    | 2018-03-22   | No          |                     1 |
-| [jtorexit8011](https://metrics.torproject.org/rs.html#details/7E208E3C8B0F6C7C444356E87FA4510E80695D2C) | 2018-01-31   | No          |                     1 |
-| [lilaexit2](https://metrics.torproject.org/rs.html#details/8A88D741DC2939C865A42C9D5493C64D6428BE97)    | 2018-03-22   | No          |                     1 |
-| [jtorexit8013](https://metrics.torproject.org/rs.html#details/BC76695D1308310E94A3B832D62885C4E023273E) | 2018-01-31   | No          |                     1 |
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DuckYou](https://metrics.torproject.org/rs.html#details/AF4997738E0CFC014CD04FB09A670D2C5F1E79A4)    | 2018-03-02   | Yes         |                     1 |
+| [QuackQuack](https://metrics.torproject.org/rs.html#details/1EE15139F389FDA24400239607CB4C0BE5DD8C76) | 2018-01-31   | No          |                     2 |
+| [FlappyBird](https://metrics.torproject.org/rs.html#details/B00478C4CD2F3ACC7D6F02AF8033D2906673651F) | 2018-02-01   | No          |                     2 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BB77057975A3D57775E31D460F53C7907F35BE8A,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,E001990D803AD72FA8968ED511CE4E18E00059B7
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
