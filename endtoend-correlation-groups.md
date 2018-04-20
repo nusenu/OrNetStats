@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-04-18 20:00 UTC**
+Tor network data as of: **2018-04-20 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -63,7 +63,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     6 |
 
+## ContactInfo: http://tor.jonny.mobi &lt;torsupport .AT. jonny .DOT. (3) {#httptorjonnymobi-torsupport-at-jonny-dot}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [lilanode02](https://metrics.torproject.org/rs.html#details/E001990D803AD72FA8968ED511CE4E18E00059B7)    | 2018-03-02   | Yes         |                     1 |
+| [nwtorexit](https://metrics.torproject.org/rs.html#details/9297AFFD300382ADF962801E4DA48D6DCAF6A564)     | 2018-02-22   | No          |                     1 |
+| [mtor025688001](https://metrics.torproject.org/rs.html#details/F1E447ABD9B46C13F4B16D47150ADFAE66B56864) | 2018-02-05   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-2B0FDE55C4CA00DC00BD01599E7FB33A6B821159,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
+2B0FDE55C4CA00DC00BD01599E7FB33A6B821159,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,E001990D803AD72FA8968ED511CE4E18E00059B7
