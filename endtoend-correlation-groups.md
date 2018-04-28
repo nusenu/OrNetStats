@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-04-27 19:00 UTC**
+Tor network data as of: **2018-04-28 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: Admin aT yggdrasil&lt;-dOt===&gt;ws (2) {#admin-at-yggdrasil-dotws}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Munin](https://metrics.torproject.org/rs.html#details/2B0FDE55C4CA00DC00BD01599E7FB33A6B821159)    | 2018-02-17   | Yes         |                     1 |
-| [Ragnarok](https://metrics.torproject.org/rs.html#details/6985B035DEFCBB2681EDB43EB0BAAD5C7E02CCFE) | 2018-04-13   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -43,6 +36,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+
+## ContactInfo: Admin aT yggdrasil&lt;-dOt===&gt;ws (2) {#admin-at-yggdrasil-dotws}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Munin](https://metrics.torproject.org/rs.html#details/2B0FDE55C4CA00DC00BD01599E7FB33A6B821159)    | 2018-02-17   | Yes         |                     1 |
+| [Ragnarok](https://metrics.torproject.org/rs.html#details/6985B035DEFCBB2681EDB43EB0BAAD5C7E02CCFE) | 2018-04-13   | No          |                     1 |
 
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
