@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-04-29 06:00 UTC**
+Tor network data as of: **2018-04-30 13:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,19 +49,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     6 |
 
-## ContactInfo: Admin aT yggdrasil&lt;-dOt===&gt;ws (2) {#admin-at-yggdrasil-dotws}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Munin](https://metrics.torproject.org/rs.html#details/2B0FDE55C4CA00DC00BD01599E7FB33A6B821159)    | 2018-02-17   | Yes         |                     1 |
-| [Ragnarok](https://metrics.torproject.org/rs.html#details/6985B035DEFCBB2681EDB43EB0BAAD5C7E02CCFE) | 2018-04-13   | No          |                     1 |
-
 ## ContactInfo: Digineo GmbH &lt;tor AT digineo dot de&gt; (2) {#digineo-gmbh-tor-at-digineo-dot-de}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+
+## ContactInfo: Admin aT yggdrasil&lt;-dOt===&gt;ws (2) {#admin-at-yggdrasil-dotws}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Munin](https://metrics.torproject.org/rs.html#details/2B0FDE55C4CA00DC00BD01599E7FB33A6B821159)    | 2018-02-17   | Yes         |                     1 |
+| [Ragnarok](https://metrics.torproject.org/rs.html#details/6985B035DEFCBB2681EDB43EB0BAAD5C7E02CCFE) | 2018-04-13   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
