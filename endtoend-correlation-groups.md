@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-05-26 20:00 UTC**
+Tor network data as of: **2018-05-27 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -56,8 +56,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [ZcashTor0se](https://metrics.torproject.org/rs.html#details/381DB186136F95370B0A7C7575E40B5DE8C18BDB) | 2017-03-14   | Yes         |                    10 |
 | [ZcashTor0lv](https://metrics.torproject.org/rs.html#details/53825DFB32426F4D02E2FAA43AF713DC185299F4) | 2017-03-14   | Yes         |                    10 |
+| [ZcashTor0se](https://metrics.torproject.org/rs.html#details/381DB186136F95370B0A7C7575E40B5DE8C18BDB) | 2017-03-14   | Yes         |                    10 |
 | [ZcashTor0nl](https://metrics.torproject.org/rs.html#details/6B23021CB4B4FE6525D23BE8E6BA4F91EAAB0741) | 2018-01-31   | No          |                    10 |
 | [ZcashTor1nl](https://metrics.torproject.org/rs.html#details/6E89911A8045A577C53BC06D539F6AD5340391D4) | 2018-01-31   | No          |                    10 |
 | [ZcashTor0ca](https://metrics.torproject.org/rs.html#details/800C0EBDF0C7B4A7950D445435706CD9B901C47B) | 2018-05-10   | No          |                     1 |
