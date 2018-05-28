@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-05-27 08:00 UTC**
+Tor network data as of: **2018-05-28 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,20 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
+
+## ContactInfo: 0x7A8647DB Daniel Winzen &lt;d@winzen4.de&gt; - 1CHvjeMJ (9) {#0x7a8647db-daniel-winzen-dwinzen4de---1chvjemj}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/15C5C5F5964F4ADA8D9CE26A0FE27C16D2B156E3) | 2017-04-09   | Yes         |                    10 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/813BD9A5FF580C9BDDD9767E85D4CF6FC868B20D) | 2017-08-13   | Yes         |                    10 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/5907678795F77C9B18C0C983C3930FF7255C08C1) | 2017-07-17   | Yes         |                     5 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/96044575889B2A13D81D9E94AB611A8425D82884) | 2017-07-16   | Yes         |                     9 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/E2382981C6D5876D26237FEACED9DBE324724194) | 2017-06-21   | Yes         |                     9 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/28A598AF03F9552B19B53ADAC80B4C1C51904B64) | 2017-08-10   | No          |                     9 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/3A32ADF351EEBD962944B9406AC2E9DE7E72F249) | 2017-07-22   | No          |                     9 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/67086EFCE53F0CB724B78C3254642EF3EA10D0D7) | 2017-08-10   | No          |                    10 |
+| [DanWin1210](https://metrics.torproject.org/rs.html#details/AC1797B64DDD3CB9F1B9B248BA5493275E5F8E40) | 2017-08-02   | No          |                    10 |
 
 ## ContactInfo: Person admin@example.com (3) {#person-adminexamplecom}
 
@@ -52,18 +66,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
-## ContactInfo: zcashtorservers.org supported by a z.cash.foundati (7) {#zcashtorserversorg-supported-by-a-zcashfoundati}
-
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [ZcashTor0lv](https://metrics.torproject.org/rs.html#details/53825DFB32426F4D02E2FAA43AF713DC185299F4) | 2017-03-14   | Yes         |                    10 |
-| [ZcashTor0se](https://metrics.torproject.org/rs.html#details/381DB186136F95370B0A7C7575E40B5DE8C18BDB) | 2017-03-14   | Yes         |                    10 |
-| [ZcashTor0nl](https://metrics.torproject.org/rs.html#details/6B23021CB4B4FE6525D23BE8E6BA4F91EAAB0741) | 2018-01-31   | No          |                    10 |
-| [ZcashTor1nl](https://metrics.torproject.org/rs.html#details/6E89911A8045A577C53BC06D539F6AD5340391D4) | 2018-01-31   | No          |                    10 |
-| [ZcashTor0ca](https://metrics.torproject.org/rs.html#details/800C0EBDF0C7B4A7950D445435706CD9B901C47B) | 2018-05-10   | No          |                     1 |
-| [ZcashTor3nl](https://metrics.torproject.org/rs.html#details/B5A68709FF46B730CCA37D98CA477C4B9FF9296D) | 2018-01-31   | No          |                    10 |
-| [ZcashTor2nl](https://metrics.torproject.org/rs.html#details/DB3B3FBD826C80E24C45043044AD33489012920F) | 2018-01-31   | No          |                    10 |
-
 ## ContactInfo: DuckSounds31@aol.com (3) {#ducksounds31aolcom}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
@@ -75,4 +77,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
+15C5C5F5964F4ADA8D9CE26A0FE27C16D2B156E3,28165E00A07D6C3A8F5245A0C1109205B625CFC8,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,5907678795F77C9B18C0C983C3930FF7255C08C1,72B19BAABE6846DF96EA2A50C28F4DC15A920041,813BD9A5FF580C9BDDD9767E85D4CF6FC868B20D,96044575889B2A13D81D9E94AB611A8425D82884,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,E2382981C6D5876D26237FEACED9DBE324724194
