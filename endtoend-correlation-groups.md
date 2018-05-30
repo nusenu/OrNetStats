@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-05-29 15:00 UTC**
+Tor network data as of: **2018-05-30 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -36,6 +36,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [whitegods2](https://metrics.torproject.org/rs.html#details/426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54)    | 2018-04-25   | Yes         |                     1 |
 | [whitegods](https://metrics.torproject.org/rs.html#details/28165E00A07D6C3A8F5245A0C1109205B625CFC8)     | 2018-04-24   | Yes         |                     1 |
 | [nodeexitwhite](https://metrics.torproject.org/rs.html#details/E17023BCBD6E8656EC8CAAF56EBB4F638F1E49B2) | 2018-05-20   | No          |                     1 |
+
+## ContactInfo: 0x34BA3B0B Bjoern Gittermann &lt;bjoern@gittermann1.d (2) {#0x34ba3b0b-bjoern-gittermann-bjoerngittermann1d}
+
+| Nickname                                                                                         | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [bgsv2](https://metrics.torproject.org/rs.html#details/744B753C7F5E0C6BDD240EE5D879A36C650D2B00) | 2016-07-15   | Yes         |                     1 |
+| [bgsv](https://metrics.torproject.org/rs.html#details/8B97B651F9B85922E4E64E8E4B053B4E6A489C87)  | 2018-05-28   | No          |                     1 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -75,4 +82,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
+28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,744B753C7F5E0C6BDD240EE5D879A36C650D2B00,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
