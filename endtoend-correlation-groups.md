@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-06-07 07:00 UTC**
+Tor network data as of: **2018-06-08 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -71,7 +71,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
+## ContactInfo: DuckSounds31@aol.com (3) {#ducksounds31aolcom}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DuckYou](https://metrics.torproject.org/rs.html#details/AF4997738E0CFC014CD04FB09A670D2C5F1E79A4)    | 2018-03-02   | Yes         |                     1 |
+| [QuackQuack](https://metrics.torproject.org/rs.html#details/1EE15139F389FDA24400239607CB4C0BE5DD8C76) | 2018-01-31   | No          |                     2 |
+| [FlappyBird](https://metrics.torproject.org/rs.html#details/B00478C4CD2F3ACC7D6F02AF8033D2906673651F) | 2018-02-01   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,7E71513C789B78AA7BBCE5A3EA53F1024521D790,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D12D357D91DD3B79E2AD9FDB160F9A4558147E05
+28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,7E71513C789B78AA7BBCE5A3EA53F1024521D790,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D12D357D91DD3B79E2AD9FDB160F9A4558147E05
