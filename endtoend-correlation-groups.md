@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-06-08 08:00 UTC**
+Tor network data as of: **2018-06-09 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,14 +28,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
-
-## ContactInfo: Abuse Department &lt;abuse AT hartvoorinternetvrijhei (3) {#abuse-department-abuse-at-hartvoorinternetvrijhei}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hvivarm64](https://metrics.torproject.org/rs.html#details/7E71513C789B78AA7BBCE5A3EA53F1024521D790) | 2018-05-29   | Yes         |                     1 |
-| [hviv103](https://metrics.torproject.org/rs.html#details/D12D357D91DD3B79E2AD9FDB160F9A4558147E05)   | 2015-09-06   | Yes         |                     9 |
-| [hviv104](https://metrics.torproject.org/rs.html#details/81B75D534F91BFB7C57AB67DA10BCEF622582AE8)   | 2014-04-09   | No          |                     9 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -82,4 +74,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,426B9BC3663695C9702CD2DF3E78FB9EBE8BAA54,7E71513C789B78AA7BBCE5A3EA53F1024521D790,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,D12D357D91DD3B79E2AD9FDB160F9A4558147E05
+28165E00A07D6C3A8F5245A0C1109205B625CFC8,381DB186136F95370B0A7C7575E40B5DE8C18BDB,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
