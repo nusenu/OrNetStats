@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-06-16 07:00 UTC**
+Tor network data as of: **2018-06-17 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,13 +49,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     1 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     2 |
 
-## ContactInfo: Person admin@example.com (2) {#person-adminexamplecom}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [whitegods](https://metrics.torproject.org/rs.html#details/28165E00A07D6C3A8F5245A0C1109205B625CFC8)     | 2018-04-24   | Yes         |                     1 |
-| [nodeexitwhite](https://metrics.torproject.org/rs.html#details/E17023BCBD6E8656EC8CAAF56EBB4F638F1E49B2) | 2018-05-20   | No          |                     1 |
-
 ## ContactInfo: zcashtorservers.org supported by a z.cash.foundati (7) {#zcashtorserversorg-supported-by-a-zcashfoundati}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -74,6 +67,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
+
+## ContactInfo: Person admin@example.com (2) {#person-adminexamplecom}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [whitegods](https://metrics.torproject.org/rs.html#details/28165E00A07D6C3A8F5245A0C1109205B625CFC8)     | 2018-04-24   | Yes         |                     1 |
+| [nodeexitwhite](https://metrics.torproject.org/rs.html#details/E17023BCBD6E8656EC8CAAF56EBB4F638F1E49B2) | 2018-05-20   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
