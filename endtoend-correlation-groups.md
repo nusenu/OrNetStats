@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-06-22 07:00 UTC**
+Tor network data as of: **2018-06-23 05:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,13 +37,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: admin@tor-us.org (3) {#admintor-usorg}
+## ContactInfo: Person admin@example.com (2) {#person-adminexamplecom}
 
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Squidward](https://metrics.torproject.org/rs.html#details/C5C6947FFA435E8AE12285E36E555A42D13F4332)   | 2018-03-17   | Yes         |                     5 |
-| [SpongeBob](https://metrics.torproject.org/rs.html#details/1A0910312F40BDA7329B71A9E88F887545736458)   | 2018-02-24   | No          |                     5 |
-| [PatrickStar](https://metrics.torproject.org/rs.html#details/59C54B21CC1C9BD394ED3CCB75495B0C304F17D2) | 2018-06-21   | No          |                     1 |
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [whitegods](https://metrics.torproject.org/rs.html#details/28165E00A07D6C3A8F5245A0C1109205B625CFC8)     | 2018-04-24   | Yes         |                     1 |
+| [nodeexitwhite](https://metrics.torproject.org/rs.html#details/E17023BCBD6E8656EC8CAAF56EBB4F638F1E49B2) | 2018-05-20   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -64,14 +63,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [digineo2](https://metrics.torproject.org/rs.html#details/C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7) | 2014-05-29   | Yes         |                     1 |
 | [digineo3](https://metrics.torproject.org/rs.html#details/B21211A1A2C68F2D9E57E3C7AEAF4F04AFC10E7F) | 2017-02-16   | No          |                     1 |
 
-## ContactInfo: Person admin@example.com (2) {#person-adminexamplecom}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [whitegods](https://metrics.torproject.org/rs.html#details/28165E00A07D6C3A8F5245A0C1109205B625CFC8)     | 2018-04-24   | Yes         |                     1 |
-| [nodeexitwhite](https://metrics.torproject.org/rs.html#details/E17023BCBD6E8656EC8CAAF56EBB4F638F1E49B2) | 2018-05-20   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-28165E00A07D6C3A8F5245A0C1109205B625CFC8,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7,C5C6947FFA435E8AE12285E36E555A42D13F4332
+28165E00A07D6C3A8F5245A0C1109205B625CFC8,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,C0A05D6DC0987D0BF32F0FF00A9BF791E7CA79D7
