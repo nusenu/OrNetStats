@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-07-03 07:00 UTC**
+Tor network data as of: **2018-07-04 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,14 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: tor-operator@your-emailaddress-domain (2) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/64B8A00F64E16BF5C5685A76C4D9722DCBF05400) | 2018-05-01   | Yes         |                     1 |
+| [Relay](https://metrics.torproject.org/rs.html#details/7430AD5653ADA688F8EFE4FCE93D7D17A9D45A0F)       | 2018-06-25   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7) | 2018-06-20   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-64B8A00F64E16BF5C5685A76C4D9722DCBF05400
+64B8A00F64E16BF5C5685A76C4D9722DCBF05400,7430AD5653ADA688F8EFE4FCE93D7D17A9D45A0F
