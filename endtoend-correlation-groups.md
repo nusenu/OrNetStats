@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-07-04 20:00 UTC**
+Tor network data as of: **2018-07-05 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,17 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: pm@dpjp.ru - 1Hr5ALwotveTsEJpxuyox2en6d62ZVedfs (6) {#pmdpjpru---1hr5alwotvetsejpxuyox2en6d62zvedfs}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [dpjp05](https://metrics.torproject.org/rs.html#details/185CFF801E6BE549F675AD61C3FE04104150AE1F)         | 2018-06-22   | Yes         |                     1 |
+| [dpjp01TorExit](https://metrics.torproject.org/rs.html#details/69E06EBB2573A4F89330BDF8BC869794A3E10E4D)  | 2018-01-13   | Yes         |                     4 |
+| [dpjp03ny](https://metrics.torproject.org/rs.html#details/BB43D5594590897A1152E5372C74A467BDD2FD99)       | 2018-06-15   | Yes         |                     1 |
+| [dpjp07](https://metrics.torproject.org/rs.html#details/A379AD9020BB119B53785888DACC63C712285649)         | 2018-05-20   | Yes         |                     4 |
+| [dpjp02reloaded](https://metrics.torproject.org/rs.html#details/AA29ED6C533F78BC1EF3994656048464AEE2A29A) | 2018-04-04   | Yes         |                     4 |
+| [dpjp06TorExit](https://metrics.torproject.org/rs.html#details/C5AFC0EC23AC7FB19067FC4C511316A4CE38C32F)  | 2018-04-02   | No          |                     4 |
+
 ## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -40,4 +51,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-64B8A00F64E16BF5C5685A76C4D9722DCBF05400,7430AD5653ADA688F8EFE4FCE93D7D17A9D45A0F
+185CFF801E6BE549F675AD61C3FE04104150AE1F,64B8A00F64E16BF5C5685A76C4D9722DCBF05400,69E06EBB2573A4F89330BDF8BC869794A3E10E4D,7430AD5653ADA688F8EFE4FCE93D7D17A9D45A0F,A379AD9020BB119B53785888DACC63C712285649,AA29ED6C533F78BC1EF3994656048464AEE2A29A,BB43D5594590897A1152E5372C74A467BDD2FD99
