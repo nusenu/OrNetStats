@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-07-16 22:00 UTC**
+Tor network data as of: **2018-07-17 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -46,7 +46,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [releasingFun02](https://metrics.torproject.org/rs.html#details/B26F12939CE5FE0D21E70429DDB51DDA3DB4CACF) | 2018-07-03   | No          |                     3 |
 | [releasingFun01](https://metrics.torproject.org/rs.html#details/D826AF785186EF68DA329D2B005167967EB7F758) | 2018-07-02   | No          |                     3 |
 
+## ContactInfo: DuckSounds31@aol.com (3) {#ducksounds31aolcom}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DuckYou](https://metrics.torproject.org/rs.html#details/AF4997738E0CFC014CD04FB09A670D2C5F1E79A4)    | 2018-03-02   | Yes         |                     1 |
+| [QuackQuack](https://metrics.torproject.org/rs.html#details/1EE15139F389FDA24400239607CB4C0BE5DD8C76) | 2018-01-31   | No          |                     2 |
+| [FlappyBird](https://metrics.torproject.org/rs.html#details/B00478C4CD2F3ACC7D6F02AF8033D2906673651F) | 2018-02-01   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-185CFF801E6BE549F675AD61C3FE04104150AE1F,69E06EBB2573A4F89330BDF8BC869794A3E10E4D,E91FC7ABF7708A584FCFE88DB5CEA083D00E6511
+185CFF801E6BE549F675AD61C3FE04104150AE1F,69E06EBB2573A4F89330BDF8BC869794A3E10E4D,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,E91FC7ABF7708A584FCFE88DB5CEA083D00E6511
