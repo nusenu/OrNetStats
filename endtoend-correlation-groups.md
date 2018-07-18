@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-07-17 07:00 UTC**
+Tor network data as of: **2018-07-18 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: pm@dpjp.ru - 1Hr5ALwotveTsEJpxuyox2en6d62ZVedfs (3) {#pmdpjpru---1hr5alwotvetsejpxuyox2en6d62zvedfs}
+## ContactInfo: Cheena &lt;cheena @ cheena . net&gt; (4) {#cheena-cheena--cheena--net}
 
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [dpjp05](https://metrics.torproject.org/rs.html#details/185CFF801E6BE549F675AD61C3FE04104150AE1F)        | 2018-06-22   | Yes         |                     2 |
-| [dpjp01TorExit](https://metrics.torproject.org/rs.html#details/69E06EBB2573A4F89330BDF8BC869794A3E10E4D) | 2018-01-13   | Yes         |                     3 |
-| [dpjp06TorExit](https://metrics.torproject.org/rs.html#details/C5AFC0EC23AC7FB19067FC4C511316A4CE38C32F) | 2018-04-02   | No          |                     2 |
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CheenaTorRelay](https://metrics.torproject.org/rs.html#details/734644A4BC767464320B215A4DC68AB522ED912D)  | 2017-12-31   | Yes         |                     3 |
+| [CheenaTorRelay3](https://metrics.torproject.org/rs.html#details/C3BC6B7E4E54AAEDDC79DB74E7D208E1D3C49CC3) | 2017-04-18   | Yes         |                     1 |
+| [CheenaTorRelay2](https://metrics.torproject.org/rs.html#details/98D3C5BC8D2032588B6FB3297539814B59DBE94A) | 2018-06-14   | Yes         |                     3 |
+| [CheenaTorExit](https://metrics.torproject.org/rs.html#details/50BD3C2C70050A999BD423EB23CDAE21F2214E02)   | 2017-02-20   | No          |                     3 |
 
 ## ContactInfo: tor at releasing dot fun (4) {#toratreleasingdotfun}
 
@@ -57,4 +58,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-185CFF801E6BE549F675AD61C3FE04104150AE1F,69E06EBB2573A4F89330BDF8BC869794A3E10E4D,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,E91FC7ABF7708A584FCFE88DB5CEA083D00E6511
+734644A4BC767464320B215A4DC68AB522ED912D,98D3C5BC8D2032588B6FB3297539814B59DBE94A,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,C3BC6B7E4E54AAEDDC79DB74E7D208E1D3C49CC3,E91FC7ABF7708A584FCFE88DB5CEA083D00E6511
