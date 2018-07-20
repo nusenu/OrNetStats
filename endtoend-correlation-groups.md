@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-07-19 06:00 UTC**
+Tor network data as of: **2018-07-20 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -38,12 +38,11 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [CheenaTorRelay2](https://metrics.torproject.org/rs.html#details/98D3C5BC8D2032588B6FB3297539814B59DBE94A) | 2018-06-14   | Yes         |                     3 |
 | [CheenaTorExit](https://metrics.torproject.org/rs.html#details/50BD3C2C70050A999BD423EB23CDAE21F2214E02)   | 2017-02-20   | No          |                     3 |
 
-## ContactInfo: tor at releasing dot fun (4) {#toratreleasingdotfun}
+## ContactInfo: tor at releasing dot fun (3) {#toratreleasingdotfun}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [releasingFun04](https://metrics.torproject.org/rs.html#details/E91FC7ABF7708A584FCFE88DB5CEA083D00E6511) | 2018-07-04   | Yes         |                     1 |
-| [releasingFun03](https://metrics.torproject.org/rs.html#details/0644F3CCE5141F679D8509D100E068FFAA531350) | 2018-07-03   | No          |                     3 |
 | [releasingFun02](https://metrics.torproject.org/rs.html#details/B26F12939CE5FE0D21E70429DDB51DDA3DB4CACF) | 2018-07-03   | No          |                     3 |
 | [releasingFun01](https://metrics.torproject.org/rs.html#details/D826AF785186EF68DA329D2B005167967EB7F758) | 2018-07-02   | No          |                     3 |
 
