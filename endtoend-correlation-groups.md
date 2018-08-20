@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-08-19 05:00 UTC**
+Tor network data as of: **2018-08-20 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -35,10 +35,10 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Priya1](https://metrics.torproject.org/rs.html#details/0337174B5BC470FBCAEF715FE8E89162FB75B2FB)              | 2018-06-21   | Yes         |                     7 |
 | [Layla8](https://metrics.torproject.org/rs.html#details/7D4838AB4D937795306135418D8D5E07A93E3836)              | 2018-06-20   | Yes         |                     5 |
-| [Layla9](https://metrics.torproject.org/rs.html#details/5B7C417927B2C7C0A8F7C8669876746B95D11693)              | 2018-07-14   | Yes         |                     2 |
-| [moretshirts](https://metrics.torproject.org/rs.html#details/D7F13CC027BBD37DC706CF7B27C07716CF88440B)         | 2018-06-21   | Yes         |                     7 |
 | [evenmoretshirts](https://metrics.torproject.org/rs.html#details/CA8C21E0082046BA4894CD625E4E27DFE8544B92)     | 2018-06-22   | Yes         |                     7 |
 | [yetstillmoretshirts](https://metrics.torproject.org/rs.html#details/4B7B1260325E36820030C7E61AC3273CADEC2DB8) | 2018-06-23   | Yes         |                     7 |
+| [moretshirts](https://metrics.torproject.org/rs.html#details/D7F13CC027BBD37DC706CF7B27C07716CF88440B)         | 2018-06-21   | Yes         |                     7 |
+| [Layla9](https://metrics.torproject.org/rs.html#details/5B7C417927B2C7C0A8F7C8669876746B95D11693)              | 2018-07-14   | Yes         |                     2 |
 | [Layla2](https://metrics.torproject.org/rs.html#details/7D01B2CD3095EAAF69639B8F6AED0463B7262975)              | 2018-08-09   | Yes         |                     1 |
 | [Abbey1](https://metrics.torproject.org/rs.html#details/BEF0D05BEE9CB62989B78125EAEFFFE97241373D)              | 2018-07-20   | Yes         |                     1 |
 | [Abbey2](https://metrics.torproject.org/rs.html#details/C546FD12702A9539D1F50B87C7AAC9A983B2C00F)              | 2018-08-06   | Yes         |                     1 |
@@ -57,15 +57,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0337174B5BC470FBCAEF715FE8E89162FB75B2FB,4B7B1260325E36820030C7E61AC3273CADEC2DB8,5B7C417927B2C7C0A8F7C8669876746B95D11693,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,7D01B2CD3095EAAF69639B8F6AED0463B7262975,7D4838AB4D937795306135418D8D5E07A93E3836,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B910D70B1ADADED099283C3F895D53638027DD1D,BEF0D05BEE9CB62989B78125EAEFFFE97241373D,C546FD12702A9539D1F50B87C7AAC9A983B2C00F,CA8C21E0082046BA4894CD625E4E27DFE8544B92,D7F13CC027BBD37DC706CF7B27C07716CF88440B
+0337174B5BC470FBCAEF715FE8E89162FB75B2FB,4B7B1260325E36820030C7E61AC3273CADEC2DB8,5B7C417927B2C7C0A8F7C8669876746B95D11693,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,7D01B2CD3095EAAF69639B8F6AED0463B7262975,7D4838AB4D937795306135418D8D5E07A93E3836,B910D70B1ADADED099283C3F895D53638027DD1D,BEF0D05BEE9CB62989B78125EAEFFFE97241373D,C546FD12702A9539D1F50B87C7AAC9A983B2C00F,CA8C21E0082046BA4894CD625E4E27DFE8544B92,D7F13CC027BBD37DC706CF7B27C07716CF88440B
