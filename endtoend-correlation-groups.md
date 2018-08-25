@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-08-24 07:00 UTC**
+Tor network data as of: **2018-08-25 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,23 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: Random Person &lt;periplanetaamericanus AT gmail dot (12) {#random-person-periplanetaamericanus-at-gmail-dot-}
-
-| Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Layla8](https://metrics.torproject.org/rs.html#details/7D4838AB4D937795306135418D8D5E07A93E3836)              | 2018-06-20   | Yes         |                     5 |
-| [Priya1](https://metrics.torproject.org/rs.html#details/0337174B5BC470FBCAEF715FE8E89162FB75B2FB)              | 2018-06-21   | Yes         |                     6 |
-| [moretshirts](https://metrics.torproject.org/rs.html#details/D7F13CC027BBD37DC706CF7B27C07716CF88440B)         | 2018-06-21   | Yes         |                     6 |
-| [yetstillmoretshirts](https://metrics.torproject.org/rs.html#details/4B7B1260325E36820030C7E61AC3273CADEC2DB8) | 2018-06-23   | Yes         |                     6 |
-| [Layla9](https://metrics.torproject.org/rs.html#details/5B7C417927B2C7C0A8F7C8669876746B95D11693)              | 2018-07-14   | Yes         |                     2 |
-| [evenmoretshirts](https://metrics.torproject.org/rs.html#details/CA8C21E0082046BA4894CD625E4E27DFE8544B92)     | 2018-06-22   | Yes         |                     6 |
-| [Larry](https://metrics.torproject.org/rs.html#details/9AC272D5C5BF479B56F062B91B89D6FE3740185D)               | 2018-08-15   | Yes         |                     1 |
-| [Abbey1](https://metrics.torproject.org/rs.html#details/BEF0D05BEE9CB62989B78125EAEFFFE97241373D)              | 2018-07-20   | Yes         |                     1 |
-| [Layla2](https://metrics.torproject.org/rs.html#details/7D01B2CD3095EAAF69639B8F6AED0463B7262975)              | 2018-08-09   | Yes         |                     1 |
-| [Layla3](https://metrics.torproject.org/rs.html#details/B910D70B1ADADED099283C3F895D53638027DD1D)              | 2018-06-27   | Yes         |                     5 |
-| [Abbey2](https://metrics.torproject.org/rs.html#details/C546FD12702A9539D1F50B87C7AAC9A983B2C00F)              | 2018-08-06   | Yes         |                     1 |
-| [torrobert1](https://metrics.torproject.org/rs.html#details/FF79CA5A50970E21E9AB320CE62C2178E963970C)          | 2018-08-11   | No          |                     1 |
-
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -58,14 +41,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: tor-operator@your-emailaddress-domain (2) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
+| [niboshi](https://metrics.torproject.org/rs.html#details/DC23F881F9F6F048D57FEF1035379D1BE7164E72)        | 2018-08-24   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0337174B5BC470FBCAEF715FE8E89162FB75B2FB,4B7B1260325E36820030C7E61AC3273CADEC2DB8,5B7C417927B2C7C0A8F7C8669876746B95D11693,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,7D01B2CD3095EAAF69639B8F6AED0463B7262975,7D4838AB4D937795306135418D8D5E07A93E3836,9AC272D5C5BF479B56F062B91B89D6FE3740185D,B910D70B1ADADED099283C3F895D53638027DD1D,BE5CE67AAC8EC61551173844D874385996F4C439,BEF0D05BEE9CB62989B78125EAEFFFE97241373D,C546FD12702A9539D1F50B87C7AAC9A983B2C00F,CA8C21E0082046BA4894CD625E4E27DFE8544B92,D7F13CC027BBD37DC706CF7B27C07716CF88440B
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BE5CE67AAC8EC61551173844D874385996F4C439
