@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-08-25 08:00 UTC**
+Tor network data as of: **2018-08-26 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: Jordan &lt;jordan@yui.cat&gt; (4) {#jordan-jordanyuicat}
+
+| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [yuicat1](https://metrics.torproject.org/rs.html#details/431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5) | 2017-12-29   | Yes         |                     4 |
+| [yuicat4](https://metrics.torproject.org/rs.html#details/85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5) | 2018-02-11   | Yes         |                     4 |
+| [yuicat0](https://metrics.torproject.org/rs.html#details/BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E) | 2018-06-26   | Yes         |                     1 |
+| [yuicat2](https://metrics.torproject.org/rs.html#details/EF4351738CD6B454745C5432B1A15A3DEB6FE99E) | 2016-06-24   | No          |                     4 |
+
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -46,10 +55,10 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
+| [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)     | 2018-08-17   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
-| [niboshi](https://metrics.torproject.org/rs.html#details/DC23F881F9F6F048D57FEF1035379D1BE7164E72)        | 2018-08-24   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,BE5CE67AAC8EC61551173844D874385996F4C439
+21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5,BE5CE67AAC8EC61551173844D874385996F4C439,BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E
