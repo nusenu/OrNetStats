@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-08-26 06:00 UTC**
+Tor network data as of: **2018-08-27 14:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -38,6 +38,17 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [yuicat0](https://metrics.torproject.org/rs.html#details/BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E) | 2018-06-26   | Yes         |                     1 |
 | [yuicat2](https://metrics.torproject.org/rs.html#details/EF4351738CD6B454745C5432B1A15A3DEB6FE99E) | 2016-06-24   | No          |                     4 |
 
+## ContactInfo: abuse-node49 AT posteo DOT de (6) {#abuse-node49-at-posteo-dot-de}
+
+| Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Hydra4](https://metrics.torproject.org/rs.html#details/3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2) | 2018-05-03   | Yes         |                     5 |
+| [Hydra2](https://metrics.torproject.org/rs.html#details/B16D271047B18D29F62AE9F3CFC7094258506A03) | 2017-01-08   | Yes         |                     4 |
+| [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C) | 2017-01-06   | Yes         |                     4 |
+| [Hydra3](https://metrics.torproject.org/rs.html#details/A766BF5C5AF7F897D81BD98797B17B1E8C014650) | 2018-02-12   | Yes         |                     2 |
+| [Hydra5](https://metrics.torproject.org/rs.html#details/4423FEBAF4BE877C062836C307AA247A255958A3) | 2018-08-24   | No          |                     2 |
+| [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     2 |
+
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -50,15 +61,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (2) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
-| [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)     | 2018-08-17   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5,BE5CE67AAC8EC61551173844D874385996F4C439,BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E
+0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5,A766BF5C5AF7F897D81BD98797B17B1E8C014650,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439,BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E
