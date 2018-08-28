@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-08-27 14:00 UTC**
+Tor network data as of: **2018-08-28 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,16 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: Jordan &lt;jordan@yui.cat&gt; (4) {#jordan-jordanyuicat}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [yuicat1](https://metrics.torproject.org/rs.html#details/431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5) | 2017-12-29   | Yes         |                     4 |
-| [yuicat4](https://metrics.torproject.org/rs.html#details/85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5) | 2018-02-11   | Yes         |                     4 |
-| [yuicat0](https://metrics.torproject.org/rs.html#details/BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E) | 2018-06-26   | Yes         |                     1 |
-| [yuicat2](https://metrics.torproject.org/rs.html#details/EF4351738CD6B454745C5432B1A15A3DEB6FE99E) | 2016-06-24   | No          |                     4 |
-
-## ContactInfo: abuse-node49 AT posteo DOT de (6) {#abuse-node49-at-posteo-dot-de}
+## ContactInfo: abuse-node49 AT posteo DOT de (5) {#abuse-node49-at-posteo-dot-de}
 
 | Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -46,7 +37,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Hydra2](https://metrics.torproject.org/rs.html#details/B16D271047B18D29F62AE9F3CFC7094258506A03) | 2017-01-08   | Yes         |                     4 |
 | [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C) | 2017-01-06   | Yes         |                     4 |
 | [Hydra3](https://metrics.torproject.org/rs.html#details/A766BF5C5AF7F897D81BD98797B17B1E8C014650) | 2018-02-12   | Yes         |                     2 |
-| [Hydra5](https://metrics.torproject.org/rs.html#details/4423FEBAF4BE877C062836C307AA247A255958A3) | 2018-08-24   | No          |                     2 |
 | [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     2 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
@@ -71,4 +61,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,431EA69FC4089BE4304AAEC38FEAE8BC8F8711C5,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,85D8B60E3429AD9A5A3FDAB89477C77E8F7EA2C5,A766BF5C5AF7F897D81BD98797B17B1E8C014650,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439,BEF65D2CA651B5E484BB0E3DA31DD192935FEB1E
+0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,A766BF5C5AF7F897D81BD98797B17B1E8C014650,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439
