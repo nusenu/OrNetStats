@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-09-04 18:00 UTC**
+Tor network data as of: **2018-09-05 10:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -51,12 +51,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Hydra3](https://metrics.torproject.org/rs.html#details/A766BF5C5AF7F897D81BD98797B17B1E8C014650) | 2018-02-12   | No          |                     2 |
 | [Hydra5](https://metrics.torproject.org/rs.html#details/C474CE9546BD227612BE0336013AAB7BF680429B) | 2018-08-30   | No          |                     5 |
 
-## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (4) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
 | [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)     | 2018-08-17   | Yes         |                     1 |
+| [VultrRelay7](https://metrics.torproject.org/rs.html#details/1381C833D22B22D0C420FA05A0E38E71DF68F7EF)    | 2018-06-29   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 
 ## ContactInfo: DuckSounds31@aol.com (3) {#ducksounds31aolcom}
@@ -70,4 +71,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439
+1381C833D22B22D0C420FA05A0E38E71DF68F7EF,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439
