@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-09-06 19:00 UTC**
+Tor network data as of: **2018-09-07 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse-node49 AT posteo DOT de (6) {#abuse-node49-at-posteo-dot-de}
-
-| Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra2](https://metrics.torproject.org/rs.html#details/B16D271047B18D29F62AE9F3CFC7094258506A03) | 2017-01-08   | Yes         |                     5 |
-| [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C) | 2017-01-06   | No          |                     6 |
-| [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     7 |
-| [Hydra3](https://metrics.torproject.org/rs.html#details/A766BF5C5AF7F897D81BD98797B17B1E8C014650) | 2018-02-12   | No          |                     2 |
-| [Hydra5](https://metrics.torproject.org/rs.html#details/C474CE9546BD227612BE0336013AAB7BF680429B) | 2018-08-30   | No          |                     5 |
-| [Hydra4](https://metrics.torproject.org/rs.html#details/CDCF3D31AA08298A0EB74BC01F254CCFAB02C3D5) | 2018-09-05   | No          |                     1 |
-
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -52,16 +41,26 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: tor-operator@your-emailaddress-domain (4) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: abuse-node49 AT posteo DOT de (6) {#abuse-node49-at-posteo-dot-de}
+
+| Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Hydra2](https://metrics.torproject.org/rs.html#details/B16D271047B18D29F62AE9F3CFC7094258506A03) | 2017-01-08   | Yes         |                     5 |
+| [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C) | 2017-01-06   | No          |                     6 |
+| [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     7 |
+| [Hydra3](https://metrics.torproject.org/rs.html#details/A766BF5C5AF7F897D81BD98797B17B1E8C014650) | 2018-02-12   | No          |                     2 |
+| [Hydra5](https://metrics.torproject.org/rs.html#details/C474CE9546BD227612BE0336013AAB7BF680429B) | 2018-08-30   | No          |                     5 |
+| [Hydra4](https://metrics.torproject.org/rs.html#details/CDCF3D31AA08298A0EB74BC01F254CCFAB02C3D5) | 2018-09-05   | No          |                     1 |
+
+## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
 | [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)     | 2018-08-17   | Yes         |                     1 |
-| [VultrRelay7](https://metrics.torproject.org/rs.html#details/1381C833D22B22D0C420FA05A0E38E71DF68F7EF)    | 2018-06-29   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1381C833D22B22D0C420FA05A0E38E71DF68F7EF,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439
+21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,B16D271047B18D29F62AE9F3CFC7094258506A03,BE5CE67AAC8EC61551173844D874385996F4C439
