@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-09-11 17:00 UTC**
+Tor network data as of: **2018-09-11 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -47,8 +47,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Hydra2](https://metrics.torproject.org/rs.html#details/B16D271047B18D29F62AE9F3CFC7094258506A03) | 2017-01-08   | Yes         |                     5 |
 | [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C) | 2017-01-06   | No          |                     6 |
-| [Hydra7](https://metrics.torproject.org/rs.html#details/3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2) | 2018-05-03   | No          |                     6 |
-| [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     7 |
+| [Hydra7](https://metrics.torproject.org/rs.html#details/3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2) | 2018-05-03   | No          |                     7 |
+| [Hydra6](https://metrics.torproject.org/rs.html#details/57209EAB953E2D143527D9C3CA913BE5F853E7B8) | 2018-08-25   | No          |                     6 |
 | [Hydra5](https://metrics.torproject.org/rs.html#details/C474CE9546BD227612BE0336013AAB7BF680429B) | 2018-08-30   | No          |                     5 |
 | [Hydra4](https://metrics.torproject.org/rs.html#details/CDCF3D31AA08298A0EB74BC01F254CCFAB02C3D5) | 2018-09-05   | No          |                     1 |
 
