@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-09-23 07:00 UTC**
+Tor network data as of: **2018-09-24 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,14 +41,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
 | [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
 
-## ContactInfo: zcashtorservers.org supported by a z.cash.foundati (3) {#zcashtorserversorg-supported-by-a-zcashfoundati}
-
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [ZcashTor0lv](https://metrics.torproject.org/rs.html#details/53825DFB32426F4D02E2FAA43AF713DC185299F4) | 2017-03-14   | Yes         |                     9 |
-| [ZcashTor0se](https://metrics.torproject.org/rs.html#details/381DB186136F95370B0A7C7575E40B5DE8C18BDB) | 2017-03-14   | Yes         |                     9 |
-| [ZcashTor0ca](https://metrics.torproject.org/rs.html#details/800C0EBDF0C7B4A7950D445435706CD9B901C47B) | 2018-05-10   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -56,6 +48,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+
+## ContactInfo: zcashtorservers.org supported by a z.cash.foundati (3) {#zcashtorserversorg-supported-by-a-zcashfoundati}
+
+| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [ZcashTor0se](https://metrics.torproject.org/rs.html#details/381DB186136F95370B0A7C7575E40B5DE8C18BDB) | 2017-03-14   | Yes         |                     9 |
+| [ZcashTor0lv](https://metrics.torproject.org/rs.html#details/53825DFB32426F4D02E2FAA43AF713DC185299F4) | 2017-03-14   | Yes         |                     9 |
+| [ZcashTor0ca](https://metrics.torproject.org/rs.html#details/800C0EBDF0C7B4A7950D445435706CD9B901C47B) | 2018-05-10   | No          |                     1 |
 
 ## ContactInfo: tor-operator@your-emailaddress-domain (2) {#tor-operatoryour-emailaddress-domain}
 
