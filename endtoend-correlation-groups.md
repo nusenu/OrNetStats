@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-10-01 08:00 UTC**
+Tor network data as of: **2018-10-02 05:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
+
+## ContactInfo: 0x9501B909 Random Person &lt;deep.thought AT riseup d (2) {#0x9501b909-random-person-deepthought-at-riseup-d}
+
+| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [zaunpfahl](https://metrics.torproject.org/rs.html#details/AF9593B3DA5D8373E3470DA0ED64173EEB531565)          | 2018-06-21   | Yes         |                     1 |
+| [howdoyouturnthison](https://metrics.torproject.org/rs.html#details/4AEBDC4710D2C34FE02AB2A660B62B2A9EE97C5C) | 2018-09-03   | No          |                     1 |
 
 ## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
 
@@ -59,4 +66,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439
+78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF9593B3DA5D8373E3470DA0ED64173EEB531565,BE5CE67AAC8EC61551173844D874385996F4C439
