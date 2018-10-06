@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-10-03 15:00 UTC**
+Tor network data as of: **2018-10-06 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,33 +29,30 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: 0x9501B909 Random Person &lt;deep.thought AT riseup d (2) {#0x9501b909-random-person-deepthought-at-riseup-d}
-
-| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [zaunpfahl](https://metrics.torproject.org/rs.html#details/AF9593B3DA5D8373E3470DA0ED64173EEB531565)          | 2018-06-21   | Yes         |                     1 |
-| [howdoyouturnthison](https://metrics.torproject.org/rs.html#details/4AEBDC4710D2C34FE02AB2A660B62B2A9EE97C5C) | 2018-09-03   | No          |                     1 |
-
-## ContactInfo: VSIF Support &lt;support AT vsif dot ca&gt; (7) {#vsif-support-support-at-vsif-dot-ca}
-
-| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [VSIFweb](https://metrics.torproject.org/rs.html#details/78378DDD015C4E1C9242A5EC41158AF1E24CF43E)        | 2017-06-23   | Yes         |                     5 |
-| [VSIFviking1](https://metrics.torproject.org/rs.html#details/1DEB985E3EEC0E7E0F6A887B417065E63522C5E2)    | 2017-06-15   | No          |                     7 |
-| [VSIFenterprise](https://metrics.torproject.org/rs.html#details/59AE2B55941324B24354ADAAF971FC2C9F836963) | 2017-06-15   | No          |                     7 |
-| [VSIFsalyut4](https://metrics.torproject.org/rs.html#details/D2461A903A754DEA625827AB333A2ECD06CE2E43)    | 2017-06-09   | No          |                     7 |
-| [VSIFcopernicus](https://metrics.torproject.org/rs.html#details/D509A7A321FF9660665B75CB19F0FF09964C0B80) | 2018-02-11   | No          |                     6 |
-| [VSIFvoyager](https://metrics.torproject.org/rs.html#details/E1DDAE70F14B9A6A7C01BDB9BDCCB70307BEE90A)    | 2018-02-11   | No          |                     6 |
-| [VSIFskylab](https://metrics.torproject.org/rs.html#details/F13B97699EF7328A6289E5C2540560903CBC79A8)     | 2017-06-04   | No          |                     7 |
-
-## ContactInfo: tor-operator@your-emailaddress-domain (4) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (5) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [DimasNiceRelay2nd](https://metrics.torproject.org/rs.html#details/10901213FFAB09B5085131D57311563424CF2DBD) | 2018-09-25   | Yes         |                     1 |
 | [HOLARELAY](https://metrics.torproject.org/rs.html#details/B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB)         | 2018-09-25   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439)    | 2018-08-15   | Yes         |                     1 |
-| [DimasNiceRelay2nd](https://metrics.torproject.org/rs.html#details/10901213FFAB09B5085131D57311563424CF2DBD) | 2018-09-25   | Yes         |                     1 |
+| [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)        | 2018-08-17   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)       | 2018-06-20   | No          |                     1 |
+
+## ContactInfo: wgetdataatprotonmailch tor-relay.co (3) {#wgetdataatprotonmailch-tor-relayco}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorGuard](https://metrics.torproject.org/rs.html#details/8B576610170A1C716392D0D5D577D4422773FE3D)  | 2018-09-07   | Yes         |                     1 |
+| [Guard](https://metrics.torproject.org/rs.html#details/04A1785CDA43C3815DFEE6FF25404CD42CAD34F5)     | 2018-09-17   | No          |                     1 |
+| [TorGuard2](https://metrics.torproject.org/rs.html#details/CC7A883192343204522D90A03214DD21B6430524) | 2018-10-02   | No          |                     1 |
+
+## ContactInfo: 0xFFFFFFFF anon &lt;tyb AT riseup.net&gt; (2) {#0xffffffff-anon-tyb-at-riseupnet}
+
+| Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [10001110101](https://metrics.torproject.org/rs.html#details/F550E3E12827FEBAAB3836C17CCEE4FFC1E2FBA4)       | 2018-09-20   | Yes         |                     1 |
+| [0p3nBSDan0nym0us3](https://metrics.torproject.org/rs.html#details/D731A6371B751D8FA12FB0C1E4B2D3AF739179FE) | 2018-09-29   | No          |                     1 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -65,7 +62,15 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
+## ContactInfo: atlayo@atlayo.com (3) {#atlayoatlayocom}
+
+| Nickname                                                                                          | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Atlayo](https://metrics.torproject.org/rs.html#details/07BA27C92177DCD6376400B1199376FB2125784F) | 2018-08-17   | Yes         |                     1 |
+| [Atlayo](https://metrics.torproject.org/rs.html#details/C0B8FF979391F16BB63BDC5D226F33CA6585A86E) | 2018-09-12   | No          |                     1 |
+| [Atlayo](https://metrics.torproject.org/rs.html#details/DE6121CF984616A1F158C39F87219EA97EC2EA4A) | 2018-09-12   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-10901213FFAB09B5085131D57311563424CF2DBD,78378DDD015C4E1C9242A5EC41158AF1E24CF43E,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,AF9593B3DA5D8373E3470DA0ED64173EEB531565,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439
+07BA27C92177DCD6376400B1199376FB2125784F,10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,8B576610170A1C716392D0D5D577D4422773FE3D,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439
