@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-10-13 16:00 UTC**
+Tor network data as of: **2018-10-14 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,9 +34,16 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [HOLARELAY](https://metrics.torproject.org/rs.html#details/B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB)         | 2018-09-25   | Yes         |                     1 |
-| [DimasNiceRelay2nd](https://metrics.torproject.org/rs.html#details/10901213FFAB09B5085131D57311563424CF2DBD) | 2018-09-25   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439)    | 2018-08-15   | Yes         |                     1 |
+| [DimasNiceRelay2nd](https://metrics.torproject.org/rs.html#details/10901213FFAB09B5085131D57311563424CF2DBD) | 2018-09-25   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)       | 2018-06-20   | No          |                     1 |
+
+## ContactInfo: 0xFFFFFFFF anon &lt;tyb AT riseup.net&gt; (2) {#0xffffffff-anon-tyb-at-riseupnet}
+
+| Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [10001110101](https://metrics.torproject.org/rs.html#details/F550E3E12827FEBAAB3836C17CCEE4FFC1E2FBA4)       | 2018-09-20   | Yes         |                     1 |
+| [0p3nBSDan0nym0us3](https://metrics.torproject.org/rs.html#details/D731A6371B751D8FA12FB0C1E4B2D3AF739179FE) | 2018-09-29   | No          |                     1 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -46,26 +53,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: wgetdataatprotonmailch tor-relay.co (2) {#wgetdataatprotonmailch-tor-relayco}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [TorGuard](https://metrics.torproject.org/rs.html#details/8B576610170A1C716392D0D5D577D4422773FE3D) | 2018-09-07   | Yes         |                     1 |
-| [Guard](https://metrics.torproject.org/rs.html#details/04A1785CDA43C3815DFEE6FF25404CD42CAD34F5)    | 2018-09-17   | No          |                     1 |
-
-## ContactInfo: 0xFFFFFFFF anon &lt;tyb AT riseup.net&gt; (2) {#0xffffffff-anon-tyb-at-riseupnet}
-
-| Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [10001110101](https://metrics.torproject.org/rs.html#details/F550E3E12827FEBAAB3836C17CCEE4FFC1E2FBA4)       | 2018-09-20   | Yes         |                     1 |
-| [0p3nBSDan0nym0us3](https://metrics.torproject.org/rs.html#details/D731A6371B751D8FA12FB0C1E4B2D3AF739179FE) | 2018-09-29   | No          |                     1 |
-
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
 | [giovanna](https://metrics.torproject.org/rs.html#details/CD7B3EFFB0BEE35A57A3AE7646DFBCD9B0BD9E76)   | 2018-05-21   | No          |                     1 |
+
+## ContactInfo: wgetdataatprotonmailch tor-relay.co (2) {#wgetdataatprotonmailch-tor-relayco}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorGuard](https://metrics.torproject.org/rs.html#details/8B576610170A1C716392D0D5D577D4422773FE3D) | 2018-09-07   | Yes         |                     1 |
+| [Guard](https://metrics.torproject.org/rs.html#details/04A1785CDA43C3815DFEE6FF25404CD42CAD34F5)    | 2018-09-17   | No          |                     1 |
 
 ## ContactInfo: atlayo@atlayo.com (3) {#atlayoatlayocom}
 
