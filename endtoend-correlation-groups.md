@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-10-17 12:00 UTC**
+Tor network data as of: **2018-10-18 10:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -46,13 +46,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
-
-## ContactInfo: 0xFFFFFFFF anon &lt;tyb AT riseup.net&gt; (2) {#0xffffffff-anon-tyb-at-riseupnet}
-
-| Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [10001110101](https://metrics.torproject.org/rs.html#details/F550E3E12827FEBAAB3836C17CCEE4FFC1E2FBA4)       | 2018-09-20   | Yes         |                     1 |
-| [0p3nBSDan0nym0us3](https://metrics.torproject.org/rs.html#details/D731A6371B751D8FA12FB0C1E4B2D3AF739179FE) | 2018-09-29   | No          |                     1 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
