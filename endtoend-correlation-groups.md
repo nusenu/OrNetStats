@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-10-29 10:00 UTC**
+Tor network data as of: **2018-10-31 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
-| [giovanna](https://metrics.torproject.org/rs.html#details/CD7B3EFFB0BEE35A57A3AE7646DFBCD9B0BD9E76)   | 2018-05-21   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -44,12 +37,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/CD7B3EFFB0BEE35A57A3AE7646DFBCD9B0BD9E76)   | 2018-05-21   | No          |                     1 |
+
 ## ContactInfo: tor@sechsnulldrei.org (4) {#torsechsnulldreiorg}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [ephesysein](https://metrics.torproject.org/rs.html#details/785934EF33E67C1322CE783338778C1A4E5532CD)  | 2018-10-10   | Yes         |                     2 |
 | [ephesysein](https://metrics.torproject.org/rs.html#details/343384832FF3056C27714526101BA95B81DE3767)  | 2018-10-09   | Yes         |                     2 |
+| [ephesysein](https://metrics.torproject.org/rs.html#details/785934EF33E67C1322CE783338778C1A4E5532CD)  | 2018-10-10   | Yes         |                     2 |
 | [ephesysnull](https://metrics.torproject.org/rs.html#details/051F744E4E5CDBBAC14C1BC33F928F1B1FC24C1D) | 2018-10-19   | No          |                     2 |
 | [ephesysnull](https://metrics.torproject.org/rs.html#details/675B01ACB6D2875AFC81B34B2C4A0B68EE174291) | 2018-10-19   | No          |                     2 |
 
