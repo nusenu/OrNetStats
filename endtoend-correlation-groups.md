@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-11-21 10:00 UTC**
+Tor network data as of: **2018-11-22 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,22 +34,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [HOLARELAY](https://metrics.torproject.org/rs.html#details/B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB)         | 2018-09-25   | Yes         |                     1 |
-| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)      | 2018-10-29   | Yes         |                     1 |
-| [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439)    | 2018-08-15   | Yes         |                     1 |
 | [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)          | 2018-10-09   | Yes         |                     1 |
+| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)      | 2018-10-29   | Yes         |                     1 |
 | [DimasNiceRelay2nd](https://metrics.torproject.org/rs.html#details/10901213FFAB09B5085131D57311563424CF2DBD) | 2018-09-25   | Yes         |                     1 |
-| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)       | 2018-11-08   | Yes         |                     2 |
+| [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439)    | 2018-08-15   | Yes         |                     1 |
 | [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)        | 2018-08-17   | Yes         |                     1 |
+| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)       | 2018-11-08   | Yes         |                     2 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)       | 2018-06-20   | No          |                     1 |
-
-## ContactInfo: anonymous@deepwebunderground.se (4) {#anonymousdeepwebundergroundse}
-
-| Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [deepwebunderground9](https://metrics.torproject.org/rs.html#details/69E06EBB2573A4F89330BDF8BC869794A3E10E4D) | 2018-01-13   | Yes         |                     1 |
-| [deepwebunderground0](https://metrics.torproject.org/rs.html#details/329BD7545DEEEBBDC8C4285F243916F248972102) | 2018-11-02   | No          |                     1 |
-| [deepwebunderground3](https://metrics.torproject.org/rs.html#details/B7A067A61060C0881D7AF5576C6C59BC7D863BB0) | 2018-11-16   | No          |                     1 |
-| [deepwebunderground2](https://metrics.torproject.org/rs.html#details/DCA2A3FAE50B3729DAA15BC95FB21AF03389818B) | 2018-11-10   | No          |                     1 |
 
 ## ContactInfo: tor@sechsnulldrei.org (4) {#torsechsnulldreiorg}
 
@@ -71,4 +62,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,343384832FF3056C27714526101BA95B81DE3767,69E06EBB2573A4F89330BDF8BC869794A3E10E4D,70953563B6AC3EF22E0754B7345757C6FB205989,785934EF33E67C1322CE783338778C1A4E5532CD,9879492B344126F899254E0F618F43D2B51F7505,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,343384832FF3056C27714526101BA95B81DE3767,70953563B6AC3EF22E0754B7345757C6FB205989,785934EF33E67C1322CE783338778C1A4E5532CD,9879492B344126F899254E0F618F43D2B51F7505,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
