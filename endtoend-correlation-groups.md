@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-11-23 09:00 UTC**
+Tor network data as of: **2018-11-24 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -50,6 +50,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+
 ## ContactInfo: tor@sechsnulldrei.org (4) {#torsechsnulldreiorg}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -62,4 +69,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,343384832FF3056C27714526101BA95B81DE3767,70953563B6AC3EF22E0754B7345757C6FB205989,785934EF33E67C1322CE783338778C1A4E5532CD,9879492B344126F899254E0F618F43D2B51F7505,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,343384832FF3056C27714526101BA95B81DE3767,70953563B6AC3EF22E0754B7345757C6FB205989,785934EF33E67C1322CE783338778C1A4E5532CD,9879492B344126F899254E0F618F43D2B51F7505,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,B2DA2FA9EABEF4138C8CE549D09C44B82550A2BB,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
