@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-12-01 13:00 UTC**
+Tor network data as of: **2018-12-02 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -43,20 +43,19 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)       | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)         | 2018-11-24   | No          |                     1 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
-| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
 
 ## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (27) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Goethe2](https://metrics.torproject.org/rs.html#details/75630B41925DB77E893FEA93A34EB5B838B2CE53)        | 2018-04-03   | Yes         |                    27 |
 | [Goethe](https://metrics.torproject.org/rs.html#details/D667A56F4E43D16524C68324B4A6444D3C9699FF)         | 2018-04-03   | Yes         |                    27 |
+| [Goethe2](https://metrics.torproject.org/rs.html#details/75630B41925DB77E893FEA93A34EB5B838B2CE53)        | 2018-04-03   | Yes         |                    27 |
 | [Schiller2](https://metrics.torproject.org/rs.html#details/08F1E380B2811D795A8B024E7FE21008ABFC9462)      | 2017-04-22   | No          |                    29 |
 | [Gandhi2](https://metrics.torproject.org/rs.html#details/1A6F41D7B3A18134C8E3C20F56B17263AF2030F4)        | 2017-04-22   | No          |                    29 |
 | [Nietzsche](https://metrics.torproject.org/rs.html#details/24E383836A0C6393E6F70646B6C02B46FD488A6C)      | 2018-09-17   | No          |                    27 |
@@ -90,12 +89,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [TorGuard](https://metrics.torproject.org/rs.html#details/8B576610170A1C716392D0D5D577D4422773FE3D) | 2018-09-07   | Yes         |                     1 |
 | [Guard](https://metrics.torproject.org/rs.html#details/04A1785CDA43C3815DFEE6FF25404CD42CAD34F5)    | 2018-09-17   | No          |                     1 |
 
-## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
-| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
+| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+| [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
