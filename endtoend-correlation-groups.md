@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-12-12 17:00 UTC**
+Tor network data as of: **2018-12-13 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -42,31 +42,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)       | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)         | 2018-11-24   | No          |                     1 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv (7) {#neel-chauhan-neel-at-neelc-dot-org--btc-1kognv}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelay2](https://metrics.torproject.org/rs.html#details/D5B8C38539C509380767D4DE20DE84CF84EE8299) | 2016-09-05   | Yes         |                     6 |
-| [NeelTorRelay1](https://metrics.torproject.org/rs.html#details/D31BFE2048AD5B77CA072E977B5961861A2415E6) | 2018-01-21   | Yes         |                     6 |
-| [NeelTorExit3](https://metrics.torproject.org/rs.html#details/18E3A51E779560063D22E5069349E137BF1422B2)  | 2018-02-13   | No          |                     6 |
-| [NeelTorExit4](https://metrics.torproject.org/rs.html#details/59FE609666A0EAC5A1BF80E482647F1FEE05C465)  | 2018-03-14   | No          |                     6 |
-| [NeelTorExit5](https://metrics.torproject.org/rs.html#details/81103399BE96904954227E84362D14AD8FC94D4F)  | 2018-12-10   | No          |                     1 |
-| [NeelTorExit2](https://metrics.torproject.org/rs.html#details/8A3B2D50590CAB574108507FC5D36C9BA079D9AF)  | 2018-10-31   | No          |                     6 |
-| [NeelTorExit1](https://metrics.torproject.org/rs.html#details/C8B03E4DC7FF4398110DE8A8E93566CAAFE9BB43)  | 2018-04-16   | No          |                     6 |
-
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
 | [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
-
-## ContactInfo: c dot gloeckner at tuta dot io tor-relay.co (2) {#cdotgloecknerattutadotio-tor-relayco}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Schlangenbiss](https://metrics.torproject.org/rs.html#details/04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6) | 2018-11-25   | Yes         |                     1 |
-| [Netzfreiheit](https://metrics.torproject.org/rs.html#details/888FEC76A96C05D185B1C2174B95DAB4E7274A6C)  | 2018-12-06   | No          |                     1 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
@@ -76,7 +57,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (30) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
+## ContactInfo: c dot gloeckner at tuta dot io tor-relay.co (2) {#cdotgloecknerattutadotio-tor-relayco}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Schlangenbiss](https://metrics.torproject.org/rs.html#details/04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6) | 2018-11-25   | Yes         |                     1 |
+| [Netzfreiheit](https://metrics.torproject.org/rs.html#details/888FEC76A96C05D185B1C2174B95DAB4E7274A6C)  | 2018-12-06   | No          |                     1 |
+
+## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (29) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -99,7 +87,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Nietzsche2](https://metrics.torproject.org/rs.html#details/9795AEB7A11F20333A7E41466496ACCCB0E8C232)     | 2018-09-17   | No          |                    27 |
 | [Luther](https://metrics.torproject.org/rs.html#details/9B054080395062284F289061CE64DFC1F2AC9BD9)         | 2018-09-17   | No          |                    27 |
 | [itl6](https://metrics.torproject.org/rs.html#details/ACA23FAA90E10A9B397D7AEB02D6148CB2B28B8E)           | 2018-12-05   | No          |                     6 |
-| [itl1](https://metrics.torproject.org/rs.html#details/AD940667E1057E9690B5B2AC5C37BD017855E661)           | 2018-11-25   | No          |                     6 |
 | [alsaceonionb](https://metrics.torproject.org/rs.html#details/AE271FF27CE9D274674BD8542B5F82310B02E02F)   | 2016-12-18   | No          |                    29 |
 | [quebeconionb](https://metrics.torproject.org/rs.html#details/B56D5A0543C35B45D81D792A4735590E3612A815)   | 2016-12-18   | No          |                    29 |
 | [Schiller](https://metrics.torproject.org/rs.html#details/C2256F7DC6130B08B94BBD6D39BAA00DB766FC40)       | 2017-04-22   | No          |                    29 |
@@ -109,7 +96,23 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [heineb](https://metrics.torproject.org/rs.html#details/E3FF9A2F09B974313AFBD7618A1451DC8610CCEC)         | 2016-12-05   | No          |                    29 |
 | [Gandhi](https://metrics.torproject.org/rs.html#details/EC9D12C8F7F8721C4A9147F75E3D3F024C1B9C29)         | 2017-04-22   | No          |                    29 |
 | [alsaceonion](https://metrics.torproject.org/rs.html#details/F0D44DAD8CB9A07737709F3F5AD0A93600259640)    | 2016-11-14   | No          |                    29 |
-| [i2p](https://metrics.torproject.org/rs.html#details/FCDA182B78E5C37D43D5CEC49FC5F668A6610828)            | 2018-09-07   | No          |                    29 |
+| [i2p2](https://metrics.torproject.org/rs.html#details/F944D964F00B9B121EB9544A4241D6718BA777CD)           | 2018-11-20   | No          |                    15 |
+
+## ContactInfo: Cheena &lt;cheena @ cheena . net&gt; (4) {#cheena-cheena--cheena--net}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CheenaTorRelay1](https://metrics.torproject.org/rs.html#details/AC3DAFEDBBA5A78007A5835F4728E2408B094E49) | 2018-10-20   | Yes         |                     6 |
+| [CheenaTorExit1](https://metrics.torproject.org/rs.html#details/01729F10A81DDD8A92D770B2133082EB56C75E26)  | 2018-11-26   | No          |                     6 |
+| [CheenaTorExit4](https://metrics.torproject.org/rs.html#details/022A116E79A66F9D1081A9ED083075A8841F0CE4)  | 2018-10-26   | No          |                     6 |
+| [CheenaTorExit3](https://metrics.torproject.org/rs.html#details/50825758CC2DA41DEEF6AE29CB20A803BDCC6F79)  | 2018-12-03   | No          |                     1 |
+
+## ContactInfo: emerson tor@nodevine.net bitcoin:126gyYcBjirRmDh2G (2) {#emerson-tornodevinenet-bitcoin126gyycbjirrmdh2g}
+
+| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [nodvrelay10](https://metrics.torproject.org/rs.html#details/4AA5669E80CC6265C88A4A8ECE289778286E78C5) | 2018-12-04   | Yes         |                     1 |
+| [nodvexit01](https://metrics.torproject.org/rs.html#details/436B6515C78D7A4FB2104805DBB9533F77D43255)  | 2018-08-20   | No          |                     1 |
 
 ## ContactInfo: tech@emeraldonion.org (4) {#techemeraldonionorg}
 
@@ -123,4 +126,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6,10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,70953563B6AC3EF22E0754B7345757C6FB205989,75630B41925DB77E893FEA93A34EB5B838B2CE53,78E39D497195209FA45A3320E67F0E114ECC9398,9879492B344126F899254E0F618F43D2B51F7505,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,D31BFE2048AD5B77CA072E977B5961861A2415E6,D5B8C38539C509380767D4DE20DE84CF84EE8299,D667A56F4E43D16524C68324B4A6444D3C9699FF,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6,10901213FFAB09B5085131D57311563424CF2DBD,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,4AA5669E80CC6265C88A4A8ECE289778286E78C5,70953563B6AC3EF22E0754B7345757C6FB205989,75630B41925DB77E893FEA93A34EB5B838B2CE53,78E39D497195209FA45A3320E67F0E114ECC9398,9879492B344126F899254E0F618F43D2B51F7505,A9A4213EA3D707857368C683F2208C83B8755D8A,AC3DAFEDBBA5A78007A5835F4728E2408B094E49,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,D667A56F4E43D16524C68324B4A6444D3C9699FF,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
