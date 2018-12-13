@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-12-11 17:00 UTC**
+Tor network data as of: **2018-12-12 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -76,7 +76,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (32) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
+## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (30) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -90,7 +90,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Hecker](https://metrics.torproject.org/rs.html#details/2EF07234ACA495086AE2476C324FB6F5F92E111A)         | 2018-09-17   | No          |                    27 |
 | [Hecker2](https://metrics.torproject.org/rs.html#details/32435F652D6F06E71534BC83952EC2DC2C6450F6)        | 2018-09-17   | No          |                    27 |
 | [montrealonion](https://metrics.torproject.org/rs.html#details/3246ECCAEDC4FF2949B655E0245AFFF42F8C9DFC)  | 2016-11-12   | No          |                    29 |
-| [mandela2](https://metrics.torproject.org/rs.html#details/36F5D375ED389FC346C3AB01DE179864EE334596)       | 2018-08-12   | No          |                    27 |
 | [Luther](https://metrics.torproject.org/rs.html#details/5BF0617E6F94B1C993A8AC0534C4C759613A000B)         | 2018-09-17   | No          |                    27 |
 | [Humboldt2](https://metrics.torproject.org/rs.html#details/6088C9AE1F712A9478FDE64CADEFF8E74ED4AE7C)      | 2018-09-17   | No          |                    27 |
 | [itl4](https://metrics.torproject.org/rs.html#details/68C36BD39030350CF51366C1ED625C72FE20B43A)           | 2018-12-05   | No          |                     6 |
@@ -99,7 +98,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [i2p3](https://metrics.torproject.org/rs.html#details/92D8008026AA72131A5357005054048F879F2808)           | 2018-11-20   | No          |                    15 |
 | [Nietzsche2](https://metrics.torproject.org/rs.html#details/9795AEB7A11F20333A7E41466496ACCCB0E8C232)     | 2018-09-17   | No          |                    27 |
 | [Luther](https://metrics.torproject.org/rs.html#details/9B054080395062284F289061CE64DFC1F2AC9BD9)         | 2018-09-17   | No          |                    27 |
-| [Mandela](https://metrics.torproject.org/rs.html#details/A6D6F20891BDD1367DEB56C024DB4E6D7FADBE09)        | 2018-08-12   | No          |                    27 |
 | [itl6](https://metrics.torproject.org/rs.html#details/ACA23FAA90E10A9B397D7AEB02D6148CB2B28B8E)           | 2018-12-05   | No          |                     6 |
 | [itl1](https://metrics.torproject.org/rs.html#details/AD940667E1057E9690B5B2AC5C37BD017855E661)           | 2018-11-25   | No          |                     6 |
 | [alsaceonionb](https://metrics.torproject.org/rs.html#details/AE271FF27CE9D274674BD8542B5F82310B02E02F)   | 2016-12-18   | No          |                    29 |
