@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2018-12-13 19:00 UTC**
+Tor network data as of: **2018-12-14 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,6 +49,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
 | [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
 
+## ContactInfo: c dot gloeckner at tuta dot io tor-relay.co (2) {#cdotgloecknerattutadotio-tor-relayco}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Schlangenbiss](https://metrics.torproject.org/rs.html#details/04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6) | 2018-11-25   | Yes         |                     1 |
+| [Netzfreiheit](https://metrics.torproject.org/rs.html#details/888FEC76A96C05D185B1C2174B95DAB4E7274A6C)  | 2018-12-06   | No          |                     1 |
+
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -57,14 +64,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: c dot gloeckner at tuta dot io tor-relay.co (2) {#cdotgloecknerattutadotio-tor-relayco}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Schlangenbiss](https://metrics.torproject.org/rs.html#details/04DA2A0E8564A8E98BC2848C8629CC7F4BC8BBA6) | 2018-11-25   | Yes         |                     1 |
-| [Netzfreiheit](https://metrics.torproject.org/rs.html#details/888FEC76A96C05D185B1C2174B95DAB4E7274A6C)  | 2018-12-06   | No          |                     1 |
-
-## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (29) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
+## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (31) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -87,6 +87,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Nietzsche2](https://metrics.torproject.org/rs.html#details/9795AEB7A11F20333A7E41466496ACCCB0E8C232)     | 2018-09-17   | No          |                    27 |
 | [Luther](https://metrics.torproject.org/rs.html#details/9B054080395062284F289061CE64DFC1F2AC9BD9)         | 2018-09-17   | No          |                    27 |
 | [itl6](https://metrics.torproject.org/rs.html#details/ACA23FAA90E10A9B397D7AEB02D6148CB2B28B8E)           | 2018-12-05   | No          |                     6 |
+| [itl1](https://metrics.torproject.org/rs.html#details/AD940667E1057E9690B5B2AC5C37BD017855E661)           | 2018-11-25   | No          |                     6 |
 | [alsaceonionb](https://metrics.torproject.org/rs.html#details/AE271FF27CE9D274674BD8542B5F82310B02E02F)   | 2016-12-18   | No          |                    29 |
 | [quebeconionb](https://metrics.torproject.org/rs.html#details/B56D5A0543C35B45D81D792A4735590E3612A815)   | 2016-12-18   | No          |                    29 |
 | [Schiller](https://metrics.torproject.org/rs.html#details/C2256F7DC6130B08B94BBD6D39BAA00DB766FC40)       | 2017-04-22   | No          |                    29 |
@@ -97,6 +98,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Gandhi](https://metrics.torproject.org/rs.html#details/EC9D12C8F7F8721C4A9147F75E3D3F024C1B9C29)         | 2017-04-22   | No          |                    29 |
 | [alsaceonion](https://metrics.torproject.org/rs.html#details/F0D44DAD8CB9A07737709F3F5AD0A93600259640)    | 2016-11-14   | No          |                    29 |
 | [i2p2](https://metrics.torproject.org/rs.html#details/F944D964F00B9B121EB9544A4241D6718BA777CD)           | 2018-11-20   | No          |                    15 |
+| [i2p](https://metrics.torproject.org/rs.html#details/FCDA182B78E5C37D43D5CEC49FC5F668A6610828)            | 2018-09-07   | No          |                    29 |
 
 ## ContactInfo: Cheena &lt;cheena @ cheena . net&gt; (4) {#cheena-cheena--cheena--net}
 
