@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-01-09 16:00 UTC**
+Tor network data as of: **2019-01-10 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,16 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: tor-operator@your-emailaddress-domain (8) {#tor-operatoryour-emailaddress-domain}
+## ContactInfo: tor-operator@your-emailaddress-domain (7) {#tor-operatoryour-emailaddress-domain}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)       | 2018-10-09   | Yes         |                     1 |
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)   | 2018-10-29   | Yes         |                     1 |
+| [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)       | 2018-10-09   | Yes         |                     1 |
 | [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)    | 2018-11-08   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)          | 2018-12-23   | Yes         |                     1 |
-| [jgautRelay](https://metrics.torproject.org/rs.html#details/21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA)     | 2018-08-17   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)      | 2018-11-24   | No          |                     1 |
 
@@ -57,7 +56,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
 | [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
 
+## ContactInfo: con at fynn dot sh tor-relay.co (2) {#conatfynndotsh-tor-relayco}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [FYNNSH](https://metrics.torproject.org/rs.html#details/44659DA7B01240CF1CF305234F3C10EE81214BDA)     | 2019-01-01   | Yes         |                     1 |
+| [FYNNSHexit](https://metrics.torproject.org/rs.html#details/3F28BB28B99A399FCFA3D81D4F45156CBA2AFA55) | 2019-01-07   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,9879492B344126F899254E0F618F43D2B51F7505,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,44659DA7B01240CF1CF305234F3C10EE81214BDA,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,9879492B344126F899254E0F618F43D2B51F7505,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
