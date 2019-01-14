@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-01-13 08:00 UTC**
+Tor network data as of: **2019-01-14 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,10 +33,10 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                    40 |
-| [niftyleithia](https://metrics.torproject.org/rs.html#details/F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663)        | 2019-01-05   | Yes         |                    40 |
 | [niftycastoroides](https://metrics.torproject.org/rs.html#details/9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA)    | 2019-01-05   | Yes         |                    40 |
 | [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                    40 |
+| [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                    40 |
+| [niftyleithia](https://metrics.torproject.org/rs.html#details/F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663)        | 2019-01-05   | Yes         |                    40 |
 | [niftyhornedgopher](https://metrics.torproject.org/rs.html#details/6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3)   | 2019-01-05   | Yes         |                    40 |
 | [niftyhedgehog](https://metrics.torproject.org/rs.html#details/1084200B44021D308EA4253F256794671B1D099A)       | 2016-08-23   | No          |                    43 |
 | [niftywoodmouse](https://metrics.torproject.org/rs.html#details/14877C6384A9E793F422C8D1DDA447CACA4F7C4B)      | 2016-09-18   | No          |                    43 |
@@ -80,7 +80,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)       | 2018-10-09   | Yes         |                     1 |
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)   | 2018-10-29   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
-| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)    | 2018-11-08   | Yes         |                     1 |
+| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)    | 2018-11-08   | Yes         |                     2 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)          | 2018-12-23   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)      | 2018-11-24   | No          |                     1 |
@@ -101,6 +101,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
+## ContactInfo: &lt;schneider&gt; schneiderweisse AT tutanota DOT de (3) {#schneider-schneiderweisse-at-tutanota-dot-de}
+
+| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [ohsally](https://metrics.torproject.org/rs.html#details/C5D55D11F26C52A6BFEE8DD23C250548AA67E9AC) | 2015-09-04   | Yes         |                     1 |
+| [anyname](https://metrics.torproject.org/rs.html#details/4DB8F213C3685CA4A3CF616352A8F7D39E61801A) | 2015-09-01   | Yes         |                     1 |
+| [raybold](https://metrics.torproject.org/rs.html#details/AC80F46DAB7E902E9D6AEE056E79089577814B3D) | 2015-09-17   | No          |                     1 |
+
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
@@ -111,4 +119,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,44659DA7B01240CF1CF305234F3C10EE81214BDA,6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,9879492B344126F899254E0F618F43D2B51F7505,9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA,A016192D0A87FC9354A7523A211BBD9CF859708B,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,BEC9609EB7AC566512F0FC1AF8040FC1189AA14A,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663
+21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,44659DA7B01240CF1CF305234F3C10EE81214BDA,4DB8F213C3685CA4A3CF616352A8F7D39E61801A,6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,9879492B344126F899254E0F618F43D2B51F7505,9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA,A016192D0A87FC9354A7523A211BBD9CF859708B,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,BEC9609EB7AC566512F0FC1AF8040FC1189AA14A,C5D55D11F26C52A6BFEE8DD23C250548AA67E9AC,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663
