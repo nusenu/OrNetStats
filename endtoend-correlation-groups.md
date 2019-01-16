@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-01-15 18:00 UTC**
+Tor network data as of: **2019-01-16 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,18 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse@to-surf-and-protect.net (41) {#abuseto-surf-and-protectnet}
+## ContactInfo: abuse@to-surf-and-protect.net (42) {#abuseto-surf-and-protectnet}
 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                    40 |
-| [niftyleithia](https://metrics.torproject.org/rs.html#details/F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663)        | 2019-01-05   | Yes         |                    40 |
-| [niftycastoroides](https://metrics.torproject.org/rs.html#details/9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA)    | 2019-01-05   | Yes         |                    40 |
-| [niftyhornedgopher](https://metrics.torproject.org/rs.html#details/6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3)   | 2019-01-05   | Yes         |                    40 |
-| [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                    40 |
-| [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                    40 |
-| [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                    40 |
+| [niftytelicomys](https://metrics.torproject.org/rs.html#details/D27208881BBDB5EA56EFD1D1799187519591E325)      | 2019-01-05   | Yes         |                    43 |
+| [niftyleithia](https://metrics.torproject.org/rs.html#details/F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663)        | 2019-01-05   | Yes         |                    43 |
+| [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                    43 |
+| [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                    43 |
+| [niftycastoroides](https://metrics.torproject.org/rs.html#details/9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA)    | 2019-01-05   | Yes         |                    43 |
+| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                    43 |
+| [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                    43 |
+| [niftyhornedgopher](https://metrics.torproject.org/rs.html#details/6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3)   | 2019-01-05   | Yes         |                    43 |
 | [niftyhedgehog](https://metrics.torproject.org/rs.html#details/1084200B44021D308EA4253F256794671B1D099A)       | 2016-08-23   | No          |                    43 |
 | [niftywoodmouse](https://metrics.torproject.org/rs.html#details/14877C6384A9E793F422C8D1DDA447CACA4F7C4B)      | 2016-09-18   | No          |                    43 |
 | [niftymouse](https://metrics.torproject.org/rs.html#details/24E91955D969AEA1D80413C64FE106FAE7FD2EA9)          | 2016-07-27   | No          |                    43 |
@@ -52,13 +53,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftychipmunk](https://metrics.torproject.org/rs.html#details/609E598FB6A00BCF7872906B602B705B64541C50)       | 2016-08-28   | No          |                    43 |
 | [niftytucotuco](https://metrics.torproject.org/rs.html#details/619349D82424C601CAEB94161A4CF778993DAEE7)       | 2016-10-20   | No          |                    43 |
 | [niftyhare](https://metrics.torproject.org/rs.html#details/6781471814DF164C2A6F17CD1F2584923FDE2101)           | 2018-02-03   | No          |                    43 |
-| [niftyhutia](https://metrics.torproject.org/rs.html#details/6CADB707B2E0170B5F13557E42DB7E5C151CC0BC)          | 2018-09-13   | No          |                    35 |
+| [niftyhutia](https://metrics.torproject.org/rs.html#details/6CADB707B2E0170B5F13557E42DB7E5C151CC0BC)          | 2018-09-13   | No          |                    43 |
 | [niftybeaver](https://metrics.torproject.org/rs.html#details/6E94866ED8CA098BACDFD36D4E8E2B459B8A734E)         | 2016-11-23   | No          |                    43 |
 | [niftycottontail](https://metrics.torproject.org/rs.html#details/71AB4726D830FAE776D74AEF790CF04D8E0151B4)     | 2016-02-05   | No          |                    43 |
-| [niftyDNS2](https://metrics.torproject.org/rs.html#details/72048FB55DA1A40EA0D299769304444A64594358)           | 2018-12-16   | No          |                    34 |
+| [niftyDNS2](https://metrics.torproject.org/rs.html#details/72048FB55DA1A40EA0D299769304444A64594358)           | 2018-12-16   | No          |                     1 |
 | [niftyllipika](https://metrics.torproject.org/rs.html#details/7DC52AE6667A30536BA2383CD102CFC24F20AD71)        | 2016-12-02   | No          |                    43 |
 | [niftyporcupine](https://metrics.torproject.org/rs.html#details/7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3)      | 2016-11-25   | No          |                    43 |
-| [froggieshampoo](https://metrics.torproject.org/rs.html#details/88AE3BC088396F1D3FCC4F2F588C0DC837599D20)      | 2018-12-16   | No          |                    34 |
+| [froggieshampoo](https://metrics.torproject.org/rs.html#details/88AE3BC088396F1D3FCC4F2F588C0DC837599D20)      | 2018-12-16   | No          |                    43 |
 | [niftyjerboa](https://metrics.torproject.org/rs.html#details/8EE0534532EA31AA5172B1892F53B2F25C76EB02)         | 2016-08-30   | No          |                    43 |
 | [niftyquokka](https://metrics.torproject.org/rs.html#details/906DCB390F2BA987AE258D745E60BAAABAD31DE8)         | 2016-08-03   | No          |                    43 |
 | [niftypedetes](https://metrics.torproject.org/rs.html#details/92A6085EABAADD928B6F8E871540A1A41CBC08BA)        | 2016-08-24   | No          |                    43 |
@@ -95,13 +96,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [FYNNSH](https://metrics.torproject.org/rs.html#details/44659DA7B01240CF1CF305234F3C10EE81214BDA)     | 2019-01-01   | Yes         |                     1 |
 | [FYNNSHexit](https://metrics.torproject.org/rs.html#details/3F28BB28B99A399FCFA3D81D4F45156CBA2AFA55) | 2019-01-07   | No          |                     1 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
-| [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
@@ -113,4 +113,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0677DF0B05ECDA2EF45F26C3332731043BB89AB8,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,44659DA7B01240CF1CF305234F3C10EE81214BDA,6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,9879492B344126F899254E0F618F43D2B51F7505,9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA,A016192D0A87FC9354A7523A211BBD9CF859708B,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,BEC9609EB7AC566512F0FC1AF8040FC1189AA14A,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663
+0677DF0B05ECDA2EF45F26C3332731043BB89AB8,21EB9AC554EA44FA6AB564B4D1CC9E445D88FECA,44659DA7B01240CF1CF305234F3C10EE81214BDA,6C64AE6D7EFDA52A463FB6ADCDAE2D2DDE0677C3,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,9879492B344126F899254E0F618F43D2B51F7505,9EEDBAD7EE351996DFC91578E882BEF4FE5EDBFA,A016192D0A87FC9354A7523A211BBD9CF859708B,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,BEC9609EB7AC566512F0FC1AF8040FC1189AA14A,D27208881BBDB5EA56EFD1D1799187519591E325,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,F8E9C0C3A4B61E7599AA7A23D7ADE77E5BAB2663
