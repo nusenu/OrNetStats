@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-02-14 16:00 UTC**
+Tor network data as of: **2019-02-15 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -59,18 +59,18 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [AccessNow](https://metrics.torproject.org/rs.html#details/64299E6F2CF4E9F6CDDC72B999E89E6BE4FD4EC0)    | 2018-01-10   | Yes         |                     1 |
-| [AccessNow007](https://metrics.torproject.org/rs.html#details/0516085D6CAC40ED4CDCEFDFC5CCF6B00DE61DED) | 2017-12-08   | No          |                    11 |
-| [AccessNow003](https://metrics.torproject.org/rs.html#details/2DFDEA5DD415B95594BFB12D59FE841167F94B5F) | 2017-12-08   | No          |                    11 |
-| [toritico01](https://metrics.torproject.org/rs.html#details/3A4D13F52A4C9A13AD60D94615D4C0B2F5F69E3C)   | 2019-02-13   | No          |                     1 |
-| [AccessNow001](https://metrics.torproject.org/rs.html#details/3C5915348D731505C48112F4F03235FDE7B8C837) | 2017-12-08   | No          |                    11 |
-| [AccessNow000](https://metrics.torproject.org/rs.html#details/4273E6D162ED2717A1CF4207A254004CD3F5307B) | 2017-12-05   | No          |                    11 |
-| [AccessNow010](https://metrics.torproject.org/rs.html#details/46F90EF3A3628C134DBB4654D0E4FF7EB914B690) | 2017-12-08   | No          |                    11 |
-| [AccessNow002](https://metrics.torproject.org/rs.html#details/6290A2D08E5EB89C809223C5C7BF52597690751D) | 2017-12-08   | No          |                    11 |
-| [AccessNow006](https://metrics.torproject.org/rs.html#details/65E6EB676633328ADE3BD3168A59134CDDD21E19) | 2017-12-08   | No          |                    11 |
-| [AccessNow008](https://metrics.torproject.org/rs.html#details/7E006A46A222CE42F84B4A175698B3B593A7B3B7) | 2017-12-08   | No          |                    11 |
-| [AccessNow009](https://metrics.torproject.org/rs.html#details/8D093C9C2B42BC224A5319A660A6CF5EDEFE839F) | 2017-12-08   | No          |                    11 |
-| [AccessNow005](https://metrics.torproject.org/rs.html#details/B0DD527BE01842D46030265FBD9928217A709F28) | 2017-12-08   | No          |                    11 |
-| [AccessNow004](https://metrics.torproject.org/rs.html#details/D255268BACBB4562554CF20147731BDA0D8C452B) | 2017-12-08   | No          |                    11 |
+| [AccessNow007](https://metrics.torproject.org/rs.html#details/0516085D6CAC40ED4CDCEFDFC5CCF6B00DE61DED) | 2017-12-08   | No          |                    12 |
+| [AccessNow003](https://metrics.torproject.org/rs.html#details/2DFDEA5DD415B95594BFB12D59FE841167F94B5F) | 2017-12-08   | No          |                    12 |
+| [toritico01](https://metrics.torproject.org/rs.html#details/3A4D13F52A4C9A13AD60D94615D4C0B2F5F69E3C)   | 2019-02-13   | No          |                    12 |
+| [AccessNow001](https://metrics.torproject.org/rs.html#details/3C5915348D731505C48112F4F03235FDE7B8C837) | 2017-12-08   | No          |                    12 |
+| [AccessNow000](https://metrics.torproject.org/rs.html#details/4273E6D162ED2717A1CF4207A254004CD3F5307B) | 2017-12-05   | No          |                    12 |
+| [AccessNow010](https://metrics.torproject.org/rs.html#details/46F90EF3A3628C134DBB4654D0E4FF7EB914B690) | 2017-12-08   | No          |                    12 |
+| [AccessNow002](https://metrics.torproject.org/rs.html#details/6290A2D08E5EB89C809223C5C7BF52597690751D) | 2017-12-08   | No          |                    12 |
+| [AccessNow006](https://metrics.torproject.org/rs.html#details/65E6EB676633328ADE3BD3168A59134CDDD21E19) | 2017-12-08   | No          |                    12 |
+| [AccessNow008](https://metrics.torproject.org/rs.html#details/7E006A46A222CE42F84B4A175698B3B593A7B3B7) | 2017-12-08   | No          |                    12 |
+| [AccessNow009](https://metrics.torproject.org/rs.html#details/8D093C9C2B42BC224A5319A660A6CF5EDEFE839F) | 2017-12-08   | No          |                    12 |
+| [AccessNow005](https://metrics.torproject.org/rs.html#details/B0DD527BE01842D46030265FBD9928217A709F28) | 2017-12-08   | No          |                    12 |
+| [AccessNow004](https://metrics.torproject.org/rs.html#details/D255268BACBB4562554CF20147731BDA0D8C452B) | 2017-12-08   | No          |                    12 |
 
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
