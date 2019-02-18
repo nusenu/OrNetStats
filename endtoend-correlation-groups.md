@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-02-17 07:00 UTC**
+Tor network data as of: **2019-02-18 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -59,6 +59,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [AccessNow005](https://metrics.torproject.org/rs.html#details/B0DD527BE01842D46030265FBD9928217A709F28) | 2017-12-08   | No          |                    12 |
 | [AccessNow004](https://metrics.torproject.org/rs.html#details/D255268BACBB4562554CF20147731BDA0D8C452B) | 2017-12-08   | No          |                    12 |
 
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
+
+| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     1 |
+| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+
 ## ContactInfo: Jelle Jansen &lt;tormail@gigawebs.net&gt; (3) {#jelle-jansen-tormailgigawebsnet}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -66,13 +73,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [TVISION02](https://metrics.torproject.org/rs.html#details/52E018563FA31D13D6776E0897AF68AA3E21EA08) | 2019-01-09   | Yes         |                     2 |
 | [TVISION04](https://metrics.torproject.org/rs.html#details/2E254E254A1FC66D6AD968E567B22F378C063026) | 2017-10-24   | Yes         |                     5 |
 | [TVISION01](https://metrics.torproject.org/rs.html#details/8DAF2CAF4BFB0DD56B51955A17599A9FB0E933D3) | 2017-08-06   | No          |                     3 |
-
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     1 |
-| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
