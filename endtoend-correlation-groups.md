@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-02-27 18:00 UTC**
+Tor network data as of: **2019-02-28 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -40,6 +40,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)      | 2018-11-24   | No          |                     1 |
 
+## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
+
+| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     1 |
+| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
+
 ## ContactInfo: Accessnow.org &lt;abuse .AT. accessnow .DOT. org&gt; (13) {#accessnoworg-abuse-at-accessnow-dot-org}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
@@ -57,13 +64,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [AccessNow009](https://metrics.torproject.org/rs.html#details/8D093C9C2B42BC224A5319A660A6CF5EDEFE839F) | 2017-12-08   | No          |                    12 |
 | [AccessNow005](https://metrics.torproject.org/rs.html#details/B0DD527BE01842D46030265FBD9928217A709F28) | 2017-12-08   | No          |                    12 |
 | [AccessNow004](https://metrics.torproject.org/rs.html#details/D255268BACBB4562554CF20147731BDA0D8C452B) | 2017-12-08   | No          |                    12 |
-
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     1 |
-| [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
