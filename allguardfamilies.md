@@ -5,7 +5,7 @@ layout: default
 
 # All Guard Families
 
-Tor network data as of: **2019-03-02 08:00 UTC**
+Tor network data as of: **2019-03-02 09:00 UTC**
 
 Relays are grouped based on effective MyFamily entries, if your relays are split across multiple lines you
 should look into your MyFamily configuration.
@@ -50,14 +50,14 @@ should look into your MyFamily configuration.
 |   35 | [50B7F456](https://metrics.torproject.org/rs.html#details/50B7F45654D71527E16527CC3DEF87500188FF8D)                                                       |       0.26 |         1 | 2018-12-11   |
 |   36 | [me@jordan.im](https://metrics.torproject.org/rs.html#search/family:080B77CB18E560B7F22FF39B5CEDCE9BE17B1F50)                                             |       0.26 |         2 | 2018-03-01   |
 |   37 | [poiuty@protonmail.com - 32vMyXLQkWdCPBiJT5GTXxNgqY](https://metrics.torproject.org/rs.html#details/F6740DEABFD5F62612FA025A5079EA72846B1F67)             |       0.25 |         1 | 2016-01-26   |
-|   38 | [torrelay@brave.com](https://metrics.torproject.org/rs.html#search/family:6E8E5CA9B6F567416ADA21E990E7746BC223B0C0)                                       |       0.24 |         6 | 2018-03-01   |
-|   39 | [32BA1BB3](https://metrics.torproject.org/rs.html#details/32BA1BB34F3D6277DA0810BCB7F0D67608DE946C)                                                       |       0.23 |         1 | 2018-12-18   |
-|   40 | [Random Person &lt;root AT nldo dot nl&gt;](https://metrics.torproject.org/rs.html#details/4B351545DD58473F36B0A20E5500AC6ED51E8CD5)                      |       0.23 |         1 | 2018-02-11   |
-|   41 | [sparky2749@gmail.com](https://metrics.torproject.org/rs.html#details/500FE4D6B529855A2F95A0CB34F2A10D5889E8C1)                                           |       0.23 |         1 | 2015-12-06   |
-|   42 | [atomcats dot tor dot relay at gmail dot com tor-re](https://metrics.torproject.org/rs.html#details/9AB93B5422149E5DFF4BE6A3814E2F6D9648DB6A)             |       0.23 |         1 | 2018-11-02   |
-|   43 | [Ike &lt;tor AT tagos dot us&gt;](https://metrics.torproject.org/rs.html#details/9AF8B24D173DE688018A6BDD424FBE90676CCCC6)                                |       0.23 |         1 | 2018-03-01   |
-|   44 | [63540827](https://metrics.torproject.org/rs.html#search/family:63540827C4832D214984EA47B7A68C593F9F862F)                                                 |       0.23 |         2 | 2018-12-12   |
-|   45 | [tor a rofl.cat - 17bD7EWsSXrqrqk2ibbprPxhegMqecsaC](https://metrics.torproject.org/rs.html#search/family:15BE17C99FACE24470D40AF782D6A9C692AB36D6)       |       0.23 |         6 | 2017-08-24   |
+|   38 | [tor a rofl.cat - 17bD7EWsSXrqrqk2ibbprPxhegMqecsaC](https://metrics.torproject.org/rs.html#search/family:15BE17C99FACE24470D40AF782D6A9C692AB36D6)       |       0.24 |         6 | 2017-08-24   |
+|   39 | [torrelay@brave.com](https://metrics.torproject.org/rs.html#search/family:6E8E5CA9B6F567416ADA21E990E7746BC223B0C0)                                       |       0.24 |         6 | 2018-03-01   |
+|   40 | [32BA1BB3](https://metrics.torproject.org/rs.html#details/32BA1BB34F3D6277DA0810BCB7F0D67608DE946C)                                                       |       0.23 |         1 | 2018-12-18   |
+|   41 | [Random Person &lt;root AT nldo dot nl&gt;](https://metrics.torproject.org/rs.html#details/4B351545DD58473F36B0A20E5500AC6ED51E8CD5)                      |       0.23 |         1 | 2018-02-11   |
+|   42 | [sparky2749@gmail.com](https://metrics.torproject.org/rs.html#details/500FE4D6B529855A2F95A0CB34F2A10D5889E8C1)                                           |       0.23 |         1 | 2015-12-06   |
+|   43 | [atomcats dot tor dot relay at gmail dot com tor-re](https://metrics.torproject.org/rs.html#details/9AB93B5422149E5DFF4BE6A3814E2F6D9648DB6A)             |       0.23 |         1 | 2018-11-02   |
+|   44 | [Ike &lt;tor AT tagos dot us&gt;](https://metrics.torproject.org/rs.html#details/9AF8B24D173DE688018A6BDD424FBE90676CCCC6)                                |       0.23 |         1 | 2018-03-01   |
+|   45 | [63540827](https://metrics.torproject.org/rs.html#search/family:63540827C4832D214984EA47B7A68C593F9F862F)                                                 |       0.23 |         2 | 2018-12-12   |
 |   46 | [13B2354C](https://metrics.torproject.org/rs.html#details/13B2354C74CCE29815B4E1F692F2F0E86C7F13DD)                                                       |       0.22 |         1 | 2016-08-24   |
 |   47 | [6FF440DF](https://metrics.torproject.org/rs.html#details/6FF440DFB1D0697B942357D747900CC308DD57CC)                                                       |       0.22 |         1 | 2017-10-27   |
 |   48 | [70CD43F7](https://metrics.torproject.org/rs.html#details/70CD43F7F15BCAC37DCB13E220DB12504A647A78)                                                       |       0.22 |         1 | 2018-12-18   |
@@ -155,28 +155,28 @@ should look into your MyFamily configuration.
 |  140 | [Neel Chauhan &lt;neel AT neelc DOT org&gt; BTC: 1KogNv](https://metrics.torproject.org/rs.html#search/family:5530B44248CB7DFB09B0F8EDEBF8A571F6C754AD)   |       0.14 |         4 | 2016-09-05   |
 |  141 | [EE88A2D0](https://metrics.torproject.org/rs.html#details/EE88A2D07CEE982AE0F2B82F7599D857262A880C)                                                       |       0.14 |         1 | 2018-12-19   |
 |  142 | [Henrik Kramshoej &lt;hlk AT zencurity dot dk&gt; - 13ELG](https://metrics.torproject.org/rs.html#details/F94A7BAC5D1E3D9372437141E10695A625B8B533)       |       0.14 |         1 | 2016-07-25   |
-|  143 | [FBB3686D](https://metrics.torproject.org/rs.html#details/FBB3686DDDCB31831263E3E5B7EC48ED259FC99A)                                                       |       0.14 |         1 | 2018-12-13   |
-|  144 | [13A88387](https://metrics.torproject.org/rs.html#details/13A883871EF7BA0CB7C913534C5EC360D6DF1BF7)                                                       |       0.13 |         1 | 2018-12-17   |
-|  145 | [1438C5E6](https://metrics.torproject.org/rs.html#details/1438C5E6E4B2F5714267B04F880B57C86BF25FA6)                                                       |       0.13 |         1 | 2018-12-13   |
-|  146 | [1CB6DB69](https://metrics.torproject.org/rs.html#details/1CB6DB698C49965D3C75A09B8D9EBFDD0E3B5603)                                                       |       0.13 |         1 | 2018-11-28   |
-|  147 | [Boldi &lt;boldi@mail2014.etl.hu&gt;](https://metrics.torproject.org/rs.html#details/321A16525B3BA9F2FB90FD265C5CF475744CEB10)                            |       0.13 |         1 | 2015-04-05   |
-|  148 | [3BF3F004](https://metrics.torproject.org/rs.html#details/3BF3F0040DAF6E64B61B44568AF8EDE460F57E02)                                                       |       0.13 |         1 | 2017-05-10   |
-|  149 | [freeasinbeer@techie.com](https://metrics.torproject.org/rs.html#details/3CE90527D5712296B58E7EB7CD57F7D388D25FBB)                                        |       0.13 |         1 | 2015-10-29   |
-|  150 | [you're assumin' imma human](https://metrics.torproject.org/rs.html#details/4E98AA295B7171996D18DD1F6A19F64AB4036B4A)                                     |       0.13 |         1 | 2018-12-31   |
-|  151 | [Random Person &lt;inode AT wayreth dot eu dot org&gt;](https://metrics.torproject.org/rs.html#details/61B8BDC91AA7BC9A05EB5A3D652FFF88C98E6911)          |       0.13 |         1 | 2016-10-09   |
-|  152 | [63B32F7E](https://metrics.torproject.org/rs.html#details/63B32F7E5389E8DBC5E1BCEFE48312DA7CCEF5D6)                                                       |       0.13 |         1 | 2018-01-08   |
-|  153 | [rememberremember at gmx dot com](https://metrics.torproject.org/rs.html#details/74B8B22AF950B0BE11D8A228FB09D2F5279FB757)                                |       0.13 |         1 | 2016-09-27   |
-|  154 | [flowjob at protonmail dot ch](https://metrics.torproject.org/rs.html#details/78CB6B74810E8F73D9AEE1B7E860904229369C73)                                   |       0.13 |         1 | 2019-01-22   |
-|  155 | [Logforme &lt;m7527 AT abc dot se&gt;](https://metrics.torproject.org/rs.html#details/855BC2DABE24C861CD887DB9B2E950424B49FC34)                           |       0.13 |         1 | 2014-04-08   |
-|  156 | [Vasil Kolev &lt;tor@ludost.net&gt;](https://metrics.torproject.org/rs.html#details/9E4CC64C4F94C359D43C5BA09094323FDBEFD975)                             |       0.13 |         1 | 2016-03-14   |
-|  157 | [0CDCFB0B](https://metrics.torproject.org/rs.html#search/family:0CDCFB0B6E1500E57BDD7F240543EBAEF81C11CA)                                                 |       0.13 |         2 | 2015-04-12   |
-|  158 | [Markus &lt;markus AT mdfnet dot se&gt;](https://metrics.torproject.org/rs.html#search/family:12AD30E5D25AA67F519780E2111E611A455FDC89)                   |       0.13 |         3 | 2014-06-16   |
-|  159 | [BB801013](https://metrics.torproject.org/rs.html#details/BB801013CABC71687D7D73C710C63918BD5C87D6)                                                       |       0.13 |         1 | 2018-01-15   |
-|  160 | [C1B8C688](https://metrics.torproject.org/rs.html#details/C1B8C6887867CED2564454058F9082311FAF1AC7)                                                       |       0.13 |         1 | 2017-10-27   |
-|  161 | [D0273C85](https://metrics.torproject.org/rs.html#details/D0273C8566CC9AECE4C762376C9B066FE0F1DADD)                                                       |       0.13 |         1 | 2017-11-23   |
-|  162 | [1Q5fZnsG5BSizXmJbrq8FsACnd6kSTBju7](https://metrics.torproject.org/rs.html#details/DA8D76F5F5819693B5C96F499BA19F7404014769)                             |       0.13 |         1 | 2017-04-22   |
-|  163 | [58FC2AAB](https://metrics.torproject.org/rs.html#search/family:58FC2AAB3792AC37897D34331F4F4E00341DEC0C)                                                 |       0.13 |         5 | 2018-02-04   |
-|  164 | [EEDF0AF1](https://metrics.torproject.org/rs.html#details/EEDF0AF1F892C82F056063827B47283CC9AEAA41)                                                       |       0.13 |         1 | 2019-01-01   |
+|  143 | [13A88387](https://metrics.torproject.org/rs.html#details/13A883871EF7BA0CB7C913534C5EC360D6DF1BF7)                                                       |       0.13 |         1 | 2018-12-17   |
+|  144 | [1438C5E6](https://metrics.torproject.org/rs.html#details/1438C5E6E4B2F5714267B04F880B57C86BF25FA6)                                                       |       0.13 |         1 | 2018-12-13   |
+|  145 | [1CB6DB69](https://metrics.torproject.org/rs.html#details/1CB6DB698C49965D3C75A09B8D9EBFDD0E3B5603)                                                       |       0.13 |         1 | 2018-11-28   |
+|  146 | [Boldi &lt;boldi@mail2014.etl.hu&gt;](https://metrics.torproject.org/rs.html#details/321A16525B3BA9F2FB90FD265C5CF475744CEB10)                            |       0.13 |         1 | 2015-04-05   |
+|  147 | [3BF3F004](https://metrics.torproject.org/rs.html#details/3BF3F0040DAF6E64B61B44568AF8EDE460F57E02)                                                       |       0.13 |         1 | 2017-05-10   |
+|  148 | [freeasinbeer@techie.com](https://metrics.torproject.org/rs.html#details/3CE90527D5712296B58E7EB7CD57F7D388D25FBB)                                        |       0.13 |         1 | 2015-10-29   |
+|  149 | [you're assumin' imma human](https://metrics.torproject.org/rs.html#details/4E98AA295B7171996D18DD1F6A19F64AB4036B4A)                                     |       0.13 |         1 | 2018-12-31   |
+|  150 | [Random Person &lt;inode AT wayreth dot eu dot org&gt;](https://metrics.torproject.org/rs.html#details/61B8BDC91AA7BC9A05EB5A3D652FFF88C98E6911)          |       0.13 |         1 | 2016-10-09   |
+|  151 | [63B32F7E](https://metrics.torproject.org/rs.html#details/63B32F7E5389E8DBC5E1BCEFE48312DA7CCEF5D6)                                                       |       0.13 |         1 | 2018-01-08   |
+|  152 | [rememberremember at gmx dot com](https://metrics.torproject.org/rs.html#details/74B8B22AF950B0BE11D8A228FB09D2F5279FB757)                                |       0.13 |         1 | 2016-09-27   |
+|  153 | [flowjob at protonmail dot ch](https://metrics.torproject.org/rs.html#details/78CB6B74810E8F73D9AEE1B7E860904229369C73)                                   |       0.13 |         1 | 2019-01-22   |
+|  154 | [Logforme &lt;m7527 AT abc dot se&gt;](https://metrics.torproject.org/rs.html#details/855BC2DABE24C861CD887DB9B2E950424B49FC34)                           |       0.13 |         1 | 2014-04-08   |
+|  155 | [Vasil Kolev &lt;tor@ludost.net&gt;](https://metrics.torproject.org/rs.html#details/9E4CC64C4F94C359D43C5BA09094323FDBEFD975)                             |       0.13 |         1 | 2016-03-14   |
+|  156 | [0CDCFB0B](https://metrics.torproject.org/rs.html#search/family:0CDCFB0B6E1500E57BDD7F240543EBAEF81C11CA)                                                 |       0.13 |         2 | 2015-04-12   |
+|  157 | [Markus &lt;markus AT mdfnet dot se&gt;](https://metrics.torproject.org/rs.html#search/family:12AD30E5D25AA67F519780E2111E611A455FDC89)                   |       0.13 |         3 | 2014-06-16   |
+|  158 | [BB801013](https://metrics.torproject.org/rs.html#details/BB801013CABC71687D7D73C710C63918BD5C87D6)                                                       |       0.13 |         1 | 2018-01-15   |
+|  159 | [C1B8C688](https://metrics.torproject.org/rs.html#details/C1B8C6887867CED2564454058F9082311FAF1AC7)                                                       |       0.13 |         1 | 2017-10-27   |
+|  160 | [D0273C85](https://metrics.torproject.org/rs.html#details/D0273C8566CC9AECE4C762376C9B066FE0F1DADD)                                                       |       0.13 |         1 | 2017-11-23   |
+|  161 | [1Q5fZnsG5BSizXmJbrq8FsACnd6kSTBju7](https://metrics.torproject.org/rs.html#details/DA8D76F5F5819693B5C96F499BA19F7404014769)                             |       0.13 |         1 | 2017-04-22   |
+|  162 | [58FC2AAB](https://metrics.torproject.org/rs.html#search/family:58FC2AAB3792AC37897D34331F4F4E00341DEC0C)                                                 |       0.13 |         5 | 2018-02-04   |
+|  163 | [EEDF0AF1](https://metrics.torproject.org/rs.html#details/EEDF0AF1F892C82F056063827B47283CC9AEAA41)                                                       |       0.13 |         1 | 2019-01-01   |
+|  164 | [FBB3686D](https://metrics.torproject.org/rs.html#details/FBB3686DDDCB31831263E3E5B7EC48ED259FC99A)                                                       |       0.13 |         1 | 2018-12-13   |
 |  165 | [cubox at irc.freenode.org](https://metrics.torproject.org/rs.html#details/09A1AE88A78746AA9EC1BD5953E84F61CB763BCA)                                      |       0.12 |         1 | 2017-12-02   |
 |  166 | [freeasinbeer@techie.com](https://metrics.torproject.org/rs.html#details/169535CC4C75FF79C6D548D41720064EE4FE61D2)                                        |       0.12 |         1 | 2016-07-14   |
 |  167 | [2269C990](https://metrics.torproject.org/rs.html#details/2269C9905B04530E251186FAD6F56033654E5C99)                                                       |       0.12 |         1 | 2019-02-03   |

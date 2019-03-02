@@ -5,19 +5,19 @@ layout: default
 
 # Detailed List of Tor Version Shares
 
-Tor network data as of: **2019-03-02 08:00 UTC**
+Tor network data as of: **2019-03-02 09:00 UTC**
 
 | Tor Version                                                                                               |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays |
 |:----------------------------------------------------------------------------------------------------------|-----------------:|----------:|-----------:|----------:|
-| [0.3.5.7](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.7)                     |             21.6 |     24.47 |      20.4  |      1254 |
-| [0.3.4.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.9)                     |             20.6 |     15.51 |      23.8  |       906 |
+| [0.3.5.7](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.7)                     |             21.6 |     24.46 |      20.39 |      1254 |
+| [0.3.4.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.9)                     |             20.6 |     15.53 |      23.81 |       906 |
 | [0.3.5.8](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.8)                     |             19.8 |     23.26 |      18.29 |      1176 |
 | [0.2.9.16](https://metrics.torproject.org/rs.html#search/running:true version:0.2.9.16)                   |              6.5 |      2.63 |       7.62 |       677 |
-| [0.3.3.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.3.9)                     |              5.6 |     16.22 |       1.89 |       234 |
+| [0.3.3.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.3.9)                     |              5.6 |     16.21 |       1.89 |       234 |
 | [0.4.0.2-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.0.2-alpha)         |              3.6 |      6.5  |       3.14 |        74 |
-| [0.3.4.8](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.8)                     |              3.1 |      1.47 |       4.19 |       157 |
+| [0.3.4.8](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.8)                     |              3.1 |      1.47 |       4.19 |       156 |
 | [0.3.2.10](https://metrics.torproject.org/rs.html#search/running:true version:0.3.2.10)                   |              2.9 |      1.71 |       3.61 |       227 |
-| [0.3.4.10](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.10)                   |              2.2 |      0.42 |       2.59 |       373 |
+| [0.3.4.10](https://metrics.torproject.org/rs.html#search/running:true version:0.3.4.10)                   |              2.2 |      0.42 |       2.59 |       377 |
 | [0.4.0.1-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.0.1-alpha)         |              1.9 |      2.27 |       1.98 |        77 |
 | [0.2.9.14](https://metrics.torproject.org/rs.html#search/running:true version:0.2.9.14)                   |              1.7 |      1.18 |       1.65 |       178 |
 | [0.3.3.7](https://metrics.torproject.org/rs.html#search/running:true version:0.3.3.7)                     |              1.5 |      0.29 |       2.17 |       117 |
@@ -48,7 +48,7 @@ Tor network data as of: **2019-03-02 08:00 UTC**
 | [0.2.4.20](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.20)                   |              0   |      0    |       0.02 |         9 |
 | [0.2.4.21](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.21)                   |              0   |      0    |       0    |         1 |
 | [0.2.4.22](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.22)                   |              0   |      0    |       0    |         5 |
-| [0.2.4.23](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.23)                   |              0   |      0    |       0    |        49 |
+| [0.2.4.23](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.23)                   |              0   |      0    |       0    |        48 |
 | [0.2.4.24](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.24)                   |              0   |      0    |       0    |         4 |
 | [0.2.4.29](https://metrics.torproject.org/rs.html#search/running:true version:0.2.4.29)                   |              0   |      0.04 |       0    |        48 |
 | [0.2.5.10](https://metrics.torproject.org/rs.html#search/running:true version:0.2.5.10)                   |              0   |      0    |       0    |         8 |

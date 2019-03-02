@@ -5,16 +5,16 @@ layout: default
 
 # All Exit Families
 
-Tor network data as of: **2019-03-02 08:00 UTC**
+Tor network data as of: **2019-03-02 09:00 UTC**
 
 Relays are grouped based on effective MyFamily entries, if your relays are split across multiple lines you
 should look into your MyFamily configuration.
 
 |     | Contact or Fingerprint (truncated)                                                                                                                        |   Exit(%) |   #Relays | First Seen   |
 |----:|:----------------------------------------------------------------------------------------------------------------------------------------------------------|----------:|----------:|:-------------|
-|   0 | [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0B3C8C2B2B1A1CA4429B9649F533BEB4D7470AEA)                            |     15.57 |        46 | 2016-01-25   |
-|   1 | [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:041646640AB306EA74B001966E86169B04CC88D2)    |      6.89 |        23 | 2017-02-23   |
-|   2 | [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE)    |      6.67 |        17 | 2016-12-23   |
+|   0 | [abuse@to-surf-and-protect.net](https://metrics.torproject.org/rs.html#search/family:0B3C8C2B2B1A1CA4429B9649F533BEB4D7470AEA)                            |     15.56 |        46 | 2016-01-25   |
+|   1 | [John L. Ricketts, PhD &lt;john AT quintex dot com&gt;](https://metrics.torproject.org/rs.html#search/family:041646640AB306EA74B001966E86169B04CC88D2)    |      6.88 |        23 | 2017-02-23   |
+|   2 | [https://www.torservers.net/donate.html &lt;support .A](https://metrics.torproject.org/rs.html#search/family:0E5522CB4F79E36C0BB263BABC861CFC686929AE)    |      6.66 |        17 | 2016-12-23   |
 |   3 | [Foundation for Applied Privacy email:tor appliedp](https://metrics.torproject.org/rs.html#search/family:06804E6383EE94E83C9453F39B1E524C272D6D84)        |      6.06 |         9 | 2018-04-05   |
 |   4 | [https://www.digitale-gesellschaft.ch/abuse/](https://metrics.torproject.org/rs.html#search/family:0111BA9B604669E636FFD5B503F382A4B7AD6E80)              |      2.75 |        13 | 2015-05-22   |
 |   5 | [tor@ipredator.se - 1Q3mjKbZwZFEigC8edUZ8ywX4QD7kxF](https://metrics.torproject.org/rs.html#details/BC630CBBB518BE7E9F4E09712AB0269E9DC7D626)             |      2.03 |         1 | 2014-04-19   |
@@ -26,7 +26,7 @@ should look into your MyFamily configuration.
 |  11 | [TNinja &lt;abuse-team at tor dot ninja&gt;](https://metrics.torproject.org/rs.html#search/family:615ABEA2DE76EB3760BC51E7306BAA59F15CD8F2)               |      1.38 |         4 | 2014-10-08   |
 |  12 | [0x02225522 Frenn vun der Enn FVDE &lt;info AT enn D](https://metrics.torproject.org/rs.html#search/family:93FAB6F91C2EF33D0ACEEF7448177FCA2CEB99A0)      |      1.34 |         5 | 2016-01-22   |
 |  13 | [Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w](https://metrics.torproject.org/rs.html#search/family:0011BD2485AD45D984EC4159C88FC066E5E3300E) |      1.22 |        12 | 2013-06-11   |
-|  14 | [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:5C1FAF6B4E344E9C83AFD02B06776944244D9161)                                    |      1.14 |         6 | 2018-05-24   |
+|  14 | [tech@emeraldonion.org](https://metrics.torproject.org/rs.html#search/family:5C1FAF6B4E344E9C83AFD02B06776944244D9161)                                    |      1.13 |         6 | 2018-05-24   |
 |  15 | [&lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq](https://metrics.torproject.org/rs.html#search/family:08F1E380B2811D795A8B024E7FE21008ABFC9462) |      1.12 |        21 | 2016-11-12   |
 |  16 | [Hart voor Internetvrijheid &lt;abuse AT hartvoorinter](https://metrics.torproject.org/rs.html#search/family:0485027A0A349D454D978F6C1CECDD29EA17769A)    |      1.1  |         7 | 2018-04-25   |
 |  17 | [recipe-acl@mit.edu](https://metrics.torproject.org/rs.html#search/family:8370FC4C190D0020FA594D8232DFE34B5B30AF05)                                       |      1.06 |         2 | 2017-04-25   |
@@ -36,8 +36,8 @@ should look into your MyFamily configuration.
 |  21 | [tor-relays@coldhak.ca](https://metrics.torproject.org/rs.html#search/family:547DA56F6B88B6C596B3E3086803CDA4F0EF8F21)                                    |      0.94 |         6 | 2016-04-02   |
 |  22 | [DFRI &lt;tor AT dfri dot se&gt; - 1Muz37TfXVBiJKRJkAqTNo](https://metrics.torproject.org/rs.html#search/family:185663B7C12777F052B2C2D23D7A239D8DA88A0F) |      0.87 |         5 | 2011-10-06   |
 |  23 | [tor-relay-admin robgjansen com](https://metrics.torproject.org/rs.html#search/family:0DA9BD201766EDB19F57F49F1A013A8A5432C008)                           |      0.73 |         3 | 2015-12-11   |
-|  24 | [ThorZero &lt;thorzero AT gmail dot com&gt;](https://metrics.torproject.org/rs.html#details/C08DC4FE80CB36442F3A0E65DE3EB24185F752E1)                     |      0.71 |         1 | 2018-03-09   |
-|  25 | [email:hello brasshorncomms.uk hoster:brasshorncom](https://metrics.torproject.org/rs.html#search/family:3EBDF84DE3B16F0EBF7D51450F07913A02EFDA6C)        |      0.71 |         5 | 2015-03-01   |
+|  24 | [email:hello brasshorncomms.uk hoster:brasshorncom](https://metrics.torproject.org/rs.html#search/family:3EBDF84DE3B16F0EBF7D51450F07913A02EFDA6C)        |      0.72 |         5 | 2015-03-01   |
+|  25 | [ThorZero &lt;thorzero AT gmail dot com&gt;](https://metrics.torproject.org/rs.html#details/C08DC4FE80CB36442F3A0E65DE3EB24185F752E1)                     |      0.71 |         1 | 2018-03-09   |
 |  26 | [Tor Manager &lt;tor@ibiblio.org&gt;](https://metrics.torproject.org/rs.html#search/family:7C0AA4E3B73E407E9F5FEB1912F8BE26D8AA124D)                      |      0.69 |         2 | 2014-04-08   |
 |  27 | [18CFB7BA](https://metrics.torproject.org/rs.html#details/18CFB7BA07F13AEABF50A7148786DA68773B2498)                                                       |      0.66 |         1 | 2018-12-15   |
 |  28 | [Kenan Sulayman &lt;kenan@sly.mn&gt;](https://metrics.torproject.org/rs.html#search/family:38A42B8D7C0E6346F4A4821617740AEE86EA885B)                      |      0.63 |         3 | 2014-11-04   |
@@ -551,9 +551,8 @@ should look into your MyFamily configuration.
 | 536 | [not at yet dot ok](https://metrics.torproject.org/rs.html#details/F44061A8E49EB4B9A0376F2DDE8A1CE0522DDA4D)                                              |      0    |         1 | 2018-12-26   |
 | 537 | [Bert Bos &lt;bert@phonk.net&gt;](https://metrics.torproject.org/rs.html#details/F63DF6AA4F395AD2F5F363333D104279F2171381)                                |      0    |         1 | 2012-02-21   |
 | 538 | [9201572275498712 at gmail dot com tor-relay.co](https://metrics.torproject.org/rs.html#details/F6957353312FA857E5EDE45AD5CCCE4DFBFA133A)                 |      0    |         1 | 2019-01-01   |
-| 539 | [F863AE96](https://metrics.torproject.org/rs.html#details/F863AE9643DB85EDFBF0FC6C833EBA2BF84EA086)                                                       |      0    |         1 | 2018-01-08   |
-| 540 | [2782236560881368 at gmail dot com tor-relay.co](https://metrics.torproject.org/rs.html#details/F9135A6B9E1A122DD9BDF0EC043571CFD3F6048F)                 |      0    |         1 | 2018-08-30   |
-| 541 | [F983D237](https://metrics.torproject.org/rs.html#details/F983D2379B10E6D5325EE56306E5922D2FB982C9)                                                       |      0    |         1 | 2018-02-22   |
-| 542 | [FA2C5687](https://metrics.torproject.org/rs.html#details/FA2C5687EC434A31012B732C8C8F817E8C65E28B)                                                       |      0    |         1 | 2017-12-13   |
-| 543 | [abuse@redbarnnetworks.com](https://metrics.torproject.org/rs.html#details/FF33F91CC06B6CC5C3EE804E7D8DBE42CB5707F9)                                      |      0    |         1 | 2017-10-15   |
-| 544 | [FF80EB76](https://metrics.torproject.org/rs.html#details/FF80EB7648E54819F37522C4FC1F1AE9E760C0A8)                                                       |      0    |         1 | 2018-03-17   |
+| 539 | [2782236560881368 at gmail dot com tor-relay.co](https://metrics.torproject.org/rs.html#details/F9135A6B9E1A122DD9BDF0EC043571CFD3F6048F)                 |      0    |         1 | 2018-08-30   |
+| 540 | [F983D237](https://metrics.torproject.org/rs.html#details/F983D2379B10E6D5325EE56306E5922D2FB982C9)                                                       |      0    |         1 | 2018-02-22   |
+| 541 | [FA2C5687](https://metrics.torproject.org/rs.html#details/FA2C5687EC434A31012B732C8C8F817E8C65E28B)                                                       |      0    |         1 | 2017-12-13   |
+| 542 | [abuse@redbarnnetworks.com](https://metrics.torproject.org/rs.html#details/FF33F91CC06B6CC5C3EE804E7D8DBE42CB5707F9)                                      |      0    |         1 | 2017-10-15   |
+| 543 | [FF80EB76](https://metrics.torproject.org/rs.html#details/FF80EB7648E54819F37522C4FC1F1AE9E760C0A8)                                                       |      0    |         1 | 2018-03-17   |
