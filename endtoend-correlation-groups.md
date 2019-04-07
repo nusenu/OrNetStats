@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-04-06 13:00 UTC**
+Tor network data as of: **2019-04-07 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -48,6 +48,16 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Hansa](https://metrics.torproject.org/rs.html#details/AB5E499D03B4E057B55322F9EF5B9261E122958B)    | 2019-04-03   | No          |                     1 |
 | [Pygros](https://metrics.torproject.org/rs.html#details/C780D611FDF41646A528FE30BA977BFADEEC0AB9)   | 2019-03-27   | No          |                     1 |
 
+## ContactInfo: Cheena &lt;cheena @ cheena . net&gt; (5) {#cheena-cheena--cheena--net}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CheenaTorRelay3](https://metrics.torproject.org/rs.html#details/D5D8C31E1F845B46564B112233EECFB539060915) | 2019-03-29   | Yes         |                     1 |
+| [CheenaTorRelay1](https://metrics.torproject.org/rs.html#details/AC3DAFEDBBA5A78007A5835F4728E2408B094E49) | 2018-10-20   | Yes         |                     7 |
+| [CheenaTorExit1](https://metrics.torproject.org/rs.html#details/01729F10A81DDD8A92D770B2133082EB56C75E26)  | 2018-11-26   | No          |                     7 |
+| [CheenaTorExit2](https://metrics.torproject.org/rs.html#details/50825758CC2DA41DEEF6AE29CB20A803BDCC6F79)  | 2018-12-03   | No          |                     7 |
+| [CheenaTorExit3](https://metrics.torproject.org/rs.html#details/CD871CADA15BD5460AB65BAD1C306AC870A6A427)  | 2019-01-22   | No          |                     7 |
+
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -74,4 +84,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-2E254E254A1FC66D6AD968E567B22F378C063026,52E018563FA31D13D6776E0897AF68AA3E21EA08,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,A078FF9D7B5DB60990A8803186DBCD75D0C8C55C,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+2E254E254A1FC66D6AD968E567B22F378C063026,52E018563FA31D13D6776E0897AF68AA3E21EA08,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,A078FF9D7B5DB60990A8803186DBCD75D0C8C55C,A9A4213EA3D707857368C683F2208C83B8755D8A,AC3DAFEDBBA5A78007A5835F4728E2408B094E49,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,D5D8C31E1F845B46564B112233EECFB539060915,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
