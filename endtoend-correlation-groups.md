@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-04-12 17:00 UTC**
+Tor network data as of: **2019-04-13 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)   | 2018-10-29   | Yes         |                     1 |
-| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)    | 2018-11-08   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
+| [DivisionBy1](https://metrics.torproject.org/rs.html#details/9879492B344126F899254E0F618F43D2B51F7505)    | 2018-11-08   | Yes         |                     1 |
 | [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)       | 2018-10-09   | Yes         |                     1 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)          | 2018-12-23   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
@@ -49,15 +49,16 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: Jelle Jansen &lt;tormail@gigawebs.net&gt; (3) {#jelle-jansen-tormailgigawebsnet}
+## ContactInfo: Jelle Jansen &lt;tormail@gigawebs.net&gt; (4) {#jelle-jansen-tormailgigawebsnet}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [TVISION02](https://metrics.torproject.org/rs.html#details/52E018563FA31D13D6776E0897AF68AA3E21EA08) | 2019-01-09   | Yes         |                     2 |
 | [TVISION04](https://metrics.torproject.org/rs.html#details/2E254E254A1FC66D6AD968E567B22F378C063026) | 2017-10-24   | Yes         |                     5 |
+| [TVISION05](https://metrics.torproject.org/rs.html#details/5E1207FC5BE02728D9D0B540384EB081B53987E6) | 2018-02-11   | Yes         |                     3 |
 | [TVISION01](https://metrics.torproject.org/rs.html#details/8DAF2CAF4BFB0DD56B51955A17599A9FB0E933D3) | 2017-08-06   | No          |                     3 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-2E254E254A1FC66D6AD968E567B22F378C063026,52E018563FA31D13D6776E0897AF68AA3E21EA08,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,9879492B344126F899254E0F618F43D2B51F7505,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+2E254E254A1FC66D6AD968E567B22F378C063026,52E018563FA31D13D6776E0897AF68AA3E21EA08,5E1207FC5BE02728D9D0B540384EB081B53987E6,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,9879492B344126F899254E0F618F43D2B51F7505,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
