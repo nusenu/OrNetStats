@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-04-20 07:00 UTC**
+Tor network data as of: **2019-04-21 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -56,7 +56,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/1939CC1B41298A49C0684878813DED5CD1A9EE98) | 2019-03-29   | No          |                     1 |
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/23F7759EBFA353E10F34A6DD69126FE7F890E408) | 2019-03-31   | No          |                     1 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-159AB7B44C6E46DE48398A2429820A7B136B6B5A,70953563B6AC3EF22E0754B7345757C6FB205989,70FC019D6008F5732D01C18627C9A86BA4D2ED2E,8750A946DD5AB24AE71A40B1BA7672034F24663F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+159AB7B44C6E46DE48398A2429820A7B136B6B5A,70953563B6AC3EF22E0754B7345757C6FB205989,70FC019D6008F5732D01C18627C9A86BA4D2ED2E,8750A946DD5AB24AE71A40B1BA7672034F24663F,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
