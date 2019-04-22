@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-04-21 08:00 UTC**
+Tor network data as of: **2019-04-22 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -48,13 +48,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: tomas.vanagas@knf.vu.lt tor-relay.co (3) {#tomasvanagasknfvult-tor-relayco}
+## ContactInfo: tomas.vanagas@knf.vu.lt tor-relay.co (4) {#tomasvanagasknfvult-tor-relayco}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/159AB7B44C6E46DE48398A2429820A7B136B6B5A) | 2019-04-09   | Yes         |                     1 |
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/1939CC1B41298A49C0684878813DED5CD1A9EE98) | 2019-03-29   | No          |                     1 |
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/23F7759EBFA353E10F34A6DD69126FE7F890E408) | 2019-03-31   | No          |                     1 |
+| [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/56F3E462972E7B6681A557AC1345DEFC8873C1B6) | 2019-04-08   | No          |                     1 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
