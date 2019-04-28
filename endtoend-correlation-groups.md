@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-04-27 06:00 UTC**
+Tor network data as of: **2019-04-28 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -36,8 +36,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)   | 2018-10-29   | Yes         |                     1 |
 | [DimasNiceRelay](https://metrics.torproject.org/rs.html#details/BE5CE67AAC8EC61551173844D874385996F4C439) | 2018-08-15   | Yes         |                     1 |
 | [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)       | 2018-10-09   | Yes         |                     1 |
-| [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)          | 2018-12-23   | Yes         |                     1 |
 | [titanic](https://metrics.torproject.org/rs.html#details/ADB40DD2BD01D18540420789E046706CC92F4CE3)        | 2019-04-15   | Yes         |                     1 |
+| [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)          | 2018-12-23   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)      | 2018-11-24   | No          |                     1 |
 
@@ -53,4 +53,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-159AB7B44C6E46DE48398A2429820A7B136B6B5A,70953563B6AC3EF22E0754B7345757C6FB205989,70FC019D6008F5732D01C18627C9A86BA4D2ED2E,8750A946DD5AB24AE71A40B1BA7672034F24663F,ADB40DD2BD01D18540420789E046706CC92F4CE3,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+159AB7B44C6E46DE48398A2429820A7B136B6B5A,70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,ADB40DD2BD01D18540420789E046706CC92F4CE3,BE5CE67AAC8EC61551173844D874385996F4C439,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
