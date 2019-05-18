@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-05-17 15:00 UTC**
+Tor network data as of: **2019-05-18 13:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -42,13 +42,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)    | 2018-06-20   | No          |                     1 |
 | [SlurmExit](https://metrics.torproject.org/rs.html#details/C0BFC0A0341BD0293F093DEC6966B99038A31B79)      | 2018-11-24   | No          |                     1 |
 
-## ContactInfo: Pygros at protonmail dot com tor-relay.co (2) {#pygrosatprotonmaildotcom-tor-relayco}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Katakolo](https://metrics.torproject.org/rs.html#details/A078FF9D7B5DB60990A8803186DBCD75D0C8C55C)  | 2019-03-27   | Yes         |                     3 |
-| [Nordiques](https://metrics.torproject.org/rs.html#details/CAD3A7091209C800FCA3E5280D9B12BAA18F05AD) | 2019-05-11   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (3) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -56,6 +49,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16) | 2016-08-28   | Yes         |                     2 |
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
+
+## ContactInfo: Pygros at protonmail dot com tor-relay.co (2) {#pygrosatprotonmaildotcom-tor-relayco}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Katakolo](https://metrics.torproject.org/rs.html#details/A078FF9D7B5DB60990A8803186DBCD75D0C8C55C)  | 2019-03-27   | Yes         |                     2 |
+| [Nordiques](https://metrics.torproject.org/rs.html#details/CAD3A7091209C800FCA3E5280D9B12BAA18F05AD) | 2019-05-11   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
