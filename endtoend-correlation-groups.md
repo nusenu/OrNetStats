@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-06-03 15:00 UTC**
+Tor network data as of: **2019-06-05 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -48,14 +48,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
-## ContactInfo: tor-abuse&lt;at&gt;mailbox&lt;dot&gt;org (2) {#tor-abuseatmailboxdotorg}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Nicenstein](https://metrics.torproject.org/rs.html#details/D900FF6CB8119A8A3DAA610EF404DC89A8FD3921) | 2019-05-17   | Yes         |                     1 |
-| [torturing](https://metrics.torproject.org/rs.html#details/6F647831035CDB891B33103A073AEB9028122129)  | 2019-02-13   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,D900FF6CB8119A8A3DAA610EF404DC89A8FD3921,E66D9116D6BC33B101AE7F436F05B476472091E8,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E66D9116D6BC33B101AE7F436F05B476472091E8,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
