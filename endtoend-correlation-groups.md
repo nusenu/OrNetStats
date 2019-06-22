@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-06-19 17:00 UTC**
+Tor network data as of: **2019-06-22 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,9 +33,9 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39) | 2018-10-29   | Yes         |                     1 |
 | [superNik](https://metrics.torproject.org/rs.html#details/E66D9116D6BC33B101AE7F436F05B476472091E8)     | 2019-04-22   | Yes         |                     1 |
 | [myTorVer](https://metrics.torproject.org/rs.html#details/70953563B6AC3EF22E0754B7345757C6FB205989)     | 2018-10-09   | Yes         |                     1 |
+| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39) | 2018-10-29   | Yes         |                     1 |
 | [aabbcc](https://metrics.torproject.org/rs.html#details/E7C1FAFB7525149A0E911512F511D942BA5EEAAF)       | 2019-05-29   | Yes         |                     1 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/8750A946DD5AB24AE71A40B1BA7672034F24663F)        | 2018-12-23   | Yes         |                     1 |
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/9FC15C742C2E95A34F104CB5A0826C6659CFF2B7)  | 2018-06-20   | No          |                     1 |
@@ -49,7 +49,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/9A630383897133B05DB56532ECC91214CF195F68)  | 2016-03-16   | No          |                     2 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E66D9116D6BC33B101AE7F436F05B476472091E8,E7C1FAFB7525149A0E911512F511D942BA5EEAAF,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
+70953563B6AC3EF22E0754B7345757C6FB205989,8750A946DD5AB24AE71A40B1BA7672034F24663F,A9A4213EA3D707857368C683F2208C83B8755D8A,AE75A16A33040CA8A25D3BEFB66BE94F92FBCC16,E66D9116D6BC33B101AE7F436F05B476472091E8,E7C1FAFB7525149A0E911512F511D942BA5EEAAF,F6691E3EB7CAB3C876AAA885E6801B63DC998C39
