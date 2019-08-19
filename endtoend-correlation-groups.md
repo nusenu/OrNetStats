@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-08-18 06:00 UTC**
+Tor network data as of: **2019-08-19 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: samam &lt; at &gt; protonmail.com (2) {#samam--at--protonmailcom-}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [uzieka](https://metrics.torproject.org/rs.html#details/54DE63F4587058B79152A75A0238D7F7A0279215)    | 2016-03-28   | Yes         |                     1 |
+| [herlitzka](https://metrics.torproject.org/rs.html#details/A9F5135AE18C7E25C7C79117CD8C7619BFEB85ED) | 2016-02-03   | No          |                     1 |
+
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -40,4 +47,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,54DE63F4587058B79152A75A0238D7F7A0279215,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0
