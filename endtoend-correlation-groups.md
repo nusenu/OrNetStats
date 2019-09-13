@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-09-12 22:00 UTC**
+Tor network data as of: **2019-09-13 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
+| [PieceOfShitSrv](https://metrics.torproject.org/rs.html#details/E039E8DFD6566524C7310C0DD5E6BAB7C39EB128) | 2018-05-27   | Yes         |                     1 |
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63)  | 2018-01-11   | Yes         |                     1 |
+| [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)        | 2019-09-07   | No          |                     1 |
+
 ## ContactInfo: runtime-error at riseup dot net (6) {#runtime-erroratriseupdotnet}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -51,4 +60,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,E312A938D71045BE3A5C1FF3AB87CF7464194861
+043199D2C41E640430B77388B80D442D379BD8E2,0BCCF364C4EE7338B6E920E63E951922C85F91F7,A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,E039E8DFD6566524C7310C0DD5E6BAB7C39EB128,E312A938D71045BE3A5C1FF3AB87CF7464194861
