@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-09-16 19:00 UTC**
+Tor network data as of: **2019-09-17 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -53,7 +53,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [hacktheplanet](https://metrics.torproject.org/rs.html#details/A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63)  | 2018-01-11   | Yes         |                     1 |
 | [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)        | 2019-09-07   | No          |                     1 |
 
-## ContactInfo: runtime-error at riseup dot net (6) {#runtime-erroratriseupdotnet}
+## ContactInfo: runtime-error at riseup dot net (5) {#runtime-erroratriseupdotnet}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -62,14 +62,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Viserion](https://metrics.torproject.org/rs.html#details/4C5B8134341E66CB09246985E4039F9BFC0ADCE3)  | 2019-07-19   | No          |                     1 |
 | [Visenya](https://metrics.torproject.org/rs.html#details/A339297680115D931FA2B98C311300E8492D83AA)   | 2019-07-10   | No          |                     1 |
 | [Targaryen](https://metrics.torproject.org/rs.html#details/B0D0C294326E940CE335E484A338153F2911D2C8) | 2019-08-04   | No          |                     1 |
-| [Dracarys](https://metrics.torproject.org/rs.html#details/D954378F53DD7B01063B8E742D973DC12D11F34A)  | 2019-08-14   | No          |                     1 |
 
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [bigdaddyny3](https://metrics.torproject.org/rs.html#details/AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0) | 2019-07-28   | Yes         |                     1 |
 | [bigdaddyny](https://metrics.torproject.org/rs.html#details/0BCCF364C4EE7338B6E920E63E951922C85F91F7)  | 2019-07-15   | Yes         |                     1 |
+| [bigdaddyny3](https://metrics.torproject.org/rs.html#details/AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0) | 2019-07-28   | Yes         |                     1 |
 | [bigdaddyny2](https://metrics.torproject.org/rs.html#details/25AA19700404E2B482B60B9F52AED83E3E73B5FC) | 2019-07-21   | No          |                     1 |
 
 
