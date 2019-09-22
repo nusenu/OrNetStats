@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-09-21 07:00 UTC**
+Tor network data as of: **2019-09-22 08:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -54,15 +54,24 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Visenya](https://metrics.torproject.org/rs.html#details/A339297680115D931FA2B98C311300E8492D83AA)   | 2019-07-10   | No          |                     1 |
 | [Targaryen](https://metrics.torproject.org/rs.html#details/B0D0C294326E940CE335E484A338153F2911D2C8) | 2019-08-04   | No          |                     1 |
 
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (4) {#contactgpgfingerprint-contactname-conta}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/043199D2C41E640430B77388B80D442D379BD8E2)  | 2017-04-13   | Yes         |                     1 |
+| [PieceOfShitSrv](https://metrics.torproject.org/rs.html#details/E039E8DFD6566524C7310C0DD5E6BAB7C39EB128) | 2018-05-27   | Yes         |                     1 |
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63)  | 2018-01-11   | Yes         |                     1 |
+| [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)        | 2019-09-07   | No          |                     1 |
+
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [bigdaddyny3](https://metrics.torproject.org/rs.html#details/AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0) | 2019-07-28   | Yes         |                     1 |
 | [bigdaddyny](https://metrics.torproject.org/rs.html#details/0BCCF364C4EE7338B6E920E63E951922C85F91F7)  | 2019-07-15   | Yes         |                     1 |
+| [bigdaddyny3](https://metrics.torproject.org/rs.html#details/AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0) | 2019-07-28   | Yes         |                     1 |
 | [bigdaddyny2](https://metrics.torproject.org/rs.html#details/25AA19700404E2B482B60B9F52AED83E3E73B5FC) | 2019-07-21   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,63DE54637F349FD686CF1C036827B5BE826B9F7C,6AEDDEC1146B00B99B87092FBAD7FB75799865C6,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,B3DA9D673321B92253DCCD38A9740F2C562C91EA,C013F6A7A2297FA4CD00D05EF4A1C5222B844B25,E312A938D71045BE3A5C1FF3AB87CF7464194861
+043199D2C41E640430B77388B80D442D379BD8E2,0BCCF364C4EE7338B6E920E63E951922C85F91F7,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,63DE54637F349FD686CF1C036827B5BE826B9F7C,6AEDDEC1146B00B99B87092FBAD7FB75799865C6,A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,B3DA9D673321B92253DCCD38A9740F2C562C91EA,C013F6A7A2297FA4CD00D05EF4A1C5222B844B25,E039E8DFD6566524C7310C0DD5E6BAB7C39EB128,E312A938D71045BE3A5C1FF3AB87CF7464194861
