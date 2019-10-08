@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-10-07 17:00 UTC**
+Tor network data as of: **2019-10-08 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -70,14 +70,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
 | [BobsHouseRO04](https://metrics.torproject.org/rs.html#details/B1BF289B965760D17B3508E3E48FF5DC8154FB70) | 2019-07-24   | No          |                     1 |
 
-## ContactInfo: tomas.vanagas@knf.vu.lt tor-relay.co (2) {#tomasvanagasknfvult-tor-relayco}
+## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (2) {#contactgpgfingerprint-contactname-conta}
 
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/23F7759EBFA353E10F34A6DD69126FE7F890E408) | 2019-03-31   | Yes         |                     1 |
-| [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/1939CC1B41298A49C0684878813DED5CD1A9EE98) | 2019-03-29   | No          |                     1 |
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/043199D2C41E640430B77388B80D442D379BD8E2) | 2017-04-13   | Yes         |                     1 |
+| [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)       | 2019-09-07   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,23F7759EBFA353E10F34A6DD69126FE7F890E408,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,63DE54637F349FD686CF1C036827B5BE826B9F7C,6AEDDEC1146B00B99B87092FBAD7FB75799865C6,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,B3DA9D673321B92253DCCD38A9740F2C562C91EA,C013F6A7A2297FA4CD00D05EF4A1C5222B844B25,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,E312A938D71045BE3A5C1FF3AB87CF7464194861
+043199D2C41E640430B77388B80D442D379BD8E2,0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,3E76E15E6BE6CFF409D44CCC40281AB5BB0B61C2,63DE54637F349FD686CF1C036827B5BE826B9F7C,6AEDDEC1146B00B99B87092FBAD7FB75799865C6,A8C7EFCA3C12AAF37350000E40D94AC13F9F4F63,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,B3DA9D673321B92253DCCD38A9740F2C562C91EA,C013F6A7A2297FA4CD00D05EF4A1C5222B844B25,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,E039E8DFD6566524C7310C0DD5E6BAB7C39EB128,E312A938D71045BE3A5C1FF3AB87CF7464194861
