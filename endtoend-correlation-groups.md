@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-10-15 18:00 UTC**
+Tor network data as of: **2019-10-16 14:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,16 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: bobs.house AT mail.ru 36j52chsdz962ivcpN1xfPXkJz (5) {#bobshouse-at-mailru-36j52chsdz962ivcpn1xfpxkjz}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [BobsHouseLU02](https://metrics.torproject.org/rs.html#details/5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43) | 2019-09-29   | Yes         |                     1 |
-| [BobsHouseLU03](https://metrics.torproject.org/rs.html#details/C0FB7C7ED8478AE78846B5C5585DD62E162222E1) | 2019-09-29   | Yes         |                     1 |
-| [BobsHouseUA03](https://metrics.torproject.org/rs.html#details/16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9) | 2019-09-17   | Yes         |                     1 |
-| [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
-| [BobsHouseRO04](https://metrics.torproject.org/rs.html#details/B1BF289B965760D17B3508E3E48FF5DC8154FB70) | 2019-07-24   | No          |                     1 |
-
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -55,14 +45,16 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Viserion](https://metrics.torproject.org/rs.html#details/4C5B8134341E66CB09246985E4039F9BFC0ADCE3) | 2019-07-19   | No          |                     1 |
 | [Visenya](https://metrics.torproject.org/rs.html#details/A339297680115D931FA2B98C311300E8492D83AA)  | 2019-07-10   | No          |                     1 |
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (2) {#contactgpgfingerprint-contactname-conta}
+## ContactInfo: bobs.house AT mail.ru 36j52chsdz962ivcpN1xfPXkJz (4) {#bobshouse-at-mailru-36j52chsdz962ivcpn1xfpxkjz}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hacktheplanet](https://metrics.torproject.org/rs.html#details/043199D2C41E640430B77388B80D442D379BD8E2) | 2017-04-13   | Yes         |                     1 |
-| [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)       | 2019-09-07   | No          |                     1 |
+| [BobsHouseLU02](https://metrics.torproject.org/rs.html#details/5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43) | 2019-09-29   | Yes         |                     1 |
+| [BobsHouseUA03](https://metrics.torproject.org/rs.html#details/16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9) | 2019-09-17   | Yes         |                     1 |
+| [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
+| [BobsHouseRO04](https://metrics.torproject.org/rs.html#details/B1BF289B965760D17B3508E3E48FF5DC8154FB70) | 2019-07-24   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-043199D2C41E640430B77388B80D442D379BD8E2,0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,E312A938D71045BE3A5C1FF3AB87CF7464194861
