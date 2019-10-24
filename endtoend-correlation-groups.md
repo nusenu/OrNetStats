@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-10-22 08:00 UTC**
+Tor network data as of: **2019-10-24 06:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -54,14 +54,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [bigdaddyny](https://metrics.torproject.org/rs.html#details/0BCCF364C4EE7338B6E920E63E951922C85F91F7)  | 2019-07-15   | Yes         |                     1 |
 | [bigdaddyny4](https://metrics.torproject.org/rs.html#details/5DD2D6DCB182AC058EB9A8F71C63B0525E1C6907) | 2019-10-04   | No          |                     1 |
 
-## ContactInfo: $ CONTACT GPG FINGERPRINT $ CONTACT NAME $ CONTA (2) {#contactgpgfingerprint-contactname-conta}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [hacktheplanet](https://metrics.torproject.org/rs.html#details/043199D2C41E640430B77388B80D442D379BD8E2) | 2017-04-13   | Yes         |                     1 |
-| [BtcTurk](https://metrics.torproject.org/rs.html#details/E40CD177CF5E6CA7ABFE9B3855FB582802E15660)       | 2019-09-07   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-043199D2C41E640430B77388B80D442D379BD8E2,0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,E312A938D71045BE3A5C1FF3AB87CF7464194861
