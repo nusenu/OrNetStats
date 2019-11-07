@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-11-06 19:00 UTC**
+Tor network data as of: **2019-11-07 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
+
+## ContactInfo: Kristoffer Rath Hansen &lt;kristoffer AT rathhansen d (3) {#kristoffer-rath-hansen-kristoffer-at-rathhansen-d}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [rathhansenrelay](https://metrics.torproject.org/rs.html#details/EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522) | 2018-11-26   | Yes         |                     3 |
+| [rathhansenexit1](https://metrics.torproject.org/rs.html#details/B5B06E7DD9648AD92C8BC9C5F5D64403838D83A2) | 2019-09-27   | No          |                     2 |
+| [rathhansenexit2](https://metrics.torproject.org/rs.html#details/DF73CBB5147F7C47AAC783ABFED5C947D07FA28F) | 2019-11-07   | No          |                     2 |
 
 ## ContactInfo: runtime-error at riseup dot net (3) {#runtime-erroratriseupdotnet}
 
@@ -64,4 +72,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,16A57CE54FA9E7CD4CD2BC3901EFB89F179362C9,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861,EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522
