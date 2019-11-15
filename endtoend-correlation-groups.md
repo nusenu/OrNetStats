@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-11-14 19:00 UTC**
+Tor network data as of: **2019-11-15 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,14 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: Kristoffer Rath Hansen &lt;kristoffer AT rathhansen d (3) {#kristoffer-rath-hansen-kristoffer-at-rathhansen-d}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [rathhansenrelay](https://metrics.torproject.org/rs.html#details/EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522) | 2018-11-26   | Yes         |                     3 |
-| [rathhansenexit2](https://metrics.torproject.org/rs.html#details/DF73CBB5147F7C47AAC783ABFED5C947D07FA28F) | 2019-11-07   | No          |                     2 |
-| [duckduckgo](https://metrics.torproject.org/rs.html#details/EA5A01079B0207A5B7D90665C79E5322210EA091)      | 2019-11-14   | No          |                     1 |
-
 ## ContactInfo: runtime-error at riseup dot net (3) {#runtime-erroratriseupdotnet}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -44,6 +36,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Daenerys](https://metrics.torproject.org/rs.html#details/E312A938D71045BE3A5C1FF3AB87CF7464194861) | 2019-07-13   | Yes         |                     1 |
 | [Viserion](https://metrics.torproject.org/rs.html#details/4C5B8134341E66CB09246985E4039F9BFC0ADCE3) | 2019-07-19   | No          |                     1 |
 | [Visenya](https://metrics.torproject.org/rs.html#details/A339297680115D931FA2B98C311300E8492D83AA)  | 2019-07-10   | No          |                     1 |
+
+## ContactInfo: Kristoffer Rath Hansen &lt;kristoffer AT rathhansen d (3) {#kristoffer-rath-hansen-kristoffer-at-rathhansen-d}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [rathhansenrelay](https://metrics.torproject.org/rs.html#details/EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522) | 2018-11-26   | Yes         |                     3 |
+| [rathhansenexit2](https://metrics.torproject.org/rs.html#details/DF73CBB5147F7C47AAC783ABFED5C947D07FA28F) | 2019-11-07   | No          |                     2 |
+| [duckduckgo](https://metrics.torproject.org/rs.html#details/EA5A01079B0207A5B7D90665C79E5322210EA091)      | 2019-11-14   | No          |                     1 |
 
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
@@ -61,16 +61,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mercury](https://metrics.torproject.org/rs.html#details/484CEAF51A37EC992645FB6257B2EBC4AE20D9B7) | 2014-10-05   | No          |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
 
-## ContactInfo: DuckSounds31@aol.com (4) {#ducksounds31aolcom}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [DuckYou](https://metrics.torproject.org/rs.html#details/AF4997738E0CFC014CD04FB09A670D2C5F1E79A4)    | 2018-03-02   | Yes         |                     3 |
-| [newsvendor](https://metrics.torproject.org/rs.html#details/061370AE41C1084B2910EB0522C8B2DB1C2CB96E) | 2018-02-05   | No          |                     4 |
-| [QuackQuack](https://metrics.torproject.org/rs.html#details/1EE15139F389FDA24400239607CB4C0BE5DD8C76) | 2018-01-31   | No          |                     3 |
-| [FlappyBird](https://metrics.torproject.org/rs.html#details/B00478C4CD2F3ACC7D6F02AF8033D2906673651F) | 2018-02-01   | No          |                     4 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861,EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861,EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522
