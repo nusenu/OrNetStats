@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-11-19 21:00 UTC**
+Tor network data as of: **2019-11-20 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,7 +33,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [rathhansenrelay](https://metrics.torproject.org/rs.html#details/EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522) | 2018-11-26   | Yes         |                     3 |
+| [rathhansenrelay](https://metrics.torproject.org/rs.html#details/EA51EA501AB8703D4A9C1355BFDD05CFDE9A1522) | 2018-11-26   | Yes         |                     2 |
 | [rathhansenexit2](https://metrics.torproject.org/rs.html#details/DF73CBB5147F7C47AAC783ABFED5C947D07FA28F) | 2019-11-07   | No          |                     2 |
 | [duckduckgo](https://metrics.torproject.org/rs.html#details/EA5A01079B0207A5B7D90665C79E5322210EA091)      | 2019-11-14   | No          |                     1 |
 
