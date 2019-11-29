@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-11-28 21:00 UTC**
+Tor network data as of: **2019-11-29 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
+
+## ContactInfo: bobs.house AT mail.ru 36j52chsdz962ivcpN1xfPXkJz (4) {#bobshouse-at-mailru-36j52chsdz962ivcpn1xfpxkjz}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [BobsHouseLU05](https://metrics.torproject.org/rs.html#details/65F56DD25EB283238BF6A10C10A8C50D7D83B931) | 2019-09-29   | Yes         |                     1 |
+| [BobsHouseRO06](https://metrics.torproject.org/rs.html#details/1F226CD8277DA2C28D15364E88D596F9FCCED98B) | 2019-11-13   | No          |                     1 |
+| [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
+| [BobsHouseRO04](https://metrics.torproject.org/rs.html#details/B1BF289B965760D17B3508E3E48FF5DC8154FB70) | 2019-07-24   | No          |                     1 |
 
 ## ContactInfo: runtime-error at riseup dot net (3) {#runtime-erroratriseupdotnet}
 
@@ -56,4 +65,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,65F56DD25EB283238BF6A10C10A8C50D7D83B931,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861
