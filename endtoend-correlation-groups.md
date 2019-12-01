@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2019-11-30 07:00 UTC**
+Tor network data as of: **2019-12-01 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,10 +29,11 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: bobs.house AT mail.ru 36j52chsdz962ivcpN1xfPXkJz (4) {#bobshouse-at-mailru-36j52chsdz962ivcpn1xfpxkjz}
+## ContactInfo: bobs.house AT mail.ru 36j52chsdz962ivcpN1xfPXkJz (5) {#bobshouse-at-mailru-36j52chsdz962ivcpn1xfpxkjz}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [BobsHouseLU03](https://metrics.torproject.org/rs.html#details/C0FB7C7ED8478AE78846B5C5585DD62E162222E1) | 2019-09-29   | Yes         |                     1 |
 | [BobsHouseLU05](https://metrics.torproject.org/rs.html#details/65F56DD25EB283238BF6A10C10A8C50D7D83B931) | 2019-09-29   | Yes         |                     1 |
 | [BobsHouseRO06](https://metrics.torproject.org/rs.html#details/1F226CD8277DA2C28D15364E88D596F9FCCED98B) | 2019-11-13   | No          |                     1 |
 | [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
@@ -57,4 +58,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,65F56DD25EB283238BF6A10C10A8C50D7D83B931,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,65F56DD25EB283238BF6A10C10A8C50D7D83B931,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,E312A938D71045BE3A5C1FF3AB87CF7464194861
