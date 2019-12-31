@@ -5,13 +5,14 @@ layout: default
 
 # Relays running end-of-life Tor releases
 
-Tor network data as of: **2019-12-27 09:00 UTC**
+Tor network data as of: **2019-12-28 08:00 UTC**
 
 Relays are sorted by their consensus weight.
 If you find your relay on this page you should upgrade it to a supported tor release.
 
 | Nickname                                                                                                       | Tor Version       |   Consensus Weight |
 |:---------------------------------------------------------------------------------------------------------------|:------------------|-------------------:|
+| [zzzzzzzzzzzzzzzzzzz](https://metrics.torproject.org/rs.html#details/004573FE934BA55D07DAE72317793AF4E41B75B6) | 0.3.2.10          |                 20 |
 | [MYLEX](https://metrics.torproject.org/rs.html#details/010B7728454411F485CE29D4C79A14534151C2C4)               | 0.2.5.16          |                 20 |
 | [default](https://metrics.torproject.org/rs.html#details/02E9F25DCBFF25D3200DAD409FBBB10EAF92ADF9)             | 0.2.4.23          |                 20 |
 | [gollum](https://metrics.torproject.org/rs.html#details/0701534764CE5FFC37DEBBFCA5AB3A9FB6EF9C5F)              | 0.3.2.10          |                 20 |
@@ -35,7 +36,6 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [default](https://metrics.torproject.org/rs.html#details/23F36CFBDC4302076203845E71BA8676E6999A1E)             | 0.2.4.23          |                 20 |
 | [Pandemic](https://metrics.torproject.org/rs.html#details/2444667169FD5E216181658D00FFF8AED04D77E3)            | 0.2.7.6           |                 20 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/267DCEFB48DC0440D4A0A64FBDA2B35BB859C436)             | 0.2.4.27          |                 20 |
-| [TornodeHH3](https://metrics.torproject.org/rs.html#details/29C40C7250B196B94C16907667ADE1D75BC576A7)          | 0.2.5.16          |                 20 |
 | [Nana](https://metrics.torproject.org/rs.html#details/2C064760AA6657E2C575DD897C2588B170A3FF12)                | 0.3.4.9           |                 20 |
 | [gpeduzzi](https://metrics.torproject.org/rs.html#details/2C6DF3304CB5A24EBB8628E5BC565FAA6F139666)            | 0.3.2.10          |                 20 |
 | [AgentOrange](https://metrics.torproject.org/rs.html#details/2CD6AC727671A25C4805EC8FACDE3D3728287E28)         | 0.3.4.9           |                 20 |
@@ -53,22 +53,18 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [madnight](https://metrics.torproject.org/rs.html#details/3E18C7AAED3219DFECEEBCB37C3A8EF37BFDB660)            | 0.3.4.11          |                 20 |
 | [relay2](https://metrics.torproject.org/rs.html#details/3E7E2A0B672CA10A8B9B3DA8CCC383613B513203)              | 0.3.4.11          |                 20 |
 | [between1and19chars](https://metrics.torproject.org/rs.html#details/3F0EE4D230E82A66A0E91EF03D2ED8A5359B797C)  | 0.3.2.10          |                 20 |
+| [default](https://metrics.torproject.org/rs.html#details/4166FA166A8923AC9A5241FBED9943BA48BA81E3)             | 0.2.4.23          |                 20 |
 | [default](https://metrics.torproject.org/rs.html#details/47AD6697492C9CC1F91A709E346555592F71188B)             | 0.2.4.23          |                 20 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/47D0B1941DAD6EBE0EA4B483B2D2E27257BEBDDF)             | 0.3.2.10          |                 20 |
 | [explorer](https://metrics.torproject.org/rs.html#details/4876AF556686935CC53864F95025AC6ED75A90E1)            | 0.3.4.9           |                 20 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/490F7A0C3A82CD8701E88339181BE5022B588DCB)             | 0.2.7.6           |                 20 |
-| [default](https://metrics.torproject.org/rs.html#details/4AD5B4357F66D70C9108B7D5EEB0A7EFAE2CEA2E)             | 0.2.4.23          |                 20 |
 | [dokachin](https://metrics.torproject.org/rs.html#details/4BD02E6B7282E35D8B4FD260BFFCA59032F9C0B9)            | 0.3.4.11          |                 20 |
 | [Phillipus](https://metrics.torproject.org/rs.html#details/4BD048C8A85EC1F436A6B43AC0EFE353B8BDCCE0)           | 0.3.4.8           |                 20 |
-| [default](https://metrics.torproject.org/rs.html#details/4BEEA1C448EE06D72057BFDA2555F73C99D6B8DE)             | 0.2.4.23          |                 20 |
-| [default](https://metrics.torproject.org/rs.html#details/4C5ACA00ACDCBEB9F956EFC1EEF0861A1523A85D)             | 0.2.4.23          |                 20 |
 | [jumpnet](https://metrics.torproject.org/rs.html#details/4D093D0800EB17DC9F050F8C9E0E2568736BB482)             | 0.3.4.8           |                 20 |
 | [NoMiddleMan](https://metrics.torproject.org/rs.html#details/4E59A43A43C3FAAFE0945A0E00EFADF9B986523D)         | 0.3.1.9           |                 20 |
 | [insane2](https://metrics.torproject.org/rs.html#details/4F66191B13DFCA60F76BC31985B4BE421D2F4FC2)             | 0.3.4.0-alpha-dev |                 20 |
-| [H4ck3rm4n0m3g4](https://metrics.torproject.org/rs.html#details/5043E5D2E9CE99066DF1FBF0B18E065B08131863)      | 0.3.4.9           |                 20 |
 | [RyhoTor](https://metrics.torproject.org/rs.html#details/59D3A7415AED265765BFCD0BA68FD75B9FFFE9AD)             | 0.2.5.16          |                 20 |
 | [NaifTorRelay5](https://metrics.torproject.org/rs.html#details/5D001279DDEF47F8A8BFE577F4B02759D4E66206)       | 0.3.0.9           |                 20 |
-| [testnode](https://metrics.torproject.org/rs.html#details/5DCAE0E2E0609A36CBDE667DFF3A1D94680EB8AA)            | 0.3.4.8           |                 20 |
 | [Bananenbakker](https://metrics.torproject.org/rs.html#details/5FA794BF301AF35E4AED185E939CBA9D2CFC2360)       | 0.3.4.8           |                 20 |
 | [sterntor](https://metrics.torproject.org/rs.html#details/601FD39FAB6CFADBEA537BBCAE6EEBEEB8630ACE)            | 0.3.4.9           |                 20 |
 | [jabbenbabben](https://metrics.torproject.org/rs.html#details/613A956B501A207A4007D70E1BABBE90B2BA40C6)        | 0.3.4.8           |                 20 |
@@ -92,11 +88,13 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [vps](https://metrics.torproject.org/rs.html#details/7C6CFE3212429D07486952B886DD25FD1D8FD219)                 | 0.3.3.6           |                 20 |
 | [default](https://metrics.torproject.org/rs.html#details/7CDA1419807CE56393262D469936AE70917B9708)             | 0.2.4.23          |                 20 |
 | [hamburgoo](https://metrics.torproject.org/rs.html#details/7D2D6F7F0047F9462428F7FF2B7103A597946AC3)           | 0.3.2.10          |                 20 |
+| [hiddenRussia](https://metrics.torproject.org/rs.html#details/81B556C814F38345BD537BF91D256D155252D6E8)        | 0.3.1.9           |                 20 |
 | [beefyboi](https://metrics.torproject.org/rs.html#details/825B5302E8DC40847E911C8BC6991E6ABD40B18C)            | 0.3.4.11          |                 20 |
 | [DidItLateButNow42](https://metrics.torproject.org/rs.html#details/843C4F774DA2653DADBA5B847A33CC646995F6A1)   | 0.3.4.8           |                 20 |
 | [Torantula](https://metrics.torproject.org/rs.html#details/8491E2706EB3D9261F261CDFAF7735746B4CD337)           | 0.3.4.9           |                 20 |
 | [ididedittheconfig42](https://metrics.torproject.org/rs.html#details/851F5E587CE2FF773C9A1FA177A061132B38B01B) | 0.3.4.8           |                 20 |
 | [cheekyvideos](https://metrics.torproject.org/rs.html#details/883773B4C9041570D0DBBB1A6857EDCAB14B1F1B)        | 0.3.4.9           |                 20 |
+| [DockerTorrelay](https://metrics.torproject.org/rs.html#details/88ED9664758B5C583999A67A29EBC92D41562D33)      | 0.2.5.16          |                 20 |
 | [whatsinanameEurope](https://metrics.torproject.org/rs.html#details/8A46D284C8FE8B411029645E9AEEC99B167149C5)  | 0.2.6.10          |                 20 |
 | [ZcashTestnet](https://metrics.torproject.org/rs.html#details/8D610CFD4FD193034381199106C8EA3E10433A64)        | 0.3.4.1-alpha     |                 20 |
 | [DonekiBronek](https://metrics.torproject.org/rs.html#details/8D912126FA40BD67EE7D5759BD19459450AEBEA1)        | 0.3.2.10          |                 20 |
@@ -112,6 +110,7 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [snarltorrelay](https://metrics.torproject.org/rs.html#details/9F472C23BD39BC3906ECC4B97AFDB425EE8579A1)       | 0.3.4.9           |                 20 |
 | [finn](https://metrics.torproject.org/rs.html#details/A772AEB7D39CD578583CF0DDA708B252AB6EA048)                | 0.3.4.11          |                 20 |
 | [3gr356](https://metrics.torproject.org/rs.html#details/A96B386635FD784DF705D6BA965716A99FC72B36)              | 0.3.0.9           |                 20 |
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/AD72DB983EC8DC06FBFA9E98964AC74030BEAC92)       | 0.3.4.11          |                 20 |
 | [glorpBlr01](https://metrics.torproject.org/rs.html#details/AD9AFB2453E5D91DFAC3B2C82D27D2CCC885AF2B)          | 0.3.4.9           |                 20 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/AF481301E7CE3F40632B6E3295641037F0FA8ADA)             | 0.3.3.9           |                 20 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/AFB54F0DF7186DA84B43C97806D27098A6979107)             | 0.3.3.9           |                 20 |
@@ -120,10 +119,8 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [tw0sday](https://metrics.torproject.org/rs.html#details/B8D803788D449F631A6920A89762F301F4A37815)             | 0.3.0.9           |                 20 |
 | [BestRelay666](https://metrics.torproject.org/rs.html#details/BB10C9616CFC8A7CE79CC12E3268A5E7390C3521)        | 0.3.2.10          |                 20 |
 | [jmlsteele](https://metrics.torproject.org/rs.html#details/BB264DD1A7689EED7F8AF892BA783FBCC66B3635)           | 0.2.5.16          |                 20 |
-| [default](https://metrics.torproject.org/rs.html#details/BB86CA383D4E4E35872546DF7496AF6FC4019449)             | 0.2.4.23          |                 20 |
 | [machupichU](https://metrics.torproject.org/rs.html#details/BBB6908B01C0D69DAADA62D48825F8649B34A05F)          | 0.3.1.10-dev      |                 20 |
 | [SuperToRelei100](https://metrics.torproject.org/rs.html#details/BC459E956028DE1CA68634215B50CE44DB51E4C4)     | 0.3.2.10          |                 20 |
-| [FreedomOfSpeech1](https://metrics.torproject.org/rs.html#details/BFB650BE1E42C874D97E34B45A2916FF94212600)    | 0.3.4.9           |                 20 |
 | [uflnode00](https://metrics.torproject.org/rs.html#details/C3F1DC3E6B1FDDC5B09387ACCC06CD89843DD476)           | 0.3.4.9           |                 20 |
 | [nodetechnoweenie](https://metrics.torproject.org/rs.html#details/C74B6024F2E076E7C9DBEC24E9E373FE55692C0D)    | 0.3.4.9           |                 20 |
 | [idiaeghuiw495](https://metrics.torproject.org/rs.html#details/C7977BDA3938F32E73850EB7AA1A4EF7877D268E)       | 0.2.4.27          |                 20 |
@@ -137,6 +134,7 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [pidstenksa](https://metrics.torproject.org/rs.html#details/D4FA29714C36CA054A06D5177D482A2CBFA830DC)          | 0.2.5.16          |                 20 |
 | [woprtor](https://metrics.torproject.org/rs.html#details/DA55F3086F6B8B052BC816BD7DC5F4701D3C61E8)             | 0.2.4.27          |                 20 |
 | [FuckYouNSA](https://metrics.torproject.org/rs.html#details/DA5A923D2DC64CB13C20E022C622B7FF840A34B8)          | 0.3.2.10          |                 20 |
+| [default](https://metrics.torproject.org/rs.html#details/DA97C816ED19DA71D59C72CD4F19F4562216E829)             | 0.2.4.23          |                 20 |
 | [lithuaniatest](https://metrics.torproject.org/rs.html#details/DFA29493C264610AF51CC501738757F8FFFE9B37)       | 0.2.5.16          |                 20 |
 | [ZAPPIE01](https://metrics.torproject.org/rs.html#details/E5BA0D22619E3C881D4419ACFB6F9BF03F8980E8)            | 0.3.4.9           |                 20 |
 | [minion](https://metrics.torproject.org/rs.html#details/EAB2C5A0A96D50AFA8A58A4882A0E533B1E67AD0)              | 0.3.0.9           |                 20 |
@@ -151,8 +149,6 @@ If you find your relay on this page you should upgrade it to a supported tor rel
 | [Eadu](https://metrics.torproject.org/rs.html#details/FCB454EAB56713C641C7A8F2E45B85E7921B9760)                | 0.3.3.5-rc        |                 20 |
 | [TheAvenger](https://metrics.torproject.org/rs.html#details/FD552B54E90E512E2D539DCE22EA698E854CF045)          | 0.3.3.3-alpha-dev |                 20 |
 | [ninov1](https://metrics.torproject.org/rs.html#details/FFEDACEB9181471BF7D1FDB3E44D52FDA4780DBC)              | 0.3.4.11          |                 20 |
-| [hacktheplanet](https://metrics.torproject.org/rs.html#details/210F662DD83C37F86DD73C7F901D73A4219C45FC)       | 0.3.4.11          |                  0 |
-| [Justanode](https://metrics.torproject.org/rs.html#details/2E878B455E742AF9331ED219A377E8A1315B0424)           | 0.2.6.10          |                  0 |
-| [hacktheplanet](https://metrics.torproject.org/rs.html#details/AD72DB983EC8DC06FBFA9E98964AC74030BEAC92)       | 0.3.4.11          |                  0 |
+| [MrMarioMichelAWS](https://metrics.torproject.org/rs.html#details/2AF0EFAA2C78283F03C3A9205863B733D1393772)    | 0.3.2.10          |                  0 |
+| [hacktheplanet](https://metrics.torproject.org/rs.html#details/792C6EAEC1257FF6197F502022F63B660402805F)       | 0.3.4.11          |                  0 |
 | [node12666](https://metrics.torproject.org/rs.html#details/CC250DD4E1EAE4DDA995D0371BD380A6E0F81F5B)           | 0.3.2.10          |                  0 |
-| [Andrewlev77](https://metrics.torproject.org/rs.html#details/FCFF9A013232E3F2C253D876EDA6581D1704E7E0)         | 0.3.2.10          |                  0 |
