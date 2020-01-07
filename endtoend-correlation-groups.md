@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-01-06 08:00 UTC**
+Tor network data as of: **2020-01-07 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,21 +33,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [BobsHouseLU02](https://metrics.torproject.org/rs.html#details/5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43) | 2019-09-29   | Yes         |                     1 |
-| [BobsHouseLU03](https://metrics.torproject.org/rs.html#details/C0FB7C7ED8478AE78846B5C5585DD62E162222E1) | 2019-09-29   | Yes         |                     1 |
-| [BobsHouseLU05](https://metrics.torproject.org/rs.html#details/65F56DD25EB283238BF6A10C10A8C50D7D83B931) | 2019-09-29   | Yes         |                     1 |
-| [BobsHouseLU01](https://metrics.torproject.org/rs.html#details/52952860B81079DE731062216F0443DB89C14790) | 2019-09-29   | Yes         |                     1 |
+| [BobsHouseLU02](https://metrics.torproject.org/rs.html#details/5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43) | 2019-09-29   | Yes         |                     4 |
+| [BobsHouseLU03](https://metrics.torproject.org/rs.html#details/C0FB7C7ED8478AE78846B5C5585DD62E162222E1) | 2019-09-29   | Yes         |                     4 |
+| [BobsHouseLU05](https://metrics.torproject.org/rs.html#details/65F56DD25EB283238BF6A10C10A8C50D7D83B931) | 2019-09-29   | Yes         |                     4 |
+| [BobsHouseLU01](https://metrics.torproject.org/rs.html#details/52952860B81079DE731062216F0443DB89C14790) | 2019-09-29   | Yes         |                     4 |
 | [BobsHouseRO06](https://metrics.torproject.org/rs.html#details/1F226CD8277DA2C28D15364E88D596F9FCCED98B) | 2019-11-13   | No          |                     1 |
 | [BobsHouseRO05](https://metrics.torproject.org/rs.html#details/8574D4F76F44EBD2A274DA94732BD5791C08675B) | 2019-07-24   | No          |                     1 |
 | [BobsHouseRO04](https://metrics.torproject.org/rs.html#details/B1BF289B965760D17B3508E3E48FF5DC8154FB70) | 2019-07-24   | No          |                     1 |
-
-## ContactInfo: runtime-error at riseup dot net (3) {#runtime-erroratriseupdotnet}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Daenerys](https://metrics.torproject.org/rs.html#details/E312A938D71045BE3A5C1FF3AB87CF7464194861) | 2019-07-13   | Yes         |                     1 |
-| [Visenya](https://metrics.torproject.org/rs.html#details/A339297680115D931FA2B98C311300E8492D83AA)  | 2019-07-10   | Yes         |                     1 |
-| [Viserion](https://metrics.torproject.org/rs.html#details/4C5B8134341E66CB09246985E4039F9BFC0ADCE3) | 2019-07-19   | No          |                     1 |
 
 ## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
 
@@ -57,6 +49,34 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [bigdaddyny](https://metrics.torproject.org/rs.html#details/0BCCF364C4EE7338B6E920E63E951922C85F91F7)  | 2019-07-15   | Yes         |                     1 |
 | [bigdaddyny4](https://metrics.torproject.org/rs.html#details/5DD2D6DCB182AC058EB9A8F71C63B0525E1C6907) | 2019-10-04   | No          |                     1 |
 
+## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (23) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
+
+| Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [LuXun](https://metrics.torproject.org/rs.html#details/693A982584CF4DD7BF2158B640CCF9A75A87B1BD)               | 2019-12-12   | Yes         |                     1 |
+| [GaoZhisheng](https://metrics.torproject.org/rs.html#details/23B3EF4271E38A744E23ACC4345E56CBDB42A1A5)         | 2019-12-12   | Yes         |                     1 |
+| [LiuXiaobo](https://metrics.torproject.org/rs.html#details/1617A702B30320C37A5C9FA3CFB737A2AFA9198D)           | 2019-11-26   | No          |                    19 |
+| [TahirElci](https://metrics.torproject.org/rs.html#details/3246ECCAEDC4FF2949B655E0245AFFF42F8C9DFC)           | 2016-11-12   | No          |                    19 |
+| [Hecker](https://metrics.torproject.org/rs.html#details/348439F4A3D959E6D1481070DA81A135343419CB)              | 2019-12-01   | No          |                    19 |
+| [LechWalesa](https://metrics.torproject.org/rs.html#details/364E18848469385C5948376FAF778AC61D4CFB67)          | 2019-11-29   | No          |                    19 |
+| [RosaLuxemburg](https://metrics.torproject.org/rs.html#details/42EB556E25A3C33A238AB68AFD043273D0FC6B41)       | 2019-12-01   | No          |                     1 |
+| [weirenminfuwu](https://metrics.torproject.org/rs.html#details/53FF1EDC8528AF4238FB7501831E6BACFF4B42D2)       | 2019-11-26   | No          |                    19 |
+| [Brecht](https://metrics.torproject.org/rs.html#details/61BE819C8E390E3510BD9FA33B3BEF193C8055DC)              | 2019-11-29   | No          |                    19 |
+| [SimonBolivar](https://metrics.torproject.org/rs.html#details/69ECFB731C2B0AA7B4D8746EF3504ADCB1F0A556)        | 2019-11-29   | No          |                    19 |
+| [SebnemKorurFincanci](https://metrics.torproject.org/rs.html#details/74FB777F25E7F80BA6BF8B808DF873A1708821A7) | 2016-12-18   | No          |                    19 |
+| [Politkowskaja](https://metrics.torproject.org/rs.html#details/777B2DECD67C607D8857AD60E976EE3E1E8A52BF)       | 2016-11-15   | No          |                    19 |
+| [MartinLutherKing](https://metrics.torproject.org/rs.html#details/84C631464595D800A4719314BFD8E785D507F365)    | 2019-11-29   | No          |                    19 |
+| [Freiheit](https://metrics.torproject.org/rs.html#details/8B496F3EF3BF5CC32A4C20ECDBEC2A06E7EA4357)            | 2020-01-06   | No          |                     1 |
+| [JanKuciak](https://metrics.torproject.org/rs.html#details/9C1559C46AD0279EEF6FD187E1B27D939C303086)           | 2020-01-06   | No          |                     1 |
+| [ShirinEbadi](https://metrics.torproject.org/rs.html#details/A926970FE1AEF9C6D8D4BF57ED6B88F3F8C66415)         | 2019-11-28   | No          |                    19 |
+| [DaphneCaruana](https://metrics.torproject.org/rs.html#details/B22169DDB936E4CF4B8C81E9514BD05658466974)       | 2019-11-28   | No          |                    19 |
+| [BadshahKhan](https://metrics.torproject.org/rs.html#details/B56D5A0543C35B45D81D792A4735590E3612A815)         | 2016-12-18   | No          |                    19 |
+| [RudiDutschke](https://metrics.torproject.org/rs.html#details/B8D596040EDFF67D7A200FB289DC1620275EAF52)        | 2019-12-01   | No          |                     1 |
+| [Marx](https://metrics.torproject.org/rs.html#details/BCB6AC303A69A7E87BB2D6F3F13A0C0F0A6C938E)                | 2019-11-26   | No          |                    19 |
+| [Sacharow](https://metrics.torproject.org/rs.html#details/E79A58AF0DB93B90F97B48963CC4729E4CFA43C5)            | 2019-11-26   | No          |                    19 |
+| [Mandela](https://metrics.torproject.org/rs.html#details/F1F9D1DBD7E56F99C61C3712D5F4A02153FD9AD4)             | 2019-11-26   | No          |                    19 |
+| [Gandhi](https://metrics.torproject.org/rs.html#details/F2AF93D23D91F9CFE03C5151DF01B0481BF99E12)              | 2019-11-28   | No          |                    19 |
+
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -64,7 +84,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4) | 2019-10-25   | Yes         |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
 
+## ContactInfo: report at dustin dot in tor-relay.co (2) {#reportatdustindotin-tor-relayco}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [RAWRELAY](https://metrics.torproject.org/rs.html#details/CCD3CE265252F0BC284358754769E2EDC7D19593) | 2019-12-01   | Yes         |                     1 |
+| [RAWREXIT](https://metrics.torproject.org/rs.html#details/E571246BDD42BCFB0EF8F8AAE759DEEE64BA94DB) | 2019-12-01   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,52952860B81079DE731062216F0443DB89C14790,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,65F56DD25EB283238BF6A10C10A8C50D7D83B931,A339297680115D931FA2B98C311300E8492D83AA,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E312A938D71045BE3A5C1FF3AB87CF7464194861
+0BCCF364C4EE7338B6E920E63E951922C85F91F7,23B3EF4271E38A744E23ACC4345E56CBDB42A1A5,52952860B81079DE731062216F0443DB89C14790,5832668C21FF375C6B77A9BEB01E2BFDC7CD9C43,65F56DD25EB283238BF6A10C10A8C50D7D83B931,693A982584CF4DD7BF2158B640CCF9A75A87B1BD,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,C0FB7C7ED8478AE78846B5C5585DD62E162222E1,CCD3CE265252F0BC284358754769E2EDC7D19593,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
