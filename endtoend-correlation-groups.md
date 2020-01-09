@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-01-08 18:00 UTC**
+Tor network data as of: **2020-01-09 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -57,14 +57,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Mandela](https://metrics.torproject.org/rs.html#details/F1F9D1DBD7E56F99C61C3712D5F4A02153FD9AD4)             | 2019-11-26   | No          |                    19 |
 | [Gandhi](https://metrics.torproject.org/rs.html#details/F2AF93D23D91F9CFE03C5151DF01B0481BF99E12)              | 2019-11-28   | No          |                    19 |
 
-## ContactInfo: Steven S &lt;katsalmovies@gmail.com&gt; (3) {#steven-s-katsalmoviesgmailcom}
-
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [bigdaddyny3](https://metrics.torproject.org/rs.html#details/AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0) | 2019-07-28   | Yes         |                     1 |
-| [bigdaddyny](https://metrics.torproject.org/rs.html#details/0BCCF364C4EE7338B6E920E63E951922C85F91F7)  | 2019-07-15   | Yes         |                     1 |
-| [bigdaddyny4](https://metrics.torproject.org/rs.html#details/5DD2D6DCB182AC058EB9A8F71C63B0525E1C6907) | 2019-10-04   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -72,7 +64,14 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4) | 2019-10-25   | Yes         |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
 
+## ContactInfo: report at dustin dot in tor-relay.co (2) {#reportatdustindotin-tor-relayco}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [RAWRELAY](https://metrics.torproject.org/rs.html#details/CCD3CE265252F0BC284358754769E2EDC7D19593) | 2019-12-01   | Yes         |                     1 |
+| [RAWREXIT](https://metrics.torproject.org/rs.html#details/E571246BDD42BCFB0EF8F8AAE759DEEE64BA94DB) | 2019-12-01   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0BCCF364C4EE7338B6E920E63E951922C85F91F7,23B3EF4271E38A744E23ACC4345E56CBDB42A1A5,693A982584CF4DD7BF2158B640CCF9A75A87B1BD,AE236568ED01527850FA0D5BEFBBF6C6BDA47AF0,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
+23B3EF4271E38A744E23ACC4345E56CBDB42A1A5,693A982584CF4DD7BF2158B640CCF9A75A87B1BD,CCD3CE265252F0BC284358754769E2EDC7D19593,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
