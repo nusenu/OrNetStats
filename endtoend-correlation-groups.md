@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-01-13 18:00 UTC**
+Tor network data as of: **2020-01-14 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,23 +29,24 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: see https://www.artikel5ev.de/torcontact/ (13) {#see-httpswwwartikel5evdetorcontact}
+## ContactInfo: see https://www.artikel5ev.de/torcontact/ (14) {#see-httpswwwartikel5evdetorcontact}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [dc6jgk7b](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)       | 2016-11-04   | Yes         |                    17 |
-| [dc6jgk11barm64](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A) | 2016-11-11   | Yes         |                    17 |
-| [dc6jgk9barm64](https://metrics.torproject.org/rs.html#details/78BC2254D3B31CD865F7682633AA438212132532)  | 2016-11-11   | Yes         |                    17 |
-| [dc6jgk6](https://metrics.torproject.org/rs.html#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)        | 2016-10-06   | Yes         |                    17 |
-| [dc6jgk1](https://metrics.torproject.org/rs.html#details/486740353B905AA4731F82C0B4CC25821A62C6E3)        | 2014-06-09   | Yes         |                    17 |
-| [dc6jgk5b](https://metrics.torproject.org/rs.html#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)       | 2016-09-05   | Yes         |                    17 |
+| [dc6jgk7b](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)       | 2016-11-04   | Yes         |                    18 |
+| [dc6jgk11barm64](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A) | 2016-11-11   | Yes         |                    18 |
+| [dc6jgk9barm64](https://metrics.torproject.org/rs.html#details/78BC2254D3B31CD865F7682633AA438212132532)  | 2016-11-11   | Yes         |                    18 |
+| [dc6jgk6](https://metrics.torproject.org/rs.html#details/A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13)        | 2016-10-06   | Yes         |                    18 |
+| [dc6jgk5b](https://metrics.torproject.org/rs.html#details/846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F)       | 2016-09-05   | Yes         |                    18 |
+| [dc6jgk1](https://metrics.torproject.org/rs.html#details/486740353B905AA4731F82C0B4CC25821A62C6E3)        | 2014-06-09   | Yes         |                    18 |
 | [artikel5ev7](https://metrics.torproject.org/rs.html#details/22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F)    | 2017-08-30   | Yes         |                    17 |
 | [artikel5ev1](https://metrics.torproject.org/rs.html#details/0BC8BA32CC3CB0F598E0C92778F7C0946DFBCE91)    | 2016-10-19   | No          |                    17 |
 | [artikel5ev3b](https://metrics.torproject.org/rs.html#details/195712E96FD1C1B18D14D09E9E4E7A6416E23B2C)   | 2017-12-05   | No          |                    17 |
 | [artikel5ev4](https://metrics.torproject.org/rs.html#details/26C28F29B611DF4DE23ACF5D9DC1EB4895EF5E8B)    | 2019-01-25   | No          |                    17 |
 | [artikel5ev8](https://metrics.torproject.org/rs.html#details/4D0DF468DC816F8096702C2DA2C6FD67561F81C8)    | 2019-12-29   | No          |                    18 |
+| [Artikel5ev6](https://metrics.torproject.org/rs.html#details/4DD902046E7155BBE79C34EE6D53BF7408B98CE4)    | 2017-03-05   | No          |                    18 |
 | [artikel5ev2](https://metrics.torproject.org/rs.html#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)    | 2016-10-29   | No          |                    17 |
-| [artikel5ev9](https://metrics.torproject.org/rs.html#details/FC077C25B8DBB3132D397D7DF03C92BFC14C9D76)    | 2020-01-11   | No          |                     3 |
+| [artikel5ev9](https://metrics.torproject.org/rs.html#details/FC077C25B8DBB3132D397D7DF03C92BFC14C9D76)    | 2020-01-11   | No          |                    11 |
 
 ## ContactInfo: &lt;zwiebeln at online de&gt; please donate BTC 1K38x9xq (23) {#zwiebeln-at-online-de-please-donate-btc-1k38x9xq}
 
@@ -82,16 +83,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [Voyager](https://metrics.torproject.org/rs.html#details/DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4) | 2019-10-25   | Yes         |                     1 |
 | [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
 
-## ContactInfo: DuckSounds31@aol.com (4) {#ducksounds31aolcom}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [DuckYou](https://metrics.torproject.org/rs.html#details/AF4997738E0CFC014CD04FB09A670D2C5F1E79A4)    | 2018-03-02   | Yes         |                     3 |
-| [newsvendor](https://metrics.torproject.org/rs.html#details/061370AE41C1084B2910EB0522C8B2DB1C2CB96E) | 2018-02-05   | No          |                     4 |
-| [QuackQuack](https://metrics.torproject.org/rs.html#details/1EE15139F389FDA24400239607CB4C0BE5DD8C76) | 2018-01-31   | No          |                     3 |
-| [FlappyBird](https://metrics.torproject.org/rs.html#details/B00478C4CD2F3ACC7D6F02AF8033D2906673651F) | 2018-02-01   | No          |                     4 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,23B3EF4271E38A744E23ACC4345E56CBDB42A1A5,486740353B905AA4731F82C0B4CC25821A62C6E3,693A982584CF4DD7BF2158B640CCF9A75A87B1BD,78BC2254D3B31CD865F7682633AA438212132532,7B700C0C207EBD0002E00F499BE265519AC3C25A,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,AF4997738E0CFC014CD04FB09A670D2C5F1E79A4,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
+22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,23B3EF4271E38A744E23ACC4345E56CBDB42A1A5,486740353B905AA4731F82C0B4CC25821A62C6E3,693A982584CF4DD7BF2158B640CCF9A75A87B1BD,78BC2254D3B31CD865F7682633AA438212132532,7B700C0C207EBD0002E00F499BE265519AC3C25A,846B3EAAF0C07FF72FC79AEBB11FA3ADC58F240F,A6AA94B4007A0E2919B2DA8ECF2CFA3CA1761A13,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
