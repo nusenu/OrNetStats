@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-05-14 15:00 UTC**
+Tor network data as of: **2020-05-15 11:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,12 +34,12 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [niftylinkrat](https://metrics.torproject.org/rs.html#details/5DE37A3371AAE7638748EB43C9F1CE66E09D4470)        | 2019-01-31   | Yes         |                     1 |
-| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                   149 |
-| [niftyleastgerbil](https://metrics.torproject.org/rs.html#details/6FBD65C22C2996B2038A090BF5E55AA7AEDEE120)    | 2019-01-30   | Yes         |                     2 |
-| [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                   149 |
-| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
 | [niftymastomys](https://metrics.torproject.org/rs.html#details/24E1C6412183972BFD76D838AC04D1ED261743D3)       | 2019-01-31   | Yes         |                     1 |
+| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                   149 |
+| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
+| [niftyleastgerbil](https://metrics.torproject.org/rs.html#details/6FBD65C22C2996B2038A090BF5E55AA7AEDEE120)    | 2019-01-30   | Yes         |                     2 |
 | [niftycongogerbil](https://metrics.torproject.org/rs.html#details/85A3AC041E3FCD796AF5D653953D5E27A56E3719)    | 2019-01-31   | Yes         |                     1 |
+| [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                   149 |
 | [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                   149 |
 | [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                   149 |
 | [niftyentry77](https://metrics.torproject.org/rs.html#details/01FDC8E92D3280847D856DA1F9BFC2B4CD2C2EE8)        | 2020-03-27   | No          |                   149 |
@@ -182,6 +182,16 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftywabbit8](https://metrics.torproject.org/rs.html#details/FDFD675D05216549EB7DA545E32ECFCEEAE805F2)        | 2020-02-02   | No          |                   149 |
 | [niftywabbit16](https://metrics.torproject.org/rs.html#details/FF1ED9A17F6081DEB4607FDAF43FADF16B94A955)       | 2020-03-26   | No          |                   149 |
 
+## ContactInfo: tor-abuse&lt;at&gt;mailbox&lt;dot&gt;org (5) {#tor-abuseatmailboxdotorg}
+
+| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [AlanTuring](https://metrics.torproject.org/rs.html#details/2BB85DC5BD3C6F0D81A4F2B5882176C6BF7ECF5A)  | 2019-12-17   | Yes         |                     4 |
+| [BurningMan](https://metrics.torproject.org/rs.html#details/3CCF9573F59137E52787D9C322AC19D2BD090B70)  | 2020-02-28   | Yes         |                     4 |
+| [torturing](https://metrics.torproject.org/rs.html#details/6F647831035CDB891B33103A073AEB9028122129)   | 2019-02-13   | No          |                     4 |
+| [Nicenstein](https://metrics.torproject.org/rs.html#details/7614EF326635DA810638E2F5D449D10AE2BB7158)  | 2020-02-19   | No          |                     4 |
+| [Nicenstein2](https://metrics.torproject.org/rs.html#details/8E52CC35132AC6DF3781F539148781274D150919) | 2020-05-15   | No          |                     1 |
+
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -192,4 +202,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24E1C6412183972BFD76D838AC04D1ED261743D3,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
+0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24E1C6412183972BFD76D838AC04D1ED261743D3,2BB85DC5BD3C6F0D81A4F2B5882176C6BF7ECF5A,3CCF9573F59137E52787D9C322AC19D2BD090B70,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
