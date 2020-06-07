@@ -13,7 +13,6 @@ author:
   name: OrNetStats
   email: ornetstats AT riseup
   github: nusenu
-  twitter: nusenu
   bio: Stats about the Tor Network
 
 BASE_PATH: /OrNetStats
