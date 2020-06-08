@@ -5,27 +5,27 @@ layout: default
 
 # Detailed List of Tor Version Shares
 
-Tor network data as of: **2020-06-07 16:00 UTC**
+Tor network data as of: **2020-06-08 18:00 UTC**
 
 | Tor Version                                                                                               |   CW Fraction(%) |   Exit(%) |   Guard(%) |   #Relays |
 |:----------------------------------------------------------------------------------------------------------|-----------------:|----------:|-----------:|----------:|
-| [0.4.3.5](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.5)                     |             39   |     39.93 |      39.83 |      2204 |
-| [0.4.2.7](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.7)                     |             31.6 |     49.51 |      24.06 |      1762 |
-| [0.3.5.10](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.10)                   |              7.4 |      2.87 |       8.86 |       750 |
-| [0.4.2.6](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.6)                     |              5.3 |      2.86 |       3.22 |       555 |
-| [0.3.5.8](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.8)                     |              4.9 |      1.28 |       7.21 |       360 |
-| [0.4.1.6](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.6)                     |              4.1 |      0.85 |       6.31 |       240 |
-| [0.4.2.5](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.5)                     |              2.1 |      0.99 |       2.99 |       148 |
-| [0.4.1.9](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.9)                     |              1.4 |      0.43 |       1.9  |        71 |
-| [0.4.4.0-alpha-dev](https://metrics.torproject.org/rs.html#search/running:true version:0.4.4.0-alpha-dev) |              1   |      0.25 |       1.62 |        44 |
-| [0.3.5.7](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.7)                     |              0.6 |      0.02 |       1.16 |        34 |
-| [0.4.3.4-rc](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.4-rc)               |              0.5 |      0.44 |       0.58 |        45 |
-| [0.4.3.1-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.1-alpha)         |              0.4 |      0    |       0.72 |         5 |
-| [0.4.3.2-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.2-alpha)         |              0.3 |      0.34 |       0.4  |        15 |
-| [0.3.5.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.9)                     |              0.2 |      0    |       0.39 |         2 |
+| [0.4.3.5](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.5)                     |             39.4 |     40.45 |      40.83 |      2240 |
+| [0.4.2.7](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.7)                     |             31.4 |     49.53 |      23.34 |      1736 |
+| [0.3.5.10](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.10)                   |              7.3 |      2.61 |       8.95 |       752 |
+| [0.4.2.6](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.6)                     |              5.4 |      2.67 |       3.21 |       543 |
+| [0.3.5.8](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.8)                     |              4.8 |      1.18 |       7.05 |       359 |
+| [0.4.1.6](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.6)                     |              4.1 |      0.79 |       6.31 |       233 |
+| [0.4.2.5](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.5)                     |              2   |      1.05 |       2.81 |       148 |
+| [0.4.1.9](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.9)                     |              1.3 |      0.52 |       1.77 |        64 |
+| [0.4.4.0-alpha-dev](https://metrics.torproject.org/rs.html#search/running:true version:0.4.4.0-alpha-dev) |              1   |      0.16 |       1.65 |        43 |
+| [0.3.5.7](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.7)                     |              0.8 |      0.02 |       1.34 |        34 |
+| [0.4.3.1-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.1-alpha)         |              0.4 |      0    |       0.69 |         5 |
+| [0.4.3.4-rc](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.4-rc)               |              0.4 |      0.45 |       0.56 |        46 |
+| [0.4.3.2-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.2-alpha)         |              0.3 |      0.33 |       0.37 |        14 |
+| [0.3.5.9](https://metrics.torproject.org/rs.html#search/running:true version:0.3.5.9)                     |              0.2 |      0    |       0.36 |         2 |
 | [0.4.1.5](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.5)                     |              0.1 |      0    |       0.25 |        38 |
-| [0.4.1.7](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.7)                     |              0.1 |      0.08 |       0.18 |        14 |
-| [0.4.3.3-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.3-alpha)         |              0.1 |      0    |       0.2  |        16 |
+| [0.4.1.7](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.7)                     |              0.1 |      0.1  |       0.18 |        15 |
+| [0.4.3.3-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.3.3-alpha)         |              0.1 |      0    |       0.22 |        16 |
 | [0.4.1.8](https://metrics.torproject.org/rs.html#search/running:true version:0.4.1.8)                     |              0   |      0    |       0    |         1 |
 | [0.4.2.0-alpha-dev](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.0-alpha-dev) |              0   |      0    |       0    |         1 |
 | [0.4.2.1-alpha](https://metrics.torproject.org/rs.html#search/running:true version:0.4.2.1-alpha)         |              0   |      0    |       0.02 |         1 |
