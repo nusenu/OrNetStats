@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-06-17 15:00 UTC**
+Tor network data as of: **2020-06-18 22:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -35,13 +35,13 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                   135 |
 | [niftymastomys](https://metrics.torproject.org/rs.html#details/24E1C6412183972BFD76D838AC04D1ED261743D3)       | 2019-01-31   | Yes         |                     1 |
-| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
-| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                   135 |
-| [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                   135 |
-| [niftyleastgerbil](https://metrics.torproject.org/rs.html#details/6FBD65C22C2996B2038A090BF5E55AA7AEDEE120)    | 2019-01-30   | Yes         |                     2 |
-| [niftycongogerbil](https://metrics.torproject.org/rs.html#details/85A3AC041E3FCD796AF5D653953D5E27A56E3719)    | 2019-01-31   | Yes         |                     1 |
 | [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                   135 |
+| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
+| [niftycongogerbil](https://metrics.torproject.org/rs.html#details/85A3AC041E3FCD796AF5D653953D5E27A56E3719)    | 2019-01-31   | Yes         |                     1 |
+| [niftyleastgerbil](https://metrics.torproject.org/rs.html#details/6FBD65C22C2996B2038A090BF5E55AA7AEDEE120)    | 2019-01-30   | Yes         |                     2 |
 | [niftylinkrat](https://metrics.torproject.org/rs.html#details/5DE37A3371AAE7638748EB43C9F1CE66E09D4470)        | 2019-01-31   | Yes         |                     1 |
+| [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                   135 |
+| [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                   135 |
 | [niftyentry77](https://metrics.torproject.org/rs.html#details/01FDC8E92D3280847D856DA1F9BFC2B4CD2C2EE8)        | 2020-03-27   | No          |                   135 |
 | [niftyentry116](https://metrics.torproject.org/rs.html#details/02758CD398E3F842EF82478078AAAE0273770DB2)       | 2020-03-27   | No          |                   135 |
 | [niftyguard15](https://metrics.torproject.org/rs.html#details/05F5BB75DA007361CE03770393033D4D52836D8A)        | 2020-03-26   | No          |                   135 |
@@ -179,14 +179,7 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/64B43A6198B6C1F97D9ED8929F5A8913C3815935) | 2020-04-28   | Yes         |                     1 |
 | [SatoshiNakamoto](https://metrics.torproject.org/rs.html#details/1939CC1B41298A49C0684878813DED5CD1A9EE98) | 2019-03-29   | No          |                     1 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4) | 2019-10-25   | Yes         |                     1 |
-| [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24E1C6412183972BFD76D838AC04D1ED261743D3,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,64B43A6198B6C1F97D9ED8929F5A8913C3815935,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
+0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24E1C6412183972BFD76D838AC04D1ED261743D3,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,64B43A6198B6C1F97D9ED8929F5A8913C3815935,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
