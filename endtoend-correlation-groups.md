@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-06-22 16:00 UTC**
+Tor network data as of: **2020-06-23 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,19 +29,29 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to bad-relays AT lists DOT torproject DOT org.
 
 
-## ContactInfo: abuse-contact@to-surf-and-protect.net (135) {#abuse-contactto-surf-and-protectnet}
+## ContactInfo: abuse-contact@to-surf-and-protect.net (141) {#abuse-contactto-surf-and-protectnet}
 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [niftymastomys](https://metrics.torproject.org/rs.html#details/24E1C6412183972BFD76D838AC04D1ED261743D3)       | 2019-01-31   | Yes         |                     1 |
 | [niftyalloeumyarion](https://metrics.torproject.org/rs.html#details/96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F)  | 2019-01-05   | Yes         |                   142 |
-| [niftycongogerbil](https://metrics.torproject.org/rs.html#details/85A3AC041E3FCD796AF5D653953D5E27A56E3719)    | 2019-01-31   | Yes         |                     1 |
-| [niftylinkrat](https://metrics.torproject.org/rs.html#details/5DE37A3371AAE7638748EB43C9F1CE66E09D4470)        | 2019-01-31   | Yes         |                     1 |
 | [niftyphoberomys](https://metrics.torproject.org/rs.html#details/87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8)     | 2019-01-05   | Yes         |                   142 |
+| [niftymastomys](https://metrics.torproject.org/rs.html#details/24E1C6412183972BFD76D838AC04D1ED261743D3)       | 2019-01-31   | Yes         |                     1 |
 | [niftyleastgerbil](https://metrics.torproject.org/rs.html#details/6FBD65C22C2996B2038A090BF5E55AA7AEDEE120)    | 2019-01-30   | Yes         |                     2 |
+| [niftylinkrat](https://metrics.torproject.org/rs.html#details/5DE37A3371AAE7638748EB43C9F1CE66E09D4470)        | 2019-01-31   | Yes         |                     1 |
+| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
 | [niftyflorescaverat](https://metrics.torproject.org/rs.html#details/0677DF0B05ECDA2EF45F26C3332731043BB89AB8)  | 2019-01-05   | Yes         |                   142 |
 | [niftydiatomys](https://metrics.torproject.org/rs.html#details/A016192D0A87FC9354A7523A211BBD9CF859708B)       | 2019-01-05   | Yes         |                   142 |
-| [niftywatersgerbil](https://metrics.torproject.org/rs.html#details/E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674)   | 2019-01-30   | Yes         |                     2 |
+| [niftycongogerbil](https://metrics.torproject.org/rs.html#details/85A3AC041E3FCD796AF5D653953D5E27A56E3719)    | 2019-01-31   | Yes         |                     1 |
+| [niftyentry99](https://metrics.torproject.org/rs.html#details/8CA736F332937E4FA0F5F48488B823F31883123C)        | 2020-03-27   | Yes         |                   142 |
+| [niftyentry95](https://metrics.torproject.org/rs.html#details/863FDDA3CA537CE03646B3AEBD3FD1CC6B077FBE)        | 2020-03-27   | Yes         |                   142 |
+| [niftyentry115](https://metrics.torproject.org/rs.html#details/5CCC3569C67B7F1BB733664D43DF4645F2A4B04D)       | 2020-03-27   | Yes         |                   142 |
+| [niftyentry108](https://metrics.torproject.org/rs.html#details/28A4C64C34120E075701B0415D74906EC687F21F)       | 2020-03-27   | Yes         |                   142 |
+| [niftyguard09](https://metrics.torproject.org/rs.html#details/31F373571AA6ECB4D73266E114D58B0AF7227369)        | 2020-03-26   | Yes         |                   142 |
+| [niftyentry80](https://metrics.torproject.org/rs.html#details/8BE58BA7A28DC6B4F211CE8EE86783B85133488D)        | 2020-03-27   | Yes         |                   142 |
+| [niftywabbit14](https://metrics.torproject.org/rs.html#details/24352D30196BEFE5BB29A50923F79A2804527611)       | 2020-03-26   | Yes         |                   142 |
+| [niftywabbit15](https://metrics.torproject.org/rs.html#details/4AD9C116A1942D58A714433CA24F087F18036A7E)       | 2020-03-26   | Yes         |                   142 |
+| [niftyentry77](https://metrics.torproject.org/rs.html#details/01FDC8E92D3280847D856DA1F9BFC2B4CD2C2EE8)        | 2020-03-27   | No          |                   142 |
+| [niftyentry116](https://metrics.torproject.org/rs.html#details/02758CD398E3F842EF82478078AAAE0273770DB2)       | 2020-03-27   | No          |                   142 |
 | [niftyguard15](https://metrics.torproject.org/rs.html#details/05F5BB75DA007361CE03770393033D4D52836D8A)        | 2020-03-26   | No          |                   142 |
 | [niftyguard19](https://metrics.torproject.org/rs.html#details/0A4ED4C74020740A904F3A9936030B7A4C6170BB)        | 2020-03-26   | No          |                   142 |
 | [niftyboglemming](https://metrics.torproject.org/rs.html#details/0B3C8C2B2B1A1CA4429B9649F533BEB4D7470AEA)     | 2019-01-25   | No          |                   142 |
@@ -59,9 +69,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftyneochoerus](https://metrics.torproject.org/rs.html#details/2A231A5CA7AF91029B7475511D7D16DF85EC9221)     | 2019-01-05   | No          |                   142 |
 | [niftyexit8](https://metrics.torproject.org/rs.html#details/2E44E8EB8C7711C1157BD8025F07165CFF8FA2B6)          | 2020-03-19   | No          |                   142 |
 | [niftywabbit2](https://metrics.torproject.org/rs.html#details/2F64EA527C4AA6F99E261318DD1FF127828E2525)        | 2020-02-02   | No          |                   142 |
-| [niftyguard79](https://metrics.torproject.org/rs.html#details/2FD03FFE27AF20DD6B1CBE5ABEFEF7B06693D557)        | 2020-03-26   | No          |                   142 |
 | [niftywabbit](https://metrics.torproject.org/rs.html#details/30DBF7A773F4EE3BF6D1B7407DAECF40220AC8CD)         | 2020-02-02   | No          |                   142 |
-| [niftyguard09](https://metrics.torproject.org/rs.html#details/31F373571AA6ECB4D73266E114D58B0AF7227369)        | 2020-03-26   | No          |                   142 |
+| [niftyentry113](https://metrics.torproject.org/rs.html#details/30E747B3058994CCCBEAF8B5B4791A9F1628AB7D)       | 2020-03-27   | No          |                   142 |
 | [niftysquirrel](https://metrics.torproject.org/rs.html#details/348B89013EDDD99E4755951D1EC284D9FED71226)       | 2016-09-20   | No          |                   142 |
 | [niftyentry78](https://metrics.torproject.org/rs.html#details/380F79145FF9C2332CBF41313062C99DBA9B0E50)        | 2020-03-27   | No          |                   142 |
 | [niftywabbit19](https://metrics.torproject.org/rs.html#details/39F17EC1BD41E652D1B80484D268E3933476FF42)       | 2020-03-26   | No          |                   142 |
@@ -72,7 +81,6 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftysugarglider](https://metrics.torproject.org/rs.html#details/47C42E2094EE482E7C9B586B10BABFB67557030B)    | 2016-08-30   | No          |                   142 |
 | [niftysteppemarmot](https://metrics.torproject.org/rs.html#details/48BE372CA2104D2422D49CD321060E7F697B52D9)   | 2019-01-31   | No          |                   142 |
 | [niftyguard41](https://metrics.torproject.org/rs.html#details/4AD0B40B0FC679CC300F398BCEBE9D000833F62C)        | 2020-03-26   | No          |                   142 |
-| [niftywabbit15](https://metrics.torproject.org/rs.html#details/4AD9C116A1942D58A714433CA24F087F18036A7E)       | 2020-03-26   | No          |                   142 |
 | [niftyguard54](https://metrics.torproject.org/rs.html#details/4C07CB3365CF3E06A56FD2DC8ECA4E97A6521983)        | 2020-03-26   | No          |                   142 |
 | [niftywabbit18](https://metrics.torproject.org/rs.html#details/50A0CFB654D39F420F52D362B1DF50A12B33D5A0)       | 2020-03-26   | No          |                   142 |
 | [niftydiatomys](https://metrics.torproject.org/rs.html#details/50B787A9FB21417BFD7B5067707DBF82D71DB11C)       | 2019-06-24   | No          |                   142 |
@@ -104,13 +112,11 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 | [niftyporcupine](https://metrics.torproject.org/rs.html#details/7E281CD2C315C4F7A84BC7C8721C3BC974DDBFA3)      | 2016-11-25   | No          |                   142 |
 | [niftyentry100](https://metrics.torproject.org/rs.html#details/7ED3D8AFAC750F8CC0BDF8C87FE3BCBA2BBE2209)       | 2020-03-27   | No          |                   142 |
 | [niftyguard02](https://metrics.torproject.org/rs.html#details/7F7BE7926AF718D6A3DED24D694D94C1D5FACF28)        | 2020-03-26   | No          |                   142 |
-| [niftyentry95](https://metrics.torproject.org/rs.html#details/863FDDA3CA537CE03646B3AEBD3FD1CC6B077FBE)        | 2020-03-27   | No          |                   142 |
+| [niftyguard57](https://metrics.torproject.org/rs.html#details/8054F105829438B029E7265BB1070F9258705112)        | 2020-03-26   | No          |                   142 |
 | [niftyguard49](https://metrics.torproject.org/rs.html#details/8839E8FBE28219B85392EEA5A4DBC41D315F4B83)        | 2020-03-26   | No          |                   142 |
 | [niftytamiasaristus](https://metrics.torproject.org/rs.html#details/88AE3BC088396F1D3FCC4F2F588C0DC837599D20)  | 2018-12-16   | No          |                   142 |
-| [niftyentry80](https://metrics.torproject.org/rs.html#details/8BE58BA7A28DC6B4F211CE8EE86783B85133488D)        | 2020-03-27   | No          |                   142 |
-| [niftyguard51](https://metrics.torproject.org/rs.html#details/8C9DF7FE2C6C8E253048D07EB1F3986841CF2407)        | 2020-03-26   | No          |                   142 |
-| [niftyentry99](https://metrics.torproject.org/rs.html#details/8CA736F332937E4FA0F5F48488B823F31883123C)        | 2020-03-27   | No          |                   142 |
 | [niftyjerboa](https://metrics.torproject.org/rs.html#details/8EE0534532EA31AA5172B1892F53B2F25C76EB02)         | 2016-08-30   | No          |                   142 |
+| [niftyentry74](https://metrics.torproject.org/rs.html#details/8FF2896A94BCAA5F0A7C5A56AD6586492CD448AF)        | 2020-03-27   | No          |                   142 |
 | [niftywabbit12](https://metrics.torproject.org/rs.html#details/902E21BC05A7B1EC8CE85D78C47C3D8EAD5EFE6F)       | 2020-03-26   | No          |                   142 |
 | [niftyquokka](https://metrics.torproject.org/rs.html#details/906DCB390F2BA987AE258D745E60BAAABAD31DE8)         | 2016-08-03   | No          |                   142 |
 | [niftypedetes](https://metrics.torproject.org/rs.html#details/92A6085EABAADD928B6F8E871540A1A41CBC08BA)        | 2016-08-24   | No          |                   142 |
@@ -179,4 +185,4 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24E1C6412183972BFD76D838AC04D1ED261743D3,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,64B43A6198B6C1F97D9ED8929F5A8913C3815935,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
+0677DF0B05ECDA2EF45F26C3332731043BB89AB8,24352D30196BEFE5BB29A50923F79A2804527611,24E1C6412183972BFD76D838AC04D1ED261743D3,28A4C64C34120E075701B0415D74906EC687F21F,31F373571AA6ECB4D73266E114D58B0AF7227369,4AD9C116A1942D58A714433CA24F087F18036A7E,5CCC3569C67B7F1BB733664D43DF4645F2A4B04D,5DE37A3371AAE7638748EB43C9F1CE66E09D4470,64B43A6198B6C1F97D9ED8929F5A8913C3815935,6FBD65C22C2996B2038A090BF5E55AA7AEDEE120,85A3AC041E3FCD796AF5D653953D5E27A56E3719,863FDDA3CA537CE03646B3AEBD3FD1CC6B077FBE,87D73471FDC64BD9CEDF84435D20CA4EB5C36FE8,8BE58BA7A28DC6B4F211CE8EE86783B85133488D,8CA736F332937E4FA0F5F48488B823F31883123C,96CFE178A1D12489D9D59A0CAE17FE86F5A3A79F,A016192D0A87FC9354A7523A211BBD9CF859708B,E97DAC45ED2AB46DD830A279BDCC7AFCE10EE674
