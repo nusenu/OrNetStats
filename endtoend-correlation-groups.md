@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-08-15 06:00 UTC**
+Tor network data as of: **2020-08-16 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,8 +33,8 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [iansh5r](https://metrics.torproject.org/rs.html#details/FEE41B4BC3056FD2B3BF04E20CAC5AD3904CD5AD)   | 2020-07-05   | Yes         |                    38 |
 | [iansh5r](https://metrics.torproject.org/rs.html#details/1685E8A79D1D01E4FBC135CD91341C4A4ED802E6)   | 2020-07-05   | Yes         |                    38 |
+| [iansh5r](https://metrics.torproject.org/rs.html#details/FEE41B4BC3056FD2B3BF04E20CAC5AD3904CD5AD)   | 2020-07-05   | Yes         |                    38 |
 | [iansh9r](https://metrics.torproject.org/rs.html#details/650FF4A32965D378A55D42A29F6FD1CE914959D3)   | 2020-07-05   | Yes         |                    38 |
 | [iansh9r](https://metrics.torproject.org/rs.html#details/C8C46E3E4F00A92C344B367E45F9D63EBB831DE1)   | 2020-07-05   | Yes         |                    38 |
 | [iansh8r](https://metrics.torproject.org/rs.html#details/D2F16CBF1BD891968D65D44CD21507E3371279F3)   | 2020-07-05   | Yes         |                    38 |
