@@ -5,7 +5,7 @@ layout: default
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-08-29 18:00 UTC**
+Tor network data as of: **2020-08-31 21:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,20 +33,20 @@ If someone else is using your contactInfo please send an email to bad-relays AT 
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [FissionEx3](https://metrics.torproject.org/rs.html#details/4FDDFAD51B24DDABB62FB59071F4DC421E76C685)    | 2018-10-15   | Yes         |                    22 |
 | [Fission09](https://metrics.torproject.org/rs.html#details/98138DFD3E2C8C89D8F5AB11EF9B6BFF272D83B4)     | 2019-02-05   | Yes         |                    22 |
+| [FissionEx3](https://metrics.torproject.org/rs.html#details/4FDDFAD51B24DDABB62FB59071F4DC421E76C685)    | 2018-10-15   | Yes         |                    22 |
 | [Fission05](https://metrics.torproject.org/rs.html#details/71539D1911ECB826069A4D156771AC4F9F4632A7)     | 2018-02-06   | Yes         |                    22 |
-| [Fission11](https://metrics.torproject.org/rs.html#details/929BB84A68198CE35E2F2828812840AF5C2CBC4A)     | 2019-02-06   | Yes         |                    22 |
-| [Fission07](https://metrics.torproject.org/rs.html#details/5D765770B4DB110D88787457978AB4008CF65CAC)     | 2018-02-06   | Yes         |                    22 |
 | [Fission08](https://metrics.torproject.org/rs.html#details/53134D9637D9FBE565FA1E3AF82B23CC964C56D6)     | 2018-02-06   | Yes         |                    22 |
-| [Fission12](https://metrics.torproject.org/rs.html#details/C303038FDCC72805A160FF64E994333A49ECDA71)     | 2020-01-24   | Yes         |                    22 |
 | [Fission10](https://metrics.torproject.org/rs.html#details/438DC9B6B5C5375D332BB338D7E5C1B9EF448960)     | 2019-02-05   | Yes         |                    22 |
+| [Fission07](https://metrics.torproject.org/rs.html#details/5D765770B4DB110D88787457978AB4008CF65CAC)     | 2018-02-06   | Yes         |                    22 |
 | [Fission04](https://metrics.torproject.org/rs.html#details/0B841CB70F9ED1FD0322C2BA2EB0D80420D87CFA)     | 2020-01-04   | Yes         |                    22 |
-| [Fission01](https://metrics.torproject.org/rs.html#details/62712B2C24A169B24336CD2FE2BE55DA67476C8B)     | 2018-01-07   | Yes         |                    22 |
-| [FissionEx4](https://metrics.torproject.org/rs.html#details/3B4C5729F829CA2E895B81AF834A63DB336D0FFE)    | 2019-02-03   | Yes         |                    22 |
 | [Fission06](https://metrics.torproject.org/rs.html#details/91E7CA6B8D0AAD77C7CFB8FEA25BF4F46DA1042A)     | 2018-02-06   | Yes         |                    22 |
-| [Fission02](https://metrics.torproject.org/rs.html#details/937F201D2797314953F268D252F5C98D3FA9F71E)     | 2018-01-07   | Yes         |                    22 |
+| [FissionEx4](https://metrics.torproject.org/rs.html#details/3B4C5729F829CA2E895B81AF834A63DB336D0FFE)    | 2019-02-03   | Yes         |                    22 |
+| [Fission11](https://metrics.torproject.org/rs.html#details/929BB84A68198CE35E2F2828812840AF5C2CBC4A)     | 2019-02-06   | Yes         |                    22 |
 | [Fission03](https://metrics.torproject.org/rs.html#details/4F500157ABF70A1A94636D268A742A8B227B8BFD)     | 2020-01-04   | Yes         |                    22 |
+| [Fission02](https://metrics.torproject.org/rs.html#details/937F201D2797314953F268D252F5C98D3FA9F71E)     | 2018-01-07   | Yes         |                    22 |
+| [Fission01](https://metrics.torproject.org/rs.html#details/62712B2C24A169B24336CD2FE2BE55DA67476C8B)     | 2018-01-07   | Yes         |                    22 |
+| [Fission12](https://metrics.torproject.org/rs.html#details/C303038FDCC72805A160FF64E994333A49ECDA71)     | 2020-01-24   | Yes         |                    22 |
 | [FissionEx6](https://metrics.torproject.org/rs.html#details/20CD933EDC7260B19040475B24FD6B01B73E94BB)    | 2020-08-10   | Yes         |                     1 |
 | [FissionMasq05](https://metrics.torproject.org/rs.html#details/41427448C41642832130C2C29AF1FEAC3B3EED35) | 2020-02-26   | No          |                    22 |
 | [FissionEx2](https://metrics.torproject.org/rs.html#details/460E5B882770C19761BC5747541913DB2AD01E35)    | 2018-07-08   | No          |                    22 |
