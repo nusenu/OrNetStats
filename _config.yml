@@ -105,4 +105,4 @@ description: "OrNetStats allows you to explore the relays that make up the tor n
 
 # needed for sitemap.xml file only
 url: nusenu.github.io
-baseurl: /ornetstats-test
+baseurl: /OrNetStats
