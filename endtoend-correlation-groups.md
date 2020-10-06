@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-10-05 16:00 UTC**
+Tor network data as of: **2020-10-06 14:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: tor-operator@your-emailaddress-domain (6) {#tor-operatoryour-emailaddress-domain}
-
-| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [SuchaNiceRelay](https://metrics.torproject.org/rs.html#details/93FFDC0C36C316208AC6291DE754D733B4D88A13)     | 2020-04-23   | Yes         |                     1 |
-| [Marsu](https://metrics.torproject.org/rs.html#details/1DE8E81240D20D9755B29A8AEA131BE2CD537FB8)              | 2020-01-01   | Yes         |                     1 |
-| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)       | 2018-10-29   | Yes         |                     1 |
-| [BanderaHuesosochka](https://metrics.torproject.org/rs.html#details/304B186CC793A0BA6E63C2D360C99D500DBDB9E4) | 2020-09-30   | No          |                     1 |
-| [aabbcc](https://metrics.torproject.org/rs.html#details/E7C1FAFB7525149A0E911512F511D942BA5EEAAF)             | 2019-05-29   | No          |                     1 |
-| [Goodspeed](https://metrics.torproject.org/rs.html#details/F311EFECFF1EA0E05D0B7F35CCF056AB5142B5BE)          | 2020-09-15   | No          |                     1 |
-
 ## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
 
 | Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
@@ -50,4 +39,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1DE8E81240D20D9755B29A8AEA131BE2CD537FB8,400C053623F36C5C3D1CFC73F1AB9DA6E24DEEB7,93FFDC0C36C316208AC6291DE754D733B4D88A13,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
+DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
