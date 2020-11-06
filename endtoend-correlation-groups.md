@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-11-05 17:00 UTC**
+Tor network data as of: **2020-11-06 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [crypt0Dude01](https://metrics.torproject.org/rs.html#details/6CD171AD2C407711CBFD5BFDA79CB7F6A74C3252)       | 2020-09-30   | Yes         |                     1 |
-| [aabbcc](https://metrics.torproject.org/rs.html#details/6C12C06131E103C1703B2037CC3386B69C0BCAC4)             | 2020-10-13   | Yes         |                     1 |
 | [phenix](https://metrics.torproject.org/rs.html#details/08CE663363148E992595724A2B29BF8EE68D32A4)             | 2020-10-11   | Yes         |                     1 |
+| [aabbcc](https://metrics.torproject.org/rs.html#details/6C12C06131E103C1703B2037CC3386B69C0BCAC4)             | 2020-10-13   | Yes         |                     1 |
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)       | 2018-10-29   | Yes         |                     1 |
 | [SuchaNiceRelay](https://metrics.torproject.org/rs.html#details/93FFDC0C36C316208AC6291DE754D733B4D88A13)     | 2020-04-23   | Yes         |                     1 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/1DE8E81240D20D9755B29A8AEA131BE2CD537FB8)              | 2020-01-01   | Yes         |                     1 |
