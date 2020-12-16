@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-14 17:00 UTC**
+Tor network data as of: **2020-12-16 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,8 +41,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra7](https://metrics.torproject.org/rs.html#details/C013F6A7A2297FA4CD00D05EF4A1C5222B844B25)   | 2019-08-21   | Yes         |                    30 |
 | [Hydra14](https://metrics.torproject.org/rs.html#details/01B70C7C497FC8667DB5EB82C40D8F9214D6A484)  | 2019-12-29   | Yes         |                    30 |
+| [Hydra7](https://metrics.torproject.org/rs.html#details/C013F6A7A2297FA4CD00D05EF4A1C5222B844B25)   | 2019-08-21   | Yes         |                    30 |
 | [Hydra5](https://metrics.torproject.org/rs.html#details/034AA4B30F77DF0FE183602EA7F8251FF2CF1BA2)   | 2019-11-23   | No          |                    30 |
 | [Hydra2](https://metrics.torproject.org/rs.html#details/0443D98C0C44D3E0E6238790345DB5624DB41B28)   | 2019-12-05   | No          |                    30 |
 | [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C)   | 2017-01-06   | No          |                    30 |
@@ -79,12 +79,12 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [BKA](https://metrics.torproject.org/rs.html#details/DA580E4EB2A453298D40F73ECFC78E896B001182)      | 2020-10-07   | Yes         |                     6 |
+| [BKA](https://metrics.torproject.org/rs.html#details/DA580E4EB2A453298D40F73ECFC78E896B001182)      | 2020-10-07   | Yes         |                     5 |
 | [Loki](https://metrics.torproject.org/rs.html#details/0ADAC68F29875A1366F06762F2B305B0BFD11364)     | 2020-12-02   | No          |                     1 |
-| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     6 |
-| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     7 |
-| [Freya](https://metrics.torproject.org/rs.html#details/85ED839A03D10C46219609625D7FEAE59EDCCFDD)    | 2020-05-27   | No          |                     6 |
-| [Kallisto](https://metrics.torproject.org/rs.html#details/D4C5BAEA92CADCC02D64E0DD9F1A49024C57F05C) | 2020-09-11   | No          |                     6 |
+| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     5 |
+| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     6 |
+| [Freya](https://metrics.torproject.org/rs.html#details/85ED839A03D10C46219609625D7FEAE59EDCCFDD)    | 2020-05-27   | No          |                     5 |
+| [Kallisto](https://metrics.torproject.org/rs.html#details/D4C5BAEA92CADCC02D64E0DD9F1A49024C57F05C) | 2020-09-11   | No          |                     5 |
 
 ## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (20) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
@@ -110,6 +110,18 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute19](https://metrics.torproject.org/rs.html#details/E8663924FE2AAD4E081A17ED6976D0AE8010F47B) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
+
+## ContactInfo: citizen17 at tutamail dot com (7) {#citizen17attutamaildotcom}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [citizen17](https://metrics.torproject.org/rs.html#details/5B6F8535D0DFB1C26FE54E15FA3C82D8D8AB380B) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/16627D07DEF8F4E59995D6D8FA71E9B0B70CB76C) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/271C445DEAA2E0DB1E740CDBC61D77BA9133155B) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/53887FD502CE6CF4FE10592D1D74D9480251AF1E) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/A959D9E66BA7366915F4C1C08980398D824C7D6A) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/D0FD0C8A33CF12BA912BC0B2A17A2D5D56418C39) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/D37318440E1A94D1C2055A43B536ECC9406994CD) | 2020-09-06   | No          |                     1 |
 
 ## ContactInfo: tor at a9 dot wtf (2) {#torata9dotwtf}
 
