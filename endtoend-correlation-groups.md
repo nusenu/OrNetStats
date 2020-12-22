@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-20 13:00 UTC**
+Tor network data as of: **2020-12-22 22:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -111,15 +111,12 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: citizen17 at tutamail dot com (7) {#citizen17attutamaildotcom}
+## ContactInfo: citizen17 at tutamail dot com (4) {#citizen17attutamaildotcom}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [citizen17](https://metrics.torproject.org/rs.html#details/5B6F8535D0DFB1C26FE54E15FA3C82D8D8AB380B) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/234E86C5BE039617697D5D78ED4E1BB811DF4A63) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/271C445DEAA2E0DB1E740CDBC61D77BA9133155B) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/53887FD502CE6CF4FE10592D1D74D9480251AF1E) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/A959D9E66BA7366915F4C1C08980398D824C7D6A) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/D0FD0C8A33CF12BA912BC0B2A17A2D5D56418C39) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/D37318440E1A94D1C2055A43B536ECC9406994CD) | 2020-09-06   | No          |                     1 |
 
