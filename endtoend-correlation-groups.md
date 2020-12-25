@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-24 12:00 UTC**
+Tor network data as of: **2020-12-25 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,8 +41,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra14](https://metrics.torproject.org/rs.html#details/01B70C7C497FC8667DB5EB82C40D8F9214D6A484)  | 2019-12-29   | Yes         |                    30 |
 | [Hydra7](https://metrics.torproject.org/rs.html#details/C013F6A7A2297FA4CD00D05EF4A1C5222B844B25)   | 2019-08-21   | Yes         |                    30 |
+| [Hydra14](https://metrics.torproject.org/rs.html#details/01B70C7C497FC8667DB5EB82C40D8F9214D6A484)  | 2019-12-29   | Yes         |                    30 |
 | [Hydra5](https://metrics.torproject.org/rs.html#details/034AA4B30F77DF0FE183602EA7F8251FF2CF1BA2)   | 2019-11-23   | No          |                    30 |
 | [Hydra2](https://metrics.torproject.org/rs.html#details/0443D98C0C44D3E0E6238790345DB5624DB41B28)   | 2019-12-05   | No          |                    30 |
 | [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C)   | 2017-01-06   | No          |                    30 |
@@ -124,14 +124,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [NeelTorExitB](https://metrics.torproject.org/rs.html#details/A69CEB30328B1E85C6B167FECAF2F509CBD9517F)  | 2020-07-28   | No          |                     6 |
 | [NeelTorExit2](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     1 |
 
-## ContactInfo: citizen17 at tutamail dot com (6) {#citizen17attutamaildotcom}
+## ContactInfo: citizen17 at tutamail dot com (5) {#citizen17attutamaildotcom}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [citizen17](https://metrics.torproject.org/rs.html#details/5B6F8535D0DFB1C26FE54E15FA3C82D8D8AB380B) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/234E86C5BE039617697D5D78ED4E1BB811DF4A63) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/271C445DEAA2E0DB1E740CDBC61D77BA9133155B) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/53887FD502CE6CF4FE10592D1D74D9480251AF1E) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/D0FD0C8A33CF12BA912BC0B2A17A2D5D56418C39) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/D37318440E1A94D1C2055A43B536ECC9406994CD) | 2020-09-06   | No          |                     1 |
 
