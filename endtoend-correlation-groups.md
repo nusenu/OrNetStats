@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-25 12:00 UTC**
+Tor network data as of: **2020-12-26 11:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -36,44 +36,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [privexrelayde1](https://metrics.torproject.org/rs.html#details/C64EB4553AA308D8FBC314D73B44178E4CB11C35)  | 2020-11-22   | Yes         |                     2 |
 | [privexrelayfin1](https://metrics.torproject.org/rs.html#details/C3ACB0492A644E27A549BC3CDF3B7A129186E3BF) | 2018-09-27   | Yes         |                     3 |
 | [privexse1exit](https://metrics.torproject.org/rs.html#details/D8A1F5A8EA1AF53E3414B9C48FE6B10C31ACC9B2)   | 2019-06-26   | No          |                     2 |
-
-## ContactInfo: abuse-node49 AT posteo DOT de (33) {#abuse-node49-at-posteo-dot-de}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra7](https://metrics.torproject.org/rs.html#details/C013F6A7A2297FA4CD00D05EF4A1C5222B844B25)   | 2019-08-21   | Yes         |                    30 |
-| [Hydra14](https://metrics.torproject.org/rs.html#details/01B70C7C497FC8667DB5EB82C40D8F9214D6A484)  | 2019-12-29   | Yes         |                    30 |
-| [Hydra5](https://metrics.torproject.org/rs.html#details/034AA4B30F77DF0FE183602EA7F8251FF2CF1BA2)   | 2019-11-23   | No          |                    30 |
-| [Hydra2](https://metrics.torproject.org/rs.html#details/0443D98C0C44D3E0E6238790345DB5624DB41B28)   | 2019-12-05   | No          |                    30 |
-| [Hydra1](https://metrics.torproject.org/rs.html#details/0647C3F8352BBFA0D57A1C3E0DCF67FC3E073D2C)   | 2017-01-06   | No          |                    30 |
-| [Hydra6](https://metrics.torproject.org/rs.html#details/1050FC79C5F1103B185300EF72DDF5B4EDC683C9)   | 2020-12-05   | No          |                    30 |
-| [Hydra12](https://metrics.torproject.org/rs.html#details/180A5BCC01866E09E4D229B6C084CD1E3C75636F)  | 2019-12-15   | No          |                    30 |
-| [Hydra26](https://metrics.torproject.org/rs.html#details/1940398159C3C571939363DDE8044F3DB8B97394)  | 2020-11-20   | No          |                    30 |
-| [Hydra16](https://metrics.torproject.org/rs.html#details/1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A)  | 2020-06-09   | No          |                    30 |
-| [Hydra30](https://metrics.torproject.org/rs.html#details/22C1314867920DA37001DAD1A63F1D5CABF9DB11)  | 2020-12-02   | No          |                    30 |
-| [Hydra3](https://metrics.torproject.org/rs.html#details/27D02579AD5F3E32895D99C38E482D1DC6CBAE5E)   | 2019-10-17   | No          |                    30 |
-| [Hydra29](https://metrics.torproject.org/rs.html#details/2DEF8010770472367EB2089CA0A50A17B211E78A)  | 2020-12-02   | No          |                    30 |
-| [Hydra13](https://metrics.torproject.org/rs.html#details/39C37AFC908D12BB79B34EB6298929BC51C2E651)  | 2020-12-03   | No          |                    30 |
-| [Hydra18](https://metrics.torproject.org/rs.html#details/3AD29FE1241B73595F99BA2C6D830AF0B6874043)  | 2020-06-30   | No          |                    30 |
-| [Hydra28](https://metrics.torproject.org/rs.html#details/427956E3F23EEBA31954CB0942AEA0ECD43A004A)  | 2020-11-20   | No          |                    30 |
-| [Hydra15](https://metrics.torproject.org/rs.html#details/4BA3C12B073B7E3F7977C46AF3638685BB89493F)  | 2020-12-02   | No          |                    30 |
-| [Hydra10](https://metrics.torproject.org/rs.html#details/4F68F1B23FCED9D17852FFFDE21637C284BCF107)  | 2020-12-05   | No          |                    30 |
-| [Hydra21](https://metrics.torproject.org/rs.html#details/5B7C577DDEBC6B2C39B55364F4EAD69FE8181067)  | 2020-10-05   | No          |                    30 |
-| [Hydra6a](https://metrics.torproject.org/rs.html#details/63DE54637F349FD686CF1C036827B5BE826B9F7C)  | 2018-12-27   | No          |                     3 |
-| [Hydra4](https://metrics.torproject.org/rs.html#details/6C0E4E223B1C7E4366FFABA33BF033636A867865)   | 2020-12-05   | No          |                    30 |
-| [Hydra25](https://metrics.torproject.org/rs.html#details/6CB18098F50819DEAB22E369EC3A5661A552A66C)  | 2020-11-20   | No          |                    30 |
-| [Hydra11](https://metrics.torproject.org/rs.html#details/70A4372ED8F5DDE3BA05A17491BB6032EAC02692)  | 2019-11-15   | No          |                    30 |
-| [Hydra8](https://metrics.torproject.org/rs.html#details/7716DE8030A56A80080446E0CBC59738605454E6)   | 2019-11-23   | No          |                    30 |
-| [Hydra20](https://metrics.torproject.org/rs.html#details/86E479266EBB982E204009532ED460628689E5B5)  | 2020-10-07   | No          |                    30 |
-| [Hydra13a](https://metrics.torproject.org/rs.html#details/8CDF2F3A8ABD834CF9F3E8FC202DF64625BFB443) | 2020-02-10   | No          |                     3 |
-| [Hydra24](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE)  | 2020-11-11   | No          |                    30 |
-| [Hydra27](https://metrics.torproject.org/rs.html#details/A0A91967046F7A9BC3154C7B3C3FDE34C02B1017)  | 2020-11-20   | No          |                    30 |
-| [Hydra4a](https://metrics.torproject.org/rs.html#details/B3DA9D673321B92253DCCD38A9740F2C562C91EA)  | 2019-08-20   | No          |                     3 |
-| [Hydra22](https://metrics.torproject.org/rs.html#details/BD33EF180B1118B00BDF073E2771210E3BDDD8CD)  | 2020-11-11   | No          |                    30 |
-| [Hydra9](https://metrics.torproject.org/rs.html#details/CB28925DA61069A43584030D2610471F1FFD4100)   | 2019-02-10   | No          |                    30 |
-| [Hydra17](https://metrics.torproject.org/rs.html#details/E3DAF067B028450B31CF5CE118F2F9AC53146ABD)  | 2020-06-09   | No          |                    30 |
-| [Hydra19](https://metrics.torproject.org/rs.html#details/E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5)  | 2020-06-30   | No          |                    30 |
-| [Hydra23](https://metrics.torproject.org/rs.html#details/F7ED4158B7114617E8F737C65DBE87EE6B83445B)  | 2020-11-11   | No          |                    30 |
 
 ## ContactInfo: abuse at yggdrasil dot ws (6) {#abuseatyggdrasildotws}
 
@@ -111,28 +73,28 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (8) {#neel-chauhan-neel-at-neelc-dot-org}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     6 |
-| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     6 |
-| [NeelTorExitE](https://metrics.torproject.org/rs.html#details/02AB0923AFF5A47DD011C343F79864C45E9FFB34)  | 2020-05-30   | No          |                     6 |
-| [NeelTorExit1](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     1 |
-| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/156AAC3FAD1ACC8906316519DCB444B8C77E4EBF)  | 2020-07-28   | No          |                     6 |
-| [NeelTorExitF](https://metrics.torproject.org/rs.html#details/16AD4988F437D3478B72DAD0C1A20E61847FEF3C)  | 2020-06-15   | No          |                     6 |
-| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/A69CEB30328B1E85C6B167FECAF2F509CBD9517F)  | 2020-07-28   | No          |                     6 |
-| [NeelTorExit2](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     1 |
-
 ## ContactInfo: citizen17 at tutamail dot com (5) {#citizen17attutamaildotcom}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [citizen17](https://metrics.torproject.org/rs.html#details/5B6F8535D0DFB1C26FE54E15FA3C82D8D8AB380B) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/234E86C5BE039617697D5D78ED4E1BB811DF4A63) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/271C445DEAA2E0DB1E740CDBC61D77BA9133155B) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/53887FD502CE6CF4FE10592D1D74D9480251AF1E) | 2020-09-06   | No          |                     1 |
+| [citizen17](https://metrics.torproject.org/rs.html#details/A959D9E66BA7366915F4C1C08980398D824C7D6A) | 2020-09-06   | No          |                     1 |
 | [citizen17](https://metrics.torproject.org/rs.html#details/D0FD0C8A33CF12BA912BC0B2A17A2D5D56418C39) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/D37318440E1A94D1C2055A43B536ECC9406994CD) | 2020-09-06   | No          |                     1 |
+
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (8) {#neel-chauhan-neel-at-neelc-dot-org}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
+| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
+| [NeelTorExitE](https://metrics.torproject.org/rs.html#details/02AB0923AFF5A47DD011C343F79864C45E9FFB34)  | 2020-05-30   | No          |                     4 |
+| [NeelTorExit1](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     4 |
+| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/156AAC3FAD1ACC8906316519DCB444B8C77E4EBF)  | 2020-07-28   | No          |                     4 |
+| [NeelTorExitF](https://metrics.torproject.org/rs.html#details/16AD4988F437D3478B72DAD0C1A20E61847FEF3C)  | 2020-06-15   | No          |                     4 |
+| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/A69CEB30328B1E85C6B167FECAF2F509CBD9517F)  | 2020-07-28   | No          |                     4 |
+| [NeelTorExit2](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     4 |
 
 ## ContactInfo: tor at a9 dot wtf (2) {#torata9dotwtf}
 
@@ -144,4 +106,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,01B70C7C497FC8667DB5EB82C40D8F9214D6A484,C013F6A7A2297FA4CD00D05EF4A1C5222B844B25,DA580E4EB2A453298D40F73ECFC78E896B001182,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D,BD0DBFEE1A5CBF890A68741339A6DE247896D276
+C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,DA580E4EB2A453298D40F73ECFC78E896B001182,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D,BD0DBFEE1A5CBF890A68741339A6DE247896D276
