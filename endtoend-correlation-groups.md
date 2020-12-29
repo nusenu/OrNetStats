@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-28 12:00 UTC**
+Tor network data as of: **2020-12-29 10:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -36,15 +36,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [privexrelayde1](https://metrics.torproject.org/rs.html#details/C64EB4553AA308D8FBC314D73B44178E4CB11C35)  | 2020-11-22   | Yes         |                     2 |
 | [privexrelayfin1](https://metrics.torproject.org/rs.html#details/C3ACB0492A644E27A549BC3CDF3B7A129186E3BF) | 2018-09-27   | Yes         |                     3 |
 | [privexse1exit](https://metrics.torproject.org/rs.html#details/D8A1F5A8EA1AF53E3414B9C48FE6B10C31ACC9B2)   | 2019-06-26   | No          |                     2 |
-
-## ContactInfo: &lt;admin AT my-mail dot rocks&gt; (4) {#admin-at-my-mail-dot-rocks}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/5B57662F90717DADC37C857BC595F13473B8550F) | 2020-12-18   | Yes         |                     1 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/5152F22FD8215F0C78373A96248F05169B5CB563) | 2020-12-13   | Yes         |                     1 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/784F16D7257C40002998EE54454D2264BA4B67EB) | 2020-12-20   | No          |                     1 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/D1B853ED27E4DFDCA3A54D3F2E269C4D94677F66) | 2018-04-16   | No          |                     1 |
 
 ## ContactInfo: abuse at yggdrasil dot ws (6) {#abuseatyggdrasildotws}
 
@@ -82,6 +73,15 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
+## ContactInfo: contact at torbox dot org bc1qswtwvvjscschje9gql6a (4) {#contactattorboxdotorg-bc1qswtwvvjscschje9gql6a}
+
+| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorboxProjectRelay](https://metrics.torproject.org/rs.html#details/AD5FE3E205AE09162D466C80E27BCB208305A5FD) | 2020-12-20   | Yes         |                     1 |
+| [TorboxProjectExit2](https://metrics.torproject.org/rs.html#details/35A659EBE04BE828054262426D4A9FD0494E0A9F) | 2020-12-20   | No          |                     1 |
+| [TorboxProjectExit](https://metrics.torproject.org/rs.html#details/43323C80668E28E81E61845A5CA98A52AE97A4C5)  | 2020-12-20   | No          |                     1 |
+| [TorboxProjectExit3](https://metrics.torproject.org/rs.html#details/440510C88DF8F959F0018CA23131254BD18BCAFB) | 2020-12-20   | No          |                     1 |
+
 ## ContactInfo: citizen17 at tutamail dot com (5) {#citizen17attutamaildotcom}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -99,9 +99,9 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
 | [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
 | [NeelTorExitE](https://metrics.torproject.org/rs.html#details/02AB0923AFF5A47DD011C343F79864C45E9FFB34)  | 2020-05-30   | No          |                     4 |
-| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/156AAC3FAD1ACC8906316519DCB444B8C77E4EBF)  | 2020-07-28   | No          |                     4 |
+| [NeelTorExit1](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     4 |
 | [NeelTorExitF](https://metrics.torproject.org/rs.html#details/16AD4988F437D3478B72DAD0C1A20E61847FEF3C)  | 2020-06-15   | No          |                     4 |
-| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/A69CEB30328B1E85C6B167FECAF2F509CBD9517F)  | 2020-07-28   | No          |                     4 |
+| [NeelTorExit2](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     4 |
 
 ## ContactInfo: tor at a9 dot wtf (2) {#torata9dotwtf}
 
@@ -113,4 +113,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,5152F22FD8215F0C78373A96248F05169B5CB563,5B57662F90717DADC37C857BC595F13473B8550F,DA580E4EB2A453298D40F73ECFC78E896B001182,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D,BD0DBFEE1A5CBF890A68741339A6DE247896D276
+C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,DA580E4EB2A453298D40F73ECFC78E896B001182,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,AD5FE3E205AE09162D466C80E27BCB208305A5FD,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D,BD0DBFEE1A5CBF890A68741339A6DE247896D276
