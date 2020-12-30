@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-29 10:00 UTC**
+Tor network data as of: **2020-12-30 22:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -48,6 +48,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Freya](https://metrics.torproject.org/rs.html#details/85ED839A03D10C46219609625D7FEAE59EDCCFDD)    | 2020-05-27   | No          |                     5 |
 | [Kallisto](https://metrics.torproject.org/rs.html#details/D4C5BAEA92CADCC02D64E0DD9F1A49024C57F05C) | 2020-09-11   | No          |                     5 |
 
+## ContactInfo: contact at torbox dot org bc1qswtwvvjscschje9gql6a (3) {#contactattorboxdotorg-bc1qswtwvvjscschje9gql6a}
+
+| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorboxProjectRelay](https://metrics.torproject.org/rs.html#details/AD5FE3E205AE09162D466C80E27BCB208305A5FD) | 2020-12-20   | Yes         |                     1 |
+| [TorboxProjectExit2](https://metrics.torproject.org/rs.html#details/35A659EBE04BE828054262426D4A9FD0494E0A9F) | 2020-12-20   | No          |                     1 |
+| [TorboxProjectExit3](https://metrics.torproject.org/rs.html#details/440510C88DF8F959F0018CA23131254BD18BCAFB) | 2020-12-20   | No          |                     1 |
+
 ## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (20) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
 | Nickname                                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
@@ -73,36 +81,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: contact at torbox dot org bc1qswtwvvjscschje9gql6a (4) {#contactattorboxdotorg-bc1qswtwvvjscschje9gql6a}
-
-| Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [TorboxProjectRelay](https://metrics.torproject.org/rs.html#details/AD5FE3E205AE09162D466C80E27BCB208305A5FD) | 2020-12-20   | Yes         |                     1 |
-| [TorboxProjectExit2](https://metrics.torproject.org/rs.html#details/35A659EBE04BE828054262426D4A9FD0494E0A9F) | 2020-12-20   | No          |                     1 |
-| [TorboxProjectExit](https://metrics.torproject.org/rs.html#details/43323C80668E28E81E61845A5CA98A52AE97A4C5)  | 2020-12-20   | No          |                     1 |
-| [TorboxProjectExit3](https://metrics.torproject.org/rs.html#details/440510C88DF8F959F0018CA23131254BD18BCAFB) | 2020-12-20   | No          |                     1 |
-
-## ContactInfo: citizen17 at tutamail dot com (5) {#citizen17attutamaildotcom}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [citizen17](https://metrics.torproject.org/rs.html#details/5B6F8535D0DFB1C26FE54E15FA3C82D8D8AB380B) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/271C445DEAA2E0DB1E740CDBC61D77BA9133155B) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/53887FD502CE6CF4FE10592D1D74D9480251AF1E) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/A959D9E66BA7366915F4C1C08980398D824C7D6A) | 2020-09-06   | No          |                     1 |
-| [citizen17](https://metrics.torproject.org/rs.html#details/D37318440E1A94D1C2055A43B536ECC9406994CD) | 2020-09-06   | No          |                     1 |
-
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (6) {#neel-chauhan-neel-at-neelc-dot-org}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorExitE](https://metrics.torproject.org/rs.html#details/02AB0923AFF5A47DD011C343F79864C45E9FFB34)  | 2020-05-30   | No          |                     4 |
-| [NeelTorExit1](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     4 |
-| [NeelTorExitF](https://metrics.torproject.org/rs.html#details/16AD4988F437D3478B72DAD0C1A20E61847FEF3C)  | 2020-06-15   | No          |                     4 |
-| [NeelTorExit2](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     4 |
-
 ## ContactInfo: tor at a9 dot wtf (2) {#torata9dotwtf}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
@@ -113,4 +91,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,DA580E4EB2A453298D40F73ECFC78E896B001182,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,AD5FE3E205AE09162D466C80E27BCB208305A5FD,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D,BD0DBFEE1A5CBF890A68741339A6DE247896D276
+C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,DA580E4EB2A453298D40F73ECFC78E896B001182,AD5FE3E205AE09162D466C80E27BCB208305A5FD,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,BD0DBFEE1A5CBF890A68741339A6DE247896D276
