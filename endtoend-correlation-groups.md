@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2020-12-31 14:00 UTC**
+Tor network data as of: **2021-01-01 11:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,12 +37,11 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [privexrelayfin1](https://metrics.torproject.org/rs.html#details/C3ACB0492A644E27A549BC3CDF3B7A129186E3BF) | 2018-09-27   | Yes         |                     3 |
 | [privexse1exit](https://metrics.torproject.org/rs.html#details/D8A1F5A8EA1AF53E3414B9C48FE6B10C31ACC9B2)   | 2019-06-26   | No          |                     2 |
 
-## ContactInfo: contact at torbox dot org bc1qswtwvvjscschje9gql6a (4) {#contactattorboxdotorg-bc1qswtwvvjscschje9gql6a}
+## ContactInfo: contact at torbox dot org bc1qswtwvvjscschje9gql6a (3) {#contactattorboxdotorg-bc1qswtwvvjscschje9gql6a}
 
 | Nickname                                                                                                      | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [TorboxProjectRelay](https://metrics.torproject.org/rs.html#details/AD5FE3E205AE09162D466C80E27BCB208305A5FD) | 2020-12-20   | Yes         |                     1 |
-| [TorboxProjectExit2](https://metrics.torproject.org/rs.html#details/35A659EBE04BE828054262426D4A9FD0494E0A9F) | 2020-12-20   | No          |                     1 |
 | [TorboxProjectExit](https://metrics.torproject.org/rs.html#details/43323C80668E28E81E61845A5CA98A52AE97A4C5)  | 2020-12-20   | No          |                     1 |
 | [TorboxProjectExit3](https://metrics.torproject.org/rs.html#details/440510C88DF8F959F0018CA23131254BD18BCAFB) | 2020-12-20   | No          |                     1 |
 
@@ -71,14 +70,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: tor at a9 dot wtf (2) {#torata9dotwtf}
-
-| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [a9TorRelay04](https://metrics.torproject.org/rs.html#details/BD0DBFEE1A5CBF890A68741339A6DE247896D276) | 2020-11-11   | Yes         |                     2 |
-| [a9TorExit](https://metrics.torproject.org/rs.html#details/2DB8A946826D0CB4F5C3A8264628DD0F16F6612D)    | 2020-09-12   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,AD5FE3E205AE09162D466C80E27BCB208305A5FD,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,BD0DBFEE1A5CBF890A68741339A6DE247896D276
+C3ACB0492A644E27A549BC3CDF3B7A129186E3BF,C64EB4553AA308D8FBC314D73B44178E4CB11C35,AD5FE3E205AE09162D466C80E27BCB208305A5FD,1B9FACF25E17D26E307EA7CFA7D455B144B032E5
