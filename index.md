@@ -17,7 +17,7 @@ unfortunatelly this allows also malicious entities to impersonate other relay op
 The following relay operators did make an effort to allow for automated
 verification of the hostname provided in their ContactInfo using the
 [ContactInfo Information Sharing Specification version 2](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/).
-Since this is a two way link (domain to relay and relay to domain), this can no longer be easily be spoofed by an attacker.
+Since this is a two way link (domain to relay and relay to domain), this can no longer be spoofed easily by an attacker anymore.
 
 <div class="datatable-begin"></div>
 
