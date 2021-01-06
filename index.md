@@ -12,13 +12,12 @@ Tor network data as of: **2021-01-06 19:00 UTC**
 
 ## Verified Operator Domains
 
-The tor ContactInfo is an arbitrary string which allows everyone (including malicious
-operators) to impersonate other relay operators.
+A Tor's ContactInfo is an arbitrary string which can be freely choosen by the relay operator
+unfortunatelly this allows also malicious entities to impersonate other relay operators. This is being exploited in the wild.
 The following relay operators did make an effort to allow for automated
-verification of the domain/hostname provided in their ContactInfo using the 
+verification of the hostname provided in their ContactInfo using the
 [ContactInfo Information Sharing Specification version 2](https://nusenu.github.io/ContactInfo-Information-Sharing-Specification/).
-Since this is a two way link (domain to relay and relay to domain), this can not be easily spoofed.
-
+Since this is a two way link (domain to relay and relay to domain), this can no longer be easily be spoofed by an attacker.
 
 <div class="datatable-begin"></div>
 
