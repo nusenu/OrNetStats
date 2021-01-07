@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-01-06 19:00 UTC**
+Tor network data as of: **2021-01-07 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -47,10 +47,10 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Shebangs](https://metrics.torproject.org/rs.html#details/F3A3461889BF97250F50A7BAAAE4A2B92062F6D7) | 2020-07-03   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/BA8546AE9B27F0C81F98A6C12D96B7DAB0814991) | 2020-06-06   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/BA8546AE9B27F0C81F98A6C12D96B7DAB0814991) | 2020-06-06   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B) | 2020-10-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/0794E378A1EE9337D917BEE88607A1C12AC7F906) | 2020-10-03   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4) | 2020-09-25   | Yes         |                    12 |
