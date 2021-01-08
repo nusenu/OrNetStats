@@ -1,6 +1,5 @@
 ---
 datatable: true
-permalink: www.f3netze.de.html
 ---
 
 ## Operator: www.f3netze.de
