@@ -2,8 +2,6 @@
 datatable: true
 ---
 
-## Operator: www.f3netze.de
-
 <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script type="text/javascript">/**
 * plotly.js v1.58.2
