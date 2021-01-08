@@ -1,8 +1,8 @@
 ---
-datatable: true
+title: emeraldonion.org
+permalink: emeraldonion.org.html
 ---
 
-## Operator: emeraldonion.org
 
 <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script type="text/javascript">/**
