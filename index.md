@@ -1,5 +1,6 @@
 ---
 datatable: true
+hide_sidebar: true
 ---
 
 
