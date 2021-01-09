@@ -1,6 +1,7 @@
 ---
 title: emeraldonion.org
 permalink: emeraldonion.org.html
+hide_sidebar: true
 ---
 
 
