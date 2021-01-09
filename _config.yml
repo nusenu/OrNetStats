@@ -75,7 +75,6 @@ defaults:
       layout: "page"
       comments: true
       search: false
-      toc: false
       topnav: topnav
   -
     scope:
