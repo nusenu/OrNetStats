@@ -22,28 +22,28 @@ Since this is a two way link (domain to relay and relay to domain), this can no 
 
 <div class="datatable-begin"></div>
 
-| Operator Domain (verified)                                      |   Guard(%) |   Exit(%) |   #Relays | First Seen          |
-|:----------------------------------------------------------------|-----------:|----------:|----------:|:--------------------|
-| [www.f3netze.de](www.f3netze.de.html)                           |       0    |      6.4  |        32 | 2018-03-21 20:00:00 |
-| [applied-privacy.net](applied-privacy.net.html)                 |       0.06 |      3.5  |        32 | 2018-02-21 00:00:00 |
-| [emeraldonion.org](emeraldonion.org.html)                       |       0    |      0.85 |        37 | 2019-04-05 06:00:00 |
-| [for-privacy.net](for-privacy.net.html)                         |       0.55 |      0.44 |        12 | 2019-03-16 22:00:00 |
-| [artikel10.org](artikel10.org.html)                             |       0    |      0.11 |         2 | 2020-09-06 15:00:00 |
-| [frichetten.com](frichetten.com.html)                           |       0    |      0.08 |         4 | 2018-11-12 04:00:00 |
-| [doedelkiste.de](doedelkiste.de.html)                           |       1.23 |      0    |        27 | 2014-04-08 06:00:00 |
-| [tuxli.ch](tuxli.ch.html)                                       |       0.79 |      0    |        22 | 2014-04-09 10:00:00 |
-| [lucaswerkmeister.de](lucaswerkmeister.de.html)                 |       0.26 |      0    |         1 | 2021-01-01 11:00:00 |
-| [zwiebeltoralf.de](zwiebeltoralf.de.html)                       |       0.24 |      0    |         2 | 2018-10-06 17:00:00 |
-| [sebastian-elisa-pfeifer.eu](sebastian-elisa-pfeifer.eu.html)   |       0.09 |      0    |         6 | 2020-05-07 15:00:00 |
-| [casperlefantom.net](casperlefantom.net.html)                   |       0.03 |      0    |         6 | 2021-01-08 19:00:00 |
-| [marx.wtf](marx.wtf.html)                                       |       0.02 |      0    |         2 | 2019-07-17 01:00:00 |
-| [arvanode.net](arvanode.net.html)                               |       0.01 |      0    |         1 | 2014-04-20 21:00:00 |
-| [iain.learmonth.me](iain.learmonth.me.html)                     |       0    |      0    |         2 | 2017-12-27 14:00:00 |
-| [mutantmonkey.in](mutantmonkey.in.html)                         |       0    |      0    |         1 | 2019-08-06 20:00:00 |
-| [mpan.pl](mpan.pl.html)                                         |       0    |      0    |         1 | 2014-12-20 00:00:00 |
-| [bogolinux.net](bogolinux.net.html)                             |       0    |      0    |         1 | 2018-02-02 08:00:00 |
-| [thinkindifferent.net](thinkindifferent.net.html)               |       0    |      0    |         1 | 2020-06-29 05:00:00 |
-| [bundesgebaermutter.ddnss.eu](bundesgebaermutter.ddnss.eu.html) |       0    |      0    |         1 | 2016-08-09 11:00:00 |
+| Operator Domain (verified)                                      |   Guard(%) |   Exit(%) |   #Relays | First Seen   |
+|:----------------------------------------------------------------|-----------:|----------:|----------:|:-------------|
+| [www.f3netze.de](www.f3netze.de.html)                           |       0    |      6.4  |        32 | 2018-03-21   |
+| [applied-privacy.net](applied-privacy.net.html)                 |       0.06 |      3.5  |        32 | 2018-02-21   |
+| [emeraldonion.org](emeraldonion.org.html)                       |       0    |      0.85 |        37 | 2019-04-05   |
+| [for-privacy.net](for-privacy.net.html)                         |       0.55 |      0.44 |        12 | 2019-03-16   |
+| [artikel10.org](artikel10.org.html)                             |       0    |      0.11 |         2 | 2020-09-06   |
+| [frichetten.com](frichetten.com.html)                           |       0    |      0.08 |         4 | 2018-11-12   |
+| [doedelkiste.de](doedelkiste.de.html)                           |       1.23 |      0    |        27 | 2014-04-08   |
+| [tuxli.ch](tuxli.ch.html)                                       |       0.79 |      0    |        22 | 2014-04-09   |
+| [lucaswerkmeister.de](lucaswerkmeister.de.html)                 |       0.26 |      0    |         1 | 2021-01-01   |
+| [zwiebeltoralf.de](zwiebeltoralf.de.html)                       |       0.24 |      0    |         2 | 2018-10-06   |
+| [sebastian-elisa-pfeifer.eu](sebastian-elisa-pfeifer.eu.html)   |       0.09 |      0    |         6 | 2020-05-07   |
+| [casperlefantom.net](casperlefantom.net.html)                   |       0.03 |      0    |         6 | 2021-01-08   |
+| [marx.wtf](marx.wtf.html)                                       |       0.02 |      0    |         2 | 2019-07-17   |
+| [arvanode.net](arvanode.net.html)                               |       0.01 |      0    |         1 | 2014-04-20   |
+| [thinkindifferent.net](thinkindifferent.net.html)               |       0    |      0    |         1 | 2020-06-29   |
+| [bundesgebaermutter.ddnss.eu](bundesgebaermutter.ddnss.eu.html) |       0    |      0    |         1 | 2016-08-09   |
+| [iain.learmonth.me](iain.learmonth.me.html)                     |       0    |      0    |         2 | 2017-12-27   |
+| [mutantmonkey.in](mutantmonkey.in.html)                         |       0    |      0    |         1 | 2019-08-06   |
+| [mpan.pl](mpan.pl.html)                                         |       0    |      0    |         1 | 2014-12-20   |
+| [bogolinux.net](bogolinux.net.html)                             |       0    |      0    |         1 | 2018-02-02   |
 
 <div class="datatable-end"></div>
 
