@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-02-16 16:00 UTC**
+Tor network data as of: **2021-02-17 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,16 +33,16 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Shebangs](https://metrics.torproject.org/rs.html#details/A4A79E2B8294AA2572B46C5C772E149F84FAF763) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA) | 2020-09-13   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/A4A79E2B8294AA2572B46C5C772E149F84FAF763) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/453E51CBAA4C2169EBCB05583247DD6201E87FAD) | 2020-06-05   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA) | 2020-09-13   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/F3A3461889BF97250F50A7BAAAE4A2B92062F6D7) | 2020-07-03   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/BA8546AE9B27F0C81F98A6C12D96B7DAB0814991) | 2020-06-06   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/0794E378A1EE9337D917BEE88607A1C12AC7F906) | 2020-10-03   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B) | 2020-10-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C) | 2021-02-06   | Yes         |                     1 |
@@ -84,18 +84,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (6) {#neel-chauhan-neel-at-neelc-dot-org}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     4 |
-| [NeelTorExitC](https://metrics.torproject.org/rs.html#details/9B49F7C1B0B73988CE01091E963740117DA6D20D)  | 2021-02-03   | No          |                     1 |
-| [NeelTorExitD](https://metrics.torproject.org/rs.html#details/B1F9BDD70BC91BFBC9061918C902F40E04E066B2)  | 2021-02-03   | No          |                     1 |
-| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     4 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B,0794E378A1EE9337D917BEE88607A1C12AC7F906,1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C,328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,453E51CBAA4C2169EBCB05583247DD6201E87FAD,4918A461CEE1C8E65F4272E40CF3C6C6E70BB22C,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,A4A79E2B8294AA2572B46C5C772E149F84FAF763,AC990FD1FF5058EFA43A809E948B23EF998D021B,BA8546AE9B27F0C81F98A6C12D96B7DAB0814991,C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4,CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B,E4A8BC82E660528D5B0B8D36C08AB44B77351736,F3A3461889BF97250F50A7BAAAE4A2B92062F6D7,F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA,5F07E96B2C3C2FF845AE64CCA80DF73208226D4C,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D
+072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B,0794E378A1EE9337D917BEE88607A1C12AC7F906,1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C,328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,453E51CBAA4C2169EBCB05583247DD6201E87FAD,4918A461CEE1C8E65F4272E40CF3C6C6E70BB22C,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,A4A79E2B8294AA2572B46C5C772E149F84FAF763,AC990FD1FF5058EFA43A809E948B23EF998D021B,BA8546AE9B27F0C81F98A6C12D96B7DAB0814991,C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4,CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B,E4A8BC82E660528D5B0B8D36C08AB44B77351736,F3A3461889BF97250F50A7BAAAE4A2B92062F6D7,F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA,5F07E96B2C3C2FF845AE64CCA80DF73208226D4C,1B9FACF25E17D26E307EA7CFA7D455B144B032E5
