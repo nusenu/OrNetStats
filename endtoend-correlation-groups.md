@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-02-19 20:00 UTC**
+Tor network data as of: **2021-02-20 09:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,12 +41,11 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)  | 2018-10-29   | Yes         |                     1 |
 | [Marsu](https://metrics.torproject.org/rs.html#details/1DE8E81240D20D9755B29A8AEA131BE2CD537FB8)         | 2020-01-01   | Yes         |                     1 |
 | [SunsTORm6336](https://metrics.torproject.org/rs.html#details/0CDDB9663FDCC000B7756E5FE52935433150C0FC)  | 2021-02-18   | No          |                    11 |
-| [SunsTORm5](https://metrics.torproject.org/rs.html#details/15BD0F1EC43C2FF19341E46CDB615254F9C8A094)     | 2021-02-18   | No          |                    11 |
+| [SunsTORm492](https://metrics.torproject.org/rs.html#details/15BD0F1EC43C2FF19341E46CDB615254F9C8A094)   | 2021-02-18   | No          |                    11 |
 | [SunsTORm4454](https://metrics.torproject.org/rs.html#details/16C268685D6B5D392A2D474C627FE781621D1037)  | 2021-02-18   | No          |                    11 |
 | [SunsTORm4380](https://metrics.torproject.org/rs.html#details/2E0B9CE2D055BDABB3A4C1D4914CD3FCB8053B32)  | 2021-02-18   | No          |                    11 |
 | [SunsTORm3232](https://metrics.torproject.org/rs.html#details/3BF113C6580DBBDC66431222BB491D76C0CD9A09)  | 2021-02-18   | No          |                    11 |
 | [SunsTORm8948](https://metrics.torproject.org/rs.html#details/3F9CFBB4630A58C3514DF963113444F41D3B1394)  | 2021-02-18   | No          |                    11 |
-| [SunsTORm1240](https://metrics.torproject.org/rs.html#details/3FFAE215C01A431BC742B5F9EDC79523E0D9AA02)  | 2021-02-18   | No          |                    11 |
 | [SunsTORm2584](https://metrics.torproject.org/rs.html#details/4B5C442470E0B137EC727F5C9F9E0B526D1115D8)  | 2021-02-19   | No          |                     1 |
 | [SunsTORm5267](https://metrics.torproject.org/rs.html#details/5A03AB53940C07192D8F4EF64B89C02FFE383369)  | 2021-02-19   | No          |                     1 |
 | [SunsTORm6572](https://metrics.torproject.org/rs.html#details/69573364AE6A2840D36E3513BF1D545C0725D144)  | 2021-02-18   | No          |                    11 |
@@ -54,23 +53,24 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [SunsTORm3](https://metrics.torproject.org/rs.html#details/9EF0E6D561F0F1395F7E4E2358D3CD58795B49D4)     | 2021-02-19   | No          |                     1 |
 | [SunsTORm1000](https://metrics.torproject.org/rs.html#details/A3C6CEF46F97024A3BD2D2E9851662091BED3C41)  | 2021-02-18   | No          |                    11 |
 | [SunsTORm4424](https://metrics.torproject.org/rs.html#details/B023E626BCB6E954A3A54A4B9FF7123456F18F3A)  | 2021-02-18   | No          |                    11 |
+| [SunsTORm1240](https://metrics.torproject.org/rs.html#details/B31E25114B7B9D639A6028D7077E7F0C2ED80B51)  | 2021-02-19   | No          |                     1 |
 | [SunsTORm9618](https://metrics.torproject.org/rs.html#details/FA29F1AA9AED134413AFCD2028859E39AEF987F5)  | 2021-02-19   | No          |                     1 |
 
 ## ContactInfo: shebangs@yopmail.fr (18) {#shebangsyopmailfr}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Shebangs](https://metrics.torproject.org/rs.html#details/A4A79E2B8294AA2572B46C5C772E149F84FAF763) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/453E51CBAA4C2169EBCB05583247DD6201E87FAD) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/BA8546AE9B27F0C81F98A6C12D96B7DAB0814991) | 2020-06-06   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/A4A79E2B8294AA2572B46C5C772E149F84FAF763) | 2020-12-20   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/F3A3461889BF97250F50A7BAAAE4A2B92062F6D7) | 2020-07-03   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA) | 2020-09-13   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/0794E378A1EE9337D917BEE88607A1C12AC7F906) | 2020-10-03   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B) | 2020-10-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4) | 2020-09-25   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C) | 2021-02-06   | Yes         |                     1 |
