@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-03-15 17:00 UTC**
+Tor network data as of: **2021-03-16 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,27 +33,27 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Shebangs](https://metrics.torproject.org/rs.html#details/453E51CBAA4C2169EBCB05583247DD6201E87FAD) | 2020-06-05   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA) | 2020-09-13   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/BA8546AE9B27F0C81F98A6C12D96B7DAB0814991) | 2020-06-06   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/F3A3461889BF97250F50A7BAAAE4A2B92062F6D7) | 2020-07-03   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B) | 2020-06-06   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/453E51CBAA4C2169EBCB05583247DD6201E87FAD) | 2020-06-05   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA) | 2020-09-13   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/AC990FD1FF5058EFA43A809E948B23EF998D021B) | 2020-06-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/8A136F5D0DACBBB6D8537DA4A806C44EF7E9037B) | 2020-06-05   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/F3A3461889BF97250F50A7BAAAE4A2B92062F6D7) | 2020-07-03   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/3688001D75469101F74A5D551A49B0EF410F0E26) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/0794E378A1EE9337D917BEE88607A1C12AC7F906) | 2020-10-03   | Yes         |                    12 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B) | 2020-10-05   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4) | 2020-09-25   | Yes         |                    12 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B) | 2020-10-05   | Yes         |                    12 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     1 |
-| [Shebangs](https://metrics.torproject.org/rs.html#details/60D12B7D7A601622504F74C9A4EB7C8F33FE5C84) | 2020-12-29   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/EF2A6ECE4277F55F29253DEBA80F04DA66BEA166) | 2021-02-13   | Yes         |                     1 |
+| [Shebangs](https://metrics.torproject.org/rs.html#details/60D12B7D7A601622504F74C9A4EB7C8F33FE5C84) | 2020-12-29   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C) | 2021-02-06   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/A4A79E2B8294AA2572B46C5C772E149F84FAF763) | 2020-12-20   | Yes         |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/5A8918BCA6B05FC780CFBDD66703BEF60DE53DA6) | 2020-12-25   | No          |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/E9272A28DAFABAE4F3D07233A16D13BDD5F58D4A) | 2020-12-25   | No          |                     1 |
 
-## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (19) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
+## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (20) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
 | Nickname                                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -71,20 +71,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute09](https://metrics.torproject.org/rs.html#details/7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2) | 2013-11-19   | No          |                    20 |
 | [CalyxInstitute17](https://metrics.torproject.org/rs.html#details/81EDFBC8F6F5C7CF0ADD5F8E08BC8FABA04089C6) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute03](https://metrics.torproject.org/rs.html#details/84D361B736A8CD1E8818D0FC186892E91AB76881) | 2013-06-23   | No          |                    20 |
+| [CalyxInstitute13](https://metrics.torproject.org/rs.html#details/A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E) | 2014-12-20   | No          |                    20 |
 | [CalyxInstitute12](https://metrics.torproject.org/rs.html#details/B34CC9056250847D1980F08285B01CF0B718C0B6) | 2014-12-16   | No          |                    20 |
 | [CalyxInstitute01](https://metrics.torproject.org/rs.html#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    20 |
 | [CalyxInstitute19](https://metrics.torproject.org/rs.html#details/E8663924FE2AAD4E081A17ED6976D0AE8010F47B) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
-## ContactInfo: &lt;hostmaster at denetron dot com&gt; (2) {#hostmaster-at-denetron-dot-com}
-
-| Nickname                                                                                           | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Voyager](https://metrics.torproject.org/rs.html#details/DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4) | 2019-10-25   | Yes         |                     1 |
-| [Apollo](https://metrics.torproject.org/rs.html#details/71840F45C2478347B872321066F9805D1A1B79FD)  | 2019-10-25   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B,0794E378A1EE9337D917BEE88607A1C12AC7F906,1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C,328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,453E51CBAA4C2169EBCB05583247DD6201E87FAD,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,8A136F5D0DACBBB6D8537DA4A806C44EF7E9037B,A4A79E2B8294AA2572B46C5C772E149F84FAF763,AC990FD1FF5058EFA43A809E948B23EF998D021B,BA8546AE9B27F0C81F98A6C12D96B7DAB0814991,C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4,CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B,E4A8BC82E660528D5B0B8D36C08AB44B77351736,EF2A6ECE4277F55F29253DEBA80F04DA66BEA166,F3A3461889BF97250F50A7BAAAE4A2B92062F6D7,F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5,DF81D831D4FF686F52C9ACAA9EB5711F95BF4DD4
+072E4EC47D640118D5438BFFDFF1AF7BB4E2AD2B,0794E378A1EE9337D917BEE88607A1C12AC7F906,1ACC9F9550F6DD6AC3FE8BC9B2F1CF42C968099C,328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,453E51CBAA4C2169EBCB05583247DD6201E87FAD,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,8A136F5D0DACBBB6D8537DA4A806C44EF7E9037B,A4A79E2B8294AA2572B46C5C772E149F84FAF763,AC990FD1FF5058EFA43A809E948B23EF998D021B,BA8546AE9B27F0C81F98A6C12D96B7DAB0814991,C8B5B2186A2DED8F419EAA933EFB5FFE2D412CF4,CEA2E066A7F8EC0F235F5190E25DD3C9F86F084B,E4A8BC82E660528D5B0B8D36C08AB44B77351736,EF2A6ECE4277F55F29253DEBA80F04DA66BEA166,F3A3461889BF97250F50A7BAAAE4A2B92062F6D7,F5F9B6B40E4D7AFCECDFB1F4503D56D522C7EFAA,1B9FACF25E17D26E307EA7CFA7D455B144B032E5
