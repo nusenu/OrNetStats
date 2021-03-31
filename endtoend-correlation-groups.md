@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-03-30 17:00 UTC**
+Tor network data as of: **2021-03-31 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (19) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
+## ContactInfo: foxtrot dot n at protonmail dot com (3) {#foxtrotdotnatprotonmaildotcom}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [foxtrotAlpha](https://metrics.torproject.org/rs.html#details/5EB36D1BFC513A66F52A969AB23456E92D2ABB46)   | 2021-02-08   | Yes         |                     2 |
+| [foxtrotBravo](https://metrics.torproject.org/rs.html#details/98F076806B5D67605C9F1CA365758F014A2E6F4A)   | 2021-02-13   | No          |                     1 |
+| [foxtrotCharlie](https://metrics.torproject.org/rs.html#details/FBCD904030EA49971E4766A9009DEE96F2FEC4F4) | 2021-02-14   | No          |                     2 |
+
+## ContactInfo: Nicholas Merrill &lt;nick AT calyx dot com&gt; BTC - 14w (20) {#nicholas-merrill-nick-at-calyx-dot-com-btc---14w}
 
 | Nickname                                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -52,8 +60,9 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [CalyxInstitute01](https://metrics.torproject.org/rs.html#details/E4D1F25DFBE484208866BA4A1A958B73127CB0AD) | 2013-06-11   | No          |                    20 |
 | [CalyxInstitute19](https://metrics.torproject.org/rs.html#details/E8663924FE2AAD4E081A17ED6976D0AE8010F47B) | 2020-01-30   | No          |                    20 |
 | [CalyxInstitute18](https://metrics.torproject.org/rs.html#details/EDEDB8797873D340328B5FEDBD7744A7D1DF151F) | 2020-01-30   | No          |                    20 |
+| [CalyxInstitute16](https://metrics.torproject.org/rs.html#details/F68A76522D356F89BEC286889A3822250567BE2E) | 2020-01-28   | No          |                    20 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1B9FACF25E17D26E307EA7CFA7D455B144B032E5
+5EB36D1BFC513A66F52A969AB23456E92D2ABB46,1B9FACF25E17D26E307EA7CFA7D455B144B032E5
