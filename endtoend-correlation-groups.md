@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-05-06 17:00 UTC**
+Tor network data as of: **2021-05-07 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,11 +33,11 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Mooncake](https://metrics.torproject.org/rs.html#details/C1C239582DDDA2DFCE674D365861FB2C1A96D8B9)     | 2021-02-28   | Yes         |                    29 |
 | [Zekrom](https://metrics.torproject.org/rs.html#details/9F1687D0D79A74F2C6F9FB918089405565BA5329)       | 2021-04-28   | Yes         |                    29 |
+| [Mooncake](https://metrics.torproject.org/rs.html#details/C1C239582DDDA2DFCE674D365861FB2C1A96D8B9)     | 2021-02-28   | Yes         |                    29 |
+| [Reshiram](https://metrics.torproject.org/rs.html#details/07007CB632002FC92FB11DE78C72C44B5160A1A3)     | 2021-04-28   | Yes         |                    29 |
 | [MewTwo](https://metrics.torproject.org/rs.html#details/8198249E251A7072D8481D19BE45C77FCA709EB6)       | 2021-04-22   | Yes         |                    29 |
 | [Moonpie](https://metrics.torproject.org/rs.html#details/096DE80D4C1E457680C23B56B6DABE9AA6A6260C)      | 2021-02-18   | Yes         |                    29 |
-| [Reshiram](https://metrics.torproject.org/rs.html#details/07007CB632002FC92FB11DE78C72C44B5160A1A3)     | 2021-04-28   | Yes         |                    29 |
 | [MoonLoon](https://metrics.torproject.org/rs.html#details/261A7D651D319021D7141B7CE3ECA6E9DA983540)     | 2021-03-02   | Yes         |                    29 |
 | [Rachmaninoff](https://metrics.torproject.org/rs.html#details/DF187D0E3481F6C6FE60836C28AE4948A77A4761) | 2021-05-05   | No          |                     1 |
 | [Treecko](https://metrics.torproject.org/rs.html#details/E0F4900D063080D44AB4C043FBAB4C2F964CB612)      | 2021-03-11   | No          |                    29 |
