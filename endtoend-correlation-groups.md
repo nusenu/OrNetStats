@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-05-05 14:00 UTC**
+Tor network data as of: **2021-05-06 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,26 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
+## ContactInfo: James at charles dot onion (8) {#jamesatcharlesdotonion}
+
+| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Mooncake](https://metrics.torproject.org/rs.html#details/C1C239582DDDA2DFCE674D365861FB2C1A96D8B9)     | 2021-02-28   | Yes         |                    29 |
+| [Zekrom](https://metrics.torproject.org/rs.html#details/9F1687D0D79A74F2C6F9FB918089405565BA5329)       | 2021-04-28   | Yes         |                    29 |
+| [MewTwo](https://metrics.torproject.org/rs.html#details/8198249E251A7072D8481D19BE45C77FCA709EB6)       | 2021-04-22   | Yes         |                    29 |
+| [Moonpie](https://metrics.torproject.org/rs.html#details/096DE80D4C1E457680C23B56B6DABE9AA6A6260C)      | 2021-02-18   | Yes         |                    29 |
+| [Reshiram](https://metrics.torproject.org/rs.html#details/07007CB632002FC92FB11DE78C72C44B5160A1A3)     | 2021-04-28   | Yes         |                    29 |
+| [MoonLoon](https://metrics.torproject.org/rs.html#details/261A7D651D319021D7141B7CE3ECA6E9DA983540)     | 2021-03-02   | Yes         |                    29 |
+| [Rachmaninoff](https://metrics.torproject.org/rs.html#details/DF187D0E3481F6C6FE60836C28AE4948A77A4761) | 2021-05-05   | No          |                     1 |
+| [Treecko](https://metrics.torproject.org/rs.html#details/E0F4900D063080D44AB4C043FBAB4C2F964CB612)      | 2021-03-11   | No          |                    29 |
+
 ## ContactInfo: james at charles dot onion tor-relay.co (10) {#jamesatcharlesdotonion-tor-relayco}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Chespin](https://metrics.torproject.org/rs.html#details/DC862F7BBF619EA3FA4FB667A4D8118652922FC8)    | 2021-03-19   | Yes         |                    29 |
-| [Snivy](https://metrics.torproject.org/rs.html#details/D4C733CA1FF5D85C3571FF39DBC7DB431966A47D)      | 2021-03-19   | Yes         |                    29 |
 | [Tepig](https://metrics.torproject.org/rs.html#details/751EDB5D969C72479270D223823A8ED4E578C070)      | 2021-03-19   | Yes         |                    29 |
+| [Snivy](https://metrics.torproject.org/rs.html#details/D4C733CA1FF5D85C3571FF39DBC7DB431966A47D)      | 2021-03-19   | Yes         |                    29 |
 | [Chimchar](https://metrics.torproject.org/rs.html#details/ED967A94B73BF678660EAA91890F450250CA0575)   | 2021-03-16   | Yes         |                    29 |
 | [Turtwig](https://metrics.torproject.org/rs.html#details/8B9110B997437724115CFCDB1B2495463F77669B)    | 2021-03-16   | Yes         |                    29 |
 | [Rowlet](https://metrics.torproject.org/rs.html#details/690FC3ACBBBC970309A9A0993EE12AF44C0C8E62)     | 2021-03-16   | Yes         |                    29 |
@@ -44,32 +57,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Mudkip](https://metrics.torproject.org/rs.html#details/75983F5660D894FCF2BE452DB35F3E594ADE4B08)     | 2021-03-13   | No          |                    29 |
 | [Torchick](https://metrics.torproject.org/rs.html#details/91D129CEBBC3F1BE27BCF8019F1F7A8B0F27E1C2)   | 2021-03-13   | No          |                    29 |
 
-## ContactInfo: James at Charles dot onion (6) {#jamesatcharlesdotonion}
-
-| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Mooncake](https://metrics.torproject.org/rs.html#details/C1C239582DDDA2DFCE674D365861FB2C1A96D8B9)     | 2021-02-28   | Yes         |                    29 |
-| [MewTwo](https://metrics.torproject.org/rs.html#details/8198249E251A7072D8481D19BE45C77FCA709EB6)       | 2021-04-22   | Yes         |                    29 |
-| [Moonpie](https://metrics.torproject.org/rs.html#details/096DE80D4C1E457680C23B56B6DABE9AA6A6260C)      | 2021-02-18   | Yes         |                    29 |
-| [MoonLoon](https://metrics.torproject.org/rs.html#details/261A7D651D319021D7141B7CE3ECA6E9DA983540)     | 2021-03-02   | Yes         |                    29 |
-| [Rachmaninoff](https://metrics.torproject.org/rs.html#details/DF187D0E3481F6C6FE60836C28AE4948A77A4761) | 2021-05-05   | No          |                     1 |
-| [Treecko](https://metrics.torproject.org/rs.html#details/E0F4900D063080D44AB4C043FBAB4C2F964CB612)      | 2021-03-11   | No          |                    29 |
-
-## ContactInfo: karabyte@disroot.org (2) {#karabytedisrootorg}
-
-| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [KarabyteRelay2](https://metrics.torproject.org/rs.html#details/27A5A753D0664A94C319F9C3D2241F2E80993D12) | 2021-04-12   | Yes         |                     1 |
-| [KarabyteExit1](https://metrics.torproject.org/rs.html#details/3367BFB7140BDF16C72A9A5A1CF757E993998D2A)  | 2021-04-03   | No          |                     1 |
-
-## ContactInfo: netaudit at protonmail dot com tor-relay.co (2) {#netauditatprotonmaildotcom-tor-relayco}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446) | 2020-10-18   | Yes         |                     1 |
-| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/EEDDDD9C8D0CE02449BA17DF99E0285CACA467B5) | 2020-10-21   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-690FC3ACBBBC970309A9A0993EE12AF44C0C8E62,751EDB5D969C72479270D223823A8ED4E578C070,8B9110B997437724115CFCDB1B2495463F77669B,D4C733CA1FF5D85C3571FF39DBC7DB431966A47D,DC862F7BBF619EA3FA4FB667A4D8118652922FC8,ED967A94B73BF678660EAA91890F450250CA0575,096DE80D4C1E457680C23B56B6DABE9AA6A6260C,261A7D651D319021D7141B7CE3ECA6E9DA983540,8198249E251A7072D8481D19BE45C77FCA709EB6,C1C239582DDDA2DFCE674D365861FB2C1A96D8B9,27A5A753D0664A94C319F9C3D2241F2E80993D12,73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446
+07007CB632002FC92FB11DE78C72C44B5160A1A3,096DE80D4C1E457680C23B56B6DABE9AA6A6260C,261A7D651D319021D7141B7CE3ECA6E9DA983540,8198249E251A7072D8481D19BE45C77FCA709EB6,9F1687D0D79A74F2C6F9FB918089405565BA5329,C1C239582DDDA2DFCE674D365861FB2C1A96D8B9,690FC3ACBBBC970309A9A0993EE12AF44C0C8E62,751EDB5D969C72479270D223823A8ED4E578C070,8B9110B997437724115CFCDB1B2495463F77669B,D4C733CA1FF5D85C3571FF39DBC7DB431966A47D,DC862F7BBF619EA3FA4FB667A4D8118652922FC8,ED967A94B73BF678660EAA91890F450250CA0575
