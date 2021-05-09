@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-05-08 14:00 UTC**
+Tor network data as of: **2021-05-09 07:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,8 +49,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Tepig](https://metrics.torproject.org/rs.html#details/751EDB5D969C72479270D223823A8ED4E578C070)      | 2021-03-19   | Yes         |                    29 |
 | [Chespin](https://metrics.torproject.org/rs.html#details/DC862F7BBF619EA3FA4FB667A4D8118652922FC8)    | 2021-03-19   | Yes         |                    29 |
 | [Snivy](https://metrics.torproject.org/rs.html#details/D4C733CA1FF5D85C3571FF39DBC7DB431966A47D)      | 2021-03-19   | Yes         |                    29 |
-| [Chimchar](https://metrics.torproject.org/rs.html#details/ED967A94B73BF678660EAA91890F450250CA0575)   | 2021-03-16   | Yes         |                    29 |
 | [Turtwig](https://metrics.torproject.org/rs.html#details/8B9110B997437724115CFCDB1B2495463F77669B)    | 2021-03-16   | Yes         |                    29 |
+| [Chimchar](https://metrics.torproject.org/rs.html#details/ED967A94B73BF678660EAA91890F450250CA0575)   | 2021-03-16   | Yes         |                    29 |
 | [Rowlet](https://metrics.torproject.org/rs.html#details/690FC3ACBBBC970309A9A0993EE12AF44C0C8E62)     | 2021-03-16   | Yes         |                    29 |
 | [Zaranof](https://metrics.torproject.org/rs.html#details/1CC1D5835BA99A01FFE4D88E83D115E54F2D698C)    | 2021-05-05   | No          |                     1 |
 | [dragonbleu](https://metrics.torproject.org/rs.html#details/24DC6F435824B3D82BFD7841D6FC2216BA11B8BC) | 2021-05-05   | No          |                     1 |
