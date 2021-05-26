@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-05-25 18:00 UTC**
+Tor network data as of: **2021-05-26 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,11 +29,12 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (5) {#neel-chauhan-neel-at-neelc-dot-org}
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (6) {#neel-chauhan-neel-at-neelc-dot-org}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
+| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
 | [NeelTorExitA](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     6 |
 | [NeelTorExitC](https://metrics.torproject.org/rs.html#details/9B49F7C1B0B73988CE01091E963740117DA6D20D)  | 2021-02-03   | No          |                     4 |
 | [NeelTorExitD](https://metrics.torproject.org/rs.html#details/B1F9BDD70BC91BFBC9061918C902F40E04E066B2)  | 2021-02-03   | No          |                     4 |
@@ -42,4 +43,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2
+B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D
