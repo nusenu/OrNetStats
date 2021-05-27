@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-05-26 16:00 UTC**
+Tor network data as of: **2021-05-27 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
+## ContactInfo: netaudit at protonmail dot com tor-relay.co (2) {#netauditatprotonmaildotcom-tor-relayco}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446) | 2020-10-18   | Yes         |                     1 |
+| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/EEDDDD9C8D0CE02449BA17DF99E0285CACA467B5) | 2020-10-21   | No          |                     1 |
+
 ## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (6) {#neel-chauhan-neel-at-neelc-dot-org}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
@@ -43,4 +50,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D
+73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D
