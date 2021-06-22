@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-06-21 19:00 UTC**
+Tor network data as of: **2021-06-22 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,18 +49,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
 
-## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (6) {#neel-chauhan-neel-at-neelc-dot-org}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/DB710B14D7329B7289CFCC547F48EF53F812C40D) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2) | 2020-06-14   | Yes         |                     4 |
-| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/035485A94591505E17683D2A350318DE2C384BAA)  | 2020-12-24   | No          |                     6 |
-| [NeelTorExitC](https://metrics.torproject.org/rs.html#details/9B49F7C1B0B73988CE01091E963740117DA6D20D)  | 2021-02-03   | No          |                     4 |
-| [NeelTorExitD](https://metrics.torproject.org/rs.html#details/B1F9BDD70BC91BFBC9061918C902F40E04E066B2)  | 2021-02-03   | No          |                     4 |
-| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/FDE5D296791B47BC99FF7107B188A458C02832FC)  | 2020-12-24   | No          |                     6 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,B0F9BA27944FA59E3B1A182208FF7C0CFF5497B2,DB710B14D7329B7289CFCC547F48EF53F812C40D
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052
