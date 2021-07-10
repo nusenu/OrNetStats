@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-07-10 07:00 UTC**
+Tor network data as of: **2021-07-10 10:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -42,28 +42,28 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Chespin](https://metrics.torproject.org/rs.html#details/DC862F7BBF619EA3FA4FB667A4D8118652922FC8)      | 2021-03-19   | Yes         |                    39 |
 | [Oshawott](https://metrics.torproject.org/rs.html#details/55ED11C6B5A35D40CD07F5A8DC12B82F0B7AADDF)     | 2021-03-18   | Yes         |                    39 |
 | [Bulbasaur](https://metrics.torproject.org/rs.html#details/E789DDCFDF2F92F3A6548796A22D5C8E64EE1A1B)    | 2021-03-08   | Yes         |                    39 |
-| [Moonlight](https://metrics.torproject.org/rs.html#details/9546182589B1E4BF6B025875FAEBE309E7359D56)    | 2021-03-05   | Yes         |                    39 |
-| [SunnyShiner](https://metrics.torproject.org/rs.html#details/1A647701D0368E8F073FF38773986F43A24C60CA)  | 2021-05-13   | Yes         |                    39 |
 | [Chimchar](https://metrics.torproject.org/rs.html#details/ED967A94B73BF678660EAA91890F450250CA0575)     | 2021-03-16   | Yes         |                    39 |
+| [SunnyShiner](https://metrics.torproject.org/rs.html#details/1A647701D0368E8F073FF38773986F43A24C60CA)  | 2021-05-13   | Yes         |                    39 |
 | [Moonshine](https://metrics.torproject.org/rs.html#details/3326C64CD86258ACA4657E3501BE6BECA672DB18)    | 2021-02-12   | Yes         |                    39 |
+| [Moonlight](https://metrics.torproject.org/rs.html#details/9546182589B1E4BF6B025875FAEBE309E7359D56)    | 2021-03-05   | Yes         |                    39 |
 | [Snivy](https://metrics.torproject.org/rs.html#details/D4C733CA1FF5D85C3571FF39DBC7DB431966A47D)        | 2021-03-19   | Yes         |                    39 |
 | [Moonpie](https://metrics.torproject.org/rs.html#details/096DE80D4C1E457680C23B56B6DABE9AA6A6260C)      | 2021-02-18   | Yes         |                    39 |
 | [greaseball](https://metrics.torproject.org/rs.html#details/B4EE5535230F742EE53A523E505296850F8FE0C9)   | 2021-06-03   | Yes         |                    39 |
 | [MoonLoon](https://metrics.torproject.org/rs.html#details/261A7D651D319021D7141B7CE3ECA6E9DA983540)     | 2021-03-02   | Yes         |                    39 |
-| [Charmander](https://metrics.torproject.org/rs.html#details/45DC9BCF0E44A22D246ECC02234B216EAA02155E)   | 2021-03-08   | Yes         |                    39 |
 | [Rowlet](https://metrics.torproject.org/rs.html#details/690FC3ACBBBC970309A9A0993EE12AF44C0C8E62)       | 2021-03-16   | Yes         |                    39 |
+| [Charmander](https://metrics.torproject.org/rs.html#details/45DC9BCF0E44A22D246ECC02234B216EAA02155E)   | 2021-03-08   | Yes         |                    39 |
 | [Piplup](https://metrics.torproject.org/rs.html#details/62F65E6377F0647CE0F0EE2AAE1641EC4AA2BD3B)       | 2021-03-07   | Yes         |                    39 |
 | [Turtwig](https://metrics.torproject.org/rs.html#details/8B9110B997437724115CFCDB1B2495463F77669B)      | 2021-03-16   | Yes         |                    39 |
 | [Squirtle](https://metrics.torproject.org/rs.html#details/ADDFC1F6208B4C59A6FF3DAAA5A93B481720595A)     | 2021-03-08   | Yes         |                    39 |
 | [Pickachu](https://metrics.torproject.org/rs.html#details/34F2DBF5595FF8323665BEC7DD8D2D28F9697B2C)     | 2021-03-07   | Yes         |                    39 |
-| [Chikorita](https://metrics.torproject.org/rs.html#details/55566C567D7F9E9EE70368AEFA29593EC34FB0A5)    | 2021-03-09   | Yes         |                    39 |
 | [Rachmaninoff](https://metrics.torproject.org/rs.html#details/DF187D0E3481F6C6FE60836C28AE4948A77A4761) | 2021-05-05   | Yes         |                    39 |
+| [Chikorita](https://metrics.torproject.org/rs.html#details/55566C567D7F9E9EE70368AEFA29593EC34FB0A5)    | 2021-03-09   | Yes         |                    39 |
+| [Litten](https://metrics.torproject.org/rs.html#details/F1C4F08DE356EFC6495B40E3E7698F0ACAD4C5AC)       | 2021-05-19   | Yes         |                    39 |
 | [Cyndaquil](https://metrics.torproject.org/rs.html#details/ADA98E1C50E0635BDDECB4C9D448C72040275045)    | 2021-03-09   | Yes         |                    39 |
 | [Totodile](https://metrics.torproject.org/rs.html#details/BF8A9BCA68F14B49939063B7BD3D32E23533C125)     | 2021-03-09   | Yes         |                    39 |
-| [Litten](https://metrics.torproject.org/rs.html#details/F1C4F08DE356EFC6495B40E3E7698F0ACAD4C5AC)       | 2021-05-19   | Yes         |                    39 |
-| [FreeTshirt](https://metrics.torproject.org/rs.html#details/CACEAEC72943BB2AE8C36C4751989F9E4F2E5178)   | 2021-05-28   | Yes         |                    39 |
 | [FreePants](https://metrics.torproject.org/rs.html#details/FD4281E65C32BFC1096FCA73645F589408067149)    | 2021-05-28   | Yes         |                    39 |
 | [Bastion](https://metrics.torproject.org/rs.html#details/E9EF002E8D2911AFAB1121EF281858484F3ECA73)      | 2021-05-28   | Yes         |                    35 |
+| [FreeTshirt](https://metrics.torproject.org/rs.html#details/CACEAEC72943BB2AE8C36C4751989F9E4F2E5178)   | 2021-05-28   | Yes         |                    39 |
 | [dragonbleu](https://metrics.torproject.org/rs.html#details/24DC6F435824B3D82BFD7841D6FC2216BA11B8BC)   | 2021-05-05   | No          |                    40 |
 | [saturn](https://metrics.torproject.org/rs.html#details/5ECBA2DDE6403E0F0B73E452F65EA2606929332A)       | 2021-05-09   | No          |                    39 |
 | [Mudkip](https://metrics.torproject.org/rs.html#details/75983F5660D894FCF2BE452DB35F3E594ADE4B08)       | 2021-03-13   | No          |                    39 |
