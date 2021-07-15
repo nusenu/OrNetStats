@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-07-14 15:00 UTC**
+Tor network data as of: **2021-07-15 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -51,7 +51,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [4punk7e1](https://metrics.torproject.org/rs.html#details/2E0C69E59B5B6AA15BB1C269690722607663416C) | 2020-11-27   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
 
-## ContactInfo: potlatch protonmail com (6) {#potlatch-protonmail-com}
+## ContactInfo: potlatch protonmail com (7) {#potlatch-protonmail-com}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -60,14 +60,16 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [TorExitBulgaria](https://metrics.torproject.org/rs.html#details/961B9D86125A08FAA9F7E742B228307EF7E2E082) | 2021-06-30   | Yes         |                     1 |
 | [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270)  | 2016-03-02   | No          |                     8 |
 | [TorExitMoldova2](https://metrics.torproject.org/rs.html#details/742C45F2D9004AADE0077E528A4418A6A81BC2BA) | 2019-01-01   | No          |                     8 |
+| [TorExitFinland](https://metrics.torproject.org/rs.html#details/9B31F1F1C1554F9FFB3455911F82E818EF7C7883)  | 2015-12-31   | No          |                     8 |
 | [TorExitMoldova](https://metrics.torproject.org/rs.html#details/B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1)  | 2017-05-24   | No          |                     8 |
 
-## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (7) {#torixatprotonmaildotcom}
+## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (8) {#torixatprotonmaildotcom}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Aramis67](https://metrics.torproject.org/rs.html#details/53C9F4954E7A7332BB0C610C5B8E04CA065AF29B) | 2019-05-13   | Yes         |                     7 |
 | [Aramis72](https://metrics.torproject.org/rs.html#details/F5FD7EF4307F8C5C398147877F32A9F9F71E2092) | 2020-05-27   | Yes         |                     7 |
+| [Aramis66](https://metrics.torproject.org/rs.html#details/39A18F31B312E5CB211781090766934C1CFDAB36) | 2020-07-10   | Yes         |                     2 |
 | [Aramis75](https://metrics.torproject.org/rs.html#details/4D2A4831BB67853A6FA01517A61B810D4480AE2F) | 2020-10-30   | No          |                     7 |
 | [Aramis73](https://metrics.torproject.org/rs.html#details/5FCB4186E2BCD4E8E510EACEC7AABE2194CA36BC) | 2020-10-30   | No          |                     6 |
 | [Aramis71](https://metrics.torproject.org/rs.html#details/AB32B2EA350C10888144A7ECCA7FFACA844C2052) | 2020-04-27   | No          |                     7 |
@@ -77,4 +79,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,C1768D9F00A12189BAAC9B61C5B9854392271CAF,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,08CD9D4224058DC97A1F27679A5BEE5724C4C6EC,961B9D86125A08FAA9F7E742B228307EF7E2E082,D78D1B4489CF4FFB0FD74014BDF2D600D8EE5B05,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,C1768D9F00A12189BAAC9B61C5B9854392271CAF,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,08CD9D4224058DC97A1F27679A5BEE5724C4C6EC,373BF7A2CD16E86D4C5BEC591A41945C9AED392D,961B9D86125A08FAA9F7E742B228307EF7E2E082,D78D1B4489CF4FFB0FD74014BDF2D600D8EE5B05,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
