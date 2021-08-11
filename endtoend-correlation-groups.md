@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-08-10 21:00 UTC**
+Tor network data as of: **2021-08-11 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -51,7 +51,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
 
-## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (7) {#torixatprotonmaildotcom}
+## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (8) {#torixatprotonmaildotcom}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -62,6 +62,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Aramis73](https://metrics.torproject.org/rs.html#details/5FCB4186E2BCD4E8E510EACEC7AABE2194CA36BC) | 2020-10-30   | No          |                     6 |
 | [Aramis71](https://metrics.torproject.org/rs.html#details/AB32B2EA350C10888144A7ECCA7FFACA844C2052) | 2020-04-27   | No          |                     7 |
 | [Aramis74](https://metrics.torproject.org/rs.html#details/B8F6C6A0F6D0ACBEB3D39B1D99161EFACCE27E6F) | 2020-10-30   | No          |                     7 |
+| [Aramis70](https://metrics.torproject.org/rs.html#details/DEAA89B5B8D9CEAD5CE0F9281D482A4EACC30592) | 2020-05-02   | No          |                     7 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
