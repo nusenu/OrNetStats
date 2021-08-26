@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-08-25 17:00 UTC**
+Tor network data as of: **2021-08-26 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -45,8 +45,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [4punk7r2](https://metrics.torproject.org/rs.html#details/CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052) | 2020-04-04   | Yes         |                     1 |
 | [4punk7r1](https://metrics.torproject.org/rs.html#details/ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3) | 2020-04-02   | Yes         |                     1 |
+| [4punk7r2](https://metrics.torproject.org/rs.html#details/CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052) | 2020-04-04   | Yes         |                     1 |
 | [4punk7e1](https://metrics.torproject.org/rs.html#details/2E0C69E59B5B6AA15BB1C269690722607663416C) | 2020-11-27   | No          |                     1 |
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
@@ -72,8 +72,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Aramis67](https://metrics.torproject.org/rs.html#details/53C9F4954E7A7332BB0C610C5B8E04CA065AF29B) | 2019-05-13   | Yes         |                     9 |
-| [Aramis66](https://metrics.torproject.org/rs.html#details/39A18F31B312E5CB211781090766934C1CFDAB36) | 2020-07-10   | Yes         |                     1 |
 | [Aramis72](https://metrics.torproject.org/rs.html#details/F5FD7EF4307F8C5C398147877F32A9F9F71E2092) | 2020-05-27   | Yes         |                     9 |
+| [Aramis66](https://metrics.torproject.org/rs.html#details/39A18F31B312E5CB211781090766934C1CFDAB36) | 2020-07-10   | Yes         |                     1 |
 | [Aramis75](https://metrics.torproject.org/rs.html#details/4D2A4831BB67853A6FA01517A61B810D4480AE2F) | 2020-10-30   | No          |                     9 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/4F9EFCF7689084E4C8EE993E123E32B75368804C)   | 2021-08-22   | No          |                     9 |
 | [Aramis73](https://metrics.torproject.org/rs.html#details/5FCB4186E2BCD4E8E510EACEC7AABE2194CA36BC) | 2020-10-30   | No          |                     9 |
