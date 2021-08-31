@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-08-30 19:00 UTC**
+Tor network data as of: **2021-08-31 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,6 +41,22 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [cuddle](https://metrics.torproject.org/rs.html#details/C1734E8C2D2DC1A579794DFA209C7CBCFA2B26F7)   | 2021-06-11   | No          |                     6 |
 | [peanuts](https://metrics.torproject.org/rs.html#details/F62B74728AC72A495C986255199D9AF19CCA5B51)  | 2021-06-10   | No          |                     6 |
 
+## ContactInfo: abuse at yggdrasil dot ws (4) {#abuseatyggdrasildotws}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Ragnarok](https://metrics.torproject.org/rs.html#details/ADB3ED1E13C16A46804E03FE36ACAB40058D419C) | 2021-08-10   | Yes         |                     1 |
+| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     2 |
+| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     2 |
+| [Munin](https://metrics.torproject.org/rs.html#details/7AA67D013AA444E7A85525EE188B57F625D02E38)    | 2021-01-20   | No          |                     1 |
+
+## ContactInfo: netaudit at protonmail dot com tor-relay.co (2) {#netauditatprotonmaildotcom-tor-relayco}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446) | 2020-10-18   | Yes         |                     1 |
+| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/EEDDDD9C8D0CE02449BA17DF99E0285CACA467B5) | 2020-10-21   | No          |                     1 |
+
 ## ContactInfo: 4punk7 AT mailbox dot org (5) {#4punk7-at-mailbox-dot-org}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -51,22 +67,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
 
-## ContactInfo: abuse at yggdrasil dot ws (4) {#abuseatyggdrasildotws}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Ragnarok](https://metrics.torproject.org/rs.html#details/ADB3ED1E13C16A46804E03FE36ACAB40058D419C) | 2021-08-10   | Yes         |                     1 |
-| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     2 |
-| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     2 |
-| [Munin](https://metrics.torproject.org/rs.html#details/7AA67D013AA444E7A85525EE188B57F625D02E38)    | 2021-01-20   | No          |                     1 |
-
 ## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (10) {#torixatprotonmaildotcom}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Aramis67](https://metrics.torproject.org/rs.html#details/53C9F4954E7A7332BB0C610C5B8E04CA065AF29B) | 2019-05-13   | Yes         |                     9 |
-| [Aramis72](https://metrics.torproject.org/rs.html#details/F5FD7EF4307F8C5C398147877F32A9F9F71E2092) | 2020-05-27   | Yes         |                     9 |
 | [Aramis66](https://metrics.torproject.org/rs.html#details/39A18F31B312E5CB211781090766934C1CFDAB36) | 2020-07-10   | Yes         |                     1 |
+| [Aramis72](https://metrics.torproject.org/rs.html#details/F5FD7EF4307F8C5C398147877F32A9F9F71E2092) | 2020-05-27   | Yes         |                     9 |
 | [Aramis75](https://metrics.torproject.org/rs.html#details/4D2A4831BB67853A6FA01517A61B810D4480AE2F) | 2020-10-30   | No          |                     9 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/4F9EFCF7689084E4C8EE993E123E32B75368804C)   | 2021-08-22   | No          |                     9 |
 | [Aramis73](https://metrics.torproject.org/rs.html#details/5FCB4186E2BCD4E8E510EACEC7AABE2194CA36BC) | 2020-10-30   | No          |                     9 |
@@ -78,4 +85,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
