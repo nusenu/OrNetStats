@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-08-31 20:00 UTC**
+Tor network data as of: **2021-09-01 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -50,13 +50,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     2 |
 | [Munin](https://metrics.torproject.org/rs.html#details/7AA67D013AA444E7A85525EE188B57F625D02E38)    | 2021-01-20   | No          |                     1 |
 
-## ContactInfo: netaudit at protonmail dot com tor-relay.co (2) {#netauditatprotonmaildotcom-tor-relayco}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446) | 2020-10-18   | Yes         |                     1 |
-| [cyrexlinuz](https://metrics.torproject.org/rs.html#details/EEDDDD9C8D0CE02449BA17DF99E0285CACA467B5) | 2020-10-21   | No          |                     1 |
-
 ## ContactInfo: 4punk7 AT mailbox dot org (5) {#4punk7-at-mailbox-dot-org}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -85,4 +78,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,73D5E9C3C85A36EB3C1A6A23C2FF00BF7FE03446,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
