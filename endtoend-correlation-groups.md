@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-09-07 18:00 UTC**
+Tor network data as of: **2021-09-09 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,12 +41,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [cuddle](https://metrics.torproject.org/rs.html#details/C1734E8C2D2DC1A579794DFA209C7CBCFA2B26F7)   | 2021-06-11   | No          |                     6 |
 | [peanuts](https://metrics.torproject.org/rs.html#details/F62B74728AC72A495C986255199D9AF19CCA5B51)  | 2021-06-10   | No          |                     6 |
 
-## ContactInfo: sasha.kolini@protonmail.com (2) {#sashakoliniprotonmailcom}
+## ContactInfo: abuse at yggdrasil dot ws (4) {#abuseatyggdrasildotws}
 
-| Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [SupportedMonkeyButt](https://metrics.torproject.org/rs.html#details/D2896B25A259F150B775B162EC8128765831C147) | 2021-08-03   | Yes         |                     1 |
-| [FortifiedMonkeyButt](https://metrics.torproject.org/rs.html#details/981187FC2D02C3289386E4E8245975A189973A3E) | 2021-06-18   | No          |                     1 |
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Ragnarok](https://metrics.torproject.org/rs.html#details/ADB3ED1E13C16A46804E03FE36ACAB40058D419C) | 2021-08-10   | Yes         |                     1 |
+| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     2 |
+| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     2 |
+| [Munin](https://metrics.torproject.org/rs.html#details/7AA67D013AA444E7A85525EE188B57F625D02E38)    | 2021-01-20   | No          |                     1 |
 
 ## ContactInfo: 4punk7 AT mailbox dot org (5) {#4punk7-at-mailbox-dot-org}
 
@@ -58,16 +60,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 | [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
 
-## ContactInfo: abuse at yggdrasil dot ws (4) {#abuseatyggdrasildotws}
-
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Ragnarok](https://metrics.torproject.org/rs.html#details/ADB3ED1E13C16A46804E03FE36ACAB40058D419C) | 2021-08-10   | Yes         |                     1 |
-| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)     | 2020-10-27   | No          |                     2 |
-| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)  | 2020-08-20   | No          |                     2 |
-| [Munin](https://metrics.torproject.org/rs.html#details/7AA67D013AA444E7A85525EE188B57F625D02E38)    | 2021-01-20   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,D2896B25A259F150B775B162EC8128765831C147
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,ADB3ED1E13C16A46804E03FE36ACAB40058D419C,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052
