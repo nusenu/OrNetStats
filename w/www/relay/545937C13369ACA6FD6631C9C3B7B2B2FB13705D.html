@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: Morrison</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "Morrison"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>Morrison</dd>
+
+<dt>Proven Operator Domain</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/17b90573a94e713bf1b3ad7988934cdc.html">all relays with this contact</a>)</dt>
+<dd>
+jade360@protonmail.com</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+45.153.160.138:9001
+[2a0f:9100:110:a::90]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>45.153.160.138:9030</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-23
+ accept *:43
+ accept *:53
+ accept *:79-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:465
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082-2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3389
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/dc9694dacbead4d234ca1a0c18dc39cc6bdd9938a28a31a6ef3acd7ff4ee3347.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="1F186E04173343305C2F1DFA1021C3E2A204B79D.html">1F186E04173343305C2F1DFA1021C3E2A204B79D</a>
+<a href="2B97CF2489EFF7B56816B8287D4441218A8F8D76.html">2B97CF2489EFF7B56816B8287D4441218A8F8D76</a>
+<a href="436D2973D31B428CC835FC3D4F560EF8C673F410.html">436D2973D31B428CC835FC3D4F560EF8C673F410</a>
+<a href="545937C13369ACA6FD6631C9C3B7B2B2FB13705D.html">545937C13369ACA6FD6631C9C3B7B2B2FB13705D</a>
+<a href="605B115C8310D7D60FEBBEF0E1AE2DD536718F18.html">605B115C8310D7D60FEBBEF0E1AE2DD536718F18</a>
+<a href="65A5E3C86D688CB029FC736EAA7DFE3AC60BB0BE.html">65A5E3C86D688CB029FC736EAA7DFE3AC60BB0BE</a>
+<a href="8CD0D09D8F3E4712E447CD2D7F4DC1D5231CC826.html">8CD0D09D8F3E4712E447CD2D7F4DC1D5231CC826</a>
+<a href="962DFDD80D373269303D8E7B28390F124DD7BA2D.html">962DFDD80D373269303D8E7B28390F124DD7BA2D</a>
+<a href="B2AD3E7BEBB62D5BCDAFC73A9731EB0A5D7F4DB3.html">B2AD3E7BEBB62D5BCDAFC73A9731EB0A5D7F4DB3</a>
+<a href="BB1B414127F0B28C8024380E59E7454AADBA207A.html">BB1B414127F0B28C8024380E59E7454AADBA207A</a>
+<a href="D315FDE4F81387BC07839BCBBBD20719389A7E02.html">D315FDE4F81387BC07839BCBBBD20719389A7E02</a>
+<a href="D9EFB3D96A7C2E93AA7CC539086D6E1DD39455B1.html">D9EFB3D96A7C2E93AA7CC539086D6E1DD39455B1</a>
+<a href="E44364879BA8634C46127084B2AF573F9B4B82A0.html">E44364879BA8634C46127084B2AF573F9B4B82A0</a>
+<a href="FB58E117D11F87F0A291475D603EC61082C3FB15.html">FB58E117D11F87F0A291475D603EC61082C3FB15</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2020-11-27">2020-11-27 09:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.5.8
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>396 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>88000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+Moneroj s.r.o. - 
+<a href="../as_number/AS212906.html">AS212906</a>
+(<a href='https://bgp.he.net/AS212906'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2021-06-07 13:43:41</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/nl.html"><img src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a> Netherlands
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>545937C13369ACA6FD6631C9C3B7B2B2FB13705D</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

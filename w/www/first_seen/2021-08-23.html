@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-08-23</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2021-08-23</h2>
+<p>Relays started on 2021-08-23 are responsible for ~10095 Mbit/s of traffic, with 61
+middle relays and 2 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact or<br>Proven Operator Domain <img src="../static/images/flags/valid.png"></th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A4387A5C885F00E0BE3CC8509188C0BE80B70C9F.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>235 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.39">107.189.13.39</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/696C70B202F8609C35BDDFB9E3D03AB73A51DFBE.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>235 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.133">107.189.13.133</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/E95D385D9C17121C302610B6E14C40E15AD992D2.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>234 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.6.126">107.189.6.126</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/5E2D0C65E26B52DDC559A97E6907BFDF455E5021.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>233 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.101">107.189.14.101</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/7CDCDE0C6815F9C81215DCB4D2F4370B33810E4A.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>232 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.29.216">107.189.29.216</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/01492969B7E4883680B492CCE11B58D52B368C2D.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>230 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.191">107.189.14.191</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/24372C3B67551ABDB0501CF2F7BE45789301486D.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/cc338198b982536348dcefabb19696c3.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>229 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.212">107.189.14.212</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/D36BC8F6C2004D352D8115832A3FCECC41B377A7.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>227 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.74.3">104.244.74.3</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/C12259352DA56FD9E5B3930A2AFA54EF62FBCCD7.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>226 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.1.210">107.189.1.210</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A595684DB647720BB7659BA706DEB1629AFCAB9B.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>225 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.8.126">107.189.8.126</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/8269EE29D42DB69BCC29D26150B02177869FDBD1.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>225 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.74.3">104.244.74.3</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/81766407BEFE7EAA4CFFFE31FEFEC8F7D5F39C98.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>225 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.1.187">107.189.1.187</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A659749056DEC06DD3CDDCE56F5D04BEBA932A9B.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>223 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.187">107.189.14.187</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/B07A9EFD4B254B3B8C06579C1B10785C2FDD5C26.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>221 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.232">107.189.14.232</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/55590D23896FA788884F313FDBDC2B5802EC0969.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>221 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.117">107.189.14.117</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/2499F2D4E947F341D897F7FEC8FA69CB44C97AD3.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>216 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.75.53">104.244.75.53</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/EF4626CD419223D290EB2C60E33765C9BB9EF3A7.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>214 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.29.216">107.189.29.216</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/8A079D90375529B9A07EB7DF0CF5C64AD3E0E292.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>207 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.12.71">107.189.12.71</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/AADA86C348DFA05598B8D2CF0263D7DC213C3C95.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>207 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.101">107.189.14.101</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/3DE6EB9D9996DC92DA292547A771FD87C4E6B0B4.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/b0dd914b54a415742f1b75828774f63c.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>204 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.212">107.189.14.212</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/4A20EA6797BB7E1DA02FFECB82D28A2EC3DD4115.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/cc338198b982536348dcefabb19696c3.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>203 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.116">107.189.14.116</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/5E7BCE3F2FADA1881495D6234EB259D09A3BE7D8.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>201 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.133">107.189.13.133</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/880BA897F01DDEB07611FBD4D466B8C40A141683.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/b0dd914b54a415742f1b75828774f63c.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>201 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.116">107.189.14.116</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A3E2853FA5542CBF3BF84DD83C926F3C79C1586D.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>200 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.6.126">107.189.6.126</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/02B5CCB59FE984786AB7ACDFC4DED70879770747.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>199 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.147">107.189.13.147</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/396113606A9345FD5089F5AD36E276E396C5526B.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>198 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.39">107.189.13.39</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/9312C446A74D82A4A0BB03835499EF943226F2A3.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>198 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.28.87">107.189.28.87</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/4602F360A022C97B1DCEFC2A8951733AD088BE26.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>197 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.180">107.189.14.180</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/47578A5152423A4E66F38493FE58837F3D0A691C.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>195 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.79.116">104.244.79.116</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A244DE8840B719F28FA6B113E3A7E485CE7E6F71.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>193 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.115">107.189.14.115</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/CB0ED2962ADEACFD67ABD84CC9806F6991BB9F98.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>191 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.8.126">107.189.8.126</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/00DAA8439FC3677FE505E60BB83AC2D71410E6DA.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>191 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.137">107.189.13.137</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/7710C1CF7A4F8C8F4C963EB93601D813FAF45C03.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>190 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.115">107.189.14.115</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/206DCC992F3108B80E7C090A93CDA94B5D454FCC.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>188 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.232">107.189.14.232</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/17D2620406FE715057B2E3A6FC18227281967E83.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>185 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.28.87">107.189.28.87</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/FACEC680840F0A86E2217B38C9C7F0C013320627.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>185 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.191">107.189.14.191</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/6EC2C5061C7E50CB33C8443E6D762F935800FC1F.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>184 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.1.210">107.189.1.210</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/5064A33EF7F6CDB4BD4EB32CF5F222B73639259C.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>184 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.137">107.189.13.137</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/FDC07B85B348D7F10E28233414C88B37525D0DD5.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>171 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.117">107.189.14.117</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/162758B7BB18B4E31A0F58C632055E0FBE513113.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>169 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.180">107.189.14.180</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/E05799EDF55809849303E7F6F32F952BF172377F.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>169 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.75.53">104.244.75.53</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/E47FFD3A42891C4BE0B2D1892F42B0C916DF2109.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>169 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.79.116">104.244.79.116</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/9CB1AB6CF719EF4FBD01565D2F151670124435AE.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>167 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.187">107.189.14.187</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/95235DAF0E47C26045E95D37FF97540C9F4E92C3.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/0d0be57ee5e189355ac10c89a266090d.html"
+title="email:055zugb8c[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:jdmerf6fr[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qswfaura65dajt7vl90zqnyy7qncg0mkmptj8f8 btc:bc1qpxscdls2q4jmw7sqj068ujy2pyczupu7ea5ctv offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>165 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.12.71">107.189.12.71</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/B4C75EB90D58D286A9BB3DA02344DE0A8CAF3191.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>163 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.147">107.189.13.147</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bisqubutor"><a href="../relay/A632FDB9F67502AB630E9C8D31F327FCC2A8A9E4.html">bisqubutor</a> (<a href="../family/62f4b6d342753f832882d6cf6093845d2b6148dbd95567d7a069e251665dec01.html">90</a>)</td>
+<td><code><a href="../contact/1a3bb2893ff5d5051be6c5ded34d4ff7.html"
+title="email:ip5jc1770[]relay.firefox.com url:https://bisqubutor.github.io proof:uri-rsa abuse:bhq8r2v80[]relay.firefox.com keybase:bisqubutor hoster:https://my.frantech.ca/aff.php?aff=4991 cost:7.50USD uplinkbw:500 trafficacct:unmetered memory:2048 cpu:amd-ryzen-9-3900x virtualization:kvm donationurl:http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/address/bc1qk03kxqpkhlrw47n0heannwf3rmcyepgvnak08e btc:bc1qp55r0z2gxxzdnw45w6p00d95e7gq5zaljw5k36 offlinemasterkey:y signingkeylifetime:2 sandbox:y os:HardenedBSD/13 tls:libressl aesni:y autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 [tor-relay.co]">
+<img src="../static/images/flags/valid.png"> 
+bisqubutor.github.io</a>
+<td>159 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.1.187">107.189.1.187</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="applejuicetor"><a href="../relay/B12ACDD34AAD4B13A8EC5F4A4A1923FFE7AF38CE.html">applejuicetor</a></td>
+<td><code><a href="../contact/2741a4fd404ae463fd48dab884be69a2.html"
+title="applejuice-tor(at)protonmail(dot)com [tor-relay.co]">
+applejuice-tor(at)proton...</a></code></td>
+<td>143 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/202.61.255.243">202.61.255.243</a></td>
+
+<td><a href="../as_number/AS197540.html" title="netcup GmbH">netcup GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="fusion"><a href="../relay/758CA9651D8E9C508E6EDED59636560B8A9C7F1C.html">fusion</a> (<a href="../family/d1bf3ac44ae3fe68701a567001f6393bed11a0bb3a7739eed728fd7c3eb3c888.html">2</a>)</td>
+<td><code><a href="../contact/119429afcbdff2ac6c65131c4ddf5d56.html"
+title="rot13  hgfhub@evfrhc.arg">
+rot13  hgfhub@evfrhc.arg</a></code></td>
+<td>105 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/148.251.46.115">148.251.46.115</a></td>
+
+<td><a href="../as_number/AS24940.html" title="Hetzner Online GmbH">Hetzner Online GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="HyNETRelay"><a href="../relay/FC049C13A0FD45D3D7E454B7E72A57CEE15AFF69.html">HyNETRelay</a></td>
+<td><code><a href="../contact/3788d9496f833f4b304b564fb2cba30e.html"
+title="tor-operator@hyena.network">
+tor-operator@hyena.network</a></code></td>
+<td>97 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/193.148.249.205">193.148.249.205</a></td>
+
+<td><a href="../as_number/AS34927.html" title="iFog GmbH">iFog GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="chaosdatator"><a href="../relay/584564E2E0BBEF6A594297E57E100411EAD51D8C.html">chaosdatator</a></td>
+<td><code><a href="../contact/2a72d150011d98ae6276eeb8ec004622.html"
+title="David &lt;kainikaini AT danwin1210 DOT me&gt;">
+David &lt;kainikaini AT...</a></code></td>
+<td>92 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.225.68.102">185.225.68.102</a></td>
+
+<td><a href="../as_number/AS30836.html" title="23VNet Kft.">23VNet Kft.</a></td>
+<td><a href="../country/hu.html"><img
+src="../static/images/cc/hu.png" title="Hungary" alt="Hungary"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="LMRelay01"><a href="../relay/25A6B6259D5CE79D77F057DB88AAAFE8A6BAD1FC.html">LMRelay01</a></td>
+<td><code><a href="../contact/3f719570beacdd627dccd8273a9ff7e7.html"
+title="LMRelay01 &lt;kor__cotta_ AT hotmail DOT com&gt;">
+LMRelay01 &lt;kor__cotta_...</a></code></td>
+<td>76 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/90.77.141.29">90.77.141.29</a></td>
+
+<td><a href="../as_number/AS12479.html" title="Orange Espagne SA">Orange Espagne SA</a></td>
+<td><a href="../country/es.html"><img
+src="../static/images/cc/es.png" title="Spain" alt="Spain"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="TTICanada1"><a href="../relay/A266AF3D68FAE9A9750D0CA6B5605210305E0F40.html">TTICanada1</a> (<a href="../family/23297b7c083e1cd2ce7bd013fa94bf66b0d73ca3cb551f3475bcb1ddd2954435.html">2</a>)</td>
+<td><code><a href="../contact/b9987cd9e93fa631b46c481801e122c3.html"
+title="security (at) tenebris (dot) com">
+security (at) tenebris (dot) com</a></code></td>
+<td>55 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/15.222.44.46">15.222.44.46</a></td>
+
+<td><a href="../as_number/AS16509.html" title="AMAZON-02">AMAZON-02</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="tepitoperrito1"><a href="../relay/C7B1A07DF960B58D4FA97A569698DBCF37B1A097.html">tepitoperrito1</a> (<a href="../family/40351effa03832a6a2094e1079f76c81fe3691128ba4353063044b7d62cef85d.html">2</a>)</td>
+<td><code><a href="../contact/a475ce0652176727a074eccd5350dae8.html"
+title="Tepito Perrito &lt;tepitoperrito AT 420blaze dot it&gt;">
+Tepito Perrito...</a></code></td>
+<td>43 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.165.190.71">185.165.190.71</a></td>
+
+<td><a href="../as_number/AS174.html" title="COGENT-174">COGENT-174</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Unnamed"><a href="../relay/389BAB090BED8AF2EB84856BB74C7AFFE2DB47A6.html">Unnamed</a></td>
+<td><code><a href="../contact/7f91ddd871bc7e162950acfce92284ec.html"
+title="degtiariov.yu at yandex.ru">
+degtiariov.yu at yandex.ru</a></code></td>
+<td>41 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/91.208.184.79">91.208.184.79</a></td>
+
+<td><a href="../as_number/AS200019.html" title="ALEXHOST SRL">ALEXHOST SRL</a></td>
+<td><a href="../country/md.html"><img
+src="../static/images/cc/md.png" title="Moldova, Republic of" alt="Moldova, Republic of"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="wayoutthere"><a href="../relay/A22C59CA167119885AAAF30B39903901294D558E.html">wayoutthere</a></td>
+<td title="none"><code>none</code></td>
+<td>35 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/69.47.163.116">69.47.163.116</a></td>
+
+<td><a href="../as_number/AS12083.html" title="WOW-INTERNET">WOW-INTERNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Tor4aiguugah"><a href="../relay/67E331374BEAFF69E7F79637D533940FA72C1304.html">Tor4aiguugah</a></td>
+<td title="none"><code>none</code></td>
+<td>35 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.238.129.113">185.238.129.113</a></td>
+
+<td><a href="../as_number/AS206238.html" title="Freedom Internet BV">Freedom Internet BV</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="SLTOR"><a href="../relay/B7526DA046010CF086692745E8BD0528B039C3F8.html">SLTOR</a></td>
+<td><code><a href="../contact/cd8bef60df1848da5e9a00477706b605.html"
+title="Tor Admin &lt;tor AT softwareloft dot de&gt;">
+Tor Admin &lt;tor AT...</a></code></td>
+<td>32 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.128.141.195">213.128.141.195</a></td>
+
+<td><a href="../as_number/AS12731.html" title="IPHH Internet Port Hamburg GmbH">IPHH Internet Port...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="gatech4TOR"><a href="../relay/6BD5847D7CC717E03D518969351691ECA46F583A.html">gatech4TOR</a></td>
+<td><code><a href="../contact/d18229d6352be954b24c444b7de08a8d.html"
+title="info@gatechsa.pl">
+info@gatechsa.pl</a></code></td>
+<td>23 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.125.124.93">185.125.124.93</a></td>
+
+<td><a href="../as_number/AS2590.html" title="Data Techno Park Sp. z o. o.">Data Techno Park...</a></td>
+<td><a href="../country/pl.html"><img
+src="../static/images/cc/pl.png" title="Poland" alt="Poland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="mig5paimpol"><a href="../relay/39D615C86665A67682C62E8CA47584F5053A2A63.html">mig5paimpol</a> (<a href="../family/29bd2962530371e6c6b066fac6364bb52df63aac11f30481fe49d99162e73cd8.html">4</a>)</td>
+<td><code><a href="../contact/7c7e4a40fae28016d37769005cc44090.html"
+title="email:mig[]mig5.net url:https://mig5.net proof:uri-rsa pgp:0E6B795185FCA187066D339CEEA4341C6D97A0B6 keybase:mig5 offlinemasterkey:y sandbox:y ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+mig5.net</a>
+<td>20 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/71.19.150.242">71.19.150.242</a></td>
+
+<td><a href="../as_number/AS47066.html" title="PRGMR">PRGMR</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Tor4soisoozo"><a href="../relay/AA89C293C073FE6AA45CCDF481069589B1CF75C4.html">Tor4soisoozo</a></td>
+<td title="none"><code>none</code></td>
+<td>9 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/164.70.73.218">164.70.73.218</a></td>
+
+<td>Unknown</td>
+<td><a href="../country/jp.html"><img
+src="../static/images/cc/jp.png" title="Japan" alt="Japan"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="mig5lambezellec"><a href="../relay/A955D64BBCAFE7AE6AB89102ADAB9D6AF903532B.html">mig5lambezellec</a> (<a href="../family/29bd2962530371e6c6b066fac6364bb52df63aac11f30481fe49d99162e73cd8.html">4</a>)</td>
+<td><code><a href="../contact/7c7e4a40fae28016d37769005cc44090.html"
+title="email:mig[]mig5.net url:https://mig5.net proof:uri-rsa pgp:0E6B795185FCA187066D339CEEA4341C6D97A0B6 keybase:mig5 offlinemasterkey:y sandbox:y ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+mig5.net</a>
+<td>3 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.248.170.121">104.248.170.121</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="mig5stpierre"><a href="../relay/C57F8623EBCC643DCFC4A1FB51200927158C9744.html">mig5stpierre</a> (<a href="../family/29bd2962530371e6c6b066fac6364bb52df63aac11f30481fe49d99162e73cd8.html">4</a>)</td>
+<td><code><a href="../contact/7c7e4a40fae28016d37769005cc44090.html"
+title="email:mig[]mig5.net url:https://mig5.net proof:uri-rsa pgp:0E6B795185FCA187066D339CEEA4341C6D97A0B6 keybase:mig5 offlinemasterkey:y sandbox:y ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+mig5.net</a>
+<td>3 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/172.105.178.205">172.105.178.205</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="HugsForTheHoneys"><a href="../relay/21585CCF5EC6211E3B5E655AF9B7E2119A497C74.html">HugsForTheHoneys</a></td>
+<td title="none"><code>none</code></td>
+<td>2 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/47.209.8.7">47.209.8.7</a></td>
+
+<td><a href="../as_number/AS19108.html" title="SUDDENLINK-COMMUNICATIONS">SUDDENLINK-COMMUNICATIONS</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-23</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
