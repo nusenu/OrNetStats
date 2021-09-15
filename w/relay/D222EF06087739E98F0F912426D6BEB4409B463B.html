@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: Unnamed</title>
+    <title>Tor Relays :: Pilau</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "Unnamed"</h2>
+<h2><a href="../">Home</a> :: Relay "Pilau"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>Unnamed</dd>
+<dd>Pilau</dd>
 
 <dt>Proven Operator Domain</dt>
 <dd>None</dd>
@@ -53,18 +53,65 @@
 <dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-88.198.177.122:443
+45.145.4.167:9001
 </pre></dd>
 
 
 <dt>Dir Address</dt>
-<dd>none</dd>
+<dd>45.145.4.167:9030</dd>
 <dt>Exit Address</dt>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  53
+  80-81
+  88
+  194
+  443
+  464
+  531
+  543-544
+  554
+  636
+  706
+  749
+  873
+  902-904
+  991
+  994
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8080
+  8082
+  8087-8088
+  8888
+  10000
+  11371
 </pre>
 </dd>
 
@@ -74,11 +121,65 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:53
+ accept *:80-81
+ accept *:88
+ accept *:194
+ accept *:443
+ accept *:464
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:991
+ accept *:994
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5900
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8000
+ accept *:8008
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8888
+ accept *:10000
+ accept *:11371
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">0AC63BDDB1A3390A98AE50B968361F015BAD6EE5
+<dd><pre class="pre-scrollable">D222EF06087739E98F0F912426D6BEB4409B463B
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -91,10 +192,10 @@
 <dl>
 
 <dt>First Seen</dt>
-<dd><a href="../first_seen/2020-06-23">2020-06-23 19:00:00</a></dd>
+<dd><a href="../first_seen/2021-09-15">2021-09-15 18:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.4.5
+<dd> Tor 0.4.5.9
 <img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
@@ -104,13 +205,13 @@ on
 <dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>43100</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -120,19 +221,19 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Hetzner Online GmbH - 
-<a href="../as_number/AS24940.html">AS24940</a>
-(<a href='https://bgp.he.net/AS24940'>BGP</a>)
+PE Fedinyak Sergey Vyacheslavovich - 
+<a href="../as_number/AS203087.html">AS203087</a>
+(<a href='https://bgp.he.net/AS203087'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-09-01 00:00:01</dd>
+<dd>2021-09-15 17:48:23</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+<a href="../country/kz.html"><img src="../static/images/cc/kz.png" title="Kazakhstan" alt="Kazakhstan"></a> Kazakhstan
 </dd>
 
 <dt>Fingerprint</dt>
-<dd><pre>0AC63BDDB1A3390A98AE50B968361F015BAD6EE5</pre></dd>
+<dd><pre>D222EF06087739E98F0F912426D6BEB4409B463B</pre></dd>
 
 </dl>
 </div>
