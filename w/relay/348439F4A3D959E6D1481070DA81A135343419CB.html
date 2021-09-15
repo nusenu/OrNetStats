@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: Hecker</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "Hecker"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>Hecker</dd>
+
+<dt>Proven Operator Domain</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/178a1928d38020019d14dbb81dc5cd9a.html">all relays with this contact</a>)</dt>
+<dd>
+&lt;zwiebeln at online de&gt; please donate BTC...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+89.163.143.8:445
+[2001:4ba0:cafe:c95::1]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>89.163.143.8:82</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/6cc01ff2d0d111fabfb6869a64fd8117f90ecd7acb7704e2b34d9ffda89b049f.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="348439F4A3D959E6D1481070DA81A135343419CB.html">348439F4A3D959E6D1481070DA81A135343419CB</a>
+<a href="364E18848469385C5948376FAF778AC61D4CFB67.html">364E18848469385C5948376FAF778AC61D4CFB67</a>
+<a href="42EB556E25A3C33A238AB68AFD043273D0FC6B41.html">42EB556E25A3C33A238AB68AFD043273D0FC6B41</a>
+<a href="69ECFB731C2B0AA7B4D8746EF3504ADCB1F0A556.html">69ECFB731C2B0AA7B4D8746EF3504ADCB1F0A556</a>
+<a href="8B496F3EF3BF5CC32A4C20ECDBEC2A06E7EA4357.html">8B496F3EF3BF5CC32A4C20ECDBEC2A06E7EA4357</a>
+<a href="9C1559C46AD0279EEF6FD187E1B27D939C303086.html">9C1559C46AD0279EEF6FD187E1B27D939C303086</a>
+<a href="B8D596040EDFF67D7A200FB289DC1620275EAF52.html">B8D596040EDFF67D7A200FB289DC1620275EAF52</a>
+<a href="F2AF93D23D91F9CFE03C5151DF01B0481BF99E12.html">F2AF93D23D91F9CFE03C5151DF01B0481BF99E12</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="1617A702B30320C37A5C9FA3CFB737A2AFA9198D.html">1617A702B30320C37A5C9FA3CFB737A2AFA9198D</a>
+<a href="23B3EF4271E38A744E23ACC4345E56CBDB42A1A5.html">23B3EF4271E38A744E23ACC4345E56CBDB42A1A5</a>
+<a href="3246ECCAEDC4FF2949B655E0245AFFF42F8C9DFC.html">3246ECCAEDC4FF2949B655E0245AFFF42F8C9DFC</a>
+<a href="53FF1EDC8528AF4238FB7501831E6BACFF4B42D2.html">53FF1EDC8528AF4238FB7501831E6BACFF4B42D2</a>
+<a href="693A982584CF4DD7BF2158B640CCF9A75A87B1BD.html">693A982584CF4DD7BF2158B640CCF9A75A87B1BD</a>
+<a href="74FB777F25E7F80BA6BF8B808DF873A1708821A7.html">74FB777F25E7F80BA6BF8B808DF873A1708821A7</a>
+<a href="777B2DECD67C607D8857AD60E976EE3E1E8A52BF.html">777B2DECD67C607D8857AD60E976EE3E1E8A52BF</a>
+<a href="78DF2B937849E6B7636E901377DB08A15B51525C.html">78DF2B937849E6B7636E901377DB08A15B51525C</a>
+<a href="A926970FE1AEF9C6D8D4BF57ED6B88F3F8C66415.html">A926970FE1AEF9C6D8D4BF57ED6B88F3F8C66415</a>
+<a href="B22169DDB936E4CF4B8C81E9514BD05658466974.html">B22169DDB936E4CF4B8C81E9514BD05658466974</a>
+<a href="B56D5A0543C35B45D81D792A4735590E3612A815.html">B56D5A0543C35B45D81D792A4735590E3612A815</a>
+<a href="BCB6AC303A69A7E87BB2D6F3F13A0C0F0A6C938E.html">BCB6AC303A69A7E87BB2D6F3F13A0C0F0A6C938E</a>
+<a href="E00C087ECFB27D7BF969936F1FDD9354E03CAE2F.html">E00C087ECFB27D7BF969936F1FDD9354E03CAE2F</a>
+<a href="E79A58AF0DB93B90F97B48963CC4729E4CFA43C5.html">E79A58AF0DB93B90F97B48963CC4729E4CFA43C5</a>
+<a href="F1F9D1DBD7E56F99C61C3712D5F4A02153FD9AD4.html">F1F9D1DBD7E56F99C61C3712D5F4A02153FD9AD4</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2019-12-01">2019-12-01 15:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.5.10
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>111 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>22000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">vps1913809.dedi.server-hosting.expert</pre>
+<dt>Autonomous System</dt>
+<dd>
+myLoc managed IT AG - 
+<a href="../as_number/AS24961.html">AS24961</a>
+(<a href='https://bgp.he.net/AS24961'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2021-08-18 04:37:20</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>348439F4A3D959E6D1481070DA81A135343419CB</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated by <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

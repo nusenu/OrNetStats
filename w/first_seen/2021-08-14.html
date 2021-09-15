@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-08-14</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2021-08-14</h2>
+<p>Relays started on 2021-08-14 are responsible for ~2226 MB/s of traffic, with 26
+middle relays and 2 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact or<br>Proven Operator Domain <img src="../static/images/flags/valid.png"></th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="IOException"><a href="../relay/17EDD94BAC6D9EE5D6999B8BE34D56802E53ABF8.html">IOException</a></td>
+<td><code><a href="../contact/0b43952e3475d0714022613514f54c52.html"
+title="null@email.address">
+null@email.address</a></code></td>
+<td>290 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.38.96.55">51.38.96.55</a></td>
+
+<td><a href="../as_number/AS16276.html" title="OVH SAS">OVH SAS</a></td>
+<td><a href="../country/fr.html"><img
+src="../static/images/cc/fr.png" title="France" alt="France"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="tiger"><a href="../relay/EBD2CBFE1D1101E5B8B138823CC21411F3953544.html">tiger</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>131 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.74">109.70.100.74</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="bonobo"><a href="../relay/2B97302BE55CA8F31415805C1CD2A479B2DD1487.html">bonobo</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>104 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.80">109.70.100.80</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="kaenguru"><a href="../relay/79ACC2417F4301FC02F04165F31E20B851CC7AF5.html">kaenguru</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>102 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.75">109.70.100.75</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="waschbaer"><a href="../relay/C104AF9A07EF37CCB62BB0484D21927FDB294770.html">waschbaer</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>98 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.80">109.70.100.80</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="wombat"><a href="../relay/BBE1DBF6009B6267AFB4DEF789F62FD9D8A940A4.html">wombat</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>98 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.75">109.70.100.75</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="elefant"><a href="../relay/37C25C1E9CA9F4872D536D084EDDA57F66B43435.html">elefant</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>96 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.73">109.70.100.73</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="nashorn"><a href="../relay/A4F0F516C83DE11B290384B9B4A4C928A78ED3A5.html">nashorn</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>94 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.73">109.70.100.73</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="panda"><a href="../relay/106E3C8FCEF8F5774B9E97732A37DACE99503636.html">panda</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>90 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.78">109.70.100.78</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="koala"><a href="../relay/8A30B4BF2C86C7E65C2E52A95E882718E63FA74C.html">koala</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>87 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.72">109.70.100.72</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="giraffe"><a href="../relay/2673930A22C0AEDF3FBE2C1416530A1378E6CA0E.html">giraffe</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>86 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.77">109.70.100.77</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="pinguin"><a href="../relay/3026423665B9E0C280D880E05EA064339E9237BD.html">pinguin</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>85 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.77">109.70.100.77</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Quetzalcoatl"><a href="../relay/ECA5D8E2A5F5D084933503CC99D0DE0FA89204AE.html">Quetzalcoatl</a> (<a href="../family/ec5548d163861d53f645a4c97ac43644f2144f324b1f36d95a95e02c7f28785a.html">152</a>)</td>
+<td><code><a href="../contact/c42413f0139e364fb566f9aa93ad720b.html"
+title="email:Quetzalcoatl_relays[]protonmail.com url:https://quetzalcoatl-relays.org proof:uri-rsa hoster:frantech.ca donationurl:https://quetzalcoatl-relays.org/#support-us btc:bc1qc5f3fvr5ftnj70gaj2q68dhg0mne0s85c7ql43 ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+quetzalcoatl-relays.org</a>
+<td>83 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.77">107.189.14.77</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="eisbaer"><a href="../relay/0061D22AFD1F06D4E6F35006BD3D9C21D7981EA9.html">eisbaer</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>83 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.79">109.70.100.79</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="hamster"><a href="../relay/C94343302B631A13A6F510E964849609488EC396.html">hamster</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>80 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.78">109.70.100.78</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="zebra"><a href="../relay/AF1E88B00582CD82EAB68C50211DEA47429D5E8B.html">zebra</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>79 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.76">109.70.100.76</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="gepard"><a href="../relay/121820DD492FD07AEE11DCF852E52AFF4A7D636B.html">gepard</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>78 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.76">109.70.100.76</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="igel"><a href="../relay/1893041B86FCED1A2CE2F9E2C5987F534B7DC3E0.html">igel</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>77 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.72">109.70.100.72</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Quetzalcoatl"><a href="../relay/E0DBC376BB1E68BD55DADAB9A693D07BA70CFB69.html">Quetzalcoatl</a> (<a href="../family/ec5548d163861d53f645a4c97ac43644f2144f324b1f36d95a95e02c7f28785a.html">152</a>)</td>
+<td><code><a href="../contact/c42413f0139e364fb566f9aa93ad720b.html"
+title="email:Quetzalcoatl_relays[]protonmail.com url:https://quetzalcoatl-relays.org proof:uri-rsa hoster:frantech.ca donationurl:https://quetzalcoatl-relays.org/#support-us btc:bc1qc5f3fvr5ftnj70gaj2q68dhg0mne0s85c7ql43 ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+quetzalcoatl-relays.org</a>
+<td>77 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.14.77">107.189.14.77</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="quokka"><a href="../relay/E375CD23D60C2291BD04E97CBF4E7BA90E3E54E2.html">quokka</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>77 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.79">109.70.100.79</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="maulwurf"><a href="../relay/CC11CFF453EAF54B4FB50C02AB69A5140923F6AD.html">maulwurf</a> (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">58</a>)</td>
+<td><code><a href="../contact/ed3662e97907c78ba879a796e86fee5c.html"
+title="Foundation for Applied Privacy email:tor[]appliedprivacy.net twitter:applied_privacy donationurl:https://applied-privacy.net/donate mastodon:https://mastodon.social/@applied_privacy keybase:appliedprivacy offlinemasterkey:y sandbox:y virtualization:kvm url:applied-privacy.net proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+applied-privacy.net</a>
+<td>74 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.70.100.74">109.70.100.74</a></td>
+
+<td><a href="../as_number/AS208323.html" title="Foundation for Applied Privacy">Foundation for...</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ABNT01"><a href="../relay/C34BE9F995DB2E68DD9237C0281DEE857C53CDC0.html">ABNT01</a></td>
+<td><code><a href="../contact/84977b58ca047b7cdd478cc5d1a5f2a1.html"
+title="0xD19271E775031DD5">
+0xD19271E775031DD5</a></code></td>
+<td>59 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/177.153.50.236">177.153.50.236</a></td>
+
+<td>Unknown</td>
+<td><a href="../country/br.html"><img
+src="../static/images/cc/br.png" title="Brazil" alt="Brazil"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="mmagtech"><a href="../relay/30F8C5EAE1200CD7B4EB014CB8C86A2E5197E20F.html">mmagtech</a></td>
+<td><code><a href="../contact/322a3efa17711718a5033e68362db185.html"
+title="admin@mmagtech.com">
+admin@mmagtech.com</a></code></td>
+<td>37 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/99.43.23.111">99.43.23.111</a></td>
+
+<td><a href="../as_number/AS7018.html" title="ATT-INTERNET4">ATT-INTERNET4</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="CCPVirus"><a href="../relay/DA4A030160CCB04E4E68DB888F86853B0801A5DD.html">CCPVirus</a></td>
+<td title="none"><code>none</code></td>
+<td>30 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/42.2.241.171">42.2.241.171</a></td>
+
+<td><a href="../as_number/AS4760.html" title="PCCW IMS Limited">PCCW IMS Limited</a></td>
+<td><a href="../country/hk.html"><img
+src="../static/images/cc/hk.png" title="Hong Kong" alt="Hong Kong"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="dhyperescg"><a href="../relay/B287009DF0F8F55434DC057A61ACC20216117A44.html">dhyperescg</a></td>
+<td><code><a href="../contact/9abe5a5accbfaf9bbbc75a6f4090e50c.html"
+title="Yago M. &lt;yagocl AT protonmail dot ch&gt;">
+Yago M. &lt;yagocl AT...</a></code></td>
+<td>10 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/187.19.205.169">187.19.205.169</a></td>
+
+<td>Unknown</td>
+<td><a href="../country/br.html"><img
+src="../static/images/cc/br.png" title="Brazil" alt="Brazil"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="EesDbru0zu"><a href="../relay/021D9E03FE107216E7F29838A0FA48A1DE6AC36D.html">EesDbru0zu</a></td>
+<td title="none"><code>none</code></td>
+<td>9 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/172.105.49.60">172.105.49.60</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="VerboseFunicular"><a href="../relay/257B85B54EC5193252F08669C77EBF33C46A8818.html">VerboseFunicular</a></td>
+<td title="none"><code>none</code></td>
+<td>8 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/159.65.203.37">159.65.203.37</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="AisakaTaiga2"><a href="../relay/15CAD72F96D0822D4F73806AFE4B8B135F98087D.html">AisakaTaiga2</a></td>
+<td><code><a href="../contact/b9c33f2d74c414e04e71dce07d574209.html"
+title="glameow@cock.li">
+glameow@cock.li</a></code></td>
+<td>4 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/65.188.181.73">65.188.181.73</a></td>
+
+<td><a href="../as_number/AS11426.html" title="TWC-11426-CAROLINAS">TWC-11426-CAROLINAS</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-08-14</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated by <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
