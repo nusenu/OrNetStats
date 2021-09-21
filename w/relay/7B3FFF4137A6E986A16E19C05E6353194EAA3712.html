@@ -65,7 +65,7 @@ Apex Powered &lt;free@apex-powered.com&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
+<pre class="pre-scrollable">accept: 
   1-65535
 </pre>
 </dd>
@@ -76,7 +76,13 @@ Apex Powered &lt;free@apex-powered.com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -106,11 +112,13 @@ on
 <dd>31 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2600</dd>
+<dd>2980</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -126,7 +134,7 @@ RCS &amp; RDS SA -
 <a href="../as_number/AS8708.html">AS8708</a>
 (<a href='https://bgp.he.net/AS8708'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-09-15 11:42:40</dd>
+<dd>2021-09-20 23:51:46</dd>
 
 <dt>Country</dt>
 <dd>
