@@ -63,8 +63,9 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -74,8 +75,8 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">accept 127.0.0.1:443
- accept 127.0.0.1:80
+<dd><pre class="pre-scrollable">accept *:443
+ accept *:80
  reject *:*
 </pre></dd>
 
@@ -105,10 +106,11 @@ on
 <dd>146 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>24400</dd>
+<dd>26000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -125,7 +127,7 @@ CALYX-AS -
 <a href="../as_number/AS4224.html">AS4224</a>
 (<a href='https://bgp.he.net/AS4224'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-09-20 10:47:08</dd>
+<dd>2021-09-21 15:29:00</dd>
 
 <dt>Country</dt>
 <dd>
