@@ -53,7 +53,7 @@
 <dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-156.146.34.88:47056
+156.146.34.7:47056
 </pre></dd>
 
 
@@ -63,16 +63,8 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -88,16 +80,8 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -126,11 +110,10 @@ on
 <dd>4 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>10</dd>
+<dd>64</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -146,7 +129,7 @@ Datacamp Limited -
 <a href="../as_number/AS60068.html">AS60068</a>
 (<a href='https://bgp.he.net/AS60068'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-09-22 02:30:59</dd>
+<dd>2021-09-23 18:23:11</dd>
 
 <dt>Country</dt>
 <dd>
