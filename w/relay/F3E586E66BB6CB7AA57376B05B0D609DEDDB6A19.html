@@ -53,18 +53,26 @@
 <dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-156.146.34.154:47056
+188.126.94.83:47056
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>188.126.94.83</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -80,8 +88,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -107,13 +123,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>4 Mbit/s</dd>
+<dd>14 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>61</dd>
+<dd>71</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,15 +142,15 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Datacamp Limited - 
-<a href="../as_number/AS60068.html">AS60068</a>
-(<a href='https://bgp.he.net/AS60068'>BGP</a>)
+GleSYS AB - 
+<a href="../as_number/AS42708.html">AS42708</a>
+(<a href='https://bgp.he.net/AS42708'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-09-24 11:33:25</dd>
+<dd>2021-09-25 19:41:31</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/jp.html"><img src="../static/images/cc/jp.png" title="Japan" alt="Japan"></a> Japan
+<a href="../country/dk.html"><img src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a> Denmark
 </dd>
 
 <dt>Fingerprint</dt>
