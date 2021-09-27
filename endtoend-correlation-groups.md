@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-09-26 10:00 UTC**
+Tor network data as of: **2021-09-27 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,16 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
+## ContactInfo: Hurdy-Gurdy &lt;admin AT my-mail dot rocks&gt; (5) {#hurdy-gurdy-admin-at-my-mail-dot-rocks}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [0x90](https://metrics.torproject.org/rs.html#details/EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7)       | 2021-09-07   | Yes         |                     5 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/42A955B09A4E327FBFB46A08F6E21705271CCA12) | 2021-08-21   | Yes         |                     5 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/2189732AB3D2DFEB8B42AC1889C08626A6E56A1D) | 2021-08-21   | Yes         |                     1 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/9E195D72D11644A3C1D620463405335905584B40) | 2021-06-29   | No          |                     5 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/D1B853ED27E4DFDCA3A54D3F2E269C4D94677F66) | 2018-04-16   | No          |                     5 |
+
 ## ContactInfo: 4punk7 AT mailbox dot org (5) {#4punk7-at-mailbox-dot-org}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -42,4 +52,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052
+2189732AB3D2DFEB8B42AC1889C08626A6E56A1D,42A955B09A4E327FBFB46A08F6E21705271CCA12,ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052
