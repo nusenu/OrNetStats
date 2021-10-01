@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-09-30 19:00 UTC**
+Tor network data as of: **2021-10-01 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,34 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: 4punk7 AT mailbox dot org (5) {#4punk7-at-mailbox-dot-org}
+## ContactInfo: xKek Operations &lt;system@lysergic.dev&gt; (7) {#xkek-operations-systemlysergicdev}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [4punk7r1](https://metrics.torproject.org/rs.html#details/ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3) | 2020-04-02   | Yes         |                     1 |
-| [4punk7r2](https://metrics.torproject.org/rs.html#details/CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052) | 2020-04-04   | Yes         |                     1 |
-| [4punk7e1](https://metrics.torproject.org/rs.html#details/2E0C69E59B5B6AA15BB1C269690722607663416C) | 2020-11-27   | No          |                     1 |
-| [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
-| [4punk7e3](https://metrics.torproject.org/rs.html#details/F42FF0E095F23AD253622272F984649DDEEB402C) | 2020-10-26   | No          |                     1 |
+| [thetrip](https://metrics.torproject.org/rs.html#details/424F9C80A25843A2E60EDACCD3092D31D300FD74)  | 2021-06-10   | Yes         |                     7 |
+| [cynthia](https://metrics.torproject.org/rs.html#details/519137667154E62261381ED5B912898E7DBDC60C)  | 2021-06-10   | Yes         |                     7 |
+| [centauri](https://metrics.torproject.org/rs.html#details/BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71) | 2021-06-10   | Yes         |                     7 |
+| [cashew](https://metrics.torproject.org/rs.html#details/8063D1DCE54116090DD1B03E0D602E4AABE281F1)   | 2021-06-20   | No          |                     6 |
+| [puddle](https://metrics.torproject.org/rs.html#details/9AF0C9EB3BDE62145DCE690CC82B9B8D79987E10)   | 2021-06-11   | No          |                     7 |
+| [cuddle](https://metrics.torproject.org/rs.html#details/C1734E8C2D2DC1A579794DFA209C7CBCFA2B26F7)   | 2021-06-11   | No          |                     7 |
+| [peanuts](https://metrics.torproject.org/rs.html#details/F62B74728AC72A495C986255199D9AF19CCA5B51)  | 2021-06-10   | No          |                     6 |
+
+## ContactInfo: plithismostor@protonmail.com (10) {#plithismostorprotonmailcom}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [plithismos](https://metrics.torproject.org/rs.html#details/45047C78E1F5E7B775B0A42F118D4ED64504D09E) | 2021-06-19   | Yes         |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/4FCB8DDD2F59816949812525EACCD6B47091062A) | 2021-06-28   | Yes         |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/153042336222143D67BF3D03C92557F91B1AD86A) | 2021-09-23   | Yes         |                     1 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/8765C6AFF62C266A38D8C73A76604A5B1669FAA7) | 2021-06-28   | Yes         |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/1917535158147B554B49FA4B2245751C1EF21D2E) | 2021-07-06   | No          |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/4B1D53F25E019C211FC26BE2BB61612625CE2D44) | 2021-07-21   | No          |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/7798C99855EF1A08C64DF0497C97608F7062F112) | 2021-07-10   | No          |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/9FD8AF6546A248A4C7F07A79325496015D799195) | 2021-07-21   | No          |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/B3195576E1E6A8F342C312A2F0D1AFCAAF5A5EDF) | 2021-07-09   | No          |                    10 |
+| [plithismos](https://metrics.torproject.org/rs.html#details/D3BAB67D1079EA080B83F158D69CA270FA44486B) | 2021-07-09   | No          |                    10 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-ABA31795BAD2AB8097F3AD0FE1A920E518D3D3F3,CB2DBDB2D9422D57AD85148EF9511AF4CE4D6052
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,153042336222143D67BF3D03C92557F91B1AD86A,3658D56F81A4409F7532869C03D77F2FD9EDF438,45047C78E1F5E7B775B0A42F118D4ED64504D09E,4FCB8DDD2F59816949812525EACCD6B47091062A,8765C6AFF62C266A38D8C73A76604A5B1669FAA7
