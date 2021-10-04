@@ -49,9 +49,9 @@
 <dt>Proven Operator Domain</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/8aac26c984e57939f7d6154434e1e492.html">all relays with this contact</a>)</dt>
+(<a href="../contact/0984f4a59ff7cfdb794f4b807279bcaa.html">all relays with this contact</a>)</dt>
 <dd>
-Random Person &lt;w454811 AT pr0tonmail dot ch&gt;</a></dd>
+Random Person &lt;w454811 AT protonmail dot ch&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -60,13 +60,17 @@ Random Person &lt;w454811 AT pr0tonmail dot ch&gt;</a></dd>
 
 
 <dt>Dir Address</dt>
-<dd>84.216.174.148:9030</dd>
-<dt>Exit Address</dt>
 <dd>none</dd>
+<dt>Exit Address</dt>
+<dd>84.216.174.148</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +80,18 @@ Random Person &lt;w454811 AT pr0tonmail dot ch&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -96,20 +111,20 @@ Random Person &lt;w454811 AT pr0tonmail dot ch&gt;</a></dd>
 <dd><a href="../first_seen/2021-10-02">2021-10-02 14:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.3.5.15
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<dd> Tor 0.4.6.7
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>13 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +140,7 @@ Telenor Norge AS -
 <a href="../as_number/AS2119.html">AS2119</a>
 (<a href='https://bgp.he.net/AS2119'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-03 06:46:35</dd>
+<dd>2021-10-04 01:30:14</dd>
 
 <dt>Country</dt>
 <dd>
