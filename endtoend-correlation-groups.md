@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-10-04 15:00 UTC**
+Tor network data as of: **2021-10-05 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -49,14 +49,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [RkxTorExit1](https://metrics.torproject.org/rs.html#details/1E0F9B3F63C8F333A0B9173D897837DF0BAF84C8)  | 2021-10-01   | No          |                     2 |
 | [RkxTorExit1](https://metrics.torproject.org/rs.html#details/2F8DFD2824E32DA0F04A5D5F003566F2B4BA6F69)  | 2021-10-01   | No          |                     2 |
 
-## ContactInfo: plithismostor@protonmail.com (10) {#plithismostorprotonmailcom}
+## ContactInfo: plithismostor@protonmail.com (9) {#plithismostorprotonmailcom}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [plithismos](https://metrics.torproject.org/rs.html#details/45047C78E1F5E7B775B0A42F118D4ED64504D09E) | 2021-06-19   | Yes         |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/4FCB8DDD2F59816949812525EACCD6B47091062A) | 2021-06-28   | Yes         |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/153042336222143D67BF3D03C92557F91B1AD86A) | 2021-09-23   | Yes         |                     1 |
-| [plithismos](https://metrics.torproject.org/rs.html#details/8765C6AFF62C266A38D8C73A76604A5B1669FAA7) | 2021-06-28   | Yes         |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/1917535158147B554B49FA4B2245751C1EF21D2E) | 2021-07-06   | No          |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/4B1D53F25E019C211FC26BE2BB61612625CE2D44) | 2021-07-21   | No          |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/7798C99855EF1A08C64DF0497C97608F7062F112) | 2021-07-10   | No          |                     9 |
@@ -64,15 +63,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [plithismos](https://metrics.torproject.org/rs.html#details/B3195576E1E6A8F342C312A2F0D1AFCAAF5A5EDF) | 2021-07-09   | No          |                     9 |
 | [plithismos](https://metrics.torproject.org/rs.html#details/D3BAB67D1079EA080B83F158D69CA270FA44486B) | 2021-07-09   | No          |                     9 |
 
-## ContactInfo: abuse at dustin dot in tor-relay.co (3) {#abuse-at-dustin-dot-in-tor-relayco}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/491EAA166B4F5AE79E73B99504077B226CCDE38A)  | 2021-09-26   | Yes         |                     2 |
-| [StormyCloudInc1](https://metrics.torproject.org/rs.html#details/172324D92766F498042F711887EBDF91AACE3DE8) | 2021-09-21   | No          |                     3 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/C02AC14AE7BC678501850C5735FA80EFDD2B515E)  | 2021-10-01   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,BEE3A96D4C92B2253BD411BC355518399518C3F2,153042336222143D67BF3D03C92557F91B1AD86A,45047C78E1F5E7B775B0A42F118D4ED64504D09E,4FCB8DDD2F59816949812525EACCD6B47091062A,8765C6AFF62C266A38D8C73A76604A5B1669FAA7,491EAA166B4F5AE79E73B99504077B226CCDE38A
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,BEE3A96D4C92B2253BD411BC355518399518C3F2,153042336222143D67BF3D03C92557F91B1AD86A,45047C78E1F5E7B775B0A42F118D4ED64504D09E,4FCB8DDD2F59816949812525EACCD6B47091062A
