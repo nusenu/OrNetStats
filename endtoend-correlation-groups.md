@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-10-05 18:00 UTC**
+Tor network data as of: **2021-10-06 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -41,14 +41,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [cuddle](https://metrics.torproject.org/rs.html#details/C1734E8C2D2DC1A579794DFA209C7CBCFA2B26F7)   | 2021-06-11   | No          |                     7 |
 | [peanuts](https://metrics.torproject.org/rs.html#details/F62B74728AC72A495C986255199D9AF19CCA5B51)  | 2021-06-10   | No          |                     6 |
 
-## ContactInfo: arkx &lt;tor-relays@rkx.se&gt; (3) {#arkx-tor-relaysrkxse}
-
-| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
-|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [RkxTorRelay1](https://metrics.torproject.org/rs.html#details/BEE3A96D4C92B2253BD411BC355518399518C3F2) | 2021-07-06   | Yes         |                     1 |
-| [RkxTorExit1](https://metrics.torproject.org/rs.html#details/1E0F9B3F63C8F333A0B9173D897837DF0BAF84C8)  | 2021-10-01   | No          |                     2 |
-| [RkxTorExit1](https://metrics.torproject.org/rs.html#details/2F8DFD2824E32DA0F04A5D5F003566F2B4BA6F69)  | 2021-10-01   | No          |                     2 |
-
 ## ContactInfo: plithismostor@protonmail.com (9) {#plithismostorprotonmailcom}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
@@ -66,4 +58,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,BEE3A96D4C92B2253BD411BC355518399518C3F2,153042336222143D67BF3D03C92557F91B1AD86A,45047C78E1F5E7B775B0A42F118D4ED64504D09E,4FCB8DDD2F59816949812525EACCD6B47091062A
+424F9C80A25843A2E60EDACCD3092D31D300FD74,519137667154E62261381ED5B912898E7DBDC60C,BA45EB745D44E7FEA375AFF45A4C82C51E4C2B71,153042336222143D67BF3D03C92557F91B1AD86A,45047C78E1F5E7B775B0A42F118D4ED64504D09E,4FCB8DDD2F59816949812525EACCD6B47091062A
