@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-10-11</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2021-10-11</h2>
+<p>Relays started on 2021-10-11 are responsible for ~0 Mbit/s of traffic, with 7
+middle relays and 3 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact or<br>Proven Operator Domain <img src="../static/images/flags/valid.png"></th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="SuperTux2021"><a href="../relay/0305CDE6A01372207642FFAC922AD179CDF20903.html">SuperTux2021</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.130.45.162">185.130.45.162</a></td>
+
+<td><a href="../as_number/AS210083.html" title="Privex Inc.">Privex Inc.</a></td>
+<td><a href="../country/se.html"><img
+src="../static/images/cc/se.png" title="Sweden" alt="Sweden"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="TORFAMLAY"><a href="../relay/663477236A901DB20F22587DEE35E9403A5FBF69.html">TORFAMLAY</a> (<a href="../family/6fd4a1847fbb6476bdd3571f7554db35500355f97ed58af832c80b269847ac15.html">2</a>)</td>
+<td><code><a href="../contact/dbf3f53bbe1345d9ea7ab998f17a5547.html"
+title="tor@kode.email">
+tor@kode.email</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/44.199.22.232">44.199.22.232</a></td>
+
+<td><a href="../as_number/AS14618.html" title="AMAZON-AES">AMAZON-AES</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Kesen"><a href="../relay/70F4B6B296CC1393D97425DD3F25B997B77D6C89.html">Kesen</a></td>
+<td><code><a href="../contact/8aac89c3f591de536de6045ccc993fbe.html"
+title="email:abuse[]kesen.wang url:https://kesen.wang proof:dns-rsa abuse:abuse[]kesen.wang pgp:1376417C4341A285825F21928930C96F82EA40D1 twitter:kesenwang cost:80USD uplinkbw:10000 memory:3888 offlinemasterkey:n sandbox:n autoupdate:y ciissversion:2 trafficacct:2000">
+email:abuse[]kesen.wang...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/216.232.23.25">216.232.23.25</a></td>
+
+<td><a href="../as_number/AS852.html" title="ASN852">ASN852</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Kesen"><a href="../relay/75D96CFA3E882CB3BADD323E7AF782F14A98D0A8.html">Kesen</a></td>
+<td><code><a href="../contact/8aac89c3f591de536de6045ccc993fbe.html"
+title="email:abuse[]kesen.wang url:https://kesen.wang proof:dns-rsa abuse:abuse[]kesen.wang pgp:1376417C4341A285825F21928930C96F82EA40D1 twitter:kesenwang cost:80USD uplinkbw:10000 memory:3888 offlinemasterkey:n sandbox:n autoupdate:y ciissversion:2 trafficacct:2000">
+email:abuse[]kesen.wang...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/216.232.23.25">216.232.23.25</a></td>
+
+<td><a href="../as_number/AS852.html" title="ASN852">ASN852</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="myshinyrelayx"><a href="../relay/931E185DC0DF264170090DF13568D925BF78A308.html">myshinyrelayx</a></td>
+<td><code><a href="../contact/75e40dddd89dfa0598c361c3e3def20f.html"
+title="shinyrelayx@tor.bing">
+shinyrelayx@tor.bing</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/86.11.125.200">86.11.125.200</a></td>
+
+<td><a href="../as_number/AS5089.html" title="Virgin Media Limited">Virgin Media Limited</a></td>
+<td><a href="../country/gb.html"><img
+src="../static/images/cc/gb.png" title="United Kingdom of Great Britain and Northern Ireland" alt="United Kingdom of Great Britain and Northern Ireland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="ididedithisconfig11"><a href="../relay/9ADF3515A36E389FC877F32867DE4439143DED43.html">ididedithisconfig11</a></td>
+<td><code><a href="../contact/f65edaa66657563a12f88a9c635a1188.html"
+title="David Poulsen &lt;coecherexarder-13 AT protonmail dot com&gt;">
+David Poulsen...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/86.52.220.30">86.52.220.30</a></td>
+
+<td><a href="../as_number/AS197288.html" title="Stofa A/S">Stofa A/S</a></td>
+<td><a href="../country/dk.html"><img
+src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="BidenFucksKids"><a href="../relay/A4DEA2C8C13BD0B6FBDCAC718D67EEF5F3140337.html">BidenFucksKids</a></td>
+<td><code><a href="../contact/3cac5a44d9b5764304deb3274f158bf0.html"
+title="whitehouse.org">
+whitehouse.org</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/195.133.40.151">195.133.40.151</a></td>
+
+<td><a href="../as_number/AS211252.html" title="Delis LLC">Delis LLC</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="TORKIMLAY"><a href="../relay/C1C6896EC0B9AACDBD6C568A3C2B501712A911E7.html">TORKIMLAY</a> (<a href="../family/6fd4a1847fbb6476bdd3571f7554db35500355f97ed58af832c80b269847ac15.html">2</a>)</td>
+<td><code><a href="../contact/dbf3f53bbe1345d9ea7ab998f17a5547.html"
+title="tor@kode.email">
+tor@kode.email</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/50.16.52.118">50.16.52.118</a></td>
+
+<td><a href="../as_number/AS14618.html" title="AMAZON-AES">AMAZON-AES</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="MedvideosServer11"><a href="../relay/D019FA6934D1CFD54D6B1186C9BA4C81D93CF9DC.html">MedvideosServer11</a></td>
+<td><code><a href="../contact/d22926568a6bba3aa6ffa007fd386676.html"
+title="tor-operator@medvideos.io">
+tor-operator@medvideos.io</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.61.185.233">45.61.185.233</a></td>
+
+<td><a href="../as_number/AS53667.html" title="PONYNET">PONYNET</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="CopyleftNO"><a href="../relay/FCE5D0535C3848587A2990B3BAE3AA5C24C7EF10.html">CopyleftNO</a> (<a href="../family/3331f38ac41a794abb543b1099bf42d58645b0414ff9289372b4baa8ef73b9de.html">2</a>)</td>
+<td><code><a href="../contact/7f14c7122f7bc3f664378033a49a1a55.html"
+title="email:tor-contact(at)copyleft(dot)top abuse:tor-contact(at)copyleft(dot)top hoster:Sibyl.li virtualization:kvm os:Debian/11 autoupdate:y confmgmt:manual dnslocation:local dnsqname:y dnssec:y dnslocalrootzone:y ciissversion:2 trafficacct:unmetered">
+email:tor-contact(at)cop...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/91.149.225.223">91.149.225.223</a></td>
+
+<td><a href="../as_number/AS58110.html" title="IP Volume LTD">IP Volume LTD</a></td>
+<td><a href="../country/no.html"><img
+src="../static/images/cc/no.png" title="Norway" alt="Norway"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-10-11</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
