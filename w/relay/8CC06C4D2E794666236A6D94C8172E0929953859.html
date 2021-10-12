@@ -55,7 +55,7 @@ Tor Operator &lt;tor-operator AT tutamail dot com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-91.90.120.183:58391
+91.90.120.146:49824
 </pre></dd>
 
 
@@ -65,8 +65,16 @@ Tor Operator &lt;tor-operator AT tutamail dot com&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@ Tor Operator &lt;tor-operator AT tutamail dot com&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -116,6 +132,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -132,7 +149,7 @@ M247 Ltd -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-09 23:57:31</dd>
+<dd>2021-10-12 12:56:19</dd>
 
 <dt>Country</dt>
 <dd>
