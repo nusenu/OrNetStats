@@ -65,8 +65,10 @@ tak.tor.operator@gmail.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +78,16 @@ tak.tor.operator@gmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/ca5c829bcb23309a96c1ab5d009033ac65da0e3bd0aee67c069eaf2fffff9d20.html">view</a>)</dt>
@@ -99,8 +110,7 @@ tak.tor.operator@gmail.com</a></dd>
 <dd><a href="../first_seen/2021-07-14">2021-07-14 15:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.5.9
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<dd> Tor 0.4.5.10
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -113,8 +123,8 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -131,7 +141,7 @@ AS-COLOCROSSING -
 <a href="../as_number/AS36352.html">AS36352</a>
 (<a href='https://bgp.he.net/AS36352'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-11 06:39:37</dd>
+<dd>2021-10-21 17:51:36</dd>
 
 <dt>Country</dt>
 <dd>

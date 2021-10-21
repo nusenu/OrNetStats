@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-10-20 17:00 UTC**
+Tor network data as of: **2021-10-21 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,16 +33,16 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [arecoque2](https://metrics.torproject.org/rs.html#details/42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B)      | 2021-10-03   | Yes         |                     1 |
-| [arecoque1](https://metrics.torproject.org/rs.html#details/CD1FD2C1F330A3293DA6068E6A23866D063D6DCB)      | 2021-10-03   | Yes         |                     1 |
-| [mwittig](https://metrics.torproject.org/rs.html#details/2AB6F7D59DF6153F4DB1DB6479C3422F5724C4BA)        | 2020-06-30   | No          |                     8 |
-| [marylou1](https://metrics.torproject.org/rs.html#details/578E007E5E4535FBFEF7758D8587B07B4C8C5D06)       | 2014-11-18   | No          |                     8 |
-| [AlGrothendieck](https://metrics.torproject.org/rs.html#details/8E6EDA78D8E3ABA88D877C3E37D6D4F0938C7B9F) | 2016-06-09   | No          |                     8 |
-| [marylou2](https://metrics.torproject.org/rs.html#details/90FD830C357A5109AB3C505287713F1AC811174C)       | 2015-02-21   | No          |                     8 |
-| [ekumen](https://metrics.torproject.org/rs.html#details/9BA84E8C90083676F86C7427C8D105925F13716C)         | 2014-04-08   | No          |                     8 |
-| [marcuse2](https://metrics.torproject.org/rs.html#details/C656B41AEFB40A141967EBF49D6E69603C9B4A11)       | 2014-04-08   | No          |                     8 |
-| [marcuse1](https://metrics.torproject.org/rs.html#details/EFAE44728264982224445E96214C15F9075DEE1D)       | 2014-04-08   | No          |                     8 |
-| [Elenagb](https://metrics.torproject.org/rs.html#details/F47B13BFCE4EF48CDEF6C4D7C7A99208EBB972B5)        | 2018-11-08   | No          |                     8 |
+| [arecoque2](https://metrics.torproject.org/rs.html#details/42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B)      | 2021-10-03   | Yes         |                     9 |
+| [arecoque1](https://metrics.torproject.org/rs.html#details/CD1FD2C1F330A3293DA6068E6A23866D063D6DCB)      | 2021-10-03   | Yes         |                     9 |
+| [mwittig](https://metrics.torproject.org/rs.html#details/2AB6F7D59DF6153F4DB1DB6479C3422F5724C4BA)        | 2020-06-30   | No          |                     9 |
+| [marylou1](https://metrics.torproject.org/rs.html#details/578E007E5E4535FBFEF7758D8587B07B4C8C5D06)       | 2014-11-18   | No          |                     1 |
+| [AlGrothendieck](https://metrics.torproject.org/rs.html#details/8E6EDA78D8E3ABA88D877C3E37D6D4F0938C7B9F) | 2016-06-09   | No          |                     9 |
+| [marylou2](https://metrics.torproject.org/rs.html#details/90FD830C357A5109AB3C505287713F1AC811174C)       | 2015-02-21   | No          |                     9 |
+| [ekumen](https://metrics.torproject.org/rs.html#details/9BA84E8C90083676F86C7427C8D105925F13716C)         | 2014-04-08   | No          |                     9 |
+| [marcuse2](https://metrics.torproject.org/rs.html#details/C656B41AEFB40A141967EBF49D6E69603C9B4A11)       | 2014-04-08   | No          |                     9 |
+| [marcuse1](https://metrics.torproject.org/rs.html#details/EFAE44728264982224445E96214C15F9075DEE1D)       | 2014-04-08   | No          |                     9 |
+| [Elenagb](https://metrics.torproject.org/rs.html#details/F47B13BFCE4EF48CDEF6C4D7C7A99208EBB972B5)        | 2018-11-08   | No          |                     9 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
