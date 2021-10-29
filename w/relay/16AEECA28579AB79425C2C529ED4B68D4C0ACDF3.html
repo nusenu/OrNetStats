@@ -56,7 +56,6 @@ GrochatFC &lt;tor AROBASE rochat POINT fr&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 92.141.54.143:8001
-[2a01:cb10:86b8:300:584d:2aff:fecc:7b8b]
 </pre></dd>
 
 
@@ -66,8 +65,8 @@ GrochatFC &lt;tor AROBASE rochat POINT fr&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -77,7 +76,14 @@ GrochatFC &lt;tor AROBASE rochat POINT fr&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -97,21 +103,21 @@ GrochatFC &lt;tor AROBASE rochat POINT fr&gt;</a></dd>
 <dd><a href="../first_seen/2021-09-12">2021-09-12 19:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.6.7
+<dd> Tor 0.4.6.8
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>50 Mbit/s</dd>
+<dd>77 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8700</dd>
+<dd>9200</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -127,7 +133,7 @@ Orange S.A. -
 <a href="../as_number/AS3215.html">AS3215</a>
 (<a href='https://bgp.he.net/AS3215'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-27 20:37:55</dd>
+<dd>2021-10-29 13:29:33</dd>
 
 <dt>Country</dt>
 <dd>

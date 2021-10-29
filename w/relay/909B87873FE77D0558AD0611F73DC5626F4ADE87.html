@@ -64,11 +64,16 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
-  80
+  80-81
   443
+  853
   5222
   5269
+  8080
+  18080-18081
+  18089
 </pre>
 </dd>
 
@@ -508,11 +513,16 @@
  reject 216.218.185.162:*
  reject 216.218.208.114:*
  reject 216.66.15.109:*
+ accept *:43
  accept *:53
- accept *:80
+ accept *:80-81
  accept *:443
+ accept *:853
+ accept *:8080
  accept *:5222
  accept *:5269
+ accept *:18080-18081
+ accept *:18089
  reject *:*
 </pre></dd>
 
@@ -565,11 +575,11 @@ DataShift Holdings Limited -
 <a href="../as_number/AS50236.html">AS50236</a>
 (<a href='https://bgp.he.net/AS50236'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-25 01:37:02</dd>
+<dd>2021-10-29 14:04:44</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/??.html"><img src="../static/images/cc/??.png" title="None" alt="None"></a> None
+<a href="../country/nl.html"><img src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a> Netherlands
 </dd>
 
 <dt>Fingerprint</dt>
