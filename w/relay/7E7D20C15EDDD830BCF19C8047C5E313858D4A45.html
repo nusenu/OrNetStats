@@ -55,8 +55,7 @@ anonymous.namespace.tor AT gmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-79.116.20.8:9002
-[2a0c:5a80:3907:9300:6af7:28ff:fee5:6b3a]
+86.127.233.20:9002
 </pre></dd>
 
 
@@ -66,18 +65,33 @@ anonymous.namespace.tor AT gmail.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  8333
+  9735
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  53
+  8333
+  9735
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:8333
+ accept *:9735
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -104,10 +118,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>1 Mbit/s</dd>
+<dd>2 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>40</dd>
+<dd>48</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -127,7 +141,7 @@ DIGI SPAIN TELECOM S.L.U. -
 <a href="../as_number/AS57269.html">AS57269</a>
 (<a href='https://bgp.he.net/AS57269'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-19 19:55:54</dd>
+<dd>2021-10-30 16:32:49</dd>
 
 <dt>Country</dt>
 <dd>

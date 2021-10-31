@@ -60,9 +60,9 @@ a3M96FcXmE at etlgr dot com</a></dd>
 
 
 <dt>Dir Address</dt>
-<dd>155.248.208.43:80</dd>
-<dt>Exit Address</dt>
 <dd>none</dd>
+<dt>Exit Address</dt>
+<dd>155.248.208.43</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
@@ -76,10 +76,25 @@ a3M96FcXmE at etlgr dot com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">accept 44.0.0.0/8:80
+<dd><pre class="pre-scrollable">reject 127.0.0.0/8:*
+ accept 38.229.72.19:80
+ accept 38.229.72.19:443
+ accept 38.229.82.25:80
+ accept 38.229.82.25:443
+ accept 116.202.120.165/4:80
+ accept 116.202.120.165/4:443
+ reject 44.192.0.0/10:*
+ accept 44.0.0.0/8:80
  accept 44.0.0.0/8:443
+ reject 18.128.0.0/9:*
  accept 18.0.0.0/8:80
  accept 18.0.0.0/8:443
+ accept 128.12.0.0/16:80
+ accept 128.12.0.0/16:443
+ accept 171.64.0.0/14:80
+ accept 171.64.0.0/14:443
+ accept 204.63.224.0/21:80
+ accept 204.63.224.0/21:443
  accept 35.0.0.0/13:80
  accept 35.0.0.0/13:443
  accept 186.2.163.0/24:80
@@ -137,8 +152,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 199.27.72.0/21:443
  accept 199.232.0.0/16:80
  accept 199.232.0.0/16:443
- accept 120.52.22.96/27:80
- accept 120.52.22.96/27:443
  accept 205.251.249.0/24:80
  accept 205.251.249.0/24:443
  accept 180.163.57.128/26:80
@@ -153,10 +166,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 204.246.173.0/24:443
  accept 54.230.200.0/21:80
  accept 54.230.200.0/21:443
- accept 120.253.240.192/26:80
- accept 120.253.240.192/26:443
- accept 116.129.226.128/26:80
- accept 116.129.226.128/26:443
  accept 130.176.0.0/17:80
  accept 130.176.0.0/17:443
  accept 108.156.0.0/14:80
@@ -169,8 +178,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 223.71.71.128/25:443
  accept 13.32.0.0/15:80
  accept 13.32.0.0/15:443
- accept 120.253.245.128/26:80
- accept 120.253.245.128/26:443
  accept 13.224.0.0/14:80
  accept 13.224.0.0/14:443
  accept 70.132.0.0/18:80
@@ -189,8 +196,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 58.254.138.0/25:443
  accept 54.230.208.0/20:80
  accept 54.230.208.0/20:443
- accept 116.129.226.0/25:80
- accept 116.129.226.0/25:443
  accept 52.222.128.0/17:80
  accept 52.222.128.0/17:443
  accept 64.252.128.0/18:80
@@ -205,10 +210,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 216.137.32.0/19:443
  accept 204.246.172.0/24:80
  accept 204.246.172.0/24:443
- accept 120.52.39.128/27:80
- accept 120.52.39.128/27:443
- accept 118.193.97.64/26:80
- accept 118.193.97.64/26:443
  accept 223.71.71.96/27:80
  accept 223.71.71.96/27:443
  accept 54.240.128.0/18:80
@@ -239,22 +240,12 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 143.204.0.0/16:443
  accept 144.220.0.0/16:80
  accept 144.220.0.0/16:443
- accept 120.52.153.192/26:80
- accept 120.52.153.192/26:443
- accept 119.147.182.0/25:80
- accept 119.147.182.0/25:443
- accept 120.232.236.0/25:80
- accept 120.232.236.0/25:443
  accept 54.182.0.0/16:80
  accept 54.182.0.0/16:443
  accept 58.254.138.128/26:80
  accept 58.254.138.128/26:443
- accept 120.253.245.192/27:80
- accept 120.253.245.192/27:443
  accept 54.239.192.0/19:80
  accept 54.239.192.0/19:443
- accept 120.52.12.64/26:80
- accept 120.52.12.64/26:443
  accept 99.84.0.0/16:80
  accept 99.84.0.0/16:443
  accept 130.176.192.0/19:80
@@ -269,12 +260,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 204.246.174.0/23:443
  accept 36.103.232.0/25:80
  accept 36.103.232.0/25:443
- accept 119.147.182.128/26:80
- accept 119.147.182.128/26:443
- accept 118.193.97.128/25:80
- accept 118.193.97.128/25:443
- accept 120.232.236.128/26:80
- accept 120.232.236.128/26:443
  accept 204.246.176.0/20:80
  accept 204.246.176.0/20:443
  accept 65.8.0.0/16:80
@@ -283,8 +268,6 @@ a3M96FcXmE at etlgr dot com</a></dd>
  accept 65.9.0.0/17:443
  accept 108.138.0.0/15:80
  accept 108.138.0.0/15:443
- accept 120.253.241.160/27:80
- accept 120.253.241.160/27:443
  accept 64.252.64.0/18:80
  accept 64.252.64.0/18:443
  accept 13.113.196.64/26:80
@@ -400,14 +383,13 @@ on
 <dd>13 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1100</dd>
+<dd>1700</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
