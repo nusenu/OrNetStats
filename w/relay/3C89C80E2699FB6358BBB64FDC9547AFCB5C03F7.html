@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: F3Netze</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "F3Netze"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>F3Netze</dd>
+
+<dt>Proven Operator Domain</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/www.f3netze.de.html">
+www.f3netze.de</a>
+<a href="https://www.f3netze.de/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>abuse[]f3netze.de</dd>
+<dt>abuse</dt>
+<dd>abuse[]f3netze.de</dd>
+<dt>url</dt>
+<dd>www.f3netze.de</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>uplinkbw</dt>
+<dd>375</dd>
+<dt>memory</dt>
+<dd>32018</dd>
+<dt>cpu</dt>
+<dd>i7-9700K</dd>
+<dt>virtualization</dt>
+<dd>baremetal</dd>
+<dt>donationurl</dt>
+<dd>https://f3netze.de/unterstuetzen/</dd>
+<dt>offlinemasterkey</dt>
+<dd>y</dd>
+<dt>sandbox</dt>
+<dd>y</dd>
+<dt>os</dt>
+<dd>Debian_GNU/Linux</dd>
+<dt>tls</dt>
+<dd>openssl</dd>
+<dt>aesni</dt>
+<dd>y</dd>
+<dt>autoupdate</dt>
+<dd>y</dd>
+<dt>confmgmt</dt>
+<dd>ansible</dd>
+<dt>dnslocation</dt>
+<dd>sameas</dd>
+<dt>dnsqname</dt>
+<dd>y</dd>
+<dt>dnssec</dt>
+<dd>y</dd>
+<dt>dnslocalrootzone</dt>
+<dd>y</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>trafficacct</dt>
+<dd>unmetered</dd>
+<dt>Contact
+(<a href="../contact/de1b17af7613f10ae26b59c7f90ade2e.html">all relays with this contact</a>)</dt>
+<dd>
+F3 Netze &lt;abuse@f3netze.de&gt; email:abuse[]f3netze.de...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+185.220.100.240:9000
+[2a0b:f4c0:16c:16::1]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>185.220.100.240</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22
+  25
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22
+  25
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:22
+ accept *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/8cce0d38a9f2951b705c4719d32ff344e6475c96b4136ff05db4a0ada844185a.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="06EC2C1669E5A811D9640E07CED5786DA50C5737.html">06EC2C1669E5A811D9640E07CED5786DA50C5737</a>
+<a href="135F2A8B32F583845F2B0E133EFD84C25026761B.html">135F2A8B32F583845F2B0E133EFD84C25026761B</a>
+<a href="3C89C80E2699FB6358BBB64FDC9547AFCB5C03F7.html">3C89C80E2699FB6358BBB64FDC9547AFCB5C03F7</a>
+<a href="47A3D00525F041F382B398BF95BC58E0EC23276B.html">47A3D00525F041F382B398BF95BC58E0EC23276B</a>
+<a href="50AA9FEA6A3A609686276C4CF0C2A1AFB2ECCA1B.html">50AA9FEA6A3A609686276C4CF0C2A1AFB2ECCA1B</a>
+<a href="5628495D9939A8C139DD441402DE42F7012B7092.html">5628495D9939A8C139DD441402DE42F7012B7092</a>
+<a href="5E52BEA22130598F200D05C42BB66709C24E8F67.html">5E52BEA22130598F200D05C42BB66709C24E8F67</a>
+<a href="6232FDF34FF907DC25A27327D1C05AD370FB2767.html">6232FDF34FF907DC25A27327D1C05AD370FB2767</a>
+<a href="62F4994C6F3A5B3E590AEECE522591696C8DDEE2.html">62F4994C6F3A5B3E590AEECE522591696C8DDEE2</a>
+<a href="6796E53160714D908B39BCB0058CF488FF940336.html">6796E53160714D908B39BCB0058CF488FF940336</a>
+<a href="6BCB964AB74E23F8986BDA905697D3A6BE08AF28.html">6BCB964AB74E23F8986BDA905697D3A6BE08AF28</a>
+<a href="719FD0FA327F3CCBCDA0D4EA74C15EA110338942.html">719FD0FA327F3CCBCDA0D4EA74C15EA110338942</a>
+<a href="7327876AE79C997DFE311A7B15B4FA875736BBD1.html">7327876AE79C997DFE311A7B15B4FA875736BBD1</a>
+<a href="76AB50C3EC0472A63AFB9A833A535FA6BD691478.html">76AB50C3EC0472A63AFB9A833A535FA6BD691478</a>
+<a href="887CAB501A9DB68A2C44EDF98BF50B0304EED8B6.html">887CAB501A9DB68A2C44EDF98BF50B0304EED8B6</a>
+<a href="8E38B11E849336D62AB6264FBAE9B03C70F07863.html">8E38B11E849336D62AB6264FBAE9B03C70F07863</a>
+<a href="939126EA4D25CB212A79746C133194F8A24C435B.html">939126EA4D25CB212A79746C133194F8A24C435B</a>
+<a href="9454F82D47EBA0CB0C2A4BFE7966181DBF108147.html">9454F82D47EBA0CB0C2A4BFE7966181DBF108147</a>
+<a href="98F793C7320CE3C15A45353AFCC165747A40366D.html">98F793C7320CE3C15A45353AFCC165747A40366D</a>
+<a href="9971F51A3274758B5C59E1D6580ED2C13E13CBEC.html">9971F51A3274758B5C59E1D6580ED2C13E13CBEC</a>
+<a href="9973E1E9730A58FDBA9E112D2B3342D2C0D921B5.html">9973E1E9730A58FDBA9E112D2B3342D2C0D921B5</a>
+<a href="9D5A7A81BC6194555CE751F75FB196E4A3982CC5.html">9D5A7A81BC6194555CE751F75FB196E4A3982CC5</a>
+<a href="B891CB6370CF7C51C6FB24D80947AFB7ED463D00.html">B891CB6370CF7C51C6FB24D80947AFB7ED463D00</a>
+<a href="C0AEABA1B55519FE5384AA44D0312BE98216DA71.html">C0AEABA1B55519FE5384AA44D0312BE98216DA71</a>
+<a href="C0E7334A181184ABD07698D04ADC19E15E3EE184.html">C0E7334A181184ABD07698D04ADC19E15E3EE184</a>
+<a href="C6ED7D37AA3CCAA586B22E0A30B395A5E582440A.html">C6ED7D37AA3CCAA586B22E0A30B395A5E582440A</a>
+<a href="CBF0CCD9D80D7A2F82E4FB61C36FB6898A4EBA50.html">CBF0CCD9D80D7A2F82E4FB61C36FB6898A4EBA50</a>
+<a href="CD09CD7C7F8815B37210C7D1A628599C78D22D6D.html">CD09CD7C7F8815B37210C7D1A628599C78D22D6D</a>
+<a href="DF390860B5610B8E99C5A78B4099A3705CD36B17.html">DF390860B5610B8E99C5A78B4099A3705CD36B17</a>
+<a href="E8AD8C4FDC3FE152150C005BB2EAA6A0990B74DF.html">E8AD8C4FDC3FE152150C005BB2EAA6A0990B74DF</a>
+<a href="E8C8667CAF3D5148E52ECF736A7B204982F78EAA.html">E8C8667CAF3D5148E52ECF736A7B204982F78EAA</a>
+<a href="F21760E63FE2BB45629BB14FCDB0FD677485DAF8.html">F21760E63FE2BB45629BB14FCDB0FD677485DAF8</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2020-01-29">2020-01-29 18:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.6.8
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>397 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>67000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit-13.zbau.f3netze.de</pre>
+<dt>Autonomous System</dt>
+<dd>
+F3 Netze e.V. - 
+<a href="../as_number/AS205100.html">AS205100</a>
+(<a href='https://bgp.he.net/AS205100'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2021-11-01 05:01:40</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>3C89C80E2699FB6358BBB64FDC9547AFCB5C03F7</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

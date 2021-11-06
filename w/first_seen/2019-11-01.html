@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2019-11-01</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2019-11-01</h2>
+<p>Relays started on 2019-11-01 are responsible for ~490 Mbit/s of traffic, with 3
+middle relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact or<br>Proven Operator Domain <img src="../static/images/flags/valid.png"></th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="aaron0x10c"><a href="../relay/04C3468BE24740347CBCC00534C940DBCBCABC82.html">aaron0x10c</a></td>
+<td title="none"><code>none</code></td>
+<td>198 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.158.187.110">51.158.187.110</a></td>
+
+<td><a href="../as_number/AS12876.html" title="ONLINE S.A.S.">ONLINE S.A.S.</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2019-11-01</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Yggdrasil"><a href="../relay/BFB14B9ADF1F19E59258CAE7FCDBAAC9937B7B10.html">Yggdrasil</a></td>
+<td title="none"><code>none</code></td>
+<td>170 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.15.118.10">51.15.118.10</a></td>
+
+<td><a href="../as_number/AS12876.html" title="ONLINE S.A.S.">ONLINE S.A.S.</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2019-11-01</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="myVeryNiceRelay"><a href="../relay/450AB46ADFD541B3905A5C6140BC53EB8C68C9A5.html">myVeryNiceRelay</a></td>
+<td title="none"><code>none</code></td>
+<td>122 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/193.29.35.205">193.29.35.205</a></td>
+
+<td><a href="../as_number/AS39264.html" title="&#34;Region Svyaz Konsalt&#34; LLC">&#34;Region Svyaz...</a></td>
+<td><a href="../country/ru.html"><img
+src="../static/images/cc/ru.png" title="Russian Federation" alt="Russian Federation"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2019-11-01</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
