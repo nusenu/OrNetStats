@@ -58,38 +58,16 @@ quetzalcoatl-relays.org</a>
 <dd>https://quetzalcoatl-relays.org</dd>
 <dt>proof</dt>
 <dd>uri-rsa</dd>
-<dt>abuse</dt>
-<dd>abuse-Quetzalcoatl-Relays[]protonmail.com</dd>
 <dt>hoster</dt>
-<dd>https://my.frantech.ca/aff.php?aff=4154</dd>
-<dt>cost</dt>
-<dd>1.75USD</dd>
-<dt>uplinkbw</dt>
-<dd>500</dd>
-<dt>memory</dt>
-<dd>500</dd>
-<dt>virtualization</dt>
-<dd>kvm</dd>
+<dd>frantech.ca</dd>
 <dt>donationurl</dt>
 <dd>https://quetzalcoatl-relays.org/#support-us</dd>
 <dt>btc</dt>
 <dd>bc1qc5f3fvr5ftnj70gaj2q68dhg0mne0s85c7ql43</dd>
-<dt>offlinemasterkey</dt>
-<dd>y</dd>
-<dt>signingkeylifetime</dt>
-<dd>90</dd>
-<dt>os</dt>
-<dd>debian/10</dd>
-<dt>autoupdate</dt>
-<dd>n</dd>
-<dt>confmgmt</dt>
-<dd>ansible_relayor</dd>
 <dt>ciissversion</dt>
 <dd>2</dd>
-<dt>trafficacct</dt>
-<dd>unmetered</dd>
 <dt>Contact
-(<a href="../contact/f79e3b01edd1e6457faaaa1886d1b881.html">all relays with this contact</a>)</dt>
+(<a href="../contact/c42413f0139e364fb566f9aa93ad720b.html">all relays with this contact</a>)</dt>
 <dd>
 email:Quetzalcoatl_relays[]protonmail.com...</a></dd>
 </dd>
@@ -106,18 +84,200 @@ email:Quetzalcoatl_relays[]protonmail.com...</a></dd>
 <dd>107.189.28.100</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-22
+  43
+  53
+  79-81
+  194
+  220
+  389
+  443
+  531
+  543-544
+  554
+  563
+  636
+  706
+  853
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6679
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-22
+  43
+  53
+  79-81
+  194
+  220
+  389
+  443
+  531
+  543-544
+  554
+  563
+  636
+  706
+  853
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6679
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-22
+ accept *:43
+ accept *:53
+ accept *:79-81
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:636
+ accept *:706
+ accept *:853
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:6679
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/925781895e50e674cb531ee291129df04f5f5a94ca91a4747a35e2fae769767e.html">view</a>)</dt>
@@ -341,10 +501,11 @@ on
 <dd>55 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>5200</dd>
+<dd>4900</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
@@ -363,7 +524,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-11-06 16:04:28</dd>
+<dd>2021-11-06 23:52:41</dd>
 
 <dt>Country</dt>
 <dd>
