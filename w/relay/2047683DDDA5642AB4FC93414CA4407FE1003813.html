@@ -63,11 +63,13 @@ Frank Exchange of Views &lt;f.e.o.v AT pm dot me&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>92.35.70.172</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -77,7 +79,16 @@ Frank Exchange of Views &lt;f.e.o.v AT pm dot me&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/4e0272d4b6f2f4064df28bed56e77e5906906016bad914fedf2a27fd863d2a46.html">view</a>)</dt>
@@ -104,13 +115,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>3 Mbit/s</dd>
+<dd>26 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>20</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -126,7 +138,7 @@ Telenor Norge AS -
 <a href="../as_number/AS2119.html">AS2119</a>
 (<a href='https://bgp.he.net/AS2119'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-11-04 22:46:12</dd>
+<dd>2021-11-07 15:15:02</dd>
 
 <dt>Country</dt>
 <dd>
