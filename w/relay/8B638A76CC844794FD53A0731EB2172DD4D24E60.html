@@ -76,13 +76,7 @@ RK &lt;tor@varicap.com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -111,11 +105,13 @@ on
 <dd>44 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>3400</dd>
+<dd>6900</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
