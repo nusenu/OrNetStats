@@ -62,10 +62,12 @@ matrixrevolution(at)mail2tor(dot)com [tor-relay.co]</a></dd>
 <dt>Dir Address</dt>
 <dd>93.43.210.199:9030</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>93.43.210.199</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  53
+  80
   443
 </pre>
 </dd>
@@ -73,6 +75,8 @@ matrixrevolution(at)mail2tor(dot)com [tor-relay.co]</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  53
+  80
   443
 </pre>
 </dd>
@@ -84,6 +88,8 @@ matrixrevolution(at)mail2tor(dot)com [tor-relay.co]</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
  accept *:443
  reject *:*
 </pre></dd>
@@ -119,7 +125,9 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
