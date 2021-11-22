@@ -64,24 +64,46 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  18333
+  50001-50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  18333
+  50001-50002
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8333
+ accept *:18333
+ accept *:9735
+ accept *:50001-50002
+ accept *:5222-5223
+ reject *:*
 </pre></dd>
 
-<dt>Effective Family Members (<a href="../family/e7492e10fb9140b6232ac37b954b8d71e1535b1380e3f9ec7882f10745e965fb.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/f3379c0777fe29feb23673a25e290f719ee8ba03c28158edadfa43ce216218fe.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="6D55FC323E8D32350BA034D0BBB25CB5144FCB15.html">6D55FC323E8D32350BA034D0BBB25CB5144FCB15</a>
 <a href="88808A233658276A0C6B20D4ED7FF35B293649FA.html">88808A233658276A0C6B20D4ED7FF35B293649FA</a>
 <a href="B47C8867310FBD1700EF285A8627CEEEF72568C6.html">B47C8867310FBD1700EF285A8627CEEEF72568C6</a>
+<a href="C7DE7C0FD1B36EE3A9AB7E48121517169194225E.html">C7DE7C0FD1B36EE3A9AB7E48121517169194225E</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -112,7 +134,6 @@ on
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -129,7 +150,7 @@ NOCIX -
 <a href="../as_number/AS33387.html">AS33387</a>
 (<a href='https://bgp.he.net/AS33387'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-11-14 10:21:12</dd>
+<dd>2021-11-21 18:52:23</dd>
 
 <dt>Country</dt>
 <dd>
