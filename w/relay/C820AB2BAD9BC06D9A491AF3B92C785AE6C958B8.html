@@ -49,22 +49,24 @@
 <dt>Proven Operator Domain</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/68280a0fc2bf0caf60ad3f0696693cd0.html">all relays with this contact</a>)</dt>
+<dd>
+0xFFFFFFFF World Citizens &lt;everyone AT everywhere dot Earth&gt;</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-213.203.177.212:9192
+213.203.177.212:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
-<dd>213.203.177.212:9139</dd>
+<dd>213.203.177.212:19194</dd>
 <dt>Exit Address</dt>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -74,7 +76,14 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -122,7 +131,7 @@ IRIDEOS S.P.A. -
 <a href="../as_number/AS5396.html">AS5396</a>
 (<a href='https://bgp.he.net/AS5396'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-11-25 01:38:16</dd>
+<dd>2021-11-26 00:24:55</dd>
 
 <dt>Country</dt>
 <dd>
