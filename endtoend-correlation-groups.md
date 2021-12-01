@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-11-30 16:00 UTC**
+Tor network data as of: **2021-12-01 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,23 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (12) {#contactinfo-emailabusestormycloudorg-urlstorm}
-
-| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/FE0016D9350B7AA5A7DAE6D463DD8F0EC1228F7D) | 2021-10-21   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/D043A4CB9B1B7A8E225B4E113289CAC0B0F0A683) | 2021-11-09   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/0AE98603DEDD519D0EFF2A66162B9529ECD9D694) | 2021-10-18   | Yes         |                     1 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/E4E7D68A7B066E48E9D47FDB289184E3DEAC9673) | 2021-10-19   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/5886B4AD841347BBC4448346BAD7641BE716E71F) | 2021-10-21   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/2A772EBF36CE63BD643674C4E3914D9A55F40140) | 2021-10-19   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/2F5F3C95B273490BF2626E0CD7F0F045C4CFF90D) | 2021-10-18   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/854FE47BF85F4F6A0297DE5405F26891BB600246) | 2021-11-09   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/D8C495D5A0B10D5E2E58004FE633084EBF732C21) | 2021-10-18   | Yes         |                     1 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/74838E434B0CF36CC2399BAE07C204D1BD14C14F) | 2021-10-19   | Yes         |                    16 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/69093E6A0A39704E69042AA8928148FFAFE15BCB) | 2021-10-22   | No          |                     2 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/76AE930782A3EA62AB5C0D72C6C72EF291D37B4E) | 2021-10-22   | No          |                     2 |
-
 ## ContactInfo: potlatch protonmail com (9) {#potlatch-protonmail-com}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -63,4 +46,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0AE98603DEDD519D0EFF2A66162B9529ECD9D694,1D0CCED2128CAA9B9D8C3D71A08F192BBA91120C,2A772EBF36CE63BD643674C4E3914D9A55F40140,2F10EF06BA3712840C4FB986ED0E9AFEC1A0C74E,2F5F3C95B273490BF2626E0CD7F0F045C4CFF90D,5886B4AD841347BBC4448346BAD7641BE716E71F,6CEB64F6C655B7394A7A2C6175D17FAC3387D79B,6E914A73D403856F78A7413647681BF7B7FD5B4F,6FFBF52ACB71934CC5754DB3A8880E85E2781F0D,74838E434B0CF36CC2399BAE07C204D1BD14C14F,854FE47BF85F4F6A0297DE5405F26891BB600246,B7A30CCCEB768AED08A8E2BBF3327CC12091D5B5,C6BDE87671B6594AF2A66964CAD519844503B793,D043A4CB9B1B7A8E225B4E113289CAC0B0F0A683,D8C495D5A0B10D5E2E58004FE633084EBF732C21,E4E7D68A7B066E48E9D47FDB289184E3DEAC9673,F3F863A2121E54CF5C455E9CAECD114DA46FAD5D,FE0016D9350B7AA5A7DAE6D463DD8F0EC1228F7D,08CD9D4224058DC97A1F27679A5BEE5724C4C6EC,373BF7A2CD16E86D4C5BEC591A41945C9AED392D,961B9D86125A08FAA9F7E742B228307EF7E2E082,D78D1B4489CF4FFB0FD74014BDF2D600D8EE5B05
+08CD9D4224058DC97A1F27679A5BEE5724C4C6EC,373BF7A2CD16E86D4C5BEC591A41945C9AED392D,961B9D86125A08FAA9F7E742B228307EF7E2E082,D78D1B4489CF4FFB0FD74014BDF2D600D8EE5B05
