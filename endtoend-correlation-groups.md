@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-12-01 17:00 UTC**
+Tor network data as of: **2021-12-02 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,8 +37,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [TorExitAlbania2](https://metrics.torproject.org/rs.html#details/D78D1B4489CF4FFB0FD74014BDF2D600D8EE5B05) | 2020-06-13   | Yes         |                     9 |
 | [TorExitBulgaria](https://metrics.torproject.org/rs.html#details/961B9D86125A08FAA9F7E742B228307EF7E2E082) | 2021-06-30   | Yes         |                     9 |
 | [TorExitLatvia](https://metrics.torproject.org/rs.html#details/08CD9D4224058DC97A1F27679A5BEE5724C4C6EC)   | 2020-08-15   | Yes         |                     9 |
-| [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270)  | 2016-03-02   | No          |                     9 |
-| [TorExitRomania2](https://metrics.torproject.org/rs.html#details/43A74F822D2F8FF3ADBE6949B74F0152A568B0F5) | 2021-11-30   | No          |                     1 |
+| [TorExitRomania2](https://metrics.torproject.org/rs.html#details/25EA9680B103DCA7D588F8B41C722A1CE4C278AE) | 2021-12-02   | No          |                     2 |
+| [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270)  | 2016-03-02   | No          |                    11 |
 | [TorExitMoldova2](https://metrics.torproject.org/rs.html#details/742C45F2D9004AADE0077E528A4418A6A81BC2BA) | 2019-01-01   | No          |                     9 |
 | [TorExitFinland](https://metrics.torproject.org/rs.html#details/9B31F1F1C1554F9FFB3455911F82E818EF7C7883)  | 2015-12-31   | No          |                     9 |
 | [TorExitMoldova](https://metrics.torproject.org/rs.html#details/B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1)  | 2017-05-24   | No          |                     9 |
