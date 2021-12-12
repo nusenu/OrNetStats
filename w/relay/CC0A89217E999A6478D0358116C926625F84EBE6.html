@@ -65,15 +65,9 @@ Info tor in daknob , net - Abuse abuse in daknob , net</a></dd>
 <dd>185.4.132.183</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22-25
-  110
-  179
-  465
-  587
-  993
-  995
-  16000-65530
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -90,14 +84,7 @@ Info tor in daknob , net - Abuse abuse in daknob , net</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  accept 193.5.16.0/22:*
- reject *:22-25
- reject *:587
- reject *:465
- reject *:110
- reject *:993
- reject *:995
- reject *:179
- reject *:16000-65530
+ accept 147.189.216.0/21:*
  reject 210.121.128.0/17:*
  reject 210.96.128.0/17:*
  reject 121.252.0.0/15:*
@@ -131,7 +118,9 @@ Info tor in daknob , net - Abuse abuse in daknob , net</a></dd>
  reject 72.52.128.0/17:*
  reject 200.233.16.0/20:*
  reject 200.160.128.0/20:*
- accept *:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/a59ab201be7332824da6e0cf6c4168e31630cf962efa775f5ec65b188e832937.html">view</a>)</dt>
@@ -161,7 +150,7 @@ on
 <dd>56 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>6700</dd>
+<dd>6800</dd>
 
 <dt>Flags</dt>
 <dd>
