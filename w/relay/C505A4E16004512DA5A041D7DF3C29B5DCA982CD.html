@@ -62,30 +62,11 @@ David Stroud &lt;tor {AT} dapper period cod3s&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>83.97.20.80</dd>
+<dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  79-81
-  443
-  531
-  981
-  989-990
-  1194
-  1293
-  5222-5223
-  8008
-  8080
-  8082
-  8232-8233
-  8332-8333
-  8443
-  8888
-  9418
-  11371
-  50002
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -95,36 +76,7 @@ David Stroud &lt;tor {AT} dapper period cod3s&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:43
- accept *:79
- accept *:80
- accept *:81
- accept *:443
- accept *:531
- accept *:989
- accept *:990
- accept *:981
- accept *:1194
- accept *:1293
- accept *:5222-5223
- accept *:8008
- accept *:8080
- accept *:8082
- accept *:8232-8233
- accept *:8332-8333
- accept *:8443
- accept *:8888
- accept *:9418
- accept *:11371
- accept *:50002
- accept *:64738
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -153,11 +105,10 @@ on
 <dd>15 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>313</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -167,14 +118,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">exit1.tor.dapper.codes</pre>
+<pre class="verified-hostname" title="verified hostname">relay2.tor.dapper.codes</pre>
 <dt>Autonomous System</dt>
 <dd>
 M247 Ltd - 
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-12-11 22:35:57</dd>
+<dd>2021-12-13 18:24:08</dd>
 
 <dt>Country</dt>
 <dd>

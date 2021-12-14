@@ -101,14 +101,40 @@ email:john[]quintex.com url:https://www.quintex.com proof:uri-rsa...</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  1-65535
+  43
+  53
+  80
+  443
+  991
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  1-65535
+  43
+  53
+  80
+  443
+  991
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
 </pre>
 </dd>
 
@@ -119,7 +145,21 @@ email:john[]quintex.com url:https://www.quintex.com proof:uri-rsa...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:*
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:991
+ accept *:1194
+ accept *:1293
+ accept *:3690
+ accept *:4321
+ accept *:5222-5223
+ accept *:5228
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/4d6e4e9b3c8956bba4a4463f0e8de3f98f702cffbdece653c82a024fe7f34462.html">view</a>)</dt>
@@ -254,7 +294,6 @@ on
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -271,7 +310,7 @@ QUINTEX -
 <a href="../as_number/AS62744.html">AS62744</a>
 (<a href='https://bgp.he.net/AS62744'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-10 19:03:35</dd>
+<dd>2021-12-14 15:44:09</dd>
 
 <dt>Country</dt>
 <dd>
