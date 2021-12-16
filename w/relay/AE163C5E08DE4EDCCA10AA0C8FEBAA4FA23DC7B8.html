@@ -58,13 +58,22 @@
 
 
 <dt>Dir Address</dt>
-<dd>none</dd>
+<dd>150.95.214.190:8100</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>150.95.214.190</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  80
+  109-110
+  443
+  995
+  6660-6667
+  8000-9000
+  9418
 </pre>
 </dd>
 
@@ -74,7 +83,23 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:9418
+ accept *:6660-6667
+ accept *:80
+ accept *:443
+ accept *:995
+ accept *:109-110
+ accept *:8000-9000
+ accept *:53
+ accept *:20-23
+ accept *:43
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -100,16 +125,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>33 Mbit/s</dd>
+<dd>16 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1200</dd>
+<dd>660</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -126,7 +150,7 @@ GMO Internet INC. -
 <a href="../as_number/AS7506.html">AS7506</a>
 (<a href='https://bgp.he.net/AS7506'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-10-25 02:58:02</dd>
+<dd>2021-12-16 05:04:48</dd>
 
 <dt>Country</dt>
 <dd>
