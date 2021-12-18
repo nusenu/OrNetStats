@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-12-17 15:00 UTC**
+Tor network data as of: **2021-12-18 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
+## ContactInfo: karabyte@disroot.org (2) {#karabytedisrootorg}
+
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [KarabyteRelay1](https://metrics.torproject.org/rs.html#details/B9FF040218ED3F52ED865F1F68EC584ACAA0DBCA) | 2021-03-25   | Yes         |                     1 |
+| [KarabyteExit1](https://metrics.torproject.org/rs.html#details/3367BFB7140BDF16C72A9A5A1CF757E993998D2A)  | 2021-04-03   | No          |                     1 |
+
 ## ContactInfo: s013350 6 @gmai l .com (2) {#s0133506gmailcom}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -39,4 +46,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-98518F74702216049283335998B66DC66404C040
+B9FF040218ED3F52ED865F1F68EC584ACAA0DBCA,98518F74702216049283335998B66DC66404C040
