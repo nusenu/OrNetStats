@@ -66,18 +66,48 @@ J Stark &lt;jstark1809 AT keemail dot me&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  10009
+  18080-18081
+  18333
+  28080-28081
+  50001-50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  10009
+  18080-18081
+  18333
+  28080-28081
+  50001-50002
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8333
+ accept *:18333
+ accept *:9735
+ accept *:50001-50002
+ accept *:5222-5223
+ accept *:10009
+ accept *:18080-18081
+ accept *:28080-28081
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/2ed2d85a512d4a5ff9df13ec781d6aa0146c2f51af170e15230a20f77ce58613.html">view</a>)</dt>
@@ -107,13 +137,12 @@ on
 <dd>40 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>7200</dd>
+<dd>7100</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -130,7 +159,7 @@ The Infrastructure Group B.V. -
 <a href="../as_number/AS60404.html">AS60404</a>
 (<a href='https://bgp.he.net/AS60404'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-12-14 12:35:44</dd>
+<dd>2021-12-23 05:02:45</dd>
 
 <dt>Country</dt>
 <dd>
