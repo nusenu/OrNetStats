@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: us1surveillancelink</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "us1surveillancelink"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>us1surveillancelink</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/2227cac7082a7c940d5ef05bd92a7e8d.html">all relays with this contact</a>)</dt>
+<dd>
+Admin &lt;admin \&#34;at\&#34; surveillance \&#34;dot\&#34; link&gt;</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+71.19.144.89:9001
+[2605:2700:0:2:a800:ff:fe1d:5257]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>71.19.144.89</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80
+  110
+  143
+  220
+  443
+  873
+  989-993
+  995
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 5.79.71.205:*
+ reject 5.79.71.225:*
+ reject 46.244.21.4:*
+ reject 50.21.181.152:*
+ reject 50.63.202.35:*
+ reject 52.5.245.208:*
+ reject 64.71.166.50:*
+ reject 67.215.255.139:*
+ reject 74.200.48.169:*
+ reject 74.208.153.9:*
+ reject 74.208.164.166:*
+ reject 74.208.64.191:*
+ reject 85.17.31.122:*
+ reject 85.17.31.82:*
+ reject 87.106.149.145:*
+ reject 87.106.149.153:*
+ reject 87.106.18.112:*
+ reject 87.106.18.141:*
+ reject 87.106.190.153:*
+ reject 87.106.20.192:*
+ reject 87.106.24.200:*
+ reject 87.106.253.18:*
+ reject 87.106.26.9:*
+ reject 95.211.230.75:*
+ reject 104.244.14.252:*
+ reject 109.70.26.37:*
+ reject 144.217.74.156:*
+ reject 146.148.124.166:*
+ reject 148.81.111.111:*
+ reject 151.80.148.103:*
+ reject 176.58.104.168:*
+ reject 178.162.203.202:*
+ reject 178.162.203.211:*
+ reject 178.162.203.226:*
+ reject 178.162.217.107:*
+ reject 184.105.192.2:*
+ reject 192.0.72.20:*
+ reject 192.0.72.21:*
+ reject 192.169.69.25:*
+ reject 192.42.116.41:*
+ reject 192.42.119.41:*
+ reject 193.166.255.170:*
+ reject 193.166.255.171:*
+ reject 204.11.56.48:*
+ reject 208.91.197.46:*
+ reject 212.227.20.93:*
+ reject 213.165.83.176:*
+ reject 216.218.135.114:*
+ reject 216.218.185.162:*
+ reject 216.218.208.114:*
+ reject 216.66.15.109:*
+ reject 72.55.186.0/24:*
+ reject 174.142.230.0/24:*
+ reject 184.107.100.0/24:*
+ reject 184.107.101.0/24:*
+ reject 184.107.116.0/24:*
+ reject 108.163.147.0/24:*
+ reject 198.72.104.0/24:*
+ reject 67.205.125.0/24:*
+ reject 67.205.105.0/24:*
+ reject 184.107.95.0/24:*
+ reject 5.145.168.0/21:*
+ reject 37.235.53.0/24:*
+ reject 37.252.96.0/24:*
+ reject 77.81.112.0/22:*
+ reject 77.81.116.0/22:*
+ reject 91.192.108.0/22:*
+ reject 93.93.64.0/21:*
+ reject 151.236.23.0/24:*
+ reject 158.255.238.0/24:*
+ reject 185.49.192.0/22:*
+ reject 185.50.196.0/22:*
+ reject 185.66.175.0/24:*
+ reject 185.76.77.0/24:*
+ reject 185.86.210.0/24:*
+ reject 185.104.152.0/24:*
+ reject 185.129.249.0/24:*
+ reject 192.71.213.0/24:*
+ reject 195.78.228.0/22:*
+ reject 23.217.172.41:*
+ reject 23.217.173.70:*
+ reject 23.217.161.62:*
+ reject 23.217.161.153:*
+ reject 23.235.33.144:*
+ reject 138.201.27.25:*
+ reject 58.151.137.141:*
+ reject 38.108.44.74:*
+ reject 95.216.57.16:*
+ reject 87.106.18.125:*
+ reject 46.4.116.210:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1293
+ accept *:3690
+ accept *:4321
+ accept *:5222-5223
+ accept *:5228
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
+</pre></dd>
+
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">5F96241CAFF60EEB5D4F9B6C04D629EFEF155821
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2020-06-28">2020-06-28 23:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.6.9
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>54 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>4900</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">torexit.us1.surveillance.link</pre>
+<dt>Autonomous System</dt>
+<dd>
+PRGMR - 
+<a href="../as_number/AS47066.html">AS47066</a>
+(<a href='https://bgp.he.net/AS47066'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2021-12-23 03:46:50</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>5F96241CAFF60EEB5D4F9B6C04D629EFEF155821</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

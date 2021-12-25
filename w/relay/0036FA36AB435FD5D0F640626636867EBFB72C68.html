@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: ForPrivacyNET</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "ForPrivacyNET"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>ForPrivacyNET</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/for-privacy.net.html">
+for-privacy.net</a>
+<a href="https://dns.google/query?name=0036FA36AB435FD5D0F640626636867EBFB72C68.for-privacy.net&rr_type=TXT">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>admin[]for-privacy.net</dd>
+<dt>url</dt>
+<dd>for-privacy.net</dd>
+<dt>proof</dt>
+<dd>dns-rsa</dd>
+<dt>abuse</dt>
+<dd>abuse[]for-privacy.net</dd>
+<dt>pgp</dt>
+<dd>9A2AAD5A0DEF92D9DFE5442A58226EF514943B94</dd>
+<dt>keybase</dt>
+<dd>boldsuck</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/4a2f631418f15ce69bd216e1111d91c6.html">all relays with this contact</a>)</dt>
+<dd>
+email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+185.220.101.33:10133
+[2a0b:f4c2:2::33]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>185.220.101.33</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22
+  25
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22
+  25
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:22
+ reject *:25
+ accept *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/9ec51224aa8468c87796de1cb082243c0aec22f02ed59852012367500e876861.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="0036FA36AB435FD5D0F640626636867EBFB72C68.html">0036FA36AB435FD5D0F640626636867EBFB72C68</a>
+<a href="04749CD6A6BE1C0B14EE63DFD0F13EEB9EFEE8AB.html">04749CD6A6BE1C0B14EE63DFD0F13EEB9EFEE8AB</a>
+<a href="11A2C7E4629BC8F2AE8188CFF6421F1FBDD2A8CE.html">11A2C7E4629BC8F2AE8188CFF6421F1FBDD2A8CE</a>
+<a href="18671DE5092C67883BFB2450C3267B92618BEC66.html">18671DE5092C67883BFB2450C3267B92618BEC66</a>
+<a href="1AAC19D892F84910AB94C45092241ABA3CFC4C89.html">1AAC19D892F84910AB94C45092241ABA3CFC4C89</a>
+<a href="20209021CE8B8732F8EE57D313A36FF8DC823E5E.html">20209021CE8B8732F8EE57D313A36FF8DC823E5E</a>
+<a href="2390B303058F5EC1E1BEAAEECE3AAF2CF97B71F4.html">2390B303058F5EC1E1BEAAEECE3AAF2CF97B71F4</a>
+<a href="24FDF4754BB3775A6D54E078DCBBCA43D7B1B07E.html">24FDF4754BB3775A6D54E078DCBBCA43D7B1B07E</a>
+<a href="2DF03D7B158DAE2EAF76078775451F1769506451.html">2DF03D7B158DAE2EAF76078775451F1769506451</a>
+<a href="376DC7CAD597D3A4CBB651999CFAD0E77DC9AE8C.html">376DC7CAD597D3A4CBB651999CFAD0E77DC9AE8C</a>
+<a href="39AB5907ECDCFC754E970C0FA132D29240ED0FB1.html">39AB5907ECDCFC754E970C0FA132D29240ED0FB1</a>
+<a href="3AF7BEF727941B4B9034DE085807CEAB454D532B.html">3AF7BEF727941B4B9034DE085807CEAB454D532B</a>
+<a href="43028D0071DE055180DAA82DE200B42FD2131C23.html">43028D0071DE055180DAA82DE200B42FD2131C23</a>
+<a href="4A169C0A14E41F647D009EC49D28A3D11629DAF0.html">4A169C0A14E41F647D009EC49D28A3D11629DAF0</a>
+<a href="547B98B764B0CC7EE454DF1BEE517D2C50B6223B.html">547B98B764B0CC7EE454DF1BEE517D2C50B6223B</a>
+<a href="5B326DC8FCBFE2BBBCE2806398E57B6D05539EC1.html">5B326DC8FCBFE2BBBCE2806398E57B6D05539EC1</a>
+<a href="5B7EA9EDEE7C144ABC28EB86C52C1353E753A008.html">5B7EA9EDEE7C144ABC28EB86C52C1353E753A008</a>
+<a href="5D84900DBE6D6365684A9675B81A68ACE9577A68.html">5D84900DBE6D6365684A9675B81A68ACE9577A68</a>
+<a href="5E224061F0E4721429027A130DB607F4FDD0DFE5.html">5E224061F0E4721429027A130DB607F4FDD0DFE5</a>
+<a href="66DC72666E7BF8E3E7EB3E980D4E265C5435AFB9.html">66DC72666E7BF8E3E7EB3E980D4E265C5435AFB9</a>
+<a href="6D6EC2A2E2ED8BFF2D4834F8D669D82FC2A9FA8D.html">6D6EC2A2E2ED8BFF2D4834F8D669D82FC2A9FA8D</a>
+<a href="6E16D38C5AC170E5608817B66625C5F34F21D96E.html">6E16D38C5AC170E5608817B66625C5F34F21D96E</a>
+<a href="700656570DF73C4FC4059FEF2F7DE08B2721E409.html">700656570DF73C4FC4059FEF2F7DE08B2721E409</a>
+<a href="776542D611661D6FE3839FE2D7AFB92A435C5D81.html">776542D611661D6FE3839FE2D7AFB92A435C5D81</a>
+<a href="7ABED1F6664D1153F1402838D3B32AF6F2CABE17.html">7ABED1F6664D1153F1402838D3B32AF6F2CABE17</a>
+<a href="829EC1AF85B89A4CD9E10C7271FEFF19A64C4A77.html">829EC1AF85B89A4CD9E10C7271FEFF19A64C4A77</a>
+<a href="8748A5C2CE8BE8B6099011DABBD736DBA1FABD61.html">8748A5C2CE8BE8B6099011DABBD736DBA1FABD61</a>
+<a href="8CDF4A75AE7631A015E020CFF9DCE9536CE4C56B.html">8CDF4A75AE7631A015E020CFF9DCE9536CE4C56B</a>
+<a href="8EE44717FA55705C12086F3ECD1F8D9C8676FD05.html">8EE44717FA55705C12086F3ECD1F8D9C8676FD05</a>
+<a href="9423A72BBC8B5C6AC9DE9F57735EB2B08E4156E8.html">9423A72BBC8B5C6AC9DE9F57735EB2B08E4156E8</a>
+<a href="99EBA72BA08EF99A3E0AE4DBFD2792BF2A18C465.html">99EBA72BA08EF99A3E0AE4DBFD2792BF2A18C465</a>
+<a href="9B070A04BE3C9364C7E0D961BB3569C334663CA0.html">9B070A04BE3C9364C7E0D961BB3569C334663CA0</a>
+<a href="A398080A6A72F828DC4476DE45E28C5892CA1070.html">A398080A6A72F828DC4476DE45E28C5892CA1070</a>
+<a href="A751D8BEE222564B7BA657F74B6658836FF1AEEA.html">A751D8BEE222564B7BA657F74B6658836FF1AEEA</a>
+<a href="A8A74BD885162B23FBA5DB62FBF1D6919C61AB56.html">A8A74BD885162B23FBA5DB62FBF1D6919C61AB56</a>
+<a href="ADA94C48F2D9A0ED0AEB65311C0D1D5CB38E13E2.html">ADA94C48F2D9A0ED0AEB65311C0D1D5CB38E13E2</a>
+<a href="BC06A4AE847DDC23FD63082E388BB30924DAB4B6.html">BC06A4AE847DDC23FD63082E388BB30924DAB4B6</a>
+<a href="BD2A34ADE4E603A272FAAD23AEF389801BB223BB.html">BD2A34ADE4E603A272FAAD23AEF389801BB223BB</a>
+<a href="BEE071E521A47C740C9F6184FEBCF78BFF5F1275.html">BEE071E521A47C740C9F6184FEBCF78BFF5F1275</a>
+<a href="C218A910CEF43EF5E4B9FC9F2026A7DA3958D9F4.html">C218A910CEF43EF5E4B9FC9F2026A7DA3958D9F4</a>
+<a href="C32905D18F2B0A104B039A10ED41C3D0C0BDF03A.html">C32905D18F2B0A104B039A10ED41C3D0C0BDF03A</a>
+<a href="C4CE54BF7CF355433FF6E9D80240070F65B6B96E.html">C4CE54BF7CF355433FF6E9D80240070F65B6B96E</a>
+<a href="C7106F0C6A7CF0F592CBAFF7C79BD81153B1B5F5.html">C7106F0C6A7CF0F592CBAFF7C79BD81153B1B5F5</a>
+<a href="C7A016E1F85CF7DD73914AE40F55B7183D11B8FD.html">C7A016E1F85CF7DD73914AE40F55B7183D11B8FD</a>
+<a href="D00795330D77C75344C54FB8800531FAB3C40FBE.html">D00795330D77C75344C54FB8800531FAB3C40FBE</a>
+<a href="D80F649226CC96BBE0FF7B45B3791901569FE5AC.html">D80F649226CC96BBE0FF7B45B3791901569FE5AC</a>
+<a href="E0EC6DB18CA367FE6D8478D32D760346E1C43F15.html">E0EC6DB18CA367FE6D8478D32D760346E1C43F15</a>
+<a href="E49F3696DC13946A68DF2AAA6EDA460BC15D8F03.html">E49F3696DC13946A68DF2AAA6EDA460BC15D8F03</a>
+<a href="E76FA8203C0B1FD3F2B13BC316E0ABBA9C560D11.html">E76FA8203C0B1FD3F2B13BC316E0ABBA9C560D11</a>
+<a href="F6CA925CDCD1B12F693A4B6EC79EA914DCDC9800.html">F6CA925CDCD1B12F693A4B6EC79EA914DCDC9800</a>
+<a href="F9772AC8B57100C0D2BBA8F4DA5956C3F193980E.html">F9772AC8B57100C0D2BBA8F4DA5956C3F193980E</a>
+<a href="FC728F329C92D67A435EFBA1D34B5933DAA60F62.html">FC728F329C92D67A435EFBA1D34B5933DAA60F62</a>
+<a href="FF5D538B72DAC854D4C8FE3A637C242F5B54649A.html">FF5D538B72DAC854D4C8FE3A637C242F5B54649A</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2021-12-05">2021-12-05 16:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.6.9
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>100 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>15800</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit-33.for-privacy.net</pre>
+<dt>Autonomous System</dt>
+<dd>
+CIA TRIAD SECURITY LLC - 
+<a href="../as_number/AS208294.html">AS208294</a>
+(<a href='https://bgp.he.net/AS208294'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2021-12-20 22:58:04</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>0036FA36AB435FD5D0F640626636867EBFB72C68</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
