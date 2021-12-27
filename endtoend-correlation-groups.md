@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2021-12-26 23:00 UTC**
+Tor network data as of: **2021-12-27 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -39,8 +39,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Chimchar](https://metrics.torproject.org/rs.html#details/ED967A94B73BF678660EAA91890F450250CA0575)  | 2021-03-16   | Yes         |                    15 |
 | [Rowlet](https://metrics.torproject.org/rs.html#details/690FC3ACBBBC970309A9A0993EE12AF44C0C8E62)    | 2021-03-16   | Yes         |                    15 |
 | [Chikorita](https://metrics.torproject.org/rs.html#details/55566C567D7F9E9EE70368AEFA29593EC34FB0A5) | 2021-03-09   | Yes         |                    15 |
-| [Kim](https://metrics.torproject.org/rs.html#details/5654520610CCEA5105931010DDEC4A4895EBD080)       | 2021-12-17   | Yes         |                     1 |
 | [Totodile](https://metrics.torproject.org/rs.html#details/BF8A9BCA68F14B49939063B7BD3D32E23533C125)  | 2021-03-09   | Yes         |                    15 |
+| [Kim](https://metrics.torproject.org/rs.html#details/5654520610CCEA5105931010DDEC4A4895EBD080)       | 2021-12-17   | Yes         |                     1 |
 | [Snivy](https://metrics.torproject.org/rs.html#details/D4C733CA1FF5D85C3571FF39DBC7DB431966A47D)     | 2021-03-19   | Yes         |                    15 |
 | [saturn](https://metrics.torproject.org/rs.html#details/5ECBA2DDE6403E0F0B73E452F65EA2606929332A)    | 2021-05-09   | No          |                    15 |
 | [Mudkip](https://metrics.torproject.org/rs.html#details/75983F5660D894FCF2BE452DB35F3E594ADE4B08)    | 2021-03-13   | No          |                    15 |
