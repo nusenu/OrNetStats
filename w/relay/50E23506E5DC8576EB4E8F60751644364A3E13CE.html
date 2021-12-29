@@ -64,27 +64,47 @@
 <dd>185.14.97.147</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  465
-  587
-  5800-5810
-  5900-5910
-  6660-6667
-  6697
+<pre class="pre-scrollable">accept: 
+  20-22
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8080
+  8082
+  8332-8333
+  8443
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  465
-  587
-  5800-5810
-  5900-5910
-  6660-6667
-  6697
+<pre class="pre-scrollable">accept: 
+  20-22
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8080
+  8082
+  8332-8333
+  8443
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
@@ -95,14 +115,24 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:465
- reject *:587
- reject *:5800-5810
- reject *:5900-5910
- reject *:6660-6667
- reject *:6697
- accept *:*
+ accept *:20-22
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:5222-5223
+ accept *:6667-7000
+ accept *:8008
+ accept *:8080
+ accept *:8082
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:18080-18081
+ accept *:50002
+ accept *:64738
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -128,7 +158,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>148 Mbit/s</dd>
+<dd>144 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>23000</dd>
@@ -154,7 +184,7 @@ TerraHost AS -
 <a href="../as_number/AS56655.html">AS56655</a>
 (<a href='https://bgp.he.net/AS56655'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-12-27 19:13:10</dd>
+<dd>2021-12-29 11:18:55</dd>
 
 <dt>Country</dt>
 <dd>
