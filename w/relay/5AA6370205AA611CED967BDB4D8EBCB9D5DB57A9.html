@@ -66,23 +66,27 @@
 <dd>107.189.1.160</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  465
-  587
-  6660-6667
-  6697
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  119
+  135-139
+  443
+  445
+  563
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  465
-  587
-  6660-6667
-  6697
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  119
+  135-139
+  443
+  445
+  563
 </pre>
 </dd>
 
@@ -93,12 +97,14 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:465
- reject *:587
- reject *:6660-6667
- reject *:6697
- reject *:25
- accept *:*
+ accept *:53
+ accept *:80
+ accept *:119
+ accept *:135-139
+ accept *:443
+ accept *:445
+ accept *:563
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -127,7 +133,7 @@ on
 <dd>99 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>14000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -150,7 +156,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-12-28 20:13:31</dd>
+<dd>2022-01-01 17:40:30</dd>
 
 <dt>Country</dt>
 <dd>
