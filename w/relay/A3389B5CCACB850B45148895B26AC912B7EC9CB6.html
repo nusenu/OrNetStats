@@ -77,134 +77,21 @@ Artikel10 url:artikel10.org email:info[]artikel10.org...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>185.220.101.26</dd>
+<dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  80
-  443
-  853
-  873
-  989-990
-  1194
-  2086
-  3690
-  5222
-  5269
-  8008
-  8080
-  8082
-  8232-8233
-  8332-8333
-  8443
-  9418
-  11371
-  19294
-  50002
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  80
-  443
-  853
-  873
-  989-990
-  1194
-  2086
-  3690
-  5222
-  5269
-  8008
-  8080
-  8082
-  8232-8233
-  8332-8333
-  8443
-  9418
-  11371
-  19294
-  50002
-  64738
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- reject 103.253.40.164:*
- reject 104.161.79.22:*
- reject 107.174.146.183:*
- reject 140.238.172.100:*
- reject 140.238.215.81:*
- reject 141.98.134.44:*
- reject 172.245.241.177:*
- reject 185.106.122.18:*
- reject 185.164.137.31:*
- reject 185.178.44.132:*
- reject 185.219.132.53:*
- reject 193.142.146.178:*
- reject 194.35.12.178:*
- reject 199.188.100.70:*
- reject 41.216.180.109:*
- reject 45.138.96.240:*
- reject 45.15.179.90:*
- reject 5.2.79.74:*
- reject 51.75.179.124:*
- reject 51.75.33.72:*
- reject 51.79.209.189:*
- reject 54.38.4.223:*
- reject 61.61.168.2:*
- reject 61.61.169.211:*
- reject 61.61.170.210:*
- reject 61.61.171.10:*
- reject 61.61.171.209:*
- reject 61.61.172.209:*
- reject 61.61.172.210:*
- reject 66.23.246.124:*
- reject 78.128.99.30:*
- reject 91.203.192.19:*
- reject 91.208.184.50:*
- reject 144.167.0.0/16:*
- reject 96.45.173.214:*
- reject 198.52.105.199:*
- reject 185.120.14.20:*
- reject 46.65.166.146:*
- reject 209.99.17.72:*
- reject 209.99.17.71:*
- reject 54.229.107.226:*
- accept *:20-21
- accept *:80
- accept *:443
- accept *:853
- accept *:873
- accept *:989-990
- accept *:1194
- accept *:2086
- accept *:3690
- accept *:5222
- accept *:5269
- accept *:8008
- accept *:8080
- accept *:8082
- accept *:8232-8233
- accept *:8332-8333
- accept *:8443
- accept *:9418
- accept *:11371
- accept *:19294
- accept *:50002
- accept *:64738
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/4572381ac57862c9e4821353262b907f7f832df4e01e8078570007717eb7f274.html">view</a>)</dt>
@@ -312,16 +199,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>163 Mbit/s</dd>
+<dd>157 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>26000</dd>
+<dd>25000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
