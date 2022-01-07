@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-01-06 18:00 UTC**
+Tor network data as of: **2022-01-07 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -37,14 +37,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [iDidEditTheConfig](https://metrics.torproject.org/rs.html#details/56E9882FC7B62C4F2A951C5E2D570D6E74F15C6D) | 2021-10-26   | Yes         |                     1 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/E714A55C2CD59FD24DC1C755B977FD0320632823)           | 2022-01-04   | No          |                     1 |
 
-## ContactInfo: no at no dot com tor-relay.co (2) {#noatnodotcom-tor-relayco}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [justarelay](https://metrics.torproject.org/rs.html#details/55F8A7246B5246BD5242E1719222F12237C633C7) | 2021-12-29   | Yes         |                     1 |
-| [nickgurr](https://metrics.torproject.org/rs.html#details/1AEDA1150BCDA6427C7402039D131E2BE728D8ED)   | 2022-01-01   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-56E9882FC7B62C4F2A951C5E2D570D6E74F15C6D,922835625922416F0198AF0B3E6F832B3B1E24D8,55F8A7246B5246BD5242E1719222F12237C633C7
+56E9882FC7B62C4F2A951C5E2D570D6E74F15C6D,922835625922416F0198AF0B3E6F832B3B1E24D8
