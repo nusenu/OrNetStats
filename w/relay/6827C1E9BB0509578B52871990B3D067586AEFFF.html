@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: hetzDEicebeer23</title>
+    <title>Tor Relays :: terNOicebeer23</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "hetzDEicebeer23"</h2>
+<h2><a href="../">Home</a> :: Relay "terNOicebeer23"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>hetzDEicebeer23</dd>
+<dd>terNOicebeer23</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd><a href="https://nusenu.github.io/OrNetStats/lokodlare.com.html">
@@ -69,8 +69,8 @@ email:abuse[]lokodlare.com url:lokodlare.com proof:uri-rsa...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-116.203.32.250:7192
-[2a01:4f8:c2c:a8fb::1]
+185.243.218.46:8154
+[2a03:94e0:ffff:185:243:218:0:46]
 </pre></dd>
 
 
@@ -80,8 +80,13 @@ email:abuse[]lokodlare.com url:lokodlare.com proof:uri-rsa...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  80-81
+  443
+  6667-7000
+  8008
 </pre>
 </dd>
 
@@ -91,7 +96,19 @@ email:abuse[]lokodlare.com url:lokodlare.com proof:uri-rsa...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:6667-7000
+ accept *:8008
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/1b8049b981e693ab9d2603a998f8cb1d815b27800a6914df7c95094d75ad2ec5.html">view</a>)</dt>
@@ -247,13 +264,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>44 Mbit/s</dd>
+<dd>59 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>210</dd>
+<dd>11000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -263,18 +281,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">static.250.32.203.116.clients.your-server.de</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Hetzner Online GmbH - 
-<a href="../as_number/AS24940.html">AS24940</a>
-(<a href='https://bgp.he.net/AS24940'>BGP</a>)
+TerraHost AS - 
+<a href="../as_number/AS56655.html">AS56655</a>
+(<a href='https://bgp.he.net/AS56655'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-06 07:38:26</dd>
+<dd>2022-01-08 17:15:15</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+<a href="../country/no.html"><img src="../static/images/cc/no.png" title="Norway" alt="Norway"></a> Norway
 </dd>
 
 <dt>Fingerprint</dt>

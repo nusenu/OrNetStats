@@ -49,24 +49,43 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/1bce0ab7253b26256db2bed8580338d6.html">all relays with this contact</a>)</dt>
+(<a href="../contact/8b45cb579526a366613432f6624cd262.html">all relays with this contact</a>)</dt>
 <dd>
-mail@domain.com</a></dd>
+heliostor@pm.me</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-184.75.221.171:29001
+162.219.176.3:29001
 </pre></dd>
 
 
 <dt>Dir Address</dt>
-<dd>184.75.221.171:29002</dd>
+<dd>162.219.176.3:29002</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>162.219.176.3 184.75.223.195</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80
+  110
+  143
+  220
+  443
+  873
+  989-993
+  995
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
 </pre>
 </dd>
 
@@ -76,7 +95,36 @@ mail@domain.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1293
+ accept *:3690
+ accept *:4321
+ accept *:5222-5223
+ accept *:5228
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -102,13 +150,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>24 Mbit/s</dd>
+<dd>28 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2200</dd>
+<dd>980</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -125,7 +174,7 @@ AMANAHA-NEW -
 <a href="../as_number/AS32489.html">AS32489</a>
 (<a href='https://bgp.he.net/AS32489'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-04 16:25:43</dd>
+<dd>2022-01-08 08:27:41</dd>
 
 <dt>Country</dt>
 <dd>
