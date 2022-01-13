@@ -76,7 +76,17 @@ jelegend1@protonmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 18.136.148.247:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -124,7 +134,7 @@ AMAZON-02 -
 <a href="../as_number/AS16509.html">AS16509</a>
 (<a href='https://bgp.he.net/AS16509'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-11 17:05:26</dd>
+<dd>2022-01-13 14:19:52</dd>
 
 <dt>Country</dt>
 <dd>
