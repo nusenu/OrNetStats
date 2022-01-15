@@ -66,18 +66,48 @@ tor@trycs[dot]net</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  123
+  8082
+  8232-8233
+  8332-8333
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  79-81
+  123
+  443
+  1194
+  8080
+  8082
+  8232-8233
+  8332-8333
+  9418
+  11371
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 195.201.246.0/24:*
+ accept *:53
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8082
+ accept *:123
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -106,7 +136,7 @@ on
 <dd>33 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>276</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -126,7 +156,7 @@ Hetzner Online GmbH -
 <a href="../as_number/AS24940.html">AS24940</a>
 (<a href='https://bgp.he.net/AS24940'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-13 01:06:29</dd>
+<dd>2022-01-15 05:33:46</dd>
 
 <dt>Country</dt>
 <dd>
