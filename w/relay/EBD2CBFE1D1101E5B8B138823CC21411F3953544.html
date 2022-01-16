@@ -87,21 +87,87 @@ Foundation for Applied Privacy email:tor[]appliedprivacy.net...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>109.70.100.78</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  80
+  443
+  853
+  873
+  993
+  995
+  1194
+  2086
+  3128
+  5222-5223
+  5269
+  8000
+  8008
+  8080
+  8232-8233
+  8443
+  8888
+  9418
+  11371
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  43
+  80
+  443
+  853
+  873
+  993
+  995
+  1194
+  2086
+  3128
+  5222-5223
+  5269
+  8000
+  8008
+  8080
+  8232-8233
+  8443
+  8888
+  9418
+  11371
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ accept *:8000
+ accept *:8008
+ accept *:8080
+ accept *:8443
+ accept *:8888
+ accept *:43
+ accept *:993
+ accept *:995
+ accept *:5222-5223
+ accept *:5269
+ accept *:3128
+ accept *:1194
+ accept *:853
+ accept *:873
+ accept *:2086
+ accept *:11371
+ accept *:8232-8233
+ accept *:9418
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/0921d209d5027bf89d1a81b934e2e3e3a6e2b59e5c19ff48cd7e10863d49ed28.html">view</a>)</dt>
@@ -184,15 +250,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>152 Mbit/s</dd>
+<dd>170 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>24000</dd>
+<dd>29400</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -209,7 +275,7 @@ Foundation for Applied Privacy -
 <a href="../as_number/AS208323.html">AS208323</a>
 (<a href='https://bgp.he.net/AS208323'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-06 01:39:52</dd>
+<dd>2022-01-15 21:04:49</dd>
 
 <dt>Country</dt>
 <dd>
