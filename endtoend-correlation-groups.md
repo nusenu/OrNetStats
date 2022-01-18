@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-01-17 17:00 UTC**
+Tor network data as of: **2022-01-18 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,6 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
+## ContactInfo: realsample at protonmail dot com (3) {#realsampleatprotonmaildotcom}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [freerelay](https://metrics.torproject.org/rs.html#details/AB5B00284029235164A9F9D78CFEC9579DB7D0FF)  | 2021-12-30   | Yes         |                     1 |
+| [freerelay1](https://metrics.torproject.org/rs.html#details/EA3D73539A8D824B2AF932ACB2524BBD144A17AA) | 2021-12-28   | Yes         |                     3 |
+| [fuckthecia](https://metrics.torproject.org/rs.html#details/749CDF5E214A742C7F561106A3F5903F70B53150) | 2022-01-09   | No          |                     1 |
+
 ## ContactInfo: shebangs@yopmail.fr (9) {#shebangsyopmailfr}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -43,15 +51,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Shebangs](https://metrics.torproject.org/rs.html#details/AC87DB1D965362FBCB9FC8BA32986718D3EC6AB6) | 2020-12-21   | No          |                     1 |
 | [Shebangs](https://metrics.torproject.org/rs.html#details/EF882724909A6A91D588C9081EC5B5107F3875E4) | 2020-12-21   | No          |                     1 |
 
-## ContactInfo: twentytwo at countermail dot com tor-relay.co (3) {#twentytwoatcountermaildotcom-tor-relayco}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Shibaa](https://metrics.torproject.org/rs.html#details/313BFC204E905916C303D246BD20CC1B140B13FE)    | 2021-12-23   | Yes         |                     1 |
-| [Shibuu](https://metrics.torproject.org/rs.html#details/BC82C406F93334DE16F7984996CEB0908B348C78)    | 2021-12-18   | Yes         |                     1 |
-| [Shibanode](https://metrics.torproject.org/rs.html#details/6802A281D24F4A3FE1DD90EA37EC233B7F83C9D5) | 2021-12-18   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,4918A461CEE1C8E65F4272E40CF3C6C6E70BB22C,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,A4A79E2B8294AA2572B46C5C772E149F84FAF763,D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8,313BFC204E905916C303D246BD20CC1B140B13FE,BC82C406F93334DE16F7984996CEB0908B348C78,E4A8BC82E660528D5B0B8D36C08AB44B77351736
+AB5B00284029235164A9F9D78CFEC9579DB7D0FF,328ED3A92D1CD621659B4DA6E210FCAED813174B,3688001D75469101F74A5D551A49B0EF410F0E26,4918A461CEE1C8E65F4272E40CF3C6C6E70BB22C,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,A4A79E2B8294AA2572B46C5C772E149F84FAF763,D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8,EA3D73539A8D824B2AF932ACB2524BBD144A17AA,E4A8BC82E660528D5B0B8D36C08AB44B77351736

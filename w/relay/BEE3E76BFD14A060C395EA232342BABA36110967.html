@@ -61,11 +61,11 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.254.75.32</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
 </pre>
 </dd>
 
@@ -75,7 +75,14 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -101,13 +108,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>24</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -123,7 +132,7 @@ xTom GmbH -
 <a href="../as_number/AS3214.html">AS3214</a>
 (<a href='https://bgp.he.net/AS3214'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-17 09:45:43</dd>
+<dd>2022-01-18 07:22:14</dd>
 
 <dt>Country</dt>
 <dd>
