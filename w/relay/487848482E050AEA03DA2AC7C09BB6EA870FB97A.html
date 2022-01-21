@@ -55,7 +55,8 @@ jelegend1@protonmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-193.161.193.99:35176
+134.122.28.2:55064
+[2405:201:5003:40a7:e584:e472:f5b:4a05]
 </pre></dd>
 
 
@@ -65,8 +66,10 @@ jelegend1@protonmail.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +79,16 @@ jelegend1@protonmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -105,10 +117,11 @@ on
 <dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>10</dd>
+<dd>6</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -120,15 +133,15 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-OOO Bitree Networks - 
-<a href="../as_number/AS198134.html">AS198134</a>
-(<a href='https://bgp.he.net/AS198134'>BGP</a>)
+DIGITALOCEAN-ASN - 
+<a href="../as_number/AS14061.html">AS14061</a>
+(<a href='https://bgp.he.net/AS14061'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-01-19 18:42:20</dd>
+<dd>2022-01-21 18:16:43</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/ru.html"><img src="../static/images/cc/ru.png" title="Russian Federation" alt="Russian Federation"></a> Russian Federation
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
