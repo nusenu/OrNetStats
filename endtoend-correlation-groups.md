@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-01-21 20:00 UTC**
+Tor network data as of: **2022-01-22 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,18 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Hurdy-Gurdy &lt;admin AT my-mail dot rocks&gt; (6) {#hurdy-gurdy-admin-at-my-mail-dot-rocks}
+## ContactInfo: karabyte@disroot.org (2) {#karabytedisrootorg}
 
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [0x90](https://metrics.torproject.org/rs.html#details/EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7)       | 2021-09-07   | Yes         |                    11 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/42A955B09A4E327FBFB46A08F6E21705271CCA12) | 2021-08-21   | Yes         |                    11 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/0EC5AB1F97865D703014E845F39B7E9A4B28A6B1) | 2021-10-22   | Yes         |                     1 |
-| [0x539](https://metrics.torproject.org/rs.html#details/CC61C2BE6689D36042FA0FB9E3F29E58854F50AB)      | 2021-11-20   | Yes         |                    11 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/233830F0A052F3845789607D1EC15457CF15F9AE) | 2021-11-15   | No          |                    11 |
-| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/D1B853ED27E4DFDCA3A54D3F2E269C4D94677F66) | 2018-04-16   | No          |                    11 |
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [KarabyteRelay1](https://metrics.torproject.org/rs.html#details/B9FF040218ED3F52ED865F1F68EC584ACAA0DBCA) | 2021-03-25   | Yes         |                     1 |
+| [KarabyteExit1](https://metrics.torproject.org/rs.html#details/3367BFB7140BDF16C72A9A5A1CF757E993998D2A)  | 2021-04-03   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0EC5AB1F97865D703014E845F39B7E9A4B28A6B1,42A955B09A4E327FBFB46A08F6E21705271CCA12,CC61C2BE6689D36042FA0FB9E3F29E58854F50AB,EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7
+B9FF040218ED3F52ED865F1F68EC584ACAA0DBCA
