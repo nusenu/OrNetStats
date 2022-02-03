@@ -56,7 +56,7 @@ Yana Timoshenko &lt;yana-tor@riseup.net&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 107.189.29.27:42193
-[2605:6400:30:fa09::cafe]
+[2605:6400:30:fa09::fae]
 </pre></dd>
 
 
@@ -66,8 +66,23 @@ Yana Timoshenko &lt;yana-tor@riseup.net&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  23
+  43
+  53
+  70
+  80
+  443
+  989-990
+  5223
+  8080
+  8232-8233
+  8332-8333
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
@@ -77,11 +92,38 @@ Yana Timoshenko &lt;yana-tor@riseup.net&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:23
+ accept *:43
+ accept *:53
+ accept *:70
+ accept *:80
+ accept *:443
+ accept *:989-990
+ accept *:5223
+ accept *:8080
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:9418
+ accept *:18080-18081
+ accept *:50002
+ accept *:64738
+ reject *:*
 </pre></dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">A221955994D3B7777E69761004ACAE58D0E2FB16
+<dt>Effective Family Members (<a href="../family/c5748df0cb2b76fd0218236ccec1b5d3433ada11f5795a671b0d92c1c44aee32.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="3CBEFD8DC37FFEA20D5DDFBCEEE8BEC9A94D6F5D.html">3CBEFD8DC37FFEA20D5DDFBCEEE8BEC9A94D6F5D</a>
+<a href="7501727035EEA92CE7ABE10CF48994885C8FA990.html">7501727035EEA92CE7ABE10CF48994885C8FA990</a>
+<a href="7F4E05578179AFC475C830AFE3BB92351672D25B.html">7F4E05578179AFC475C830AFE3BB92351672D25B</a>
+<a href="85A91D251816441725279AF39AA4D375D5A666B2.html">85A91D251816441725279AF39AA4D375D5A666B2</a>
+<a href="A221955994D3B7777E69761004ACAE58D0E2FB16.html">A221955994D3B7777E69761004ACAE58D0E2FB16</a>
+<a href="DC72CFAF4A25C0964E10F30940CDC34BADBEC8E3.html">DC72CFAF4A25C0964E10F30940CDC34BADBEC8E3</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -103,13 +145,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>29 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +168,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-02 14:00:12</dd>
+<dd>2022-02-02 21:01:15</dd>
 
 <dt>Country</dt>
 <dd>
