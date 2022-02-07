@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-02-06 19:00 UTC**
+Tor network data as of: **2022-02-07 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,34 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (23) {#contactinfo-emailabusestormycloudorg-urlstorm}
-
-| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/A7348BE96DF5BD080A9BA6F87454706BFD75371A) | 2021-12-09   | Yes         |                    22 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/4E6515A5E941C1C5517FB2952972BEB458640BCF) | 2021-12-09   | Yes         |                    22 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/00B211F85E145B50890633CA9CB6B18262E51CD7) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/037A9B1EF680151D1977B52CFFA948819B2F867A) | 2022-01-23   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/166443CA1BE8020A9479B117E7ADB061CF8F7852) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/2BC1779CF325C5E4A6C0A5F958E458ED104CCEA7) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/3AD93704B1EFFA79F2BF09CAB7ADCC334D0BEF7A) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/3EF489E1F8EDA383286769CBF90E3CB18B0F71CF) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/6EA904BE17DB5CF37EB9416ECB73C24A7FED057E) | 2022-01-23   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/76B3B62839BC59822FC09C0E80435DD0524083D3) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/7E7737831BEEB5EE423F37E127112F1E3C5419CF) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/85422BC1612840FA70EB70ECCD9F66D0D397719B) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/8F32C089CD71D6FB1012FD6EC1EC0438A57F32C5) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/8FFA62DEB796D18DA8CAA9A95E0B1F60CDDDCB50) | 2022-01-23   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/A00FAA3F0F84F8B118D337660FF0AA4E3E32AE5A) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/A88CE4546B3165A03E4099260B93294BE750532A) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/B4A0D303F2D76EE625D4EDBD408FF121885336DC) | 2022-02-06   | No          |                     1 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/BC7ACE7298DF5BC8FFCEA4CF0CB88C97902E4582) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/D8773C1BAA890CDEF3B48B5EC5B6AA610735DCAB) | 2022-01-25   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/DDE988A745422A4BBFF0C1ABFD1777D74BFBC40E) | 2022-01-23   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/EDD507B5CAAAABFB0F343CF621A202F93CB57CE4) | 2022-01-23   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/EFF54875CFED77DDB6260A1A4AD2B0608E3807A1) | 2022-01-24   | No          |                    24 |
-| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/F8BDA076BAA2452B7CD885B58863D956883605D6) | 2022-01-25   | No          |                    24 |
-
 ## ContactInfo: tor at xtom dot com (6) {#toratxtomdotcom}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -71,4 +43,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-4E6515A5E941C1C5517FB2952972BEB458640BCF,A7348BE96DF5BD080A9BA6F87454706BFD75371A,280F26E75C5ED7C292DD5AC5A9695C47B7784DC8,5ABC7AAFA86CA890242DE79582125B18C3B0E541,955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0,A41A8317A5BD4DD10BE9925277DB332395F50F17,AB12F88E52C439769EDB592B89AA36D8AF5A1C0C
+280F26E75C5ED7C292DD5AC5A9695C47B7784DC8,5ABC7AAFA86CA890242DE79582125B18C3B0E541,955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0,A41A8317A5BD4DD10BE9925277DB332395F50F17,AB12F88E52C439769EDB592B89AA36D8AF5A1C0C
