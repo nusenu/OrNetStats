@@ -56,6 +56,7 @@ miixms@tutanota.com</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 107.189.28.71:443
+[2605:6400:30:f9cb:361:3422:46b:c337]
 </pre></dd>
 
 
@@ -65,8 +66,17 @@ miixms@tutanota.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -118,13 +128,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>13 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
