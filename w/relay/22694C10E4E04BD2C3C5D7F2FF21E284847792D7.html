@@ -66,30 +66,34 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-23
+  20-21
   43
   53
   79-81
+  83
+  85-86
   88
+  90
   110
   143
-  194
   220
   389
   443
-  464-465
+  464
   531
   543-544
   554
-  563
-  587
   636
   706
   749
   873
   902-904
   981
-  989-995
+  989-993
+  995
+  1043
+  1103
+  1113
   1194
   1220
   1293
@@ -99,34 +103,35 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
   1723
   1755
   1863
+  1883
   2082-2083
   2086-2087
   2095-2096
   2102-2104
-  3128
-  3389
   3690
+  4070
   4321
   4643
+  5004
   5050
   5190
   5222-5223
   5228
-  5900
-  6660-6669
-  6679
-  6697
-  8000
+  5287
+  5675
+  6880
   8008
   8074
-  8080
   8082
   8087-8088
+  8232-8233
   8332-8333
   8443
+  8502
+  8601-8602
+  8883
   8888
   9418
-  9999-10000
   11371
   19294
   19638
@@ -147,24 +152,25 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:20-23
+ accept *:20-21
  accept *:43
  accept *:53
- accept *:79-81
+ accept *:79
+ accept *:80-81
+ accept *:83
+ accept *:85
+ accept *:86
  accept *:88
+ accept *:90
  accept *:110
  accept *:143
- accept *:194
  accept *:220
  accept *:389
  accept *:443
  accept *:464
- accept *:465
  accept *:531
  accept *:543-544
  accept *:554
- accept *:563
- accept *:587
  accept *:636
  accept *:706
  accept *:749
@@ -175,8 +181,10 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
  accept *:991
  accept *:992
  accept *:993
- accept *:994
  accept *:995
+ accept *:1043
+ accept *:1103
+ accept *:1113
  accept *:1194
  accept *:1220
  accept *:1293
@@ -186,36 +194,37 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
  accept *:1723
  accept *:1755
  accept *:1863
+ accept *:1883
  accept *:2082
  accept *:2083
  accept *:2086-2087
  accept *:2095-2096
  accept *:2102-2104
- accept *:3128
- accept *:3389
  accept *:3690
  accept *:4321
  accept *:4643
+ accept *:4070
+ accept *:5004
  accept *:5050
  accept *:5190
  accept *:5222-5223
  accept *:5228
- accept *:5900
- accept *:6660-6669
- accept *:6679
- accept *:6697
- accept *:8000
+ accept *:5287
+ accept *:5675
+ accept *:6880
  accept *:8008
  accept *:8074
- accept *:8080
  accept *:8082
  accept *:8087-8088
+ accept *:8232-8233
  accept *:8332-8333
  accept *:8443
+ accept *:8502
+ accept *:8601
+ accept *:8602
+ accept *:8883
  accept *:8888
  accept *:9418
- accept *:9999
- accept *:10000
  accept *:11371
  accept *:19294
  accept *:19638
@@ -224,17 +233,18 @@ root AT bungee DOT systems [tor-relay.co]</a></dd>
  reject *:*
 </pre></dd>
 
-<dt>Effective Family Members (<a href="../family/980a06d1eff19a1c89e0b3de26769fb140ef3ff44938e057548cfa3cc40de78d.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/3a15f6f5e3191a6da6bf081be31e9d0bae8926dcb7011eb1c1bfb0bcf9842e2a.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="22694C10E4E04BD2C3C5D7F2FF21E284847792D7.html">22694C10E4E04BD2C3C5D7F2FF21E284847792D7</a>
+<a href="2DB0F046584AFB4602BCBA2522A05F38DFD5FBD2.html">2DB0F046584AFB4602BCBA2522A05F38DFD5FBD2</a>
 <a href="5E1EF2BF3DD1CEBE801FCF0441F18028E8D24581.html">5E1EF2BF3DD1CEBE801FCF0441F18028E8D24581</a>
+<a href="6BB0BC3508AD4C6BDF3686B566039E4E435C8A23.html">6BB0BC3508AD4C6BDF3686B566039E4E435C8A23</a>
 <a href="A57C4F7FC2BCDCE41DBA2B310AFEB7E7EF0F6644.html">A57C4F7FC2BCDCE41DBA2B310AFEB7E7EF0F6644</a>
 <a href="B69656861030C7E89F63C9F4A8ABFCBF56E76013.html">B69656861030C7E89F63C9F4A8ABFCBF56E76013</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable"><a href="2DB0F046584AFB4602BCBA2522A05F38DFD5FBD2.html">2DB0F046584AFB4602BCBA2522A05F38DFD5FBD2</a>
-<a href="6BB0BC3508AD4C6BDF3686B566039E4E435C8A23.html">6BB0BC3508AD4C6BDF3686B566039E4E435C8A23</a>
+<pre class="pre-scrollable">none
 </pre></dd>
 </dl>
 </div>
@@ -251,7 +261,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>15 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -274,7 +284,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-08 04:46:05</dd>
+<dd>2022-02-08 23:11:30</dd>
 
 <dt>Country</dt>
 <dd>
