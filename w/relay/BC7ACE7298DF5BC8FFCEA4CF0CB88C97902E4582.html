@@ -75,18 +75,24 @@ ContactInfo email:abuse[]stormycloud.org url:stormycloud.org...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>23.128.248.29</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
 </pre>
 </dd>
 
@@ -97,6 +103,10 @@ ContactInfo email:abuse[]stormycloud.org url:stormycloud.org...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:22
+ reject *:465
+ reject *:587
  accept *:*
 </pre></dd>
 
@@ -149,10 +159,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>53 Mbit/s</dd>
+<dd>62 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4000</dd>
+<dd>4300</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -173,7 +183,7 @@ DATAIDEAS-LLC -
 <a href="../as_number/AS398355.html">AS398355</a>
 (<a href='https://bgp.he.net/AS398355'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-09 14:06:18</dd>
+<dd>2022-02-10 00:53:55</dd>
 
 <dt>Country</dt>
 <dd>
