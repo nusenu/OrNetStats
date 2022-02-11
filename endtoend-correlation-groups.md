@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-02-10 22:00 UTC**
+Tor network data as of: **2022-02-11 22:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -35,21 +35,21 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 |:---------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Hydra6](https://metrics.torproject.org/rs.html#details/1050FC79C5F1103B185300EF72DDF5B4EDC683C9)  | 2020-12-05   | Yes         |                    79 |
 | [Hydra24](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    79 |
-| [Hydra57](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    79 |
 | [Hydra69](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    79 |
+| [Hydra57](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    79 |
 | [Hydra70](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    79 |
 | [Hydra23](https://metrics.torproject.org/rs.html#details/F7ED4158B7114617E8F737C65DBE87EE6B83445B) | 2020-11-11   | Yes         |                    79 |
 | [Hydra71](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    79 |
 | [Hydra72](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    79 |
 | [Hydra22](https://metrics.torproject.org/rs.html#details/BD33EF180B1118B00BDF073E2771210E3BDDD8CD) | 2020-11-11   | Yes         |                    79 |
 | [Hydra50](https://metrics.torproject.org/rs.html#details/4443A8D51422427AD26E0CE3FA3447B1B76F520A) | 2021-04-18   | Yes         |                    79 |
-| [Hydra56](https://metrics.torproject.org/rs.html#details/C5509FCCEF72AC828382877ECE930119C5FAD625) | 2021-06-05   | Yes         |                    79 |
 | [Hydra61](https://metrics.torproject.org/rs.html#details/7DFDF0314F9CF461F537C3069E820F99FC5AF055) | 2021-06-05   | Yes         |                    79 |
+| [Hydra56](https://metrics.torproject.org/rs.html#details/C5509FCCEF72AC828382877ECE930119C5FAD625) | 2021-06-05   | Yes         |                    79 |
+| [Hydra49](https://metrics.torproject.org/rs.html#details/1042FAC7C8048ACD9EAB365CF68B3F7C4350738A) | 2021-06-05   | Yes         |                    79 |
 | [Hydra73](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    79 |
 | [Hydra48](https://metrics.torproject.org/rs.html#details/387CFC0B90EACFFE4A80CD8AA057F364E9D1D573) | 2021-06-05   | Yes         |                    79 |
-| [Hydra49](https://metrics.torproject.org/rs.html#details/1042FAC7C8048ACD9EAB365CF68B3F7C4350738A) | 2021-06-05   | Yes         |                    79 |
-| [Hydra60](https://metrics.torproject.org/rs.html#details/DFA93C5829CF723CFF266E45B4ECA482F8D67E25) | 2021-06-05   | Yes         |                    79 |
 | [Hydra74](https://metrics.torproject.org/rs.html#details/C831CFEBA2407EF49D916F6890F7B9367AA8B49A) | 2021-09-19   | Yes         |                    79 |
+| [Hydra60](https://metrics.torproject.org/rs.html#details/DFA93C5829CF723CFF266E45B4ECA482F8D67E25) | 2021-06-05   | Yes         |                    79 |
 | [Hydra68](https://metrics.torproject.org/rs.html#details/8C188E7122693566683807363B576D99C0B17386) | 2021-09-09   | Yes         |                    79 |
 | [Hydra67](https://metrics.torproject.org/rs.html#details/5A0643E452E143BE549BAB3BFE575F40DDBD527C) | 2021-09-09   | Yes         |                    79 |
 | [Hydra45](https://metrics.torproject.org/rs.html#details/01CFCC2545234EEE523D33ED25EF1E79807A18A7) | 2021-03-04   | No          |                    79 |
