@@ -66,11 +66,14 @@ CarefulTheyStillCanIdentifyYouOnPartnerWebsite</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-22
   53
   80-81
+  110
   143
   220
   443
+  989-990
   993
   995
   1194
@@ -93,13 +96,17 @@ CarefulTheyStillCanIdentifyYouOnPartnerWebsite</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:22
  accept *:53
  accept *:80-81
  accept *:443
+ accept *:110
  accept *:143
  accept *:220
  accept *:993
  accept *:995
+ accept *:989-990
  accept *:8443
  accept *:1194
  accept *:8080
@@ -154,7 +161,7 @@ Digital United Inc. -
 <a href="../as_number/AS4780.html">AS4780</a>
 (<a href='https://bgp.he.net/AS4780'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-12 12:22:31</dd>
+<dd>2022-02-13 13:26:05</dd>
 
 <dt>Country</dt>
 <dd>
