@@ -54,7 +54,6 @@
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 78.142.18.95:9001
-[2a0f:ca80:0:161::1]
 </pre></dd>
 
 
@@ -65,7 +64,9 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  1-65535
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -81,7 +82,10 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -110,7 +114,7 @@ on
 <dd>153 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4000</dd>
+<dd>17000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -131,7 +135,7 @@ Maximilian Kutzner trading as HostSlick -
 <a href="../as_number/AS208046.html">AS208046</a>
 (<a href='https://bgp.he.net/AS208046'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-15 07:33:45</dd>
+<dd>2022-02-16 11:06:14</dd>
 
 <dt>Country</dt>
 <dd>
