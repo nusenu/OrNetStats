@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-02-17 18:00 UTC**
+Tor network data as of: **2022-02-18 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: tor at xtom dot com (6) {#toratxtomdotcom}
-
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [XTOMAMS](https://metrics.torproject.org/rs.html#details/A41A8317A5BD4DD10BE9925277DB332395F50F17)     | 2021-12-07   | Yes         |                     1 |
-| [XTOMLON](https://metrics.torproject.org/rs.html#details/5ABC7AAFA86CA890242DE79582125B18C3B0E541)     | 2021-12-03   | Yes         |                     1 |
-| [XTOMDUS](https://metrics.torproject.org/rs.html#details/955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0)     | 2021-12-03   | Yes         |                     1 |
-| [XTOMFRA](https://metrics.torproject.org/rs.html#details/AB12F88E52C439769EDB592B89AA36D8AF5A1C0C)     | 2021-12-07   | Yes         |                     1 |
-| [XTOMSJC](https://metrics.torproject.org/rs.html#details/280F26E75C5ED7C292DD5AC5A9695C47B7784DC8)     | 2021-12-09   | Yes         |                     1 |
-| [XTOMLONEXIT](https://metrics.torproject.org/rs.html#details/9331E29298E40EB28A01C780E73954CD73237F50) | 2022-02-03   | No          |                     1 |
-
 ## ContactInfo: admin dot tor-operator at firemail dot tech pgp:70 (5) {#admin-dot-tor-operator-at-firemail-dot-tech-pgp70}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -49,6 +38,17 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Plutonium](https://metrics.torproject.org/rs.html#details/6859D71E3E1323F959F9E0559E83A9088C462684) | 2021-12-09   | No          |                     4 |
 | [Hydrogen](https://metrics.torproject.org/rs.html#details/702FD318AEED49702B5C16255ED5F595DA116516)  | 2020-10-01   | No          |                     5 |
 | [Uranium](https://metrics.torproject.org/rs.html#details/90B818902D42800A5E5F31A2C0D9A2B0B31EAC5F)   | 2020-11-29   | No          |                     5 |
+
+## ContactInfo: tor at xtom dot com (6) {#toratxtomdotcom}
+
+| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [XTOMAMS](https://metrics.torproject.org/rs.html#details/A41A8317A5BD4DD10BE9925277DB332395F50F17)     | 2021-12-07   | Yes         |                     1 |
+| [XTOMDUS](https://metrics.torproject.org/rs.html#details/955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0)     | 2021-12-03   | Yes         |                     1 |
+| [XTOMLON](https://metrics.torproject.org/rs.html#details/5ABC7AAFA86CA890242DE79582125B18C3B0E541)     | 2021-12-03   | Yes         |                     1 |
+| [XTOMFRA](https://metrics.torproject.org/rs.html#details/AB12F88E52C439769EDB592B89AA36D8AF5A1C0C)     | 2021-12-07   | Yes         |                     1 |
+| [XTOMSJC](https://metrics.torproject.org/rs.html#details/280F26E75C5ED7C292DD5AC5A9695C47B7784DC8)     | 2021-12-09   | Yes         |                     1 |
+| [XTOMLONEXIT](https://metrics.torproject.org/rs.html#details/9331E29298E40EB28A01C780E73954CD73237F50) | 2022-02-03   | No          |                     1 |
 
 ## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (24) {#contactinfo-emailabusestormycloudorg-urlstorm}
 
@@ -79,7 +79,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/EFF54875CFED77DDB6260A1A4AD2B0608E3807A1) | 2022-01-24   | No          |                    26 |
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/F8BDA076BAA2452B7CD885B58863D956883605D6) | 2022-01-25   | No          |                    26 |
 
+## ContactInfo: none tor-relay.co (2) {#none-tor-relayco}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [aprelay3](https://metrics.torproject.org/rs.html#details/77C9450ED7800ABA4B976628308715E296F22F01)   | 2021-01-24   | Yes         |                     1 |
+| [TorTellini](https://metrics.torproject.org/rs.html#details/D07EB85C77C5208B3A8468CFD2C2CB328B6162C5) | 2022-02-15   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-280F26E75C5ED7C292DD5AC5A9695C47B7784DC8,5ABC7AAFA86CA890242DE79582125B18C3B0E541,955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0,A41A8317A5BD4DD10BE9925277DB332395F50F17,AB12F88E52C439769EDB592B89AA36D8AF5A1C0C,01F73DBD9B56C31E3D3AAEB95F8CF1DEB7D9A72F,B29E6646E11E5E6EAFE7DDE5AD3C3FE966B49E4E,19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,4E6515A5E941C1C5517FB2952972BEB458640BCF,A7348BE96DF5BD080A9BA6F87454706BFD75371A,F8555980E41FF5D0E2379126DAD74C56FF32DD66
+01F73DBD9B56C31E3D3AAEB95F8CF1DEB7D9A72F,B29E6646E11E5E6EAFE7DDE5AD3C3FE966B49E4E,280F26E75C5ED7C292DD5AC5A9695C47B7784DC8,5ABC7AAFA86CA890242DE79582125B18C3B0E541,955F15325D6F3E3350EA8A70EB5C49C5BF95C5A0,A41A8317A5BD4DD10BE9925277DB332395F50F17,AB12F88E52C439769EDB592B89AA36D8AF5A1C0C,19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,4E6515A5E941C1C5517FB2952972BEB458640BCF,A7348BE96DF5BD080A9BA6F87454706BFD75371A,77C9450ED7800ABA4B976628308715E296F22F01,F8555980E41FF5D0E2379126DAD74C56FF32DD66
