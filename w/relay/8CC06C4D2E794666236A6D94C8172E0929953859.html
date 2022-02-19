@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: AlsianiaRelayBridge</title>
+    <title>Tor Relays :: HaldoraPoulsenRelay</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "AlsianiaRelayBridge"</h2>
+<h2><a href="../">Home</a> :: Relay "HaldoraPoulsenRelay"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>AlsianiaRelayBridge</dd>
+<dd>HaldoraPoulsenRelay</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,18 +55,26 @@ Tor Operator &lt;tor-operator AT nikulaus dot net&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-62.107.152.80:9000
+45.133.193.55:59995
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>45.133.193.55 45.133.193.61</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@ Tor Operator &lt;tor-operator AT nikulaus dot net&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -109,14 +125,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>3 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>62</dd>
+<dd>36</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,18 +141,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">3e6b9850.rev.stofanet.dk</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Stofa A/S - 
-<a href="../as_number/AS197288.html">AS197288</a>
-(<a href='https://bgp.he.net/AS197288'>BGP</a>)
+EstNOC OY - 
+<a href="../as_number/AS206804.html">AS206804</a>
+(<a href='https://bgp.he.net/AS206804'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-14 20:11:02</dd>
+<dd>2022-02-19 13:12:04</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/dk.html"><img src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a> Denmark
+<a href="../country/is.html"><img src="../static/images/cc/is.png" title="Iceland" alt="Iceland"></a> Iceland
 </dd>
 
 <dt>Fingerprint</dt>
