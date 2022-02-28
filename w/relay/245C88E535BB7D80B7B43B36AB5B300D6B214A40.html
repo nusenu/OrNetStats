@@ -69,8 +69,7 @@ email:abuse[]tuxli.org...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-185.181.62.16:8444
-[2a03:94e0:ffff:185:14:97:0:176]
+185.181.62.16:8443
 </pre></dd>
 
 
@@ -80,8 +79,22 @@ email:abuse[]tuxli.org...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
@@ -91,7 +104,28 @@ email:abuse[]tuxli.org...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:5222-5223
+ accept *:6667-7000
+ accept *:8008
+ accept *:8082
+ accept *:8332-8333
+ accept *:8888
+ accept *:9418
+ accept *:50002
+ accept *:64738
+ accept *:18080-18081
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/96061cf3e81ca73af96f3198d9769206b1e1cec6edd3da38387ee92317702132.html">view</a>)</dt>
@@ -142,7 +176,8 @@ email:abuse[]tuxli.org...</a></dd>
 <dd><a href="../first_seen/2022-02-25">2022-02-25 16:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.6.9
+<dd> Tor 0.4.6.10
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -151,10 +186,12 @@ on
 <dd>16 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1360</dd>
+<dd>290</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -170,7 +207,7 @@ TerraHost AS -
 <a href="../as_number/AS56655.html">AS56655</a>
 (<a href='https://bgp.he.net/AS56655'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-25 15:43:37</dd>
+<dd>2022-02-28 21:18:24</dd>
 
 <dt>Country</dt>
 <dd>
