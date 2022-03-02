@@ -56,6 +56,7 @@ tsfort0 &lt;tsfort0 AT protonmail dot com&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 5.255.100.41:9001
+[2a04:52c0:105:d514::1]
 </pre></dd>
 
 
@@ -66,7 +67,6 @@ tsfort0 &lt;tsfort0 AT protonmail dot com&gt;</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-23
   43
   53
   79-81
@@ -147,7 +147,8 @@ tsfort0 &lt;tsfort0 AT protonmail dot com&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:20-23
+ accept *:20
+ accept *:23
  accept *:43
  accept *:53
  accept *:79-81
@@ -201,9 +202,6 @@ tsfort0 &lt;tsfort0 AT protonmail dot com&gt;</a></dd>
  accept *:5222-5223
  accept *:5228
  accept *:5900
- accept *:6660-6669
- accept *:6679
- accept *:6697
  accept *:8000
  accept *:8008
  accept *:8074
@@ -242,13 +240,12 @@ tsfort0 &lt;tsfort0 AT protonmail dot com&gt;</a></dd>
 
 <dt>Platform</dt>
 <dd> Tor 0.4.6.10
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>17 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -271,7 +268,7 @@ The Infrastructure Group B.V. -
 <a href="../as_number/AS60404.html">AS60404</a>
 (<a href='https://bgp.he.net/AS60404'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-01 10:26:30</dd>
+<dd>2022-03-02 09:08:31</dd>
 
 <dt>Country</dt>
 <dd>

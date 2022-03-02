@@ -65,8 +65,10 @@ merdedok@gmail.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +78,16 @@ merdedok@gmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -103,13 +114,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>25 Mbit/s</dd>
+<dd>34 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>3800</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +138,7 @@ ORACLE-BMC-31898 -
 <a href="../as_number/AS31898.html">AS31898</a>
 (<a href='https://bgp.he.net/AS31898'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-28 11:07:27</dd>
+<dd>2022-03-02 15:25:24</dd>
 
 <dt>Country</dt>
 <dd>

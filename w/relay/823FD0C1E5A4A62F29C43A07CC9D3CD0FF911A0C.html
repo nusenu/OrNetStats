@@ -65,27 +65,8 @@ tor a t linxxnet . de</a></dd>
 <dd>91.40.249.115</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  53
-  80
-  110
-  143
-  220
-  443
-  873
-  989-993
-  995
-  1194
-  1293
-  3690
-  4321
-  5222-5223
-  5228
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -95,36 +76,7 @@ tor a t linxxnet . de</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:20-21
- accept *:43
- accept *:53
- accept *:80
- accept *:110
- accept *:143
- accept *:220
- accept *:443
- accept *:873
- accept *:989-990
- accept *:991
- accept *:992
- accept *:993
- accept *:995
- accept *:1194
- accept *:1293
- accept *:3690
- accept *:4321
- accept *:5222-5223
- accept *:5228
- accept *:9418
- accept *:11371
- accept *:64738
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/f3f4cccc09b0aebf96ad71e4c9e40ae39e01f32d6b4e56f3848cc82cd3fbc2d4.html">view</a>)</dt>
@@ -151,14 +103,13 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>11 Mbit/s</dd>
+<dd>12 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -175,7 +126,7 @@ Deutsche Telekom AG -
 <a href="../as_number/AS3320.html">AS3320</a>
 (<a href='https://bgp.he.net/AS3320'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-27 21:11:51</dd>
+<dd>2022-03-02 15:50:10</dd>
 
 <dt>Country</dt>
 <dd>

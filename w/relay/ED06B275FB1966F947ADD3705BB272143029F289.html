@@ -55,7 +55,7 @@ spam@frankwit.nl</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-217.120.247.197:9001
+217.120.247.197:9998
 </pre></dd>
 
 
@@ -65,8 +65,8 @@ spam@frankwit.nl</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -76,7 +76,14 @@ spam@frankwit.nl</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -102,10 +109,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>8 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>20</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -124,7 +131,7 @@ Vodafone Libertel B.V. -
 <a href="../as_number/AS33915.html">AS33915</a>
 (<a href='https://bgp.he.net/AS33915'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-01 09:23:45</dd>
+<dd>2022-03-02 10:22:12</dd>
 
 <dt>Country</dt>
 <dd>
