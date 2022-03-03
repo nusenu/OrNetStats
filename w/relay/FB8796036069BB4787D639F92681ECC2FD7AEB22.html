@@ -78,17 +78,17 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
 <dd>185.220.101.130</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22
-  25
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22
-  25
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -99,9 +99,9 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:22
- reject *:25
- accept *:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/fd9e3244322741e333f80578c0e8fccb3eed2030ac35d15532ca37f1c4b79a60.html">view</a>)</dt>
@@ -263,8 +263,6 @@ on
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -280,7 +278,7 @@ CIA TRIAD SECURITY LLC -
 <a href="../as_number/AS208294.html">AS208294</a>
 (<a href='https://bgp.he.net/AS208294'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-02-24 04:30:09</dd>
+<dd>2022-03-03 16:17:49</dd>
 
 <dt>Country</dt>
 <dd>
