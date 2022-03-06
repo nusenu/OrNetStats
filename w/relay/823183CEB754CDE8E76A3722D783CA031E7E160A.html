@@ -60,10 +60,12 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>95.141.35.15</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  80
+  443
   1220
   1293
   1500
@@ -109,6 +111,8 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
  accept *:1220
  accept *:1293
  accept *:1500
@@ -166,13 +170,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>90 Mbit/s</dd>
+<dd>91 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>16000</dd>
+<dd>14000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
