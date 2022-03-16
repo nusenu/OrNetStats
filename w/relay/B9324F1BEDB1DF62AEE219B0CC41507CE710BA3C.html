@@ -64,10 +64,12 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  80
   143
   194
   220
   389
+  443
   531
   543-544
   554
@@ -138,10 +140,12 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:80
  accept *:143
  accept *:194
  accept *:220
  accept *:389
+ accept *:443
  accept *:531
  accept *:543-544
  accept *:554
@@ -231,14 +235,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>32 Mbit/s</dd>
+<dd>33 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>3200</dd>
+<dd>3130</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/badexit.png" title="BadExit" alt="BadExit"></a> BadExit
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
@@ -258,7 +263,7 @@ Artnet Sp. z o.o. -
 <a href="../as_number/AS197155.html">AS197155</a>
 (<a href='https://bgp.he.net/AS197155'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2021-05-23 05:06:29</dd>
+<dd>2021-05-23 05:06:34</dd>
 
 <dt>Country</dt>
 <dd>
