@@ -49,24 +49,28 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/5ed8c43a95f473fe434c2331d101f369.html">all relays with this contact</a>)</dt>
+(<a href="../contact/b9fec2b16ba9912aac460c36f946edfa.html">all relays with this contact</a>)</dt>
 <dd>
-node(at)int(dot)pl</a></dd>
+abuse(at)homik(dot)eu</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-139.28.40.158:9001
+205.185.124.178:9001
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>205.185.124.178</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-22
+  53
+  80
+  443
+  5222-5223
 </pre>
 </dd>
 
@@ -76,7 +80,18 @@ node(at)int(dot)pl</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:20-22
+ accept *:443
+ accept *:5222-5223
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -102,15 +117,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>90 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>15000</dd>
+<dd>14000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -120,18 +135,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="unverified-hostname" title="unverified hostname">139-28-40-158.artus.net.pl</pre>
+<pre class="unverified-hostname" title="unverified hostname">tor.homik.eu</pre>
 <dt>Autonomous System</dt>
 <dd>
-KSI System Sp. z o.o. - 
-<a href="../as_number/AS47273.html">AS47273</a>
-(<a href='https://bgp.he.net/AS47273'>BGP</a>)
+PONYNET - 
+<a href="../as_number/AS53667.html">AS53667</a>
+(<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-13 19:56:33</dd>
+<dd>2022-03-19 09:35:29</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/pl.html"><img src="../static/images/cc/pl.png" title="Poland" alt="Poland"></a> Poland
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
