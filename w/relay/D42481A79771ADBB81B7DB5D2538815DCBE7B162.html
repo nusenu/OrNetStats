@@ -66,6 +66,7 @@ lavender@riseup.net</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-23
   53
   80
   443
@@ -84,6 +85,10 @@ lavender@riseup.net</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20
+ accept *:21
+ accept *:22
+ accept *:23
  accept *:53
  accept *:80
  accept *:443
@@ -114,10 +119,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>331 Mbit/s</dd>
+<dd>338 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>65000</dd>
+<dd>66000</dd>
 
 <dt>Flags</dt>
 <dd>

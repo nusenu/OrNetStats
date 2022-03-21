@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-03-20 09:00 UTC**
+Tor network data as of: **2022-03-21 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,17 +34,17 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                                    | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Unnamed](https://metrics.torproject.org/rs.html#details/D032BD6C16B44F4E8A93A3AB0874435EF5B1CF2A)          | 2022-01-06   | Yes         |                    16 |
-| [Unnamed](https://metrics.torproject.org/rs.html#details/C71D833CE0B43F8CAD39DD8AD1A441E6F07F758B)          | 2022-01-06   | Yes         |                    16 |
-| [Unnamed](https://metrics.torproject.org/rs.html#details/B5C44D74017C98E8666DBA6B9D01AF127E21C9C1)          | 2022-01-04   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/E6FB13F2E0F6B89D8F4548D3B7A96A30F9410CBE)          | 2022-01-04   | Yes         |                    16 |
+| [Unnamed](https://metrics.torproject.org/rs.html#details/B5C44D74017C98E8666DBA6B9D01AF127E21C9C1)          | 2022-01-04   | Yes         |                    16 |
+| [Unnamed](https://metrics.torproject.org/rs.html#details/C71D833CE0B43F8CAD39DD8AD1A441E6F07F758B)          | 2022-01-06   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/BAE07C406FE5872AF8CFDD9EFEC8F2EB4B56F2B2)          | 2022-01-19   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/CD73F85BD3B0F6517E5498F68FA61D4D791DB4D1)          | 2022-01-19   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/AA8510CE7B5D13147E048F39B5BF51346B3C676F)          | 2022-02-02   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/14C87FC26BFB1C96175FBCA3FECDF30A495C446F)          | 2022-02-02   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/A1C34F92FD799ABBDFD02904B3FED31B2006EECC)          | 2022-03-12   | Yes         |                    14 |
+| [Unnamed](https://metrics.torproject.org/rs.html#details/BA2F71EAFDDB4DDE64FB9CAA819775CDEE9A144A)          | 2022-03-12   | Yes         |                    14 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/676F39FEFEBC206078DAD5A68994CC3E49F15C19)          | 2022-01-06   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/4A90398043DAC7DCB800F8A5BD9BC4B80A052F2D)          | 2022-01-06   | Yes         |                    16 |
-| [Unnamed](https://metrics.torproject.org/rs.html#details/BA2F71EAFDDB4DDE64FB9CAA819775CDEE9A144A)          | 2022-03-12   | Yes         |                    14 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/D0E11C28CC772C736B5B95079B638FFC4CAA203D)          | 2022-02-16   | Yes         |                    16 |
 | [Unnamed](https://metrics.torproject.org/rs.html#details/ACE7AC8CFDB1E2222FCF490BD8ED0F1384F26950)          | 2022-02-16   | Yes         |                    16 |
 | [conceptexitrelay](https://metrics.torproject.org/rs.html#details/76EB3AD90935077F9E63085CE6A56EEDAEF14DD0) | 2021-12-25   | No          |                    14 |

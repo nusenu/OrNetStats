@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/b9fec2b16ba9912aac460c36f946edfa.html">all relays with this contact</a>)</dt>
+(<a href="../contact/84375728474ffc2b7480da7599694a39.html">all relays with this contact</a>)</dt>
 <dd>
-abuse(at)homik(dot)eu</a></dd>
+tor(at)homik(dot)eu</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -65,12 +65,10 @@ abuse(at)homik(dot)eu</a></dd>
 <dd>205.185.124.178</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-22
-  53
-  80
-  443
-  5222-5223
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
 </pre>
 </dd>
 
@@ -86,12 +84,10 @@ abuse(at)homik(dot)eu</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:53
- accept *:80
- accept *:20-22
- accept *:443
- accept *:5222-5223
- reject *:*
+ reject *:25
+ reject *:465
+ reject *:587
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -120,7 +116,7 @@ on
 <dd>77 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>11000</dd>
+<dd>12000</dd>
 
 <dt>Flags</dt>
 <dd>
