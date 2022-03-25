@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: Nullroute1</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "Nullroute1"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>Nullroute1</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/nullroute.fi.html">
+nullroute.fi</a>
+<a href="https://nullroute.fi/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>tor[]nullroute.fi</dd>
+<dt>url</dt>
+<dd>https://nullroute.fi/tor-relays/</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>abuse</dt>
+<dd>tor[]nullroute.fi</dd>
+<dt>uplinkbw</dt>
+<dd>1000</dd>
+<dt>virtualization</dt>
+<dd>kvm</dd>
+<dt>offlinemasterkey</dt>
+<dd>n</dd>
+<dt>os</dt>
+<dd>debian/10</dd>
+<dt>tls</dt>
+<dd>openssl</dd>
+<dt>aesni</dt>
+<dd>y</dd>
+<dt>confmgmt</dt>
+<dd>manual</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>trafficacct</dt>
+<dd>unmetered</dd>
+<dt>Contact
+(<a href="../contact/3ffb165d914b19e95eef4c96123e059d.html">all relays with this contact</a>)</dt>
+<dd>
+email:tor[]nullroute.fi url:https://nullroute.fi/tor-relays/...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+192.26.105.194:443
+[2a0e:8f02:213d:f3f5:6f67:118:80c6:f2db]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22-23
+  25
+  465
+  587
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  22-23
+  25
+  465
+  587
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:22
+ reject *:23
+ reject *:25
+ reject *:465
+ reject *:587
+ accept *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/6b4c29a38a46020a9f62d82dd39fc4318376461423608d35de7906fdddccdadd.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="11444EBD9F8EC9E95A192113F2FF5C7B6BC3F3C1.html">11444EBD9F8EC9E95A192113F2FF5C7B6BC3F3C1</a>
+<a href="4F8DA5B1E60AC1EB62E10D8CC6D517D1B9B15ADD.html">4F8DA5B1E60AC1EB62E10D8CC6D517D1B9B15ADD</a>
+<a href="83BE87E4239F75A6E32E191205366E04B175193F.html">83BE87E4239F75A6E32E191205366E04B175193F</a>
+<a href="8EC00D79203162101A6B4839DC746205DE69A69E.html">8EC00D79203162101A6B4839DC746205DE69A69E</a>
+<a href="E7EF5E7C97486D00500E87E78ECF07ABA7BA0F1B.html">E7EF5E7C97486D00500E87E78ECF07ABA7BA0F1B</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2022-02-06">2022-02-06 15:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.6.8
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>8500</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+Nullroute ry - 
+<a href="../as_number/AS211722.html">AS211722</a>
+(<a href='https://bgp.he.net/AS211722'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2022-03-25 08:46:14</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/fi.html"><img src="../static/images/cc/fi.png" title="Finland" alt="Finland"></a> Finland
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>11444EBD9F8EC9E95A192113F2FF5C7B6BC3F3C1</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
