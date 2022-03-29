@@ -66,15 +66,21 @@
 <dd>185.247.226.98</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
+  993
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
+  993
 </pre>
 </dd>
 
@@ -85,6 +91,10 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:993
  accept *:*
 </pre></dd>
 
@@ -115,10 +125,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>136 Mbit/s</dd>
+<dd>150 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>12000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>

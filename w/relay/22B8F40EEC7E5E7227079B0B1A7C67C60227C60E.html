@@ -80,33 +80,18 @@ email:abuse[]tuxli.org...</a></dd>
 <dd>5.8.32.72</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:53
- accept *:80
- accept *:443
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/b5aa326a1d822b7447c0006ede40edcb9c749253aaf60ca5e9eef4455fa2c05a.html">view</a>)</dt>
@@ -147,7 +132,8 @@ email:abuse[]tuxli.org...</a></dd>
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable">ADAAD808C3FB78FAEBC080A06720601DC6B20F97
+<pre class="pre-scrollable"><a href="6172E79CF5B2B13B87A6A587A059D4C6A9AF1EBD.html">6172E79CF5B2B13B87A6A587A059D4C6A9AF1EBD</a>
+<a href="ADAAD808C3FB78FAEBC080A06720601DC6B20F97.html">ADAAD808C3FB78FAEBC080A06720601DC6B20F97</a>
 </pre></dd>
 </dl>
 </div>
@@ -164,14 +150,13 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>136 Mbit/s</dd>
+<dd>165 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>23000</dd>
+<dd>24000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
