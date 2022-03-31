@@ -60,13 +60,13 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.193.52.180</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
   23
   53
-  79
+  79-80
   88
   194
   389
@@ -137,27 +137,8 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:23
- accept *:53
- accept *:79
- accept *:88
- accept *:194
- accept *:389
- accept *:443
- accept *:464
- accept *:531
- accept *:543-544
- accept *:554
- accept *:563
- accept *:636
- accept *:706
- accept *:749
- accept *:853
- accept *:873
- accept *:902-904
- accept *:989-990
- accept *:991
- accept *:994
+ accept *:10000
+ accept *:11371
  accept *:1194
  accept *:1220
  accept *:1500
@@ -166,22 +147,41 @@
  accept *:1723
  accept *:1755
  accept *:1863
+ accept *:19294
+ accept *:194
+ accept *:19638
  accept *:2082
  accept *:2083
  accept *:2086-2087
  accept *:2095-2096
  accept *:2102-2104
+ accept *:23
  accept *:3128
  accept *:3690
+ accept *:389
  accept *:4321
+ accept *:443
+ accept *:464
  accept *:4643
+ accept *:50002
  accept *:5050
  accept *:5190
  accept *:5222-5223
+ accept *:53
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
  accept *:5900
+ accept *:636
+ accept *:64738
  accept *:6660-6669
  accept *:6679
  accept *:6697
+ accept *:706
+ accept *:749
+ accept *:79
+ accept *:80
  accept *:8074
  accept *:8080
  accept *:8082
@@ -189,15 +189,16 @@
  accept *:8232-8233
  accept *:8332-8333
  accept *:8443
+ accept *:853
+ accept *:873
+ accept *:88
  accept *:8888
+ accept *:902-904
  accept *:9418
+ accept *:989-990
+ accept *:991
+ accept *:994
  accept *:9999
- accept *:10000
- accept *:11371
- accept *:19294
- accept *:19638
- accept *:50002
- accept *:64738
  reject *:*
 </pre></dd>
 
@@ -231,6 +232,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
