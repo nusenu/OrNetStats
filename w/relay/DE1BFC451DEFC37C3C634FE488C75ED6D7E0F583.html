@@ -63,10 +63,11 @@ user558732(at)protonmail(dot)com [tor-relay.co]</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>205.185.115.159</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-23
   43
   53
   79-81
@@ -77,12 +78,11 @@ user558732(at)protonmail(dot)com [tor-relay.co]</a></dd>
   220
   389
   443
-  464-465
+  464
   531
   543-544
   554
   563
-  587
   636
   706
   749
@@ -145,6 +145,7 @@ user558732(at)protonmail(dot)com [tor-relay.co]</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20-23
  accept *:43
  accept *:53
  accept *:79-81
@@ -156,12 +157,10 @@ user558732(at)protonmail(dot)com [tor-relay.co]</a></dd>
  accept *:389
  accept *:443
  accept *:464
- accept *:465
  accept *:531
  accept *:543-544
  accept *:554
  accept *:563
- accept *:587
  accept *:636
  accept *:706
  accept *:749
@@ -245,7 +244,7 @@ on
 <dd>15 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>20</dd>
+<dd>1100</dd>
 
 <dt>Flags</dt>
 <dd>

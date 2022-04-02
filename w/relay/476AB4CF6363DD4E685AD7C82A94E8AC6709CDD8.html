@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/2dfcb8741dfbfcc6ad8283272ff5c201.html">all relays with this contact</a>)</dt>
+<dd>
+TheRealOne78 bajcsi.elias@colegiuec.ro</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 188.27.244.9:9001
@@ -74,7 +76,13 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -100,7 +108,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>28 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -122,7 +130,7 @@ RCS &amp; RDS SA -
 <a href="../as_number/AS8708.html">AS8708</a>
 (<a href='https://bgp.he.net/AS8708'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-04-01 08:54:50</dd>
+<dd>2022-04-02 19:51:41</dd>
 
 <dt>Country</dt>
 <dd>
