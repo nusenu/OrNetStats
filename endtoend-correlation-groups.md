@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-04-07 18:00 UTC**
+Tor network data as of: **2022-04-08 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,16 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
+
+## ContactInfo: admin dot tor-operator at firemail dot tech pgp:70 (5) {#admin-dot-tor-operator-at-firemail-dot-tech-pgp70}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Zinc](https://metrics.torproject.org/rs.html#details/01F73DBD9B56C31E3D3AAEB95F8CF1DEB7D9A72F)      | 2020-04-13   | Yes         |                     5 |
+| [Helium](https://metrics.torproject.org/rs.html#details/60F5663A9C6098B40A9A4970651784FDD8A31834)    | 2022-03-11   | Yes         |                     5 |
+| [Hydrogen](https://metrics.torproject.org/rs.html#details/98C06FFBE0B2C0F7094EAD941A9F80829B3AC7FE)  | 2022-03-29   | Yes         |                     1 |
+| [Plutonium](https://metrics.torproject.org/rs.html#details/6859D71E3E1323F959F9E0559E83A9088C462684) | 2021-12-09   | No          |                     5 |
+| [Uranium](https://metrics.torproject.org/rs.html#details/90B818902D42800A5E5F31A2C0D9A2B0B31EAC5F)   | 2020-11-29   | No          |                     5 |
 
 ## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
 
@@ -53,4 +63,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-B8ADD5706960E26810345BDA1FEB7771FDCE3A5E,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
+01F73DBD9B56C31E3D3AAEB95F8CF1DEB7D9A72F,60F5663A9C6098B40A9A4970651784FDD8A31834,98C06FFBE0B2C0F7094EAD941A9F80829B3AC7FE,B8ADD5706960E26810345BDA1FEB7771FDCE3A5E,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
