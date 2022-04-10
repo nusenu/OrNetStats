@@ -49,13 +49,12 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/267cb903e9b7af8bd9e42fe8ce59557b.html">all relays with this contact</a>)</dt>
-<dd>
-Ansjika system-of-rampage.online</a></dd>
-</dd>
+</dt>
+<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-37.201.223.234:9001
+65.108.151.250:9001
+[2a01:4f9:c011:a86f::2]
 </pre></dd>
 
 
@@ -65,8 +64,8 @@ Ansjika system-of-rampage.online</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -76,12 +75,18 @@ Ansjika system-of-rampage.online</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 
-<dt>Effective Family Members (<a href="../family/43bb43401a683306dca0e6434793c5eb6f644ce9d7835b663896c85f041be88d.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="1FD48A7AA504D046E1A425634DA57155817F10E4.html">1FD48A7AA504D046E1A425634DA57155817F10E4</a>
-<a href="46BACCCE4BC3CAA63D2FE770DA2AE3CF401B9CF0.html">46BACCCE4BC3CAA63D2FE770DA2AE3CF401B9CF0</a>
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">1FD48A7AA504D046E1A425634DA57155817F10E4
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -103,34 +108,33 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>42 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4400</dd>
+<dd>4800</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">ip-037-201-223-234.um10.pools.vodafone-ip.de</pre>
+<pre class="verified-hostname" title="verified hostname">static.250.151.108.65.clients.your-server.de</pre>
 <dt>Autonomous System</dt>
 <dd>
-Vodafone GmbH - 
-<a href="../as_number/AS3209.html">AS3209</a>
-(<a href='https://bgp.he.net/AS3209'>BGP</a>)
+Hetzner Online GmbH - 
+<a href="../as_number/AS24940.html">AS24940</a>
+(<a href='https://bgp.he.net/AS24940'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-04-09 12:39:01</dd>
+<dd>2022-04-10 15:35:08</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+<a href="../country/fi.html"><img src="../static/images/cc/fi.png" title="Finland" alt="Finland"></a> Finland
 </dd>
 
 <dt>Fingerprint</dt>

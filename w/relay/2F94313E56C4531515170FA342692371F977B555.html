@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: tor9</title>
+    <title>Tor Relays :: torexit1</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,23 +39,24 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "tor9"</h2>
+<h2><a href="../">Home</a> :: Relay "torexit1"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>tor9</dd>
+<dd>torexit1</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/0c7a54f182c3399b2b0fa636b15d4c17.html">all relays with this contact</a>)</dt>
+(<a href="../contact/e0f5db4ec1c2eea8e670e04d88e53013.html">all relays with this contact</a>)</dt>
 <dd>
-mhroczny_tor[]protonmail.com</a></dd>
+mhroczny_tor[at]protonmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-46.41.142.151:443
+31.133.0.182:443
+[2001:67c:2044:c141:0:1:4713:1]
 </pre></dd>
 
 
@@ -65,21 +66,39 @@ mhroczny_tor[]protonmail.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  853
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  853
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ accept *:53
+ accept *:853
+ reject *:*
 </pre></dd>
 
-<dt>Effective Family Members (<a href="../family/97c01334aa6d7af3d959db9b97e2ee4c6c27a7a2db8979bb84bcf5bb3322ec0d.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/bcf0a35a52c0819dfad317e18b7ba0aed12c8e42844803d618b0f28e0aeebf20.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="055BABC096A36F41FCDA19E08859FB1C34AB5A5A.html">055BABC096A36F41FCDA19E08859FB1C34AB5A5A</a>
 <a href="0AE25E26120B6866F548A0FCCF087A1F76B2AD4D.html">0AE25E26120B6866F548A0FCCF087A1F76B2AD4D</a>
 <a href="294DC45A394E1FBFFD666DAC5AB582B77497B055.html">294DC45A394E1FBFFD666DAC5AB582B77497B055</a>
@@ -90,6 +109,7 @@ mhroczny_tor[]protonmail.com</a></dd>
 <a href="7DCE8C9C65B02C128F4D08DC9D195B0D7200C476.html">7DCE8C9C65B02C128F4D08DC9D195B0D7200C476</a>
 <a href="8275A435C8D783EEC835A64A3EA2ADF8C3C4531D.html">8275A435C8D783EEC835A64A3EA2ADF8C3C4531D</a>
 <a href="8F13803626F39053931CA7F7F94778C0BF88A9F8.html">8F13803626F39053931CA7F7F94778C0BF88A9F8</a>
+<a href="CC49C0816F8A852F1D24D0D4511F237AB35ED7E9.html">CC49C0816F8A852F1D24D0D4511F237AB35ED7E9</a>
 <a href="D5F73A7D4A0D7B90E515D99CA2462A2EB24A7657.html">D5F73A7D4A0D7B90E515D99CA2462A2EB24A7657</a>
 </pre></dd>
 
@@ -112,16 +132,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>71 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>11000</dd>
+<dd>12000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -134,11 +154,11 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-home.pl S.A. - 
-<a href="../as_number/AS12824.html">AS12824</a>
-(<a href='https://bgp.he.net/AS12824'>BGP</a>)
+HOSTEAM S.C. TOMASZ GROSZEWSKI BARTOSZ WASZAK LUKASZ GROSZEWSKI - 
+<a href="../as_number/AS51290.html">AS51290</a>
+(<a href='https://bgp.he.net/AS51290'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-31 14:13:13</dd>
+<dd>2022-04-10 15:39:19</dd>
 
 <dt>Country</dt>
 <dd>
