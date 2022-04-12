@@ -67,7 +67,6 @@ Arlen Yaroslav &lt;arlenyaroslav63@protonmail.com&gt;</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  53
   80
   443
 </pre>
@@ -76,7 +75,6 @@ Arlen Yaroslav &lt;arlenyaroslav63@protonmail.com&gt;</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  53
   80
   443
 </pre>
@@ -92,7 +90,9 @@ Arlen Yaroslav &lt;arlenyaroslav63@protonmail.com&gt;</a></dd>
  reject 46.4.116.210:*
  reject 103.214.108.66:*
  reject 144.76.62.34:*
- accept *:53
+ reject 91.192.108.128:*
+ reject 5.145.168.138:*
+ reject 91.192.108.249:*
  accept *:80
  accept *:443
  reject *:*
@@ -122,10 +122,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>209 Mbit/s</dd>
+<dd>256 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>36000</dd>
+<dd>44000</dd>
 
 <dt>Flags</dt>
 <dd>
