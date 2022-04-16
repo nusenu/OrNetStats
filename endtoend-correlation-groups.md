@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-04-15 16:00 UTC**
+Tor network data as of: **2022-04-16 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (26) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
+## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (27) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -44,6 +44,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Freya](https://metrics.torproject.org/rs.html#details/4BE441A6F75DEA5C738C91655418D3F9845B2143)        | 2022-02-21   | No          |                    21 |
 | [Hugin](https://metrics.torproject.org/rs.html#details/4E533D0E42D41968875911C419A9BA265EFA9883)        | 2019-12-02   | No          |                    21 |
 | [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)      | 2020-08-20   | No          |                    21 |
+| [Asgard](https://metrics.torproject.org/rs.html#details/5C8AB2BC9588553948BE931B5374B98EC5760650)       | 2022-03-08   | No          |                    21 |
 | [Ragnarok](https://metrics.torproject.org/rs.html#details/7B077965A032FEE91F8DDFD3F18F9943398AAE3F)     | 2022-02-01   | No          |                    21 |
 | [Gimli](https://metrics.torproject.org/rs.html#details/7DA4235E725388111A6BDD965742A9E58A7D1451)        | 2022-02-21   | No          |                    20 |
 | [Njord](https://metrics.torproject.org/rs.html#details/869CB6932EF87DC152D6B12BDFE5C82677975E79)        | 2022-04-09   | No          |                     1 |
@@ -74,15 +75,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [LAYLOtor02](https://metrics.torproject.org/rs.html#details/B8ADD5706960E26810345BDA1FEB7771FDCE3A5E) | 2022-03-01   | Yes         |                     1 |
 | [LAYLOtor01](https://metrics.torproject.org/rs.html#details/EF02EF768B54E29C50D13E6589FF82FFD7791F0B) | 2022-03-27   | No          |                     1 |
 
-## ContactInfo: tor-operator@your-emailaddress-domain (4) {#tor-operatoryour-emailaddress-domain}
-
-| Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [anotherRelay](https://metrics.torproject.org/rs.html#details/F6691E3EB7CAB3C876AAA885E6801B63DC998C39)        | 2018-10-29   | Yes         |                     1 |
-| [myNiceBionicRelay](https://metrics.torproject.org/rs.html#details/D90A78790098F7C0639DC2D3A8016948EAE5E2B1)   | 2021-10-14   | Yes         |                     1 |
-| [emandeman44678gudno](https://metrics.torproject.org/rs.html#details/1939469D1E898F7674A55F09BE46EE9742C33FA4) | 2022-01-31   | Yes         |                     1 |
-| [SpiralExitRelay](https://metrics.torproject.org/rs.html#details/824E2894713F8249B7C2735176BE0564BD1ED5B7)     | 2022-04-08   | No          |                     1 |
-
 ## ContactInfo: gusntwrk.xyz (2) {#gusntwrkxyz}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
@@ -90,14 +82,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [elhombre](https://metrics.torproject.org/rs.html#details/D7910C73B9092697D7D2AF14E5CA09112F0C6EA9) | 2021-12-11   | Yes         |                     1 |
 | [rknchan](https://metrics.torproject.org/rs.html#details/A5B984C20AF47731B911CDF68032A36F8678C25B)  | 2022-02-19   | No          |                     1 |
 
-## ContactInfo: tor-operator@069420.xyz (2) {#tor-operator069420xyz}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [rinnisbad](https://metrics.torproject.org/rs.html#details/4555F2F16C2ECFFE0368C8EB1300DFC5922F31B1) | 2021-09-10   | No          |                     1 |
-| [cbps](https://metrics.torproject.org/rs.html#details/43C483A4C290D629A3F9FA0DE2B796C02784CCD5)      | 2021-09-09   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-15B1F023B0C16A608E89F867D96856AC8D2F0048,B8ADD5706960E26810345BDA1FEB7771FDCE3A5E,1939469D1E898F7674A55F09BE46EE9742C33FA4,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
+15B1F023B0C16A608E89F867D96856AC8D2F0048,B8ADD5706960E26810345BDA1FEB7771FDCE3A5E,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
