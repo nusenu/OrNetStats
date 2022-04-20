@@ -60,19 +60,19 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>91.203.5.165</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
   43
   53
-  79
-  81
+  79-81
   88
   110
   143
   194
   220
+  443
   464-465
   543-544
   563
@@ -97,8 +97,6 @@
   4321
   4643
   5050
-  5060-5061
-  5070
   5190
   5222-5223
   5900
@@ -132,13 +130,15 @@
  accept *:43
  accept *:53
  accept *:79
- accept *:81
+ accept *:80-81
  accept *:88
  accept *:110
  accept *:143
  accept *:194
  accept *:220
- accept *:464-465
+ accept *:443
+ accept *:464
+ accept *:465
  accept *:543-544
  accept *:563
  accept *:706
@@ -146,14 +146,20 @@
  accept *:873
  accept *:902-904
  accept *:981
- accept *:989-995
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:994
+ accept *:995
  accept *:1194
  accept *:1220
  accept *:1293
  accept *:1500
  accept *:1723
  accept *:1863
- accept *:2082-2083
+ accept *:2082
+ accept *:2083
  accept *:2086-2087
  accept *:2095-2096
  accept *:3128
@@ -162,8 +168,6 @@
  accept *:4321
  accept *:4643
  accept *:5050
- accept *:5060-5061
- accept *:5070
  accept *:5190
  accept *:5222-5223
  accept *:5900
@@ -209,10 +213,11 @@ on
 <dd>47 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4300</dd>
+<dd>4400</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
