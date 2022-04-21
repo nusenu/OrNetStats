@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-04-20 20:00 UTC**
+Tor network data as of: **2022-04-21 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -74,13 +74,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [gangbangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                    10 |
-| [gangbangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                    10 |
-| [gangbangs](https://metrics.torproject.org/rs.html#details/D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8) | 2021-12-29   | Yes         |                    10 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8) | 2021-12-29   | Yes         |                     9 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/E4A8BC82E660528D5B0B8D36C08AB44B77351736) | 2020-12-17   | Yes         |                     9 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/328ED3A92D1CD621659B4DA6E210FCAED813174B) | 2020-12-20   | Yes         |                     9 |
 | [gangbangs](https://metrics.torproject.org/rs.html#details/41ED996F29E0F12C5F467D67483753504126D832) | 2022-03-30   | Yes         |                     1 |
-| [gangbangs](https://metrics.torproject.org/rs.html#details/60D12B7D7A601622504F74C9A4EB7C8F33FE5C84) | 2020-12-29   | Yes         |                    10 |
-| [gangbangs](https://metrics.torproject.org/rs.html#details/AC87DB1D965362FBCB9FC8BA32986718D3EC6AB6) | 2020-12-21   | No          |                    10 |
-| [gangbangs](https://metrics.torproject.org/rs.html#details/EF882724909A6A91D588C9081EC5B5107F3875E4) | 2020-12-21   | No          |                    10 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/60D12B7D7A601622504F74C9A4EB7C8F33FE5C84) | 2020-12-29   | Yes         |                     9 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/AC87DB1D965362FBCB9FC8BA32986718D3EC6AB6) | 2020-12-21   | No          |                     9 |
+| [gangbangs](https://metrics.torproject.org/rs.html#details/EF882724909A6A91D588C9081EC5B5107F3875E4) | 2020-12-21   | No          |                     9 |
 
 ## ContactInfo: gusntwrk.xyz (2) {#gusntwrkxyz}
 
@@ -92,4 +92,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-15B1F023B0C16A608E89F867D96856AC8D2F0048,328ED3A92D1CD621659B4DA6E210FCAED813174B,41ED996F29E0F12C5F467D67483753504126D832,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,A4A79E2B8294AA2572B46C5C772E149F84FAF763,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8,E4A8BC82E660528D5B0B8D36C08AB44B77351736,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
+15B1F023B0C16A608E89F867D96856AC8D2F0048,328ED3A92D1CD621659B4DA6E210FCAED813174B,41ED996F29E0F12C5F467D67483753504126D832,60D12B7D7A601622504F74C9A4EB7C8F33FE5C84,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D8CE67E09B3E0B0D5A5CBF3AA0C702B804D5B7C8,E4A8BC82E660528D5B0B8D36C08AB44B77351736,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
