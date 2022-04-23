@@ -64,6 +64,8 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  80
+  443
   554
   563
   636
@@ -130,6 +132,8 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
  accept *:554
  accept *:563
  accept *:636
@@ -214,13 +218,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>217 Mbit/s</dd>
+<dd>248 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>25000</dd>
+<dd>26000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
@@ -240,7 +245,7 @@ Infium, UAB -
 <a href="../as_number/AS50297.html">AS50297</a>
 (<a href='https://bgp.he.net/AS50297'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-04-05 19:56:34</dd>
+<dd>2022-04-05 19:56:35</dd>
 
 <dt>Country</dt>
 <dd>
