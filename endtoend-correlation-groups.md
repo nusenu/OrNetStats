@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-04-25 18:00 UTC**
+Tor network data as of: **2022-04-26 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,22 +29,21 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (28) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
+## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (27) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Odin](https://metrics.torproject.org/rs.html#details/15B1F023B0C16A608E89F867D96856AC8D2F0048)         | 2022-02-17   | Yes         |                    20 |
 | [Heidrun](https://metrics.torproject.org/rs.html#details/0071933EB152FD69EE909A90B1084DFDE91FC988)      | 2022-03-16   | No          |                    20 |
 | [Nanna](https://metrics.torproject.org/rs.html#details/01CFE500142AF19B252C8B30372FCB2B47904F56)        | 2022-04-13   | No          |                     1 |
-| [Bragi](https://metrics.torproject.org/rs.html#details/230496BD1BD0EB1200D3B2B7F6EA45AA728DFDD8)        | 2022-03-15   | No          |                    20 |
 | [Gullinborsti](https://metrics.torproject.org/rs.html#details/24362E7E61E6D72FE70262C8C11D5035712D56B8) | 2022-03-08   | No          |                    20 |
 | [Loki](https://metrics.torproject.org/rs.html#details/2A88B370BC0519F80E930A3776579E59B7383B08)         | 2022-02-22   | No          |                    20 |
 | [Baldur](https://metrics.torproject.org/rs.html#details/3B45DB0236969F2FD28DFB45C02DCFF84B4EE80F)       | 2022-04-14   | No          |                     1 |
 | [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)         | 2020-10-27   | No          |                    20 |
 | [Freya](https://metrics.torproject.org/rs.html#details/4BE441A6F75DEA5C738C91655418D3F9845B2143)        | 2022-02-21   | No          |                    20 |
 | [Hugin](https://metrics.torproject.org/rs.html#details/4E533D0E42D41968875911C419A9BA265EFA9883)        | 2019-12-02   | No          |                    20 |
+| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)      | 2020-08-20   | No          |                    20 |
 | [Asgard](https://metrics.torproject.org/rs.html#details/5C8AB2BC9588553948BE931B5374B98EC5760650)       | 2022-03-08   | No          |                    20 |
-| [Valhalla](https://metrics.torproject.org/rs.html#details/66D0DADCA77992282D36E4BB71E77C16144AB707)     | 2022-03-01   | No          |                    20 |
 | [Ragnarok](https://metrics.torproject.org/rs.html#details/7B077965A032FEE91F8DDFD3F18F9943398AAE3F)     | 2022-02-01   | No          |                    20 |
 | [Gimli](https://metrics.torproject.org/rs.html#details/7DA4235E725388111A6BDD965742A9E58A7D1451)        | 2022-02-21   | No          |                    19 |
 | [Njord](https://metrics.torproject.org/rs.html#details/869CB6932EF87DC152D6B12BDFE5C82677975E79)        | 2022-04-09   | No          |                     1 |
