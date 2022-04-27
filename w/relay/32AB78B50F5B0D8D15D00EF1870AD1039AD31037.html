@@ -60,10 +60,11 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>216.10.247.146</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  80
   143
   194
   220
@@ -138,6 +139,7 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:80
  accept *:143
  accept *:194
  accept *:220
@@ -229,14 +231,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>45 Mbit/s</dd>
+<dd>71 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1600</dd>
+<dd>2100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
