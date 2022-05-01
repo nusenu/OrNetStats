@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-04-30 08:00 UTC**
+Tor network data as of: **2022-05-01 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (33) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
+## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (32) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -38,7 +38,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Nanna](https://metrics.torproject.org/rs.html#details/01CFE500142AF19B252C8B30372FCB2B47904F56)        | 2022-04-13   | No          |                     1 |
 | [Bragi](https://metrics.torproject.org/rs.html#details/230496BD1BD0EB1200D3B2B7F6EA45AA728DFDD8)        | 2022-03-15   | No          |                    20 |
 | [Gullinborsti](https://metrics.torproject.org/rs.html#details/24362E7E61E6D72FE70262C8C11D5035712D56B8) | 2022-03-08   | No          |                    20 |
-| [Loki](https://metrics.torproject.org/rs.html#details/2A88B370BC0519F80E930A3776579E59B7383B08)         | 2022-02-22   | No          |                    20 |
 | [Baldur](https://metrics.torproject.org/rs.html#details/3B45DB0236969F2FD28DFB45C02DCFF84B4EE80F)       | 2022-04-14   | No          |                     1 |
 | [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)         | 2020-10-27   | No          |                    20 |
 | [Freya](https://metrics.torproject.org/rs.html#details/4BE441A6F75DEA5C738C91655418D3F9845B2143)        | 2022-02-21   | No          |                    20 |
