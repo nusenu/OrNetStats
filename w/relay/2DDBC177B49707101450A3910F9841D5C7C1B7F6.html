@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: avarus</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "avarus"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>avarus</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/9b813d84b6353068c195d56501fe156e.html">all relays with this contact</a>)</dt>
+<dd>
+Relay Admin &lt;tor AT acor dot is&gt;</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+45.150.108.227:9001
+[2a10:1fc0:4::53a9:a532]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  79-81
+  88
+  110
+  143
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-993
+  995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  8008
+  8074
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  79-81
+  88
+  110
+  143
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-993
+  995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  8008
+  8074
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:80-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:8008
+ accept *:8074
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/91c151011f7160bf414556052ec70f65a2eec99fbc075891cfb7237ed46554a3.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="10980834B8AA888ED729ACDE9BA9336991E3C463.html">10980834B8AA888ED729ACDE9BA9336991E3C463</a>
+<a href="11C08BD64C5D4B7173F6A4C276BEE00C2C52C62F.html">11C08BD64C5D4B7173F6A4C276BEE00C2C52C62F</a>
+<a href="2896FE3BC9FD6906D6BB753517771A01D358864C.html">2896FE3BC9FD6906D6BB753517771A01D358864C</a>
+<a href="2DDBC177B49707101450A3910F9841D5C7C1B7F6.html">2DDBC177B49707101450A3910F9841D5C7C1B7F6</a>
+<a href="B8FAE4DE3C34DCBF425785205408A004B79C68D5.html">B8FAE4DE3C34DCBF425785205408A004B79C68D5</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2022-05-01">2022-05-01 23:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.7
+on
+<a href='../osfam/BSD.html'>BSD</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>1</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit-readme.acor.is</pre>
+<dt>Autonomous System</dt>
+<dd>
+Interhost Communication Solutions Ltd. - 
+<a href="../as_number/AS61102.html">AS61102</a>
+(<a href='https://bgp.he.net/AS61102'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2022-05-01 20:21:07</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/il.html"><img src="../static/images/cc/il.png" title="Israel" alt="Israel"></a> Israel
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>2DDBC177B49707101450A3910F9841D5C7C1B7F6</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

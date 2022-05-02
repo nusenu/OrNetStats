@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-05-01 12:00 UTC**
+Tor network data as of: **2022-05-02 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -178,7 +178,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
 | [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
 
+## ContactInfo: gusntwrk.xyz (2) {#gusntwrkxyz}
+
+| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [elhombre](https://metrics.torproject.org/rs.html#details/D7910C73B9092697D7D2AF14E5CA09112F0C6EA9) | 2021-12-11   | Yes         |                     1 |
+| [rknchan](https://metrics.torproject.org/rs.html#details/A5B984C20AF47731B911CDF68032A36F8678C25B)  | 2022-02-19   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-15B1F023B0C16A608E89F867D96856AC8D2F0048,19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,A9A4213EA3D707857368C683F2208C83B8755D8A,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B
+15B1F023B0C16A608E89F867D96856AC8D2F0048,19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,A9A4213EA3D707857368C683F2208C83B8755D8A,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
