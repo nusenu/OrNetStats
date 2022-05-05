@@ -65,9 +65,8 @@ Topse Cret SQPajCUF7tNE@i2pmail.org</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  80
-  443
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -77,15 +76,7 @@ Topse Cret SQPajCUF7tNE@i2pmail.org</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:80
- accept *:443
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -111,14 +102,13 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>14 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>0</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -127,14 +117,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre>none</pre>
+<pre class="verified-hostname" title="verified hostname">tor-exit.anondns.net</pre>
 <dt>Autonomous System</dt>
 <dd>
 Neterra Ltd. - 
 <a href="../as_number/AS34224.html">AS34224</a>
 (<a href='https://bgp.he.net/AS34224'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-04 17:49:26</dd>
+<dd>2022-05-05 08:57:40</dd>
 
 <dt>Country</dt>
 <dd>

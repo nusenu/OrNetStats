@@ -67,53 +67,17 @@ Hurdy-Gurdy &lt;admin AT my-mail dot rocks&gt;</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22
-  25
-  110
-  135-139
-  143
-  445
-  465
-  587
-  6881-6999
-  40000-64000
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22
-  25
-  110
-  135-139
-  143
-  445
-  465
-  587
-  6881-6999
-  40000-64000
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- reject *:22
- reject *:25
- reject *:110
- reject *:143
- reject *:465
- reject *:587
- reject *:135-139
- reject *:445
- reject *:6881-6999
- reject *:40000-64000
- accept *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/03e6e6ffa5c46f1afb2a87c6f0116fc92ddd6d0a6a6a65ee49b6f49c75a86623.html">view</a>)</dt>
@@ -153,11 +117,10 @@ on
 <dd>191 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>33000</dd>
+<dd>34000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -175,7 +138,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-03 11:02:43</dd>
+<dd>2022-05-05 15:41:00</dd>
 
 <dt>Country</dt>
 <dd>
