@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-05-05 20:00 UTC**
+Tor network data as of: **2022-05-06 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,11 +29,12 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (101) {#contactinfo-emailabusestormycloudorg-urlstorm}
+## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (102) {#contactinfo-emailabusestormycloudorg-urlstorm}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/F8555980E41FF5D0E2379126DAD74C56FF32DD66) | 2022-02-01   | Yes         |                   102 |
+| [StormyCloudInc](https://metrics.torproject.org/rs.html#details/19B53DE3B97AEE85A90D44F0F06C1AE69FF62237) | 2022-02-01   | Yes         |                   102 |
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/00B211F85E145B50890633CA9CB6B18262E51CD7) | 2022-01-24   | No          |                    99 |
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/034B9A318A1D2D235B244482741E3A1F12E2A950) | 2022-04-20   | No          |                    99 |
 | [StormyCloudInc](https://metrics.torproject.org/rs.html#details/037A9B1EF680151D1977B52CFFA948819B2F867A) | 2022-01-23   | No          |                    99 |
@@ -160,4 +161,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-A9A4213EA3D707857368C683F2208C83B8755D8A,A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
+19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,A9A4213EA3D707857368C683F2208C83B8755D8A,A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
