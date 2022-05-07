@@ -55,18 +55,24 @@ crow &lt;crows06 AT protonmail dot com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-139.28.219.44:9001
+139.28.219.44:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>139.28.219.44</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  80-81
+  443
+  1194
+  1293
+  8332-8333
 </pre>
 </dd>
 
@@ -76,7 +82,20 @@ crow &lt;crows06 AT protonmail dot com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:1194
+ accept *:1293
+ accept *:8332-8333
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -102,13 +121,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>15 Mbit/s</dd>
+<dd>27 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>1800</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -125,7 +145,7 @@ M247 Ltd -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-04 08:16:24</dd>
+<dd>2022-05-06 21:32:41</dd>
 
 <dt>Country</dt>
 <dd>
