@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-05-07 19:00 UTC**
+Tor network data as of: **2022-05-08 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,30 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
+
+## ContactInfo: abuse at yggdrasil dot ws url:yggdrasil.ws proof:u (19) {#abuseatyggdrasildotws-urlyggdrasilws-proofu}
+
+| Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
+|:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Odin](https://metrics.torproject.org/rs.html#details/15B1F023B0C16A608E89F867D96856AC8D2F0048)         | 2022-02-17   | Yes         |                    19 |
+| [Heidrun](https://metrics.torproject.org/rs.html#details/0071933EB152FD69EE909A90B1084DFDE91FC988)      | 2022-03-16   | No          |                    19 |
+| [Bragi](https://metrics.torproject.org/rs.html#details/230496BD1BD0EB1200D3B2B7F6EA45AA728DFDD8)        | 2022-03-15   | No          |                    19 |
+| [Gullinborsti](https://metrics.torproject.org/rs.html#details/24362E7E61E6D72FE70262C8C11D5035712D56B8) | 2022-03-08   | No          |                    19 |
+| [Ymir](https://metrics.torproject.org/rs.html#details/4AA0035604DF40E5BA20DBE88EF6D11432421BFA)         | 2020-10-27   | No          |                    19 |
+| [Freya](https://metrics.torproject.org/rs.html#details/4BE441A6F75DEA5C738C91655418D3F9845B2143)        | 2022-02-21   | No          |                    19 |
+| [Hugin](https://metrics.torproject.org/rs.html#details/4E533D0E42D41968875911C419A9BA265EFA9883)        | 2019-12-02   | No          |                    19 |
+| [Ganymed](https://metrics.torproject.org/rs.html#details/5AFF7583F5ED62A274823C83199F2E19083692EC)      | 2020-08-20   | No          |                    19 |
+| [Asgard](https://metrics.torproject.org/rs.html#details/5C8AB2BC9588553948BE931B5374B98EC5760650)       | 2022-03-08   | No          |                    19 |
+| [Valhalla](https://metrics.torproject.org/rs.html#details/66D0DADCA77992282D36E4BB71E77C16144AB707)     | 2022-03-01   | No          |                    19 |
+| [Ragnarok](https://metrics.torproject.org/rs.html#details/7B077965A032FEE91F8DDFD3F18F9943398AAE3F)     | 2022-02-01   | No          |                    19 |
+| [Gimli](https://metrics.torproject.org/rs.html#details/7DA4235E725388111A6BDD965742A9E58A7D1451)        | 2022-02-21   | No          |                    18 |
+| [Heimdall](https://metrics.torproject.org/rs.html#details/8C9347D033ED0E7B2D57C1DA9028AE8F152ADD48)     | 2022-02-21   | No          |                    19 |
+| [Frigg](https://metrics.torproject.org/rs.html#details/98EC17CE329197A4A81C2B122806CE9E315A7518)        | 2022-02-22   | No          |                    19 |
+| [Tyr](https://metrics.torproject.org/rs.html#details/9CD41AC4F0054E9A8452732F86BD8D84FC812572)          | 2022-02-21   | No          |                    19 |
+| [Hildisvini](https://metrics.torproject.org/rs.html#details/9CD42CD6B94B7CEED2B915491EA6457ABD8E5675)   | 2022-03-16   | No          |                    19 |
+| [Gulltopp](https://metrics.torproject.org/rs.html#details/C0DC5DC08B91A5A17BF530E33F02FF4236ADE001)     | 2022-03-16   | No          |                    19 |
+| [Moona](https://metrics.torproject.org/rs.html#details/C58FA99811371C688012A5DE427685B62C778FE9)        | 2022-03-16   | No          |                    19 |
+| [Vale](https://metrics.torproject.org/rs.html#details/E2FECC8FDBA00078C2820129518D9E18C2148952)         | 2022-03-06   | No          |                    18 |
 
 ## ContactInfo: ContactInfo email:abuse stormycloud.org url:storm (102) {#contactinfo-emailabusestormycloudorg-urlstorm}
 
@@ -148,7 +172,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [4punk7](https://metrics.torproject.org/rs.html#details/A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC)   | 2022-04-24   | Yes         |                     1 |
+| [4punk7r1](https://metrics.torproject.org/rs.html#details/A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC) | 2022-04-24   | Yes         |                     1 |
 | [4punk7e2](https://metrics.torproject.org/rs.html#details/68057FD302B0F83C0ED00B6D70FDAD6BEEF2005B) | 2020-10-21   | No          |                     1 |
 
 ## ContactInfo: tor-operator@your-emailaddress-domain (3) {#tor-operatoryour-emailaddress-domain}
@@ -166,7 +190,20 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [elhombre](https://metrics.torproject.org/rs.html#details/D7910C73B9092697D7D2AF14E5CA09112F0C6EA9) | 2021-12-11   | Yes         |                     1 |
 | [rknchan](https://metrics.torproject.org/rs.html#details/A5B984C20AF47731B911CDF68032A36F8678C25B)  | 2022-02-19   | No          |                     1 |
 
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (8) {#neel-chauhan-neel-at-neelc-dot-org}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelayB](https://metrics.torproject.org/rs.html#details/3722FAC5961E0F6414D1C6384579B3137967004D) | 2022-03-31   | Yes         |                     8 |
+| [NeelTorRelayA](https://metrics.torproject.org/rs.html#details/E8D4369BC42EC050E0DE83B8740EBEE4A90FE6AE) | 2022-03-31   | Yes         |                     8 |
+| [NeelTorExitA](https://metrics.torproject.org/rs.html#details/2D49F0A9CD0ABC371B5BAFA3E193D8FAD1EEB7FD)  | 2021-11-24   | No          |                     8 |
+| [NeelTorExitE](https://metrics.torproject.org/rs.html#details/312C7327C5417DBFEF1C93B8F5A6B37558D09ECB)  | 2022-05-08   | No          |                     1 |
+| [NeelTorExitC](https://metrics.torproject.org/rs.html#details/40778CA254394B6F5994CAABB2E658B0E18375F7)  | 2021-11-19   | No          |                     8 |
+| [NeelTorExitF](https://metrics.torproject.org/rs.html#details/7AA5355E3397E8F0CDE6FA18FDE3FAE9CEF1031D)  | 2022-05-07   | No          |                     8 |
+| [NeelTorExitD](https://metrics.torproject.org/rs.html#details/933FAF123A45DAE182FA1E93B74C3843A6BDE4F7)  | 2021-11-19   | No          |                     8 |
+| [NeelTorExitB](https://metrics.torproject.org/rs.html#details/CC8A46DAC2011F691A2073472AB962F0E18C2810)  | 2021-11-24   | No          |                     8 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,A9A4213EA3D707857368C683F2208C83B8755D8A,A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
+15B1F023B0C16A608E89F867D96856AC8D2F0048,19B53DE3B97AEE85A90D44F0F06C1AE69FF62237,A9A4213EA3D707857368C683F2208C83B8755D8A,A659EA3A7A53AA73A0CCCDA0A9BD2DD952FF08BC,3722FAC5961E0F6414D1C6384579B3137967004D,F8555980E41FF5D0E2379126DAD74C56FF32DD66,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,F6691E3EB7CAB3C876AAA885E6801B63DC998C39,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9,E8D4369BC42EC050E0DE83B8740EBEE4A90FE6AE
