@@ -66,18 +66,45 @@ Relay Info &lt;relay-ops AT tuta dot io&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  18080-18081
+  18089
+  18333
+  50001-50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9735
+  18080-18081
+  18089
+  18333
+  50001-50002
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8333
+ accept *:18333
+ accept *:9735
+ accept *:50001-50002
+ accept *:5222-5223
+ accept *:18080-18081
+ accept *:18089
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/e3b6d6e73aebad991cabba6aceac55f9c31dcbc8503d0705215fbaa8c5a0bdf3.html">view</a>)</dt>
@@ -117,7 +144,7 @@ on
 <dd>99 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>9600</dd>
+<dd>9500</dd>
 
 <dt>Flags</dt>
 <dd>
