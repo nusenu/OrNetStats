@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/57656982148e64f0934a73b7ff5d1825.html">all relays with this contact</a>)</dt>
+<dd>
+vultr0719@gmail.com</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 34.150.111.119:9001
@@ -60,20 +62,13 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>34.150.111.119</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -89,17 +84,10 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -149,7 +137,7 @@ GOOGLE-PRIVATE-CLOUD -
 <a href="../as_number/AS396982.html">AS396982</a>
 (<a href='https://bgp.he.net/AS396982'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-10 14:16:05</dd>
+<dd>2022-05-11 16:23:10</dd>
 
 <dt>Country</dt>
 <dd>
