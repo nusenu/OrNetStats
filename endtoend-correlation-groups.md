@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-05-11 18:00 UTC**
+Tor network data as of: **2022-05-12 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -51,14 +51,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [elhombre](https://metrics.torproject.org/rs.html#details/D7910C73B9092697D7D2AF14E5CA09112F0C6EA9) | 2021-12-11   | Yes         |                     1 |
 | [rknchan](https://metrics.torproject.org/rs.html#details/A5B984C20AF47731B911CDF68032A36F8678C25B)  | 2022-02-19   | No          |                     1 |
 
-## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (12) {#torixatprotonmaildotcom}
+## ContactInfo: torix aT=== protonmail&lt;dOT &gt;com (11) {#torixatprotonmaildotcom}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Aramis67](https://metrics.torproject.org/rs.html#details/53C9F4954E7A7332BB0C610C5B8E04CA065AF29B) | 2019-05-13   | Yes         |                    12 |
 | [Aramis65](https://metrics.torproject.org/rs.html#details/99DB99DF22EE52B9B3A32749C12EDEA78F166B3F) | 2021-12-03   | Yes         |                    12 |
 | [Aramis66](https://metrics.torproject.org/rs.html#details/39A18F31B312E5CB211781090766934C1CFDAB36) | 2020-07-10   | Yes         |                     8 |
-| [Aramis72](https://metrics.torproject.org/rs.html#details/F5FD7EF4307F8C5C398147877F32A9F9F71E2092) | 2020-05-27   | Yes         |                    12 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/17F41F8DAFA4B36AAB10E202ABA14601AAE1D616)   | 2022-05-10   | No          |                     7 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/2B3AAC97B269D59E6D642C8BFB174EDD13741C38)   | 2021-11-12   | No          |                     8 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/359C5231AC2452D365B64A23C27817A1DFEE56B4)   | 2022-05-10   | No          |                     7 |
@@ -71,4 +70,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-A9A4213EA3D707857368C683F2208C83B8755D8A,74C11CE0CD6BFD1AEDA1BEC526ABBE10D95EB207,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,99DB99DF22EE52B9B3A32749C12EDEA78F166B3F,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9,F5FD7EF4307F8C5C398147877F32A9F9F71E2092
+A9A4213EA3D707857368C683F2208C83B8755D8A,74C11CE0CD6BFD1AEDA1BEC526ABBE10D95EB207,39A18F31B312E5CB211781090766934C1CFDAB36,53C9F4954E7A7332BB0C610C5B8E04CA065AF29B,99DB99DF22EE52B9B3A32749C12EDEA78F166B3F,D53AE170BF6650A2C6640484FE1B5DD1C0AB895B,D7910C73B9092697D7D2AF14E5CA09112F0C6EA9
