@@ -66,18 +66,42 @@ Relay Info &lt;relay-ops AT tuta dot io&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9333
+  9735
+  18333
+  50001-50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  5222-5223
+  8333
+  9333
+  9735
+  18333
+  50001-50002
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8333
+ accept *:9333
+ accept *:18333
+ accept *:9735
+ accept *:50001-50002
+ accept *:5222-5223
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/e3b6d6e73aebad991cabba6aceac55f9c31dcbc8503d0705215fbaa8c5a0bdf3.html">view</a>)</dt>
@@ -114,16 +138,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>86 Mbit/s</dd>
+<dd>84 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8600</dd>
+<dd>7900</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -140,7 +163,7 @@ WII -
 <a href="../as_number/AS32097.html">AS32097</a>
 (<a href='https://bgp.he.net/AS32097'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-06 10:47:25</dd>
+<dd>2022-05-23 10:43:57</dd>
 
 <dt>Country</dt>
 <dd>

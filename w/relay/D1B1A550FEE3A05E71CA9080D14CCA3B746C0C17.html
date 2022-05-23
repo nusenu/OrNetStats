@@ -141,54 +141,58 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:10000
- accept *:11371
+ accept *:20-21
+ accept *:43
+ accept *:79
+ accept *:80
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:443
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:853
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:994
+ accept *:995
  accept *:1194
  accept *:1220
  accept *:1293
- accept *:143
  accept *:1500
  accept *:1533
  accept *:1677
  accept *:1723
  accept *:1755
  accept *:1863
- accept *:19294
- accept *:194
- accept *:19638
- accept *:20-21
  accept *:2082
  accept *:2083
  accept *:2086-2087
  accept *:2095-2096
  accept *:2102-2104
- accept *:220
  accept *:3128
  accept *:3389
  accept *:3690
- accept *:43
  accept *:4321
- accept *:443
  accept *:4643
- accept *:50002
  accept *:5050
  accept *:5190
  accept *:5222-5223
  accept *:5228
- accept *:531
- accept *:543-544
- accept *:554
- accept *:563
  accept *:5900
- accept *:636
- accept *:64738
  accept *:6660-6669
  accept *:6679
  accept *:6697
- accept *:706
- accept *:749
- accept *:79
- accept *:80
  accept *:8000
  accept *:8008
  accept *:8074
@@ -198,19 +202,15 @@
  accept *:8232-8233
  accept *:8332-8333
  accept *:8443
- accept *:853
- accept *:873
  accept *:8888
- accept *:902-904
  accept *:9418
- accept *:981
- accept *:989-990
- accept *:991
- accept *:992
- accept *:993
- accept *:994
- accept *:995
  accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
  reject *:*
 </pre></dd>
 
@@ -231,7 +231,7 @@
 <dd><a href="../first_seen/2019-05-03">2019-05-03 12:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.6.8
+<dd> Tor 0.4.7.7
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -240,14 +240,13 @@ on
 <dd>385 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>57000</dd>
+<dd>60000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -264,7 +263,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-22 15:56:54</dd>
+<dd>2022-05-21 00:55:36</dd>
 
 <dt>Country</dt>
 <dd>

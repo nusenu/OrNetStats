@@ -63,21 +63,42 @@ babywhale321[AT]outlook[DOT]com</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>205.185.116.143</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  465
+  587
+  6660-6667
+  6697
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
+  6660-6667
+  6697
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:6660-6667
+ reject *:6697
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/aad6ced9465a9966b466c34d0ec40cdb3678bef559f83e89ea72b06aee01eb87.html">view</a>)</dt>
@@ -98,22 +119,22 @@ babywhale321[AT]outlook[DOT]com</a></dd>
 <dd><a href="../first_seen/2022-02-23">2022-02-23 15:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.6.10
+<dd> Tor 0.4.7.7
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>31 Mbit/s</dd>
+<dd>32 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2500</dd>
+<dd>2600</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -130,7 +151,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-03-11 05:33:48</dd>
+<dd>2022-05-22 14:33:52</dd>
 
 <dt>Country</dt>
 <dd>
