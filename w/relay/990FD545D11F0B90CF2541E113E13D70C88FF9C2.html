@@ -55,7 +55,7 @@ trollage@fbi.ac</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-217.138.193.157:20650
+91.90.120.179:39611
 </pre></dd>
 
 
@@ -65,7 +65,7 @@ trollage@fbi.ac</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
+<pre class="pre-scrollable">accept: 
   1-65535
 </pre>
 </dd>
@@ -76,7 +76,13 @@ trollage@fbi.ac</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -105,10 +111,11 @@ on
 <dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -124,11 +131,11 @@ M247 Ltd -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-05-27 13:42:02</dd>
+<dd>2022-05-29 18:18:06</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/ae.html"><img src="../static/images/cc/ae.png" title="United Arab Emirates" alt="United Arab Emirates"></a> United Arab Emirates
+<a href="../country/gl.html"><img src="../static/images/cc/gl.png" title="Greenland" alt="Greenland"></a> Greenland
 </dd>
 
 <dt>Fingerprint</dt>
