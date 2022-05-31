@@ -67,20 +67,42 @@ GANDI24325_TOR [at] protonmail (dot) com</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-21
   43
   53
-  80
+  80-81
   443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-21
   43
   53
-  80
+  80-81
   443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
@@ -91,10 +113,21 @@ GANDI24325_TOR [at] protonmail (dot) com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20-21
  accept *:43
  accept *:53
- accept *:80
+ accept *:80-81
  accept *:443
+ accept *:5222-5223
+ accept *:6667-7000
+ accept *:8008
+ accept *:8082
+ accept *:8332-8333
+ accept *:8888
+ accept *:9418
+ accept *:50002
+ accept *:64738
+ accept *:18080-18081
  reject *:*
 </pre></dd>
 
@@ -126,7 +159,7 @@ on
 <dd>184 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>29000</dd>
+<dd>28000</dd>
 
 <dt>Flags</dt>
 <dd>
