@@ -65,13 +65,8 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  53
   80
   443
-  5190
-  6660-6669
-  6679
-  6697
   11371
 </pre>
 </dd>
@@ -79,32 +74,23 @@
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  53
   80
   443
-  5190
-  6660-6669
-  6679
-  6697
   11371
 </pre>
 </dd>
 
 <dt>Exit Policy</dt>
 <dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
  reject 127.0.0.0/8:*
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:53
+ reject 169.254.0.0/15:*
+ reject 195.95.132.0/21:*
  accept *:80
  accept *:443
- accept *:5190
  accept *:11371
- accept *:6660-6669
- accept *:6679
- accept *:6697
  reject *:*
 </pre></dd>
 
@@ -134,7 +120,7 @@ on
 <dd>64 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8400</dd>
+<dd>7500</dd>
 
 <dt>Flags</dt>
 <dd>
