@@ -66,21 +66,34 @@ admin(at)brokennode(dot)net</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  853
+  5190
+  5228
+  8082
+  8332-8333
+  11371
+  50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-21
   43
   53
   80-81
   443
-  8008
+  853
+  5190
+  5228
   8082
-  8232-8233
   8332-8333
   11371
   50002
@@ -94,13 +107,15 @@ admin(at)brokennode(dot)net</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20-21
  accept *:43
  accept *:53
  accept *:80-81
  accept *:443
- accept *:8008
+ accept *:853
+ accept *:5190
+ accept *:5228
  accept *:8082
- accept *:8232-8233
  accept *:8332-8333
  accept *:11371
  accept *:50002
@@ -131,13 +146,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>57 Mbit/s</dd>
+<dd>64 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4200</dd>
+<dd>5600</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -155,7 +171,7 @@ IONOS SE -
 <a href="../as_number/AS8560.html">AS8560</a>
 (<a href='https://bgp.he.net/AS8560'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-06-12 18:22:44</dd>
+<dd>2022-06-13 00:54:53</dd>
 
 <dt>Country</dt>
 <dd>
