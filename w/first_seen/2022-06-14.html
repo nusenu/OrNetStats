@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2022-06-14</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2022-06-14</h2>
+<p>Relays started on 2022-06-14 are responsible for ~37 Mbit/s of traffic, with 18
+middle relays and 37 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Authenticated Relay Operator ID <img title="This icon indicates the operator properly implemented the Authenticated Relay Operator ID (AROI) on a given relay." src="../static/images/flags/valid.png"><br> or ContactInfo (unverified)</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="pingpongballs"><a href="../relay/2B52585A1222DD59A1581D48FCF7E6A7E695608D.html">pingpongballs</a></td>
+<td><code><a href="../contact/fad8f9d2da298e6855d6856609a80841.html"
+title="abottor@proton.me">
+abottor@proton.me</a></code></td>
+<td>37 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/172.105.61.43">172.105.61.43</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="XoaseRelay"><a href="../relay/92A01038972F368200B03DC0D194B217BA441D55.html">XoaseRelay</a></td>
+<td><code><a href="../contact/02b498dec587d3d9e82e5e6781c82cbf.html"
+title="email: admin_xoa.se">
+email: admin_xoa.se</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/89.185.109.216">89.185.109.216</a></td>
+
+<td><a href="../as_number/AS24953.html" title="NETPLANET GmbH">NETPLANET GmbH</a></td>
+<td><a href="../country/at.html"><img
+src="../static/images/cc/at.png" title="Austria" alt="Austria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="myTorRelay1234"><a href="../relay/0475C0AB16CAECE112E623EA7005606A8E5CF498.html">myTorRelay1234</a></td>
+<td><code><a href="../contact/aeafc3052bc7ea39685fbe44eee16862.html"
+title="asdfg@asdfg.tor">
+asdfg@asdfg.tor</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/170.187.142.46">170.187.142.46</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Unnamed"><a href="../relay/08C7589047E11B50AA57D63B55A2D5124E36434B.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/221.113.23.17">221.113.23.17</a></td>
+
+<td><a href="../as_number/AS4685.html" title="Asahi Net, Inc.">Asahi Net, Inc.</a></td>
+<td><a href="../country/jp.html"><img
+src="../static/images/cc/jp.png" title="Japan" alt="Japan"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/16CBDD8D9B3C48263AB1D2220ABC671A2D69C1BE.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.208">23.128.248.208</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/1E8B90CF378C30B8CC7EA46AD5800147D6B8D9DE.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.215">23.128.248.215</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ididedithisconfig16"><a href="../relay/220B88BC9ADD2F0125657529FF32D159D544D236.html">ididedithisconfig16</a></td>
+<td><code><a href="../contact/f65edaa66657563a12f88a9c635a1188.html"
+title="David Poulsen &lt;coecherexarder-13 AT protonmail dot com&gt;">
+David Poulsen...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/156.146.34.88">156.146.34.88</a></td>
+
+<td><a href="../as_number/AS60068.html" title="Datacamp Limited">Datacamp Limited</a></td>
+<td><a href="../country/jp.html"><img
+src="../static/images/cc/jp.png" title="Japan" alt="Japan"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="HermanRimm"><a href="../relay/225B6EAC75A89D30BAC2FCC7182D0187C1C4D762.html">HermanRimm</a></td>
+<td><code><a href="../contact/e5a05a0a0fd9db8166c51e92e82ad5ef.html"
+title="Herman Rimm &lt;herman_rimm AT pm dot me&gt;">
+Herman Rimm...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/31.20.249.94">31.20.249.94</a></td>
+
+<td><a href="../as_number/AS50266.html" title="T-Mobile Thuis BV">T-Mobile Thuis BV</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/2B594DDBC51F708CE1A943CEE64FB2AB101EB91A.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.227">23.128.248.227</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="doudoubridge"><a href="../relay/317B9C34B9980132B68DCAABE0915B9C5653BE00.html">doudoubridge</a></td>
+<td><code><a href="../contact/312a6407741f3813c6578c8f763fa7f3.html"
+title="jmp.nobigdata@free.fr">
+jmp.nobigdata@free.fr</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/82.65.165.202">82.65.165.202</a></td>
+
+<td><a href="../as_number/AS12322.html" title="Free SAS">Free SAS</a></td>
+<td><a href="../country/fr.html"><img
+src="../static/images/cc/fr.png" title="France" alt="France"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="myTorRelay1234"><a href="../relay/33B59A34264BD828108EE67498F29A5FAF9228BB.html">myTorRelay1234</a></td>
+<td><code><a href="../contact/aeafc3052bc7ea39685fbe44eee16862.html"
+title="asdfg@asdfg.tor">
+asdfg@asdfg.tor</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/178.79.172.44">178.79.172.44</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/gb.html"><img
+src="../static/images/cc/gb.png" title="United Kingdom of Great Britain and Northern Ireland" alt="United Kingdom of Great Britain and Northern Ireland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/34239BDCE473A0E34AE7C15BBFD860CFA43EC25C.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.210">23.128.248.210</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/4510B728BAE977BE2F513085D58407B54344B9A5.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.212">23.128.248.212</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/46C458A39353B1F6084B09CFDBEC8691A37BEF2A.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.225">23.128.248.225</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/486DF7C3E23AD8C47AFC209B64F1E37343E0CEBD.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.220">23.128.248.220</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/496B08F3CC86CD3818C464D54071D889AA054809.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.222">23.128.248.222</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="MBanon"><a href="../relay/525F8362F15D9201319CFF43742B084E91B03178.html">MBanon</a></td>
+<td><code><a href="../contact/bb1377c2cd3269fa5b0115ecc1c8f0b7.html"
+title="marin-basic.com">
+marin-basic.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/88.207.118.50">88.207.118.50</a></td>
+
+<td><a href="../as_number/AS31012.html" title="A1 Hrvatska d.o.o.">A1 Hrvatska d.o.o.</a></td>
+<td><a href="../country/hr.html"><img
+src="../static/images/cc/hr.png" title="Croatia" alt="Croatia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="SussyRelay1"><a href="../relay/52C3FF71CA071A77D1C4C53D2026A6EADA585350.html">SussyRelay1</a></td>
+<td><code><a href="../contact/08b7d50552f6e702a0c64bf4c22738e2.html"
+title="Latoreth(at)protonmail(dot)com [tor-relay.co]">
+Latoreth(at)protonmail(d...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/94.140.114.108">94.140.114.108</a></td>
+
+<td><a href="../as_number/AS43513.html" title="Sia Nano IT">Sia Nano IT</a></td>
+<td><a href="../country/lv.html"><img
+src="../static/images/cc/lv.png" title="Latvia" alt="Latvia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="gaterncom"><a href="../relay/5AFF523481A13C84CAAB7A71F2FC6842B62FA845.html">gaterncom</a></td>
+<td><code><a href="../contact/8898494d4916cf9f4c62f9eff99f4070.html"
+title="i(at)gatern(dot)com [tor-relay.co]">
+i(at)gatern(dot)com...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/103.118.42.36">103.118.42.36</a></td>
+
+<td><a href="../as_number/AS7586.html" title="Cloudfort IT">Cloudfort IT</a></td>
+<td><a href="../country/hk.html"><img
+src="../static/images/cc/hk.png" title="Hong Kong" alt="Hong Kong"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="lonesomePolecat"><a href="../relay/5BDAADD026A86BB2F8F7EC882FFAA4326B213049.html">lonesomePolecat</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/162.220.62.225">162.220.62.225</a></td>
+
+<td><a href="../as_number/AS29802.html" title="HVC-AS">HVC-AS</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/62CE571C7EB8D706CA5E834A8BD8DFB9E738E490.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.204">23.128.248.204</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/6C1CFAB75D1BC244B149147F102B15FA3A747AD7.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.223">23.128.248.223</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/7651B4D8DB8D01E585FEF407FFA93065450C5510.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.219">23.128.248.219</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/7657A37E37911159F1523A915C562EA7313EE52F.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.216">23.128.248.216</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/7F0FAE5FFE56063ED848940BF971715293E63CEC.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.201">23.128.248.201</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="meehIrmTorRelay"><a href="../relay/8237CFC3564CDAFA0A4B0CFC5B22E84D5B37586B.html">meehIrmTorRelay</a></td>
+<td><code><a href="../contact/c2987c438d3cf03610c35c305e206e48.html"
+title="your@e-mail">
+your@e-mail</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/82.181.225.190">82.181.225.190</a></td>
+
+<td><a href="../as_number/AS16086.html" title="DNA Oyj">DNA Oyj</a></td>
+<td><a href="../country/fi.html"><img
+src="../static/images/cc/fi.png" title="Finland" alt="Finland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/874C781EDB2C2CED0D9DCAB87A5EFCD54F22DA83.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.230">23.128.248.230</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/8B90849C440FE42E57FB9671E881A507CB506B4A.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.224">23.128.248.224</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ppbrelay"><a href="../relay/9560B63AB2CF3589537D29BD360F5035DB8F4EFB.html">ppbrelay</a></td>
+<td><code><a href="../contact/f4b012f47107d2973e7a814521ad01a3.html"
+title="abottor(at)proton(dot)me">
+abottor(at)proton(dot)me</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/172.105.35.52">172.105.35.52</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/957352698AF0B2F351FE124E5D9D751523932658.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.229">23.128.248.229</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Sprtcrnbry"><a href="../relay/9841FC5B744016E30C57332892D889BAB0C684E9.html">Sprtcrnbry</a> (<a href="../family/c37b44e470f4daa3cefd273a82d5be20e3138375ef5fb195d5e954142c707515.html">3</a>)</td>
+<td><code><a href="../contact/44f6880016eacc511c9b1e2b0cea6b9a.html"
+title="sprite[(at)]suichan[(dot)]moe">
+sprite[(at)]suichan[(dot)]moe</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/20.222.237.15">20.222.237.15</a></td>
+
+<td><a href="../as_number/AS8075.html" title="MICROSOFT-CORP-MSN-AS-BLOCK">MICROSOFT-CORP-MSN-AS-BLOCK</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/99A5E82DEE4285AE642511ADC090E3AB5F616E6E.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.218">23.128.248.218</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/9AC9B178EAFBF7A30E5F18FE9B3E1695E5948D6B.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.214">23.128.248.214</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Unnamed"><a href="../relay/9BF19D3CAF4A6FF4FC3D9F8A96EC1913C3EB1064.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/108.160.132.183">108.160.132.183</a></td>
+
+<td><a href="../as_number/AS20473.html" title="AS-CHOOPA">AS-CHOOPA</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ogarnijsetora1"><a href="../relay/A0AC8AF2BD0A72938B0D4CA2A299012E8527AF81.html">ogarnijsetora1</a></td>
+<td><code><a href="../contact/68444497a081011fbc3e7bc1a7bd3f7f.html"
+title="tor.relay.443@ogarnij.se">
+tor.relay.443@ogarnij.se</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/130.61.176.108">130.61.176.108</a></td>
+
+<td><a href="../as_number/AS31898.html" title="ORACLE-BMC-31898">ORACLE-BMC-31898</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/A23EFA99A898D2263893A9F2E918F278ED9B6AA6.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.211">23.128.248.211</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DarkTechTor1"><a href="../relay/A47243DAA91EE2A6F0153DFF2277EDEA7B82141E.html">DarkTechTor1</a></td>
+<td><code><a href="../contact/1f68c3c6a6264bc4afc53afc1b19e6a5.html"
+title="DarkTech &lt;webmaster@darktech.info&gt;">
+DarkTech...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.79.172.32">45.79.172.32</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="natestorrelay"><a href="../relay/A76318166EB07896A52522E0DE793FD197ACA720.html">natestorrelay</a></td>
+<td><code><a href="../contact/2e94d06c63619c2ff98bfc05bad78454.html"
+title="nate@natechoe.dev">
+nate@natechoe.dev</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.19.51.169">45.19.51.169</a></td>
+
+<td><a href="../as_number/AS7018.html" title="ATT-INTERNET4">ATT-INTERNET4</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Niuzi"><a href="../relay/AE5705F0A0F5E110569A72F5E3097DF201A9C7FB.html">Niuzi</a></td>
+<td><code><a href="../contact/934fa55b96f436c928a58b769b9260ae.html"
+title="@niuzi">
+@niuzi</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.236.93.45">109.236.93.45</a></td>
+
+<td><a href="../as_number/AS49981.html" title="WorldStream B.V.">WorldStream B.V.</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/B2F511B9361349E9D2AB6E24D29BAEE14F9AE9EA.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.206">23.128.248.206</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/B92A30859679333EC4B23BE2BD918FD2636A6B2C.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.228">23.128.248.228</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/BC93C178F51E1AFA13F4B230737402D7366AA8B0.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.200">23.128.248.200</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/C2215F2D77E61185BCC6D386AC9C4288786E8B1F.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.209">23.128.248.209</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/C2A089A9D2E7072D1F94F6EDFBC36D4EA7DFC064.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.213">23.128.248.213</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/C993CD086D5780874109803513C4740AA73C03D3.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.202">23.128.248.202</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="0x616e6f6e"><a href="../relay/CA532757DC0661ECD917635B57A6845161C60931.html">0x616e6f6e</a> (<a href="../family/10efbe0c1f91698003170ccbd98b78693ab41e9b83f292375d3f2c331e5c8e80.html">7</a>)</td>
+<td><code><a href="../contact/351ae178c42613e1759d5592c620044e.html"
+title="g774i12a2@protonmail.com">
+g774i12a2@protonmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.91.67.32">45.91.67.32</a></td>
+
+<td><a href="../as_number/AS209696.html" title="NILSAT Ltd.">NILSAT Ltd.</a></td>
+<td><a href="../country/bg.html"><img
+src="../static/images/cc/bg.png" title="Bulgaria" alt="Bulgaria"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="myTorRelay1234"><a href="../relay/D32151B8CF9C08BC3A6FDF2B930572EA4D75F6C4.html">myTorRelay1234</a></td>
+<td><code><a href="../contact/aeafc3052bc7ea39685fbe44eee16862.html"
+title="asdfg@asdfg.tor">
+asdfg@asdfg.tor</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/172.104.110.132">172.104.110.132</a></td>
+
+<td><a href="../as_number/AS63949.html" title="Linode, LLC">Linode, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/D4E6CB03130F51C6D06D901213BD06682F90609C.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.207">23.128.248.207</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Unnamed"><a href="../relay/DAE2ECCF84F999432AE57C324EDD3DED6BC4421E.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.219.108.79">185.219.108.79</a></td>
+
+<td><a href="../as_number/AS205311.html" title="Cambridge Fibre Networks Ltd.">Cambridge Fibre...</a></td>
+<td><a href="../country/gb.html"><img
+src="../static/images/cc/gb.png" title="United Kingdom of Great Britain and Northern Ireland" alt="United Kingdom of Great Britain and Northern Ireland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/DFC732D2002D8C56C97437BCB80553AED17927FE.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.203">23.128.248.203</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/E41A8D3BD5548D3CBC2DE19BF44733E9E3E28ECE.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.221">23.128.248.221</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/E6D417DBC608CAEE643FF8EA98C86CD97006B3E6.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.217">23.128.248.217</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/F628621F5D0AD4E04777A6C872EBBBEC1FFF1BE7.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.205">23.128.248.205</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="frxctxr"><a href="../relay/F8C9BAFCEF232EC32859E5A11AF463BC628EDBE3.html">frxctxr</a></td>
+<td><code><a href="../contact/5624306f9a13bcc90e98beef5f9d5dda.html"
+title="kirinsst@protonmail.com">
+kirinsst@protonmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/87.62.100.61">87.62.100.61</a></td>
+
+<td><a href="../as_number/AS3292.html" title="TDC A/S">TDC A/S</a></td>
+<td><a href="../country/dk.html"><img
+src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DataIdeas"><a href="../relay/FEF7835A1C5CF5C9D255226D684001452F01C356.html">DataIdeas</a> (<a href="../family/e2d8c0fe754ea373e5ced48796d9324c204c533baaf02187df0e8e15d37242c6.html">31</a>)</td>
+<td><code><a href="../contact/a1454c398d2d1afd5cd3f100fcee80c2.html"
+title="abuse@dataideas.com | www.dataideas.com | TOR friendly provider">
+abuse@dataideas.com |...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.128.248.226">23.128.248.226</a></td>
+
+<td><a href="../as_number/AS398355.html" title="DATAIDEAS-LLC">DATAIDEAS-LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-06-14</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
