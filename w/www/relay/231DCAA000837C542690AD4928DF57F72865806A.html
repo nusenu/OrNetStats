@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: organicloaf</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "organicloaf"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>organicloaf</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/d0708debb9e550efcd72914841465f22.html">all relays with this contact</a>)</dt>
+<dd>
+organicloaf@protonmail.com</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+51.77.100.58:9001
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  1-65535
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/27abbdda95aab64110e09b67988cc1603d5e64c8856619b9276ca12ea66d53a2.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="00152DFAB972A3F8B08648E14A7B098CC29483E9.html">00152DFAB972A3F8B08648E14A7B098CC29483E9</a>
+<a href="231DCAA000837C542690AD4928DF57F72865806A.html">231DCAA000837C542690AD4928DF57F72865806A</a>
+<a href="346D9A1CF18DFBB4777F9F1B3B4F65C440B72BA7.html">346D9A1CF18DFBB4777F9F1B3B4F65C440B72BA7</a>
+<a href="3E62CC59E7455F55DEBE77B9777FBEA73932FF8A.html">3E62CC59E7455F55DEBE77B9777FBEA73932FF8A</a>
+<a href="4082BA9F49BCF25A413630C357C001F47D56FDEA.html">4082BA9F49BCF25A413630C357C001F47D56FDEA</a>
+<a href="484C574D7185FCB9CEDA472AEAFBB6D3BB2CE74D.html">484C574D7185FCB9CEDA472AEAFBB6D3BB2CE74D</a>
+<a href="4DE4F9FA10432E624C08275AC2646EA5698F9A61.html">4DE4F9FA10432E624C08275AC2646EA5698F9A61</a>
+<a href="5580D6CB2F3E5878A5A5E6BB21AFB3083A883902.html">5580D6CB2F3E5878A5A5E6BB21AFB3083A883902</a>
+<a href="56660DBE21E7A9DFF31632E035372E8306582937.html">56660DBE21E7A9DFF31632E035372E8306582937</a>
+<a href="77A75703E5B9AD9CFDBAA17CEFDFEA4B46A3A8E9.html">77A75703E5B9AD9CFDBAA17CEFDFEA4B46A3A8E9</a>
+<a href="7D8383BDA1064E5217CB27E8DE9ED0812B0997CB.html">7D8383BDA1064E5217CB27E8DE9ED0812B0997CB</a>
+<a href="81809D1A797DA03EF506716B27C783D51ADFE69B.html">81809D1A797DA03EF506716B27C783D51ADFE69B</a>
+<a href="968F0952331905CEB5CA0E4566CB92A2E78D18CB.html">968F0952331905CEB5CA0E4566CB92A2E78D18CB</a>
+<a href="C0EA6EC237965F22D575210288B8BAEACE9D554E.html">C0EA6EC237965F22D575210288B8BAEACE9D554E</a>
+<a href="D00EE5FDA559D2F592BAF0EE4097816B467AC841.html">D00EE5FDA559D2F592BAF0EE4097816B467AC841</a>
+<a href="D1C5B150C1EB2452DFBDF302EFDC5AA1734BB40C.html">D1C5B150C1EB2452DFBDF302EFDC5AA1734BB40C</a>
+<a href="D9EDB3DCC8F49A2EC4464B103F85B395D0A9ED9E.html">D9EDB3DCC8F49A2EC4464B103F85B395D0A9ED9E</a>
+<a href="E42E30D9F9C2928E15AAC4158EC01FB15D3D36CC.html">E42E30D9F9C2928E15AAC4158EC01FB15D3D36CC</a>
+<a href="EEFF4CBDA4163C9D7BF489D8310670A8D378F97F.html">EEFF4CBDA4163C9D7BF489D8310670A8D378F97F</a>
+<a href="F63B7422392CEB18CD06B943A292EA3D5962F117.html">F63B7422392CEB18CD06B943A292EA3D5962F117</a>
+<a href="F6DE701005ADCA00DFC58DF874ABE079F8039B39.html">F6DE701005ADCA00DFC58DF874ABE079F8039B39</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="0FDA760D03D6E2C848C52DF1FAEF47F65250D107.html">0FDA760D03D6E2C848C52DF1FAEF47F65250D107</a>
+<a href="4FDFA2F43B569F14E23670F43104CD7F8E6F08A7.html">4FDFA2F43B569F14E23670F43104CD7F8E6F08A7</a>
+<a href="AD9D67FF8F31BA64B2059E953B346E5D58120D49.html">AD9D67FF8F31BA64B2059E953B346E5D58120D49</a>
+<a href="BC2976296B0D93909BD47B3689B97EA2E116A222.html">BC2976296B0D93909BD47B3689B97EA2E116A222</a>
+<a href="E19F9646801C0271C78605D4ED48771694960728.html">E19F9646801C0271C78605D4ED48771694960728</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2022-04-18">2022-04-18 23:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.6.10
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>134 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>29000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">ip58.ip-51-77-100.eu</pre>
+<dt>Autonomous System</dt>
+<dd>
+OVH SAS - 
+<a href="../as_number/AS16276.html">AS16276</a>
+(<a href='https://bgp.he.net/AS16276'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2022-06-23 14:45:54</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/fr.html"><img src="../static/images/cc/fr.png" title="France" alt="France"></a> France
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>231DCAA000837C542690AD4928DF57F72865806A</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

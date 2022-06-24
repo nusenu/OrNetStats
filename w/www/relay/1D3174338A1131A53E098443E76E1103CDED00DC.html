@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: criticalmass</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "criticalmass"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>criticalmass</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/torservers.net.html">
+torservers.net</a>
+<a href="https://torservers.net/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>support[]torservers.net</dd>
+<dt>url</dt>
+<dd>https://torservers.net/</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>abuse</dt>
+<dd>abuse[]torservers.net</dd>
+<dt>twitter</dt>
+<dd>torservers</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/97c5db8b15e501780112554fd572e99e.html">all relays with this contact</a>)</dt>
+<dd>
+email:support[]torservers.net url:https://torservers.net/...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+185.220.102.4:443
+[2a0b:f4c1::4]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>185.220.102.4</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 5.157.0.0/18:*
+ reject 5.188.216.0/24:*
+ reject 31.11.43.0/24:*
+ reject 37.139.49.0/24:*
+ reject 37.9.42.0/24:*
+ reject 37.9.53.0/24:*
+ reject 46.148.112.0/24:*
+ reject 46.148.120.0/24:*
+ reject 46.148.127.0/24:*
+ reject 46.161.56.0/24:*
+ reject 46.161.57.0/24:*
+ reject 46.161.58.0/24:*
+ reject 46.161.59.0/24:*
+ reject 46.161.60.0/24:*
+ reject 46.161.61.0/24:*
+ reject 46.161.62.0/24:*
+ reject 46.161.63.0/24:*
+ reject 46.243.140.0/24:*
+ reject 46.243.142.0/24:*
+ reject 46.243.173.0/24:*
+ reject 46.29.248.0/21:*
+ reject 46.8.255.0/24:*
+ reject 47.104.0.0/13:*
+ reject 49.12.0.0/16:*
+ reject 49.13.0.0/16:*
+ reject 79.110.22.0/24:*
+ reject 79.133.107.0/24:*
+ reject 81.94.43.0/24:*
+ reject 83.217.11.0/24:*
+ reject 84.19.170.240/28:*
+ reject 85.121.39.0/24:*
+ reject 85.93.5.0/24:*
+ reject 91.200.12.0/22:*
+ reject 91.200.164.0/24:*
+ reject 91.200.81.0/24:*
+ reject 91.200.82.0/24:*
+ reject 91.200.83.0/24:*
+ reject 91.207.4.0/22:*
+ reject 91.209.12.0/24:*
+ reject 91.212.124.0/24:*
+ reject 91.213.126.0/24:*
+ reject 91.216.3.0/24:*
+ reject 91.217.10.0/23:*
+ reject 91.220.101.0/24:*
+ reject 91.220.163.0/24:*
+ reject 91.220.62.0/24:*
+ reject 91.224.160.0/23:*
+ reject 91.225.216.0/22:*
+ reject 91.226.92.0/22:*
+ reject 91.230.252.0/23:*
+ reject 91.235.2.0/24:*
+ reject 91.236.74.0/23:*
+ reject 91.238.82.0/24:*
+ reject 91.243.90.0/24:*
+ reject 91.243.91.0/24:*
+ reject 91.243.93.0/24:*
+ reject 93.179.88.0/24:*
+ reject 95.181.176.0/24:*
+ reject 95.181.177.0/24:*
+ reject 95.181.182.0/24:*
+ reject 95.181.183.0/24:*
+ reject 95.181.216.0/24:*
+ reject 95.181.217.0/24:*
+ reject 95.181.219.0/24:*
+ reject 95.182.79.0/24:*
+ reject 95.85.80.0/24:*
+ reject 95.85.81.0/24:*
+ reject 103.215.80.0/22:*
+ reject 103.63.0.0/22:*
+ reject 113.212.64.0/19:*
+ reject 141.101.132.0/24:*
+ reject 141.101.201.0/24:*
+ reject 141.136.27.0/24:*
+ reject 146.185.200.0/24:*
+ reject 146.185.201.0/24:*
+ reject 146.185.202.0/24:*
+ reject 146.185.203.0/24:*
+ reject 146.185.204.0/24:*
+ reject 146.185.205.0/24:*
+ reject 146.185.206.0/24:*
+ reject 150.129.40.0/22:*
+ reject 151.237.176.0/20:*
+ reject 159.174.0.0/16:*
+ reject 172.80.0.0/17:*
+ reject 176.53.112.0/20:*
+ reject 176.97.116.0/22:*
+ reject 178.159.97.0/24:*
+ reject 178.16.80.0/20:*
+ reject 178.57.65.0/24:*
+ reject 178.57.66.0/24:*
+ reject 178.57.67.0/24:*
+ reject 178.57.68.0/24:*
+ reject 179.61.200.0/23:*
+ reject 181.214.37.0/24:*
+ reject 181.215.39.0/24:*
+ reject 185.101.68.0/24:*
+ reject 185.101.71.0/24:*
+ reject 185.103.252.0/23:*
+ reject 185.106.104.0/23:*
+ reject 185.106.92.0/24:*
+ reject 185.106.94.0/24:*
+ reject 185.112.102.0/24:*
+ reject 185.115.140.0/24:*
+ reject 185.127.24.0/22:*
+ reject 185.129.148.0/23:*
+ reject 185.137.219.0/24:*
+ reject 185.14.192.0/24:*
+ reject 185.14.193.0/24:*
+ reject 185.14.195.0/24:*
+ reject 185.146.168.0/22:*
+ reject 185.154.20.0/22:*
+ reject 185.159.36.0/22:*
+ reject 185.169.228.0/22:*
+ reject 185.2.32.0/24:*
+ reject 185.71.0.0/22:*
+ reject 188.247.135.0/24:*
+ reject 188.247.230.0/24:*
+ reject 188.247.232.0/24:*
+ reject 188.68.0.0/24:*
+ reject 188.68.1.0/24:*
+ reject 188.68.3.0/24:*
+ reject 188.72.126.0/24:*
+ reject 188.72.127.0/24:*
+ reject 188.72.96.0/24:*
+ reject 191.101.24.0/24:*
+ reject 191.101.54.0/23:*
+ reject 191.96.170.0/24:*
+ reject 191.96.174.0/24:*
+ reject 193.105.171.0/24:*
+ reject 193.138.244.0/22:*
+ reject 193.93.192.0/24:*
+ reject 193.93.195.0/24:*
+ reject 194.29.185.0/24:*
+ reject 195.182.57.0/24:*
+ reject 195.190.13.0/24:*
+ reject 195.191.56.0/23:*
+ reject 195.225.176.0/22:*
+ reject 204.225.16.0/20:*
+ reject 212.92.127.0/24:*
+ reject 46.8.44.0/23:*
+ reject 46.98.64.0/18:*
+ reject 68.119.232.0/21:*
+ reject 68.215.0.0/16:*
+ reject 69.244.0.0/14:*
+ reject 70.111.0.0/16:*
+ reject 70.126.0.0/15:*
+ reject 112.78.2.0/24:*
+ reject 193.9.28.0/24:*
+ reject 195.20.40.0/21:*
+ reject 5.8.37.0/24:*
+ reject 5.101.218.0/24:*
+ reject 5.101.221.0/24:*
+ reject 79.110.17.0/24:*
+ reject 79.110.18.0/24:*
+ reject 79.110.19.0/24:*
+ reject 79.110.25.0/24:*
+ reject 93.179.89.0/24:*
+ reject 93.179.90.0/24:*
+ reject 93.179.91.0/24:*
+ reject 185.46.84.0/22:*
+ reject 185.50.250.0/24:*
+ reject 185.50.251.0/24:*
+ reject 193.9.158.0/24:*
+ reject 5.196.26.96:*
+ reject 23.235.209.11:*
+ reject 23.92.87.202:*
+ reject 27.254.151.81:*
+ reject 27.254.152.29:*
+ reject 27.254.40.113:*
+ reject 27.254.41.206:*
+ reject 27.254.44.105:*
+ reject 27.254.61.110:*
+ reject 27.254.85.27:*
+ reject 27.254.85.49:*
+ reject 36.39.155.98:*
+ reject 36.66.209.21:*
+ reject 36.72.228.22:*
+ reject 36.76.176.64:*
+ reject 37.203.213.110:*
+ reject 46.26.129.203:*
+ reject 46.34.160.34:*
+ reject 50.118.100.49:*
+ reject 54.37.96.109:*
+ reject 58.195.1.4:*
+ reject 59.157.4.2:*
+ reject 60.13.186.5:*
+ reject 60.241.184.209:*
+ reject 62.75.132.67:*
+ reject 63.249.152.74:*
+ reject 64.127.71.73:*
+ reject 64.182.6.61:*
+ reject 64.85.233.8:*
+ reject 66.117.5.245:*
+ reject 66.70.134.137:*
+ reject 66.70.190.236:*
+ reject 68.65.122.86:*
+ reject 74.124.194.43:*
+ reject 77.104.143.180:*
+ reject 77.227.184.45:*
+ reject 77.228.191.183:*
+ reject 78.108.82.18:*
+ reject 78.108.83.153:*
+ reject 78.108.87.155:*
+ reject 78.108.89.85:*
+ reject 78.108.93.91:*
+ reject 78.108.95.116:*
+ reject 78.108.95.207:*
+ reject 78.138.104.167:*
+ reject 78.138.88.232:*
+ reject 79.170.44.115:*
+ reject 79.187.34.150:*
+ reject 79.188.45.226:*
+ reject 80.48.160.146:*
+ reject 80.52.222.10:*
+ reject 80.65.93.241:*
+ reject 83.0.245.234:*
+ reject 83.1.195.232:*
+ reject 83.17.220.66:*
+ reject 83.212.110.172:*
+ reject 83.212.112.80:*
+ reject 83.212.117.233:*
+ reject 83.212.120.81:*
+ reject 83.220.128.111:*
+ reject 83.220.144.107:*
+ reject 83.220.144.30:*
+ reject 84.19.190.8:*
+ reject 84.19.191.164:*
+ reject 85.117.35.21:*
+ reject 85.25.185.254:*
+ reject 86.104.134.144:*
+ reject 87.118.102.19:*
+ reject 87.118.90.136:*
+ reject 87.119.194.135:*
+ reject 87.236.210.110:*
+ reject 87.236.210.124:*
+ reject 87.237.198.245:*
+ reject 87.246.143.242:*
+ reject 87.254.167.37:*
+ reject 89.232.63.147:*
+ reject 91.108.176.118:*
+ reject 91.121.78.51:*
+ reject 91.201.202.12:*
+ reject 91.208.144.164:*
+ reject 92.36.213.75:*
+ reject 93.153.195.181:*
+ reject 93.170.128.136:*
+ reject 93.170.130.147:*
+ reject 93.170.131.108:*
+ reject 93.171.202.191:*
+ reject 93.65.43.220:*
+ reject 94.103.36.55:*
+ reject 95.169.184.25:*
+ reject 95.169.184.7:*
+ reject 95.169.190.104:*
+ reject 95.62.197.90:*
+ reject 96.31.35.51:*
+ reject 103.19.89.118:*
+ reject 103.230.84.239:*
+ reject 103.26.41.71:*
+ reject 103.4.52.150:*
+ reject 103.53.172.20:*
+ reject 103.53.172.96:*
+ reject 103.59.164.125:*
+ reject 103.7.56.119:*
+ reject 103.7.59.135:*
+ reject 103.221.222.65:*
+ reject 104.244.120.12:*
+ reject 104.247.76.199:*
+ reject 109.127.8.242:*
+ reject 109.127.8.246:*
+ reject 109.199.98.63:*
+ reject 109.229.210.250:*
+ reject 109.229.36.65:*
+ reject 109.237.111.168:*
+ reject 109.248.200.23:*
+ reject 110.138.108.142:*
+ reject 110.164.126.64:*
+ reject 110.164.205.225:*
+ reject 111.67.15.173:*
+ reject 111.67.16.254:*
+ reject 113.29.230.24:*
+ reject 115.146.59.207:*
+ reject 120.63.157.195:*
+ reject 120.63.175.225:*
+ reject 124.110.195.160:*
+ reject 128.210.157.251:*
+ reject 130.206.78.158:*
+ reject 137.74.6.95:*
+ reject 138.100.137.61:*
+ reject 143.225.116.108:*
+ reject 147.156.165.26:*
+ reject 148.163.100.151:*
+ reject 150.244.121.149:*
+ reject 151.97.190.239:*
+ reject 151.97.80.16:*
+ reject 154.66.197.59:*
+ reject 158.110.80.108:*
+ reject 158.69.255.67:*
+ reject 161.67.132.25:*
+ reject 162.223.94.56:*
+ reject 162.255.119.249:*
+ reject 172.81.119.140:*
+ reject 177.4.23.159:*
+ reject 177.70.107.137:*
+ reject 177.70.122.13:*
+ reject 177.70.122.193:*
+ reject 177.70.123.117:*
+ reject 177.70.123.128:*
+ reject 177.70.123.8:*
+ reject 177.70.123.90:*
+ reject 177.70.98.122:*
+ reject 177.70.98.242:*
+ reject 178.210.173.46:*
+ reject 178.250.241.22:*
+ reject 178.250.243.146:*
+ reject 178.250.245.138:*
+ reject 178.250.246.89:*
+ reject 178.32.255.132:*
+ reject 178.32.52.15:*
+ reject 180.182.234.200:*
+ reject 180.241.47.130:*
+ reject 180.250.210.23:*
+ reject 180.250.28.38:*
+ reject 181.136.26.124:*
+ reject 185.15.185.201:*
+ reject 185.15.185.209:*
+ reject 185.19.92.70:*
+ reject 185.59.28.14:*
+ reject 185.61.152.30:*
+ reject 185.242.179.15:*
+ reject 185.242.179.16:*
+ reject 186.202.153.34:*
+ reject 186.64.122.105:*
+ reject 187.141.112.98:*
+ reject 187.141.12.161:*
+ reject 187.174.252.247:*
+ reject 188.218.158.126:*
+ reject 188.219.154.228:*
+ reject 188.240.2.93:*
+ reject 188.241.140.212:*
+ reject 188.241.140.222:*
+ reject 188.241.140.224:*
+ reject 188.84.140.44:*
+ reject 188.85.248.131:*
+ reject 190.128.122.234:*
+ reject 190.128.29.1:*
+ reject 190.15.192.25:*
+ reject 190.183.59.133:*
+ reject 190.7.28.147:*
+ reject 191.252.104.136:*
+ reject 191.252.128.181:*
+ reject 191.252.130.32:*
+ reject 191.252.132.201:*
+ reject 191.252.134.38:*
+ reject 191.252.135.80:*
+ reject 191.252.136.74:*
+ reject 191.252.140.148:*
+ reject 191.252.140.199:*
+ reject 191.252.140.212:*
+ reject 191.252.141.145:*
+ reject 191.252.142.98:*
+ reject 191.252.143.96:*
+ reject 191.252.2.161:*
+ reject 192.100.170.12:*
+ reject 192.64.11.244:*
+ reject 192.64.9.116:*
+ reject 192.99.37.46:*
+ reject 193.146.210.69:*
+ reject 193.218.145.184:*
+ reject 193.218.145.32:*
+ reject 193.218.145.50:*
+ reject 194.144.188.70:*
+ reject 195.117.119.187:*
+ reject 195.205.24.101:*
+ reject 198.50.173.86:*
+ reject 198.54.126.39:*
+ reject 199.187.129.193:*
+ reject 199.201.121.169:*
+ reject 199.201.121.185:*
+ reject 199.246.2.104:*
+ reject 199.7.234.100:*
+ reject 200.0.24.42:*
+ reject 200.116.206.58:*
+ reject 201.149.83.183:*
+ reject 201.232.32.124:*
+ reject 202.115.63.125:*
+ reject 202.144.144.195:*
+ reject 202.150.213.85:*
+ reject 202.150.213.93:*
+ reject 202.28.32.110:*
+ reject 202.28.32.20:*
+ reject 202.29.22.38:*
+ reject 202.29.230.198:*
+ reject 202.67.13.107:*
+ reject 203.170.192.150:*
+ reject 203.170.192.240:*
+ reject 203.170.193.23:*
+ reject 203.24.188.166:*
+ reject 208.83.210.109:*
+ reject 208.93.233.58:*
+ reject 209.99.40.225:*
+ reject 209.164.84.70:*
+ reject 209.182.193.155:*
+ reject 209.182.199.168:*
+ reject 209.182.208.165:*
+ reject 209.182.213.90:*
+ reject 209.191.185.67:*
+ reject 210.37.11.238:*
+ reject 210.4.76.221:*
+ reject 210.46.85.150:*
+ reject 210.83.80.26:*
+ reject 212.252.45.46:*
+ reject 212.44.64.202:*
+ reject 212.72.132.138:*
+ reject 213.147.67.20:*
+ reject 213.185.88.41:*
+ reject 213.185.88.60:*
+ reject 213.205.38.29:*
+ reject 213.25.134.75:*
+ reject 216.176.100.240:*
+ reject 216.215.112.149:*
+ reject 216.59.16.171:*
+ reject 222.124.202.178:*
+ reject 222.124.206.41:*
+ reject 222.29.197.232:*
+ reject 46.173.218.123:*
+ reject 91.219.29.41:*
+ reject 195.208.1.101:*
+ reject 5.79.71.205:*
+ reject 5.79.71.225:*
+ reject 46.244.21.4:*
+ reject 50.21.181.152:*
+ reject 50.63.202.35:*
+ reject 52.5.245.208:*
+ reject 64.71.166.50:*
+ reject 67.215.255.139:*
+ reject 74.200.48.169:*
+ reject 74.208.153.9:*
+ reject 74.208.164.166:*
+ reject 74.208.64.191:*
+ reject 85.17.31.122:*
+ reject 85.17.31.82:*
+ reject 87.106.149.145:*
+ reject 87.106.149.153:*
+ reject 87.106.18.112:*
+ reject 87.106.18.141:*
+ reject 87.106.190.153:*
+ reject 87.106.20.192:*
+ reject 87.106.24.200:*
+ reject 87.106.253.18:*
+ reject 87.106.26.9:*
+ reject 95.211.230.75:*
+ reject 104.244.14.252:*
+ reject 109.70.26.37:*
+ reject 144.217.74.156:*
+ reject 146.148.124.166:*
+ reject 148.81.111.111:*
+ reject 151.80.148.103:*
+ reject 176.58.104.168:*
+ reject 178.162.203.202:*
+ reject 178.162.203.211:*
+ reject 178.162.203.226:*
+ reject 178.162.217.107:*
+ reject 184.105.192.2:*
+ reject 192.0.72.20:*
+ reject 192.0.72.21:*
+ reject 192.169.69.25:*
+ reject 192.42.116.41:*
+ reject 192.42.119.41:*
+ reject 193.166.255.170:*
+ reject 193.166.255.171:*
+ reject 204.11.56.48:*
+ reject 208.91.197.46:*
+ reject 212.227.20.93:*
+ reject 213.165.83.176:*
+ reject 216.218.135.114:*
+ reject 216.218.185.162:*
+ reject 216.218.208.114:*
+ reject 216.66.15.109:*
+ accept *:20-21
+ accept *:22
+ accept *:23
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:80-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:465
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:994
+ accept *:995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
+</pre></dd>
+
+<dt>Effective Family Members (<a href="../family/023a0d748cae4ea4b5bc5a98130b3e3af6f6beeeed3430fa7613d2377a60afc8.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="0E5522CB4F79E36C0BB263BABC861CFC686929AE.html">0E5522CB4F79E36C0BB263BABC861CFC686929AE</a>
+<a href="1D3174338A1131A53E098443E76E1103CDED00DC.html">1D3174338A1131A53E098443E76E1103CDED00DC</a>
+<a href="3E50CBCA98A20F637BC4551FD4F132D062DB9A51.html">3E50CBCA98A20F637BC4551FD4F132D062DB9A51</a>
+<a href="8A2D71CBCA33F13A3EA9614DE28AE3F669D84987.html">8A2D71CBCA33F13A3EA9614DE28AE3F669D84987</a>
+<a href="A2534EF23390CAE079B1586F0FDF9CE11F556062.html">A2534EF23390CAE079B1586F0FDF9CE11F556062</a>
+<a href="A2DB293FFC5A76A718863BF1AEDBC8DFB1CB1097.html">A2DB293FFC5A76A718863BF1AEDBC8DFB1CB1097</a>
+<a href="CA94704217260E7483DA88719CACD7A94C564D5C.html">CA94704217260E7483DA88719CACD7A94C564D5C</a>
+<a href="D6D6B6614C9EF2DAD13AC0C94487AD8ED3B6877F.html">D6D6B6614C9EF2DAD13AC0C94487AD8ED3B6877F</a>
+<a href="D729C688382CC2A576089716BE10490D2D66FCE4.html">D729C688382CC2A576089716BE10490D2D66FCE4</a>
+<a href="E43A346CB81DDF364B6FF68235AFADBA0E8692B8.html">E43A346CB81DDF364B6FF68235AFADBA0E8692B8</a>
+<a href="FDAED15C98CFE7A416E5676F614254F78406105C.html">FDAED15C98CFE7A416E5676F614254F78406105C</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="0FF233C8D78A17B8DB7C8257D2E05CD5AA7C6B88.html">0FF233C8D78A17B8DB7C8257D2E05CD5AA7C6B88</a>
+<a href="204DFD2A2C6A0DC1FA0EACB495218E0B661704FD.html">204DFD2A2C6A0DC1FA0EACB495218E0B661704FD</a>
+<a href="5974B3F4C66D83BBC9622E0F0F023FE48428DB9B.html">5974B3F4C66D83BBC9622E0F0F023FE48428DB9B</a>
+<a href="77131D7E2EC1CA9B8D737502256DA9103599CE51.html">77131D7E2EC1CA9B8D737502256DA9103599CE51</a>
+<a href="7BFB908A3AA5B491DA4CA72CCBEE0E1F2A939B55.html">7BFB908A3AA5B491DA4CA72CCBEE0E1F2A939B55</a>
+<a href="8EF8766E1645A41A2AE1565EB673A4957C8D5AD2.html">8EF8766E1645A41A2AE1565EB673A4957C8D5AD2</a>
+<a href="F4594608272C82407E9D137F1AE89A408CCFD285.html">F4594608272C82407E9D137F1AE89A408CCFD285</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2016-12-30">2016-12-30 13:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.8
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>100 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>15000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+Zwiebelfreunde e.V. - 
+<a href="../as_number/AS60729.html">AS60729</a>
+(<a href='https://bgp.he.net/AS60729'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2022-06-20 04:18:37</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>1D3174338A1131A53E098443E76E1103CDED00DC</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
