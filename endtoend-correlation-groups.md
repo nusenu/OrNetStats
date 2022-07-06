@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-06-26 19:00 UTC**
+Tor network data as of: **2022-07-06 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,18 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: tor@gusntwrk.xyz (6) {#torgusntwrkxyz}
+## ContactInfo: 0xDAC4CCB6722FF7E5 Alexander Bu00F6hm &lt;alexander. (2) {#0xdac4ccb6722ff7e5-alexander-bu00f6hm-alexander}
 
-| Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
-|:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [elhombre](https://metrics.torproject.org/rs.html#details/B6FD5EF28CF44D882660C042D3DABE7714A059DD) | 2021-10-18   | Yes         |                     2 |
-| [gusntwrk](https://metrics.torproject.org/rs.html#details/6933B9BC32FAF71AE2B8360EE8606354737AB5C3) | 2022-04-29   | No          |                     6 |
-| [gusntwrk](https://metrics.torproject.org/rs.html#details/6A6C3391DA324E96973690BF45202F2C9159F884) | 2022-05-23   | No          |                     5 |
-| [gusntwrk](https://metrics.torproject.org/rs.html#details/6D86FB336DE95CC14C588E92EB1FA1DDC7B8D1B6) | 2022-05-25   | No          |                     5 |
-| [gusntwrk](https://metrics.torproject.org/rs.html#details/7EBB68DD851CA98DF268CAB7BD63D4A031855FB0) | 2022-05-25   | No          |                     5 |
-| [gusntwrk](https://metrics.torproject.org/rs.html#details/7F39B23F6CD4CBC69C561D4A30C4DC35F0D06396) | 2022-05-25   | No          |                     5 |
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [hera](https://metrics.torproject.org/rs.html#details/C07DCA0B231BE0554AB4D574AC057C7572BD6EF0)           | 2022-06-25   | Yes         |                     1 |
+| [freestyle0ffle](https://metrics.torproject.org/rs.html#details/7AA19F3B1AA8146A1839675E1844D51FE9B3FD3B) | 2022-07-02   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-B6FD5EF28CF44D882660C042D3DABE7714A059DD
+C07DCA0B231BE0554AB4D574AC057C7572BD6EF0
