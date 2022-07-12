@@ -49,22 +49,33 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/2e94d06c63619c2ff98bfc05bad78454.html">all relays with this contact</a>)</dt>
+<dd>
+nate@natechoe.dev</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-198.98.55.6:201
+198.98.55.6:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
-<dd>none</dd>
+<dd>198.98.55.6:80</dd>
 <dt>Exit Address</dt>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -74,11 +85,29 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">E84C76D9BF74694045506E922B88D3C43DBED626
+<dt>Effective Family Members (<a href="../family/44fc2b53697588f463b2074ece30fd4dfff05a8a0f3266a2ed0dfb622124a540.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="6E6E80F6510B7823C50568BA43187554D532DA6B.html">6E6E80F6510B7823C50568BA43187554D532DA6B</a>
+<a href="DB87183EA875045C8FDE6058AC5B3C923D9E55D1.html">DB87183EA875045C8FDE6058AC5B3C923D9E55D1</a>
+<a href="E84C76D9BF74694045506E922B88D3C43DBED626.html">E84C76D9BF74694045506E922B88D3C43DBED626</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -108,9 +137,8 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -119,14 +147,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">natechoe.dev</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
 PONYNET - 
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-07-11 01:24:44</dd>
+<dd>2022-07-12 14:49:24</dd>
 
 <dt>Country</dt>
 <dd>
