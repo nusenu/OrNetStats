@@ -55,18 +55,22 @@ m 3 r c u r 1 0 &lt; AT l u r l u r d o t c 0 m &gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-189.151.132.62:43479
+189.151.119.8:41979
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>189.151.119.8 189.151.129.57</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  8332-8333
+  50002
 </pre>
 </dd>
 
@@ -76,7 +80,18 @@ m 3 r c u r 1 0 &lt; AT l u r l u r d o t c 0 m &gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:8332-8333
+ accept *:50002
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -102,13 +117,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>4 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -123,7 +140,7 @@ on
 <a href="../as_number/AS8151.html">AS8151</a>
 (<a href='https://bgp.he.net/AS8151'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-07-12 04:27:57</dd>
+<dd>2022-07-13 16:13:49</dd>
 
 <dt>Country</dt>
 <dd>
