@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-07-18 16:00 UTC**
+Tor network data as of: **2022-07-19 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -102,4 +102,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1D58C94057CFA3A875208BD699B2CA262E7C7C1C,64BB15B6295E3A44594F438CD0E674E7C4E60BA1,F5F8497B39C1022BCA786012390E1FDA55AB73EC
+1D58C94057CFA3A875208BD699B2CA262E7C7C1C,64BB15B6295E3A44594F438CD0E674E7C4E60BA1
