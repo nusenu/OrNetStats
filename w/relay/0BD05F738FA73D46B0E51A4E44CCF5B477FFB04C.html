@@ -60,21 +60,20 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>136.244.88.44</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  21-23
-  80-81
-  143-145
-  443
-  3306
-  8080
-  8088
-  9060
-  18734
-  28119
-  43201
+<pre class="pre-scrollable">reject: 
+  1-50
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -90,23 +89,17 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:21
- accept *:22
- accept *:23
- accept *:143
- accept *:144
- accept *:145
- accept *:80
- accept *:81
- accept *:8080
- accept *:8088
- accept *:443
- accept *:3306
- accept *:9060
- accept *:18734
- accept *:28119
- accept *:43201
- reject *:*
+ reject *:1-50
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -133,10 +126,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>41 Mbit/s</dd>
+<dd>53 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>15000</dd>
+<dd>14000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -157,7 +150,7 @@ AS-CHOOPA -
 <a href="../as_number/AS20473.html">AS20473</a>
 (<a href='https://bgp.he.net/AS20473'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-07-20 18:57:09</dd>
+<dd>2022-07-29 18:57:09</dd>
 
 <dt>Country</dt>
 <dd>
