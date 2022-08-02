@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-08-01 16:00 UTC**
+Tor network data as of: **2022-08-02 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,8 +33,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [nap](https://metrics.torproject.org/rs.html#details/F5F8497B39C1022BCA786012390E1FDA55AB73EC)         | 2022-07-05   | Yes         |                     2 |
 | [sleep](https://metrics.torproject.org/rs.html#details/64BB15B6295E3A44594F438CD0E674E7C4E60BA1)       | 2022-07-05   | Yes         |                     2 |
+| [nap](https://metrics.torproject.org/rs.html#details/F5F8497B39C1022BCA786012390E1FDA55AB73EC)         | 2022-07-05   | Yes         |                     2 |
 | [relayon1153](https://metrics.torproject.org/rs.html#details/066CD2C493E4DF7300B2731EAF7E317433262591) | 2022-06-30   | No          |                    66 |
 | [relayon0159](https://metrics.torproject.org/rs.html#details/07A2ADB079E1440927020D23B47B4358CCA585A8) | 2022-07-10   | No          |                    66 |
 | [relayon1179](https://metrics.torproject.org/rs.html#details/0CA3677DCF4314403CE148859EE5553F9ADFD66E) | 2022-06-30   | No          |                    66 |
@@ -100,7 +100,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon0137](https://metrics.torproject.org/rs.html#details/F9408C144B36D78A47BABB0BB53DFF671D23BE51) | 2022-07-10   | No          |                    66 |
 | [relayon0170](https://metrics.torproject.org/rs.html#details/FF450F683B7BE494703B90827DB2DBD05B624471) | 2022-07-10   | No          |                    66 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-64BB15B6295E3A44594F438CD0E674E7C4E60BA1,F5F8497B39C1022BCA786012390E1FDA55AB73EC
+64BB15B6295E3A44594F438CD0E674E7C4E60BA1,F5F8497B39C1022BCA786012390E1FDA55AB73EC,A9A4213EA3D707857368C683F2208C83B8755D8A
