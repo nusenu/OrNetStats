@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-08-03 19:00 UTC**
+Tor network data as of: **2022-08-04 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (53) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
+## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (54) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -37,20 +37,22 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon1153](https://metrics.torproject.org/rs.html#details/066CD2C493E4DF7300B2731EAF7E317433262591) | 2022-06-30   | No          |                    66 |
 | [relayon0159](https://metrics.torproject.org/rs.html#details/07A2ADB079E1440927020D23B47B4358CCA585A8) | 2022-07-10   | No          |                    66 |
 | [relayon1179](https://metrics.torproject.org/rs.html#details/0CA3677DCF4314403CE148859EE5553F9ADFD66E) | 2022-06-30   | No          |                    66 |
+| [relayon0187](https://metrics.torproject.org/rs.html#details/0EC0515743B4C2883F908C528774A6E12E613B85) | 2022-07-10   | No          |                    66 |
 | [relayon1162](https://metrics.torproject.org/rs.html#details/145E18875623BA0C7AD51EE8B1B9CF5121C071CD) | 2022-06-30   | No          |                    66 |
 | [relayon0128](https://metrics.torproject.org/rs.html#details/16A2165A0B0FD4BF24A337373378863E3A7633A2) | 2022-07-10   | No          |                    66 |
+| [relayon0191](https://metrics.torproject.org/rs.html#details/201FF736CF3406134B2A62FE59C80F1480458811) | 2022-07-10   | No          |                    66 |
 | [relayon0145](https://metrics.torproject.org/rs.html#details/22552EC1CEA14A6B418FA9E8479EDEFB079535F1) | 2022-07-10   | No          |                    66 |
 | [relayon0129](https://metrics.torproject.org/rs.html#details/293F149DD1971492E31779AA12CCE7C545BF5088) | 2022-07-10   | No          |                    66 |
 | [relayon0138](https://metrics.torproject.org/rs.html#details/331CEE19F311204CB732FF8DB5694C4DF32F3B26) | 2022-07-10   | No          |                    66 |
 | [relayon1182](https://metrics.torproject.org/rs.html#details/366BC2B590CAD9C50DC05E2BBC3F3D7C8FD27EF1) | 2022-06-30   | No          |                    66 |
 | [relayon0169](https://metrics.torproject.org/rs.html#details/36D8A00885BCBFEB17312607C0877BFFD9330CF0) | 2022-07-10   | No          |                    66 |
 | [relayon1191](https://metrics.torproject.org/rs.html#details/3734660DC6F7EA1116BFCB80FC23FAC5680BD801) | 2022-06-30   | No          |                    66 |
-| [relayon0186](https://metrics.torproject.org/rs.html#details/3A7B07485E2F4DC45FB57761CAC59FA2C556AAFE) | 2022-07-10   | No          |                    66 |
 | [relayon0148](https://metrics.torproject.org/rs.html#details/3C363C8B45D21ED2C656A0ED73B947F5469C5199) | 2022-07-10   | No          |                    66 |
 | [relayon0131](https://metrics.torproject.org/rs.html#details/42CFF0CAAF7EB5E86B358DB047DCFE53B64856EB) | 2022-07-10   | No          |                    66 |
 | [relayon0174](https://metrics.torproject.org/rs.html#details/4329C619B7EA274A6A9F610DD22863C7E1634756) | 2022-07-10   | No          |                    66 |
 | [relayon0171](https://metrics.torproject.org/rs.html#details/48020D412674B13B083B9FF0A61222D121C67868) | 2022-07-10   | No          |                    66 |
 | [relayon1138](https://metrics.torproject.org/rs.html#details/4CEEB0CE90FF70CB54CEE37EAFCE176661231512) | 2022-06-30   | No          |                    66 |
+| [relayon0179](https://metrics.torproject.org/rs.html#details/4F56DE76CDC2A296B6D637949207F904E5A20C21) | 2022-07-10   | No          |                    66 |
 | [relayon1163](https://metrics.torproject.org/rs.html#details/516F91CA7078106E1F08D9EBACB7715E9F850E5B) | 2022-06-30   | No          |                    66 |
 | [relayon0153](https://metrics.torproject.org/rs.html#details/54ACB278AA2ABD96F9150AB72B08A8A8B1E4A659) | 2022-07-10   | No          |                    66 |
 | [relayon0161](https://metrics.torproject.org/rs.html#details/57D0CA93B069DCCC2C34BED2BDCBC71AF8C89D3F) | 2022-07-10   | No          |                    66 |
@@ -70,9 +72,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon1178](https://metrics.torproject.org/rs.html#details/9AABDF5A8E5D546663A91788ECFD9C484740D761) | 2022-06-30   | No          |                    66 |
 | [relayon1190](https://metrics.torproject.org/rs.html#details/9AE8F54ED4802B92B86EC085C2AF57A29CD89445) | 2022-06-30   | No          |                    66 |
 | [relayon1186](https://metrics.torproject.org/rs.html#details/A1B87E05A094BF1302580F7465DAAE011516F345) | 2022-06-30   | No          |                    66 |
-| [relayon0167](https://metrics.torproject.org/rs.html#details/B60B94FC0FD8DF6F2D9C611F77FC7EF66646A45C) | 2022-07-10   | No          |                    66 |
+| [relayon0162](https://metrics.torproject.org/rs.html#details/B4C4989666384C40914197A767E1D1D299E73676) | 2022-07-10   | No          |                    66 |
 | [relayon0133](https://metrics.torproject.org/rs.html#details/B6BAB95C30B2A1FF75B80B5E2B0895B97FF87D2F) | 2022-07-10   | No          |                    66 |
-| [relayon0172](https://metrics.torproject.org/rs.html#details/C6B47E1F0D3C75F36FA00CF63ABABB984DD13A1A) | 2022-07-10   | No          |                    66 |
 | [relayon0178](https://metrics.torproject.org/rs.html#details/D1C45FAAD766E810EDA2401335CC8EBDE8EA8526) | 2022-07-10   | No          |                    66 |
 | [relayon0155](https://metrics.torproject.org/rs.html#details/D4CFB23D6880135B8BF20C820E59C34029153432) | 2022-07-10   | No          |                    66 |
 | [relayon1176](https://metrics.torproject.org/rs.html#details/D4DD41FE36887E19C90B597F8A79C683DD03A3E7) | 2022-06-30   | No          |                    66 |
