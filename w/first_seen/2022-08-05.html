@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2022-08-05</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2022-08-05</h2>
+<p>Relays started on 2022-08-05 are responsible for ~1 Mbit/s of traffic, with 20
+middle relays and 10 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Authenticated Relay Operator ID <img title="This icon indicates the operator properly implemented the Authenticated Relay Operator ID (AROI) on a given relay." src="../static/images/flags/valid.png"><br> or ContactInfo (unverified)</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="overseerorwell"><a href="../relay/32AA0AACE15CFE9ED3B907DCB69EC48988F9C5AF.html">overseerorwell</a></td>
+<td><code><a href="../contact/6e094db509cd1e8be68826693b6cde27.html"
+title="OverseerOrwell &lt;OverseerOrwell AT proton dot me&gt;">
+OverseerOrwell...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.81.254.31">51.81.254.31</a></td>
+
+<td><a href="../as_number/AS16276.html" title="OVH SAS">OVH SAS</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="rly11"><a href="../relay/3B7AB2D2CDE5C61ECB8194910CB27159BF658642.html">rly11</a></td>
+<td><code><a href="../contact/4039f16318bf9cb1af3850b8dff39993.html"
+title="anonym11 anonymous11@gmail.com">
+anonym11 anonymous11@gmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/212.109.193.62">212.109.193.62</a></td>
+
+<td><a href="../as_number/AS29182.html" title="JSC IOT">JSC IOT</a></td>
+<td><a href="../country/ru.html"><img
+src="../static/images/cc/ru.png" title="Russian Federation" alt="Russian Federation"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Unnamed"><a href="../relay/0893FC25568195E8FC958FCB4D29F1EFCA9A5C95.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/37.46.227.42">37.46.227.42</a></td>
+
+<td><a href="../as_number/AS13188.html" title="CONTENT DELIVERY NETWORK LTD">CONTENT DELIVERY...</a></td>
+<td><a href="../country/ua.html"><img
+src="../static/images/cc/ua.png" title="Ukraine" alt="Ukraine"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="comedy"><a href="../relay/0CF2F07FF0581EBBCCDF209E655694358A98D816.html">comedy</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.225.17.105">185.225.17.105</a></td>
+
+<td><a href="../as_number/AS39798.html" title="MivoCloud SRL">MivoCloud SRL</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="schlafschaf"><a href="../relay/11FC7D9C7D8DF74326B90EC71C10173279738B8F.html">schlafschaf</a></td>
+<td><code><a href="../contact/3fda788612282da781a914c22bdb6aca.html"
+title="Korrupt &lt;korrupt AT korrupt dot biz&gt;">
+Korrupt &lt;korrupt AT...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/130.180.63.150">130.180.63.150</a></td>
+
+<td><a href="../as_number/AS3209.html" title="Vodafone GmbH">Vodafone GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="nobuhide"><a href="../relay/1EE6CA29D54A41E940C834B88F432A9CA931EBE2.html">nobuhide</a> (<a href="../family/2abd625a816f210c8d42360d86d7ff507b2a01a5fa470a7d8c00839c69497696.html">2</a>)</td>
+<td><code><a href="../contact/0d152675158ab033b8f4f4dd100ad234.html"
+title="jets843@privatemail.com">
+jets843@privatemail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/91.250.242.3">91.250.242.3</a></td>
+
+<td><a href="../as_number/AS6718.html" title="NAV COMMUNICATIONS SRL">NAV COMMUNICATIONS SRL</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Unnamed"><a href="../relay/29E6C8EF3A63BFA4DDF9F8298552632CB6AAC493.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/93.72.10.78">93.72.10.78</a></td>
+
+<td><a href="../as_number/AS25229.html" title="Kyivski Telekomunikatsiyni Merezhi LLC">Kyivski...</a></td>
+<td><a href="../country/ua.html"><img
+src="../static/images/cc/ua.png" title="Ukraine" alt="Ukraine"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="AcrimonyOZ"><a href="../relay/328EEC8B1F1ADC372E38DF91F7DC1F3254AA3737.html">AcrimonyOZ</a></td>
+<td><code><a href="../contact/486c6a63ffb7c5eaf29127d7893e5c38.html"
+title="Acrimony &lt;acrimonyDASHtorATtutanotaDOTcom&gt;">
+Acrimony...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.161.202.121">51.161.202.121</a></td>
+
+<td><a href="../as_number/AS16276.html" title="OVH SAS">OVH SAS</a></td>
+<td><a href="../country/au.html"><img
+src="../static/images/cc/au.png" title="Australia" alt="Australia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="CogiExit"><a href="../relay/3A3DD2BF9286A0DCFAE581D3BF74D350F6A00582.html">CogiExit</a> (<a href="../family/d7cbf7563f927b500a3ac441ce82c8f422ef6d3113c605c8cac81edce1355f66.html">3</a>)</td>
+<td><code><a href="../contact/a993df0df8c8f5f08d4d487cfd859e9c.html"
+title="umutcankurhan09@gmail.com">
+umutcankurhan09@gmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/84.54.13.19">84.54.13.19</a></td>
+
+<td><a href="../as_number/AS61084.html" title="Mehmet Selim Sahin trading as SiberDC">Mehmet Selim Sahin...</a></td>
+<td><a href="../country/tr.html"><img
+src="../static/images/cc/tr.png" title="Turkey" alt="Turkey"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="UnredactedEFF"><a href="../relay/455F57910EC929041C60E4311E2635298BDCD604.html">UnredactedEFF</a> (<a href="../family/5fb17cfd9053b30aa2bb5e030479cc08bc19ad8857fbc46302c66435d853a4b5.html">12</a>)</td>
+<td><code><a href="../contact/dc6b02cdb1c15513ca209057e2f38772.html"
+title="email:admin[@]unredacted.org url:unredacted.org proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+unredacted.org</a>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.154.177.12">23.154.177.12</a></td>
+
+<td><a href="../as_number/AS399532.html" title="ULAYER-ASN">ULAYER-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="bauruine"><a href="../relay/501E3A609B9547E08C3D8FF352DB6264DA5A9C93.html">bauruine</a> (<a href="../family/c56d5256b9f93e6ad6381d36f98c468c64c78fb965fd3cec86e3a2827510dd1a.html">47</a>)</td>
+<td><code><a href="../contact/37668014502e6be5ca19d5bf75d081a0.html"
+title="email:abuse[]tuxli.org pgp:32A1621FC5290921D720940187AC9FC1F2BCCB30 url:https://tuxli.org/ proof:uri-rsa ciissversion:2">
+email:abuse[]tuxli.org...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.194.11.145">104.194.11.145</a></td>
+
+<td><a href="../as_number/AS23470.html" title="RELIABLESITE">RELIABLESITE</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="deth"><a href="../relay/570642D39197A7296E38C9D521B6EFDBC67FB86F.html">deth</a></td>
+<td><code><a href="../contact/e2391eed5652efe2d1b87e5af23e6f85.html"
+title="juccah41@protonmail.com">
+juccah41@protonmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/141.255.161.166">141.255.161.166</a></td>
+
+<td><a href="../as_number/AS51852.html" title="Private Layer INC">Private Layer INC</a></td>
+<td><a href="../country/ch.html"><img
+src="../static/images/cc/ch.png" title="Switzerland" alt="Switzerland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="UnredactedTor"><a href="../relay/5AFB502D260BCCC9974C657E956B878D334BCCC0.html">UnredactedTor</a> (<a href="../family/5fb17cfd9053b30aa2bb5e030479cc08bc19ad8857fbc46302c66435d853a4b5.html">12</a>)</td>
+<td><code><a href="../contact/dc6b02cdb1c15513ca209057e2f38772.html"
+title="email:admin[@]unredacted.org url:unredacted.org proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+unredacted.org</a>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.154.177.13">23.154.177.13</a></td>
+
+<td><a href="../as_number/AS399532.html" title="ULAYER-ASN">ULAYER-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="bauruine"><a href="../relay/5B91379F85544B9B9FCCB121B85D7349F4C6FB57.html">bauruine</a> (<a href="../family/c56d5256b9f93e6ad6381d36f98c468c64c78fb965fd3cec86e3a2827510dd1a.html">47</a>)</td>
+<td><code><a href="../contact/37668014502e6be5ca19d5bf75d081a0.html"
+title="email:abuse[]tuxli.org pgp:32A1621FC5290921D720940187AC9FC1F2BCCB30 url:https://tuxli.org/ proof:uri-rsa ciissversion:2">
+email:abuse[]tuxli.org...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.243.34.106">104.243.34.106</a></td>
+
+<td><a href="../as_number/AS23470.html" title="RELIABLESITE">RELIABLESITE</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="memspike"><a href="../relay/71A3F4419392FDEB73DE59045ED45F2142069EF8.html">memspike</a></td>
+<td><code><a href="../contact/32b3b669ec48e40c07895631632f0893.html"
+title="virtuo36-@-gmx.com">
+virtuo36-@-gmx.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/85.121.244.100">85.121.244.100</a></td>
+
+<td><a href="../as_number/AS9009.html" title="M247 Ltd">M247 Ltd</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="OBSDRelay"><a href="../relay/7296C051761AA73C7DF8CA74CA14EF46EBBEBD7C.html">OBSDRelay</a></td>
+<td><code><a href="../contact/d9a95cdfa4585927c7956e2a8cd797ed.html"
+title="hoschar@protonmail.com">
+hoschar@protonmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/95.179.191.4">95.179.191.4</a></td>
+
+<td><a href="../as_number/AS20473.html" title="AS-CHOOPA">AS-CHOOPA</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="miixms"><a href="../relay/79BB42C6B0603191D90B2C5003206E0BC0E72970.html">miixms</a></td>
+<td><code><a href="../contact/239944402ac8e00122b73ce6c8bf0d38.html"
+title="xvpnnothing@yahoo.com">
+xvpnnothing@yahoo.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.159.67.40">51.159.67.40</a></td>
+
+<td><a href="../as_number/AS12876.html" title="ONLINE S.A.S.">ONLINE S.A.S.</a></td>
+<td><a href="../country/fr.html"><img
+src="../static/images/cc/fr.png" title="France" alt="France"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="nicknitro"><a href="../relay/85A54EA29E494FD9F7BB1B4BAB85C2C3336589DE.html">nicknitro</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/5.188.188.17">5.188.188.17</a></td>
+
+<td><a href="../as_number/AS202422.html" title="G-Core Labs S.A.">G-Core Labs S.A.</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="HoldMyRelay"><a href="../relay/86D9429755B646D8C1296C1B6CBC9A97876D6D8D.html">HoldMyRelay</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/51.195.46.98">51.195.46.98</a></td>
+
+<td><a href="../as_number/AS16276.html" title="OVH SAS">OVH SAS</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Lappen7"><a href="../relay/87DF182E1BA520A5034B981A7BBBC2C851CF1EBA.html">Lappen7</a></td>
+<td><code><a href="../contact/00aaa4896dbff2a9b45cb19d548d9d10.html"
+title="c36426ee-7c90-46bc-950b-eb22a6c2d0aa (a) getrekt.win">
+c36426ee-7c90-46bc-950b-...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/193.138.218.225">193.138.218.225</a></td>
+
+<td><a href="../as_number/AS39351.html" title="31173 Services AB">31173 Services AB</a></td>
+<td><a href="../country/se.html"><img
+src="../static/images/cc/se.png" title="Sweden" alt="Sweden"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="miixms"><a href="../relay/889FAF815D67CCE289C1DE5A4729E372C3FA649F.html">miixms</a></td>
+<td><code><a href="../contact/239944402ac8e00122b73ce6c8bf0d38.html"
+title="xvpnnothing@yahoo.com">
+xvpnnothing@yahoo.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/163.172.216.74">163.172.216.74</a></td>
+
+<td><a href="../as_number/AS12876.html" title="ONLINE S.A.S.">ONLINE S.A.S.</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="linuxcatdrout"><a href="../relay/91ADB934B17E018D919E131FCCC0F45037D12C87.html">linuxcatdrout</a></td>
+<td><code><a href="../contact/959cb6680051083514fbfb21b971f20e.html"
+title="ContactInfo email:haxi[]viw.se">
+ContactInfo email:haxi[]viw.se</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/70.34.196.40">70.34.196.40</a></td>
+
+<td><a href="../as_number/AS20473.html" title="AS-CHOOPA">AS-CHOOPA</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="bauruine"><a href="../relay/9D6C87396CD7844F344DCCC107D3981566AD22CE.html">bauruine</a> (<a href="../family/c56d5256b9f93e6ad6381d36f98c468c64c78fb965fd3cec86e3a2827510dd1a.html">47</a>)</td>
+<td><code><a href="../contact/37668014502e6be5ca19d5bf75d081a0.html"
+title="email:abuse[]tuxli.org pgp:32A1621FC5290921D720940187AC9FC1F2BCCB30 url:https://tuxli.org/ proof:uri-rsa ciissversion:2">
+email:abuse[]tuxli.org...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.243.34.106">104.243.34.106</a></td>
+
+<td><a href="../as_number/AS23470.html" title="RELIABLESITE">RELIABLESITE</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="GrimQuark"><a href="../relay/A17F8CD5D52654E495075CBD8C5D46A13EA2A64E.html">GrimQuark</a></td>
+<td><code><a href="../contact/29cf8251b566dd859d688152e41824f2.html"
+title="grimquark@runbox.com">
+grimquark@runbox.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/193.32.127.231">193.32.127.231</a></td>
+
+<td><a href="../as_number/AS39351.html" title="31173 Services AB">31173 Services AB</a></td>
+<td><a href="../country/ch.html"><img
+src="../static/images/cc/ch.png" title="Switzerland" alt="Switzerland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DigitalOceanMarc"><a href="../relay/AD72023F47F77618F298A4F824C40BC78FE9BEDB.html">DigitalOceanMarc</a></td>
+<td><code><a href="../contact/bc48fabae9d7abab2102be0d1fca6410.html"
+title="realsavior@protonmail.com">
+realsavior@protonmail.com</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/198.199.72.178">198.199.72.178</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="RolandJohnson"><a href="../relay/B1246EF3AB59858F02592905A7EF063B7BB50E0D.html">RolandJohnson</a></td>
+<td><code><a href="../contact/96c92fcbe109f52828ebdfe236988223.html"
+title="kwq8haqu@proton.me">
+kwq8haqu@proton.me</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.117.215.205">23.117.215.205</a></td>
+
+<td><a href="../as_number/AS7018.html" title="ATT-INTERNET4">ATT-INTERNET4</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="NiggaByTheBay"><a href="../relay/CD01880EE556A5D54132BDDBCC3C4671DE0FDBA4.html">NiggaByTheBay</a></td>
+<td title="none"><code>none</code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/24.53.2.102">24.53.2.102</a></td>
+
+<td><a href="../as_number/AS5769.html" title="VIDEOTRON">VIDEOTRON</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DFRI18"><a href="../relay/E0665F733B3821CE05A2A7545105371821D25875.html">DFRI18</a> (<a href="../family/c221d8b03f61d29f845cded33c30d01e99705f70ac94d24bcb338d5113095257.html">8</a>)</td>
+<td><code><a href="../contact/03e74501a62ff47450acffd77b60c89a.html"
+title="DFRI url:https://dfri.se proof:dns-rsa email:tor[]dfri.se abuse:abuse[]dfri.net twitter:dfri_se btc:bc1q24g32dteuu3rnp2vhrecd9rvh4nm30n65n0slm ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+dfri.se</a>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/171.25.193.78">171.25.193.78</a></td>
+
+<td><a href="../as_number/AS198093.html" title="Foreningen for digitala fri- och rattigheter">Foreningen for...</a></td>
+<td><a href="../country/se.html"><img
+src="../static/images/cc/se.png" title="Sweden" alt="Sweden"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="bauruine"><a href="../relay/F537067FDE9E8C5E1C936AE1C6FB96CB822FC087.html">bauruine</a> (<a href="../family/c56d5256b9f93e6ad6381d36f98c468c64c78fb965fd3cec86e3a2827510dd1a.html">47</a>)</td>
+<td><code><a href="../contact/37668014502e6be5ca19d5bf75d081a0.html"
+title="email:abuse[]tuxli.org pgp:32A1621FC5290921D720940187AC9FC1F2BCCB30 url:https://tuxli.org/ proof:uri-rsa ciissversion:2">
+email:abuse[]tuxli.org...</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.194.11.145">104.194.11.145</a></td>
+
+<td><a href="../as_number/AS23470.html" title="RELIABLESITE">RELIABLESITE</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="DFRI17"><a href="../relay/FDE127305CC410265E66BA82FB5A3E801BFD184E.html">DFRI17</a> (<a href="../family/c221d8b03f61d29f845cded33c30d01e99705f70ac94d24bcb338d5113095257.html">8</a>)</td>
+<td><code><a href="../contact/03e74501a62ff47450acffd77b60c89a.html"
+title="DFRI url:https://dfri.se proof:dns-rsa email:tor[]dfri.se abuse:abuse[]dfri.net twitter:dfri_se btc:bc1q24g32dteuu3rnp2vhrecd9rvh4nm30n65n0slm ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+dfri.se</a>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/171.25.193.78">171.25.193.78</a></td>
+
+<td><a href="../as_number/AS198093.html" title="Foreningen for digitala fri- och rattigheter">Foreningen for...</a></td>
+<td><a href="../country/se.html"><img
+src="../static/images/cc/se.png" title="Sweden" alt="Sweden"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2022-08-05</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
