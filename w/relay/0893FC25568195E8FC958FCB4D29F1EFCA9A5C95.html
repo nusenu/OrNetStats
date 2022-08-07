@@ -60,11 +60,31 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>37.46.227.42</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  21-23
+  80-81
+  88
+  110
+  143
+  443
+  993
+  995
+  1080
+  1194
+  1723
+  1863
+  3128
+  5050
+  5190
+  5222
+  7771
+  8080
+  8181
+  8300
+  8888
 </pre>
 </dd>
 
@@ -74,7 +94,37 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:21
+ accept *:22
+ accept *:23
+ accept *:80
+ accept *:81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:443
+ accept *:993
+ accept *:995
+ accept *:1080
+ accept *:1194
+ accept *:1723
+ accept *:1863
+ accept *:3128
+ accept *:5190
+ accept *:5050
+ accept *:5222
+ accept *:7771
+ accept *:8080
+ accept *:8181
+ accept *:8300
+ accept *:8888
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -107,6 +157,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -122,7 +173,7 @@ CONTENT DELIVERY NETWORK LTD -
 <a href="../as_number/AS13188.html">AS13188</a>
 (<a href='https://bgp.he.net/AS13188'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-08-05 09:08:55</dd>
+<dd>2022-08-06 17:14:45</dd>
 
 <dt>Country</dt>
 <dd>
