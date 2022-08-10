@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-08-08 18:00 UTC**
+Tor network data as of: **2022-08-10 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,68 +29,22 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (56) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
+## ContactInfo: Hurdy-Gurdy &lt;admin AT my-mail dot rocks&gt; (10) {#hurdy-gurdy-admin-at-my-mail-dot-rocks}
 
-| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [nap](https://metrics.torproject.org/rs.html#details/F5F8497B39C1022BCA786012390E1FDA55AB73EC)         | 2022-07-05   | Yes         |                     2 |
-| [sleep](https://metrics.torproject.org/rs.html#details/64BB15B6295E3A44594F438CD0E674E7C4E60BA1)       | 2022-07-05   | Yes         |                     2 |
-| [relayon1153](https://metrics.torproject.org/rs.html#details/066CD2C493E4DF7300B2731EAF7E317433262591) | 2022-06-30   | No          |                    66 |
-| [relayon0159](https://metrics.torproject.org/rs.html#details/07A2ADB079E1440927020D23B47B4358CCA585A8) | 2022-07-10   | No          |                    66 |
-| [relayon1179](https://metrics.torproject.org/rs.html#details/0CA3677DCF4314403CE148859EE5553F9ADFD66E) | 2022-06-30   | No          |                    66 |
-| [relayon0187](https://metrics.torproject.org/rs.html#details/0EC0515743B4C2883F908C528774A6E12E613B85) | 2022-07-10   | No          |                    66 |
-| [relayon1162](https://metrics.torproject.org/rs.html#details/145E18875623BA0C7AD51EE8B1B9CF5121C071CD) | 2022-06-30   | No          |                    66 |
-| [relayon0128](https://metrics.torproject.org/rs.html#details/16A2165A0B0FD4BF24A337373378863E3A7633A2) | 2022-07-10   | No          |                    66 |
-| [relayon0145](https://metrics.torproject.org/rs.html#details/22552EC1CEA14A6B418FA9E8479EDEFB079535F1) | 2022-07-10   | No          |                    66 |
-| [relayon0163](https://metrics.torproject.org/rs.html#details/26C57F06BDECFF9968F65805CD9ECC9036B02AA9) | 2022-07-10   | No          |                    66 |
-| [relayon0129](https://metrics.torproject.org/rs.html#details/293F149DD1971492E31779AA12CCE7C545BF5088) | 2022-07-10   | No          |                    66 |
-| [relayon0138](https://metrics.torproject.org/rs.html#details/331CEE19F311204CB732FF8DB5694C4DF32F3B26) | 2022-07-10   | No          |                    66 |
-| [relayon1182](https://metrics.torproject.org/rs.html#details/366BC2B590CAD9C50DC05E2BBC3F3D7C8FD27EF1) | 2022-06-30   | No          |                    66 |
-| [relayon1191](https://metrics.torproject.org/rs.html#details/3734660DC6F7EA1116BFCB80FC23FAC5680BD801) | 2022-06-30   | No          |                    66 |
-| [relayon0148](https://metrics.torproject.org/rs.html#details/3C363C8B45D21ED2C656A0ED73B947F5469C5199) | 2022-07-10   | No          |                    66 |
-| [relayon0131](https://metrics.torproject.org/rs.html#details/42CFF0CAAF7EB5E86B358DB047DCFE53B64856EB) | 2022-07-10   | No          |                    66 |
-| [relayon0171](https://metrics.torproject.org/rs.html#details/48020D412674B13B083B9FF0A61222D121C67868) | 2022-07-10   | No          |                    66 |
-| [relayon1138](https://metrics.torproject.org/rs.html#details/4CEEB0CE90FF70CB54CEE37EAFCE176661231512) | 2022-06-30   | No          |                    66 |
-| [relayon0179](https://metrics.torproject.org/rs.html#details/4F56DE76CDC2A296B6D637949207F904E5A20C21) | 2022-07-10   | No          |                    66 |
-| [relayon1163](https://metrics.torproject.org/rs.html#details/516F91CA7078106E1F08D9EBACB7715E9F850E5B) | 2022-06-30   | No          |                    66 |
-| [relayon0153](https://metrics.torproject.org/rs.html#details/54ACB278AA2ABD96F9150AB72B08A8A8B1E4A659) | 2022-07-10   | No          |                    66 |
-| [relayon0161](https://metrics.torproject.org/rs.html#details/57D0CA93B069DCCC2C34BED2BDCBC71AF8C89D3F) | 2022-07-10   | No          |                    66 |
-| [relayon0147](https://metrics.torproject.org/rs.html#details/6854BE1FF67606E28B6A500C25BE3CFCE4F53DD0) | 2022-07-10   | No          |                    66 |
-| [relayon1167](https://metrics.torproject.org/rs.html#details/6B612712814AED2F1C307DD0E87D2CCF5C3DE4D4) | 2022-06-30   | No          |                    66 |
-| [relayon0156](https://metrics.torproject.org/rs.html#details/7C34BB94624DD1194CAD0083ACB9251AEBE3BF8C) | 2022-07-10   | No          |                    66 |
-| [relayon0135](https://metrics.torproject.org/rs.html#details/7CC686289752FDA026E8B22246EDE0979D1B7B04) | 2022-07-10   | No          |                    66 |
-| [relayon1181](https://metrics.torproject.org/rs.html#details/8132DD2EFA6D048CB9D050C78453F5C8D8CCAF65) | 2022-06-30   | No          |                    66 |
-| [relayon1188](https://metrics.torproject.org/rs.html#details/8703530C5CEFF9E68B6E9AF75432A390C6314C44) | 2022-06-30   | No          |                    66 |
-| [relayon0144](https://metrics.torproject.org/rs.html#details/872D0A0DEBE914EC3C3E3105B7A8CC157662FA68) | 2022-07-10   | No          |                    66 |
-| [relayon1154](https://metrics.torproject.org/rs.html#details/8F52E0177AD35F590C5B83960AA11ED00F72629A) | 2022-06-30   | No          |                    66 |
-| [relayon0146](https://metrics.torproject.org/rs.html#details/914B3AB3FCF39CEBE15FFF743C0AC1614591E966) | 2022-07-10   | No          |                    66 |
-| [relayon1166](https://metrics.torproject.org/rs.html#details/928F3A31CE726451DAD32316DE91D5FB6F8C10D5) | 2022-06-30   | No          |                    66 |
-| [relayon0164](https://metrics.torproject.org/rs.html#details/92B1634A7D1C35DDCEB34E0FC1229602D0AEDFB4) | 2022-07-10   | No          |                    66 |
-| [relayon0184](https://metrics.torproject.org/rs.html#details/993D31DDD72EFF8C3FBC5A4899DF85E062E4E0CA) | 2022-07-10   | No          |                    66 |
-| [relayon1178](https://metrics.torproject.org/rs.html#details/9AABDF5A8E5D546663A91788ECFD9C484740D761) | 2022-06-30   | No          |                    66 |
-| [relayon1190](https://metrics.torproject.org/rs.html#details/9AE8F54ED4802B92B86EC085C2AF57A29CD89445) | 2022-06-30   | No          |                    66 |
-| [relayon1189](https://metrics.torproject.org/rs.html#details/A1981F6980AC1AF9756940660267C01D11E15B02) | 2022-06-30   | No          |                    66 |
-| [relayon1186](https://metrics.torproject.org/rs.html#details/A1B87E05A094BF1302580F7465DAAE011516F345) | 2022-06-30   | No          |                    66 |
-| [relayon0168](https://metrics.torproject.org/rs.html#details/A4FE9A1F6A7EB6A002A1F3DFA313A43390E22C6F) | 2022-07-10   | No          |                    66 |
-| [relayon0162](https://metrics.torproject.org/rs.html#details/B4C4989666384C40914197A767E1D1D299E73676) | 2022-07-10   | No          |                    66 |
-| [relayon0167](https://metrics.torproject.org/rs.html#details/B60B94FC0FD8DF6F2D9C611F77FC7EF66646A45C) | 2022-07-10   | No          |                    66 |
-| [relayon0133](https://metrics.torproject.org/rs.html#details/B6BAB95C30B2A1FF75B80B5E2B0895B97FF87D2F) | 2022-07-10   | No          |                    66 |
-| [relayon0172](https://metrics.torproject.org/rs.html#details/C6B47E1F0D3C75F36FA00CF63ABABB984DD13A1A) | 2022-07-10   | No          |                    66 |
-| [relayon0183](https://metrics.torproject.org/rs.html#details/CE6511968ACAA43402638D66A2FAC5F32F9A45C4) | 2022-07-10   | No          |                    66 |
-| [relayon0178](https://metrics.torproject.org/rs.html#details/D1C45FAAD766E810EDA2401335CC8EBDE8EA8526) | 2022-07-10   | No          |                    66 |
-| [relayon0155](https://metrics.torproject.org/rs.html#details/D4CFB23D6880135B8BF20C820E59C34029153432) | 2022-07-10   | No          |                    66 |
-| [relayon1176](https://metrics.torproject.org/rs.html#details/D4DD41FE36887E19C90B597F8A79C683DD03A3E7) | 2022-06-30   | No          |                    66 |
-| [relayon1134](https://metrics.torproject.org/rs.html#details/DA22C0B589959ADD14D16606B9A2A512CED61C4F) | 2022-06-30   | No          |                    66 |
-| [relayon1180](https://metrics.torproject.org/rs.html#details/DA87AB571885FB7E9B47F66EBE5D1E3F2EF6DFFE) | 2022-06-30   | No          |                    66 |
-| [relayon0136](https://metrics.torproject.org/rs.html#details/DEAFF8BA64CC7898AFC5D94A1BCFA87FFFCF5657) | 2022-07-10   | No          |                    66 |
-| [relayon0157](https://metrics.torproject.org/rs.html#details/E53683EDF846E6D27C6685FA481935FB16339526) | 2022-07-10   | No          |                    66 |
-| [relayon1174](https://metrics.torproject.org/rs.html#details/E8CF570B4AB439D57A618B07B44667711A811828) | 2022-06-30   | No          |                    66 |
-| [relayon0151](https://metrics.torproject.org/rs.html#details/EA6BD20181D488A83B25541275B374F5BA1AA45A) | 2022-07-10   | No          |                    66 |
-| [relayon0140](https://metrics.torproject.org/rs.html#details/F211A7031A14FB0DA13D467F6C1B98FDC3F2A559) | 2022-07-10   | No          |                    66 |
-| [relayon0137](https://metrics.torproject.org/rs.html#details/F9408C144B36D78A47BABB0BB53DFF671D23BE51) | 2022-07-10   | No          |                    66 |
-| [relayon0170](https://metrics.torproject.org/rs.html#details/FF450F683B7BE494703B90827DB2DBD05B624471) | 2022-07-10   | No          |                    66 |
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [0x90](https://metrics.torproject.org/rs.html#details/EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7)       | 2021-09-07   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/2717355D1ED1C421E3F8930F721BF2FDABA35CDA) | 2022-07-18   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/6C11461E189674B86A75EFE2A1E2B22713A46E8C) | 2022-01-14   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/42A955B09A4E327FBFB46A08F6E21705271CCA12) | 2021-08-21   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/37B8ECB953FC3C3E09722BFB8EEFD0334DDF4628) | 2022-01-14   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/8A530A9CE2EF8EA7D9E2B496566FD847E76C71E6) | 2022-01-07   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/0256CC7F76E46157F95705DAC58F0E3EF9CD1583) | 2022-01-31   | Yes         |                    12 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/233830F0A052F3845789607D1EC15457CF15F9AE) | 2021-11-15   | No          |                    12 |
+| [0x539](https://metrics.torproject.org/rs.html#details/53A997230640C04C998A1DE3F5D3CD303C4481B0)      | 2022-08-10   | No          |                     1 |
+| [0xdeadbeef](https://metrics.torproject.org/rs.html#details/D1B853ED27E4DFDCA3A54D3F2E269C4D94677F66) | 2018-04-16   | No          |                    12 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-64BB15B6295E3A44594F438CD0E674E7C4E60BA1,F5F8497B39C1022BCA786012390E1FDA55AB73EC
+0256CC7F76E46157F95705DAC58F0E3EF9CD1583,2717355D1ED1C421E3F8930F721BF2FDABA35CDA,37B8ECB953FC3C3E09722BFB8EEFD0334DDF4628,42A955B09A4E327FBFB46A08F6E21705271CCA12,6C11461E189674B86A75EFE2A1E2B22713A46E8C,8A530A9CE2EF8EA7D9E2B496566FD847E76C71E6,EF25C1F9BEF8C4A3F2859493C7C8C5148725B4E7

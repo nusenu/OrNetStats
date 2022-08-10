@@ -66,55 +66,26 @@ Relay Info &lt;relay-ops AT tuta dot io&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  5222-5223
-  8333
-  9333
-  9735
-  18080-18089
-  18333
-  28080-28081
-  50001-50002
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  5222-5223
-  8333
-  9333
-  9735
-  18080-18089
-  18333
-  28080-28081
-  50001-50002
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:5222-5223
- accept *:8333
- accept *:9333
- accept *:9735
- accept *:18080-18089
- accept *:18333
- accept *:28080-28081
- accept *:50001-50002
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 
-<dt>Effective Family Members (<a href="../family/ea4085e53bca67efaba0dec023b0e14999fc924576e9fc36d2f912b301cf7143.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/6e565eb2ee519e81772e6a28043da642ad4748a4661ea14a2be13407f33bdf72.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="10761183265E627529BC250B6A6645ED980D9697.html">10761183265E627529BC250B6A6645ED980D9697</a>
 <a href="2E0EFDC2D5A8889306AF4255C6DA123DA793EF75.html">2E0EFDC2D5A8889306AF4255C6DA123DA793EF75</a>
 <a href="32BD0808438C834790F10FD05383512E8FDDB530.html">32BD0808438C834790F10FD05383512E8FDDB530</a>
 <a href="669A23D60CAB3BD687B01B4A2D0415C71224F701.html">669A23D60CAB3BD687B01B4A2D0415C71224F701</a>
+<a href="92A927928E3143386FECB5A94BDAAF5C9AF759E4.html">92A927928E3143386FECB5A94BDAAF5C9AF759E4</a>
 <a href="981DF882842207A759FAC8CE57651B8DE8A21CC4.html">981DF882842207A759FAC8CE57651B8DE8A21CC4</a>
 <a href="B23A64FC11407A4AD46060628B3E95C1B233F06A.html">B23A64FC11407A4AD46060628B3E95C1B233F06A</a>
 <a href="CB64547FBC4A4BF1D07F42C555B5BC8F25145B24.html">CB64547FBC4A4BF1D07F42C555B5BC8F25145B24</a>
@@ -140,16 +111,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>86 Mbit/s</dd>
+<dd>101 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8800</dd>
+<dd>5400</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -166,7 +136,7 @@ WII -
 <a href="../as_number/AS32097.html">AS32097</a>
 (<a href='https://bgp.he.net/AS32097'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-07-23 11:02:01</dd>
+<dd>2022-08-09 05:46:47</dd>
 
 <dt>Country</dt>
 <dd>
