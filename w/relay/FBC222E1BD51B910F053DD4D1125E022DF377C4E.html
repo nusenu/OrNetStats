@@ -63,17 +63,9 @@
 <dd>50.7.1.91</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -89,17 +81,9 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -125,7 +109,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>10 Mbit/s</dd>
+<dd>35 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>420</dd>
@@ -149,7 +133,7 @@ FDCSERVERS -
 <a href="../as_number/AS30058.html">AS30058</a>
 (<a href='https://bgp.he.net/AS30058'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-08-15 14:24:18</dd>
+<dd>2022-08-17 11:58:45</dd>
 
 <dt>Country</dt>
 <dd>

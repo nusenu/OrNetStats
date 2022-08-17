@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-08-16 17:00 UTC**
+Tor network data as of: **2022-08-17 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse tuxli.org pgp:32A1621FC5290921D720940 (34) {#emailabusetuxliorg-pgp32a1621fc5290921d720940}
+## ContactInfo: email:abuse tuxli.org pgp:32A1621FC5290921D720940 (38) {#emailabusetuxliorg-pgp32a1621fc5290921d720940}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -37,22 +37,26 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [bauruine](https://metrics.torproject.org/rs.html#details/4CE6D83FFA8AD24767007E8C972F371F2468F09A) | 2020-05-28   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/52A0C729BBA4A31A5C435FBD1078D1DAFBC9CB8D) | 2022-06-01   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/1D24292113610F0096FCC554664EC33BE27A4F54) | 2022-07-27   | Yes         |                    41 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941) | 2020-10-26   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/8D89ECA4C93928711A0BD6DB80F547A09AEF2D67) | 2022-07-27   | Yes         |                    41 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/791B7C05E2C6D4D9AF61100562595568F5B69A7A) | 2022-07-27   | Yes         |                    41 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/9265C51D2769E253C47BA554675270A0FE7B2771) | 2022-03-02   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941) | 2020-10-26   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/95545CBA71AD21136C40C927F19C067FF128078F) | 2022-07-27   | Yes         |                    41 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/045BBCA9602A22C112984F25003CD4897CFFB9E5) | 2022-05-24   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/791B7C05E2C6D4D9AF61100562595568F5B69A7A) | 2022-07-27   | Yes         |                    41 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/7362770CBA5B54C3123CFB243D8217531E2FA036) | 2022-05-24   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/9265C51D2769E253C47BA554675270A0FE7B2771) | 2022-03-02   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/6C41B08E707662EEB4B436F08CB9F9337D520904) | 2021-03-03   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/045BBCA9602A22C112984F25003CD4897CFFB9E5) | 2022-05-24   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/0F6CBFB9E5CDFC5A6D427320E90B1DF91095DD67) | 2022-02-10   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/5A79BD5CC6C128D7D8DFB4969B0246794F117FC6) | 2021-03-03   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/40262D8536342A421B2957ADFB4D35CD393816B7) | 2021-03-03   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/04651736C657C20313887CB9F10DA953C3B5C5A5) | 2021-10-28   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/8B8E30B0A49EBEEF963D2A5AAC28F3BD3068ADEC) | 2021-10-07   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/88A3B823E4AD8FB9ED175C0EC7B0F50E1B75694A) | 2021-03-03   | Yes         |                    43 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/9B7BAE325EBDAD859868D2C60BF6588CA5949039) | 2020-09-15   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/E4BFAD49D21D3838485C62D84293A97DAAAA35B7) | 2021-10-07   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/8097A51DDA964205819017E1CE16D7C87BCF77E0) | 2021-10-28   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/9B7BAE325EBDAD859868D2C60BF6588CA5949039) | 2020-09-15   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/6D9CFB3ED769429713F2F28C8130034CEE667B32) | 2021-01-11   | Yes         |                    43 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/D5F09497548A39071D14AC9E9AA926A0F8A748F2) | 2021-01-11   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/398B7AC447D8C659A35D418DFCA4013FDA665343) | 2020-12-01   | Yes         |                    43 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/D5F09497548A39071D14AC9E9AA926A0F8A748F2) | 2021-01-11   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/B8F2CDA13E50801BC1E06FDD1CA984ADE76BCF7B) | 2020-12-01   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/70F961350A414F086AA3A767325713C86C933B4B) | 2022-06-24   | Yes         |                    43 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/E6563BE3E45BDFE375DFE4476925CB9979251982) | 2020-11-27   | Yes         |                    43 |
