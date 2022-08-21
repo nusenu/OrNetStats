@@ -65,8 +65,9 @@ Ansjika System-of-rampage.online</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +77,15 @@ Ansjika System-of-rampage.online</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/3e16193ae7aa5512e373be1161776e804ae177f10d4ef6c089dedd29dfff8166.html">view</a>)</dt>
@@ -110,6 +119,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -126,7 +136,7 @@ Hetzner Online GmbH -
 <a href="../as_number/AS24940.html">AS24940</a>
 (<a href='https://bgp.he.net/AS24940'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-08-19 13:48:28</dd>
+<dd>2022-08-21 07:05:16</dd>
 
 <dt>Country</dt>
 <dd>
