@@ -62,10 +62,10 @@ aleksi[at]drivet[dot]xyz</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>129.151.212.201</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
+<pre class="pre-scrollable">accept: 
   1-65535
 </pre>
 </dd>
@@ -76,7 +76,13 @@ aleksi[at]drivet[dot]xyz</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members (<a href="../family/c6aeb0b60860d8319e2beff1e20341fd1b078208f0bc405e8272f9f0e0705195.html">view</a>)</dt>
@@ -110,6 +116,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +132,7 @@ ORACLE-BMC-31898 -
 <a href="../as_number/AS31898.html">AS31898</a>
 (<a href='https://bgp.he.net/AS31898'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-08-21 19:29:09</dd>
+<dd>2022-08-23 12:08:19</dd>
 
 <dt>Country</dt>
 <dd>
