@@ -77,11 +77,13 @@ ContactInfo email:miked[]riseup.net pgp:651CC8177A44A276...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>103.196.37.111</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -91,7 +93,16 @@ ContactInfo email:miked[]riseup.net pgp:651CC8177A44A276...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -111,8 +122,7 @@ ContactInfo email:miked[]riseup.net pgp:651CC8177A44A276...</a></dd>
 <dd><a href="../first_seen/2022-02-26">2022-02-26 09:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.7
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<dd> Tor 0.4.7.10
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -125,9 +135,9 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -144,7 +154,7 @@ MDNET -
 <a href="../as_number/AS40138.html">AS40138</a>
 (<a href='https://bgp.he.net/AS40138'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-07-20 08:10:33</dd>
+<dd>2022-08-25 04:44:04</dd>
 
 <dt>Country</dt>
 <dd>
