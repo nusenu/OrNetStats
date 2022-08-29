@@ -49,13 +49,13 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/3e41a050856be04d59ce373f01e6caa9.html">all relays with this contact</a>)</dt>
+(<a href="../contact/7680274f44535d88e4d8cc1142310555.html">all relays with this contact</a>)</dt>
 <dd>
-june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
+security &lt;@&gt; terezi &lt;.&gt; dev</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-107.189.8.16:9000
+198.251.89.135:9000
 [2605:6400:30:f154:dece:a5ed:dece:a5ed]
 </pre></dd>
 
@@ -63,15 +63,18 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>198.251.89.135</dd>
+<dd>107.189.8.16 198.251.89.135</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-21
+  20-23
   43
   53
+  69
   80
   110
+  119
+  123
   143
   220
   443
@@ -81,12 +84,14 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
   995
   1194
   1293
+  3306
   3690
   4321
   5222-5223
   5228
   6660-6667
   6697
+  8080
   9418
 </pre>
 </dd>
@@ -94,11 +99,14 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-21
+  20-23
   43
   53
+  69
   80
   110
+  119
+  123
   143
   220
   443
@@ -108,12 +116,14 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
   995
   1194
   1293
+  3306
   3690
   4321
   5222-5223
   5228
   6660-6667
   6697
+  8080
   9418
 </pre>
 </dd>
@@ -126,10 +136,15 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  accept *:20-21
+ accept *:22
+ accept *:23
  accept *:43
  accept *:53
+ accept *:69
  accept *:80
  accept *:110
+ accept *:119
+ accept *:123
  accept *:143
  accept *:220
  accept *:443
@@ -142,12 +157,14 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
  accept *:995
  accept *:1194
  accept *:1293
+ accept *:3306
  accept *:3690
  accept *:4321
  accept *:5222-5223
  accept *:5228
  accept *:6660-6667
  accept *:6697
+ accept *:8080
  accept *:9418
  reject *:*
 </pre></dd>
@@ -169,7 +186,7 @@ june &lt;@&gt; sapphic &lt;.&gt; site</a></dd>
 <dd><a href="../first_seen/2022-03-17">2022-03-17 06:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.8
+<dd> Tor 0.4.7.10
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -185,7 +202,6 @@ on
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -202,7 +218,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-08-09 18:50:01</dd>
+<dd>2022-08-29 14:29:27</dd>
 
 <dt>Country</dt>
 <dd>
