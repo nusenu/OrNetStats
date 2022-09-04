@@ -67,6 +67,7 @@ a78i2efsewr0neeknk[@]proton.me</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
+  22
   25
   119
   135-139
@@ -87,6 +88,7 @@ a78i2efsewr0neeknk[@]proton.me</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
+  22
   25
   119
   135-139
@@ -111,6 +113,7 @@ a78i2efsewr0neeknk[@]proton.me</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:22
  reject *:25
  reject *:465
  reject *:587
@@ -152,15 +155,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>150 Mbit/s</dd>
+<dd>171 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>23000</dd>
+<dd>26000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
