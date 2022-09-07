@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/3e2e78fe1d08a7818207b4b452d243d5.html">all relays with this contact</a>)</dt>
+(<a href="../contact/d7914f40d7ebf7ec0115c9a02f048624.html">all relays with this contact</a>)</dt>
 <dd>
-me@fadi.devl</a></dd>
+me@fadi.dev</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -66,7 +66,16 @@ me@fadi.devl</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +85,23 @@ me@fadi.devl</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 
 <dt>Effective Family Members</dt>
@@ -103,13 +128,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>19 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +151,7 @@ ATT-INTERNET4 -
 <a href="../as_number/AS7018.html">AS7018</a>
 (<a href='https://bgp.he.net/AS7018'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-09-06 03:46:54</dd>
+<dd>2022-09-07 01:41:28</dd>
 
 <dt>Country</dt>
 <dd>
