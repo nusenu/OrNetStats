@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-09-12 14:00 UTC**
+Tor network data as of: **2022-09-13 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [AMSRelay](https://metrics.torproject.org/rs.html#details/A9DA735C9DE7C891B9EDD6B433B458F7687E829B)    | 2022-08-29   | Yes         |                     1 |
-| [BlackMesaAG](https://metrics.torproject.org/rs.html#details/14693074C2325CEC8746AFBB85291E749AC45D5D) | 2021-12-29   | Yes         |                     1 |
 | [CoolRelay](https://metrics.torproject.org/rs.html#details/D594BC4244636CC342973B594B707685DCAA0C87)   | 2022-07-11   | Yes         |                     1 |
+| [BlackMesaAG](https://metrics.torproject.org/rs.html#details/14693074C2325CEC8746AFBB85291E749AC45D5D) | 2021-12-29   | Yes         |                     1 |
 | [koaxedrelay](https://metrics.torproject.org/rs.html#details/5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C) | 2022-03-01   | Yes         |                     1 |
 | [0d210s](https://metrics.torproject.org/rs.html#details/D2B845D50ED5B49A8B8B425AB530C38D952E5C3C)      | 2022-09-08   | No          |                     1 |
 
