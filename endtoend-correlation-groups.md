@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-09-14 17:00 UTC**
+Tor network data as of: **2022-09-15 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,11 +29,12 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: your@e-mail (5) {#youre-mail}
+## ContactInfo: your@e-mail (6) {#youre-mail}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [AMSRelay](https://metrics.torproject.org/rs.html#details/A9DA735C9DE7C891B9EDD6B433B458F7687E829B)    | 2022-08-29   | Yes         |                     1 |
+| [myNiceRelay](https://metrics.torproject.org/rs.html#details/21524A2BC6C4275B2FDC23F0FF2344B6D8FEC255) | 2022-08-18   | Yes         |                     1 |
 | [CoolRelay](https://metrics.torproject.org/rs.html#details/D594BC4244636CC342973B594B707685DCAA0C87)   | 2022-07-11   | Yes         |                     1 |
 | [BlackMesaAG](https://metrics.torproject.org/rs.html#details/14693074C2325CEC8746AFBB85291E749AC45D5D) | 2021-12-29   | Yes         |                     1 |
 | [koaxedrelay](https://metrics.torproject.org/rs.html#details/5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C) | 2022-03-01   | Yes         |                     1 |
@@ -42,4 +43,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-14693074C2325CEC8746AFBB85291E749AC45D5D,5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87
+14693074C2325CEC8746AFBB85291E749AC45D5D,21524A2BC6C4275B2FDC23F0FF2344B6D8FEC255,5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87
