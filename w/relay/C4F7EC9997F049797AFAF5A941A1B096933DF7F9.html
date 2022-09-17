@@ -82,21 +82,8 @@ email:abuse-node49[]posteo.de url:hydra-family.github.io...</a></dd>
 <dd>185.125.171.100</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  80-81
-  443
-  5222-5223
-  6667-7000
-  8008
-  8082
-  8332-8333
-  8888
-  9418
-  18080-18081
-  50002
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -106,27 +93,7 @@ email:abuse-node49[]posteo.de url:hydra-family.github.io...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:20-21
- accept *:43
- accept *:80-81
- accept *:443
- accept *:5222-5223
- accept *:6667-7000
- accept *:8008
- accept *:8082
- accept *:8332-8333
- accept *:8888
- accept *:9418
- accept *:50002
- accept *:64738
- accept *:18080-18081
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
@@ -249,14 +216,12 @@ on
 <dd>198 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>40000</dd>
+<dd>31000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -273,7 +238,7 @@ TerraHost AS -
 <a href="../as_number/AS56655.html">AS56655</a>
 (<a href='https://bgp.he.net/AS56655'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-09-10 15:07:25</dd>
+<dd>2022-09-17 12:31:10</dd>
 
 <dt>Country</dt>
 <dd>
