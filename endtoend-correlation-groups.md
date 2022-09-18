@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-09-17 17:00 UTC**
+Tor network data as of: **2022-09-18 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -39,6 +39,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [myNiceRelay](https://metrics.torproject.org/rs.html#details/21524A2BC6C4275B2FDC23F0FF2344B6D8FEC255) | 2022-08-18   | Yes         |                     1 |
 | [0d210s](https://metrics.torproject.org/rs.html#details/D2B845D50ED5B49A8B8B425AB530C38D952E5C3C)      | 2022-09-08   | No          |                     1 |
 
+## ContactInfo: abuse at as204750 dot net (2) {#abuseatas204750dotnet}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [as204750relay01](https://metrics.torproject.org/rs.html#details/D62D4ACD66B9FB91AC2EAA7CF29E654A8AEC1C36) | 2022-08-02   | Yes         |                     1 |
+| [as204750exit01](https://metrics.torproject.org/rs.html#details/CD934868E801860F1F3DEB16261E4C4B9BC7F36A)  | 2022-07-10   | No          |                     1 |
+
 ## ContactInfo: Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt; (6) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
 
 | Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
@@ -52,17 +59,17 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## ContactInfo: potlatch protonmail com (7) {#potlatch-protonmail-com}
 
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [TorExitBulgaria](https://metrics.torproject.org/rs.html#details/961B9D86125A08FAA9F7E742B228307EF7E2E082) | 2021-06-30   | Yes         |                     8 |
-| [TorExitCz](https://metrics.torproject.org/rs.html#details/FFEA37B6DA76C458D3E35476DD7D1FD0A98AE731)       | 2021-12-07   | Yes         |                     8 |
-| [rome2](https://metrics.torproject.org/rs.html#details/02357911B882F257676E75B07ECFFF5885E4B345)           | 2022-09-15   | No          |                     1 |
-| [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270)  | 2016-03-02   | No          |                     8 |
-| [TorExitMoldova](https://metrics.torproject.org/rs.html#details/742C45F2D9004AADE0077E528A4418A6A81BC2BA)  | 2019-01-01   | No          |                     8 |
-| [TorExitFinland](https://metrics.torproject.org/rs.html#details/9B31F1F1C1554F9FFB3455911F82E818EF7C7883)  | 2015-12-31   | No          |                     8 |
-| [TorExitMoldova](https://metrics.torproject.org/rs.html#details/B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1)  | 2017-05-24   | No          |                     8 |
+| Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
+|:----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [TorExitCz](https://metrics.torproject.org/rs.html#details/FFEA37B6DA76C458D3E35476DD7D1FD0A98AE731)      | 2021-12-07   | Yes         |                     8 |
+| [lollipop](https://metrics.torproject.org/rs.html#details/08CD9D4224058DC97A1F27679A5BEE5724C4C6EC)       | 2020-08-15   | Yes         |                     8 |
+| [rome2](https://metrics.torproject.org/rs.html#details/02357911B882F257676E75B07ECFFF5885E4B345)          | 2022-09-15   | No          |                     1 |
+| [TorExitRomania](https://metrics.torproject.org/rs.html#details/4061C553CA88021B8302F0814365070AAE617270) | 2016-03-02   | No          |                     8 |
+| [TorExitMoldova](https://metrics.torproject.org/rs.html#details/742C45F2D9004AADE0077E528A4418A6A81BC2BA) | 2019-01-01   | No          |                     8 |
+| [TorExitFinland](https://metrics.torproject.org/rs.html#details/9B31F1F1C1554F9FFB3455911F82E818EF7C7883) | 2015-12-31   | No          |                     8 |
+| [TorExitMoldova](https://metrics.torproject.org/rs.html#details/B06F093A3D4DFAD3E923F4F28A74901BD4F74EB1) | 2017-05-24   | No          |                     8 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-14693074C2325CEC8746AFBB85291E749AC45D5D,21524A2BC6C4275B2FDC23F0FF2344B6D8FEC255,5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,961B9D86125A08FAA9F7E742B228307EF7E2E082,FFEA37B6DA76C458D3E35476DD7D1FD0A98AE731
+14693074C2325CEC8746AFBB85291E749AC45D5D,21524A2BC6C4275B2FDC23F0FF2344B6D8FEC255,5788F2CD0808CC2BB3F3679DC4BB40FCDB0C152C,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87,D62D4ACD66B9FB91AC2EAA7CF29E654A8AEC1C36,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,08CD9D4224058DC97A1F27679A5BEE5724C4C6EC,961B9D86125A08FAA9F7E742B228307EF7E2E082,FFEA37B6DA76C458D3E35476DD7D1FD0A98AE731
