@@ -49,33 +49,71 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/6a7c2b4ecf90a87dcd5e64dbc320bc11.html">all relays with this contact</a>)</dt>
+<dd>
+blackrabbit7171@gmail.com</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-91.172.215.29:16384
+91.172.215.29:16483
 [2a01:e0a:335:c750:387c:20a2:a70f:33f6]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
-<dd>91.172.215.29:17777</dd>
+<dd>91.172.215.29:17779</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>91.172.215.29</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -103,13 +141,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>8 Mbit/s</dd>
+<dd>7 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>310</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +165,7 @@ Free SAS -
 <a href="../as_number/AS12322.html">AS12322</a>
 (<a href='https://bgp.he.net/AS12322'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-09-18 23:15:49</dd>
+<dd>2022-09-20 14:39:27</dd>
 
 <dt>Country</dt>
 <dd>
