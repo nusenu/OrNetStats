@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/0eb14dc89cb0e18cd8f775c7793862ee.html">all relays with this contact</a>)</dt>
+<dd>
+jari@airmail.cc</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 141.95.53.71:9001
@@ -60,11 +62,18 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>141.95.53.71</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
 </pre>
 </dd>
 
@@ -74,12 +83,27 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">D6040C7918C3CB41A48410106B9B227640D34A0B
+<dt>Effective Family Members (<a href="../family/4767937872485cb96309ddc3c9aba4736d1f709a4d9c6038d0368b22b7d46fe4.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="586DD895884CF6CAB1E7446EBE099CA5442CF7CE.html">586DD895884CF6CAB1E7446EBE099CA5442CF7CE</a>
+<a href="D6040C7918C3CB41A48410106B9B227640D34A0B.html">D6040C7918C3CB41A48410106B9B227640D34A0B</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -102,13 +126,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>12 Mbit/s</dd>
+<dd>45 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>1500</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -124,7 +150,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-09-25 10:49:24</dd>
+<dd>2022-09-29 08:29:21</dd>
 
 <dt>Country</dt>
 <dd>
