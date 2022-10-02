@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-01 21:00 UTC**
+Tor network data as of: **2022-10-02 12:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -42,16 +42,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Minotaur](https://metrics.torproject.org/rs.html#details/8BDBE498180C41249D3230FC5092CB3EB5A62482)   | 2021-04-06   | No          |                     8 |
 | [Charybdis](https://metrics.torproject.org/rs.html#details/CBF59EC5B9FD108092AE9149EFDAE41F882DA669)  | 2022-08-19   | No          |                     7 |
 
-## ContactInfo: tor at reichsfunkma dot st tor-relay.co (5) {#tor-at-reichsfunkma-dot-st-tor-relayco}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Reichsfunkmast4](https://metrics.torproject.org/rs.html#details/4F35C7CA62740A43AC6A46A355516B85018AC8A0) | 2022-08-20   | Yes         |                     6 |
-| [Reichsfunkmast5](https://metrics.torproject.org/rs.html#details/B0A134CAF4494B3913E05DB46347633D9C4A8A8B) | 2022-06-23   | Yes         |                     6 |
-| [Reichsfunkmast9](https://metrics.torproject.org/rs.html#details/0CF8D1A7921192BDED02CA577A7D93654B59B83A) | 2022-10-01   | No          |                     1 |
-| [Reichsfunkmast1](https://metrics.torproject.org/rs.html#details/3B43FB4F237EBE3570CB06B500CA1E8B46EEAFA1) | 2022-06-03   | No          |                     6 |
-| [Reichsfunkmast2](https://metrics.torproject.org/rs.html#details/F3A9588FB45F76DA4DE5B350C425C130F6FFA983) | 2022-06-22   | No          |                     6 |
-
 ## ContactInfo: cam632@gmx.com (2) {#cam632gmxcom}
 
 | Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
@@ -71,4 +61,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1DEECD906AFECF496B7DC1E40829F4563517B4CC,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,4F35C7CA62740A43AC6A46A355516B85018AC8A0,B0A134CAF4494B3913E05DB46347633D9C4A8A8B,E99A1B54541518A8A6058D75762497AE0D3442DC,3B42ABB5E5338BD98BDB44918581379107B54AEF
+1DEECD906AFECF496B7DC1E40829F4563517B4CC,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,E99A1B54541518A8A6058D75762497AE0D3442DC,3B42ABB5E5338BD98BDB44918581379107B54AEF
