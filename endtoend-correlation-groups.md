@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-03 15:00 UTC**
+Tor network data as of: **2022-10-04 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -35,8 +35,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 |:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC) | 2022-09-19   | Yes         |                     7 |
 | [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)      | 2022-08-21   | Yes         |                     8 |
-| [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)  | 2022-09-19   | Yes         |                     8 |
 | [Echidna](https://metrics.torproject.org/rs.html#details/BA57222A0EC9ECDF003AED665DFB0B1287EA039D)    | 2022-08-21   | Yes         |                     8 |
+| [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)  | 2022-09-19   | Yes         |                     8 |
 | [Polyphemus](https://metrics.torproject.org/rs.html#details/0CABED9159F1E4BE82879F5A34ED8D7349E931BD) | 2022-09-14   | No          |                     7 |
 | [Chimera](https://metrics.torproject.org/rs.html#details/2946159CF9D8EAEB8C4A27F6A54B01A459DEE164)    | 2022-08-21   | No          |                     7 |
 | [Minotaur](https://metrics.torproject.org/rs.html#details/8BDBE498180C41249D3230FC5092CB3EB5A62482)   | 2021-04-06   | No          |                     8 |
@@ -49,16 +49,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Praktiker](https://metrics.torproject.org/rs.html#details/E99A1B54541518A8A6058D75762497AE0D3442DC) | 2022-09-23   | Yes         |                     1 |
 | [Boro](https://metrics.torproject.org/rs.html#details/5F4BCBC6E20AE074340D0A743E6F2EA4B51B09C1)      | 2022-08-31   | No          |                     1 |
 
-## ContactInfo: tor at reichsfunkma dot st (4) {#tor-at-reichsfunkma-dot-st}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Reichsfunkmast6](https://metrics.torproject.org/rs.html#details/3B42ABB5E5338BD98BDB44918581379107B54AEF) | 2022-09-23   | Yes         |                     6 |
-| [Reichsfunkmast7](https://metrics.torproject.org/rs.html#details/3006DF6A83292E3472BEC461543CEB775C00BB9B) | 2022-09-30   | No          |                     1 |
-| [Reichsfunkmast3](https://metrics.torproject.org/rs.html#details/99A6EDEC44F733ACAF2539B353118F36D27322E3) | 2022-09-20   | No          |                     6 |
-| [Reichsfunkmast8](https://metrics.torproject.org/rs.html#details/E8B477C17E9FC1A535BBC2468957F7B9282A783A) | 2022-09-30   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1DEECD906AFECF496B7DC1E40829F4563517B4CC,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,E99A1B54541518A8A6058D75762497AE0D3442DC,3B42ABB5E5338BD98BDB44918581379107B54AEF
+1DEECD906AFECF496B7DC1E40829F4563517B4CC,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,E99A1B54541518A8A6058D75762497AE0D3442DC
