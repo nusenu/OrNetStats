@@ -63,16 +63,17 @@ tornode2022@protonmail.com</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>85.204.116.234</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
   20-21
   43
   53
-  80
+  80-81
   110
   143
+  443
   873
   989-990
   993
@@ -81,7 +82,13 @@ tornode2022@protonmail.com</a></dd>
   1293
   4321
   5222-5223
+  8332-8333
+  8888
+  9418
   11371
+  18080-18081
+  19294
+  50002
   64738
 </pre>
 </dd>
@@ -101,9 +108,10 @@ tornode2022@protonmail.com</a></dd>
  accept *:20-21
  accept *:43
  accept *:53
- accept *:80
+ accept *:80-81
  accept *:110
  accept *:143
+ accept *:443
  accept *:873
  accept *:989-990
  accept *:993
@@ -111,9 +119,15 @@ tornode2022@protonmail.com</a></dd>
  accept *:1194
  accept *:1293
  accept *:4321
- accept *:11371
- accept *:64738
  accept *:5222-5223
+ accept *:8332-8333
+ accept *:8888
+ accept *:9418
+ accept *:11371
+ accept *:50002
+ accept *:64738
+ accept *:18080-18081
+ accept *:19294
  reject *:*
 </pre></dd>
 </dd>
@@ -150,10 +164,11 @@ on
 <dd>3 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>320</dd>
+<dd>380</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -170,7 +185,7 @@ HOSTMAZE INC SRL-D -
 <a href="../as_number/AS48874.html">AS48874</a>
 (<a href='https://bgp.he.net/AS48874'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-10-04 12:21:48</dd>
+<dd>2022-10-05 13:02:56</dd>
 
 <dt>Country</dt>
 <dd>
