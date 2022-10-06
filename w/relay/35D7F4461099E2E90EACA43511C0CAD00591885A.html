@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/bb2fc5b8053520aad3d633b5387258ba.html">all relays with this contact</a>)</dt>
+(<a href="../contact/3b1de4f9e52d54a78f3d884433eddbeb.html">all relays with this contact</a>)</dt>
 <dd>
-imaghostpro@protonmail.com</a></dd>
+blackrabbit@gmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -66,14 +66,34 @@ imaghostpro@protonmail.com</a></dd>
 <dd>91.172.215.29</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -83,6 +103,16 @@ imaghostpro@protonmail.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
  accept *:*
 </pre></dd>
 </dd>
@@ -114,7 +144,7 @@ on
 <dd>28 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1300</dd>
+<dd>880</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -135,7 +165,7 @@ Free SAS -
 <a href="../as_number/AS12322.html">AS12322</a>
 (<a href='https://bgp.he.net/AS12322'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-09-20 14:39:27</dd>
+<dd>2022-10-05 22:45:39</dd>
 
 <dt>Country</dt>
 <dd>
