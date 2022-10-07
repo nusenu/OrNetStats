@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-06 17:00 UTC**
+Tor network data as of: **2022-10-07 14:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,20 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt; (8) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
+## ContactInfo: cam632@gmx.com (2) {#cam632gmxcom}
 
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC) | 2022-09-19   | Yes         |                     7 |
-| [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)      | 2022-08-21   | Yes         |                     8 |
-| [Echidna](https://metrics.torproject.org/rs.html#details/BA57222A0EC9ECDF003AED665DFB0B1287EA039D)    | 2022-08-21   | Yes         |                     8 |
-| [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)  | 2022-09-19   | Yes         |                     8 |
-| [Polyphemus](https://metrics.torproject.org/rs.html#details/0CABED9159F1E4BE82879F5A34ED8D7349E931BD) | 2022-09-14   | No          |                     7 |
-| [Chimera](https://metrics.torproject.org/rs.html#details/2946159CF9D8EAEB8C4A27F6A54B01A459DEE164)    | 2022-08-21   | No          |                     7 |
-| [Minotaur](https://metrics.torproject.org/rs.html#details/8BDBE498180C41249D3230FC5092CB3EB5A62482)   | 2021-04-06   | No          |                     8 |
-| [Charybdis](https://metrics.torproject.org/rs.html#details/CBF59EC5B9FD108092AE9149EFDAE41F882DA669)  | 2022-08-19   | No          |                     7 |
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Praktiker](https://metrics.torproject.org/rs.html#details/E99A1B54541518A8A6058D75762497AE0D3442DC) | 2022-09-23   | Yes         |                     1 |
+| [Boro](https://metrics.torproject.org/rs.html#details/5F4BCBC6E20AE074340D0A743E6F2EA4B51B09C1)      | 2022-08-31   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-1DEECD906AFECF496B7DC1E40829F4563517B4CC,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F
+E99A1B54541518A8A6058D75762497AE0D3442DC
