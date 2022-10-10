@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-09 19:00 UTC**
+Tor network data as of: **2022-10-10 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,14 +29,16 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: cam632@gmx.com (2) {#cam632gmxcom}
+## ContactInfo: tor at reichsfunkma dot st (4) {#tor-at-reichsfunkma-dot-st}
 
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Praktiker](https://metrics.torproject.org/rs.html#details/E99A1B54541518A8A6058D75762497AE0D3442DC) | 2022-09-23   | Yes         |                     1 |
-| [Boro](https://metrics.torproject.org/rs.html#details/5F4BCBC6E20AE074340D0A743E6F2EA4B51B09C1)      | 2022-08-31   | No          |                     1 |
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [Reichsfunkmast6](https://metrics.torproject.org/rs.html#details/3B42ABB5E5338BD98BDB44918581379107B54AEF) | 2022-09-23   | Yes         |                     8 |
+| [Reichsfunkmast7](https://metrics.torproject.org/rs.html#details/73DA3211EF6B5F427E5014FBF926B151AFBD9C91) | 2022-10-10   | No          |                     1 |
+| [Reichsfunkmast3](https://metrics.torproject.org/rs.html#details/99A6EDEC44F733ACAF2539B353118F36D27322E3) | 2022-09-20   | No          |                     8 |
+| [Reichsfunkmast8](https://metrics.torproject.org/rs.html#details/E8B477C17E9FC1A535BBC2468957F7B9282A783A) | 2022-09-30   | No          |                     7 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-E99A1B54541518A8A6058D75762497AE0D3442DC
+3B42ABB5E5338BD98BDB44918581379107B54AEF
