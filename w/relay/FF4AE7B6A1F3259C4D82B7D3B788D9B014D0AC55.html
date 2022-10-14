@@ -55,7 +55,7 @@ no-reply@localhost</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-136.244.119.235:80
+136.244.119.235:443
 [2001:19f0:6801:1659:5400:4ff:fe29:39b7]
 </pre></dd>
 
@@ -63,17 +63,25 @@ no-reply@localhost</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>136.244.119.235</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  853
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  853
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -84,7 +92,9 @@ no-reply@localhost</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  accept *:443
+ accept *:80
  accept *:53
+ accept *:853
  reject *:*
 </pre></dd>
 </dd>
@@ -115,10 +125,11 @@ on
 <dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -134,7 +145,7 @@ AS-CHOOPA -
 <a href="../as_number/AS20473.html">AS20473</a>
 (<a href='https://bgp.he.net/AS20473'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-10-13 20:49:58</dd>
+<dd>2022-10-14 10:13:28</dd>
 
 <dt>Country</dt>
 <dd>
