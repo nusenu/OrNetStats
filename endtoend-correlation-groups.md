@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-17 16:00 UTC**
+Tor network data as of: **2022-10-19 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,23 +29,28 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Random Person nobody@tor.org (11) {#random-person-nobodytororg}
+## ContactInfo: your@e-mail (4) {#youre-mail}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CoolRelay](https://metrics.torproject.org/rs.html#details/D594BC4244636CC342973B594B707685DCAA0C87) | 2022-07-11   | Yes         |                     1 |
+| [AMSRelay](https://metrics.torproject.org/rs.html#details/A9DA735C9DE7C891B9EDD6B433B458F7687E829B)  | 2022-08-29   | Yes         |                     1 |
+| [myRelay](https://metrics.torproject.org/rs.html#details/0CABC7987695482274734502CBB8E4AB550C1141)   | 2022-10-11   | Yes         |                     1 |
+| [newRelay](https://metrics.torproject.org/rs.html#details/9DEDA0B85B2388BE592B64598EA92414EB3E8D3B)  | 2022-10-14   | No          |                     1 |
+
+## ContactInfo: Random Person nobody@tor.org (7) {#random-person-nobodytororg}
 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [pooclown](https://metrics.torproject.org/rs.html#details/F7BB03BC77CEB6EF66478C58A343028958EB7693)            | 2022-09-20   | Yes         |                     1 |
+| [imherefortheparty](https://metrics.torproject.org/rs.html#details/3540A4DD39DCF318842B295CDDD49118924F2A57)   | 2022-04-08   | Yes         |                     1 |
 | [maddy](https://metrics.torproject.org/rs.html#details/E79404C7477110F73863BC5908F3F1C70990B685)               | 2022-10-08   | Yes         |                     1 |
+| [pooclown](https://metrics.torproject.org/rs.html#details/F7BB03BC77CEB6EF66478C58A343028958EB7693)            | 2022-09-20   | Yes         |                     1 |
 | [ididnteditheconfig](https://metrics.torproject.org/rs.html#details/80F597A2715438BDD986E6F7AC8646EEA4E492F0)  | 2020-10-21   | Yes         |                     1 |
 | [wehrhaftedemokratie](https://metrics.torproject.org/rs.html#details/60B6F3FAF65C4434F7A1F68216206BE807CE8075) | 2022-07-31   | Yes         |                     1 |
-| [ididreadtheconfig](https://metrics.torproject.org/rs.html#details/F96CBFC5C079D839E01902802A70029486D2AD82)   | 2022-08-09   | Yes         |                     1 |
-| [3303d3fe5c280f65](https://metrics.torproject.org/rs.html#details/1222A9B0071CD04E80C28D5A16F4BB74856067D3)    | 2022-10-16   | No          |                     1 |
-| [ada97e41bada065b](https://metrics.torproject.org/rs.html#details/4739AC5558C54C9955D832CACB72814B2315AD32)    | 2022-10-16   | No          |                     1 |
-| [e129fba5dc46c8f3](https://metrics.torproject.org/rs.html#details/6F928075B92C8CB151F94C56C87784A6BFA07A93)    | 2022-10-16   | No          |                     1 |
-| [169fc1786a2ff861](https://metrics.torproject.org/rs.html#details/96DD805CB253A0C469927290680B8F14AA6FE273)    | 2022-10-16   | No          |                     1 |
-| [c7650d47136f596e](https://metrics.torproject.org/rs.html#details/B54459C05D8FEF67E31B4817ECC2178C8296EA27)    | 2022-10-16   | No          |                     1 |
+| [ididnteditheconfig](https://metrics.torproject.org/rs.html#details/5EA46A3C23E4A3905DAAE9BD4801142E20AEA780)  | 2022-10-05   | No          |                     1 |
 | [theglowingones](https://metrics.torproject.org/rs.html#details/E399BF6C6EEB4D63A388911B84C16909CD84A13E)      | 2022-10-13   | No          |                     1 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-60B6F3FAF65C4434F7A1F68216206BE807CE8075,80F597A2715438BDD986E6F7AC8646EEA4E492F0,9B44CAE280BDDC8B79999427FFA459A2EC2E9EB2,E79404C7477110F73863BC5908F3F1C70990B685,F7BB03BC77CEB6EF66478C58A343028958EB7693,F96CBFC5C079D839E01902802A70029486D2AD82
+0CABC7987695482274734502CBB8E4AB550C1141,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87,3540A4DD39DCF318842B295CDDD49118924F2A57,60B6F3FAF65C4434F7A1F68216206BE807CE8075,80F597A2715438BDD986E6F7AC8646EEA4E492F0,E79404C7477110F73863BC5908F3F1C70990B685,F7BB03BC77CEB6EF66478C58A343028958EB7693
