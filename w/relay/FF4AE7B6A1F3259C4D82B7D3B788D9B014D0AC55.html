@@ -67,20 +67,32 @@ no-reply@localhost</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
-  80
+  80-81
   443
+  554
   853
+  1194
+  1293
+  5222-5223
+  9418
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
-  80
+  80-81
   443
+  554
   853
+  1194
+  1293
+  5222-5223
+  9418
 </pre>
 </dd>
 
@@ -91,10 +103,16 @@ no-reply@localhost</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:443
- accept *:80
  accept *:53
  accept *:853
+ accept *:80-81
+ accept *:443
+ accept *:554
+ accept *:5222-5223
+ accept *:9418
+ accept *:1194
+ accept *:1293
+ accept *:43
  reject *:*
 </pre></dd>
 </dd>
@@ -125,12 +143,13 @@ on
 <dd>16 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>850</dd>
+<dd>1200</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -146,7 +165,7 @@ AS-CHOOPA -
 <a href="../as_number/AS20473.html">AS20473</a>
 (<a href='https://bgp.he.net/AS20473'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-10-14 10:21:03</dd>
+<dd>2022-10-20 20:44:17</dd>
 
 <dt>Country</dt>
 <dd>
