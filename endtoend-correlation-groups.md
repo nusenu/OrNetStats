@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-10-21 15:00 UTC**
+Tor network data as of: **2022-10-22 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,27 +29,34 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: your@e-mail (4) {#youre-mail}
-
-| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [CoolRelay](https://metrics.torproject.org/rs.html#details/D594BC4244636CC342973B594B707685DCAA0C87) | 2022-07-11   | Yes         |                     1 |
-| [AMSRelay](https://metrics.torproject.org/rs.html#details/A9DA735C9DE7C891B9EDD6B433B458F7687E829B)  | 2022-08-29   | Yes         |                     1 |
-| [myRelay](https://metrics.torproject.org/rs.html#details/0CABC7987695482274734502CBB8E4AB550C1141)   | 2022-10-11   | Yes         |                     1 |
-| [newRelay](https://metrics.torproject.org/rs.html#details/9DEDA0B85B2388BE592B64598EA92414EB3E8D3B)  | 2022-10-14   | No          |                     1 |
-
-## ContactInfo: Random Person nobody@tor.org (6) {#random-person-nobodytororg}
+## ContactInfo: Random Person nobody@tor.org (7) {#random-person-nobodytororg}
 
 | Nickname                                                                                                       | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [imherefortheparty](https://metrics.torproject.org/rs.html#details/3540A4DD39DCF318842B295CDDD49118924F2A57)   | 2022-04-08   | Yes         |                     1 |
 | [maddy](https://metrics.torproject.org/rs.html#details/E79404C7477110F73863BC5908F3F1C70990B685)               | 2022-10-08   | Yes         |                     1 |
+| [pooclown](https://metrics.torproject.org/rs.html#details/F7BB03BC77CEB6EF66478C58A343028958EB7693)            | 2022-09-20   | Yes         |                     1 |
 | [ididnteditheconfig](https://metrics.torproject.org/rs.html#details/80F597A2715438BDD986E6F7AC8646EEA4E492F0)  | 2020-10-21   | Yes         |                     1 |
 | [wehrhaftedemokratie](https://metrics.torproject.org/rs.html#details/60B6F3FAF65C4434F7A1F68216206BE807CE8075) | 2022-07-31   | Yes         |                     1 |
 | [ididnteditheconfig](https://metrics.torproject.org/rs.html#details/5EA46A3C23E4A3905DAAE9BD4801142E20AEA780)  | 2022-10-05   | No          |                     1 |
 | [theglowingones](https://metrics.torproject.org/rs.html#details/E399BF6C6EEB4D63A388911B84C16909CD84A13E)      | 2022-10-13   | No          |                     1 |
 
+## ContactInfo: your@e-mail (3) {#youre-mail}
+
+| Nickname                                                                                             | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [CoolRelay](https://metrics.torproject.org/rs.html#details/D594BC4244636CC342973B594B707685DCAA0C87) | 2022-07-11   | Yes         |                     1 |
+| [AMSRelay](https://metrics.torproject.org/rs.html#details/A9DA735C9DE7C891B9EDD6B433B458F7687E829B)  | 2022-08-29   | Yes         |                     1 |
+| [newRelay](https://metrics.torproject.org/rs.html#details/9DEDA0B85B2388BE592B64598EA92414EB3E8D3B)  | 2022-10-14   | No          |                     1 |
+
+## ContactInfo: 96001reddit at protonmail dot com (2) {#96001redditatprotonmaildotcom}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [RelaysOfBabylon](https://metrics.torproject.org/rs.html#details/0C29BDA07390E89AC6DA4775FB102A1B8183F6C2) | 2022-09-20   | Yes         |                     1 |
+| [imboredrelay](https://metrics.torproject.org/rs.html#details/654B364C24573B4631C8AD7C39C161C568C04A3C)    | 2022-09-14   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0CABC7987695482274734502CBB8E4AB550C1141,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87,3540A4DD39DCF318842B295CDDD49118924F2A57,60B6F3FAF65C4434F7A1F68216206BE807CE8075,80F597A2715438BDD986E6F7AC8646EEA4E492F0,E79404C7477110F73863BC5908F3F1C70990B685
+3540A4DD39DCF318842B295CDDD49118924F2A57,60B6F3FAF65C4434F7A1F68216206BE807CE8075,80F597A2715438BDD986E6F7AC8646EEA4E492F0,E79404C7477110F73863BC5908F3F1C70990B685,F7BB03BC77CEB6EF66478C58A343028958EB7693,0CABC7987695482274734502CBB8E4AB550C1141,A9DA735C9DE7C891B9EDD6B433B458F7687E829B,D594BC4244636CC342973B594B707685DCAA0C87,0C29BDA07390E89AC6DA4775FB102A1B8183F6C2
