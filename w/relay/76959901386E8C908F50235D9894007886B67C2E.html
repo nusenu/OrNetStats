@@ -66,43 +66,17 @@ Jeff Teitel &lt;jeff@teitel.net&gt;</a></dd>
 <dd>198.98.51.189</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  21-22
-  25
-  119
-  135-139
-  445
-  465
-  563
-  587
-  1214
-  4661-4666
-  4672
-  6346-6429
-  6699
-  6881-6999
-  10000
+<pre class="pre-scrollable">accept: 
+  80-81
+  443
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  21-22
-  25
-  119
-  135-139
-  445
-  465
-  563
-  587
-  1214
-  4661-4666
-  4672
-  6346-6429
-  6699
-  6881-6999
-  10000
+<pre class="pre-scrollable">accept: 
+  80-81
+  443
 </pre>
 </dd>
 
@@ -113,23 +87,9 @@ Jeff Teitel &lt;jeff@teitel.net&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:21
- reject *:22
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:465
- reject *:587
- reject *:1214
- reject *:4672
- reject *:6699
- reject *:6881-6999
- reject *:10000
- reject *:563
- reject *:4661-4666
- reject *:6346-6429
- accept *:*
+ accept *:80-81
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -156,10 +116,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>137 Mbit/s</dd>
+<dd>109 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2800</dd>
+<dd>3900</dd>
 
 <dt>Flags</dt>
 <dd>
