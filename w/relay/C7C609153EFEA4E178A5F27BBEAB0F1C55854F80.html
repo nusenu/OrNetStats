@@ -63,17 +63,14 @@
 <dd>84.234.96.133</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  853
+  3389
+  5900
+  50002
 </pre>
 </dd>
 
@@ -89,17 +86,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:80
+ accept *:443
+ accept *:53
+ accept *:20
+ accept *:21
+ accept *:989
+ accept *:990
+ accept *:853
+ accept *:50002
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -126,10 +122,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>47 Mbit/s</dd>
+<dd>49 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2800</dd>
+<dd>2600</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -152,7 +148,7 @@ TIPZOR MEDIA SRL -
 <a href="../as_number/AS51177.html">AS51177</a>
 (<a href='https://bgp.he.net/AS51177'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-10-30 23:08:49</dd>
+<dd>2022-11-01 03:29:48</dd>
 
 <dt>Country</dt>
 <dd>
