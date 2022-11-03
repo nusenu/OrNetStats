@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-11-02 17:00 UTC**
+Tor network data as of: **2022-11-03 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: 96001reddit at protonmail dot com (2) {#96001redditatprotonmaildotcom}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [RelaysOfBabylon](https://metrics.torproject.org/rs.html#details/0C29BDA07390E89AC6DA4775FB102A1B8183F6C2) | 2022-09-20   | Yes         |                     1 |
-| [imboredrelay](https://metrics.torproject.org/rs.html#details/654B364C24573B4631C8AD7C39C161C568C04A3C)    | 2022-09-14   | No          |                     1 |
-
 ## ContactInfo: TheSloth tor &lt;at&gt; slothbucks &lt;dot&gt; net (2) {#thesloth-tor-at-slothbucks-dot--net}
 
 | Nickname                                                                                                  | First Seen   | Guardonly   |   Eff. Family Members |
@@ -43,7 +36,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [LucoaKobayashi](https://metrics.torproject.org/rs.html#details/CF072FA81CFC075DA9675DC01394DB580E28958E) | 2022-10-25   | Yes         |                     1 |
 | [TohruKobayashi](https://metrics.torproject.org/rs.html#details/D19AFD75C4B098FAAB3F94BD42CAD1607F75FD60) | 2022-10-03   | No          |                     1 |
 
+## ContactInfo: 96001reddit at protonmail dot com (2) {#96001redditatprotonmaildotcom}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [RelaysOfBabylon](https://metrics.torproject.org/rs.html#details/0C29BDA07390E89AC6DA4775FB102A1B8183F6C2) | 2022-09-20   | Yes         |                     1 |
+| [imboredrelay](https://metrics.torproject.org/rs.html#details/654B364C24573B4631C8AD7C39C161C568C04A3C)    | 2022-09-14   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0C29BDA07390E89AC6DA4775FB102A1B8183F6C2,CF072FA81CFC075DA9675DC01394DB580E28958E
+CF072FA81CFC075DA9675DC01394DB580E28958E,0C29BDA07390E89AC6DA4775FB102A1B8183F6C2
