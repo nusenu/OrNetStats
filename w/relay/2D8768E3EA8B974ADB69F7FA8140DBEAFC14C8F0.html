@@ -65,8 +65,9 @@ NotMyMomsAdmin &lt;NotMyMomsTorRelay AT schaefer minus home dot...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  22
+  25
 </pre>
 </dd>
 
@@ -82,8 +83,10 @@ NotMyMomsAdmin &lt;NotMyMomsTorRelay AT schaefer minus home dot...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject 185.220.100.246:*
+ reject *:25
+ reject *:22
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -114,10 +117,12 @@ on
 <dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4</dd>
+<dd>3</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -133,7 +138,7 @@ Luxembourg Online S.A. -
 <a href="../as_number/AS8632.html">AS8632</a>
 (<a href='https://bgp.he.net/AS8632'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-11-13 22:01:17</dd>
+<dd>2022-11-17 19:12:42</dd>
 
 <dt>Country</dt>
 <dd>
