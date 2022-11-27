@@ -63,8 +63,8 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  443
 </pre>
 </dd>
 
@@ -74,7 +74,14 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -102,10 +109,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>9 Mbit/s</dd>
+<dd>10 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>3300</dd>
+<dd>3100</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -126,7 +133,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-11-20 17:15:17</dd>
+<dd>2022-11-27 13:58:57</dd>
 
 <dt>Country</dt>
 <dd>
