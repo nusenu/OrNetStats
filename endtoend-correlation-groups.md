@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-12-01 18:00 UTC**
+Tor network data as of: **2022-12-02 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,13 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (54) {#emailabuse-node49posteode-urlhydra-familygit}
+## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (55) {#emailabuse-node49posteode-urlhydra-familygit}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    80 |
-| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    80 |
+| [Hydra93a](https://metrics.torproject.org/rs.html#details/5D575ADD108DDBBF17E78AD8CB267D6C1F338206) | 2022-09-03   | Yes         |                    80 |
 | [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    80 |
+| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    80 |
+| [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    80 |
 | [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    80 |
 | [Hydra70a](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    80 |
 | [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    80 |
@@ -88,21 +89,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Hydra41](https://metrics.torproject.org/rs.html#details/EFE8849D10519AB1750E1AF47410059522800D32)  | 2021-03-04   | No          |                    80 |
 | [Hydra84](https://metrics.torproject.org/rs.html#details/F2657F6A17BE608FD94F565BC45648313D617B63)  | 2022-02-08   | No          |                    80 |
 
-## ContactInfo: abuse &lt;abuse@keko.moe&gt; (10) {#abuse-abusekekomoe}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [KeKoSE](https://metrics.torproject.org/rs.html#details/DB41FF1ECDE43FC17756FCE59F0FFDE9352D86B2)        | 2022-11-18   | Yes         |                     1 |
-| [KeKoUSW](https://metrics.torproject.org/rs.html#details/9F02F61C110E8034B442764D3D173AB117375CDA)       | 2022-11-13   | Yes         |                     1 |
-| [KeKoUSC](https://metrics.torproject.org/rs.html#details/081A5BAF9775499CAF7CCCAB2AF7765494F3B99F)       | 2022-11-14   | No          |                     1 |
-| [KeKoUSE](https://metrics.torproject.org/rs.html#details/0FE00E23373B8DC1DE38F963C9AB41C51DC58597)       | 2022-11-13   | No          |                     1 |
-| [KeKoUSW10Gbps](https://metrics.torproject.org/rs.html#details/29BDC0DB5ACBA985B2B3A5FACF4BD8199194282A) | 2022-11-21   | No          |                     1 |
-| [KeKo](https://metrics.torproject.org/rs.html#details/56684897F25E1AA02F6857FD522F32BAE7DC62C3)          | 2022-11-12   | No          |                     1 |
-| [KeKoUK2](https://metrics.torproject.org/rs.html#details/6FACAD3CAD98CDC56D5B1491DF0A14F15C9D5993)       | 2022-12-01   | No          |                     1 |
-| [KeKoNL](https://metrics.torproject.org/rs.html#details/82F4D4E584834EC126E33CACC4D3A12EA9A75C73)        | 2022-11-30   | No          |                     1 |
-| [KeKoSG](https://metrics.torproject.org/rs.html#details/B2286085D2D03113AA75B97175B87E300AA05CD7)        | 2022-12-01   | No          |                     1 |
-| [KeKoUK](https://metrics.torproject.org/rs.html#details/D0B7CE78636E8D2EFF4C4E2F5EDAE5E5B2A32A52)        | 2022-11-14   | No          |                     1 |
-
 ## ContactInfo: 96001reddit at protonmail dot com (2) {#96001redditatprotonmaildotcom}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
@@ -110,14 +96,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [RelaysOfBabylon](https://metrics.torproject.org/rs.html#details/0C29BDA07390E89AC6DA4775FB102A1B8183F6C2) | 2022-09-20   | Yes         |                     1 |
 | [imboredrelay](https://metrics.torproject.org/rs.html#details/654B364C24573B4631C8AD7C39C161C568C04A3C)    | 2022-09-14   | No          |                     1 |
 
-## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
-| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0F0F690AF1D32C7C3C72C543836625628887BA85,391F278B2B55548B97410ADFBD055D079D798E04,3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612,7B3535760987464C8B5686F203B6EBE767C0873E,8F293A6484A0973167B15C4997AB9F24C21143FE,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,DCCBB9717CD8B1F031B9A38C721D2BD9615697AA,9F02F61C110E8034B442764D3D173AB117375CDA,DB41FF1ECDE43FC17756FCE59F0FFDE9352D86B2,0C29BDA07390E89AC6DA4775FB102A1B8183F6C2,A9A4213EA3D707857368C683F2208C83B8755D8A
+0F0F690AF1D32C7C3C72C543836625628887BA85,391F278B2B55548B97410ADFBD055D079D798E04,3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,7B3535760987464C8B5686F203B6EBE767C0873E,8F293A6484A0973167B15C4997AB9F24C21143FE,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,DCCBB9717CD8B1F031B9A38C721D2BD9615697AA,0C29BDA07390E89AC6DA4775FB102A1B8183F6C2

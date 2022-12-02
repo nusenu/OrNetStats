@@ -65,8 +65,10 @@ damnatrelay(at)protonmail(dot)com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  8332-8333
+  9735
+  50001-50002
 </pre>
 </dd>
 
@@ -76,7 +78,16 @@ damnatrelay(at)protonmail(dot)com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8332-8333
+ accept *:50001-50002
+ accept *:9735
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -106,10 +117,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>52 Mbit/s</dd>
+<dd>55 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>3900</dd>
+<dd>7000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -129,7 +140,7 @@ on
 <a href="../as_number/AS210558.html">AS210558</a>
 (<a href='https://bgp.he.net/AS210558'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-12-01 08:32:19</dd>
+<dd>2022-12-02 09:54:13</dd>
 
 <dt>Country</dt>
 <dd>
