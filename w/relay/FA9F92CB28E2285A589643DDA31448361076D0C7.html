@@ -67,7 +67,10 @@ email:abuse [] middelstaedt dot com, tor [] middelstaedt dot com...</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  80
+  20-21
+  43
+  53
+  80-81
   443
 </pre>
 </dd>
@@ -75,7 +78,10 @@ email:abuse [] middelstaedt dot com, tor [] middelstaedt dot com...</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  80
+  20-21
+  43
+  53
+  80-81
   443
 </pre>
 </dd>
@@ -87,7 +93,10 @@ email:abuse [] middelstaedt dot com, tor [] middelstaedt dot com...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:80
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80-81
  accept *:443
  reject *:*
 </pre></dd>
@@ -124,10 +133,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>134 Mbit/s</dd>
+<dd>153 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>28000</dd>
+<dd>29000</dd>
 
 <dt>Flags</dt>
 <dd>

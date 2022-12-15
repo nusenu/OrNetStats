@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: Unnamed</title>
+    <title>Tor Relays :: i8t</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "Unnamed"</h2>
+<h2><a href="../">Home</a> :: Relay "i8t"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>Unnamed</dd>
+<dd>i8t</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -56,6 +56,7 @@ lopnet &lt;tor-exit at i8t dot com&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 185.84.31.254:9000
+[2a03:6f20:531::254]
 </pre></dd>
 
 
@@ -65,23 +66,46 @@ lopnet &lt;tor-exit at i8t dot com&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  20-21
+  53
+  80
+  443
+  989-991
+  993
+  995
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-21
+  53
+  80
+  443
+  989-991
+  993
+  995
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  9418
+  11371
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -91,17 +115,24 @@ lopnet &lt;tor-exit at i8t dot com&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:20-21
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:989-990
+ accept *:991
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1293
+ accept *:3690
+ accept *:4321
+ accept *:5222-5223
+ accept *:5228
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -129,7 +160,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>12 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -151,7 +182,7 @@ lopnet AB -
 <a href="../as_number/AS201146.html">AS201146</a>
 (<a href='https://bgp.he.net/AS201146'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-12-14 14:54:52</dd>
+<dd>2022-12-15 09:39:48</dd>
 
 <dt>Country</dt>
 <dd>
