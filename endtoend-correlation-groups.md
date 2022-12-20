@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2022-12-19 19:00 UTC**
+Tor network data as of: **2022-12-20 20:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,7 +29,7 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (53) {#emailabuse-node49posteode-urlhydra-familygit}
+## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (54) {#emailabuse-node49posteode-urlhydra-familygit}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -39,8 +39,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Hydra72a](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    63 |
 | [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    63 |
 | [Hydra70a](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    63 |
-| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    63 |
 | [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    63 |
+| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    63 |
 | [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    63 |
 | [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    63 |
 | [Hydra52a](https://metrics.torproject.org/rs.html#details/9BF600D6C06A3FBE28216C58CD241A89931CBE7D) | 2021-03-14   | Yes         |                    63 |
@@ -62,6 +62,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Hydra43](https://metrics.torproject.org/rs.html#details/5D5DDFF29B96CC566AA746636868EB07F97DE60C)  | 2021-03-04   | No          |                    63 |
 | [Hydra12](https://metrics.torproject.org/rs.html#details/62133EDB663C1C043B2A2DC24A19C351088EBD5C)  | 2021-01-11   | No          |                    63 |
 | [Hydra79](https://metrics.torproject.org/rs.html#details/630F75D5AD741889C1BC46DC354A6320152A7B32)  | 2022-02-08   | No          |                    63 |
+| [Hydra75](https://metrics.torproject.org/rs.html#details/63928D370B929EBDA54EF2ABDD4A63082085BF61)  | 2021-09-22   | No          |                    63 |
 | [Hydra25](https://metrics.torproject.org/rs.html#details/6CB18098F50819DEAB22E369EC3A5661A552A66C)  | 2020-11-20   | No          |                    63 |
 | [Hydra35](https://metrics.torproject.org/rs.html#details/7466057426018C41EDFC1465BE7F01E27155CFBF)  | 2021-01-02   | No          |                    63 |
 | [Hydra81](https://metrics.torproject.org/rs.html#details/76CEF92770EB9D1BBA8025EE4E1751A420B00878)  | 2022-02-08   | No          |                    63 |
@@ -91,9 +92,9 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [AltAddress02](https://metrics.torproject.org/rs.html#details/5191E3F9A8B9B0C8F356FF0A7D0DA30D95652116)      | 2022-11-26   | Yes         |                     5 |
-| [AltAddress01](https://metrics.torproject.org/rs.html#details/80CA806137BF939FBADF38B106A7BBF631FE0F76)      | 2022-11-26   | Yes         |                     5 |
 | [OpenInternet](https://metrics.torproject.org/rs.html#details/F37191452612F22EFB6F6204C75A45BF0B11B366)      | 2022-11-22   | Yes         |                     2 |
+| [AltAddress01](https://metrics.torproject.org/rs.html#details/80CA806137BF939FBADF38B106A7BBF631FE0F76)      | 2022-11-26   | Yes         |                     5 |
+| [AltAddress02](https://metrics.torproject.org/rs.html#details/5191E3F9A8B9B0C8F356FF0A7D0DA30D95652116)      | 2022-11-26   | Yes         |                     5 |
 | [Iter](https://metrics.torproject.org/rs.html#details/F3689448309B46A9B7A6612C54C205BAF0971E37)              | 2022-07-22   | Yes         |                     6 |
 | [UkranianStrong2](https://metrics.torproject.org/rs.html#details/655F75D0A03DF94298A8BAB663C60FB25D501760)   | 2022-12-01   | Yes         |                     5 |
 | [BeCarefulOutThere](https://metrics.torproject.org/rs.html#details/51BD25EE06C46E4466427D4ABF94F2964514EB2F) | 2020-09-10   | No          |                     5 |
