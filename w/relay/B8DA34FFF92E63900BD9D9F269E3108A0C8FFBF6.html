@@ -66,15 +66,15 @@ support@privacyfirst.digital</a></dd>
 <dd>185.244.30.27</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
 </pre>
 </dd>
 
@@ -85,6 +85,7 @@ support@privacyfirst.digital</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
  accept *:*
 </pre></dd>
 </dd>
@@ -122,10 +123,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>47 Mbit/s</dd>
+<dd>62 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>5200</dd>
+<dd>12000</dd>
 
 <dt>Flags</dt>
 <dd>
