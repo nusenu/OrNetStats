@@ -55,18 +55,27 @@ tlan16@protonmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-159.196.249.164:9001
+122.150.103.98:8080
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>122.150.103.98</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +85,23 @@ tlan16@protonmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -103,13 +128,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>20</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -118,14 +144,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre>none</pre>
+<pre class="verified-hostname" title="verified hostname">122-150-103-98.sta.wbroadband.net.au</pre>
 <dt>Autonomous System</dt>
 <dd>
-Wideband Networks Pty Ltd - 
-<a href="../as_number/AS4764.html">AS4764</a>
-(<a href='https://bgp.he.net/AS4764'>BGP</a>)
+VOCUS PTY LTD - 
+<a href="../as_number/AS9443.html">AS9443</a>
+(<a href='https://bgp.he.net/AS9443'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-12-27 04:33:09</dd>
+<dd>2022-12-29 08:28:03</dd>
 
 <dt>Country</dt>
 <dd>
