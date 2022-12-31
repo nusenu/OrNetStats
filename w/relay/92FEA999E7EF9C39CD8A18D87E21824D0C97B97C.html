@@ -56,40 +56,70 @@ sven-relay@riseup.net</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 107.189.4.169:9001
+[2605:6400:30:e989:8835:bbb3:6816:b0c0]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>107.189.4.169</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
   25
-  179
+  119
+  135-139
+  445
   465
+  563
   587
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  465
+  563
+  587
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
 <dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
  reject 127.0.0.0/8:*
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject 44.128.0.0/16:*
- reject 169.254.0.0/15:*
- reject *:25
- reject *:179
+ reject 107.189.13.149:*
  reject *:465
  reject *:587
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
  accept *:*
 </pre></dd>
 </dd>
@@ -117,7 +147,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>73 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -133,14 +163,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre>none</pre>
+<pre class="verified-hostname" title="verified hostname">sven.torexit.in</pre>
 <dt>Autonomous System</dt>
 <dd>
 PONYNET - 
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2022-12-30 14:19:53</dd>
+<dd>2022-12-31 15:30:51</dd>
 
 <dt>Country</dt>
 <dd>
