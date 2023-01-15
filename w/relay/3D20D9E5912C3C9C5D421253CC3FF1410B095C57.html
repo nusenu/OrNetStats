@@ -58,7 +58,7 @@
 
 
 <dt>Dir Address</dt>
-<dd>23.184.48.108:9030</dd>
+<dd>23.184.48.108:80</dd>
 <dt>Exit Address</dt>
 <dd>23.184.48.108</dd>
 <dt>IPv4 Exit Policy Summary</dt>
@@ -84,17 +84,27 @@
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:20-21
+<dd><pre class="pre-scrollable">accept *:20-21
  accept *:43
  accept *:53
  accept *:80-81
@@ -137,7 +147,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>38 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -160,7 +170,7 @@ IncogNET LLC -
 <a href="../as_number/AS210630.html">AS210630</a>
 (<a href='https://bgp.he.net/AS210630'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-14 05:13:53</dd>
+<dd>2023-01-15 10:56:32</dd>
 
 <dt>Country</dt>
 <dd>
