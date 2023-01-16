@@ -65,8 +65,18 @@ paranoidfucker@cocaine.ninja</a></dd>
 <dd>109.206.243.145</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  21-23
+  25
+  587
+  1433
+  3306
+  3389
+  5060
+  5900
+  5984
+  7443
+  8443
 </pre>
 </dd>
 
@@ -82,6 +92,19 @@ paranoidfucker@cocaine.ninja</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:22
+ reject *:23
+ reject *:5900
+ reject *:21
+ reject *:3306
+ reject *:587
+ reject *:5984
+ reject *:8443
+ reject *:7443
+ reject *:5060
+ reject *:1433
+ reject *:3389
  accept *:*
 </pre></dd>
 </dd>
@@ -103,16 +126,16 @@ paranoidfucker@cocaine.ninja</a></dd>
 <dd><a href="../first_seen/2023-01-12">2023-01-12 12:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.12
+<dd> Tor 0.4.7.13
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>24 Mbit/s</dd>
+<dd>26 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>750</dd>
+<dd>2900</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -133,7 +156,7 @@ Delis LLC -
 <a href="../as_number/AS211252.html">AS211252</a>
 (<a href='https://bgp.he.net/AS211252'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-14 22:11:32</dd>
+<dd>2023-01-16 17:43:51</dd>
 
 <dt>Country</dt>
 <dd>
