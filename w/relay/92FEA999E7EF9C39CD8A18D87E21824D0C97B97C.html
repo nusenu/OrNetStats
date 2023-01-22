@@ -67,7 +67,7 @@ abuse@torexit.in</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22
+  21-22
   25
   119
   135-139
@@ -76,10 +76,13 @@ abuse@torexit.in</a></dd>
   563
   587
   1214
+  3306
   4661-4666
+  5900
   6346-6429
   6699
   6881-6999
+  7443
   35832
 </pre>
 </dd>
@@ -87,7 +90,7 @@ abuse@torexit.in</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22
+  21-22
   25
   119
   135-139
@@ -96,10 +99,13 @@ abuse@torexit.in</a></dd>
   563
   587
   1214
+  3306
   4661-4666
+  5900
   6346-6429
   6699
   6881-6999
+  7443
   35832
 </pre>
 </dd>
@@ -111,6 +117,10 @@ abuse@torexit.in</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:7443
+ reject *:3306
+ reject *:21
+ reject *:5900
  reject *:22
  reject *:465
  reject *:587
@@ -179,7 +189,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-21 19:53:00</dd>
+<dd>2023-01-22 09:25:36</dd>
 
 <dt>Country</dt>
 <dd>
