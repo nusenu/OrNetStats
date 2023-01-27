@@ -67,14 +67,33 @@ NotMyMomsAdmin &lt;NotMyMomsTorRelay AT schaefer minus home dot...</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22
   25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -84,9 +103,16 @@ NotMyMomsAdmin &lt;NotMyMomsTorRelay AT schaefer minus home dot...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject 185.220.100.246:*
  reject *:25
- reject *:22
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
  accept *:*
 </pre></dd>
 </dd>
@@ -138,7 +164,7 @@ Luxembourg Online S.A. -
 <a href="../as_number/AS8632.html">AS8632</a>
 (<a href='https://bgp.he.net/AS8632'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-22 13:17:02</dd>
+<dd>2023-01-27 06:17:27</dd>
 
 <dt>Country</dt>
 <dd>
