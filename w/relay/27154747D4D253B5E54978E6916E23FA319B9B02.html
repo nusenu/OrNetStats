@@ -67,26 +67,44 @@ blah</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  22
+  20-21
+  43
   53
-  80
+  80-88
   443
   853
-  2000-19000
-  50000-63000
+  5220-5230
+  6660-7000
+  8000-8010
+  8080-8090
+  8330-8340
+  8888
+  9330-9340
+  9410-9420
+  18070-18091
+  50000-50005
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  22
+  20-21
+  43
   53
-  80
+  80-88
   443
   853
-  2000-19000
-  50000-63000
+  5220-5230
+  6660-7000
+  8000-8010
+  8080-8090
+  8330-8340
+  8888
+  9330-9340
+  9410-9420
+  18070-18091
+  50000-50005
 </pre>
 </dd>
 
@@ -97,13 +115,22 @@ blah</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:80
+ accept *:20-21
+ accept *:43
  accept *:53
+ accept *:80-88
  accept *:853
- accept *:22
  accept *:443
- accept *:2000-19000
- accept *:50000-63000
+ accept *:5220-5230
+ accept *:6660-7000
+ accept *:8000-8010
+ accept *:8080-8090
+ accept *:8330-8340
+ accept *:8888
+ accept *:9330-9340
+ accept *:9410-9420
+ accept *:18070-18091
+ accept *:50000-50005
  reject *:*
 </pre></dd>
 </dd>
@@ -134,7 +161,7 @@ on
 <dd>73 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>7000</dd>
+<dd>9800</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -155,7 +182,7 @@ ServerAstra Kft. -
 <a href="../as_number/AS56322.html">AS56322</a>
 (<a href='https://bgp.he.net/AS56322'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-24 19:21:32</dd>
+<dd>2023-01-29 14:40:31</dd>
 
 <dt>Country</dt>
 <dd>
