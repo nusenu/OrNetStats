@@ -65,56 +65,8 @@
 <dd>198.251.83.40</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-23
-  43
-  53
-  79-81
-  88
-  110
-  143
-  194
-  220
-  443
-  464
-  543-544
-  563
-  706
-  749
-  873
-  902-904
-  981
-  989-995
-  1194
-  1220
-  1293
-  1500
-  1723
-  1863
-  2082-2083
-  2086-2087
-  2095-2096
-  3128
-  3389
-  3690
-  4321
-  4643
-  5050
-  5190
-  5222-5223
-  5900
-  6666-6667
-  6679
-  6697
-  8000
-  8008
-  8080
-  8087-8088
-  8443
-  8888
-  9418
-  9999-10000
-  19638
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -124,69 +76,12 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:20-23
- accept *:43
- accept *:53
- accept *:79-81
- accept *:88
- accept *:110
- accept *:143
- accept *:194
- accept *:220
- accept *:443
- accept *:464
- accept *:543-544
- accept *:563
- accept *:706
- accept *:749
- accept *:873
- accept *:902-904
- accept *:981
- accept *:989-995
- accept *:1194
- accept *:1220
- accept *:1293
- accept *:1500
- accept *:1723
- accept *:1863
- accept *:2082-2083
- accept *:2086-2087
- accept *:2095-2096
- accept *:3128
- accept *:3389
- accept *:3690
- accept *:4321
- accept *:4643
- accept *:5190
- accept *:5050
- accept *:5222-5223
- accept *:5900
- accept *:6666-6667
- accept *:6679
- accept *:6697
- accept *:8000
- accept *:8008
- accept *:8080
- accept *:8087-8088
- accept *:8443
- accept *:8888
- accept *:9418
- accept *:9999
- accept *:10000
- accept *:19638
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/225925ae5ecfae750e3a9aa0801b7aa4009d2537d0cf8363e74f5bd31ad82d0c.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="17CEF0029F2AF9051EA72F98057A8BEEBFBE6EB7.html">17CEF0029F2AF9051EA72F98057A8BEEBFBE6EB7</a>
-<a href="988917033B19ABC4D052F4C7DB8946A927C60D3A.html">988917033B19ABC4D052F4C7DB8946A927C60D3A</a>
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">17CEF0029F2AF9051EA72F98057A8BEEBFBE6EB7
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -215,8 +110,8 @@ on
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -232,7 +127,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-01-26 23:33:51</dd>
+<dd>2023-01-31 21:48:35</dd>
 
 <dt>Country</dt>
 <dd>
