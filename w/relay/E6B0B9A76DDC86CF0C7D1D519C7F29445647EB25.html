@@ -81,10 +81,12 @@ Artikel10 url:artikel10.org email:info[]artikel10.org...</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-21
   80
   443
   853
   873
+  989-990
   1194
   2086
   3690
@@ -107,10 +109,12 @@ Artikel10 url:artikel10.org email:info[]artikel10.org...</a></dd>
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-21
   80
   443
   853
   873
+  989-990
   1194
   2086
   3690
@@ -140,11 +144,12 @@ Artikel10 url:artikel10.org email:info[]artikel10.org...</a></dd>
  reject 170.55.38.166:*
  reject 96.78.112.177:*
  reject 76.111.200.183:*
- reject 194.26.229.2:*
+ accept *:20-21
  accept *:80
  accept *:443
  accept *:853
  accept *:873
+ accept *:989-990
  accept *:1194
  accept *:2086
  accept *:3690
@@ -299,7 +304,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>18 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
