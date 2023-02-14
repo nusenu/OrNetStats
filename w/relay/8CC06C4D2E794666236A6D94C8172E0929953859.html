@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: SecureExitPolicyALL</title>
+    <title>Tor Relays :: SecureExitTorServer</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "SecureExitPolicyALL"</h2>
+<h2><a href="../">Home</a> :: Relay "SecureExitTorServer"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>SecureExitPolicyALL</dd>
+<dd>SecureExitTorServer</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,7 +55,7 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-86.52.215.149:8080
+79.142.79.86:42772
 </pre></dd>
 
 
@@ -65,8 +65,16 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -110,13 +126,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>11 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -126,18 +143,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">5634d795.rev.stofanet.dk</pre>
+<pre class="unverified-hostname" title="unverified hostname">ch-net.as51430.net</pre>
 <dt>Autonomous System</dt>
 <dd>
-Stofa A/S - 
-<a href="../as_number/AS39642.html">AS39642</a>
-(<a href='https://bgp.he.net/AS39642'>BGP</a>)
+AltusHost B.V. - 
+<a href="../as_number/AS51430.html">AS51430</a>
+(<a href='https://bgp.he.net/AS51430'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-02-13 17:06:12</dd>
+<dd>2023-02-14 10:34:31</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/dk.html"><img src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a> Denmark
+<a href="../country/ch.html"><img src="../static/images/cc/ch.png" title="Switzerland" alt="Switzerland"></a> Switzerland
 </dd>
 
 <dt>Fingerprint</dt>
