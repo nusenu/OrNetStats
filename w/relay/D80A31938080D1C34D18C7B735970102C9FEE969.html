@@ -63,20 +63,21 @@ Random Person random@random.com</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>45.155.169.106</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  11
-  25
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  20-23
+  53
+  80
+  115
+  123
+  443
+  513
+  517
+  533
+  989-990
+  6660-6667
 </pre>
 </dd>
 
@@ -92,17 +93,22 @@ Random Person random@random.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:11
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:80
+ accept *:443
+ accept *:22
+ accept *:20
+ accept *:23
+ accept *:21
+ accept *:53
+ accept *:115
+ accept *:513
+ accept *:517
+ accept *:123
+ accept *:533
+ accept *:989
+ accept *:6660-6667
+ accept *:990
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -132,7 +138,7 @@ on
 <dd>40 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>3600</dd>
+<dd>4200</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -153,7 +159,7 @@ SERVERD SAS -
 <a href="../as_number/AS62000.html">AS62000</a>
 (<a href='https://bgp.he.net/AS62000'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-02-11 02:51:12</dd>
+<dd>2023-02-16 00:07:36</dd>
 
 <dt>Country</dt>
 <dd>
