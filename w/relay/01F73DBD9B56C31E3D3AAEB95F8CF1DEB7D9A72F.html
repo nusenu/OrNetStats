@@ -62,11 +62,13 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>93.174.89.224</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  443
+  6660-6667
 </pre>
 </dd>
 
@@ -76,7 +78,16 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -104,13 +115,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>62 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -119,14 +131,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">185-184-192-252.hosted-by-worldstream.net</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
 IP Volume inc - 
 <a href="../as_number/AS202425.html">AS202425</a>
 (<a href='https://bgp.he.net/AS202425'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-02-17 13:11:14</dd>
+<dd>2023-02-17 23:24:12</dd>
 
 <dt>Country</dt>
 <dd>

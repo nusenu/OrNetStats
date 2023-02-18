@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-02-17 20:00 UTC**
+Tor network data as of: **2023-02-18 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,15 +29,15 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (90) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
+## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (85) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [BigDaddy](https://metrics.torproject.org/rs.html#details/3887FAA20AF621798E92B961E220695B5B747DAE)     | 2023-02-05   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/865961820D55D62E275AC65C1AAC20EA0115557C) | 2023-02-05   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/7AD1567CEDFD7A1CD8049079A7D86EB9D293AC49) | 2023-02-05   | Yes         |                    95 |
-| [LittleSister](https://metrics.torproject.org/rs.html#details/E08F2FD44CC16B7015138DC95507A660BEB8851D) | 2020-10-19   | Yes         |                    95 |
 | [Bigdaddy](https://metrics.torproject.org/rs.html#details/017B08CC163424CD6ABA4ADD4042B4174D494732)     | 2020-10-19   | Yes         |                    95 |
+| [LittleSister](https://metrics.torproject.org/rs.html#details/E08F2FD44CC16B7015138DC95507A660BEB8851D) | 2020-10-19   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/8ADE13FE81E95717711438D3ABD0402031C80F31) | 2020-10-19   | Yes         |                    95 |
 | [BigDaddy](https://metrics.torproject.org/rs.html#details/9CC3E9C1F4196D4F11F2B815F8EA0B630A1FCC88)     | 2020-10-19   | Yes         |                    95 |
 | [relayon0135](https://metrics.torproject.org/rs.html#details/03EE325AE03210180DA810DB4AABD43BF59945D6)  | 2023-01-11   | No          |                    95 |
@@ -55,7 +55,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon0187](https://metrics.torproject.org/rs.html#details/1C112B9D56172EFDA432B0CB6046AE580383C0CB)  | 2023-01-11   | No          |                    95 |
 | [relayon0170](https://metrics.torproject.org/rs.html#details/1C7020213CEBC46299B77E42D498522B64C77E99)  | 2023-01-11   | No          |                    95 |
 | [relayon0160](https://metrics.torproject.org/rs.html#details/1CF8984D7462ED1718F3F8D04F190EC5CF429FFE)  | 2023-01-11   | No          |                    95 |
-| [relayon1146](https://metrics.torproject.org/rs.html#details/22A028EAA3BD773B57E6B6A335E8C121F997381C)  | 2022-06-30   | No          |                    95 |
 | [relayon1185](https://metrics.torproject.org/rs.html#details/27239F709CF4D8808B5CC5DB0397529AD34E9BCB)  | 2022-06-30   | No          |                    95 |
 | [relayon0139](https://metrics.torproject.org/rs.html#details/29AA617EE5AF59515F206CCE0BF06354CDAD1956)  | 2023-01-11   | No          |                    95 |
 | [relayon0154](https://metrics.torproject.org/rs.html#details/2AC6DC1D7A41B54A7671D4D82B5D0F3EDD928A29)  | 2023-01-11   | No          |                    95 |
@@ -74,7 +73,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon0159](https://metrics.torproject.org/rs.html#details/5A38ABF1CD597D013D71E313935EF35482CF8712)  | 2023-01-11   | No          |                    95 |
 | [relayon0165](https://metrics.torproject.org/rs.html#details/5DF3D0F3432DDD1890D9059DD6FF8054E71E04DA)  | 2023-01-11   | No          |                    95 |
 | [relayon1144](https://metrics.torproject.org/rs.html#details/6209D5E7345E8B6EB7A1028146E4826CC6C64228)  | 2022-06-30   | No          |                    95 |
-| [relayon0164](https://metrics.torproject.org/rs.html#details/659A6CAC258D9F9B009A36F9E3EE2099F0760192)  | 2023-01-11   | No          |                    95 |
 | [relayon0190](https://metrics.torproject.org/rs.html#details/67F9F440DE161DD92F7AC2D260F1995EB4ABBB9A)  | 2023-01-11   | No          |                    95 |
 | [relayon0152](https://metrics.torproject.org/rs.html#details/6B3737362FF7A59C0B856B2D5A75B37BADC7AC99)  | 2023-01-11   | No          |                    95 |
 | [relayon0132](https://metrics.torproject.org/rs.html#details/6C25767B7654E265683DF6612C423C0FA1290DA7)  | 2023-01-11   | No          |                    95 |
@@ -100,10 +98,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon0143](https://metrics.torproject.org/rs.html#details/99066F3D81E12BB5A5F3AC5241FCA52B685DCFB4)  | 2023-01-11   | No          |                    95 |
 | [relayon1164](https://metrics.torproject.org/rs.html#details/9C205A69099F67B4312D0A8C59640B4DB41B22F5)  | 2022-06-30   | No          |                    95 |
 | [relayon0181](https://metrics.torproject.org/rs.html#details/A151B9C2820BDEDC89C8FB20271785AE26730CF8)  | 2023-01-11   | No          |                    95 |
-| [relayon1189](https://metrics.torproject.org/rs.html#details/A1981F6980AC1AF9756940660267C01D11E15B02)  | 2022-06-30   | No          |                    95 |
 | [relayon1183](https://metrics.torproject.org/rs.html#details/A4CA6EF7BBF244F5D140D94299BCCBAA515E958B)  | 2022-06-30   | No          |                    95 |
 | [relayon0177](https://metrics.torproject.org/rs.html#details/A926FD90B7E867DF733FB5A335E884F9686584AD)  | 2023-01-11   | No          |                    95 |
-| [relayon0144](https://metrics.torproject.org/rs.html#details/ABE9BD63576B61E3F2DAE82A2D4BB46BCC554DA8)  | 2023-01-11   | No          |                    95 |
 | [relayon0185](https://metrics.torproject.org/rs.html#details/B163ECC611C87C0B375B2256F78E3953F7568AC4)  | 2023-01-11   | No          |                    95 |
 | [relayon0186](https://metrics.torproject.org/rs.html#details/B26598F891886E25901AB468E08B9492B1604597)  | 2023-01-11   | No          |                    95 |
 | [relayon0158](https://metrics.torproject.org/rs.html#details/B569A14D6D25D65E3157D5493BBC9CCA1689791E)  | 2023-01-11   | No          |                    95 |
@@ -118,41 +114,42 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [relayon0178](https://metrics.torproject.org/rs.html#details/D6EA2EF05DE7D6BEC8F50788AF6B6ED049EA5E37)  | 2023-01-11   | No          |                    95 |
 | [relayon1134](https://metrics.torproject.org/rs.html#details/DA22C0B589959ADD14D16606B9A2A512CED61C4F)  | 2022-06-30   | No          |                    95 |
 | [relayon1137](https://metrics.torproject.org/rs.html#details/DB16C773A0E87530FD4FC6D5D81FFB6D6EB2E5D0)  | 2022-06-30   | No          |                    95 |
-| [relayon0137](https://metrics.torproject.org/rs.html#details/E65712FEA2504570ACC014C92C0A9D86D730CF8D)  | 2023-01-11   | No          |                    95 |
 | [relayon1159](https://metrics.torproject.org/rs.html#details/EC677ABD5F31FCAFC4CAA9865487DA14E2D15755)  | 2022-06-30   | No          |                    95 |
 | [relayon0150](https://metrics.torproject.org/rs.html#details/F58345BECA9DB7128481BDF09E342E7C683AFA19)  | 2023-01-11   | No          |                    95 |
 | [relayon0134](https://metrics.torproject.org/rs.html#details/F705AB8E4E1D9FEC90C67D50FCFCE94B1854003F)  | 2023-01-11   | No          |                    95 |
 | [relayon0183](https://metrics.torproject.org/rs.html#details/F7975FC1550ED849E07C55D0F0E0D205DD81C9E0)  | 2023-01-11   | No          |                    95 |
 
-## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (25) {#emailabuse-node49posteode-urlhydra-familygit}
+## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (27) {#emailabuse-node49posteode-urlhydra-familygit}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    34 |
-| [Hydra94a](https://metrics.torproject.org/rs.html#details/61866162CCDFE651B0D76AA57ECA90B9CC7C80DD) | 2022-09-03   | Yes         |                    34 |
-| [Hydra93a](https://metrics.torproject.org/rs.html#details/5D575ADD108DDBBF17E78AD8CB267D6C1F338206) | 2022-09-03   | Yes         |                    34 |
+| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    33 |
+| [Hydra94a](https://metrics.torproject.org/rs.html#details/61866162CCDFE651B0D76AA57ECA90B9CC7C80DD) | 2022-09-03   | Yes         |                    33 |
+| [Hydra93a](https://metrics.torproject.org/rs.html#details/5D575ADD108DDBBF17E78AD8CB267D6C1F338206) | 2022-09-03   | Yes         |                    33 |
 | [Hydra90a](https://metrics.torproject.org/rs.html#details/21328917A9379E6B8ABCB49A0DBE3AAE885CFC15) | 2022-11-02   | Yes         |                     1 |
-| [Hydra72a](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    34 |
-| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    34 |
-| [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    34 |
-| [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    34 |
-| [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    34 |
-| [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    34 |
-| [Hydra70a](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    34 |
-| [Hydra52a](https://metrics.torproject.org/rs.html#details/9BF600D6C06A3FBE28216C58CD241A89931CBE7D) | 2021-03-14   | Yes         |                    34 |
+| [Hydra72a](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    33 |
+| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    33 |
+| [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    33 |
+| [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    33 |
+| [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    33 |
+| [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    33 |
+| [Hydra18](https://metrics.torproject.org/rs.html#details/3AD29FE1241B73595F99BA2C6D830AF0B6874043)  | 2020-06-30   | Yes         |                    33 |
+| [Hydra11](https://metrics.torproject.org/rs.html#details/D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7)  | 2021-01-13   | Yes         |                    33 |
+| [Hydra70a](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    33 |
+| [Hydra52a](https://metrics.torproject.org/rs.html#details/9BF600D6C06A3FBE28216C58CD241A89931CBE7D) | 2021-03-14   | Yes         |                    33 |
 | [Hydra51a](https://metrics.torproject.org/rs.html#details/3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612) | 2022-11-01   | Yes         |                     1 |
-| [Hydra45](https://metrics.torproject.org/rs.html#details/01CFCC2545234EEE523D33ED25EF1E79807A18A7)  | 2021-03-04   | No          |                    34 |
-| [Hydra55](https://metrics.torproject.org/rs.html#details/378AD3D089A01EC802F165A936122B60B5B1035E)  | 2021-06-06   | No          |                    34 |
-| [Hydra28](https://metrics.torproject.org/rs.html#details/427956E3F23EEBA31954CB0942AEA0ECD43A004A)  | 2020-11-20   | No          |                    34 |
-| [Hydra59](https://metrics.torproject.org/rs.html#details/47FC19DBE2B42BB481C65191276670B3D589F075)  | 2021-04-09   | No          |                    34 |
-| [Hydra37](https://metrics.torproject.org/rs.html#details/5058E7136283B4CE13F1897871F931CC41F41CC9)  | 2021-03-04   | No          |                    34 |
-| [Hydra58](https://metrics.torproject.org/rs.html#details/512F27DD9A2937A8E3D65EDA13A88AE9483E9ACA)  | 2021-04-09   | No          |                    34 |
-| [Hydra36](https://metrics.torproject.org/rs.html#details/5ACC59F3117F1F6FAD8C89F469823CB48BDB5D2F)  | 2021-03-04   | No          |                    34 |
-| [Hydra75](https://metrics.torproject.org/rs.html#details/63928D370B929EBDA54EF2ABDD4A63082085BF61)  | 2021-09-22   | No          |                    34 |
-| [Hydra25](https://metrics.torproject.org/rs.html#details/6CB18098F50819DEAB22E369EC3A5661A552A66C)  | 2020-11-20   | No          |                    34 |
-| [Hydra27](https://metrics.torproject.org/rs.html#details/A0A91967046F7A9BC3154C7B3C3FDE34C02B1017)  | 2020-11-20   | No          |                    34 |
-| [Hydra65](https://metrics.torproject.org/rs.html#details/A62D8F7772A6C76DD07F431810CE68682DCDD2DC)  | 2021-09-09   | No          |                    34 |
-| [Hydra66](https://metrics.torproject.org/rs.html#details/C85B30A8356E826418CB901254B7595FE1430619)  | 2021-09-09   | No          |                    34 |
+| [Hydra45](https://metrics.torproject.org/rs.html#details/01CFCC2545234EEE523D33ED25EF1E79807A18A7)  | 2021-03-04   | No          |                    33 |
+| [Hydra55](https://metrics.torproject.org/rs.html#details/378AD3D089A01EC802F165A936122B60B5B1035E)  | 2021-06-06   | No          |                    33 |
+| [Hydra28](https://metrics.torproject.org/rs.html#details/427956E3F23EEBA31954CB0942AEA0ECD43A004A)  | 2020-11-20   | No          |                    33 |
+| [Hydra59](https://metrics.torproject.org/rs.html#details/47FC19DBE2B42BB481C65191276670B3D589F075)  | 2021-04-09   | No          |                    33 |
+| [Hydra37](https://metrics.torproject.org/rs.html#details/5058E7136283B4CE13F1897871F931CC41F41CC9)  | 2021-03-04   | No          |                    33 |
+| [Hydra58](https://metrics.torproject.org/rs.html#details/512F27DD9A2937A8E3D65EDA13A88AE9483E9ACA)  | 2021-04-09   | No          |                    33 |
+| [Hydra36](https://metrics.torproject.org/rs.html#details/5ACC59F3117F1F6FAD8C89F469823CB48BDB5D2F)  | 2021-03-04   | No          |                    33 |
+| [Hydra75](https://metrics.torproject.org/rs.html#details/63928D370B929EBDA54EF2ABDD4A63082085BF61)  | 2021-09-22   | No          |                    33 |
+| [Hydra25](https://metrics.torproject.org/rs.html#details/6CB18098F50819DEAB22E369EC3A5661A552A66C)  | 2020-11-20   | No          |                    33 |
+| [Hydra27](https://metrics.torproject.org/rs.html#details/A0A91967046F7A9BC3154C7B3C3FDE34C02B1017)  | 2020-11-20   | No          |                    33 |
+| [Hydra65](https://metrics.torproject.org/rs.html#details/A62D8F7772A6C76DD07F431810CE68682DCDD2DC)  | 2021-09-09   | No          |                    33 |
+| [Hydra66](https://metrics.torproject.org/rs.html#details/C85B30A8356E826418CB901254B7595FE1430619)  | 2021-09-09   | No          |                    33 |
 
 ## ContactInfo: email:sysop openinternet.io offlinemasterkey:y ci (6) {#emailsysopopeninternetio-offlinemasterkeyy-ci}
 
@@ -168,4 +165,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-017B08CC163424CD6ABA4ADD4042B4174D494732,3887FAA20AF621798E92B961E220695B5B747DAE,7AD1567CEDFD7A1CD8049079A7D86EB9D293AC49,865961820D55D62E275AC65C1AAC20EA0115557C,8ADE13FE81E95717711438D3ABD0402031C80F31,9CC3E9C1F4196D4F11F2B815F8EA0B630A1FCC88,E08F2FD44CC16B7015138DC95507A660BEB8851D,0F0F690AF1D32C7C3C72C543836625628887BA85,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,7B3535760987464C8B5686F203B6EBE767C0873E,8F293A6484A0973167B15C4997AB9F24C21143FE,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,DCCBB9717CD8B1F031B9A38C721D2BD9615697AA,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF,5191E3F9A8B9B0C8F356FF0A7D0DA30D95652116,655F75D0A03DF94298A8BAB663C60FB25D501760,80CA806137BF939FBADF38B106A7BBF631FE0F76,F3689448309B46A9B7A6612C54C205BAF0971E37,F37191452612F22EFB6F6204C75A45BF0B11B366
+017B08CC163424CD6ABA4ADD4042B4174D494732,3887FAA20AF621798E92B961E220695B5B747DAE,7AD1567CEDFD7A1CD8049079A7D86EB9D293AC49,865961820D55D62E275AC65C1AAC20EA0115557C,8ADE13FE81E95717711438D3ABD0402031C80F31,9CC3E9C1F4196D4F11F2B815F8EA0B630A1FCC88,E08F2FD44CC16B7015138DC95507A660BEB8851D,0F0F690AF1D32C7C3C72C543836625628887BA85,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3AD29FE1241B73595F99BA2C6D830AF0B6874043,3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,7B3535760987464C8B5686F203B6EBE767C0873E,8F293A6484A0973167B15C4997AB9F24C21143FE,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7,DCCBB9717CD8B1F031B9A38C721D2BD9615697AA,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF,5191E3F9A8B9B0C8F356FF0A7D0DA30D95652116,655F75D0A03DF94298A8BAB663C60FB25D501760,80CA806137BF939FBADF38B106A7BBF631FE0F76,F3689448309B46A9B7A6612C54C205BAF0971E37,F37191452612F22EFB6F6204C75A45BF0B11B366
