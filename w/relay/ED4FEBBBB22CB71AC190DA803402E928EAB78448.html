@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: NikulausSetupTorNTP</title>
+    <title>Tor Relays :: NikulausNTPSetupTor</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "NikulausSetupTorNTP"</h2>
+<h2><a href="../">Home</a> :: Relay "NikulausNTPSetupTor"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>NikulausSetupTorNTP</dd>
+<dd>NikulausNTPSetupTor</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,18 +55,19 @@ tor-exit@nikulaus.net</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-46.246.106.39:20351
+216.24.213.33:20351
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>216.24.213.33</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
   25
+  119
   135-139
   445
   563
@@ -80,7 +81,18 @@ tor-exit@nikulaus.net</a></dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -91,6 +103,7 @@ tor-exit@nikulaus.net</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  reject *:25
+ reject *:119
  reject *:135-139
  reject *:445
  reject *:563
@@ -126,10 +139,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>3 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>4100</dd>
+<dd>280</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -146,15 +159,15 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-GleSYS AB - 
-<a href="../as_number/AS42708.html">AS42708</a>
-(<a href='https://bgp.he.net/AS42708'>BGP</a>)
+COGENT-174 - 
+<a href="../as_number/AS174.html">AS174</a>
+(<a href='https://bgp.he.net/AS174'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-02-18 00:52:32</dd>
+<dd>2023-02-20 02:00:32</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/dk.html"><img src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a> Denmark
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
