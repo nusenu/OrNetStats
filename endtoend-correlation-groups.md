@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-02-22 17:00 UTC**
+Tor network data as of: **2023-02-23 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,16 +29,17 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (81) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
+## ContactInfo: url:relayon.org proof:uri-rsa abuse:abuse relayon (82) {#urlrelayonorg-proofuri-rsa-abuseabuserelayon}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [BigDaddy](https://metrics.torproject.org/rs.html#details/C2503E16AB12C130788D4E2FBCE463E094892D7A)     | 2023-02-05   | Yes         |                    95 |
+| [BigDaddy](https://metrics.torproject.org/rs.html#details/3887FAA20AF621798E92B961E220695B5B747DAE)     | 2023-02-05   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/865961820D55D62E275AC65C1AAC20EA0115557C) | 2023-02-05   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/7AD1567CEDFD7A1CD8049079A7D86EB9D293AC49) | 2023-02-05   | Yes         |                    95 |
-| [LittleSister](https://metrics.torproject.org/rs.html#details/E08F2FD44CC16B7015138DC95507A660BEB8851D) | 2020-10-19   | Yes         |                    95 |
-| [Bigdaddy](https://metrics.torproject.org/rs.html#details/017B08CC163424CD6ABA4ADD4042B4174D494732)     | 2020-10-19   | Yes         |                    95 |
 | [BigDaddy](https://metrics.torproject.org/rs.html#details/9CC3E9C1F4196D4F11F2B815F8EA0B630A1FCC88)     | 2020-10-19   | Yes         |                    95 |
+| [Bigdaddy](https://metrics.torproject.org/rs.html#details/017B08CC163424CD6ABA4ADD4042B4174D494732)     | 2020-10-19   | Yes         |                    95 |
+| [LittleSister](https://metrics.torproject.org/rs.html#details/E08F2FD44CC16B7015138DC95507A660BEB8851D) | 2020-10-19   | Yes         |                    95 |
 | [LittleSister](https://metrics.torproject.org/rs.html#details/8ADE13FE81E95717711438D3ABD0402031C80F31) | 2020-10-19   | Yes         |                    95 |
 | [relayon0135](https://metrics.torproject.org/rs.html#details/03EE325AE03210180DA810DB4AABD43BF59945D6)  | 2023-01-11   | No          |                    95 |
 | [relayon1177](https://metrics.torproject.org/rs.html#details/0603A509F71E786BAE0694BA35D03B3E39255B49)  | 2022-06-30   | No          |                    95 |
@@ -120,15 +121,15 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Hydra94a](https://metrics.torproject.org/rs.html#details/61866162CCDFE651B0D76AA57ECA90B9CC7C80DD) | 2022-09-03   | Yes         |                    32 |
-| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    32 |
 | [Hydra93a](https://metrics.torproject.org/rs.html#details/5D575ADD108DDBBF17E78AD8CB267D6C1F338206) | 2022-09-03   | Yes         |                    32 |
+| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    32 |
 | [Hydra90a](https://metrics.torproject.org/rs.html#details/21328917A9379E6B8ABCB49A0DBE3AAE885CFC15) | 2022-11-02   | Yes         |                     1 |
 | [Hydra72a](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    32 |
-| [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    32 |
 | [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    32 |
+| [Hydra24a](https://metrics.torproject.org/rs.html#details/8F293A6484A0973167B15C4997AB9F24C21143FE) | 2020-11-11   | Yes         |                    32 |
 | [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    32 |
-| [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    32 |
 | [Hydra70a](https://metrics.torproject.org/rs.html#details/DCCBB9717CD8B1F031B9A38C721D2BD9615697AA) | 2021-09-09   | Yes         |                    32 |
+| [Hydra69a](https://metrics.torproject.org/rs.html#details/7B3535760987464C8B5686F203B6EBE767C0873E) | 2021-09-09   | Yes         |                    32 |
 | [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    32 |
 | [Hydra51a](https://metrics.torproject.org/rs.html#details/3E610CDAB3B6993E5C31CC99CB10ED8E9CC6F612) | 2022-11-01   | Yes         |                     1 |
 | [Hydra52a](https://metrics.torproject.org/rs.html#details/9BF600D6C06A3FBE28216C58CD241A89931CBE7D) | 2021-03-14   | Yes         |                    32 |

@@ -66,18 +66,27 @@ matrixrevolution@mail2tor.com</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  443
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  443
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -104,7 +113,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>72 Mbit/s</dd>
+<dd>68 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>15000</dd>
@@ -127,7 +136,7 @@ Sky Italia srl -
 <a href="../as_number/AS210278.html">AS210278</a>
 (<a href='https://bgp.he.net/AS210278'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-02-18 20:46:03</dd>
+<dd>2023-02-22 18:30:58</dd>
 
 <dt>Country</dt>
 <dd>
