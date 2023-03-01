@@ -67,18 +67,14 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  80
-  443
-  6660-6667
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  80
-  443
-  6660-6667
+  1-65535
 </pre>
 </dd>
 
@@ -89,10 +85,7 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:80
- accept *:443
- accept *:6660-6667
- reject *:*
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -123,7 +116,7 @@ on
 <dd>342 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>72000</dd>
+<dd>77000</dd>
 
 <dt>Flags</dt>
 <dd>
