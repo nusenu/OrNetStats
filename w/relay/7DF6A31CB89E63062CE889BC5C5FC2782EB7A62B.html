@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: QeruExit16</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "QeruExit16"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>QeruExit16</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/31e7e35b4669273644556137fc426e26.html">all relays with this contact</a>)</dt>
+<dd>
+Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+144.172.118.58:23
+[2605:6400:d814:2ec::]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>144.172.118.58</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
+ accept *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/daba0728a82ba42f3d4d6a0abb0d30c5e9c45a3b953ca6bed4dc73b5e87046b6.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="07B6A2CF1F702C2150FFBE53CFE9098FEEC8DA39.html">07B6A2CF1F702C2150FFBE53CFE9098FEEC8DA39</a>
+<a href="07F1E8498D60E3342D1DF1913F12FB6EC251817C.html">07F1E8498D60E3342D1DF1913F12FB6EC251817C</a>
+<a href="08EA5457CF66F13AC89EA74682417A6001DC61D9.html">08EA5457CF66F13AC89EA74682417A6001DC61D9</a>
+<a href="099F7485F9F59876ECA206B4830922F391CD6B9B.html">099F7485F9F59876ECA206B4830922F391CD6B9B</a>
+<a href="0B19BFDC1096F346C181F20CB5118678D82C2420.html">0B19BFDC1096F346C181F20CB5118678D82C2420</a>
+<a href="1B0D4A8C66EF3931529F7D89B658CD86AAEB90A6.html">1B0D4A8C66EF3931529F7D89B658CD86AAEB90A6</a>
+<a href="31F71876090E89C96093F0F46FFD6B5F70917D1D.html">31F71876090E89C96093F0F46FFD6B5F70917D1D</a>
+<a href="40CC871222EEA904F0A94C6FBA0FEDAA60A60812.html">40CC871222EEA904F0A94C6FBA0FEDAA60A60812</a>
+<a href="43541EB7C0A78AA22DB85CA6229479CC517CF278.html">43541EB7C0A78AA22DB85CA6229479CC517CF278</a>
+<a href="4AD0637890C4236ED62D805E753F87A30E05560D.html">4AD0637890C4236ED62D805E753F87A30E05560D</a>
+<a href="4AE6443D0281ED269B26CE3A46BB50E55EFB6CC4.html">4AE6443D0281ED269B26CE3A46BB50E55EFB6CC4</a>
+<a href="5894203F8D2B77EC3B6DDB8FFAB5B30450B9D912.html">5894203F8D2B77EC3B6DDB8FFAB5B30450B9D912</a>
+<a href="59B2AB969829757F94624EB0D472EAE56D59639A.html">59B2AB969829757F94624EB0D472EAE56D59639A</a>
+<a href="681EF1D247F235B1777B703F3EB200225B5A6E2E.html">681EF1D247F235B1777B703F3EB200225B5A6E2E</a>
+<a href="750979357B0C7BF723B99DDC7E3A7DDC5BFC1EB1.html">750979357B0C7BF723B99DDC7E3A7DDC5BFC1EB1</a>
+<a href="7DF6A31CB89E63062CE889BC5C5FC2782EB7A62B.html">7DF6A31CB89E63062CE889BC5C5FC2782EB7A62B</a>
+<a href="9A3D8BB34690E6206B8BD2FD0C8B23AFEA75BB26.html">9A3D8BB34690E6206B8BD2FD0C8B23AFEA75BB26</a>
+<a href="9D0FFC46ADADCB06B1645B0B5C3CC6DBC4B05D4B.html">9D0FFC46ADADCB06B1645B0B5C3CC6DBC4B05D4B</a>
+<a href="A19B0104716FEF5B13403430E2544D544A238E5A.html">A19B0104716FEF5B13403430E2544D544A238E5A</a>
+<a href="A85D8814FF94F1DB5D56B0A51C3160D65DCCCA85.html">A85D8814FF94F1DB5D56B0A51C3160D65DCCCA85</a>
+<a href="AB918A463A728166232CDCCA9571F369C04F4C5B.html">AB918A463A728166232CDCCA9571F369C04F4C5B</a>
+<a href="C2A4738F9F505831CD79795D0930338A62E78957.html">C2A4738F9F505831CD79795D0930338A62E78957</a>
+<a href="C52E35F8A726997B69B52CFC1EEA01EDD5009498.html">C52E35F8A726997B69B52CFC1EEA01EDD5009498</a>
+<a href="DF9BCBE0F85EC7424F5E0469DECAA006070B5E15.html">DF9BCBE0F85EC7424F5E0469DECAA006070B5E15</a>
+<a href="E36668B277A7AD9C0477A7A0BA1A2A2AE2D5B389.html">E36668B277A7AD9C0477A7A0BA1A2A2AE2D5B389</a>
+<a href="E4E35376811D54910142328B9FFA7EA69B6C6D7B.html">E4E35376811D54910142328B9FFA7EA69B6C6D7B</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2023-03-09">2023-03-09 05:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.13
+on
+<a href='../osfam/BSD.html'>BSD</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>1</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+DATAIDEAS-LLC - 
+<a href="../as_number/AS398355.html">AS398355</a>
+(<a href='https://bgp.he.net/AS398355'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2023-03-09 04:07:17</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>7DF6A31CB89E63062CE889BC5C5FC2782EB7A62B</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
