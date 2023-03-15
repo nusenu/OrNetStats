@@ -62,11 +62,20 @@ tor@mrkinaujr.xyz</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.197.195.145</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +85,23 @@ tor@mrkinaujr.xyz</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -97,8 +122,7 @@ tor@mrkinaujr.xyz</a></dd>
 <dd><a href="../first_seen/2020-10-31">2020-10-31 22:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.7
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<dd> Tor 0.4.7.13
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -107,13 +131,13 @@ on
 <dd>65 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8900</dd>
+<dd>9300</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -130,7 +154,7 @@ Contabo GmbH -
 <a href="../as_number/AS51167.html">AS51167</a>
 (<a href='https://bgp.he.net/AS51167'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-09 08:57:53</dd>
+<dd>2023-03-14 19:32:39</dd>
 
 <dt>Country</dt>
 <dd>
