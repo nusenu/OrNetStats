@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-03-16 22:00 UTC**
+Tor network data as of: **2023-03-17 21:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,24 +29,23 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (24) {#emailabuse-node49posteode-urlhydra-familygit}
+## ContactInfo: email:abuse-node49 posteo.de url:hydra-family.git (23) {#emailabuse-node49posteode-urlhydra-familygit}
 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Hydra94a](https://metrics.torproject.org/rs.html#details/61866162CCDFE651B0D76AA57ECA90B9CC7C80DD) | 2022-09-03   | Yes         |                    26 |
 | [Hydra93a](https://metrics.torproject.org/rs.html#details/5D575ADD108DDBBF17E78AD8CB267D6C1F338206) | 2022-09-03   | Yes         |                    26 |
 | [Hydra90a](https://metrics.torproject.org/rs.html#details/21328917A9379E6B8ABCB49A0DBE3AAE885CFC15) | 2022-11-02   | Yes         |                     4 |
-| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    25 |
 | [Hydra72a](https://metrics.torproject.org/rs.html#details/FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF) | 2021-09-19   | Yes         |                    25 |
-| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    26 |
+| [Hydra71a](https://metrics.torproject.org/rs.html#details/9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0) | 2021-09-19   | Yes         |                    25 |
 | [Hydra57a](https://metrics.torproject.org/rs.html#details/0F0F690AF1D32C7C3C72C543836625628887BA85) | 2021-06-05   | Yes         |                    25 |
+| [Hydra91a](https://metrics.torproject.org/rs.html#details/AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF) | 2022-07-10   | Yes         |                    26 |
 | [Hydra73a](https://metrics.torproject.org/rs.html#details/391F278B2B55548B97410ADFBD055D079D798E04) | 2021-09-19   | Yes         |                    25 |
-| [Hydra1](https://metrics.torproject.org/rs.html#details/FF7C2604EFEE8B5898FDE1145A4CA35C8E5E5607)   | 2021-01-13   | Yes         |                    25 |
+| [Hydra18](https://metrics.torproject.org/rs.html#details/3AD29FE1241B73595F99BA2C6D830AF0B6874043)  | 2020-06-30   | Yes         |                    25 |
 | [Hydra17](https://metrics.torproject.org/rs.html#details/E3DAF067B028450B31CF5CE118F2F9AC53146ABD)  | 2020-06-09   | Yes         |                    25 |
 | [Hydra16](https://metrics.torproject.org/rs.html#details/1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A)  | 2020-06-09   | Yes         |                    25 |
-| [Hydra18](https://metrics.torproject.org/rs.html#details/3AD29FE1241B73595F99BA2C6D830AF0B6874043)  | 2020-06-30   | Yes         |                    25 |
-| [Hydra20](https://metrics.torproject.org/rs.html#details/86E479266EBB982E204009532ED460628689E5B5)  | 2020-10-07   | Yes         |                    25 |
 | [Hydra11](https://metrics.torproject.org/rs.html#details/D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7)  | 2021-01-13   | Yes         |                    25 |
+| [Hydra20](https://metrics.torproject.org/rs.html#details/86E479266EBB982E204009532ED460628689E5B5)  | 2020-10-07   | Yes         |                    25 |
 | [Hydra19](https://metrics.torproject.org/rs.html#details/E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5)  | 2020-06-30   | Yes         |                    25 |
 | [Hydra52a](https://metrics.torproject.org/rs.html#details/9BF600D6C06A3FBE28216C58CD241A89931CBE7D) | 2021-03-14   | Yes         |                    25 |
 | [Hydra55](https://metrics.torproject.org/rs.html#details/378AD3D089A01EC802F165A936122B60B5B1035E)  | 2021-06-06   | No          |                    25 |
@@ -58,7 +57,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Hydra89](https://metrics.torproject.org/rs.html#details/900F54B1D483A668959E976F37E327C1122EC817)  | 2022-04-08   | No          |                    25 |
 | [Hydra27](https://metrics.torproject.org/rs.html#details/A0A91967046F7A9BC3154C7B3C3FDE34C02B1017)  | 2020-11-20   | No          |                    25 |
 
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0F0F690AF1D32C7C3C72C543836625628887BA85,1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3AD29FE1241B73595F99BA2C6D830AF0B6874043,3F14EF80BCA7D3679491EB37C98ECFB786F644AE,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,86E479266EBB982E204009532ED460628689E5B5,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9CD386BB804FB9BEE92FA11E60E9241555CCB79A,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7,E3DAF067B028450B31CF5CE118F2F9AC53146ABD,E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF,FF7C2604EFEE8B5898FDE1145A4CA35C8E5E5607
+0F0F690AF1D32C7C3C72C543836625628887BA85,1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3AD29FE1241B73595F99BA2C6D830AF0B6874043,3F14EF80BCA7D3679491EB37C98ECFB786F644AE,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,86E479266EBB982E204009532ED460628689E5B5,9BF600D6C06A3FBE28216C58CD241A89931CBE7D,9CD386BB804FB9BEE92FA11E60E9241555CCB79A,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7,E3DAF067B028450B31CF5CE118F2F9AC53146ABD,E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5,A9A4213EA3D707857368C683F2208C83B8755D8A,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF
