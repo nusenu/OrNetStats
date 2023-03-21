@@ -49,13 +49,13 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/374828f3613856c0b549e9480ad160ef.html">all relays with this contact</a>)</dt>
+(<a href="../contact/f65edaa66657563a12f88a9c635a1188.html">all relays with this contact</a>)</dt>
 <dd>
-David Poulsen &lt;coecherexarder-13 AT protonmail&gt;</a></dd>
+David Poulsen &lt;coecherexarder-13 AT protonmail dot com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-91.90.120.157:21057
+91.90.120.134:50286
 </pre></dd>
 
 
@@ -65,16 +65,22 @@ David Poulsen &lt;coecherexarder-13 AT protonmail&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -84,8 +90,16 @@ David Poulsen &lt;coecherexarder-13 AT protonmail&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -112,13 +126,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>7 Mbit/s</dd>
+<dd>3 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>110</dd>
+<dd>100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -135,7 +150,7 @@ M247 Europe SRL -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-16 18:42:42</dd>
+<dd>2023-03-21 00:28:16</dd>
 
 <dt>Country</dt>
 <dd>
