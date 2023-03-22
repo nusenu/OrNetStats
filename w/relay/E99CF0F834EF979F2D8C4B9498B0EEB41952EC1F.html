@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/33935e03aa9f2ca0965a51a231166fdf.html">all relays with this contact</a>)</dt>
+(<a href="../contact/2e1a2ef0e866580be1e641cf43511ac5.html">all relays with this contact</a>)</dt>
 <dd>
-quidonetwork@gmail.com</a></dd>
+admin(at)quido(dot)org</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,13 @@ quidonetwork@gmail.com</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>89.116.24.68</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +78,16 @@ quidonetwork@gmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -110,9 +121,8 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -121,14 +131,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">vmi1192737.contaboserver.net</pre>
+<pre class="verified-hostname" title="verified hostname">this-is-tor-exit-router.quido.org</pre>
 <dt>Autonomous System</dt>
 <dd>
 Contabo GmbH - 
 <a href="../as_number/AS51167.html">AS51167</a>
 (<a href='https://bgp.he.net/AS51167'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-14 03:21:27</dd>
+<dd>2023-03-22 01:38:53</dd>
 
 <dt>Country</dt>
 <dd>
