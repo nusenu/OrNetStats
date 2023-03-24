@@ -56,14 +56,14 @@ QTipEveryone &lt;qtip AT q-tips dot ddns dot com&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 95.46.32.179:9001
-[2a0d:3344:1e00:fdf:360a:33ff:fe25:8127]
+[2a0d:3344:1e00:294a:360a:33ff:fe25:8127]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>95.46.32.179</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
@@ -82,17 +82,74 @@ QTipEveryone &lt;qtip AT q-tips dot ddns dot com&gt;</a></dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
   563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
 </pre>
 </dd>
 
@@ -103,17 +160,76 @@ QTipEveryone &lt;qtip AT q-tips dot ddns dot com&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:20-23
+ accept *:43
+ accept *:53
+ accept *:79-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:465
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082-2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3389
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -140,7 +256,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>23 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
@@ -148,6 +264,7 @@ on
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -163,7 +280,7 @@ Info Space Plus Ltd. -
 <a href="../as_number/AS51803.html">AS51803</a>
 (<a href='https://bgp.he.net/AS51803'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-23 00:05:14</dd>
+<dd>2023-03-24 13:32:07</dd>
 
 <dt>Country</dt>
 <dd>
