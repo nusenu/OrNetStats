@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: TorProjectIncExitDK</title>
+    <title>Tor Relays :: TorProjectIncExitUK</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "TorProjectIncExitDK"</h2>
+<h2><a href="../">Home</a> :: Relay "TorProjectIncExitUK"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>TorProjectIncExitDK</dd>
+<dd>TorProjectIncExitUK</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,7 +55,7 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-154.6.130.145:32942
+138.199.18.86:32942
 </pre></dd>
 
 
@@ -65,8 +65,16 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -118,6 +134,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -133,11 +150,11 @@ Datacamp Limited -
 <a href="../as_number/AS212238.html">AS212238</a>
 (<a href='https://bgp.he.net/AS212238'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-24 14:02:41</dd>
+<dd>2023-03-25 16:36:53</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/ro.html"><img src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a> Romania
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
 </dd>
 
 <dt>Fingerprint</dt>
