@@ -63,22 +63,26 @@ P0nik0@proton.me</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>144.24.197.18</dd>
+<dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
-  80
+  80-81
   443
+  8008
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
-  80
+  80-81
   443
+  8008
 </pre>
 </dd>
 
@@ -513,9 +517,11 @@ P0nik0@proton.me</a></dd>
  reject 216.218.185.162:*
  reject 216.218.208.114:*
  reject 216.66.15.109:*
+ accept *:43
  accept *:53
- accept *:80
+ accept *:80-81
  accept *:443
+ accept *:8008
  reject *:*
 </pre></dd>
 </dd>
@@ -546,10 +552,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>277 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>43000</dd>
+<dd>39000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -572,7 +578,7 @@ ORACLE-BMC-31898 -
 <a href="../as_number/AS31898.html">AS31898</a>
 (<a href='https://bgp.he.net/AS31898'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-22 11:32:12</dd>
+<dd>2023-03-26 14:20:02</dd>
 
 <dt>Country</dt>
 <dd>

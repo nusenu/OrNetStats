@@ -49,7 +49,7 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/253ae11b6bd31c01f742d4b0f16b62f5.html">all relays with this contact</a>)</dt>
+(<a href="../contact/7d04e8da95abc1c526d2b6d8d55d94cb.html">all relays with this contact</a>)</dt>
 <dd>
 isodiapher /at/ movim / eu (xmpp) | ad9c85ac 5aded378 8fee0468...</a></dd>
 </dd>
@@ -66,8 +66,8 @@ isodiapher /at/ movim / eu (xmpp) | ad9c85ac 5aded378 8fee0468...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  22
 </pre>
 </dd>
 
@@ -77,7 +77,23 @@ isodiapher /at/ movim / eu (xmpp) | ad9c85ac 5aded378 8fee0468...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept 116.202.120.181:443
+ accept 158.69.113.194:443
+ accept 116.202.120.165:443
+ accept 158.69.113.215:443
+ accept 116.202.120.166:443
+ accept 95.216.163.36:443
+ accept 49.12.57.134:443
+ accept *:1194
+ accept *:1293
+ accept *:5222-5223
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -105,10 +121,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>12 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>20</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -126,7 +142,7 @@ netcup GmbH -
 <a href="../as_number/AS197540.html">AS197540</a>
 (<a href='https://bgp.he.net/AS197540'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-25 02:35:10</dd>
+<dd>2023-03-26 13:33:09</dd>
 
 <dt>Country</dt>
 <dd>
