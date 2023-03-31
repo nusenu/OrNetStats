@@ -67,24 +67,52 @@ P0nik0@proton.me</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
   80-81
   83
   85
   443
+  902-904
   991
+  1043
+  1113
+  2095-2096
+  4321
+  4643
+  8008
+  8082
+  8232-8233
+  8332-8333
+  8888
+  9418
+  50002
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  43
   53
   80-81
   83
   85
   443
+  902-904
   991
+  1043
+  1113
+  2095-2096
+  4321
+  4643
+  8008
+  8082
+  8232-8233
+  8332-8333
+  8888
+  9418
+  50002
 </pre>
 </dd>
 
@@ -519,12 +547,26 @@ P0nik0@proton.me</a></dd>
  reject 216.218.185.162:*
  reject 216.218.208.114:*
  reject 216.66.15.109:*
+ accept *:43
  accept *:53
  accept *:80-81
  accept *:83
  accept *:85
  accept *:443
+ accept *:902-904
  accept *:991
+ accept *:1043
+ accept *:1113
+ accept *:2095-2096
+ accept *:4321
+ accept *:4643
+ accept *:8008
+ accept *:8082
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8888
+ accept *:9418
+ accept *:50002
  reject *:*
 </pre></dd>
 </dd>
@@ -558,7 +600,7 @@ on
 <dd>294 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>34000</dd>
+<dd>48000</dd>
 
 <dt>Flags</dt>
 <dd>
