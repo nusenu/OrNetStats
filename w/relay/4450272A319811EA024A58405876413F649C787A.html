@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: SubjectDelta</title>
+    <title>Tor Relays :: relayon0151</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "SubjectDelta"</h2>
+<h2><a href="../">Home</a> :: Relay "relayon0151"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>SubjectDelta</dd>
+<dd>relayon0151</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd><a href="https://nusenu.github.io/OrNetStats/relayon.org.html">
@@ -67,7 +67,8 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-185.21.217.34:10151
+185.220.101.151:10151
+[2a0b:f4c2:1::151]
 </pre></dd>
 
 
@@ -77,18 +78,30 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
 <dd>185.220.101.151</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  80
+  443
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -244,19 +257,21 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
 <dd><a href="../first_seen/2023-01-11">2023-01-11 19:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.13
+<dd> Tor 0.4.7.8
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>97 Mbit/s</dd>
+<dd>55 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>15000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 </dd>
@@ -265,18 +280,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="unverified-hostname" title="unverified hostname">tor-exit-151.relayon.org</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Feral.io Ltd - 
-<a href="../as_number/AS200052.html">AS200052</a>
-(<a href='https://bgp.he.net/AS200052'>BGP</a>)
+Zwiebelfreunde e.V. - 
+<a href="../as_number/AS60729.html">AS60729</a>
+(<a href='https://bgp.he.net/AS60729'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-03-08 03:58:37</dd>
+<dd>2023-04-02 08:09:58</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/gb.html"><img src="../static/images/cc/gb.png" title="United Kingdom of Great Britain and Northern Ireland" alt="United Kingdom of Great Britain and Northern Ireland"></a> United Kingdom of Great Britain and Northern Ireland
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
 </dd>
 
 <dt>Fingerprint</dt>

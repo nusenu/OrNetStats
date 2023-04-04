@@ -65,8 +65,9 @@ Tornode &lt;tor@jonkmans.com&gt;</a></dd>
 <dd>72.12.207.12</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  22
+  5900-5905
 </pre>
 </dd>
 
@@ -82,6 +83,8 @@ Tornode &lt;tor@jonkmans.com&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:22
+ reject *:5900-5905
  accept *:*
 </pre></dd>
 </dd>
@@ -117,6 +120,8 @@ on
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -132,7 +137,7 @@ WINTEK-CORP -
 <a href="../as_number/AS11114.html">AS11114</a>
 (<a href='https://bgp.he.net/AS11114'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-04-01 21:51:20</dd>
+<dd>2023-04-04 14:05:17</dd>
 
 <dt>Country</dt>
 <dd>
