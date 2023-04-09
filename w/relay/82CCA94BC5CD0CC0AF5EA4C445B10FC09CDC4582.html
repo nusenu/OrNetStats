@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: QeruTorExitD3</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "QeruTorExitD3"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>QeruTorExitD3</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/31e7e35b4669273644556137fc426e26.html">all relays with this contact</a>)</dt>
+<dd>
+Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+108.165.249.10:70
+[2602:fed2:7194::10]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>108.165.249.10</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  79-81
+  83
+  85-86
+  88
+  90
+  110
+  143
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-993
+  995
+  1043
+  1103
+  1113
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  1883
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3690
+  4070
+  4321
+  4643
+  5004
+  5050
+  5190
+  5222-5223
+  5228
+  5287
+  5675
+  6880
+  8008
+  8074
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8502
+  8601-8602
+  8888
+  9418
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  79-81
+  83
+  85-86
+  88
+  90
+  110
+  143
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-993
+  995
+  1043
+  1103
+  1113
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  1883
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3690
+  4070
+  4321
+  4643
+  5004
+  5050
+  5190
+  5222-5223
+  5228
+  5287
+  5675
+  6880
+  8008
+  8074
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8502
+  8601-8602
+  8888
+  9418
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 217.23.49.0/24:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:80-81
+ accept *:83
+ accept *:85
+ accept *:86
+ accept *:88
+ accept *:90
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1043
+ accept *:1103
+ accept *:1113
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:1883
+ accept *:2082
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:4070
+ accept *:5004
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5287
+ accept *:5675
+ accept *:6880
+ accept *:8008
+ accept *:8074
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8502
+ accept *:8601
+ accept *:8602
+ accept *:8888
+ accept *:9418
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/89d555e4499179afdea613d7a1f60c47adcff8de6f098a64edf2d0c2541ef9a2.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="0CF202133777B453CAA47092EA80201168E6B1F2.html">0CF202133777B453CAA47092EA80201168E6B1F2</a>
+<a href="1178F1A8E00DA58D6FA4F17BC591DADCB32275B0.html">1178F1A8E00DA58D6FA4F17BC591DADCB32275B0</a>
+<a href="1B306560E2A30C7628FD256AA8061C75C37E45AB.html">1B306560E2A30C7628FD256AA8061C75C37E45AB</a>
+<a href="37D585BD5BFAE567FA835569B7FA47FA01570C79.html">37D585BD5BFAE567FA835569B7FA47FA01570C79</a>
+<a href="3F4D4F65D5C5FCCF776214F8FA4BCE341669E303.html">3F4D4F65D5C5FCCF776214F8FA4BCE341669E303</a>
+<a href="54B373A24D88D868022255EF57A5E1D9233CF0DD.html">54B373A24D88D868022255EF57A5E1D9233CF0DD</a>
+<a href="55A8681C793A82B10680B383447180C72DFA1C8B.html">55A8681C793A82B10680B383447180C72DFA1C8B</a>
+<a href="55E21BF57C9E9ACCBA1D28904F9849983A3DC633.html">55E21BF57C9E9ACCBA1D28904F9849983A3DC633</a>
+<a href="5A622A448482EBCBE1091131FCF479C676DDA67D.html">5A622A448482EBCBE1091131FCF479C676DDA67D</a>
+<a href="61127AD248544A278A8E96E32872F212593D375D.html">61127AD248544A278A8E96E32872F212593D375D</a>
+<a href="6E21BB0F39095B207C45DBBD30A521F0CABBF6A7.html">6E21BB0F39095B207C45DBBD30A521F0CABBF6A7</a>
+<a href="7A72A662252DD52152273E5073EDC8A1F89B3738.html">7A72A662252DD52152273E5073EDC8A1F89B3738</a>
+<a href="7B2D926B6C61B3A1CD789C01A6460D0F4D3C6889.html">7B2D926B6C61B3A1CD789C01A6460D0F4D3C6889</a>
+<a href="7E4A3401B2E1DC7D851392B2BBD5E553FC75B5C0.html">7E4A3401B2E1DC7D851392B2BBD5E553FC75B5C0</a>
+<a href="7E9830E49D5F53A430712E347310620DB4A3BDD4.html">7E9830E49D5F53A430712E347310620DB4A3BDD4</a>
+<a href="82CCA94BC5CD0CC0AF5EA4C445B10FC09CDC4582.html">82CCA94BC5CD0CC0AF5EA4C445B10FC09CDC4582</a>
+<a href="8BFD0B406F35DAA43BAA9C458ED8DF6AFD920268.html">8BFD0B406F35DAA43BAA9C458ED8DF6AFD920268</a>
+<a href="9574390A7E1499E9CD85EDD2925E1E1A1E23EC32.html">9574390A7E1499E9CD85EDD2925E1E1A1E23EC32</a>
+<a href="97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1.html">97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1</a>
+<a href="9FE3528B7ABA891A137B4A8B9326554B4D33E819.html">9FE3528B7ABA891A137B4A8B9326554B4D33E819</a>
+<a href="A16D2AA95993518898A591FBEC590A4DA294685E.html">A16D2AA95993518898A591FBEC590A4DA294685E</a>
+<a href="AEFCA3B03301724DBDA927A40B062BDF4FFF62EE.html">AEFCA3B03301724DBDA927A40B062BDF4FFF62EE</a>
+<a href="B529D42A003931C3FB1B51134508A5043169D765.html">B529D42A003931C3FB1B51134508A5043169D765</a>
+<a href="B5990DCF5EC638797B9D90D83A9D04254F90B869.html">B5990DCF5EC638797B9D90D83A9D04254F90B869</a>
+<a href="BC8B1FAFBADA47CF55786BAAA25C4F0ACE75B9DE.html">BC8B1FAFBADA47CF55786BAAA25C4F0ACE75B9DE</a>
+<a href="BD1B13478D5635ECFAFE68C1D43E1E521F32F4C7.html">BD1B13478D5635ECFAFE68C1D43E1E521F32F4C7</a>
+<a href="CCFD4468684F3812F7F3F99D6F835B7EA6FA4ACA.html">CCFD4468684F3812F7F3F99D6F835B7EA6FA4ACA</a>
+<a href="D7E557768A6B1D3C6EAA515BDE8034B67855A78A.html">D7E557768A6B1D3C6EAA515BDE8034B67855A78A</a>
+<a href="DE76D8247F807547B2D478466FEB31F60B777862.html">DE76D8247F807547B2D478466FEB31F60B777862</a>
+<a href="E2CC9339B399374FD459D181B929447ACC6C96A1.html">E2CC9339B399374FD459D181B929447ACC6C96A1</a>
+<a href="E3DEF00640401B9D1294189C3EA89A9583FFB116.html">E3DEF00640401B9D1294189C3EA89A9583FFB116</a>
+<a href="E512395EC3D8AD79F5A38568C71130A872BA38EA.html">E512395EC3D8AD79F5A38568C71130A872BA38EA</a>
+<a href="EF09777C446A7EE78749A5845664FBA987CE75F6.html">EF09777C446A7EE78749A5845664FBA987CE75F6</a>
+<a href="F553C7D508F73CC10844D10F62DB35E3C331C715.html">F553C7D508F73CC10844D10F62DB35E3C331C715</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="050D56D0F51ADE5D62F4E01FBB0027AC9815BACD.html">050D56D0F51ADE5D62F4E01FBB0027AC9815BACD</a>
+<a href="35E4D6A0994D7A7AF06C7B124E13CC5BFF092766.html">35E4D6A0994D7A7AF06C7B124E13CC5BFF092766</a>
+<a href="B46EF3E14459B61E92F6DC5D402E32348B87BFBE.html">B46EF3E14459B61E92F6DC5D402E32348B87BFBE</a>
+<a href="C2C8C3439BDBAD67998CB1C33E0AA435CC03EC70.html">C2C8C3439BDBAD67998CB1C33E0AA435CC03EC70</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2023-04-09">2023-04-09 01:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.13
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>1</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+RELIABLESITE - 
+<a href="../as_number/AS23470.html">AS23470</a>
+(<a href='https://bgp.he.net/AS23470'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2023-04-09 00:29:48</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>82CCA94BC5CD0CC0AF5EA4C445B10FC09CDC4582</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
