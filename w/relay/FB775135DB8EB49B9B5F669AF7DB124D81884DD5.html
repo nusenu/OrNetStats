@@ -66,18 +66,167 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  110
+  143
+  194
+  220
+  389
+  465
+  500
+  531
+  587
+  636
+  853
+  873
+  989-990
+  992-995
+  1194
+  1293
+  1701
+  1723
+  3389
+  3690
+  4001
+  4321
+  4500
+  5222-5223
+  5900
+  6660-6669
+  6679
+  6697
+  8233
+  8332-8333
+  9332-9333
+  9418
+  9987
+  11371
+  18080
+  18888
+  22556
+  25565
+  30033
+  30333
+  51235
+  51820
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  110
+  143
+  194
+  220
+  389
+  465
+  500
+  531
+  587
+  636
+  853
+  873
+  989-990
+  992-995
+  1194
+  1293
+  1701
+  1723
+  3389
+  3690
+  4001
+  4321
+  4500
+  5222-5223
+  5900
+  6660-6669
+  6679
+  6697
+  8233
+  8332-8333
+  9332-9333
+  9418
+  9987
+  11371
+  18080
+  18888
+  22556
+  25565
+  30033
+  30333
+  51235
+  51820
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:22
+ accept *:23
+ accept *:43
+ accept *:53
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:465
+ accept *:500
+ accept *:531
+ accept *:587
+ accept *:636
+ accept *:853
+ accept *:873
+ accept *:989-990
+ accept *:992
+ accept *:993
+ accept *:994
+ accept *:995
+ accept *:1194
+ accept *:1293
+ accept *:1701
+ accept *:1723
+ accept *:3389
+ accept *:3690
+ accept *:4001
+ accept *:4321
+ accept *:4500
+ accept *:5222-5223
+ accept *:5900
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8233
+ accept *:8332-8333
+ accept *:9332-9333
+ accept *:9418
+ accept *:9987
+ accept *:11371
+ accept *:18080
+ accept *:18888
+ accept *:22556
+ accept *:25565
+ accept *:30033
+ accept *:30333
+ accept *:51235
+ accept *:51820
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -104,7 +253,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>102 Mbit/s</dd>
+<dd>131 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>23000</dd>
