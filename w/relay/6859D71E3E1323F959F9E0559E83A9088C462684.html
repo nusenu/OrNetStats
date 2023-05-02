@@ -65,8 +65,9 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -76,7 +77,15 @@ Ubermen &lt; ubermen AT use DOT startmail DOT com &gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -105,13 +114,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>119 Mbit/s</dd>
+<dd>139 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>23000</dd>
+<dd>28000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -128,7 +138,7 @@ UAB Host Baltic -
 <a href="../as_number/AS209605.html">AS209605</a>
 (<a href='https://bgp.he.net/AS209605'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-04-27 20:39:03</dd>
+<dd>2023-05-02 15:09:36</dd>
 
 <dt>Country</dt>
 <dd>
