@@ -66,81 +66,23 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
 <dd>23.151.232.7</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  53
-  80-81
-  83
-  85-86
-  90
-  110
-  143
-  220
-  443
-  873
-  989-993
-  995
-  1043
-  1103
-  1113
-  1194
-  1293
-  1883
-  3690
-  4070
-  4321
-  5004
-  5222-5223
-  5228
-  5287
-  5675
-  6880
-  8502
-  8601-8602
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
+  2222
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  53
-  80-81
-  83
-  85-86
-  90
-  110
-  143
-  220
-  443
-  873
-  989-993
-  995
-  1043
-  1103
-  1113
-  1194
-  1293
-  1883
-  3690
-  4070
-  4321
-  5004
-  5222-5223
-  5228
-  5287
-  5675
-  6880
-  8502
-  8601-8602
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
+  2222
 </pre>
 </dd>
 
@@ -151,48 +93,12 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject 217.23.49.0/24:*
- accept *:20-21
- accept *:43
- accept *:53
- accept *:80
- accept *:81
- accept *:83
- accept *:85
- accept *:86
- accept *:90
- accept *:110
- accept *:143
- accept *:220
- accept *:443
- accept *:873
- accept *:989-990
- accept *:991
- accept *:992
- accept *:993
- accept *:995
- accept *:1043
- accept *:1103
- accept *:1113
- accept *:1194
- accept *:1293
- accept *:1883
- accept *:3690
- accept *:4070
- accept *:4321
- accept *:5004
- accept *:5222-5223
- accept *:5228
- accept *:5287
- accept *:5675
- accept *:6880
- accept *:8502
- accept *:8601
- accept *:8602
- accept *:9418
- accept *:11371
- accept *:64738
- reject *:*
+ reject *:22
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:2222
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -282,7 +188,6 @@ on
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -299,7 +204,7 @@ RELIABLESITE -
 <a href="../as_number/AS23470.html">AS23470</a>
 (<a href='https://bgp.he.net/AS23470'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-04-26 01:57:03</dd>
+<dd>2023-05-03 04:22:30</dd>
 
 <dt>Country</dt>
 <dd>
