@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/5027f5b4bf8e5a36b6b5a6ef99639ba5.html">all relays with this contact</a>)</dt>
+(<a href="../contact/cee3e3a33164b30feaefe35bdb8e49c7.html">all relays with this contact</a>)</dt>
 <dd>
-tor-exit@nikulaus.net</a></dd>
+0x4EA4F1BB David Poulsen &lt;david AT nikulaus dot net&gt;...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -65,8 +65,8 @@ tor-exit@nikulaus.net</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  6660-6667
 </pre>
 </dd>
 
@@ -76,7 +76,14 @@ tor-exit@nikulaus.net</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -103,13 +110,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>12 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +133,7 @@ Stofa A/S -
 <a href="../as_number/AS39642.html">AS39642</a>
 (<a href='https://bgp.he.net/AS39642'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-03 07:29:21</dd>
+<dd>2023-05-03 16:08:05</dd>
 
 <dt>Country</dt>
 <dd>
