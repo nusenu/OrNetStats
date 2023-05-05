@@ -55,18 +55,27 @@ l3y6aetzp7mnnzwafavrwfwjwupryr72gatp77c4yzeavinozgdgppad.onion</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-179.34.73.127:36666
+177.30.73.78:36666
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>177.30.73.78</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +85,23 @@ l3y6aetzp7mnnzwafavrwfwjwupryr72gatp77c4yzeavinozgdgppad.onion</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -106,10 +131,11 @@ on
 <dd>7 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>240</dd>
+<dd>360</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -125,7 +151,7 @@ on
 <a href="../as_number/AS26615.html">AS26615</a>
 (<a href='https://bgp.he.net/AS26615'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-03 22:00:03</dd>
+<dd>2023-05-04 22:25:51</dd>
 
 <dt>Country</dt>
 <dd>
