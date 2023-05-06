@@ -13,7 +13,7 @@ You can choose one option. If you do not own a DNS domain the second option is f
 
 Make sure to keep your proof up to date when adding more relays.
 
-A day after creating or your AROI, you should be able to see your graph showing your set of relays on OrNetStats.
+You should be able to see your graph showing your set of relays on OrNetStats a day after creating your AROI.
 
 # DNS TXT records option
 
