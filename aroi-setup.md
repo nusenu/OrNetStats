@@ -40,10 +40,10 @@ url:example.com proof:dns-rsa ciissversion:2
 
 Replace "example.com" with your own domain.
 
-It is fine to have other content in your torrc ContactInfo line as well.
+It is fine to have other content in your torrc `ContactInfo` line as well.
 
 
-# Text file over HTTPS option 
+# Text File served over HTTPS option
 
 **Requirements:**
 
