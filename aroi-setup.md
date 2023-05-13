@@ -78,8 +78,9 @@ https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt ([repo]
 * Q: What are the main benefits of creating an AROI for my relays?
 
   * A:
-  * You get a daily updated graph for your group of relays that allow you to see how your relays are doing. Example by another operator: [graph](https://nusenu.github.io/OrNetStats/nothingtohide.nl.html)
-  * Impersonation Detecion: By creating an AROI we and you can easily detect misconfigurations or malicious entities that claim to be you by using your relay's `ContactInfo`
+  * You get a daily updated graph for your group of relays on OrNetStats that allows you to see how your relays are doing.
+  * Example by another operator: [graph](https://nusenu.github.io/OrNetStats/nothingtohide.nl.html)
+  * Impersonation Detection: By creating an AROI we and you can easily detect misconfigurations or malicious entities that claim to be you by using your relay's `ContactInfo`
     because they will fail the AROI verification step.
 
 * Q: Do I need a (DNSSEC-signed) domain to setup my AROI?
@@ -90,7 +91,7 @@ https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt ([repo]
 
   * A: No, running a webserver is optional. You can serve the text file via public services like GitHub Pages or create DNS TXT records instead.
 
-* How can I verify whether I did setup my AROI correctly?
+* Q: How can I verify whether I did setup my AROI correctly?
 
   * A:
   * After setting up your AROI (torrc ContactInfo + rsa-fingerprint.txt or DNS TXT records) wait for a day.
