@@ -75,6 +75,15 @@ https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt ([repo]
 
 # Frequently Asked Questions (FAQ)
 
+* Q: How does an AROI look like?
+
+  * A:
+  * An AROI is represented in the form of an [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name).
+  * Examples:
+  * cccs.de
+  * www.f3netze.de
+  * digitalcourage.social
+
 * Q: What are the main benefits of creating an AROI for my relays?
 
   * A:
