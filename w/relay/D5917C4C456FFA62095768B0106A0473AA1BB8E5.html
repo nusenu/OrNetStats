@@ -55,7 +55,7 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-185.180.31.233:9001
+185.180.31.23:9001
 </pre></dd>
 
 
@@ -65,8 +65,9 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  119
+  6660-6667
 </pre>
 </dd>
 
@@ -76,7 +77,15 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:6660-6667
+ accept *:119
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -103,14 +112,13 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>4 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>110</dd>
+<dd>35</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -126,7 +134,7 @@ Poyrazwifi Limited Company -
 <a href="../as_number/AS212538.html">AS212538</a>
 (<a href='https://bgp.he.net/AS212538'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-06 08:53:41</dd>
+<dd>2023-05-16 14:34:30</dd>
 
 <dt>Country</dt>
 <dd>
