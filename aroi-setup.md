@@ -25,28 +25,24 @@ If your domain is not DNSSEC signed, use the **uri-rsa** proof type instead.
 
 **Setup steps**
 
-* for every relay create a DNS TXT record following this scheme:
+* For every relay create a DNS TXT record following this scheme:
 ```
 relayfingerprint.example.com value: "we-run-this-tor-relay"
 ```
 The RSA SHA1 relay fingerprint is exactly 40 characters long and can be found in the file named 
 "fingerprint" located in the tor data directory on your relay.
 
-For every bridge create a DNS TXT record following this scheme:
+* For every bridge create a DNS TXT record following this scheme:
 ```
 hashed-bridge-fingerprint.example.com value:  "we-run-this-tor-bridge"
 ```
-
 The [hashed bridge fingerprint](https://metrics.torproject.org/onionoo.html#details_bridge_hashed_fingerprint) is the SHA1 hash of the bridge fingerprint.
 
 * make sure your torrc ``ContactInfo`` line contains at least the following content on **all** your relays/bridges:
-
 ```
 url:example.com proof:dns-rsa ciissversion:2
 ```
-
 Replace "example.com" with your own domain.
-
 It is fine to have other content in your torrc `ContactInfo` line as well.
 
 
