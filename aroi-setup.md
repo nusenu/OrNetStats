@@ -85,7 +85,6 @@ Example by an operator:
 
 * Q: How does an AROI look like?
 
-  * A:
   * An AROI is represented in the form of an [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name).
   * Examples:
   * cccs.de
@@ -94,7 +93,6 @@ Example by an operator:
 
 * Q: What are the main benefits of creating an AROI for my relays?
 
-  * A:
   * You get a daily updated graph for your group of relays on OrNetStats that allows you to see how your relays are doing.
   * Example by another operator: [graph](https://nusenu.github.io/OrNetStats/nothingtohide.nl.html)
   * Impersonation Detection: By creating an AROI we and you can easily detect misconfigurations or malicious entities that claim to be you by using your relay's `ContactInfo`
@@ -102,16 +100,20 @@ Example by an operator:
 
 * Q: Do I need a (DNSSEC-signed) domain to setup my AROI?
 
-  * A: No, a (DNSSEC-signed) domain is optional. You can serve a text file via HTTPS instead, but if you want to use the DNS TXT records option, your domain must be DNSSEC-signed.
+  * No, a (DNSSEC-signed) domain is optional. You can serve a text file via HTTPS instead, but if you want to use the DNS TXT records option, your domain must be DNSSEC-signed.
 
 * Q: Do I need to run a webserver to create my AROI?
 
-  * A: No, running a webserver is optional. You can serve the text file via public services like GitHub Pages or create DNS TXT records instead.
+  * No, running a webserver is optional. You can serve the text file via public services like GitHub Pages or create DNS TXT records instead.
 
 * Q: How can I verify whether I did setup my AROI correctly?
 
-  * A:
   * After setting up your AROI (torrc ContactInfo + rsa-fingerprint.txt or DNS TXT records) wait for a day.
   * Then open [this OrNetStats page](https://nusenu.github.io/OrNetStats/w/misc/families-by-bandwidth.html) and search for your `ContactInfo` (ctrl-f),
     click on your entry and ensure every line shows the black checkbox in the second column. If it does not, either you have an error in your AROI setup or someone is trying to impersonate you.
     Verify the IP address of the given relay missing the checkbox in the second column is yours. If you need further help feel free to reach out to me.
+
+# Troubleshooting
+
+The most common AROI verification error root cause: The operator uses Cloudflare and Cloudflare blocks the automated download of the text file.
+This can be solved by configuring Cloudflare to allow these automated fetches.
