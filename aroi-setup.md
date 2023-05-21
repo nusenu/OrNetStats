@@ -32,7 +32,14 @@ relayfingerprint.example.com value: "we-run-this-tor-relay"
 The RSA SHA1 relay fingerprint is exactly 40 characters long and can be found in the file named 
 "fingerprint" located in the tor data directory on your relay.
 
-2. make sure your torrc ``ContactInfo`` line contains at least the following content on **all** your relays:
+For every bridge create a DNS TXT record following this scheme:
+```
+hashed-bridge-fingerprint.example.com value:  "we-run-this-tor-bridge"
+```
+
+The [hashed bridge fingerprint](https://metrics.torproject.org/onionoo.html#details_bridge_hashed_fingerprint) is the SHA1 hash of the bridge fingerprint.
+
+2. make sure your torrc ``ContactInfo`` line contains at least the following content on **all** your relays/bridges:
 
 ```
 url:example.com proof:dns-rsa ciissversion:2
@@ -55,7 +62,9 @@ It is fine to have other content in your torrc `ContactInfo` line as well.
 
 **Setup Steps**
 
-1. create the file **[/.well-known/tor-relay/rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayrsa-fingerprinttxt)** containing all your relay RSA fingerprints, one per line
+1.
+  * for relays: create the file **[/.well-known/tor-relay/rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayrsa-fingerprinttxt)** containing all your relay RSA fingerprints, one per line
+  * for bridges: create the file **[/.well-known/tor-relay/hashed-bridge-rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayhashed-bridge-rsa-fingerprinttxt)** containing all your hashed bridge fingerprints, one per line
 and make it available via HTTPS.
 2. make sure your torrc `ContactInfo` line contains at least the following content:
 
