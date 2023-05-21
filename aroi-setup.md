@@ -25,7 +25,7 @@ If your domain is not DNSSEC signed, use the **uri-rsa** proof type instead.
 
 **Setup steps**
 
-1. for every relay create a DNS TXT record following this scheme:
+* for every relay create a DNS TXT record following this scheme:
 ```
 relayfingerprint.example.com value: "we-run-this-tor-relay"
 ```
@@ -39,7 +39,7 @@ hashed-bridge-fingerprint.example.com value:  "we-run-this-tor-bridge"
 
 The [hashed bridge fingerprint](https://metrics.torproject.org/onionoo.html#details_bridge_hashed_fingerprint) is the SHA1 hash of the bridge fingerprint.
 
-2. make sure your torrc ``ContactInfo`` line contains at least the following content on **all** your relays/bridges:
+* make sure your torrc ``ContactInfo`` line contains at least the following content on **all** your relays/bridges:
 
 ```
 url:example.com proof:dns-rsa ciissversion:2
@@ -62,11 +62,10 @@ It is fine to have other content in your torrc `ContactInfo` line as well.
 
 **Setup Steps**
 
-1.
-  * for relays: create the file **[/.well-known/tor-relay/rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayrsa-fingerprinttxt)** containing all your relay RSA fingerprints, one per line
-  * for bridges: create the file **[/.well-known/tor-relay/hashed-bridge-rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayhashed-bridge-rsa-fingerprinttxt)** containing all your hashed bridge fingerprints, one per line
+* for relays: create the file [/.well-known/tor-relay/rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayrsa-fingerprinttxt) containing all your relay RSA fingerprints, one per line
+* for bridges: create the file [/.well-known/tor-relay/hashed-bridge-rsa-fingerprint.txt](https://gitlab.torproject.org/tpo/core/torspec/-/blob/main/proposals/326-tor-relay-well-known-uri-rfc8615.md#well-knowntor-relayhashed-bridge-rsa-fingerprinttxt) containing all your hashed bridge fingerprints, one per line
 and make it available via HTTPS.
-2. make sure your torrc `ContactInfo` line contains at least the following content:
+* make sure your torrc `ContactInfo` line contains at least the following content:
 
 ```
 url:example.com proof:uri-rsa ciissversion:2 
@@ -80,7 +79,7 @@ If you do not own a domain and webserver you can use 3rd party services like Git
 
 Example by an operator:
 
-https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt ([repo](https://github.com/hydra-family/hydra-family.github.io/blob/main/rsa-fingerprint.txt))
+[https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt](https://hydra-family.github.io/.well-known/tor-relay/rsa-fingerprint.txt) ([repo](https://github.com/hydra-family/hydra-family.github.io/blob/main/rsa-fingerprint.txt))
 
 # Frequently Asked Questions (FAQ)
 
