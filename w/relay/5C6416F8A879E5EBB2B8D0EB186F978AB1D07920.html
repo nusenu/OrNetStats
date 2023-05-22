@@ -63,9 +63,18 @@
 <dd>79.124.78.227</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  587
+<pre class="pre-scrollable">accept: 
+  20-21
+  23
+  80
+  110
+  143
+  443
+  993
+  995
+  5060
+  8000
+  8080
 </pre>
 </dd>
 
@@ -81,9 +90,17 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:587
- accept *:*
+ accept *:21
+ accept *:20
+ accept *:23
+ accept *:8000
+ accept *:8080
+ accept *:5060
+ accept *:110
+ accept *:143
+ accept *:995
+ accept *:993
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -110,7 +127,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>23 Mbit/s</dd>
+<dd>42 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>2600</dd>
@@ -134,7 +151,7 @@ Verdina Ltd. -
 <a href="../as_number/AS201133.html">AS201133</a>
 (<a href='https://bgp.he.net/AS201133'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-19 13:26:00</dd>
+<dd>2023-05-22 14:50:05</dd>
 
 <dt>Country</dt>
 <dd>
