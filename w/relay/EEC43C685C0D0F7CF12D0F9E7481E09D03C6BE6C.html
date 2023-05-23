@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: EO</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "EO"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>EO</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/emeraldonion.org.html">
+emeraldonion.org</a>
+<a href="https://emeraldonion.org/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>url</dt>
+<dd>emeraldonion.org</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/5dbba2709dba4386254f18d29b46ac67.html">all relays with this contact</a>)</dt>
+<dd>
+url:emeraldonion.org proof:uri-rsa ciissversion:2 tech@emeraldonion.org</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+23.129.64.227:443
+[2620:18c:0:192::227]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>23.129.64.227</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  1-65535
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  1-65535
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 23.129.64.128/25:*
+ accept *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/02d77370933d4643d365c9406cc342fbb26b5b984c4a8c2d129115a0dad16ae9.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="0F6B61A697F6327BC2F535AC54E02B48331315CD.html">0F6B61A697F6327BC2F535AC54E02B48331315CD</a>
+<a href="11948E49FA160F5E6FAC73F15A6A71E519FCC04C.html">11948E49FA160F5E6FAC73F15A6A71E519FCC04C</a>
+<a href="2184B5A3289C994B960F464169A968274B202FC7.html">2184B5A3289C994B960F464169A968274B202FC7</a>
+<a href="251BE7FB15A9B61903EE95C42C924E8ED2CD0DB8.html">251BE7FB15A9B61903EE95C42C924E8ED2CD0DB8</a>
+<a href="39150D8F6E5661F70F549C50F8222851C216D8CF.html">39150D8F6E5661F70F549C50F8222851C216D8CF</a>
+<a href="41C80C52AC82295A4D4308D30DCCD3D4ABC4F66C.html">41C80C52AC82295A4D4308D30DCCD3D4ABC4F66C</a>
+<a href="5E82D5E2C21D1D1632BD61DF78C77ACB02D18CCE.html">5E82D5E2C21D1D1632BD61DF78C77ACB02D18CCE</a>
+<a href="6214618C6C796ABC4F075116E650BB7A18A4FE81.html">6214618C6C796ABC4F075116E650BB7A18A4FE81</a>
+<a href="71FCA424EDFD2BB8E6F766F93490A88D71AC7814.html">71FCA424EDFD2BB8E6F766F93490A88D71AC7814</a>
+<a href="7258793152FF8447A31C9344570F84EAE3DF4763.html">7258793152FF8447A31C9344570F84EAE3DF4763</a>
+<a href="779019937414E5B63B77F0D460C8626B67F7093E.html">779019937414E5B63B77F0D460C8626B67F7093E</a>
+<a href="787047C813B8A61FCC38245A162040310D3648CA.html">787047C813B8A61FCC38245A162040310D3648CA</a>
+<a href="89587DCE6FEE1E95B32C019B73364AECDC62552D.html">89587DCE6FEE1E95B32C019B73364AECDC62552D</a>
+<a href="9334D96083D3CF0C1ED5B373323C9927BFE5C9B3.html">9334D96083D3CF0C1ED5B373323C9927BFE5C9B3</a>
+<a href="A0F27DEF0617EBB8671BDDBB4D521D11AF06C3D7.html">A0F27DEF0617EBB8671BDDBB4D521D11AF06C3D7</a>
+<a href="B0230FA330C6A8EB4B80B13853752E74AB5E6505.html">B0230FA330C6A8EB4B80B13853752E74AB5E6505</a>
+<a href="B3BEE41AC2562A0198F4B0DF206C41C85D2F59A7.html">B3BEE41AC2562A0198F4B0DF206C41C85D2F59A7</a>
+<a href="D38709329B73AFA18E6923003F429A2FC65C0655.html">D38709329B73AFA18E6923003F429A2FC65C0655</a>
+<a href="EEC43C685C0D0F7CF12D0F9E7481E09D03C6BE6C.html">EEC43C685C0D0F7CF12D0F9E7481E09D03C6BE6C</a>
+<a href="FDC2D887B604872DBD0C0BA3F79B911D951D943B.html">FDC2D887B604872DBD0C0BA3F79B911D951D943B</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="09DCA3360179C6C8A5A20DDDE1C54662965EF1BA.html">09DCA3360179C6C8A5A20DDDE1C54662965EF1BA</a>
+<a href="0C6842CCF836DE08EFEA0BD6C1471AE3463B9B71.html">0C6842CCF836DE08EFEA0BD6C1471AE3463B9B71</a>
+<a href="1228111A6D4AFC619ED3A70079A3A0B678476A43.html">1228111A6D4AFC619ED3A70079A3A0B678476A43</a>
+<a href="1DC6E52ADB9FE4346CEFC05C6916D8B8F7F66D1C.html">1DC6E52ADB9FE4346CEFC05C6916D8B8F7F66D1C</a>
+<a href="375AAFD4E280B95136969E191AF4D9A1FA7C4FD9.html">375AAFD4E280B95136969E191AF4D9A1FA7C4FD9</a>
+<a href="4E2F7D3326FBCE300557B9AFF463CC434AADD120.html">4E2F7D3326FBCE300557B9AFF463CC434AADD120</a>
+<a href="6A642CAF73BDBEC64DD9A44B9B973C70B3E74707.html">6A642CAF73BDBEC64DD9A44B9B973C70B3E74707</a>
+<a href="706B1ED9AF5CCAC90AD488AE2691B358FA598CBB.html">706B1ED9AF5CCAC90AD488AE2691B358FA598CBB</a>
+<a href="7F0CF3D96C1C910020149EEA5A10294117DC67AA.html">7F0CF3D96C1C910020149EEA5A10294117DC67AA</a>
+<a href="85300B26A8ED4D145BD2DF5AC19978F803ED0380.html">85300B26A8ED4D145BD2DF5AC19978F803ED0380</a>
+<a href="8B9B72D9613E1B674A17DAA6A11FE336C3427191.html">8B9B72D9613E1B674A17DAA6A11FE336C3427191</a>
+<a href="9425164E47E7B8F2AA66944FBDC38CFAFB3E0B7C.html">9425164E47E7B8F2AA66944FBDC38CFAFB3E0B7C</a>
+<a href="A2F580F93FA3D0DA373769614BD9B0C8A6C4623E.html">A2F580F93FA3D0DA373769614BD9B0C8A6C4623E</a>
+<a href="AC28D573C16BD0C7D42AA70976BF36984A1E4DE0.html">AC28D573C16BD0C7D42AA70976BF36984A1E4DE0</a>
+<a href="B2DC8CC5579A3F85121C1AB4A6C3AA38B5B0DC3E.html">B2DC8CC5579A3F85121C1AB4A6C3AA38B5B0DC3E</a>
+<a href="B65CC2B45CE9C934D1E1254736166D6AB64C2ABC.html">B65CC2B45CE9C934D1E1254736166D6AB64C2ABC</a>
+<a href="C9DF39AABF4E34309E04E1E56DB9FA6CF37AE140.html">C9DF39AABF4E34309E04E1E56DB9FA6CF37AE140</a>
+<a href="E0641145321185699A49B9D00EE2F22B5B77964A.html">E0641145321185699A49B9D00EE2F22B5B77964A</a>
+<a href="F27F9D7FC6D46E0F91533C68B572347435797CB0.html">F27F9D7FC6D46E0F91533C68B572347435797CB0</a>
+<a href="F4C836A27BF192F3364A67166E8EE2B19693AED1.html">F4C836A27BF192F3364A67166E8EE2B19693AED1</a>
+<a href="FC773D88785CF34CF0028BA13C5CBD32CAB27AE2.html">FC773D88785CF34CF0028BA13C5CBD32CAB27AE2</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2022-11-07">2022-11-07 23:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.13
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>114 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>13000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+Emerald Onion - 
+<a href="../as_number/AS396507.html">AS396507</a>
+(<a href='https://bgp.he.net/AS396507'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2023-05-03 03:13:10</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>EEC43C685C0D0F7CF12D0F9E7481E09D03C6BE6C</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
