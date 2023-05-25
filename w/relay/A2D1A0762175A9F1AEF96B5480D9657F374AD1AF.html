@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: mymiddlerelay</title>
+    <title>Tor Relays :: pecel</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,18 +39,20 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "mymiddlerelay"</h2>
+<h2><a href="../">Home</a> :: Relay "pecel"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>mymiddlerelay</dd>
+<dd>pecel</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/c355783c83b020ec5cd05b580f6ce3d4.html">all relays with this contact</a>)</dt>
+<dd>
+[xpecel at proton dot me]</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 103.87.68.53:443
@@ -64,18 +66,39 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  873
+  989-990
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-21
+  53
+  80
+  443
+  873
+  989-990
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:989-990
+ accept *:873
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -126,7 +149,7 @@ PT Atharva Telematika Persada -
 <a href="../as_number/AS150249.html">AS150249</a>
 (<a href='https://bgp.he.net/AS150249'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-24 10:46:46</dd>
+<dd>2023-05-25 12:01:47</dd>
 
 <dt>Country</dt>
 <dd>
