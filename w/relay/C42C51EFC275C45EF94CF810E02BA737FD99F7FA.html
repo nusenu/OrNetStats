@@ -63,11 +63,8 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  8332-8333
-  9735
-  18080-18081
-  50001-50002
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -77,17 +74,7 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:8332-8333
- accept *:9735
- accept *:18080-18081
- accept *:50001-50002
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
@@ -114,15 +101,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>107 Mbit/s</dd>
+<dd>113 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>16000</dd>
+<dd>20000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -139,7 +125,7 @@ ZERGRUSH SRL -
 <a href="../as_number/AS39622.html">AS39622</a>
 (<a href='https://bgp.he.net/AS39622'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-22 17:35:29</dd>
+<dd>2023-05-30 10:22:52</dd>
 
 <dt>Country</dt>
 <dd>
