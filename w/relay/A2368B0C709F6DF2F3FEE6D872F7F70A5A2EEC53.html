@@ -65,8 +65,10 @@ tor-relay-contact1337@usurp.in</a></dd>
 <dd>104.244.76.47</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
 </pre>
 </dd>
 
@@ -82,6 +84,9 @@ tor-relay-contact1337@usurp.in</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
  accept *:*
 </pre></dd>
 </dd>
@@ -133,7 +138,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-06-06 19:27:25</dd>
+<dd>2023-06-10 21:43:47</dd>
 
 <dt>Country</dt>
 <dd>
