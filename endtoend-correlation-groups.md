@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-06-11 18:00 UTC**
+Tor network data as of: **2023-06-12 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -44,25 +44,28 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Hydra18](https://metrics.torproject.org/rs.html#details/3AD29FE1241B73595F99BA2C6D830AF0B6874043)  | 2020-06-30   | Yes         |                    17 |
 | [Hydra20](https://metrics.torproject.org/rs.html#details/86E479266EBB982E204009532ED460628689E5B5)  | 2020-10-07   | Yes         |                    17 |
 | [Hydra11](https://metrics.torproject.org/rs.html#details/D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7)  | 2021-01-13   | Yes         |                    17 |
+| [Hydra19](https://metrics.torproject.org/rs.html#details/E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5)  | 2020-06-30   | Yes         |                    17 |
 | [Hydra1](https://metrics.torproject.org/rs.html#details/FF7C2604EFEE8B5898FDE1145A4CA35C8E5E5607)   | 2021-01-13   | Yes         |                    17 |
 | [Hydra16](https://metrics.torproject.org/rs.html#details/1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A)  | 2020-06-09   | Yes         |                    17 |
-| [Hydra19](https://metrics.torproject.org/rs.html#details/E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5)  | 2020-06-30   | Yes         |                    17 |
 | [Hydra46](https://metrics.torproject.org/rs.html#details/3F14EF80BCA7D3679491EB37C98ECFB786F644AE)  | 2021-03-06   | Yes         |                    17 |
 | [Hydra47](https://metrics.torproject.org/rs.html#details/9CD386BB804FB9BEE92FA11E60E9241555CCB79A)  | 2021-03-06   | Yes         |                    17 |
 | [Hydra75](https://metrics.torproject.org/rs.html#details/63928D370B929EBDA54EF2ABDD4A63082085BF61)  | 2021-09-22   | No          |                    17 |
 
-## ContactInfo: email:admin prsv.ch url:https://prsv.ch/ proof:ur (54) {#emailadminprsvch-urlhttpsprsvch-proofur}
+## ContactInfo: email:admin prsv.ch url:https://prsv.ch/ proof:ur (55) {#emailadminprsvch-urlhttpsprsvch-proofur}
 
 | Nickname                                                                                        | First Seen   | Guardonly   |   Eff. Family Members |
 |:------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [prsv](https://metrics.torproject.org/rs.html#details/554631959653A922A8FE4DBEEF74A6CDBF82AF9B) | 2023-01-17   | Yes         |                   118 |
-| [prsv](https://metrics.torproject.org/rs.html#details/312C632D06A97BE150A9238D9F7CC900FA1BFDFA) | 2023-01-17   | Yes         |                   118 |
+| [prsv](https://metrics.torproject.org/rs.html#details/554631959653A922A8FE4DBEEF74A6CDBF82AF9B) | 2023-01-17   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/312C632D06A97BE150A9238D9F7CC900FA1BFDFA) | 2023-01-17   | Yes         |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/75F94BFDC4621D85B5B4D4369E0653F1FC9F5254) | 2023-05-25   | Yes         |                     2 |
-| [prsv](https://metrics.torproject.org/rs.html#details/30B68A87020ABEF5EAD87BD0D477F77FE7F4039F) | 2022-10-09   | Yes         |                   118 |
-| [prsv](https://metrics.torproject.org/rs.html#details/02895A5994A6A291D3938C1142EBFD3B8C296709) | 2022-08-09   | Yes         |                   118 |
+| [prsv](https://metrics.torproject.org/rs.html#details/30B68A87020ABEF5EAD87BD0D477F77FE7F4039F) | 2022-10-09   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/61251D3B47F02345874BB7F2B4D6EF319814DE34) | 2022-08-21   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/C754366F46DFFAEA80C394B1BCED2ECD56EFB09A) | 2022-08-21   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/02895A5994A6A291D3938C1142EBFD3B8C296709) | 2022-08-09   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/CA410AC3B49FFBF7DC05474F747F4E32B2BF1A8F) | 2022-10-09   | Yes         |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/5981BD30ABE7B4EAD3BC73C1B87887D104B732F4) | 2023-05-25   | Yes         |                     2 |
-| [prsv](https://metrics.torproject.org/rs.html#details/BC031603FD69DD73A6ADAF15CDE9A0F52D38CE8E) | 2023-03-10   | Yes         |                   118 |
-| [prsv](https://metrics.torproject.org/rs.html#details/AAFF2D9F8DCCFA02313366A86AFF8753BA81A89F) | 2023-03-10   | Yes         |                   118 |
+| [prsv](https://metrics.torproject.org/rs.html#details/BC031603FD69DD73A6ADAF15CDE9A0F52D38CE8E) | 2023-03-10   | Yes         |                   120 |
+| [prsv](https://metrics.torproject.org/rs.html#details/AAFF2D9F8DCCFA02313366A86AFF8753BA81A89F) | 2023-03-10   | Yes         |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/061CDBB0B8057408BCBC28D00D6016B42A610A24) | 2023-05-30   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/0A34DD9E68ABCEDB64B2D9C07E07BB0357A933D6) | 2023-05-03   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/0B5FB0C4C22166ADE6CB500F08BB5DCD364A12FC) | 2023-04-20   | No          |                   120 |
@@ -77,14 +80,12 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [prsv](https://metrics.torproject.org/rs.html#details/56BB029883A6865DC314BF6F4E31A7B959994681) | 2023-05-03   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/5791E9652179FA7CFA3AF805C54848106885FF26) | 2023-05-03   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/581EA58248AFF965440BAC693EA4CD6411F99A9C) | 2023-05-03   | No          |                   120 |
-| [prsv](https://metrics.torproject.org/rs.html#details/5B5D1383A6FEEC8A763FFFD3A1F03F1CC3D8DF89) | 2023-06-11   | No          |                    46 |
 | [prsv](https://metrics.torproject.org/rs.html#details/61BF33D794542B828EB682EEB7A64E75A055A8F9) | 2023-05-05   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/68F67D866E09ABD502D29CA452D79AE3F4B9847C) | 2023-05-05   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/77833D0BB0F8CB9B81AFE45243E158203A48A719) | 2023-06-01   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/7936501050A860DE11F608CD6CE0FB86F53A1EA9) | 2023-05-31   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/812DA820DA42A26E1D8798AFC554D4A5D8663E19) | 2023-04-26   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/8EB878D1173BFD82B4A860DB7E46C109F1692126) | 2023-05-03   | No          |                   120 |
-| [prsv](https://metrics.torproject.org/rs.html#details/956785F40312735DEFC6126912967DF913BB08BA) | 2023-06-11   | No          |                    46 |
 | [prsv](https://metrics.torproject.org/rs.html#details/95E02D91523F615D9D04AFF65789A4E6566C7EC8) | 2023-06-01   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/98B95580AEE102450D7269E0A446E5F094AE8B3F) | 2023-05-31   | No          |                   120 |
 | [prsv](https://metrics.torproject.org/rs.html#details/9F8E5DB84E60CD039E483F1702A32F1BD13BFEA5) | 2023-05-03   | No          |                   120 |
@@ -113,4 +114,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0F0F690AF1D32C7C3C72C543836625628887BA85,1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3AD29FE1241B73595F99BA2C6D830AF0B6874043,3F14EF80BCA7D3679491EB37C98ECFB786F644AE,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,86E479266EBB982E204009532ED460628689E5B5,9CD386BB804FB9BEE92FA11E60E9241555CCB79A,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7,E3DAF067B028450B31CF5CE118F2F9AC53146ABD,E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5,02895A5994A6A291D3938C1142EBFD3B8C296709,30B68A87020ABEF5EAD87BD0D477F77FE7F4039F,312C632D06A97BE150A9238D9F7CC900FA1BFDFA,554631959653A922A8FE4DBEEF74A6CDBF82AF9B,5981BD30ABE7B4EAD3BC73C1B87887D104B732F4,75F94BFDC4621D85B5B4D4369E0653F1FC9F5254,AAFF2D9F8DCCFA02313366A86AFF8753BA81A89F,BC031603FD69DD73A6ADAF15CDE9A0F52D38CE8E,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF,FF7C2604EFEE8B5898FDE1145A4CA35C8E5E5607
+0F0F690AF1D32C7C3C72C543836625628887BA85,1DFE397493D0791DE63F2D6EA5AB6EBCB7B9871A,21328917A9379E6B8ABCB49A0DBE3AAE885CFC15,391F278B2B55548B97410ADFBD055D079D798E04,3AD29FE1241B73595F99BA2C6D830AF0B6874043,3F14EF80BCA7D3679491EB37C98ECFB786F644AE,5D575ADD108DDBBF17E78AD8CB267D6C1F338206,61866162CCDFE651B0D76AA57ECA90B9CC7C80DD,86E479266EBB982E204009532ED460628689E5B5,9CD386BB804FB9BEE92FA11E60E9241555CCB79A,9F95C68AACB67E6258EC7A6BA9406C227ABAD3F0,AEC8D545DDEDC0311FA7F9F9A885D674D1F1C2FF,D9D2DBEAC776215B33E99D4EBFFE8FBA5C100DB7,E3DAF067B028450B31CF5CE118F2F9AC53146ABD,E465AD166798A3CD0A4866FA2A8BB5ADD157FBD5,02895A5994A6A291D3938C1142EBFD3B8C296709,30B68A87020ABEF5EAD87BD0D477F77FE7F4039F,312C632D06A97BE150A9238D9F7CC900FA1BFDFA,554631959653A922A8FE4DBEEF74A6CDBF82AF9B,5981BD30ABE7B4EAD3BC73C1B87887D104B732F4,61251D3B47F02345874BB7F2B4D6EF319814DE34,75F94BFDC4621D85B5B4D4369E0653F1FC9F5254,AAFF2D9F8DCCFA02313366A86AFF8753BA81A89F,BC031603FD69DD73A6ADAF15CDE9A0F52D38CE8E,C754366F46DFFAEA80C394B1BCED2ECD56EFB09A,CA410AC3B49FFBF7DC05474F747F4E32B2BF1A8F,FB79B2BE707F272FBFE1584F44A3FA5156F7F1CF,FF7C2604EFEE8B5898FDE1145A4CA35C8E5E5607
