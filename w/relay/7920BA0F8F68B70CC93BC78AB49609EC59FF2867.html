@@ -55,29 +55,34 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-104.243.40.94:110
+23.155.24.10:110
+[2602:2e6::a]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>23.155.24.10</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
+  2222
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
+<pre class="pre-scrollable">reject: 
+  22
+  25
+  465
+  587
+  2222
 </pre>
 </dd>
 
@@ -89,10 +94,12 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  reject 217.23.49.0/24:*
- accept *:53
- accept *:80
- accept *:443
- reject *:*
+ reject *:22
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:2222
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -173,17 +180,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>71 Mbit/s</dd>
+<dd>93 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>13000</dd>
+<dd>8600</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -200,7 +205,7 @@ RELIABLESITE -
 <a href="../as_number/AS23470.html">AS23470</a>
 (<a href='https://bgp.he.net/AS23470'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-05-17 19:31:02</dd>
+<dd>2023-06-13 18:58:55</dd>
 
 <dt>Country</dt>
 <dd>
