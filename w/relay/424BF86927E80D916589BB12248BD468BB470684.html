@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: RunningOnFumes2</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "RunningOnFumes2"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>RunningOnFumes2</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+</dt>
+<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+217.12.221.131:443
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>217.12.221.131</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 104.236.37.173:*
+ reject 72.52.218.232:*
+ reject 95.85.96.0/19:*
+ reject 217.174.224.0/20:*
+ reject 5.145.168.0/24:*
+ reject 5.145.169.0/24:*
+ reject 5.145.170.0/24:*
+ reject 5.145.171.0/24:*
+ reject 5.145.172.0/24:*
+ reject 5.145.173.0/24:*
+ reject 45.80.13.0/24:*
+ reject 45.80.14.0/24:*
+ reject 45.80.15.0/24:*
+ reject 77.81.112.0/24:*
+ reject 77.81.116.0/24:*
+ reject 77.81.117.0/24:*
+ reject 77.81.118.0/24:*
+ reject 77.81.119.0/24:*
+ reject 91.192.108.0/24:*
+ reject 91.192.109.0/24:*
+ reject 91.192.110.0/24:*
+ reject 91.192.111.0/24:*
+ reject 93.93.64.0/24:*
+ reject 93.93.67.0/24:*
+ reject 93.93.68.0/24:*
+ reject 93.93.69.0/24:*
+ reject 93.93.70.0/24:*
+ reject 93.93.71.0/24:*
+ reject 193.30.100.0/24:*
+ reject 195.78.228.0/24:*
+ reject 195.78.229.0/24:*
+ reject 195.78.230.0/24:*
+ reject 195.78.231.0/24:*
+ reject 217.61.133.0/24:*
+ reject 217.61.143.0/24:*
+ reject 202.91.160.0/20:*
+ reject 74.208.0.0/16:*
+ reject 82.165.0.0/16:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/28c4e9c7fe351acd9a417cc3f199e2bc15b373bf71b5cca5d7743aad17929621.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="2B34099ED2BC598C4745C96C873FD73A445646BD.html">2B34099ED2BC598C4745C96C873FD73A445646BD</a>
+<a href="424BF86927E80D916589BB12248BD468BB470684.html">424BF86927E80D916589BB12248BD468BB470684</a>
+<a href="93D3B5088A6813F679A426323AE0125FB4FE7728.html">93D3B5088A6813F679A426323AE0125FB4FE7728</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">2D2DEFAF19F705EA2978E616F740B771444A4C3D
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2019-04-26">2019-04-26 18:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.13
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>20 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>2200</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+ITL LLC - 
+<a href="../as_number/AS15626.html">AS15626</a>
+(<a href='https://bgp.he.net/AS15626'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2023-03-07 04:36:29</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/ua.html"><img src="../static/images/cc/ua.png" title="Ukraine" alt="Ukraine"></a> Ukraine
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>424BF86927E80D916589BB12248BD468BB470684</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
