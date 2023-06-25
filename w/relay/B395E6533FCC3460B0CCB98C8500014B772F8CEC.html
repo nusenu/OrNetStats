@@ -55,7 +55,7 @@ your@e-mail</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-146.70.98.39:29891
+91.90.126.55:26514
 </pre></dd>
 
 
@@ -65,8 +65,8 @@ your@e-mail</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  8332-8333
 </pre>
 </dd>
 
@@ -76,7 +76,14 @@ your@e-mail</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:8332-8333
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -103,10 +110,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>11 Mbit/s</dd>
+<dd>9 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>430</dd>
+<dd>330</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -126,11 +133,11 @@ M247 Europe SRL -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-06-23 10:29:49</dd>
+<dd>2023-06-23 23:59:38</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/br.html"><img src="../static/images/cc/br.png" title="Brazil" alt="Brazil"></a> Brazil
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>

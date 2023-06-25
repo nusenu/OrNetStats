@@ -67,7 +67,12 @@ Cyrus &lt;cyrus-megatron@proton.me&gt;</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  1-65535
+  80
+  443
+  465
+  587
+  993
+  995
 </pre>
 </dd>
 
@@ -83,7 +88,13 @@ Cyrus &lt;cyrus-megatron@proton.me&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:*
+ accept *:80
+ accept *:443
+ accept *:465
+ accept *:587
+ accept *:993
+ accept *:995
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -110,14 +121,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>57 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>8400</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -133,7 +145,7 @@ Akamai Technologies, Inc. -
 <a href="../as_number/AS63949.html">AS63949</a>
 (<a href='https://bgp.he.net/AS63949'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-06-22 14:23:56</dd>
+<dd>2023-06-25 09:50:42</dd>
 
 <dt>Country</dt>
 <dd>
