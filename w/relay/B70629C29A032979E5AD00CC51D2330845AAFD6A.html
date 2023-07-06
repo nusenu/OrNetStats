@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: Biverse</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "Biverse"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>Biverse</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+</dt>
+<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+178.63.97.34:9001
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  79
+  88
+  443
+  563
+  587
+  706
+  873
+  993
+  995
+  1194
+  1533
+  2947
+  3386
+  3690
+  4321
+  5031
+  5222-5223
+  8008
+  8333
+  8443
+  9418
+  9420-9422
+  11371
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 62.113.219.4:*
+ reject 88.198.9.155:*
+ reject 69.197.161.34:*
+ reject 69.197.158.250:*
+ reject 69.197.158.242:*
+ reject 69.197.144.138:*
+ reject 208.110.82.186:*
+ reject 208.110.80.50:*
+ reject 208.110.71.58:*
+ reject 204.12.248.66:*
+ reject 204.12.243.58:*
+ reject 204.12.243.42:*
+ reject 204.12.243.34:*
+ reject 204.12.243.210:*
+ reject 204.12.237.202:*
+ reject 204.12.220.122:*
+ reject 204.12.217.98:*
+ reject 204.12.217.42:*
+ reject 204.12.217.250:*
+ reject 204.12.217.218:*
+ reject 204.12.192.250:*
+ reject 173.208.163.242:*
+ reject 173.208.163.178:*
+ reject 173.208.162.2:*
+ reject 173.208.154.90:*
+ reject 173.208.150.90:*
+ reject 173.208.143.90:*
+ reject 173.208.143.194:*
+ reject 173.208.143.122:*
+ reject 173.208.143.114:*
+ reject 173.208.141.154:*
+ reject 173.208.131.98:*
+ reject 173.208.131.178:*
+ reject 173.208.128.82:*
+ reject 173.208.128.74:*
+ reject 173.208.128.50:*
+ reject 98.126.77.2:*
+ reject 98.126.76.186:*
+ reject 98.126.42.26:*
+ reject 98.126.114.50:*
+ reject 174.139.250.66:*
+ reject 76.164.194.226:*
+ reject 72.26.196.194:*
+ reject 74.86.210.134:*
+ reject 74.86.210.133:*
+ reject 67.228.206.92:*
+ reject 208.43.40.148:*
+ reject 208.43.31.8:*
+ reject 208.43.18.12:*
+ reject 208.43.17.44:*
+ reject 208.43.157.96:*
+ reject 208.43.102.220:*
+ reject 208.101.27.72:*
+ reject 208.101.27.44:*
+ reject 208.101.27.108:*
+ reject 206.217.206.8:*
+ reject 174.36.237.84:*
+ reject 173.192.135.99:*
+ reject 173.192.135.98:*
+ reject 173.192.135.102:*
+ reject 96.0.203.98:*
+ reject 96.0.203.90:*
+ reject 96.0.203.82:*
+ reject 96.0.203.122:*
+ reject 96.0.203.114:*
+ reject 96.0.203.106:*
+ reject 173.83.26.34:*
+ reject 173.83.26.26:*
+ reject 96.9.183.149:*
+ reject 96.9.182.101:*
+ reject 96.9.169.53:*
+ reject 66.96.224.213:*
+ reject 66.96.214.53:*
+ reject 66.197.251.69:*
+ reject 66.197.161.181:*
+ reject 64.191.38.165:*
+ reject 64.191.18.149:*
+ reject 64.120.153.117:*
+ reject 64.120.149.117:*
+ reject 173.212.243.114:*
+ reject 173.212.241.50:*
+ reject 96.9.182.197:*
+ reject 96.9.180.21:*
+ reject 64.191.59.245:*
+ reject 64.191.53.37:*
+ reject 64.120.144.69:*
+ reject 173.212.241.42:*
+ reject 173.212.214.194:*
+ reject 96.45.189.178:*
+ reject 95.211.128.25:*
+ reject 85.17.200.13:*
+ reject 96.31.81.44:*
+ reject 64.22.109.222:*
+ reject 204.45.121.58:*
+ reject 204.45.121.50:*
+ reject 204.45.121.42:*
+ reject 204.45.121.34:*
+ reject 204.45.121.18:*
+ reject 204.45.121.130:*
+ reject 204.45.119.90:*
+ reject 204.45.119.82:*
+ reject 204.45.119.74:*
+ reject 204.45.119.50:*
+ reject 204.45.119.42:*
+ reject 204.45.119.34:*
+ reject 204.45.119.26:*
+ reject 204.45.119.2:*
+ reject 204.45.119.18:*
+ reject 204.45.119.10:*
+ reject 204.45.118.250:*
+ reject 204.45.118.202:*
+ reject 98.141.220.226:*
+ reject 98.141.220.194:*
+ reject 66.79.163.102:*
+ reject 66.79.162.86:*
+ reject 66.79.162.138:*
+ reject 69.50.197.191:*
+ reject 80.237.219.54:*
+ accept 129.217.26.0/24:80
+ accept 129.217.26.0/24:443
+ reject 129.217.26.0/24:*
+ accept 129.217.27.0/24:80
+ accept 129.217.27.0/24:443
+ reject 129.217.27.0/24:*
+ accept 129.217.59.32/27:80
+ accept 129.217.59.32/27:443
+ reject 129.217.59.32/27:*
+ reject 195.214.79.0/24:*
+ reject 87.255.38.35:*
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:88
+ accept *:443
+ accept *:563
+ accept *:587
+ accept *:706
+ accept *:873
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1533
+ accept *:2947
+ accept *:3386
+ accept *:3690
+ accept *:4321
+ accept *:5031
+ accept *:5222-5223
+ accept *:8008
+ accept *:8443
+ accept *:8333
+ accept *:9418
+ accept *:9420-9422
+ accept *:11371
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">B70629C29A032979E5AD00CC51D2330845AAFD6A
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2016-07-27">2016-07-27 10:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.7
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>1</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit-01.thehappy3.com</pre>
+<dt>Autonomous System</dt>
+<dd>
+Hetzner Online GmbH - 
+<a href="../as_number/AS24940.html">AS24940</a>
+(<a href='https://bgp.he.net/AS24940'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2022-12-06 10:50:58</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>B70629C29A032979E5AD00CC51D2330845AAFD6A</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
