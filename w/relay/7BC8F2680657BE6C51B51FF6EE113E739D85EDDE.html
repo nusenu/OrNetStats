@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: Tor2DotTeitelNet</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "Tor2DotTeitelNet"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>Tor2DotTeitelNet</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/teitel.net.html">
+teitel.net</a>
+<a href="https://dns.google/query?name=7BC8F2680657BE6C51B51FF6EE113E739D85EDDE.teitel.net&rr_type=TXT">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>jeff[]teitel.net</dd>
+<dt>url</dt>
+<dd>teitel.net</dd>
+<dt>proof</dt>
+<dd>dns-rsa</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/6f2c1d1294a7307264c41d9715fcfb2f.html">all relays with this contact</a>)</dt>
+<dd>
+Jeff Teitel email:jeff[]teitel.net url:teitel.net proof:dns-rsa...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+135.148.149.71:9001
+[2604:2dc0:101:200::195d]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>135.148.149.71</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  110
+  143
+  194
+  220
+  443
+  531
+  873
+  989-990
+  993
+  995
+  1194
+  8080
+  8888
+  9333
+  30303
+  50002
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  110
+  143
+  194
+  220
+  443
+  531
+  873
+  989-990
+  993
+  995
+  1194
+  8080
+  8888
+  9333
+  30303
+  50002
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:443
+ accept *:531
+ accept *:873
+ accept *:989-990
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:8080
+ accept *:8888
+ accept *:9333
+ accept *:30303
+ accept *:50002
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/0c8dbd3e2711faa5e704ffd38cb72f4fe72f22cb7f5795170f35d60178eac38f.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="76959901386E8C908F50235D9894007886B67C2E.html">76959901386E8C908F50235D9894007886B67C2E</a>
+<a href="7BC8F2680657BE6C51B51FF6EE113E739D85EDDE.html">7BC8F2680657BE6C51B51FF6EE113E739D85EDDE</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2023-03-04">2023-03-04 21:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.7.13
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>143 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>41000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor2.teitel.net</pre>
+<dt>Autonomous System</dt>
+<dd>
+OVH SAS - 
+<a href="../as_number/AS16276.html">AS16276</a>
+(<a href='https://bgp.he.net/AS16276'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2023-06-17 21:45:10</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>7BC8F2680657BE6C51B51FF6EE113E739D85EDDE</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
