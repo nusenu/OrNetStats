@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-07-12 18:00 UTC**
+Tor network data as of: **2023-07-13 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,24 +29,26 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt; (32) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
+## ContactInfo: Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt; (34) {#brandon-kuschel-kusch023-at-nospam-umn-dot-edu}
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)        | 2022-08-21   | Yes         |                    34 |
 | [Lamia2](https://metrics.torproject.org/rs.html#details/786835D15C33DCD2B7FD9E70CACBCDA3D6187300)       | 2022-12-11   | Yes         |                    34 |
+| [Charybdis4](https://metrics.torproject.org/rs.html#details/4B6A58C6E678F2B0F422D229F20284AB35194223)   | 2023-06-10   | Yes         |                    34 |
+| [Charybdis5](https://metrics.torproject.org/rs.html#details/65369D044C659CD299E35763914FFD0FC9AD4509)   | 2023-06-10   | Yes         |                    34 |
 | [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC)   | 2022-09-19   | Yes         |                    34 |
 | [Charybdis3](https://metrics.torproject.org/rs.html#details/8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779)   | 2023-02-11   | Yes         |                    34 |
 | [Lamia3](https://metrics.torproject.org/rs.html#details/09F4736B37FA72AC7399F71F917F895D3CF22685)       | 2023-04-28   | Yes         |                    34 |
-| [Minotaur3](https://metrics.torproject.org/rs.html#details/147CA31A3CD14F2EF7269BFDAE9A879E75295E2C)    | 2022-10-17   | Yes         |                    34 |
 | [Echidna](https://metrics.torproject.org/rs.html#details/BA57222A0EC9ECDF003AED665DFB0B1287EA039D)      | 2022-08-21   | Yes         |                    32 |
+| [Minotaur3](https://metrics.torproject.org/rs.html#details/147CA31A3CD14F2EF7269BFDAE9A879E75295E2C)    | 2022-10-17   | Yes         |                    34 |
 | [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)    | 2022-09-19   | Yes         |                    34 |
-| [Echidna2](https://metrics.torproject.org/rs.html#details/EA05F22892CE6B556DD5F1733248A84AD883C116)     | 2022-12-11   | Yes         |                    32 |
 | [Minotaur7](https://metrics.torproject.org/rs.html#details/B207494B6E471AB65C84891639D15F93750481E5)    | 2023-06-10   | Yes         |                    34 |
+| [Echidna2](https://metrics.torproject.org/rs.html#details/EA05F22892CE6B556DD5F1733248A84AD883C116)     | 2022-12-11   | Yes         |                    32 |
 | [Minotaur4](https://metrics.torproject.org/rs.html#details/FFA371808475B05A9544E4A4BA413B486B049E74)    | 2023-02-11   | Yes         |                    34 |
 | [Minotaur5](https://metrics.torproject.org/rs.html#details/A4789FA2F79E8EE39CFE3D272D6DBA599068EB28)    | 2023-02-11   | Yes         |                    34 |
-| [Lamia4](https://metrics.torproject.org/rs.html#details/961522CCF02F22018A72004B0FE9EF27D4BCD74E)       | 2023-06-07   | Yes         |                    34 |
 | [Echidna4](https://metrics.torproject.org/rs.html#details/A9A567CC15293CD3CD6B2BC12A435F37731843A2)     | 2023-06-07   | Yes         |                    32 |
+| [Lamia4](https://metrics.torproject.org/rs.html#details/961522CCF02F22018A72004B0FE9EF27D4BCD74E)       | 2023-06-07   | Yes         |                    34 |
 | [Minotaur6](https://metrics.torproject.org/rs.html#details/66F4ABBF7DEC11993A45782BB552E6DF1416115A)    | 2023-06-10   | Yes         |                    34 |
 | [Echidna3](https://metrics.torproject.org/rs.html#details/CB1816F95D43D6805230ED63326E88B0D4A7ABD7)     | 2023-04-28   | Yes         |                    32 |
 | [Polyphemus2](https://metrics.torproject.org/rs.html#details/044428D910C037932A0763BB089769943F6BA648)  | 2022-10-19   | No          |                    34 |
@@ -69,4 +71,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-09F4736B37FA72AC7399F71F917F895D3CF22685,147CA31A3CD14F2EF7269BFDAE9A879E75295E2C,1DEECD906AFECF496B7DC1E40829F4563517B4CC,66F4ABBF7DEC11993A45782BB552E6DF1416115A,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A4789FA2F79E8EE39CFE3D272D6DBA599068EB28,A9A567CC15293CD3CD6B2BC12A435F37731843A2,B207494B6E471AB65C84891639D15F93750481E5,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,EA05F22892CE6B556DD5F1733248A84AD883C116,FFA371808475B05A9544E4A4BA413B486B049E74
+09F4736B37FA72AC7399F71F917F895D3CF22685,147CA31A3CD14F2EF7269BFDAE9A879E75295E2C,1DEECD906AFECF496B7DC1E40829F4563517B4CC,4B6A58C6E678F2B0F422D229F20284AB35194223,65369D044C659CD299E35763914FFD0FC9AD4509,66F4ABBF7DEC11993A45782BB552E6DF1416115A,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A4789FA2F79E8EE39CFE3D272D6DBA599068EB28,A9A567CC15293CD3CD6B2BC12A435F37731843A2,B207494B6E471AB65C84891639D15F93750481E5,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,EA05F22892CE6B556DD5F1733248A84AD883C116,FFA371808475B05A9544E4A4BA413B486B049E74
