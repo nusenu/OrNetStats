@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/c65071770cac0f3c0d5e6071500536ca.html">all relays with this contact</a>)</dt>
+<dd>
+root@linuxbytes.net</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 66.94.107.91:9005
@@ -60,20 +62,12 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>191.101.174.38 66.94.107.91</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  80
+  443
 </pre>
 </dd>
 
@@ -89,17 +83,9 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -149,7 +135,7 @@ CONTABO -
 <a href="../as_number/AS40021.html">AS40021</a>
 (<a href='https://bgp.he.net/AS40021'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-07-13 15:33:00</dd>
+<dd>2023-07-14 06:54:17</dd>
 
 <dt>Country</dt>
 <dd>

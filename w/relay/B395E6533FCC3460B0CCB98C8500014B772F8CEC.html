@@ -55,20 +55,26 @@ your@e-mail</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-188.241.177.196:40323
+188.241.177.204:35059
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>188.241.177.204</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  53
+  80-81
+  443
+  1194
+  1337
   5889
   8332-8333
   9333
+  18080
 </pre>
 </dd>
 
@@ -84,9 +90,15 @@ your@e-mail</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:1194
+ accept *:1337
  accept *:5889
  accept *:8332-8333
  accept *:9333
+ accept *:18080
  reject *:*
 </pre></dd>
 </dd>
@@ -114,13 +126,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>11 Mbit/s</dd>
+<dd>10 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>550</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -137,7 +150,7 @@ M247 Europe SRL -
 <a href="../as_number/AS9009.html">AS9009</a>
 (<a href='https://bgp.he.net/AS9009'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-07-11 03:45:14</dd>
+<dd>2023-07-14 07:56:20</dd>
 
 <dt>Country</dt>
 <dd>
