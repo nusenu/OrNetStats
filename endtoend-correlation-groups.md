@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-07-14 16:00 UTC**
+Tor network data as of: **2023-07-15 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,20 +33,20 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Lamia2](https://metrics.torproject.org/rs.html#details/786835D15C33DCD2B7FD9E70CACBCDA3D6187300)       | 2022-12-11   | Yes         |                    34 |
-| [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)        | 2022-08-21   | Yes         |                    34 |
 | [Charybdis4](https://metrics.torproject.org/rs.html#details/4B6A58C6E678F2B0F422D229F20284AB35194223)   | 2023-06-10   | Yes         |                    34 |
+| [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)        | 2022-08-21   | Yes         |                    34 |
+| [Lamia2](https://metrics.torproject.org/rs.html#details/786835D15C33DCD2B7FD9E70CACBCDA3D6187300)       | 2022-12-11   | Yes         |                    34 |
 | [Charybdis5](https://metrics.torproject.org/rs.html#details/65369D044C659CD299E35763914FFD0FC9AD4509)   | 2023-06-10   | Yes         |                    34 |
 | [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC)   | 2022-09-19   | Yes         |                    34 |
-| [Lamia3](https://metrics.torproject.org/rs.html#details/09F4736B37FA72AC7399F71F917F895D3CF22685)       | 2023-04-28   | Yes         |                    34 |
 | [Charybdis3](https://metrics.torproject.org/rs.html#details/8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779)   | 2023-02-11   | Yes         |                    34 |
-| [Minotaur3](https://metrics.torproject.org/rs.html#details/147CA31A3CD14F2EF7269BFDAE9A879E75295E2C)    | 2022-10-17   | Yes         |                    34 |
+| [Lamia3](https://metrics.torproject.org/rs.html#details/09F4736B37FA72AC7399F71F917F895D3CF22685)       | 2023-04-28   | Yes         |                    34 |
 | [Echidna](https://metrics.torproject.org/rs.html#details/BA57222A0EC9ECDF003AED665DFB0B1287EA039D)      | 2022-08-21   | Yes         |                    32 |
+| [Minotaur3](https://metrics.torproject.org/rs.html#details/147CA31A3CD14F2EF7269BFDAE9A879E75295E2C)    | 2022-10-17   | Yes         |                    34 |
 | [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)    | 2022-09-19   | Yes         |                    34 |
-| [Minotaur7](https://metrics.torproject.org/rs.html#details/B207494B6E471AB65C84891639D15F93750481E5)    | 2023-06-10   | Yes         |                    34 |
-| [Minotaur5](https://metrics.torproject.org/rs.html#details/A4789FA2F79E8EE39CFE3D272D6DBA599068EB28)    | 2023-02-11   | Yes         |                    34 |
 | [Echidna2](https://metrics.torproject.org/rs.html#details/EA05F22892CE6B556DD5F1733248A84AD883C116)     | 2022-12-11   | Yes         |                    32 |
+| [Minotaur5](https://metrics.torproject.org/rs.html#details/A4789FA2F79E8EE39CFE3D272D6DBA599068EB28)    | 2023-02-11   | Yes         |                    34 |
 | [Minotaur4](https://metrics.torproject.org/rs.html#details/FFA371808475B05A9544E4A4BA413B486B049E74)    | 2023-02-11   | Yes         |                    34 |
+| [Minotaur7](https://metrics.torproject.org/rs.html#details/B207494B6E471AB65C84891639D15F93750481E5)    | 2023-06-10   | Yes         |                    34 |
 | [Echidna4](https://metrics.torproject.org/rs.html#details/A9A567CC15293CD3CD6B2BC12A435F37731843A2)     | 2023-06-07   | Yes         |                    32 |
 | [Lamia4](https://metrics.torproject.org/rs.html#details/961522CCF02F22018A72004B0FE9EF27D4BCD74E)       | 2023-06-07   | Yes         |                    34 |
 | [Minotaur6](https://metrics.torproject.org/rs.html#details/66F4ABBF7DEC11993A45782BB552E6DF1416115A)    | 2023-06-10   | Yes         |                    34 |
@@ -68,7 +68,48 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Polyphemus11](https://metrics.torproject.org/rs.html#details/F3C86D3E09196BF2A80602A6B2398620610A54D1) | 2023-07-10   | No          |                    30 |
 | [Polyphemus10](https://metrics.torproject.org/rs.html#details/F62DF7675006359605F699E23D18E52747012F1D) | 2023-07-10   | No          |                    30 |
 
+## ContactInfo: Neel Chauhan &lt;neel AT neelc DOT org&gt; (36) {#neel-chauhan-neel-at-neelc-dot-org}
+
+| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
+|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [NeelTorRelay1](https://metrics.torproject.org/rs.html#details/97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1) | 2023-03-11   | Yes         |                    33 |
+| [NeelTorRelay2](https://metrics.torproject.org/rs.html#details/6E21BB0F39095B207C45DBBD30A521F0CABBF6A7) | 2023-03-11   | Yes         |                    33 |
+| [NeelTorRelay4](https://metrics.torproject.org/rs.html#details/66BCB27A28C3C98987C2F5A87E3F80282BE1DB32) | 2023-05-03   | Yes         |                    33 |
+| [NeelTorRelay3](https://metrics.torproject.org/rs.html#details/BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1) | 2023-05-03   | Yes         |                    33 |
+| [opsrelayFR6](https://metrics.torproject.org/rs.html#details/016BEACA7393BD1EFEF800CF93FEC2FDA8C0355B)   | 2023-07-15   | No          |                    33 |
+| [OnionPS17](https://metrics.torproject.org/rs.html#details/09A308A13D6EF30FD737D8A396F6B712C28EA61C)     | 2023-06-29   | No          |                    33 |
+| [OnionPS24](https://metrics.torproject.org/rs.html#details/1693D7F30503F9F357D9422FA946D17D3386E93D)     | 2023-06-29   | No          |                    33 |
+| [OnionPS4](https://metrics.torproject.org/rs.html#details/22AE701D9740661F64E4C8FE8D19CFD38D349202)      | 2023-06-29   | No          |                    33 |
+| [OnionPS14](https://metrics.torproject.org/rs.html#details/2C5DFD7958B2F81F1B7E93B50153A92C62BD7F8E)     | 2023-06-29   | No          |                    33 |
+| [OnionPS12](https://metrics.torproject.org/rs.html#details/2C6920D1022EB5F8DF8C0F71DC51C2F3BE982FD9)     | 2023-06-29   | No          |                    33 |
+| [OnionPS22](https://metrics.torproject.org/rs.html#details/36ABB2F8AB1C080BAA3921BC1B0E674109BF8706)     | 2023-06-29   | No          |                    33 |
+| [OnionPS13](https://metrics.torproject.org/rs.html#details/3C129C537C71F1F0BC8EFA05FE3D7068A6038F63)     | 2023-06-29   | No          |                    33 |
+| [OnionPS7](https://metrics.torproject.org/rs.html#details/56B278FFE6699A4CCE20870A6393FED31CC3BCBA)      | 2023-06-29   | No          |                    33 |
+| [opsrelayFR4](https://metrics.torproject.org/rs.html#details/59E809370A08F4D30DC874F5033341CC954C6C31)   | 2023-07-15   | No          |                    33 |
+| [OnionPS8](https://metrics.torproject.org/rs.html#details/65DE820FD4DA7A2F6EF2990D267315C7B4F55CED)      | 2023-06-29   | No          |                    33 |
+| [opsrelayFR8](https://metrics.torproject.org/rs.html#details/680ED2F6E2B23120A32B059617B7EE7BABE65A28)   | 2023-07-15   | No          |                    33 |
+| [OnionPS9](https://metrics.torproject.org/rs.html#details/80A493171F6EFD126A0E0CE5100EA2C6F412AD1B)      | 2023-06-29   | No          |                    33 |
+| [OnionPS10](https://metrics.torproject.org/rs.html#details/85017491DADD5D39B8B7EFAE0B1CB72519106804)     | 2023-06-29   | No          |                    33 |
+| [OnionPS2](https://metrics.torproject.org/rs.html#details/981D406945FAA29856CB4C0EE321C1B38AEB56EF)      | 2023-06-29   | No          |                    33 |
+| [OnionPS21](https://metrics.torproject.org/rs.html#details/98911566DC054B5BE3A36EBD81CE370423A6EBFF)     | 2023-06-29   | No          |                    33 |
+| [OnionPS3](https://metrics.torproject.org/rs.html#details/9C954B8DB0C8BCC4446D49B2ABBAB59B584178EF)      | 2023-06-29   | No          |                    33 |
+| [OnionPS18](https://metrics.torproject.org/rs.html#details/9FB95310FBB98FE412E7199C806F1363E2EE2882)     | 2023-06-29   | No          |                    33 |
+| [OnionPS6](https://metrics.torproject.org/rs.html#details/A259941BD2E86302E46AB07B09480DA45716D224)      | 2023-06-29   | No          |                    33 |
+| [OnionPS20](https://metrics.torproject.org/rs.html#details/A525410BF80FFBB1F6CE89988455B905C4821C2E)     | 2023-06-29   | No          |                    33 |
+| [OnionPS11](https://metrics.torproject.org/rs.html#details/B2BC20B6642EA1CD3A9F8DAB6A4605900DE35638)     | 2023-06-29   | No          |                    33 |
+| [opsrelayFR2](https://metrics.torproject.org/rs.html#details/B309C8495BEC1ED0C8F114F771E2802731DA4074)   | 2023-07-15   | No          |                    33 |
+| [opsrelayFR7](https://metrics.torproject.org/rs.html#details/B68A784955E8DD7B3AB5F29FAA3BA231E24DCCBE)   | 2023-07-15   | No          |                    33 |
+| [OnionPS19](https://metrics.torproject.org/rs.html#details/BA5C8ADBEC8641B628ED263F4F6354115E4DE9A2)     | 2023-06-29   | No          |                    33 |
+| [OnionPS1](https://metrics.torproject.org/rs.html#details/C4CCF8C235695A30035A8125ECE007B521394C07)      | 2023-06-29   | No          |                    33 |
+| [opsrelayFR1](https://metrics.torproject.org/rs.html#details/D165AFA7630A7D145D3FA51C040EFB9A3779227C)   | 2023-07-15   | No          |                     1 |
+| [opsrelayFR5](https://metrics.torproject.org/rs.html#details/D6D7429042EAEB05A151FE0621AA3C2327D02935)   | 2023-07-15   | No          |                     1 |
+| [opsrelayFR3](https://metrics.torproject.org/rs.html#details/D9102A8A70710D30E725DD8DFC9010AE7A861908)   | 2023-07-15   | No          |                     1 |
+| [OnionPS15](https://metrics.torproject.org/rs.html#details/DCC1375E8C02C28CA18F284DF1480BCA5C55286C)     | 2023-06-29   | No          |                    33 |
+| [OnionPS16](https://metrics.torproject.org/rs.html#details/DF71925FF5241C6442F3FA4BDE2AE203FACCC457)     | 2023-06-29   | No          |                    33 |
+| [OnionPS23](https://metrics.torproject.org/rs.html#details/E3B140819EBF6DEE4EE25504E67A3757EFC9E5B7)     | 2023-06-29   | No          |                    33 |
+| [OnionPS5](https://metrics.torproject.org/rs.html#details/E8B186C9B6D4D033B7BDC364A2CD6DE34A40ABD6)      | 2023-06-29   | No          |                    33 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-09F4736B37FA72AC7399F71F917F895D3CF22685,147CA31A3CD14F2EF7269BFDAE9A879E75295E2C,1DEECD906AFECF496B7DC1E40829F4563517B4CC,4B6A58C6E678F2B0F422D229F20284AB35194223,65369D044C659CD299E35763914FFD0FC9AD4509,66F4ABBF7DEC11993A45782BB552E6DF1416115A,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A4789FA2F79E8EE39CFE3D272D6DBA599068EB28,A9A567CC15293CD3CD6B2BC12A435F37731843A2,B207494B6E471AB65C84891639D15F93750481E5,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,EA05F22892CE6B556DD5F1733248A84AD883C116,FFA371808475B05A9544E4A4BA413B486B049E74
+09F4736B37FA72AC7399F71F917F895D3CF22685,147CA31A3CD14F2EF7269BFDAE9A879E75295E2C,1DEECD906AFECF496B7DC1E40829F4563517B4CC,4B6A58C6E678F2B0F422D229F20284AB35194223,65369D044C659CD299E35763914FFD0FC9AD4509,66F4ABBF7DEC11993A45782BB552E6DF1416115A,6E586C8F62D0E153792095AFDA55D4E2E3F3421F,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A4789FA2F79E8EE39CFE3D272D6DBA599068EB28,A9A567CC15293CD3CD6B2BC12A435F37731843A2,B207494B6E471AB65C84891639D15F93750481E5,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,66BCB27A28C3C98987C2F5A87E3F80282BE1DB32,6E21BB0F39095B207C45DBBD30A521F0CABBF6A7,97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1,BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1,EA05F22892CE6B556DD5F1733248A84AD883C116,FFA371808475B05A9544E4A4BA413B486B049E74
