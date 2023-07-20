@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-07-19 16:00 UTC**
+Tor network data as of: **2023-07-20 19:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,47 +33,47 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                | First Seen   | Guardonly   |   Eff. Family Members |
 |:--------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC)   | 2022-09-19   | Yes         |                    39 |
-| [Charybdis4](https://metrics.torproject.org/rs.html#details/4B6A58C6E678F2B0F422D229F20284AB35194223)   | 2023-06-10   | Yes         |                    39 |
-| [Lamia2](https://metrics.torproject.org/rs.html#details/786835D15C33DCD2B7FD9E70CACBCDA3D6187300)       | 2022-12-11   | Yes         |                    39 |
 | [Lamia](https://metrics.torproject.org/rs.html#details/C46548D44C0CA5855C175CE26F5817D38F833C9F)        | 2022-08-21   | Yes         |                    39 |
+| [Charybdis2](https://metrics.torproject.org/rs.html#details/1DEECD906AFECF496B7DC1E40829F4563517B4CC)   | 2022-09-19   | Yes         |                    39 |
+| [Lamia2](https://metrics.torproject.org/rs.html#details/786835D15C33DCD2B7FD9E70CACBCDA3D6187300)       | 2022-12-11   | Yes         |                    39 |
+| [Charybdis4](https://metrics.torproject.org/rs.html#details/4B6A58C6E678F2B0F422D229F20284AB35194223)   | 2023-06-10   | Yes         |                    39 |
 | [Lamia3](https://metrics.torproject.org/rs.html#details/09F4736B37FA72AC7399F71F917F895D3CF22685)       | 2023-04-28   | Yes         |                    39 |
-| [Charybdis5](https://metrics.torproject.org/rs.html#details/65369D044C659CD299E35763914FFD0FC9AD4509)   | 2023-06-10   | Yes         |                    39 |
 | [Charybdis3](https://metrics.torproject.org/rs.html#details/8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779)   | 2023-02-11   | Yes         |                    39 |
+| [Charybdis5](https://metrics.torproject.org/rs.html#details/65369D044C659CD299E35763914FFD0FC9AD4509)   | 2023-06-10   | Yes         |                    39 |
 | [Echidna](https://metrics.torproject.org/rs.html#details/BA57222A0EC9ECDF003AED665DFB0B1287EA039D)      | 2022-08-21   | Yes         |                    39 |
 | [Echidna2](https://metrics.torproject.org/rs.html#details/EA05F22892CE6B556DD5F1733248A84AD883C116)     | 2022-12-11   | Yes         |                    39 |
-| [Echidna4](https://metrics.torproject.org/rs.html#details/A9A567CC15293CD3CD6B2BC12A435F37731843A2)     | 2023-06-07   | Yes         |                    39 |
 | [Echidna3](https://metrics.torproject.org/rs.html#details/CB1816F95D43D6805230ED63326E88B0D4A7ABD7)     | 2023-04-28   | Yes         |                    39 |
-| [Minotaur6](https://metrics.torproject.org/rs.html#details/66F4ABBF7DEC11993A45782BB552E6DF1416115A)    | 2023-06-10   | Yes         |                    39 |
 | [Lamia4](https://metrics.torproject.org/rs.html#details/961522CCF02F22018A72004B0FE9EF27D4BCD74E)       | 2023-06-07   | Yes         |                    39 |
-| [Polyphemus2](https://metrics.torproject.org/rs.html#details/044428D910C037932A0763BB089769943F6BA648)  | 2022-10-19   | No          |                    38 |
-| [Polyphemus](https://metrics.torproject.org/rs.html#details/0CABED9159F1E4BE82879F5A34ED8D7349E931BD)   | 2022-09-14   | No          |                    38 |
-| [Polyphemus5](https://metrics.torproject.org/rs.html#details/0F3874C18BE50B83939D09AF2F6C362D1FC6C8CD)  | 2023-02-11   | No          |                    38 |
+| [Echidna4](https://metrics.torproject.org/rs.html#details/A9A567CC15293CD3CD6B2BC12A435F37731843A2)     | 2023-06-07   | Yes         |                    39 |
+| [Polyphemus2](https://metrics.torproject.org/rs.html#details/044428D910C037932A0763BB089769943F6BA648)  | 2022-10-19   | No          |                    39 |
+| [Polyphemus](https://metrics.torproject.org/rs.html#details/0CABED9159F1E4BE82879F5A34ED8D7349E931BD)   | 2022-09-14   | No          |                    39 |
+| [Polyphemus5](https://metrics.torproject.org/rs.html#details/0F3874C18BE50B83939D09AF2F6C362D1FC6C8CD)  | 2023-02-11   | No          |                    39 |
 | [Minotaur3](https://metrics.torproject.org/rs.html#details/147CA31A3CD14F2EF7269BFDAE9A879E75295E2C)    | 2022-10-17   | No          |                    39 |
-| [Minotaur9](https://metrics.torproject.org/rs.html#details/1C5277C570CDAB4918243410C300D6D2CA97C979)    | 2023-07-15   | No          |                    38 |
+| [Minotaur9](https://metrics.torproject.org/rs.html#details/1C5277C570CDAB4918243410C300D6D2CA97C979)    | 2023-07-15   | No          |                    39 |
 | [Chimera](https://metrics.torproject.org/rs.html#details/2946159CF9D8EAEB8C4A27F6A54B01A459DEE164)      | 2022-08-21   | No          |                    39 |
 | [Chimera4](https://metrics.torproject.org/rs.html#details/3924F0246CBEA6625FE6908320E69BC2D86A012F)     | 2023-07-19   | No          |                    38 |
-| [Polyphemus4](https://metrics.torproject.org/rs.html#details/41C106EAEB0B968C5E68927596500DC99B840367)  | 2023-02-11   | No          |                    38 |
-| [Polyphemus8](https://metrics.torproject.org/rs.html#details/4D4B2695D6D02DFDCDE390ED5DF4A6798924CBBB)  | 2023-05-26   | No          |                    38 |
+| [Polyphemus4](https://metrics.torproject.org/rs.html#details/41C106EAEB0B968C5E68927596500DC99B840367)  | 2023-02-11   | No          |                    39 |
+| [Polyphemus8](https://metrics.torproject.org/rs.html#details/4D4B2695D6D02DFDCDE390ED5DF4A6798924CBBB)  | 2023-05-26   | No          |                    39 |
 | [Chimera2](https://metrics.torproject.org/rs.html#details/4E60DE549B3B4C063E6035BCDAA69DD4F3AE3C4D)     | 2022-12-11   | No          |                    39 |
-| [Polyphemus12](https://metrics.torproject.org/rs.html#details/55FFC2C4D01ACEAFE24C4089A615F91B616B865E) | 2023-07-09   | No          |                    38 |
-| [Polyphemus9](https://metrics.torproject.org/rs.html#details/5B66B1C3023DFC4D579F7196D6D1663CA93BEC99)  | 2023-05-26   | No          |                    38 |
-| [Chimera3](https://metrics.torproject.org/rs.html#details/6081880C20520FBAFDAA63266FD91E7F94862125)     | 2023-07-16   | No          |                    23 |
-| [Polyphemus7](https://metrics.torproject.org/rs.html#details/6D7E1E64851F6FC3EB0143204C1EDEF992FAD947)  | 2023-05-26   | No          |                    38 |
+| [Polyphemus12](https://metrics.torproject.org/rs.html#details/55FFC2C4D01ACEAFE24C4089A615F91B616B865E) | 2023-07-09   | No          |                    39 |
+| [Polyphemus9](https://metrics.torproject.org/rs.html#details/5B66B1C3023DFC4D579F7196D6D1663CA93BEC99)  | 2023-05-26   | No          |                    39 |
+| [Chimera3](https://metrics.torproject.org/rs.html#details/6081880C20520FBAFDAA63266FD91E7F94862125)     | 2023-07-16   | No          |                    37 |
+| [Minotaur6](https://metrics.torproject.org/rs.html#details/66F4ABBF7DEC11993A45782BB552E6DF1416115A)    | 2023-06-10   | No          |                    39 |
+| [Polyphemus7](https://metrics.torproject.org/rs.html#details/6D7E1E64851F6FC3EB0143204C1EDEF992FAD947)  | 2023-05-26   | No          |                    39 |
 | [Minotaur2](https://metrics.torproject.org/rs.html#details/6E586C8F62D0E153792095AFDA55D4E2E3F3421F)    | 2022-09-19   | No          |                    39 |
 | [Chimera5](https://metrics.torproject.org/rs.html#details/81BCD545CD826E378D96BB5F4545D484D6BA74E1)     | 2023-07-19   | No          |                    38 |
-| [Polyphemus3](https://metrics.torproject.org/rs.html#details/826C85481CCB8496EC3E67A4A477C24808D74011)  | 2022-11-05   | No          |                    38 |
+| [Polyphemus3](https://metrics.torproject.org/rs.html#details/826C85481CCB8496EC3E67A4A477C24808D74011)  | 2022-11-05   | No          |                    39 |
 | [Minotaur](https://metrics.torproject.org/rs.html#details/8BDBE498180C41249D3230FC5092CB3EB5A62482)     | 2021-04-06   | No          |                    39 |
-| [Minotaur8](https://metrics.torproject.org/rs.html#details/946D40F81F304814AE2D1A83CB4F219336E90ABF)    | 2023-07-15   | No          |                    38 |
+| [Minotaur8](https://metrics.torproject.org/rs.html#details/946D40F81F304814AE2D1A83CB4F219336E90ABF)    | 2023-07-15   | No          |                    39 |
 | [Minotaur5](https://metrics.torproject.org/rs.html#details/A4789FA2F79E8EE39CFE3D272D6DBA599068EB28)    | 2023-02-11   | No          |                    39 |
 | [Minotaur7](https://metrics.torproject.org/rs.html#details/B207494B6E471AB65C84891639D15F93750481E5)    | 2023-06-10   | No          |                    39 |
 | [Charybdis](https://metrics.torproject.org/rs.html#details/CBF59EC5B9FD108092AE9149EFDAE41F882DA669)    | 2022-08-19   | No          |                    39 |
-| [Polyphemus6](https://metrics.torproject.org/rs.html#details/EDB75B4ED148C676B65A2631AC35682687F90BE7)  | 2023-02-11   | No          |                    38 |
-| [Polyphemus11](https://metrics.torproject.org/rs.html#details/F3C86D3E09196BF2A80602A6B2398620610A54D1) | 2023-07-10   | No          |                    38 |
-| [Polyphemus10](https://metrics.torproject.org/rs.html#details/F62DF7675006359605F699E23D18E52747012F1D) | 2023-07-10   | No          |                    38 |
+| [Polyphemus6](https://metrics.torproject.org/rs.html#details/EDB75B4ED148C676B65A2631AC35682687F90BE7)  | 2023-02-11   | No          |                    39 |
+| [Polyphemus11](https://metrics.torproject.org/rs.html#details/F3C86D3E09196BF2A80602A6B2398620610A54D1) | 2023-07-10   | No          |                    39 |
+| [Polyphemus10](https://metrics.torproject.org/rs.html#details/F62DF7675006359605F699E23D18E52747012F1D) | 2023-07-10   | No          |                    39 |
 | [Minotaur4](https://metrics.torproject.org/rs.html#details/FFA371808475B05A9544E4A4BA413B486B049E74)    | 2023-02-11   | No          |                    39 |
 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-09F4736B37FA72AC7399F71F917F895D3CF22685,1DEECD906AFECF496B7DC1E40829F4563517B4CC,4B6A58C6E678F2B0F422D229F20284AB35194223,65369D044C659CD299E35763914FFD0FC9AD4509,66F4ABBF7DEC11993A45782BB552E6DF1416115A,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A9A567CC15293CD3CD6B2BC12A435F37731843A2,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,EA05F22892CE6B556DD5F1733248A84AD883C116
+09F4736B37FA72AC7399F71F917F895D3CF22685,1DEECD906AFECF496B7DC1E40829F4563517B4CC,4B6A58C6E678F2B0F422D229F20284AB35194223,65369D044C659CD299E35763914FFD0FC9AD4509,786835D15C33DCD2B7FD9E70CACBCDA3D6187300,8BF4E024210FF5DB1D7A4AFEBE11B48C73BFE779,961522CCF02F22018A72004B0FE9EF27D4BCD74E,A9A567CC15293CD3CD6B2BC12A435F37731843A2,BA57222A0EC9ECDF003AED665DFB0B1287EA039D,C46548D44C0CA5855C175CE26F5817D38F833C9F,CB1816F95D43D6805230ED63326E88B0D4A7ABD7,EA05F22892CE6B556DD5F1733248A84AD883C116

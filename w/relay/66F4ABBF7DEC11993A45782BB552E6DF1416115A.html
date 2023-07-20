@@ -56,6 +56,7 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 208.109.215.188:143
+[2001:470:1f19:d6::42]
 </pre></dd>
 
 
@@ -68,6 +69,7 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
 <pre class="pre-scrollable">accept: 
   53
   80-81
+  443
   554
   706
   873
@@ -93,7 +95,31 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  53
+  80-81
+  443
+  554
+  706
+  873
+  1043
+  1194
+  1293
+  1723
+  1755
+  3690
+  4070
+  5004
+  5050
+  5222-5223
+  5228
+  8008
+  8888
+  9418
+  11371
+  19294
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
@@ -105,6 +131,7 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
  reject 172.16.0.0/12:*
  accept *:53
  accept *:80-81
+ accept *:443
  accept *:554
  accept *:706
  accept *:873
@@ -190,13 +217,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>49 Mbit/s</dd>
+<dd>55 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>6200</dd>
+<dd>6100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
@@ -215,7 +243,7 @@ GO-DADDY-COM-LLC -
 <a href="../as_number/AS398101.html">AS398101</a>
 (<a href='https://bgp.he.net/AS398101'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-07-19 04:00:04</dd>
+<dd>2023-07-20 02:10:23</dd>
 
 <dt>Country</dt>
 <dd>
