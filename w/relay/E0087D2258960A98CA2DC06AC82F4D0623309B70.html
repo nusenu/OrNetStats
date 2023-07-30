@@ -55,25 +55,41 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-86.52.215.149:8080
+98.159.234.147:28176
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>98.159.234.32</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -84,8 +100,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -115,10 +139,11 @@ on
 <dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>610</dd>
+<dd>580</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -128,18 +153,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">5634d795.rev.stofanet.dk</pre>
+<pre class="unverified-hostname" title="unverified hostname">exercendi.dreamsinheels.com</pre>
 <dt>Autonomous System</dt>
 <dd>
-Stofa A/S - 
-<a href="../as_number/AS39642.html">AS39642</a>
-(<a href='https://bgp.he.net/AS39642'>BGP</a>)
+Datacamp Limited - 
+<a href="../as_number/AS212238.html">AS212238</a>
+(<a href='https://bgp.he.net/AS212238'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-07-29 12:49:16</dd>
+<dd>2023-07-30 16:14:40</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/dk.html"><img src="../static/images/cc/dk.png" title="Denmark" alt="Denmark"></a> Denmark
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
