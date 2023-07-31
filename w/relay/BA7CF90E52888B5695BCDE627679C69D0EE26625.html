@@ -55,18 +55,26 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-86.52.215.149:80
+86.52.215.149:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>86.52.215.149</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -110,13 +126,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>20 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -132,7 +150,7 @@ Stofa A/S -
 <a href="../as_number/AS39642.html">AS39642</a>
 (<a href='https://bgp.he.net/AS39642'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-07-30 13:28:08</dd>
+<dd>2023-07-31 11:31:09</dd>
 
 <dt>Country</dt>
 <dd>
