@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-01 18:00 UTC**
+Tor network data as of: **2023-08-02 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,50 +34,50 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                            | First Seen   | Guardonly   |   Eff. Family Members |
 |:----------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [bauruine](https://metrics.torproject.org/rs.html#details/F4464187C53F02630494BBC3EEAF7993045DB56B) | 2023-02-02   | Yes         |                   110 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/47B178B75C8E42F2F8AF9AB07E0FBC93DCB72DF8) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/9B7BAE325EBDAD859868D2C60BF6588CA5949039) | 2020-09-15   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/5B83DC983406651A0B4F6AE1940793CDD6A6F92E) | 2022-06-01   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/72F350A023EFE441870D51345869658B94EFFBEF) | 2023-02-02   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/EFD152DEFB20393237C94AD5C3635D9ED9AE3E1A) | 2022-12-07   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/4CE6D83FFA8AD24767007E8C972F371F2468F09A) | 2020-05-28   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/111A885ECB6A76789BFE223AC55B7752FB4D8897) | 2022-12-07   | Yes         |                   110 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/3116830C560796674785D6E7900986698171E150) | 2022-09-09   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/4CE6D83FFA8AD24767007E8C972F371F2468F09A) | 2020-05-28   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/AAAB2519C27EF687E3216D588CC2C6ACC3B051A3) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/B3FDD767EEF15DD75DC8D25E5F6AE92D9A2353B9) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/8662B5E9FB0AF0D2F4534EBD5AD9D458E1966CA8) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/8D89ECA4C93928711A0BD6DB80F547A09AEF2D67) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/C466C9A19383475DB34E20EFDD7512786077B75E) | 2023-02-02   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/E4BFAD49D21D3838485C62D84293A97DAAAA35B7) | 2021-10-07   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/1D24292113610F0096FCC554664EC33BE27A4F54) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/38B5F86E4192439832910F8FA27CE9381BA44643) | 2023-02-02   | Yes         |                   110 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/791B7C05E2C6D4D9AF61100562595568F5B69A7A) | 2022-07-27   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/DB68069B8FB8291BEF672E0021C3893F1140C116) | 2023-02-02   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/8B8E30B0A49EBEEF963D2A5AAC28F3BD3068ADEC) | 2021-10-07   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941) | 2020-10-26   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/3FEAC8B379959917E48FCD0B57CF09BCC290B5A7) | 2023-01-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/5677492FF9EF2B8BEDB76EF9470596A8F7CE7BCC) | 2023-02-02   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/6FF148A28DB6478CAC9ADFDCACC0D81C0C212EA2) | 2023-02-02   | Yes         |                   110 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/7B5720666CD386AF852F6E2CC94C24F2502BAF15) | 2023-01-24   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/791B7C05E2C6D4D9AF61100562595568F5B69A7A) | 2022-07-27   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/8B8E30B0A49EBEEF963D2A5AAC28F3BD3068ADEC) | 2021-10-07   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/DB68069B8FB8291BEF672E0021C3893F1140C116) | 2023-02-02   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941) | 2020-10-26   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/632779C468355C7F7E55C248BC2F42CE2CA2A184) | 2023-02-02   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/6948D30EF690E77DDD958F524BF56F567398DECF) | 2023-01-24   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/6FF148A28DB6478CAC9ADFDCACC0D81C0C212EA2) | 2023-02-02   | Yes         |                   110 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/95545CBA71AD21136C40C927F19C067FF128078F) | 2022-07-27   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/6948D30EF690E77DDD958F524BF56F567398DECF) | 2023-01-24   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/E4BFAD49D21D3838485C62D84293A97DAAAA35B7) | 2021-10-07   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/12C2B0CD1B8C7A12229A7C36E134274550DCD7F4) | 2023-02-02   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/314B1FBF4D1D4B3B8A69BC53D4ABEA1D14EABC68) | 2023-01-24   | Yes         |                   110 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/52A0C729BBA4A31A5C435FBD1078D1DAFBC9CB8D) | 2022-06-01   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/7B5720666CD386AF852F6E2CC94C24F2502BAF15) | 2023-01-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/7F0B0ACEEF829710E51CC3EE3A2A0E0C0993255B) | 2023-02-02   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/47B178B75C8E42F2F8AF9AB07E0FBC93DCB72DF8) | 2022-07-27   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/F6CF78197895FC9186CAD555319720D6F3CB75E8) | 2023-01-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/6589CA083F00587B261AB35757E9CD71FE95D6DF) | 2022-12-06   | Yes         |                   110 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/5B7E816C54650FD7A19E97BD026DFFDF3FA4CA48) | 2023-01-24   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/6C41B08E707662EEB4B436F08CB9F9337D520904) | 2021-03-03   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/ED022FFA6B48E170E84F20F4597CAE9A63B185D5) | 2023-01-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/045BBCA9602A22C112984F25003CD4897CFFB9E5) | 2022-05-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/46F4C7C133AB21EA5E5ACE35DFB5CC2A8920392A) | 2023-01-24   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/52A0C729BBA4A31A5C435FBD1078D1DAFBC9CB8D) | 2022-06-01   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/5EA92EF70389AA7417B127A55C794884EA65827C) | 2023-01-24   | Yes         |                   110 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/6C41B08E707662EEB4B436F08CB9F9337D520904) | 2021-03-03   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/76A153C63D1CEDF45F69202E10B5B2A42D222ED1) | 2023-01-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/89BF7D5316CD77E001547B497BD948C2362B9B30) | 2023-02-02   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/ED6EE4882B771E84D5330BB62800ABEF314237EB) | 2022-09-09   | Yes         |                   112 |
-| [bauruine](https://metrics.torproject.org/rs.html#details/F9E7C3420C761D8253D131EFEFC9EC8CC4F8FB28) | 2023-02-02   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/5A79BD5CC6C128D7D8DFB4969B0246794F117FC6) | 2021-03-03   | Yes         |                   112 |
+| [bauruine](https://metrics.torproject.org/rs.html#details/F9E7C3420C761D8253D131EFEFC9EC8CC4F8FB28) | 2023-02-02   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/7362770CBA5B54C3123CFB243D8217531E2FA036) | 2022-05-24   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/AE488CD696F8DE1CB5391CDC94B6B0CA51436253) | 2022-09-26   | Yes         |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/00CC3A3D92C33E171BBDAEACC4601173BFA24150) | 2023-02-21   | No          |                   112 |
@@ -145,16 +145,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [bauruine](https://metrics.torproject.org/rs.html#details/F1A3439F09057EF64CCC741FE2FD42FD5A183B00) | 2023-06-30   | No          |                   112 |
 | [bauruine](https://metrics.torproject.org/rs.html#details/F8C996BDC49BE4D4C41759B08C6D872B3243B6B7) | 2023-06-30   | No          |                   112 |
 
-## ContactInfo: emg88@duck.com (4) {#emg88duckcom}
-
-| Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
-|:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [C0UNTCH0CULA4](https://metrics.torproject.org/rs.html#details/1299282E4D20AEFCB97089EC6724E785103E2205) | 2023-06-28   | Yes         |                     1 |
-| [C0UNTCH0CULA2](https://metrics.torproject.org/rs.html#details/2C80EB18537317F2D712CE97484E0F052C9DBB3F) | 2023-03-31   | Yes         |                     3 |
-| [C0UNTCH0CULA3](https://metrics.torproject.org/rs.html#details/98C2CCD293250286BC628235FA69C57646EAD780) | 2023-05-04   | Yes         |                     3 |
-| [C0UNTCH0CULA5](https://metrics.torproject.org/rs.html#details/1192F0EC9316B1C97E815CCE77E49CFE105D41F5) | 2023-07-18   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-045BBCA9602A22C112984F25003CD4897CFFB9E5,111A885ECB6A76789BFE223AC55B7752FB4D8897,12C2B0CD1B8C7A12229A7C36E134274550DCD7F4,1D24292113610F0096FCC554664EC33BE27A4F54,1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941,3116830C560796674785D6E7900986698171E150,314B1FBF4D1D4B3B8A69BC53D4ABEA1D14EABC68,38B5F86E4192439832910F8FA27CE9381BA44643,3FEAC8B379959917E48FCD0B57CF09BCC290B5A7,46F4C7C133AB21EA5E5ACE35DFB5CC2A8920392A,47B178B75C8E42F2F8AF9AB07E0FBC93DCB72DF8,4CE6D83FFA8AD24767007E8C972F371F2468F09A,52A0C729BBA4A31A5C435FBD1078D1DAFBC9CB8D,5677492FF9EF2B8BEDB76EF9470596A8F7CE7BCC,5A79BD5CC6C128D7D8DFB4969B0246794F117FC6,5B7E816C54650FD7A19E97BD026DFFDF3FA4CA48,5B83DC983406651A0B4F6AE1940793CDD6A6F92E,5EA92EF70389AA7417B127A55C794884EA65827C,632779C468355C7F7E55C248BC2F42CE2CA2A184,6589CA083F00587B261AB35757E9CD71FE95D6DF,6948D30EF690E77DDD958F524BF56F567398DECF,6C41B08E707662EEB4B436F08CB9F9337D520904,6FF148A28DB6478CAC9ADFDCACC0D81C0C212EA2,72F350A023EFE441870D51345869658B94EFFBEF,7362770CBA5B54C3123CFB243D8217531E2FA036,76A153C63D1CEDF45F69202E10B5B2A42D222ED1,791B7C05E2C6D4D9AF61100562595568F5B69A7A,7B5720666CD386AF852F6E2CC94C24F2502BAF15,7F0B0ACEEF829710E51CC3EE3A2A0E0C0993255B,8662B5E9FB0AF0D2F4534EBD5AD9D458E1966CA8,89BF7D5316CD77E001547B497BD948C2362B9B30,8B8E30B0A49EBEEF963D2A5AAC28F3BD3068ADEC,8D89ECA4C93928711A0BD6DB80F547A09AEF2D67,95545CBA71AD21136C40C927F19C067FF128078F,9B7BAE325EBDAD859868D2C60BF6588CA5949039,AAAB2519C27EF687E3216D588CC2C6ACC3B051A3,AE488CD696F8DE1CB5391CDC94B6B0CA51436253,B3FDD767EEF15DD75DC8D25E5F6AE92D9A2353B9,C466C9A19383475DB34E20EFDD7512786077B75E,1299282E4D20AEFCB97089EC6724E785103E2205,2C80EB18537317F2D712CE97484E0F052C9DBB3F,98C2CCD293250286BC628235FA69C57646EAD780,DB68069B8FB8291BEF672E0021C3893F1140C116,E4BFAD49D21D3838485C62D84293A97DAAAA35B7,ED022FFA6B48E170E84F20F4597CAE9A63B185D5,ED6EE4882B771E84D5330BB62800ABEF314237EB,EFD152DEFB20393237C94AD5C3635D9ED9AE3E1A,F4464187C53F02630494BBC3EEAF7993045DB56B,F6CF78197895FC9186CAD555319720D6F3CB75E8,F9E7C3420C761D8253D131EFEFC9EC8CC4F8FB28
+045BBCA9602A22C112984F25003CD4897CFFB9E5,111A885ECB6A76789BFE223AC55B7752FB4D8897,12C2B0CD1B8C7A12229A7C36E134274550DCD7F4,1D24292113610F0096FCC554664EC33BE27A4F54,1F953ACBFB9F44CE38543B7E9C0E0BE1BDC7E941,3116830C560796674785D6E7900986698171E150,314B1FBF4D1D4B3B8A69BC53D4ABEA1D14EABC68,38B5F86E4192439832910F8FA27CE9381BA44643,3FEAC8B379959917E48FCD0B57CF09BCC290B5A7,46F4C7C133AB21EA5E5ACE35DFB5CC2A8920392A,47B178B75C8E42F2F8AF9AB07E0FBC93DCB72DF8,4CE6D83FFA8AD24767007E8C972F371F2468F09A,52A0C729BBA4A31A5C435FBD1078D1DAFBC9CB8D,5677492FF9EF2B8BEDB76EF9470596A8F7CE7BCC,5A79BD5CC6C128D7D8DFB4969B0246794F117FC6,5B7E816C54650FD7A19E97BD026DFFDF3FA4CA48,5B83DC983406651A0B4F6AE1940793CDD6A6F92E,5EA92EF70389AA7417B127A55C794884EA65827C,632779C468355C7F7E55C248BC2F42CE2CA2A184,6589CA083F00587B261AB35757E9CD71FE95D6DF,6948D30EF690E77DDD958F524BF56F567398DECF,6C41B08E707662EEB4B436F08CB9F9337D520904,6FF148A28DB6478CAC9ADFDCACC0D81C0C212EA2,72F350A023EFE441870D51345869658B94EFFBEF,7362770CBA5B54C3123CFB243D8217531E2FA036,76A153C63D1CEDF45F69202E10B5B2A42D222ED1,791B7C05E2C6D4D9AF61100562595568F5B69A7A,7B5720666CD386AF852F6E2CC94C24F2502BAF15,7F0B0ACEEF829710E51CC3EE3A2A0E0C0993255B,8662B5E9FB0AF0D2F4534EBD5AD9D458E1966CA8,89BF7D5316CD77E001547B497BD948C2362B9B30,8B8E30B0A49EBEEF963D2A5AAC28F3BD3068ADEC,8D89ECA4C93928711A0BD6DB80F547A09AEF2D67,95545CBA71AD21136C40C927F19C067FF128078F,9B7BAE325EBDAD859868D2C60BF6588CA5949039,AAAB2519C27EF687E3216D588CC2C6ACC3B051A3,AE488CD696F8DE1CB5391CDC94B6B0CA51436253,B3FDD767EEF15DD75DC8D25E5F6AE92D9A2353B9,C466C9A19383475DB34E20EFDD7512786077B75E,DB68069B8FB8291BEF672E0021C3893F1140C116,E4BFAD49D21D3838485C62D84293A97DAAAA35B7,ED022FFA6B48E170E84F20F4597CAE9A63B185D5,ED6EE4882B771E84D5330BB62800ABEF314237EB,EFD152DEFB20393237C94AD5C3635D9ED9AE3E1A,F4464187C53F02630494BBC3EEAF7993045DB56B,F6CF78197895FC9186CAD555319720D6F3CB75E8,F9E7C3420C761D8253D131EFEFC9EC8CC4F8FB28
