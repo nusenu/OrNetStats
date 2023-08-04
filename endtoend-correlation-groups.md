@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-03 16:00 UTC**
+Tor network data as of: **2023-08-04 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,13 +33,13 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Kanellos](https://metrics.torproject.org/rs.html#details/73D5045F4AE50B224CABDADC339B5D101CF5A465)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/028BEF4A81578286BAA1352C73E4609B9915C687)    | 2023-07-14   | Yes         |                    18 |
+| [Kanellos](https://metrics.torproject.org/rs.html#details/73D5045F4AE50B224CABDADC339B5D101CF5A465)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/9E47303453F961132C2A59D2966F5A6EFA13B6A5)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/531B3B0391A92F08376A4D5FAFAAC04009690FD1)    | 2023-07-14   | Yes         |                    18 |
+| [Kanellos](https://metrics.torproject.org/rs.html#details/D14B58EACE3EC7D1B367C881B85815B9E985BCE7)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/58FE6772343FF6CD9E53D8B040A2CE495808E93D)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/70B0FD26318C6058D363059C69CAD9CE9CA587C1)    | 2023-07-14   | Yes         |                    18 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/D14B58EACE3EC7D1B367C881B85815B9E985BCE7)    | 2023-07-14   | Yes         |                    18 |
 | [Kanellos](https://metrics.torproject.org/rs.html#details/83F02FD5FEA0B87A6FB18EEC52E3006766E1E92E)    | 2023-07-14   | Yes         |                    18 |
 | [RunBSD](https://metrics.torproject.org/rs.html#details/568E434F725B7828D17EF2B33C2F5CC84F18FCE3)      | 2020-01-03   | Yes         |                    19 |
 | [Caramelo](https://metrics.torproject.org/rs.html#details/DE15A1432DFB127B49F4C6FD9D48771683732995)    | 2023-07-17   | Yes         |                     8 |

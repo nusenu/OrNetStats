@@ -63,11 +63,55 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>92.205.129.119</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  79-81
+  83
+  85
+  443
+  554
+  706
+  873
+  902-904
+  1043
+  1113
+  1194
+  1293
+  1533
+  1723
+  1755
+  1863
+  2086-2087
+  2095-2096
+  2102-2104
+  3690
+  4070
+  4321
+  4643
+  5004
+  5050
+  5190
+  5222-5223
+  5228
+  5675
+  8008
+  8074
+  8082
+  8232-8233
+  8332-8333
+  8502
+  8602
+  8888
+  9418
+  11371
+  19294
+  19638
+  50002
+  64738
 </pre>
 </dd>
 
@@ -77,7 +121,59 @@ Brandon Kuschel &lt;kusch023 AT NOSPAM umn dot edu&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:80-81
+ accept *:83
+ accept *:85
+ accept *:443
+ accept *:554
+ accept *:706
+ accept *:873
+ accept *:902-904
+ accept *:1043
+ accept *:1113
+ accept *:1194
+ accept *:1293
+ accept *:1533
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:4070
+ accept *:5004
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5675
+ accept *:8008
+ accept *:8074
+ accept *:8082
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8502
+ accept *:8602
+ accept *:8888
+ accept *:9418
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -155,13 +251,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>8 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>57000</dd>
+<dd>60000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -179,7 +276,7 @@ Host Europe GmbH -
 <a href="../as_number/AS21499.html">AS21499</a>
 (<a href='https://bgp.he.net/AS21499'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-03 15:37:37</dd>
+<dd>2023-08-04 14:52:48</dd>
 
 <dt>Country</dt>
 <dd>
