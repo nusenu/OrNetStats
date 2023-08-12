@@ -55,7 +55,7 @@ tor@3x6.nl</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-185.244.24.12:443
+185.244.24.12:8443
 [2001:678:d64:564d::70f]
 </pre></dd>
 
@@ -63,21 +63,57 @@ tor@3x6.nl</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.244.24.12</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -112,6 +148,7 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
@@ -130,7 +167,7 @@ Nick Bouwhuis -
 <a href="../as_number/AS202585.html">AS202585</a>
 (<a href='https://bgp.he.net/AS202585'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-11 13:41:05</dd>
+<dd>2023-08-12 12:27:34</dd>
 
 <dt>Country</dt>
 <dd>
