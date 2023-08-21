@@ -76,6 +76,7 @@ tor(at)d-ku(dot)de -  0x86d7bbcc54cbb356</a></dd>
   6346-6429
   6699
   6881-6999
+  36680
 </pre>
 </dd>
 
@@ -91,6 +92,7 @@ tor(at)d-ku(dot)de -  0x86d7bbcc54cbb356</a></dd>
   6346-6429
   6699
   6881-6999
+  36680
 </pre>
 </dd>
 
@@ -101,6 +103,8 @@ tor(at)d-ku(dot)de -  0x86d7bbcc54cbb356</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:36680
  accept *:20-21
  accept *:22
  accept *:23
@@ -113,12 +117,10 @@ tor(at)d-ku(dot)de -  0x86d7bbcc54cbb356</a></dd>
  accept *:389
  accept *:443
  accept *:464
- accept *:465
  accept *:531
  accept *:543-544
  accept *:554
  accept *:563
- accept *:587
  accept *:636
  accept *:706
  accept *:749
@@ -689,7 +691,6 @@ tor(at)d-ku(dot)de -  0x86d7bbcc54cbb356</a></dd>
  reject 216.218.185.162:*
  reject 216.218.208.114:*
  reject 216.66.15.109:*
- reject *:25
  reject *:119
  reject *:135-139
  reject *:445
@@ -725,10 +726,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>87 Mbit/s</dd>
+<dd>81 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>13000</dd>
+<dd>12000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -751,7 +752,7 @@ Contabo GmbH -
 <a href="../as_number/AS51167.html">AS51167</a>
 (<a href='https://bgp.he.net/AS51167'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-13 23:20:55</dd>
+<dd>2023-08-18 08:48:15</dd>
 
 <dt>Country</dt>
 <dd>

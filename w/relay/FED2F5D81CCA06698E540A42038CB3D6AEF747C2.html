@@ -65,31 +65,8 @@ gus@riseup.net</a></dd>
 <dd>5.2.70.140</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  22
-  43
-  53
-  80
-  110
-  143
-  220
-  443
-  853
-  993
-  995
-  1194
-  1293
-  3690
-  5222-5223
-  6660-6669
-  6679
-  6697
-  8232-8233
-  8332-8333
-  9418
-  11371
-  50002
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
@@ -99,49 +76,13 @@ gus@riseup.net</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- reject 85.217.222.195:*
- reject 194.26.229.2:*
- reject 185.149.120.37:*
- reject 190.115.18.3:*
- reject 79.137.192.228:*
- accept *:22
- accept *:43
- accept *:53
- accept *:80
- accept *:110
- accept *:143
- accept *:220
- accept *:443
- accept *:853
- accept *:993
- accept *:995
- accept *:1194
- accept *:1293
- accept *:3690
- accept *:9418
- accept *:11371
- accept *:50002
- accept *:5222-5223
- accept *:64738
- accept *:6660-6669
- accept *:6679
- accept *:6697
- accept *:8232-8233
- accept *:8332-8333
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/ecd42a806464ca950a37a5f4af8c1bf5ff8c257ac305c7173cefc1546d80e2e3.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/dff1532743f066236ac752468022960f627aff7cf4f564e55fdc85da1bfbedc9.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="028BEF4A81578286BAA1352C73E4609B9915C687.html">028BEF4A81578286BAA1352C73E4609B9915C687</a>
 <a href="0EDB953238918AAED075123174053E85A3D711D5.html">0EDB953238918AAED075123174053E85A3D711D5</a>
-<a href="1DA888D47E43EDFCC60CBC0E1FDF0C8A43D64343.html">1DA888D47E43EDFCC60CBC0E1FDF0C8A43D64343</a>
 <a href="32361A1EFDF684DAEDC8CA64843767A395F9EACE.html">32361A1EFDF684DAEDC8CA64843767A395F9EACE</a>
 <a href="531B3B0391A92F08376A4D5FAFAAC04009690FD1.html">531B3B0391A92F08376A4D5FAFAAC04009690FD1</a>
 <a href="568E434F725B7828D17EF2B33C2F5CC84F18FCE3.html">568E434F725B7828D17EF2B33C2F5CC84F18FCE3</a>
@@ -163,6 +104,7 @@ gus@riseup.net</a></dd>
 <dt>Alleged Family Members</dt>
 <dd>
 <pre class="pre-scrollable"><a href="00E89DDEF944B42FD652F80C2480D5E20DF13194.html">00E89DDEF944B42FD652F80C2480D5E20DF13194</a>
+<a href="1DA888D47E43EDFCC60CBC0E1FDF0C8A43D64343.html">1DA888D47E43EDFCC60CBC0E1FDF0C8A43D64343</a>
 <a href="4DB0490A0420809A8149E778BBAC8F1E9349D9EC.html">4DB0490A0420809A8149E778BBAC8F1E9349D9EC</a>
 </pre></dd>
 </dl>
@@ -180,14 +122,13 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>84 Mbit/s</dd>
+<dd>89 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>10000</dd>
+<dd>15000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
