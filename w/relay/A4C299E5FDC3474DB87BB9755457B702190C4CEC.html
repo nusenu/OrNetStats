@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: jC87ggXftkdhEM5LAlG</title>
+    <title>Tor Relays :: 3NfJWIMD3tyw</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "jC87ggXftkdhEM5LAlG"</h2>
+<h2><a href="../">Home</a> :: Relay "3NfJWIMD3tyw"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>jC87ggXftkdhEM5LAlG</dd>
+<dd>3NfJWIMD3tyw</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,18 +55,23 @@ a78i2efsewr0neeknk[at[]]proton.me</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-45.154.98.28:443
+194.26.192.79:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>194.26.192.79</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  22
+  25
+  465
+  587
+  6660-6667
+  6697
 </pre>
 </dd>
 
@@ -76,7 +81,19 @@ a78i2efsewr0neeknk[at[]]proton.me</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:22
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:6660-6667
+ reject *:6697
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -106,13 +123,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>41 Mbit/s</dd>
+<dd>0 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>20</dd>
+<dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -128,7 +146,7 @@ on
 <a href="../as_number/AS210558.html">AS210558</a>
 (<a href='https://bgp.he.net/AS210558'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-21 16:29:32</dd>
+<dd>2023-08-21 22:38:43</dd>
 
 <dt>Country</dt>
 <dd>

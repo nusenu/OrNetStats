@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-21 18:00 UTC**
+Tor network data as of: **2023-08-22 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -70,8 +70,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
 |:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [UkranianStrong](https://metrics.torproject.org/rs.html#details/CE30CE396D62B6BC9DEFC8344DA89BFD60083665)    | 2022-07-25   | Yes         |                     6 |
 | [fsckinggoogle](https://metrics.torproject.org/rs.html#details/29100F9EEEB3B9FFC645E05552CD9F388B831782)     | 2023-08-13   | Yes         |                     3 |
+| [UkranianStrong](https://metrics.torproject.org/rs.html#details/CE30CE396D62B6BC9DEFC8344DA89BFD60083665)    | 2022-07-25   | Yes         |                     6 |
 | [UkranianStrong2](https://metrics.torproject.org/rs.html#details/655F75D0A03DF94298A8BAB663C60FB25D501760)   | 2022-12-01   | Yes         |                     6 |
 | [Iter](https://metrics.torproject.org/rs.html#details/F3689448309B46A9B7A6612C54C205BAF0971E37)              | 2022-07-22   | Yes         |                     7 |
 | [BeCarefulOutThere](https://metrics.torproject.org/rs.html#details/51BD25EE06C46E4466427D4ABF94F2964514EB2F) | 2020-09-10   | No          |                     7 |
