@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-22 17:00 UTC**
+Tor network data as of: **2023-08-23 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -76,7 +76,14 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Iter](https://metrics.torproject.org/rs.html#details/F3689448309B46A9B7A6612C54C205BAF0971E37)              | 2022-07-22   | Yes         |                     7 |
 | [BeCarefulOutThere](https://metrics.torproject.org/rs.html#details/51BD25EE06C46E4466427D4ABF94F2964514EB2F) | 2020-09-10   | No          |                     7 |
 
+## ContactInfo: abuse at riverside dot rocks (2) {#abuseatriversidedotrocks}
+
+| Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
+|:-------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [BackInBlack](https://metrics.torproject.org/rs.html#details/6D04FFDA1E5E352B9F7477D3E15BB1B59B459691) | 2021-09-27   | Yes         |                     1 |
+| [100UPSkid](https://metrics.torproject.org/rs.html#details/392505E115D4415674E731D6BE215E2AE5E56D59)   | 2022-05-19   | No          |                     2 |
+
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-66BCB27A28C3C98987C2F5A87E3F80282BE1DB32,6E21BB0F39095B207C45DBBD30A521F0CABBF6A7,97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1,BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1,29100F9EEEB3B9FFC645E05552CD9F388B831782,655F75D0A03DF94298A8BAB663C60FB25D501760,CE30CE396D62B6BC9DEFC8344DA89BFD60083665,F3689448309B46A9B7A6612C54C205BAF0971E37
+66BCB27A28C3C98987C2F5A87E3F80282BE1DB32,6E21BB0F39095B207C45DBBD30A521F0CABBF6A7,97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1,BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1,29100F9EEEB3B9FFC645E05552CD9F388B831782,655F75D0A03DF94298A8BAB663C60FB25D501760,CE30CE396D62B6BC9DEFC8344DA89BFD60083665,6D04FFDA1E5E352B9F7477D3E15BB1B59B459691,F3689448309B46A9B7A6612C54C205BAF0971E37
