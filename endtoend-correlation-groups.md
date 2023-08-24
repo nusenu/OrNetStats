@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-23 17:00 UTC**
+Tor network data as of: **2023-08-24 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -35,8 +35,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [NeelTorRelay1](https://metrics.torproject.org/rs.html#details/97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1) | 2023-03-11   | Yes         |                    32 |
 | [NeelTorRelay3](https://metrics.torproject.org/rs.html#details/BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1) | 2023-05-03   | Yes         |                    32 |
-| [NeelTorRelay4](https://metrics.torproject.org/rs.html#details/66BCB27A28C3C98987C2F5A87E3F80282BE1DB32) | 2023-05-03   | Yes         |                    32 |
 | [NeelTorRelay2](https://metrics.torproject.org/rs.html#details/6E21BB0F39095B207C45DBBD30A521F0CABBF6A7) | 2023-03-11   | Yes         |                    32 |
+| [NeelTorRelay4](https://metrics.torproject.org/rs.html#details/66BCB27A28C3C98987C2F5A87E3F80282BE1DB32) | 2023-05-03   | Yes         |                    32 |
 | [opsrelayE2](https://metrics.torproject.org/rs.html#details/01EC8FFBEBA761CC5A37C4AE4A572CFF252EBEED)    | 2023-08-18   | No          |                    29 |
 | [opsrelayB6](https://metrics.torproject.org/rs.html#details/0601A2CBCFAE793E4A4D01B21282FA859DAEADB4)    | 2023-07-19   | No          |                    32 |
 | [opsrelayA6](https://metrics.torproject.org/rs.html#details/096472DC09D4ACDD11DC032DA96376329E6962EC)    | 2023-07-19   | No          |                    32 |
@@ -66,16 +66,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [opsrelayB5](https://metrics.torproject.org/rs.html#details/E29727F1EC26F269E3122DABFD2BD71AC7CA35C4)    | 2023-07-19   | No          |                    32 |
 | [opsrelayA5](https://metrics.torproject.org/rs.html#details/FED7827C761F18938D4CC8D8BDBECFC5BFFF95C7)    | 2023-07-19   | No          |                    32 |
 
-## ContactInfo: email:sysop openinternet.io offlinemasterkey:y ci (5) {#emailsysopopeninternetio-offlinemasterkeyy-ci}
-
-| Nickname                                                                                                     | First Seen   | Guardonly   |   Eff. Family Members |
-|:-------------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [fsckinggoogle](https://metrics.torproject.org/rs.html#details/29100F9EEEB3B9FFC645E05552CD9F388B831782)     | 2023-08-13   | Yes         |                     3 |
-| [UkranianStrong](https://metrics.torproject.org/rs.html#details/CE30CE396D62B6BC9DEFC8344DA89BFD60083665)    | 2022-07-25   | Yes         |                     6 |
-| [UkranianStrong2](https://metrics.torproject.org/rs.html#details/655F75D0A03DF94298A8BAB663C60FB25D501760)   | 2022-12-01   | Yes         |                     6 |
-| [Iter](https://metrics.torproject.org/rs.html#details/F3689448309B46A9B7A6612C54C205BAF0971E37)              | 2022-07-22   | Yes         |                     7 |
-| [BeCarefulOutThere](https://metrics.torproject.org/rs.html#details/51BD25EE06C46E4466427D4ABF94F2964514EB2F) | 2020-09-10   | No          |                     7 |
-
 ## ContactInfo: abuse at riverside dot rocks (2) {#abuseatriversidedotrocks}
 
 | Nickname                                                                                               | First Seen   | Guardonly   |   Eff. Family Members |
@@ -86,4 +76,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-66BCB27A28C3C98987C2F5A87E3F80282BE1DB32,6E21BB0F39095B207C45DBBD30A521F0CABBF6A7,97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1,BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1,29100F9EEEB3B9FFC645E05552CD9F388B831782,655F75D0A03DF94298A8BAB663C60FB25D501760,CE30CE396D62B6BC9DEFC8344DA89BFD60083665,6D04FFDA1E5E352B9F7477D3E15BB1B59B459691,F3689448309B46A9B7A6612C54C205BAF0971E37
+66BCB27A28C3C98987C2F5A87E3F80282BE1DB32,6E21BB0F39095B207C45DBBD30A521F0CABBF6A7,97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1,BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1,6D04FFDA1E5E352B9F7477D3E15BB1B59B459691
