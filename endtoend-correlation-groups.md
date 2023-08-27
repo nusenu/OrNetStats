@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-08-26 19:00 UTC**
+Tor network data as of: **2023-08-27 16:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,9 +34,9 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [NeelTorRelay1](https://metrics.torproject.org/rs.html#details/97011FAE9F14C820BEB31C467DEA11E6BFCCA0E1) | 2023-03-11   | Yes         |                    32 |
+| [NeelTorRelay3](https://metrics.torproject.org/rs.html#details/BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1) | 2023-05-03   | Yes         |                    32 |
 | [NeelTorRelay4](https://metrics.torproject.org/rs.html#details/66BCB27A28C3C98987C2F5A87E3F80282BE1DB32) | 2023-05-03   | Yes         |                    32 |
 | [NeelTorRelay2](https://metrics.torproject.org/rs.html#details/6E21BB0F39095B207C45DBBD30A521F0CABBF6A7) | 2023-03-11   | Yes         |                    32 |
-| [NeelTorRelay3](https://metrics.torproject.org/rs.html#details/BA3B3FBB7F23A9580A94DE811F1F2017CEFF52E1) | 2023-05-03   | Yes         |                    32 |
 | [opsrelayE2](https://metrics.torproject.org/rs.html#details/01EC8FFBEBA761CC5A37C4AE4A572CFF252EBEED)    | 2023-08-18   | No          |                    29 |
 | [opsrelayB6](https://metrics.torproject.org/rs.html#details/0601A2CBCFAE793E4A4D01B21282FA859DAEADB4)    | 2023-07-19   | No          |                    32 |
 | [opsrelayA6](https://metrics.torproject.org/rs.html#details/096472DC09D4ACDD11DC032DA96376329E6962EC)    | 2023-07-19   | No          |                    32 |
