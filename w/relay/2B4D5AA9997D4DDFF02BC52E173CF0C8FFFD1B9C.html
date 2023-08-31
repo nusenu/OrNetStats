@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/0276deb53421ac7cd771a1c637809433.html">all relays with this contact</a>)</dt>
+(<a href="../contact/f1d57887687a46378a19db78f78945ec.html">all relays with this contact</a>)</dt>
 <dd>
-Random Person &lt;nobody AT example dot com&gt;</a></dd>
+Random Person &lt;thud_erasure020@simplelogin.com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,24 @@ Random Person &lt;nobody AT example dot com&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>199.195.253.124</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  465
+  563
+  587
+  1214
+  4661-4666
+  6346-6429
+  6660-6667
+  6697
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +89,34 @@ Random Person &lt;nobody AT example dot com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:6660
+ reject *:6661
+ reject *:6662
+ reject *:6663
+ reject *:6664
+ reject *:6665
+ reject *:6666
+ reject *:6667
+ reject *:6697
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -97,19 +137,20 @@ Random Person &lt;nobody AT example dot com&gt;</a></dd>
 <dd><a href="../first_seen/2023-08-29">2023-08-29 10:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.13
+<dd> Tor 0.4.8.5
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>17 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>1</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +166,7 @@ PONYNET -
 <a href="../as_number/AS53667.html">AS53667</a>
 (<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-29 09:00:51</dd>
+<dd>2023-08-31 10:00:21</dd>
 
 <dt>Country</dt>
 <dd>
