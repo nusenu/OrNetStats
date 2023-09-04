@@ -62,11 +62,16 @@ a78i2efsewr0neeknk[at[]]proton.me</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>194.26.192.79</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  22
+  25
+  465
+  587
+  6660-6667
+  6697
 </pre>
 </dd>
 
@@ -76,7 +81,19 @@ a78i2efsewr0neeknk[at[]]proton.me</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:22
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:6660-6667
+ reject *:6697
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -106,13 +123,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>229 Mbit/s</dd>
+<dd>220 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>47000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
@@ -131,7 +149,7 @@ on
 <a href="../as_number/AS210558.html">AS210558</a>
 (<a href='https://bgp.he.net/AS210558'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-08-30 20:22:58</dd>
+<dd>2023-09-03 19:56:41</dd>
 
 <dt>Country</dt>
 <dd>

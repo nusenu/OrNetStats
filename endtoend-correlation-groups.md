@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-03 17:00 UTC**
+Tor network data as of: **2023-09-04 15:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,28 +28,6 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
-
-## ContactInfo: gus@riseup.net (17) {#gusriseupnet}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [Kanellos](https://metrics.torproject.org/rs.html#details/028BEF4A81578286BAA1352C73E4609B9915C687)   | 2023-07-14   | Yes         |                    18 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/73D5045F4AE50B224CABDADC339B5D101CF5A465)   | 2023-07-14   | Yes         |                    18 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/D234FB04EC8CA6A7F5AC617140F9E0394C34A956) | 2023-07-04   | Yes         |                    19 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/70B0FD26318C6058D363059C69CAD9CE9CA587C1)   | 2023-07-14   | Yes         |                    18 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/B4DBA14670B5F90B3565DFE7F6E29173489995C5) | 2023-07-04   | Yes         |                    19 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/531B3B0391A92F08376A4D5FAFAAC04009690FD1)   | 2023-07-14   | Yes         |                    18 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/58FE6772343FF6CD9E53D8B040A2CE495808E93D)   | 2023-07-14   | Yes         |                    18 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/83F02FD5FEA0B87A6FB18EEC52E3006766E1E92E)   | 2023-07-14   | Yes         |                    18 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/D14B58EACE3EC7D1B367C881B85815B9E985BCE7)   | 2023-07-14   | Yes         |                    18 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/B166FEAE2396CD3A4B94C7CF06D1539F172BA40F) | 2022-08-28   | Yes         |                    19 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/32361A1EFDF684DAEDC8CA64843767A395F9EACE) | 2022-08-28   | Yes         |                    19 |
-| [Kanellos](https://metrics.torproject.org/rs.html#details/9E47303453F961132C2A59D2966F5A6EFA13B6A5)   | 2023-07-14   | Yes         |                    18 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/F4BDEDA20CE687FAC9387DA80224F5463947D83B) | 2023-07-04   | Yes         |                    19 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/0EDB953238918AAED075123174053E85A3D711D5) | 2023-07-04   | Yes         |                    19 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/D17EF219FD037CE9338345E120F6A0DC519EBA1D) | 2023-07-04   | Yes         |                    19 |
-| [Loukanikos](https://metrics.torproject.org/rs.html#details/E9EE09B4AD43BB44EF6D328566F928F5818BC287) | 2023-07-04   | Yes         |                    19 |
-| [HangTheDJ](https://metrics.torproject.org/rs.html#details/1DA888D47E43EDFCC60CBC0E1FDF0C8A43D64343)  | 2020-08-29   | No          |                    11 |
 
 ## ContactInfo: email:torix protonmail.com url:https://torix-rela (54) {#emailtorixprotonmailcom-urlhttpstorix-rela}
 
@@ -109,8 +87,3 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Aramis](https://metrics.torproject.org/rs.html#details/F3E6F01671C087AD318BBA47FCD08B65D1A4460E)   | 2022-06-18   | No          |                    54 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/F80348BA5A1B758D378C1E7AA7F2E8CC0845A39E)   | 2023-07-18   | No          |                    52 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/FC09FFDEB7FFB716B19305A1CE49D2DE88A58E05)   | 2023-05-18   | No          |                    54 |
-
-
-## Fingerprint List of Guard-only Relays in E2E Groups
-
-028BEF4A81578286BAA1352C73E4609B9915C687,0EDB953238918AAED075123174053E85A3D711D5,32361A1EFDF684DAEDC8CA64843767A395F9EACE,531B3B0391A92F08376A4D5FAFAAC04009690FD1,58FE6772343FF6CD9E53D8B040A2CE495808E93D,70B0FD26318C6058D363059C69CAD9CE9CA587C1,73D5045F4AE50B224CABDADC339B5D101CF5A465,83F02FD5FEA0B87A6FB18EEC52E3006766E1E92E,9E47303453F961132C2A59D2966F5A6EFA13B6A5,B166FEAE2396CD3A4B94C7CF06D1539F172BA40F,B4DBA14670B5F90B3565DFE7F6E29173489995C5,D14B58EACE3EC7D1B367C881B85815B9E985BCE7,D17EF219FD037CE9338345E120F6A0DC519EBA1D,D234FB04EC8CA6A7F5AC617140F9E0394C34A956,E9EE09B4AD43BB44EF6D328566F928F5818BC287,F4BDEDA20CE687FAC9387DA80224F5463947D83B,FED2F5D81CCA06698E540A42038CB3D6AEF747C2
