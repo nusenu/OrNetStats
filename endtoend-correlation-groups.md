@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-04 15:00 UTC**
+Tor network data as of: **2023-09-05 21:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -28,6 +28,13 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 [relayor](https://medium.com/@nusenu/deploying-tor-relays-with-ansible-6612593fa34d))
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
+
+## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
+
+| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
+|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
+| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
 
 ## ContactInfo: email:torix protonmail.com url:https://torix-rela (54) {#emailtorixprotonmailcom-urlhttpstorix-rela}
 
@@ -87,3 +94,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [Aramis](https://metrics.torproject.org/rs.html#details/F3E6F01671C087AD318BBA47FCD08B65D1A4460E)   | 2022-06-18   | No          |                    54 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/F80348BA5A1B758D378C1E7AA7F2E8CC0845A39E)   | 2023-07-18   | No          |                    52 |
 | [Aramis](https://metrics.torproject.org/rs.html#details/FC09FFDEB7FFB716B19305A1CE49D2DE88A58E05)   | 2023-05-18   | No          |                    54 |
+
+
+## Fingerprint List of Guard-only Relays in E2E Groups
+
+A9A4213EA3D707857368C683F2208C83B8755D8A
