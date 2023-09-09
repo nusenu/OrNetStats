@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-08 17:00 UTC**
+Tor network data as of: **2023-09-09 18:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,17 +29,17 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse artikel5ev.de url:https://artikel5ev. (28) {#emailabuseartikel5evde-urlhttpsartikel5ev}
+## ContactInfo: email:abuse artikel5ev.de url:https://artikel5ev. (27) {#emailabuseartikel5evde-urlhttpsartikel5ev}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    39 |
 | [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    38 |
+| [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    39 |
 | [dc6jgk11d](https://metrics.torproject.org/rs.html#details/0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1)     | 2022-05-13   | Yes         |                    38 |
 | [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    38 |
-| [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    39 |
-| [dc6jgk7d](https://metrics.torproject.org/rs.html#details/ED5B6014D4C5C914086B0615207A186EEF4459A1)      | 2022-05-14   | Yes         |                    38 |
 | [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    39 |
+| [dc6jgk7d](https://metrics.torproject.org/rs.html#details/ED5B6014D4C5C914086B0615207A186EEF4459A1)      | 2022-05-14   | Yes         |                    38 |
 | [dc6jgk7c](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)      | 2016-11-04   | Yes         |                    38 |
 | [enceladus01](https://metrics.torproject.org/rs.html#details/4B170481AC4C3EC3603B9F4443C2E24B929D0429)   | 2020-12-02   | Yes         |                    34 |
 | [dc6jgk2b](https://metrics.torproject.org/rs.html#details/6B780ACAC09943945C7896FD9BDE48DD1B49756C)      | 2022-05-13   | Yes         |                     2 |
@@ -57,19 +57,11 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [artikel5ev13b](https://metrics.torproject.org/rs.html#details/B1F926DA3895A89AF288623F5A4F913979299C53) | 2022-05-13   | No          |                    38 |
 | [artikel5ev3c](https://metrics.torproject.org/rs.html#details/C36C76992198329C0D8F34E01D092BF2ACE0B6B0)  | 2022-05-13   | No          |                    38 |
 | [artikel5ev12b](https://metrics.torproject.org/rs.html#details/CE5EF4FB644544DB2F430A60CC6EB86FD7E29BA6) | 2022-05-13   | No          |                    38 |
-| [artikel5ev8b](https://metrics.torproject.org/rs.html#details/D4CA7FD04DABF6E2CB679426F5AA3205B640D147)  | 2022-05-13   | No          |                    38 |
 | [artikel5ev2](https://metrics.torproject.org/rs.html#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)   | 2016-10-29   | No          |                    39 |
 | [artikel5ev4b](https://metrics.torproject.org/rs.html#details/F3B2CC8C2AB331150E096DD1DB8810E4A43F399D)  | 2022-05-13   | No          |                    38 |
 | [artikel5ev9](https://metrics.torproject.org/rs.html#details/FC077C25B8DBB3132D397D7DF03C92BFC14C9D76)   | 2020-01-11   | No          |                    39 |
 
-## ContactInfo: &lt;nobody AT example dot com&gt; (2) {#nobody-at-example-dot-com}
-
-| Nickname                                                                                              | First Seen   | Guardonly   |   Eff. Family Members |
-|:------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [u698id1147](https://metrics.torproject.org/rs.html#details/A9A4213EA3D707857368C683F2208C83B8755D8A) | 2018-02-06   | Yes         |                     1 |
-| [giovanna](https://metrics.torproject.org/rs.html#details/1137AB1F84EC2D52DFB1915717F14FF1A10EB392)   | 2018-11-22   | No          |                     1 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,A9A4213EA3D707857368C683F2208C83B8755D8A,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
+0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A

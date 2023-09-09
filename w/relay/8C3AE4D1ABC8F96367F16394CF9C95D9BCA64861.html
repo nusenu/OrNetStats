@@ -49,35 +49,49 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/ad77080aecb7abd10830c0e63f589c75.html">all relays with this contact</a>)</dt>
+(<a href="../contact/d8d9163066db694ac19f4cf9efa7ab38.html">all relays with this contact</a>)</dt>
 <dd>
-slipstream &lt;slippstreamm@pm.me&gt;</a></dd>
+slipstream &lt;slippstreamm AT pm DOT me&gt; | XMR:...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-104.192.170.134:443
-[2604:5800:0:47::2]
+185.112.83.67:443
+[2a12:5940:d202::2]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.112.83.67</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  6660-6669
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:443
+ accept *:53
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -104,33 +118,35 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>26 Mbit/s</dd>
+<dd>30 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2300</dd>
+<dd>4400</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">slipstream.lol</pre>
+<pre class="verified-hostname" title="verified hostname">tor-exit.slipstream.lol</pre>
 <dt>Autonomous System</dt>
 <dd>
-JOESDATACENTER - 
-<a href="../as_number/AS19969.html">AS19969</a>
-(<a href='https://bgp.he.net/AS19969'>BGP</a>)
+AEZA GROUP Ltd - 
+<a href="../as_number/AS210644.html">AS210644</a>
+(<a href='https://bgp.he.net/AS210644'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-09-07 03:26:35</dd>
+<dd>2023-09-09 15:15:18</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+<a href="../country/ru.html"><img src="../static/images/cc/ru.png" title="Russian Federation" alt="Russian Federation"></a> Russian Federation
 </dd>
 
 <dt>Fingerprint</dt>
