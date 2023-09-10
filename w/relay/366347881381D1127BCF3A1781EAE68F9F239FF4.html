@@ -61,11 +61,36 @@
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>74.208.178.166</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  83
+  85-86
+  88
+  90
+  110
+  143
+  194
+  220
+  389
+  443
+  1043
+  1103
+  1113
+  1883
+  4070
+  5004
+  5287
+  5675
+  6880
+  8080
+  8502
+  8601-8602
 </pre>
 </dd>
 
@@ -75,7 +100,44 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:22
+ accept *:23
+ accept *:43
+ accept *:53
+ accept *:79
+ accept *:80-81
+ accept *:83
+ accept *:85
+ accept *:86
+ accept *:88
+ accept *:90
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:1043
+ accept *:1103
+ accept *:1113
+ accept *:1883
+ accept *:4070
+ accept *:5004
+ accept *:5287
+ accept *:5675
+ accept *:6880
+ accept *:8502
+ accept *:8601
+ accept *:8602
+ accept *:8080
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -96,7 +158,7 @@
 <dd><a href="../first_seen/2023-09-04">2023-09-04 22:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.13
+<dd> Tor 0.4.8.5
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -109,7 +171,9 @@ on
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +189,7 @@ IONOS SE -
 <a href="../as_number/AS8560.html">AS8560</a>
 (<a href='https://bgp.he.net/AS8560'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-09-04 21:07:02</dd>
+<dd>2023-09-10 02:24:32</dd>
 
 <dt>Country</dt>
 <dd>
