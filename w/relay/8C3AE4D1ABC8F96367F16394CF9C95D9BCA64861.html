@@ -75,10 +75,19 @@ Calypso &lt;ccalypso AT proton DOT me&gt; | XMR:...</a></dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
+<pre class="pre-scrollable">reject: 
+  1
+  22
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -89,10 +98,19 @@ Calypso &lt;ccalypso AT proton DOT me&gt; | XMR:...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:80
- accept *:443
- accept *:53
- reject *:*
+ reject *:25
+ reject *:1
+ reject *:22
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -122,7 +140,7 @@ on
 <dd>46 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>5600</dd>
+<dd>6100</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -143,7 +161,7 @@ AEZA GROUP Ltd -
 <a href="../as_number/AS210644.html">AS210644</a>
 (<a href='https://bgp.he.net/AS210644'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-09-10 14:19:52</dd>
+<dd>2023-09-12 13:30:30</dd>
 
 <dt>Country</dt>
 <dd>

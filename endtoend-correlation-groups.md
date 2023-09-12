@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-11 20:00 UTC**
+Tor network data as of: **2023-09-12 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,8 +34,8 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    35 |
-| [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    36 |
 | [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    36 |
+| [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    36 |
 | [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    35 |
 | [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    36 |
 | [dc6jgk11d](https://metrics.torproject.org/rs.html#details/0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1)     | 2022-05-13   | Yes         |                    35 |
@@ -71,4 +71,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,9CA14580EA3F574F4297F50F1BACB978976305C6,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
+0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,9CA14580EA3F574F4297F50F1BACB978976305C6,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
