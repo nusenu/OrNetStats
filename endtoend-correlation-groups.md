@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-13 21:00 UTC**
+Tor network data as of: **2023-09-14 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -33,12 +33,12 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    34 |
 | [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    35 |
+| [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    34 |
 | [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    35 |
 | [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    35 |
-| [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    34 |
 | [dc6jgk11d](https://metrics.torproject.org/rs.html#details/0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1)     | 2022-05-13   | Yes         |                    34 |
+| [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    34 |
 | [dc6jgk7c](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)      | 2016-11-04   | Yes         |                    34 |
 | [dc6jgk7d](https://metrics.torproject.org/rs.html#details/ED5B6014D4C5C914086B0615207A186EEF4459A1)      | 2022-05-14   | Yes         |                    34 |
 | [enceladus01](https://metrics.torproject.org/rs.html#details/4B170481AC4C3EC3603B9F4443C2E24B929D0429)   | 2020-12-02   | Yes         |                    32 |
