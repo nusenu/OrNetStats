@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-17 13:00 UTC**
+Tor network data as of: **2023-09-18 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -34,12 +34,12 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    33 |
-| [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    34 |
+| [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk11d](https://metrics.torproject.org/rs.html#details/0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1)     | 2022-05-13   | Yes         |                    33 |
-| [dc6jgk7d](https://metrics.torproject.org/rs.html#details/ED5B6014D4C5C914086B0615207A186EEF4459A1)      | 2022-05-14   | Yes         |                    33 |
 | [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    33 |
+| [dc6jgk7d](https://metrics.torproject.org/rs.html#details/ED5B6014D4C5C914086B0615207A186EEF4459A1)      | 2022-05-14   | Yes         |                    33 |
 | [dc6jgk7c](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)      | 2016-11-04   | Yes         |                    33 |
 | [enceladus01](https://metrics.torproject.org/rs.html#details/4B170481AC4C3EC3603B9F4443C2E24B929D0429)   | 2020-12-02   | Yes         |                    31 |
 | [dc6jgk2b](https://metrics.torproject.org/rs.html#details/6B780ACAC09943945C7896FD9BDE48DD1B49756C)      | 2022-05-13   | Yes         |                     2 |
@@ -61,16 +61,7 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [artikel5ev4b](https://metrics.torproject.org/rs.html#details/F3B2CC8C2AB331150E096DD1DB8810E4A43F399D)  | 2022-05-13   | No          |                    33 |
 | [artikel5ev9](https://metrics.torproject.org/rs.html#details/FC077C25B8DBB3132D397D7DF03C92BFC14C9D76)   | 2020-01-11   | No          |                    34 |
 
-## ContactInfo: 0x825FCCB73F2AFC9A Emil Bergdahl &lt;emil AT emilberg (4) {#0x825fccb73f2afc9a-emil-bergdahl-emil-at-emilberg}
-
-| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
-|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
-| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/6712C15D30AADB089A280748612C71426DA225CC) | 2023-09-07   | Yes         |                     3 |
-| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/122B1CC1BD386DAF0A74DC2FCD7FC1125843EF49) | 2023-08-23   | No          |                     4 |
-| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/AEC24AE10BCA122FDEB33EBDDC8DC4E0073717E0) | 2023-06-19   | No          |                     4 |
-| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/E28E2AF9D93F5E10BBCE398BA3FA5EB60AE8E588) | 2023-09-15   | No          |                     3 |
-
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,6712C15D30AADB089A280748612C71426DA225CC,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
+0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A
