@@ -5,7 +5,7 @@ datatable: true
 
 # Tor Relay Operators in End-to-End (E2E) Correlation Position
 
-Tor network data as of: **2023-09-25 15:00 UTC**
+Tor network data as of: **2023-09-26 17:00 UTC**
 
 For each operator the list of running relays is shown (relays are linked to [Relay Search](https://metrics.torproject.org/rs.html)).
 Operators and relays are sorted from more relevant to less relevant. More relevant in terms of guard probability.
@@ -29,14 +29,14 @@ You can also use tools that handle MyFamily automatically (I maintain an ansible
 If someone else is using your contactInfo please send an email to ```bad-relays AT lists DOT torproject DOT org```.
 
 
-## ContactInfo: email:abuse artikel5ev.de url:https://artikel5ev. (26) {#emailabuseartikel5evde-urlhttpsartikel5ev}
+## ContactInfo: email:abuse artikel5ev.de url:https://artikel5ev. (27) {#emailabuseartikel5evde-urlhttpsartikel5ev}
 
 | Nickname                                                                                                 | First Seen   | Guardonly   |   Eff. Family Members |
 |:---------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
 | [dc6jgk11d](https://metrics.torproject.org/rs.html#details/0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1)     | 2022-05-13   | Yes         |                    33 |
 | [dc6jgk12d](https://metrics.torproject.org/rs.html#details/4C25542B7649FC0472EDBF77521EA578F9AF5155)     | 2022-05-13   | Yes         |                    33 |
-| [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk11c](https://metrics.torproject.org/rs.html#details/7B700C0C207EBD0002E00F499BE265519AC3C25A)     | 2016-11-11   | Yes         |                    34 |
+| [dc6jgk13](https://metrics.torproject.org/rs.html#details/E6D4332BF40FDEE7814F2DBC926650EF8032B643)      | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk13b](https://metrics.torproject.org/rs.html#details/571BE7435DC9D660BB5EE0A37650E2421007BAEC)     | 2022-05-13   | Yes         |                    33 |
 | [dc6jgk12c](https://metrics.torproject.org/rs.html#details/BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B)     | 2020-08-28   | Yes         |                    34 |
 | [dc6jgk7c](https://metrics.torproject.org/rs.html#details/F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A)      | 2016-11-04   | Yes         |                    33 |
@@ -56,11 +56,23 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [artikel5ev10](https://metrics.torproject.org/rs.html#details/AF7094B62864DE941DCD88A2F0DBAFECF3997E47)  | 2020-04-12   | No          |                    34 |
 | [artikel5ev13b](https://metrics.torproject.org/rs.html#details/B1F926DA3895A89AF288623F5A4F913979299C53) | 2022-05-13   | No          |                    33 |
 | [artikel5ev3c](https://metrics.torproject.org/rs.html#details/C36C76992198329C0D8F34E01D092BF2ACE0B6B0)  | 2022-05-13   | No          |                    33 |
+| [artikel5ev12b](https://metrics.torproject.org/rs.html#details/CE5EF4FB644544DB2F430A60CC6EB86FD7E29BA6) | 2022-05-13   | No          |                    33 |
 | [artikel5ev2](https://metrics.torproject.org/rs.html#details/DC2191663DD4BAECB34F949CCAC3FDA004CE5BCE)   | 2016-10-29   | No          |                    34 |
 | [artikel5ev4b](https://metrics.torproject.org/rs.html#details/F3B2CC8C2AB331150E096DD1DB8810E4A43F399D)  | 2022-05-13   | No          |                    33 |
 | [artikel5ev9](https://metrics.torproject.org/rs.html#details/FC077C25B8DBB3132D397D7DF03C92BFC14C9D76)   | 2020-01-11   | No          |                    34 |
 
-## ContactInfo: Random Person &lt;collard tethers0r AT icloud dot com (8) {#random-person-collardtethers0r-at-icloud-dot-com}
+## ContactInfo: 0x825FCCB73F2AFC9A Emil Bergdahl &lt;emil AT emilberg (6) {#0x825fccb73f2afc9a-emil-bergdahl-emil-at-emilberg}
+
+| Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
+|:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/6712C15D30AADB089A280748612C71426DA225CC) | 2023-09-07   | Yes         |                    12 |
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/108C12BB4D9939C94A68B16939DFC8D9EDCB7700) | 2023-09-25   | No          |                     4 |
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/122B1CC1BD386DAF0A74DC2FCD7FC1125843EF49) | 2023-08-23   | No          |                    10 |
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/AEC24AE10BCA122FDEB33EBDDC8DC4E0073717E0) | 2023-06-19   | No          |                    10 |
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/E28E2AF9D93F5E10BBCE398BA3FA5EB60AE8E588) | 2023-09-15   | No          |                    12 |
+| [fuckchatcontrol](https://metrics.torproject.org/rs.html#details/E7B9E24C396F3029768F9810ED6024056139E4EC) | 2023-09-25   | No          |                     4 |
+
+## ContactInfo: Random Person &lt;collard tethers0r AT icloud dot com (7) {#random-person-collardtethers0r-at-icloud-dot-com}
 
 | Nickname                                                                                                   | First Seen   | Guardonly   |   Eff. Family Members |
 |:-----------------------------------------------------------------------------------------------------------|:-------------|:------------|----------------------:|
@@ -68,7 +80,6 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 | [v2frankfurt](https://metrics.torproject.org/rs.html#details/F85B80C40360CFB0D4D894CBBB12BB75FF548FAB)     | 2023-09-15   | Yes         |                     1 |
 | [v2toronto](https://metrics.torproject.org/rs.html#details/83BADBCC825EAC0661592831ED4D30214C5B997F)       | 2023-09-15   | Yes         |                     1 |
 | [v2siliconvalley](https://metrics.torproject.org/rs.html#details/5D95800B6875192F7CA94383A47450B34B291E08) | 2023-09-15   | Yes         |                     1 |
-| [v2newyork](https://metrics.torproject.org/rs.html#details/3750AF4258651C506C46334F26B5C9BEC782CA51)       | 2023-09-15   | No          |                     1 |
 | [v2seattle](https://metrics.torproject.org/rs.html#details/84DC7D6EBCF7CFA8248001C80899F43BD6D5026A)       | 2023-09-14   | No          |                     1 |
 | [v2vms](https://metrics.torproject.org/rs.html#details/B4981F3592DB6A7A8FE93E721462350F10657CB4)           | 2023-09-14   | No          |                     1 |
 | [v2tokyo](https://metrics.torproject.org/rs.html#details/F3893670E40E48D3A5024895579AD0A4EE58A4AE)         | 2023-09-14   | No          |                     1 |
@@ -83,4 +94,4 @@ If someone else is using your contactInfo please send an email to ```bad-relays 
 
 ## Fingerprint List of Guard-only Relays in E2E Groups
 
-0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,5D95800B6875192F7CA94383A47450B34B291E08,7DCAE79CEEDD213AB34252C0350B5EA49739E461,83BADBCC825EAC0661592831ED4D30214C5B997F,3D180A020E161475887F44CE8BFA109794F0D291,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A,F85B80C40360CFB0D4D894CBBB12BB75FF548FAB
+0040A5B04C7E309D37CBE7EDB2B72D3E15D057C1,22404A3E87F2D7FE2FC6359FDE71B6DC2D6E730F,4B170481AC4C3EC3603B9F4443C2E24B929D0429,4C25542B7649FC0472EDBF77521EA578F9AF5155,571BE7435DC9D660BB5EE0A37650E2421007BAEC,7B700C0C207EBD0002E00F499BE265519AC3C25A,6712C15D30AADB089A280748612C71426DA225CC,5D95800B6875192F7CA94383A47450B34B291E08,7DCAE79CEEDD213AB34252C0350B5EA49739E461,83BADBCC825EAC0661592831ED4D30214C5B997F,3D180A020E161475887F44CE8BFA109794F0D291,BFC6E7F298D581344DFCE95BB7EE9EDE1FC0745B,E6D4332BF40FDEE7814F2DBC926650EF8032B643,ED5B6014D4C5C914086B0615207A186EEF4459A1,F0F5074A6DADD3DC22E1FAA18FD6D89CBC52771A,F85B80C40360CFB0D4D894CBBB12BB75FF548FAB
