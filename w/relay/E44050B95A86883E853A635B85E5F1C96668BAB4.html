@@ -55,7 +55,7 @@ tor-admin (at) plz (dot) rip PGP Key 0x836B37CDE8D9BB36 @...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-109.205.211.113:443
+109.205.211.113:8585
 [2a00:7c80:0:42:1111:1111:514c:1e36]
 </pre></dd>
 
@@ -66,80 +66,18 @@ tor-admin (at) plz (dot) rip PGP Key 0x836B37CDE8D9BB36 @...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  53
-  80-81
-  443
-  8008
-  8082
-  8332-8333
-  8888
-  9418
-  18080-18081
-  50002
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-21
-  43
-  53
-  80-81
-  443
-  8008
-  8082
-  8332-8333
-  8888
-  9418
-  18080-18081
-  50002
-  64738
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- reject 78.142.18.219:*
- reject 85.217.222.195:*
- reject 91.220.101.18:*
- reject 162.219.225.118:*
- reject 79.137.192.228:*
- reject 162.219.226.83:*
- reject 162.219.224.163:*
- reject 162.219.225.115:*
- reject 143.233.0.120:*
- reject 185.71.67.4:*
- reject 194.26.229.2:*
- reject 185.149.120.37:*
- reject 190.115.18.3:*
- reject 185.149.120.61:*
- reject 185.117.155.21:*
- reject 193.233.15.64:*
- reject 199.34.228.55:*
- accept *:20-21
- accept *:43
- accept *:53
- accept *:80-81
- accept *:443
- accept *:8008
- accept *:8082
- accept *:8332-8333
- accept *:8888
- accept *:9418
- accept *:50002
- accept *:64738
- accept *:18080-18081
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
@@ -160,20 +98,19 @@ tor-admin (at) plz (dot) rip PGP Key 0x836B37CDE8D9BB36 @...</a></dd>
 <dd><a href="../first_seen/2023-09-03">2023-09-03 10:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.7.13
+<dd> Tor 0.4.8.6
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>102 Mbit/s</dd>
+<dd>69 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>19000</dd>
+<dd>15000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -190,7 +127,7 @@ ColocationX Ltd. -
 <a href="../as_number/AS208046.html">AS208046</a>
 (<a href='https://bgp.he.net/AS208046'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-09-22 13:13:32</dd>
+<dd>2023-09-27 16:19:09</dd>
 
 <dt>Country</dt>
 <dd>
