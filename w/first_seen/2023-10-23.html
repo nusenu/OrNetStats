@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2023-10-23</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2023-10-23</h2>
+<p>Relays started on 2023-10-23 are responsible for ~1667 Mbit/s of traffic, with 30
+middle relays and 6 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Authenticated Relay Operator ID <img title="This icon indicates the operator properly implemented the Authenticated Relay Operator ID (AROI) on a given relay." src="../static/images/flags/valid.png"><br> or ContactInfo (unverified)</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="MURelayB1"><a href="../relay/EDA4D869092200480E9835583663648ED4FDE1E3.html">MURelayB1</a></td>
+<td><code><a href="../contact/7a68066b41b48c02137a1987ba4b64e2.html"
+title="antreneazamintea@gmail.com @ator:0xa92F71c707f556eDd83D5CB51f60CEC7F0d22DdC">
+antreneazamintea@gmail.c...</a></code></td>
+<td>197 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/212.93.133.175">212.93.133.175</a></td>
+
+<td><a href="../as_number/AS8708.html" title="RCS &amp; RDS SA">RCS &amp; RDS SA</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="cdwm"><a href="../relay/DC80DD1C8F52341B96CDE426F6E2ADBB2193FFFA.html">cdwm</a> (<a href="../family/c7e1d5e761bbfaae885812e4f80e1e58e2245cf34f15380b18b72c5878b16150.html">4</a>)</td>
+<td><code><a href="../contact/7b1eebc0e3f08cf3e723eee2a4725e7b.html"
+title="&lt;info AT expert DOT io&gt; @ator: 0x3ba9692bc12562ee15dc88b3f3e55339bd51c5b3">
+&lt;info AT expert DOT io&gt;...</a></code></td>
+<td>164 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.227.108.97">185.227.108.97</a></td>
+
+<td><a href="../as_number/AS47447.html" title="23M GmbH">23M GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="opsfi"><a href="../relay/BBCFC807F1318239214D9F318488A4428BA58709.html">opsfi</a> (<a href="../family/3540e7dd418c1b6a6600bcc3b872134bdbd325dfdaf9e155314c081ab1f93ee7.html">2</a>)</td>
+<td><code><a href="../contact/7fdf26b015e8985a9dfa3f594aa1153c.html"
+title="opsfi-mail@protonmail.com">
+opsfi-mail@protonmail.com</a></code></td>
+<td>155 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/93.177.65.182">93.177.65.182</a></td>
+
+<td><a href="../as_number/AS197540.html" title="netcup GmbH">netcup GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="whyphy"><a href="../relay/9F322E5112166F5E9166082A3964DEEDDC46F9F9.html">whyphy</a></td>
+<td><code><a href="../contact/96b39553ecf340427a5b334d8fc138bd.html"
+title="&lt;gaming@whyphy.de&gt; @ator: 0x99b3d8362CD19fe85dE8ce4aDB122C7E40047743 &gt;">
+&lt;gaming@whyphy.de&gt;...</a></code></td>
+<td>136 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/62.171.156.197">62.171.156.197</a></td>
+
+<td><a href="../as_number/AS51167.html" title="Contabo GmbH">Contabo GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="pewpewpewpew2"><a href="../relay/97C3860FC5030396C193BA35C3F25BC68F963727.html">pewpewpewpew2</a></td>
+<td><code><a href="../contact/c194f7f0ff96ad07e4d78a80141a6715.html"
+title="ysandhermit@proton.me">
+ysandhermit@proton.me</a></code></td>
+<td>117 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/135.181.181.50">135.181.181.50</a></td>
+
+<td><a href="../as_number/AS24940.html" title="Hetzner Online GmbH">Hetzner Online GmbH</a></td>
+<td><a href="../country/fi.html"><img
+src="../static/images/cc/fi.png" title="Finland" alt="Finland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="dogdogexit2"><a href="../relay/3A0735C3828EB5085674211987F9003292A7032A.html">dogdogexit2</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/5291f9bfa85abb68cb8475e22c3559e7.html"
+title="tor &lt;a&gt; doggieli &lt;dot&gt; cc">
+tor &lt;a&gt; doggieli &lt;dot&gt; cc</a></code></td>
+<td>108 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/195.20.232.208">195.20.232.208</a></td>
+
+<td><a href="../as_number/AS8560.html" title="IONOS SE">IONOS SE</a></td>
+<td><a href="../country/gb.html"><img
+src="../static/images/cc/gb.png" title="United Kingdom of Great Britain and Northern Ireland" alt="United Kingdom of Great Britain and Northern Ireland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="krovdmzrs"><a href="../relay/BCBA6E28A1D84C5CB7510ABDBAA789CB09593535.html">krovdmzrs</a></td>
+<td><code><a href="../contact/a8bec570f4ea88e38b843e2820134383.html"
+title="Decentrala &lt;forum.dmz.rs&gt;">
+Decentrala &lt;forum.dmz.rs&gt;</a></code></td>
+<td>63 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.245.65.75">109.245.65.75</a></td>
+
+<td><a href="../as_number/AS15958.html" title="CETIN Ltd. Belgrade">CETIN Ltd. Belgrade</a></td>
+<td><a href="../country/rs.html"><img
+src="../static/images/cc/rs.png" title="Serbia" alt="Serbia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="VisceralNYC"><a href="../relay/E59B23A653211C1F6419E8079776928F461A59BA.html">VisceralNYC</a> (<a href="../family/46fbf314c06afa9121559cbf1838dde347909e48d6b7f20aa644ee9d95619a1f.html">5</a>)</td>
+<td><code><a href="../contact/88867921e9b692a30f520560aa2be545.html"
+title="visceral@tuta.io">
+visceral@tuta.io</a></code></td>
+<td>62 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/192.3.44.222">192.3.44.222</a></td>
+
+<td><a href="../as_number/AS36352.html" title="AS-COLOCROSSING">AS-COLOCROSSING</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="MURelayMM1"><a href="../relay/79A9156575F0C1A86E6DDBF9531A561A22DE2473.html">MURelayMM1</a> (<a href="../family/9f929f536c3d171317326143fb4db08c1a4ee9f22b7e085ea3fc81387cf30fee.html">4</a>)</td>
+<td><code><a href="../contact/7a68066b41b48c02137a1987ba4b64e2.html"
+title="antreneazamintea@gmail.com @ator:0xa92F71c707f556eDd83D5CB51f60CEC7F0d22DdC">
+antreneazamintea@gmail.c...</a></code></td>
+<td>61 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/5.12.98.210">5.12.98.210</a></td>
+
+<td><a href="../as_number/AS8708.html" title="RCS &amp; RDS SA">RCS &amp; RDS SA</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Unnamed"><a href="../relay/B37A5321AEC83B0DE8A2FA8CE0F8DED0AB22D839.html">Unnamed</a></td>
+<td><code><a href="../contact/7f54c37f3177a8e825390b812bafe4f0.html"
+title="TorRelayOperator  @ator:0xCa4A4E011BDEB6E5cBC229B882eE20ad3231096A">
+TorRelayOperator ...</a></code></td>
+<td>50 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/38.242.206.66">38.242.206.66</a></td>
+
+<td><a href="../as_number/AS51167.html" title="Contabo GmbH">Contabo GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="MURelayMM3"><a href="../relay/17B32800E93171896F10FE6E9181CA3978F49CA3.html">MURelayMM3</a> (<a href="../family/9f929f536c3d171317326143fb4db08c1a4ee9f22b7e085ea3fc81387cf30fee.html">4</a>)</td>
+<td><code><a href="../contact/7a68066b41b48c02137a1987ba4b64e2.html"
+title="antreneazamintea@gmail.com @ator:0xa92F71c707f556eDd83D5CB51f60CEC7F0d22DdC">
+antreneazamintea@gmail.c...</a></code></td>
+<td>47 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/5.12.98.210">5.12.98.210</a></td>
+
+<td><a href="../as_number/AS8708.html" title="RCS &amp; RDS SA">RCS &amp; RDS SA</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="ChiaYummy"><a href="../relay/1917C065ED90A8A7E315A324ACEB037D15C1B448.html">ChiaYummy</a> (<a href="../family/209e4232411d7608a07b0e21d9203af70aa14c8f2f3cb38a9dcfb8a753e3008d.html">2</a>)</td>
+<td><code><a href="../contact/0a8180da186e4cd7ec27fe5e5ba44b98.html"
+title="antreneazamintea@gmail.com @ator:0x316d2924ADA4224b6B45aaAD1aA2CB5d0344FF2E">
+antreneazamintea@gmail.c...</a></code></td>
+<td>42 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/86.121.129.164">86.121.129.164</a></td>
+
+<td><a href="../as_number/AS8708.html" title="RCS &amp; RDS SA">RCS &amp; RDS SA</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="MURelayMM2"><a href="../relay/51E1C7E159AED5017CC9697263C3830416A98AD2.html">MURelayMM2</a> (<a href="../family/9f929f536c3d171317326143fb4db08c1a4ee9f22b7e085ea3fc81387cf30fee.html">4</a>)</td>
+<td><code><a href="../contact/7a68066b41b48c02137a1987ba4b64e2.html"
+title="antreneazamintea@gmail.com @ator:0xa92F71c707f556eDd83D5CB51f60CEC7F0d22DdC">
+antreneazamintea@gmail.c...</a></code></td>
+<td>42 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/5.12.98.210">5.12.98.210</a></td>
+
+<td><a href="../as_number/AS8708.html" title="RCS &amp; RDS SA">RCS &amp; RDS SA</a></td>
+<td><a href="../country/ro.html"><img
+src="../static/images/cc/ro.png" title="Romania" alt="Romania"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="fr33d0m02"><a href="../relay/DBC5D6510B644BB4EF078C6F3F5909CB344B4C6C.html">fr33d0m02</a></td>
+<td><code><a href="../contact/7646e296e88ab34742faa08e2876c624.html"
+title="XDR321 [at] tutanota [dot] com">
+XDR321 [at] tutanota [dot] com</a></code></td>
+<td>41 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/23.184.48.83">23.184.48.83</a></td>
+
+<td><a href="../as_number/AS210630.html" title="IncogNET LLC">IncogNET LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Kartoffelsuppe"><a href="../relay/4144078373ACD82B8554B8B424071CC4D7E88E61.html">Kartoffelsuppe</a></td>
+<td><code><a href="../contact/b8efa6135dacb184aaf6a89c4a7c6610.html"
+title="Mike Weichel mike11207@tutanota.com">
+Mike Weichel...</a></code></td>
+<td>36 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/84.133.230.174">84.133.230.174</a></td>
+
+<td><a href="../as_number/AS3320.html" title="Deutsche Telekom AG">Deutsche Telekom AG</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="checknode66601"><a href="../relay/CC2620EB825028C1702993278DFEB2AC40C19EDF.html">checknode66601</a> (<a href="../family/e3ccfe39d70493c36b82692a7a5e2f705449c3d1c0efa2692ba5d13adcc12a4c.html">4</a>)</td>
+<td><code><a href="../contact/7a22a75e8a5983a3a2de34cae7cb6cf5.html"
+title="&lt;checkusa666@gmail.com&gt; @ator: 0xD9C1e93027c097a35e3691B1c39E40243104749b">
+&lt;checkusa666@gmail.com&gt;...</a></code></td>
+<td>32 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/77.204.242.103">77.204.242.103</a></td>
+
+<td><a href="../as_number/AS15557.html" title="Societe Francaise Du Radiotelephone - SFR SA">Societe Francaise...</a></td>
+<td><a href="../country/fr.html"><img
+src="../static/images/cc/fr.png" title="France" alt="France"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="cdwm1"><a href="../relay/936841C34F183547A65E8EFB9109C2F70EFDE83C.html">cdwm1</a> (<a href="../family/c7e1d5e761bbfaae885812e4f80e1e58e2245cf34f15380b18b72c5878b16150.html">4</a>)</td>
+<td><code><a href="../contact/761014d255c50d781fbebdf3195228ba.html"
+title="&lt;info AT expert dot io&gt; @ator:0x3ba9692bc12562ee15dc88b3f3e55339bd51c5b3">
+&lt;info AT expert dot io&gt;...</a></code></td>
+<td>31 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/103.102.46.110">103.102.46.110</a></td>
+
+<td><a href="../as_number/AS38001.html" title="NewMedia Express Pte Ltd">NewMedia Express Pte Ltd</a></td>
+<td><a href="../country/sg.html"><img
+src="../static/images/cc/sg.png" title="Singapore" alt="Singapore"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="wahaha"><a href="../relay/F42691A9837EF0375FA936180863A4DADF6531D0.html">wahaha</a> (<a href="../family/70dc9825d81423b299a5d5b91821b4c2476237f6414aa28d6ed758316be7e2e8.html">6</a>)</td>
+<td><code><a href="../contact/325d60ffd0b023b2a411ae65aabbcbcb.html"
+title="&lt;yushui468@gmail.com&gt; @ator: 0x88C1296BC90896b87321B91aD9dAe8484696f7c9">
+&lt;yushui468@gmail.com&gt;...</a></code></td>
+<td>29 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/147.139.67.222">147.139.67.222</a></td>
+
+<td><a href="../as_number/AS45102.html" title="Alibaba (US) Technology Co., Ltd.">Alibaba (US)...</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="KrillinTheBald"><a href="../relay/C7413F086A8E509EF6239C309E364681907E8824.html">KrillinTheBald</a> (<a href="../family/27a877b9b840d0157d46efc57f3cd058eb1364222c84a5d4a47955d91d082a08.html">9</a>)</td>
+<td><code><a href="../contact/40c7a5ec1261765f5ed42e572fc6582e.html"
+title="azgard email:admin[]relays.foo url:https://relays.foo proof:dns-rsa uplinkbw:100 ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+relays.foo</a>
+<td>28 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/102.130.115.103">102.130.115.103</a></td>
+
+<td><a href="../as_number/AS328364.html" title="Host Africa (Pty) Ltd">Host Africa (Pty) Ltd</a></td>
+<td><a href="../country/za.html"><img
+src="../static/images/cc/za.png" title="South Africa" alt="South Africa"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="dogdogexit5"><a href="../relay/AA27A0D072EF4A11E610F551CFEBB67847403A02.html">dogdogexit5</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/b41466d1433e3c035a3797528ad0928a.html"
+title="DoggieLicc (tor [at] doggieli.cc)">
+DoggieLicc (tor [at]...</a></code></td>
+<td>23 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/146.190.112.166">146.190.112.166</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="dogdogexit7"><a href="../relay/ED995BB60C11CED281099E0459DA20849D3851D3.html">dogdogexit7</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/b41466d1433e3c035a3797528ad0928a.html"
+title="DoggieLicc (tor [at] doggieli.cc)">
+DoggieLicc (tor [at]...</a></code></td>
+<td>21 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/146.190.127.110">146.190.127.110</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="k9"><a href="../relay/D01130FB563AEECAC370D483A5F29B84C1264520.html">k9</a></td>
+<td><code><a href="../contact/df8d2916eb495bc92653ee146aad5e5e.html"
+title="&lt;k9crypto21@gmail.com&gt; 0x5692f879B51DF339490aa8FCC289530F100b6277">
+&lt;k9crypto21@gmail.com&gt;...</a></code></td>
+<td>21 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/173.92.228.215">173.92.228.215</a></td>
+
+<td><a href="../as_number/AS11426.html" title="TWC-11426-CAROLINAS">TWC-11426-CAROLINAS</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="dogdogexit4"><a href="../relay/297EC8D3A86DEA5628C77E1669121BA8B8C62DC7.html">dogdogexit4</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/b41466d1433e3c035a3797528ad0928a.html"
+title="DoggieLicc (tor [at] doggieli.cc)">
+DoggieLicc (tor [at]...</a></code></td>
+<td>19 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/146.190.171.192">146.190.171.192</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="dogdogexit6"><a href="../relay/E9B79BAC94FE36F455EE1FE8B34EC12CECA57390.html">dogdogexit6</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/b41466d1433e3c035a3797528ad0928a.html"
+title="DoggieLicc (tor [at] doggieli.cc)">
+DoggieLicc (tor [at]...</a></code></td>
+<td>18 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/24.199.124.131">24.199.124.131</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="atornaut"><a href="../relay/FA179C470A8340AC37889913BA2CA8BA5995FE62.html">atornaut</a></td>
+<td><code><a href="../contact/580728fef63492c41d5553af933489e8.html"
+title="&lt;irineosgeorgiou92@gmail.com&gt;  @ator: 0x95B7A998B9b77fFa0AA6D118348C41860b2D8aDA">
+&lt;irineosgeorgiou92@gmail...</a></code></td>
+<td>16 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/46.251.127.49">46.251.127.49</a></td>
+
+<td><a href="../as_number/AS35432.html" title="Cablenet Communication Systems plc">Cablenet...</a></td>
+<td><a href="../country/cy.html"><img
+src="../static/images/cc/cy.png" title="Cyprus" alt="Cyprus"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="dogdogexit3"><a href="../relay/97C821D8A69A363E52C9018394854E810D1CE6C2.html">dogdogexit3</a> (<a href="../family/16bb963edb933beaff55c4f49d4161ab1727c5c4404fe77bf56230082d8436cb.html">8</a>)</td>
+<td><code><a href="../contact/b41466d1433e3c035a3797528ad0928a.html"
+title="DoggieLicc (tor [at] doggieli.cc)">
+DoggieLicc (tor [at]...</a></code></td>
+<td>16 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/146.190.171.218">146.190.171.218</a></td>
+
+<td><a href="../as_number/AS14061.html" title="DIGITALOCEAN-ASN">DIGITALOCEAN-ASN</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="pazzurdo"><a href="../relay/5F1EB3CA0241A5A7FADB78C55FFF6610EA5FE2C6.html">pazzurdo</a></td>
+<td title="none"><code>none</code></td>
+<td>15 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/188.218.43.67">188.218.43.67</a></td>
+
+<td><a href="../as_number/AS30722.html" title="Vodafone Italia S.p.A.">Vodafone Italia S.p.A.</a></td>
+<td><a href="../country/it.html"><img
+src="../static/images/cc/it.png" title="Italy" alt="Italy"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="minatorepazzo"><a href="../relay/0FF91A0AED864928DA56097EE081506A92D7F32F.html">minatorepazzo</a></td>
+<td><code><a href="../contact/95c8befe1ab9b996b5aff454c41772ac.html"
+title="&lt;alexeinmegas@gmail.com&gt; @ator: 0x285Dd2eb7e689250f4E2a83da82741ec5C07c482">
+&lt;alexeinmegas@gmail.com&gt;...</a></code></td>
+<td>14 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/94.101.50.136">94.101.50.136</a></td>
+
+<td><a href="../as_number/AS39120.html" title="Convergenze S.p.A.">Convergenze S.p.A.</a></td>
+<td><a href="../country/it.html"><img
+src="../static/images/cc/it.png" title="Italy" alt="Italy"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="RelayShadei001c"><a href="../relay/B33D36FC596F9D39118EB56254278F228DD99526.html">RelayShadei001c</a></td>
+<td><code><a href="../contact/131858943f993e076a0627927ac52374.html"
+title="&lt;shades2@iinet.net.au&gt; @ATOR: 0xDbE97AC48f1714baABEC48e0A2907e4015cd6dF6">
+&lt;shades2@iinet.net.au&gt;...</a></code></td>
+<td>12 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/152.67.107.102">152.67.107.102</a></td>
+
+<td><a href="../as_number/AS31898.html" title="ORACLE-BMC-31898">ORACLE-BMC-31898</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="PIrelay1"><a href="../relay/D07E615F2D639EDC63FD28EE1135671B21F48A38.html">PIrelay1</a></td>
+<td><code><a href="../contact/0fc5142be2f233b21e46af4f3ff2f621.html"
+title="@ator: 0xC77de1fD64d4c20971eA79A93E7343d04bd97BAE">
+@ator:...</a></code></td>
+<td>11 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/114.74.74.95">114.74.74.95</a></td>
+
+<td><a href="../as_number/AS4804.html" title="SingTel Optus Pty Ltd">SingTel Optus Pty Ltd</a></td>
+<td><a href="../country/au.html"><img
+src="../static/images/cc/au.png" title="Australia" alt="Australia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="chartruseslimefrog"><a href="../relay/345B55698460EB37500EC8360A72F0D73B39A65B.html">chartru...</a> (<a href="../family/bcd4283e19c1037355afc1712780e216070ad3a1d67224934a90535d28e4e38d.html">2</a>)</td>
+<td><code><a href="../contact/060565c5e9c6b35dd479ef39abe49338.html"
+title="jthanks553@gmail.com">
+jthanks553@gmail.com</a></code></td>
+<td>11 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/98.210.71.205">98.210.71.205</a></td>
+
+<td><a href="../as_number/AS7922.html" title="COMCAST-7922">COMCAST-7922</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Oktober"><a href="../relay/BCAAF70DADD16ACCE717D824D513C0DC11745ACE.html">Oktober</a></td>
+<td title="none"><code>none</code></td>
+<td>10 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/94.16.147.223">94.16.147.223</a></td>
+
+<td><a href="../as_number/AS15600.html" title="Quickline AG">Quickline AG</a></td>
+<td><a href="../country/ch.html"><img
+src="../static/images/cc/ch.png" title="Switzerland" alt="Switzerland"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="zenith"><a href="../relay/FB9AFB5CED50BE09336F28B9C93DAEC16F5F3B84.html">zenith</a></td>
+<td><code><a href="../contact/8e979f90c43a358cf1686dbbfb2efc35.html"
+title="&lt;zenithkiter AT proton.me&gt; @ator: 0xaa424C7Bc4eE36722C77828c73641b63f7bc26FB">
+&lt;zenithkiter AT...</a></code></td>
+<td>8 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/80.60.45.136">80.60.45.136</a></td>
+
+<td><a href="../as_number/AS1136.html" title="KPN B.V.">KPN B.V.</a></td>
+<td><a href="../country/nl.html"><img
+src="../static/images/cc/nl.png" title="Netherlands" alt="Netherlands"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="ator1"><a href="../relay/6F8AA840E6635389A6A9B22B1DE3B23B10D4B6CE.html">ator1</a></td>
+<td><code><a href="../contact/ac43dcc6e42b82935944846a4eabc62b.html"
+title="&lt;stevo177@hotmail.com&gt; @ator: 0x5d1b35870559be68b05a286b78bea821be81332f">
+&lt;stevo177@hotmail.com&gt;...</a></code></td>
+<td>6 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/194.193.164.94">194.193.164.94</a></td>
+
+<td><a href="../as_number/AS7545.html" title="TPG Internet Pty Ltd">TPG Internet Pty Ltd</a></td>
+<td><a href="../country/au.html"><img
+src="../static/images/cc/au.png" title="Australia" alt="Australia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="Unnamed"><a href="../relay/1A35CE708ADD0A022007E3E938DF9DA268B05070.html">Unnamed</a></td>
+<td title="none"><code>none</code></td>
+<td>2 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/103.4.153.21">103.4.153.21</a></td>
+
+<td><a href="../as_number/AS23655.html" title="Two Degrees Mobile Limited">Two Degrees Mobile Limited</a></td>
+<td><a href="../country/nz.html"><img
+src="../static/images/cc/nz.png" title="New Zealand" alt="New Zealand"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="msi3"><a href="../relay/F09308028DB9FBE5B912C4830BEC6811FB61E7B3.html">msi3</a></td>
+<td><code><a href="../contact/e5e473595abc99f525677c8da6be8be5.html"
+title="&lt;yovet63@protonmail.com&gt;">
+&lt;yovet63@protonmail.com&gt;</a></code></td>
+<td>0 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/58.136.113.206">58.136.113.206</a></td>
+
+<td><a href="../as_number/AS133481.html" title="ADVANCED WIRELESS NETWORK COMPANY LIMITED">ADVANCED WIRELESS...</a></td>
+<td><a href="../country/th.html"><img
+src="../static/images/cc/th.png" title="Thailand" alt="Thailand"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2023-10-23</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
