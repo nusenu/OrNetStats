@@ -67,16 +67,54 @@ MAX UPTIME. NO RESTARTS. CONTACT ME: admin(at)quido(dot)org you...</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
+  22
   25
+  110-111
+  135
+  139
+  143
+  161
   465
+  587
+  993
+  995
+  1723
+  1900
+  5061
+  5555
+  8000
+  8080-8081
+  8291
+  8888
+  9200
+  10001
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
+  22
   25
+  110-111
+  135
+  139
+  143
+  161
   465
+  587
+  993
+  995
+  1723
+  1900
+  5061
+  5555
+  8000
+  8080-8081
+  8291
+  8888
+  9200
+  10001
 </pre>
 </dd>
 
@@ -89,6 +127,27 @@ MAX UPTIME. NO RESTARTS. CONTACT ME: admin(at)quido(dot)org you...</a></dd>
  reject 172.16.0.0/12:*
  reject *:25
  reject *:465
+ reject *:10001
+ reject *:110
+ reject *:111
+ reject *:135
+ reject *:139
+ reject *:143
+ reject *:161
+ reject *:1723
+ reject *:1900
+ reject *:22
+ reject *:5061
+ reject *:5555
+ reject *:587
+ reject *:8000
+ reject *:8080
+ reject *:8081
+ reject *:8291
+ reject *:8888
+ reject *:9200
+ reject *:993
+ reject *:995
  accept *:*
 </pre></dd>
 </dd>
@@ -124,10 +183,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>101 Mbit/s</dd>
+<dd>90 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>17000</dd>
+<dd>14000</dd>
 
 <dt>Flags</dt>
 <dd>
