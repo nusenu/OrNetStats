@@ -62,11 +62,16 @@ Silly Billy Sr. &lt;3333 knots at protonmail  (3333knots is mach?)&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>213.232.235.83</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  80
+  123
+  443
+  853
 </pre>
 </dd>
 
@@ -76,12 +81,25 @@ Silly Billy Sr. &lt;3333 knots at protonmail  (3333knots is mach?)&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:443
+ accept *:80
+ accept *:43
+ accept *:123
+ accept *:853
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">E8FB347132E07F4D87BBF54AFB133B5367F148DE
+<dt>Effective Family Members (<a href="../family/c61a72bb25bc95c4b3661506a0a5c0ac88eb2a51b6fe3ec6bfb8e958dde3e990.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="DDD4D921B4687C7854B2A26D5D92E8AF5DEAADBA.html">DDD4D921B4687C7854B2A26D5D92E8AF5DEAADBA</a>
+<a href="E8FB347132E07F4D87BBF54AFB133B5367F148DE.html">E8FB347132E07F4D87BBF54AFB133B5367F148DE</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -97,22 +115,22 @@ Silly Billy Sr. &lt;3333 knots at protonmail  (3333knots is mach?)&gt;</a></dd>
 <dd><a href="../first_seen/2023-12-06">2023-12-06 15:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.9
+<dd> Tor 0.4.8.10
 on
 <a href='../osfam/BSD.html'>BSD</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>55 Mbit/s</dd>
+<dd>50 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>4100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -129,7 +147,7 @@ ALEXHOST SRL -
 <a href="../as_number/AS200019.html">AS200019</a>
 (<a href='https://bgp.he.net/AS200019'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-12-13 22:36:09</dd>
+<dd>2023-12-27 06:46:49</dd>
 
 <dt>Country</dt>
 <dd>
