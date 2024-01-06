@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/fecb39634ec9e91b78996201c35f7f69.html">all relays with this contact</a>)</dt>
+(<a href="../contact/8258bf29fcc46a43019ae1342afc782d.html">all relays with this contact</a>)</dt>
 <dd>
-email:info@heartbleed.it - abuse:abuse@heartbleed.it</a></dd>
+tor-relay@heartbleed.it - abuse@heartbleed.it</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,35 @@ email:info@heartbleed.it - abuse:abuse@heartbleed.it</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>89.147.108.56</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  1
+  22-23
+  25
+  119
+  135-139
+  194
+  445
+  465
+  563
+  587
+  993-994
+  1214
+  3128
+  3389
+  4661-4666
+  5900
+  6346-6429
+  6660-6669
+  6679
+  6697
+  6699
+  6881-6999
+  8000
+  8080
+  9999-10000
 </pre>
 </dd>
 
@@ -76,7 +100,41 @@ email:info@heartbleed.it - abuse:abuse@heartbleed.it</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:1
+ reject *:22
+ reject *:23
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:194
+ reject *:445
+ reject *:465
+ reject *:563
+ reject *:587
+ reject *:993
+ reject *:994
+ reject *:1214
+ reject *:3128
+ reject *:3389
+ reject *:4661-4666
+ reject *:5900
+ reject *:6346-6429
+ reject *:6660-6669
+ reject *:6679
+ reject *:6697
+ reject *:6699
+ reject *:6881-6999
+ reject *:8000
+ reject *:8080
+ reject *:9999
+ reject *:10000
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -104,13 +162,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>24 Mbit/s</dd>
+<dd>78 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>8600</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -119,14 +179,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">tor-node1.is.heartbleed.it</pre>
+<pre class="verified-hostname" title="verified hostname">tor-exit1.is.heartbleed.it</pre>
 <dt>Autonomous System</dt>
 <dd>
 1984 ehf - 
 <a href="../as_number/AS44925.html">AS44925</a>
 (<a href='https://bgp.he.net/AS44925'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-12-29 05:59:00</dd>
+<dd>2024-01-05 12:39:03</dd>
 
 <dt>Country</dt>
 <dd>

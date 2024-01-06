@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: SecureServerSetup81</title>
+    <title>Tor Relays :: SecureServerSetupJP</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "SecureServerSetup81"</h2>
+<h2><a href="../">Home</a> :: Relay "SecureServerSetupJP"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>SecureServerSetup81</dd>
+<dd>SecureServerSetupJP</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,18 +55,26 @@ David Poulsen &lt;david@nikulaus.net&gt; https://nikulaus.net/tor.html...</a></d
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-91.90.120.169:33440
+154.47.20.16:58759
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>154.47.20.5</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  6660-6667
+<pre class="pre-scrollable">reject: 
+  25
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -82,8 +90,16 @@ David Poulsen &lt;david@nikulaus.net&gt; https://nikulaus.net/tor.html...</a></d
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:6660-6667
- reject *:*
+ reject *:25
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -110,13 +126,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>2 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>41</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -128,15 +145,15 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-M247 Europe SRL - 
-<a href="../as_number/AS9009.html">AS9009</a>
-(<a href='https://bgp.he.net/AS9009'>BGP</a>)
+Datacamp Limited - 
+<a href="../as_number/AS212238.html">AS212238</a>
+(<a href='https://bgp.he.net/AS212238'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-12-29 06:10:34</dd>
+<dd>2024-01-06 14:52:26</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/gl.html"><img src="../static/images/cc/gl.png" title="Greenland" alt="Greenland"></a> Greenland
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
