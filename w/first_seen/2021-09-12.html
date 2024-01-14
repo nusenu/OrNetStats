@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-09-12</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2021-09-12</h2>
+<p>Relays started on 2021-09-12 are responsible for ~3868 Mbit/s of traffic, with 2
+middle relays and 27 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Authenticated Relay Operator ID <img title="This icon indicates the operator properly implemented the Authenticated Relay Operator ID (AROI) on a given relay." src="../static/images/flags/valid.png"><br> or ContactInfo (unverified)</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/20209021CE8B8732F8EE57D313A36FF8DC823E5E.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>186 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.41">185.220.101.41</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/E49F3696DC13946A68DF2AAA6EDA460BC15D8F03.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>185 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.33">185.220.101.33</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/2DF03D7B158DAE2EAF76078775451F1769506451.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>184 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.32">185.220.101.32</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/24FDF4754BB3775A6D54E078DCBBCA43D7B1B07E.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>183 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.36">185.220.101.36</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/99EBA72BA08EF99A3E0AE4DBFD2792BF2A18C465.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>168 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.35">185.220.101.35</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/776542D611661D6FE3839FE2D7AFB92A435C5D81.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>163 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.40">185.220.101.40</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/11A2C7E4629BC8F2AE8188CFF6421F1FBDD2A8CE.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>162 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.42">185.220.101.42</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber29"><a href="../relay/5F0CE7C63590B29E629750E9C5BCDF56C40D6898.html">artikel10ber29</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>156 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.8">185.220.101.8</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/8748A5C2CE8BE8B6099011DABBD736DBA1FABD61.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>152 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.37">185.220.101.37</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/BEE071E521A47C740C9F6184FEBCF78BFF5F1275.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>148 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.34">185.220.101.34</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber21"><a href="../relay/6B762F98D14093EC36FD5055897E49331E579D6D.html">artikel10ber21</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>146 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.6">185.220.101.6</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber18"><a href="../relay/D2F15E74954597E41E155449A0CE9B4DB892DFFD.html">artikel10ber18</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>144 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.5">185.220.101.5</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/7ABED1F6664D1153F1402838D3B32AF6F2CABE17.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>144 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.39">185.220.101.39</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber32"><a href="../relay/E0DAC558043E9808D41B00DA4485E3BC0BDAC0D7.html">artikel10ber32</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>140 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.8">185.220.101.8</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="ForPrivacyNET"><a href="../relay/FF5D538B72DAC854D4C8FE3A637C242F5B54649A.html">ForPrivacyNET</a> (<a href="../family/8b0a1698e9701148fe1f4f49cb27c1f579dce411952de942b889d4d08bfd2f68.html">86</a>)</td>
+<td><code><a href="../contact/7efebfd57d24dd5df1444e9e2e1a4624.html"
+title="email:admin@for-privacy.net url:for-privacy.net proof:dns-rsa abuse:abuse@for-privacy.net pgp:9A2AAD5A0DEF92D9DFE5442A58226EF514943B94 keybase:boldsuck mastodon:https://mastodon.social/@boldsuck ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+for-privacy.net</a>
+<td>139 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.38">185.220.101.38</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber19"><a href="../relay/0CA1B6BC906E5DD6F4CFE322B4BEFE7A17D42D52.html">artikel10ber19</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>138 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.5">185.220.101.5</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber17"><a href="../relay/60FE782DF923698546023C6F14FEC0884624F35C.html">artikel10ber17</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>131 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.5">185.220.101.5</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber23"><a href="../relay/C4019EC5FBDB0401072599BC34E6FECD5F26692D.html">artikel10ber23</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>130 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.6">185.220.101.6</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber26"><a href="../relay/848FB87A99BB982B44162A4052013A2CD42E06EF.html">artikel10ber26</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>129 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.7">185.220.101.7</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber25"><a href="../relay/3DE791841B38F2071450E0FBFD3B41E067267F32.html">artikel10ber25</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>123 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.7">185.220.101.7</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber30"><a href="../relay/EE0555B4101CCC0115E3AF98A7F104506DEB3852.html">artikel10ber30</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>119 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.8">185.220.101.8</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber24"><a href="../relay/2FF236B93D8574F3F77156B9542CA0554CB1DA2C.html">artikel10ber24</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>115 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.6">185.220.101.6</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber31"><a href="../relay/7B0AE27C640C15263DE3882E6B73BF7DAD2C29D3.html">artikel10ber31</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>112 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.8">185.220.101.8</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber27"><a href="../relay/0BA1C8F26AFAD3FAEF3B6A228F97382D115027B9.html">artikel10ber27</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>107 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.7">185.220.101.7</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber22"><a href="../relay/F82E2221121EB77A2DE3E6941027265027EA2378.html">artikel10ber22</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>107 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.6">185.220.101.6</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber20"><a href="../relay/DA9ABAEA49FBF9E75E9EC020380E361688A3B23E.html">artikel10ber20</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>105 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.5">185.220.101.5</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber28"><a href="../relay/AACD4E09E65BA18CAF35FBC855EF659505B36E9E.html">artikel10ber28</a> (<a href="../family/d28a794d956403a2d5e1c8d20df7faef1f12d99330380060abd5368781524124.html">176</a>)</td>
+<td><code><a href="../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f.html"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+artikel10.org</a>
+<td>104 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.7">185.220.101.7</a></td>
+
+<td><a href="../as_number/AS60729.html" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="stars2"><a href="../relay/C7A46C866B963FC0F5C0E9DCE375C869D40F23E4.html">stars2</a> (<a href="../family/b0acf8296c32897b01b30fb0f48974290426777ff8ee595746b42756d73fe6e0.html">22</a>)</td>
+<td><code><a href="../contact/d36dc8b373cdc194ed8d4f873699d63a.html"
+title="1AKfiFWajSckVrArTVh21KkdPuegordE3E">
+1AKfiFWajSckVrArTVh21Kkd...</a></code></td>
+<td>44 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/158.69.204.36">158.69.204.36</a></td>
+
+<td><a href="../as_number/AS16276.html" title="OVH SAS">OVH SAS</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="lumipGoesOnion2"><a href="../relay/3AE9F228E1540D6F73B6DC9ED816AC84CF755598.html">lumipGoesOnion2</a></td>
+<td><code><a href="../contact/b19a300771efe6b7fd065127233c4579.html"
+title="tor@lumip.de">
+tor@lumip.de</a></code></td>
+<td>6 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/37.120.178.238">37.120.178.238</a></td>
+
+<td><a href="../as_number/AS197540.html" title="netcup GmbH">netcup GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-12</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
