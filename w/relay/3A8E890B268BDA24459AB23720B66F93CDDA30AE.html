@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/d082677b783194402b0204580e2e9514.html">all relays with this contact</a>)</dt>
+(<a href="../contact/4d74d5919c47ed097c709b03d33367e5.html">all relays with this contact</a>)</dt>
 <dd>
-dev@roipmars.org.my</a></dd>
+RoIPMARS Developer &lt;dev@roipmars.org.my&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,20 @@ dev@roipmars.org.my</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>101.99.84.87</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,14 +85,30 @@ dev@roipmars.org.my</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/74d6001b10d5fba442c51baae3dd99467171952f145ab01adcb2a0722b193fa0.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/3d8979e09293e0ff19316d3e54b309ef5b57ad80145d13d1bf9a0ad2abaa1f18.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="10DE7D5BBA9B240B60DA9C02DDF72D5A1A99CCAF.html">10DE7D5BBA9B240B60DA9C02DDF72D5A1A99CCAF</a>
+<a href="1AA95437B5A186EFFA73B9DD39626BB702442C28.html">1AA95437B5A186EFFA73B9DD39626BB702442C28</a>
 <a href="3A8E890B268BDA24459AB23720B66F93CDDA30AE.html">3A8E890B268BDA24459AB23720B66F93CDDA30AE</a>
-<a href="3BFCA8AF09D288D23C1D7294C94137E3286E56F3.html">3BFCA8AF09D288D23C1D7294C94137E3286E56F3</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -99,25 +124,23 @@ dev@roipmars.org.my</a></dd>
 <dd><a href="../first_seen/2024-01-10">2024-01-10 16:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.7
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<dd> Tor 0.4.8.10
 on
 <a href='../osfam/Windows.html'>Windows</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>19 Mbit/s</dd>
+<dd>22 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>480</dd>
+<dd>670</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -131,7 +154,7 @@ Shinjiru Technology Sdn Bhd -
 <a href="../as_number/AS45839.html">AS45839</a>
 (<a href='https://bgp.he.net/AS45839'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-01-15 20:45:07</dd>
+<dd>2024-01-23 21:18:23</dd>
 
 <dt>Country</dt>
 <dd>

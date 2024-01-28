@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/83489ae76961f569ab00c83c78321e06.html">all relays with this contact</a>)</dt>
+(<a href="../contact/e5146a43c6120dbfda4a22fef05c9d32.html">all relays with this contact</a>)</dt>
 <dd>
-tor@privateshit.com</a></dd>
+tor-us-contact@proton.me</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -66,16 +66,28 @@ tor@privateshit.com</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
+  21-23
   25
-  119
+  110-111
   135-139
+  143
+  161
+  194
   445
+  465
+  520
   563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+  587
+  993-995
+  3128
+  3306
+  3389
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  9999
 </pre>
 </dd>
 
@@ -91,22 +103,43 @@ tor@privateshit.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:21
+ reject *:22
+ reject *:23
  reject *:25
- reject *:119
+ reject *:110
+ reject *:111
  reject *:135-139
+ reject *:143
+ reject *:161
+ reject *:194
  reject *:445
+ reject *:465
+ reject *:520
  reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
+ reject *:587
+ reject *:993
+ reject *:994
+ reject *:995
+ reject *:3128
+ reject *:3306
+ reject *:3389
+ reject *:5900
+ reject *:6660-6669
+ reject *:6679
+ reject *:6697
+ reject *:8000
+ reject *:9999
  accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">C5610E4F65ECB72344F90C3722A0C747EC217AB5
+<dt>Effective Family Members (<a href="../family/83827d6adb84ac7c845ab73cae8a3a7f04f2a0fee845fc2ad787b78f5ac8ec11.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="7992F83CC37411749E88DEA3A0A8807BF0E3A943.html">7992F83CC37411749E88DEA3A0A8807BF0E3A943</a>
+<a href="9EC4DC11ED52CA87534EA73F0E5A768FCA13D993.html">9EC4DC11ED52CA87534EA73F0E5A768FCA13D993</a>
+<a href="C3E655AE50C064DF88603FAC637C429D73B7476A.html">C3E655AE50C064DF88603FAC637C429D73B7476A</a>
+<a href="C5610E4F65ECB72344F90C3722A0C747EC217AB5.html">C5610E4F65ECB72344F90C3722A0C747EC217AB5</a>
+<a href="D414F573808E4DE5B9E67FD59011561A355D1157.html">D414F573808E4DE5B9E67FD59011561A355D1157</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -128,15 +161,18 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>17 Mbit/s</dd>
+<dd>89 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1600</dd>
+<dd>9100</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
