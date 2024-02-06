@@ -63,20 +63,36 @@ none</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>104.192.3.74</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22-23
+  21-22
   25
+  110
+  143
+  465
+  587
+  993
+  995
+  2525
+  3389
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22-23
+  21-22
   25
+  110
+  143
+  465
+  587
+  993
+  995
+  2525
+  3389
 </pre>
 </dd>
 
@@ -87,9 +103,17 @@ none</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:21
  reject *:22
- reject *:23
  reject *:25
+ reject *:2525
+ reject *:465
+ reject *:587
+ reject *:143
+ reject *:993
+ reject *:110
+ reject *:995
+ reject *:3389
  accept *:*
 </pre></dd>
 </dd>
@@ -118,16 +142,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>342 Mbit/s</dd>
+<dd>214 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>89000</dd>
+<dd>31000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -145,7 +168,7 @@ DATAWAGON -
 <a href="../as_number/AS27176.html">AS27176</a>
 (<a href='https://bgp.he.net/AS27176'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2023-12-19 00:03:48</dd>
+<dd>2024-02-02 09:26:32</dd>
 
 <dt>Country</dt>
 <dd>

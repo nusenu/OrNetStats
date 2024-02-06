@@ -67,16 +67,22 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22-23
+  20-23
   25
+  465
+  587
+  3389
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  22-23
+  20-23
   25
+  465
+  587
+  3389
 </pre>
 </dd>
 
@@ -90,6 +96,11 @@
  reject *:25
  reject *:22
  reject *:23
+ reject *:21
+ reject *:20
+ reject *:3389
+ reject *:465
+ reject *:587
  accept *:*
 </pre></dd>
 </dd>
@@ -117,10 +128,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>77 Mbit/s</dd>
+<dd>101 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>11000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -143,7 +154,7 @@ DATAWAGON -
 <a href="../as_number/AS27176.html">AS27176</a>
 (<a href='https://bgp.he.net/AS27176'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-01-22 02:54:12</dd>
+<dd>2024-01-31 18:11:08</dd>
 
 <dt>Country</dt>
 <dd>
