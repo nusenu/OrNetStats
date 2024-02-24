@@ -55,7 +55,7 @@
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-81.64.1.143:9001
+81.64.1.143:9007
 </pre></dd>
 
 
@@ -65,18 +65,48 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  80
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept 204.8.99.144:443
+ accept 204.8.99.146:443
+ accept 116.202.120.165:443
+ accept 116.202.120.166:443
+ accept 95.216.163.36:443
+ accept 116.202.120.181:443
+ accept 199.232.169.229:443
+ accept 142.250.179.99:443
+ accept 142.250.75.227:443
+ accept 216.58.214.67:443
+ accept 142.250.201.163:443
+ accept 172.217.20.206:443
+ accept 142.250.179.110:443
+ accept 172.217.20.174:443
+ accept 142.250.75.238:443
+ accept 142.250.178.142:443
+ accept 142.250.179.78:443
+ accept 142.250.201.174:443
+ accept 172.217.18.206:443
+ accept 216.58.214.174:443
+ accept 185.15.58.224:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -86,7 +116,8 @@
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable">E4FE2E02E7B1BF98DC084DA4B6F68E3EE73BC016
+<pre class="pre-scrollable"><a href="6BDA22C43D05423D0578596DEF0044E70A760C11.html">6BDA22C43D05423D0578596DEF0044E70A760C11</a>
+<a href="B48F4907E0FB03E3F6689A7751165F0F2E04ECD3.html">B48F4907E0FB03E3F6689A7751165F0F2E04ECD3</a>
 </pre></dd>
 </dl>
 </div>
@@ -106,7 +137,7 @@ on
 <dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>12</dd>
+<dd>3</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -125,7 +156,7 @@ Societe Francaise Du Radiotelephone - SFR SA -
 <a href="../as_number/AS15557.html">AS15557</a>
 (<a href='https://bgp.he.net/AS15557'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-02-12 14:47:21</dd>
+<dd>2024-02-24 10:33:50</dd>
 
 <dt>Country</dt>
 <dd>
