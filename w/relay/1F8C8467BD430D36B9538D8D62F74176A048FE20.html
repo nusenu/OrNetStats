@@ -70,21 +70,30 @@ url:relayon.org proof:uri-rsa abuse:abuse[]relayon.org ciissversion:2</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.220.101.129</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -112,18 +121,17 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>146 Mbit/s</dd>
+<dd>188 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>19000</dd>
+<dd>29000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -137,11 +145,11 @@ Stiftung Erneuerbare Freiheit -
 <a href="../as_number/AS60729.html">AS60729</a>
 (<a href='https://bgp.he.net/AS60729'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-02-13 15:31:21</dd>
+<dd>2024-03-04 12:01:43</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/de.html"><img src="../static/images/cc/de.png" title="Germany" alt="Germany"></a> Germany
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>

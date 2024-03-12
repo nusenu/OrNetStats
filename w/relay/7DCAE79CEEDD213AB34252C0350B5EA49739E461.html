@@ -62,11 +62,23 @@ Random Person &lt;collard_tethers0r AT icloud dot com&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>167.99.208.41</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  22
+  25
+  119
+  135-139
+  445
+  465
+  563
+  1214
+  1433
+  4660-4667
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +88,26 @@ Random Person &lt;collard_tethers0r AT icloud dot com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:22
+ reject *:25
+ reject *:465
+ reject *:135-139
+ reject *:445
+ reject *:1433
+ reject *:4660-4667
+ reject *:119
+ reject *:563
+ reject *:1214
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -103,13 +134,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>14 Mbit/s</dd>
+<dd>21 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1100</dd>
+<dd>830</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -123,11 +155,11 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-DIGITALOCEAN-ASN - 
+DigitalOcean, LLC - 
 <a href="../as_number/AS14061.html">AS14061</a>
 (<a href='https://bgp.he.net/AS14061'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-02-24 00:23:27</dd>
+<dd>2024-03-02 22:24:17</dd>
 
 <dt>Country</dt>
 <dd>
