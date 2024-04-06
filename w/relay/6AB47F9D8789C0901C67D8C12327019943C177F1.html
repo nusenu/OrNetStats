@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: NeelTorExit2C</title>
+    <title>Tor Relays :: NeelTorExit1G</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "NeelTorExit2C"</h2>
+<h2><a href="../">Home</a> :: Relay "NeelTorExit1G"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>NeelTorExit2C</dd>
+<dd>NeelTorExit1G</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -55,15 +55,15 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-92.205.237.227:70
-[2a00:1169:117:5510::]
+23.155.24.6:9008
+[2602:2e6:0:6::]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>92.205.237.227</dd>
+<dd>23.155.24.6</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
@@ -132,11 +132,7 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
   8601-8602
   8888
   9418
-  11371
-  19294
-  19638
-  50002
-  64738
+  10000-65535
 </pre>
 </dd>
 
@@ -208,11 +204,7 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
   8601-8602
   8888
   9418
-  11371
-  19294
-  19638
-  50002
-  64738
+  10000-65535
 </pre>
 </dd>
 
@@ -223,14 +215,38 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject 23.26.138.0/24:*
+ reject 45.135.163.0/24:*
+ reject 45.141.15.0/24:*
+ reject 88.216.2.0/24:*
+ reject 93.177.109.0/24:*
+ reject 193.221.195.0/24:*
+ reject 194.26.223.0/24:*
+ reject 208.77.218.112/29:*
+ reject 193.138.29.159:*
+ reject 217.23.49.178:*
+ reject 46.140.160.132:*
+ reject 77.235.182.103:*
+ reject 82.135.26.82:*
+ reject 193.138.29.10:*
+ reject 193.138.29.15:*
+ reject 193.138.29.185:*
+ reject 217.23.49.196/30:*
+ reject 217.23.49.200/29:*
+ reject 217.23.49.208/31:*
+ reject 217.23.49.210:*
+ reject 217.23.49.214:*
+ reject 217.23.49.222:*
+ reject 208.66.2.19:*
+ reject 77.37.17.36:*
+ reject 46.41.0.109:*
+ reject 217.23.48.81:*
  accept *:20-21
  accept *:43
  accept *:53
- accept *:79
- accept *:80-81
+ accept *:79-81
  accept *:83
- accept *:85
- accept *:86
+ accept *:85-86
  accept *:88
  accept *:90
  accept *:110
@@ -248,10 +264,7 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  accept *:873
  accept *:902-904
  accept *:981
- accept *:989-990
- accept *:991
- accept *:992
- accept *:993
+ accept *:989-993
  accept *:995
  accept *:1043
  accept *:1103
@@ -266,15 +279,14 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  accept *:1755
  accept *:1863
  accept *:1883
- accept *:2082
- accept *:2083
+ accept *:2082-2083
  accept *:2086-2087
  accept *:2095-2096
  accept *:2102-2104
  accept *:3690
+ accept *:4070
  accept *:4321
  accept *:4643
- accept *:4070
  accept *:5004
  accept *:5050
  accept *:5190
@@ -291,54 +303,49 @@ Neel Chauhan &lt;neel AT neelc DOT org&gt;</a></dd>
  accept *:8332-8333
  accept *:8443
  accept *:8502
- accept *:8601
- accept *:8602
+ accept *:8601-8602
  accept *:8888
  accept *:9418
- accept *:11371
- accept *:19294
- accept *:19638
- accept *:50002
- accept *:64738
- reject *:*
+ reject *:1-9999
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/f1e560b9d65e648517f09c259119bb0e4e73359cca8317267db312a4ce523a96.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/55d17006acac4fc8fff7a3e07989f6eba513a78e61c87e54c3ed2b3415a11f32.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="0715BB9CC7F0BD48A8DC8C6E4E8D3F9E35CFD570.html">0715BB9CC7F0BD48A8DC8C6E4E8D3F9E35CFD570</a>
-<a href="1617CF703AFBE6D61FE8468A39C65C08B13A3F0E.html">1617CF703AFBE6D61FE8468A39C65C08B13A3F0E</a>
+<a href="59882A575FB983FD15215600C1CA0516A688CF7B.html">59882A575FB983FD15215600C1CA0516A688CF7B</a>
+<a href="6AB47F9D8789C0901C67D8C12327019943C177F1.html">6AB47F9D8789C0901C67D8C12327019943C177F1</a>
+<a href="6B6462940F6112EDCCD601FC08CCB895A884B5B3.html">6B6462940F6112EDCCD601FC08CCB895A884B5B3</a>
+<a href="86D9CD7032FC0A6E86D1D93C05E55B85B907241A.html">86D9CD7032FC0A6E86D1D93C05E55B85B907241A</a>
+<a href="9C94F80C7B4824F6797C76296A16CADBC2B73444.html">9C94F80C7B4824F6797C76296A16CADBC2B73444</a>
+<a href="9FE284903F077C844E7E0618A191C8AFF511C4E2.html">9FE284903F077C844E7E0618A191C8AFF511C4E2</a>
+<a href="BAA3A8CC5CBA813F16F9ED23DEB1D5D93CA2D4FF.html">BAA3A8CC5CBA813F16F9ED23DEB1D5D93CA2D4FF</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="1617CF703AFBE6D61FE8468A39C65C08B13A3F0E.html">1617CF703AFBE6D61FE8468A39C65C08B13A3F0E</a>
 <a href="1D619E70D9529A6F4AF76D59BF3DDDC0E0B0D767.html">1D619E70D9529A6F4AF76D59BF3DDDC0E0B0D767</a>
+<a href="26675F4624777ED3158FBD0B133804F083BF5358.html">26675F4624777ED3158FBD0B133804F083BF5358</a>
 <a href="4A62031E5509080ED300ACEB372073B3D2D595E8.html">4A62031E5509080ED300ACEB372073B3D2D595E8</a>
 <a href="4C6A2CADFF9F977B8192D2A7AD8BDD4068A9C912.html">4C6A2CADFF9F977B8192D2A7AD8BDD4068A9C912</a>
 <a href="4D9ED533972D42CC8D8C61B835F68C3942E1E8B8.html">4D9ED533972D42CC8D8C61B835F68C3942E1E8B8</a>
-<a href="59882A575FB983FD15215600C1CA0516A688CF7B.html">59882A575FB983FD15215600C1CA0516A688CF7B</a>
-<a href="6AB47F9D8789C0901C67D8C12327019943C177F1.html">6AB47F9D8789C0901C67D8C12327019943C177F1</a>
 <a href="6B32110B682DC79F3B30437781D9361204CE0A70.html">6B32110B682DC79F3B30437781D9361204CE0A70</a>
-<a href="6B6462940F6112EDCCD601FC08CCB895A884B5B3.html">6B6462940F6112EDCCD601FC08CCB895A884B5B3</a>
 <a href="749E73D7F521AA43BCFBC536A589483EB7CDD3AE.html">749E73D7F521AA43BCFBC536A589483EB7CDD3AE</a>
+<a href="7B328A556BDA68055AB33D7FF4339465ACDC116B.html">7B328A556BDA68055AB33D7FF4339465ACDC116B</a>
 <a href="80EEF5DCEC1CC6F9632B4DB40BCF022D4C027DF2.html">80EEF5DCEC1CC6F9632B4DB40BCF022D4C027DF2</a>
 <a href="8128D9A1A238666D3328A30F98E96251EDBDD04B.html">8128D9A1A238666D3328A30F98E96251EDBDD04B</a>
 <a href="825C33664B409A3FFEAF63C8B43FE6EA6AAE69BE.html">825C33664B409A3FFEAF63C8B43FE6EA6AAE69BE</a>
 <a href="8422F3FB7FBCD00E3F78659F3C03CF614A438310.html">8422F3FB7FBCD00E3F78659F3C03CF614A438310</a>
-<a href="86D9CD7032FC0A6E86D1D93C05E55B85B907241A.html">86D9CD7032FC0A6E86D1D93C05E55B85B907241A</a>
-<a href="9C94F80C7B4824F6797C76296A16CADBC2B73444.html">9C94F80C7B4824F6797C76296A16CADBC2B73444</a>
-<a href="9FE284903F077C844E7E0618A191C8AFF511C4E2.html">9FE284903F077C844E7E0618A191C8AFF511C4E2</a>
+<a href="AD5F31F3256A77629503C197231AA29767F9802B.html">AD5F31F3256A77629503C197231AA29767F9802B</a>
 <a href="B000FBA4442007D28AD2096455ECFE9D4533284E.html">B000FBA4442007D28AD2096455ECFE9D4533284E</a>
+<a href="B02E56E6CD34CFD9CA49D058A0EC97F28C712419.html">B02E56E6CD34CFD9CA49D058A0EC97F28C712419</a>
 <a href="B60B8D5073188AF1B7F60BBB22C590A6CF89696D.html">B60B8D5073188AF1B7F60BBB22C590A6CF89696D</a>
-<a href="BAA3A8CC5CBA813F16F9ED23DEB1D5D93CA2D4FF.html">BAA3A8CC5CBA813F16F9ED23DEB1D5D93CA2D4FF</a>
 <a href="BD0B45A05A1951571863F28007550A2ABEBB31DE.html">BD0B45A05A1951571863F28007550A2ABEBB31DE</a>
 <a href="C165A06054EB8C40A47BFD53D12946F233E1525B.html">C165A06054EB8C40A47BFD53D12946F233E1525B</a>
 <a href="DBD404F36936B07A4940F73A5B113BA923B6463C.html">DBD404F36936B07A4940F73A5B113BA923B6463C</a>
 <a href="E154CBCAB356F8E6913CB8809EC285819CE7FD0A.html">E154CBCAB356F8E6913CB8809EC285819CE7FD0A</a>
 <a href="E747922B376261AEC03AAAC2052223A645C25B4C.html">E747922B376261AEC03AAAC2052223A645C25B4C</a>
-</pre></dd>
-
-<dt>Alleged Family Members</dt>
-<dd>
-<pre class="pre-scrollable"><a href="26675F4624777ED3158FBD0B133804F083BF5358.html">26675F4624777ED3158FBD0B133804F083BF5358</a>
-<a href="7B328A556BDA68055AB33D7FF4339465ACDC116B.html">7B328A556BDA68055AB33D7FF4339465ACDC116B</a>
-<a href="AD5F31F3256A77629503C197231AA29767F9802B.html">AD5F31F3256A77629503C197231AA29767F9802B</a>
-<a href="B02E56E6CD34CFD9CA49D058A0EC97F28C712419.html">B02E56E6CD34CFD9CA49D058A0EC97F28C712419</a>
 </pre></dd>
 </dl>
 </div>
@@ -355,17 +362,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>163 Mbit/s</dd>
+<dd>92 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>30000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -375,18 +381,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">227.237.205.92.host.secureserver.net</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-Host Europe GmbH - 
-<a href="../as_number/AS21499.html">AS21499</a>
-(<a href='https://bgp.he.net/AS21499'>BGP</a>)
+Microtronix ESolutions, LLC - 
+<a href="../as_number/AS400175.html">AS400175</a>
+(<a href='https://bgp.he.net/AS400175'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-02-21 04:08:15</dd>
+<dd>2024-03-24 18:07:58</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/fr.html"><img src="../static/images/cc/fr.png" title="France" alt="France"></a> France
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
