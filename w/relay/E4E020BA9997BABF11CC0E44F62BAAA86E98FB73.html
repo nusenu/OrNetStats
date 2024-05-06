@@ -80,59 +80,33 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
 <dd>192.42.116.208</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80
-  110
-  143
-  194
-  220
-  443
-  873
-  991
-  993-995
-  1194
-  1293
-  3690
-  4321
-  5222-5223
-  5228
-  6660-6669
-  6679
-  6697
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80
-  110
-  143
-  194
-  220
-  443
-  873
-  991
-  993-995
-  1194
-  1293
-  3690
-  4321
-  5222-5223
-  5228
-  6660-6669
-  6679
-  6697
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -143,36 +117,21 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:43
- accept *:53
- accept *:80
- accept *:110
- accept *:143
- accept *:194
- accept *:220
- accept *:443
- accept *:873
- accept *:991
- accept *:993
- accept *:994
- accept *:995
- accept *:1194
- accept *:1293
- accept *:3690
- accept *:4321
- accept *:5222-5223
- accept *:5228
- accept *:6660-6669
- accept *:6679
- accept *:6697
- accept *:9418
- accept *:11371
- accept *:64738
- reject *:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/96bcd0fd938d5012322ee7fb0c331fe6b585fd0b97225c63e217ce2f47506b5d.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/c7e932daa93a1f8d8dae1a0123d4f974a616b8ffb32d5bfa3159c19c19156f16.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="004F9A0513C84E72054CEB555DB51EEEF319546D.html">004F9A0513C84E72054CEB555DB51EEEF319546D</a>
 <a href="0055DB090820D7C08999EC1598FD6EA6365861AD.html">0055DB090820D7C08999EC1598FD6EA6365861AD</a>
 <a href="008F10F88397C11C062217EAC35D782F03BDF4C7.html">008F10F88397C11C062217EAC35D782F03BDF4C7</a>
@@ -206,7 +165,6 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
 <a href="19A65048A97721E4C0FCF5040BE4D600D2EC07E8.html">19A65048A97721E4C0FCF5040BE4D600D2EC07E8</a>
 <a href="1A1EB9BCD6BA1D9BAD65D6909FD127663C107BF1.html">1A1EB9BCD6BA1D9BAD65D6909FD127663C107BF1</a>
 <a href="1A3630BCCF3E65DDD43D35013835141BEEB89DCB.html">1A3630BCCF3E65DDD43D35013835141BEEB89DCB</a>
-<a href="1B08DD85E096AB216DABE144EC69A9CAF3C0E310.html">1B08DD85E096AB216DABE144EC69A9CAF3C0E310</a>
 <a href="1BAA33FE4AFA3A307797043FCD59665D3C2CE552.html">1BAA33FE4AFA3A307797043FCD59665D3C2CE552</a>
 <a href="1C1548FB83F57C6B8D2A95282E3AC097BB05CEB2.html">1C1548FB83F57C6B8D2A95282E3AC097BB05CEB2</a>
 <a href="1CCA6F06C594F5A7E8CA0977101B71944F7904A5.html">1CCA6F06C594F5A7E8CA0977101B71944F7904A5</a>
@@ -471,7 +429,7 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable">none
+<pre class="pre-scrollable">1B08DD85E096AB216DABE144EC69A9CAF3C0E310
 </pre></dd>
 </dl>
 </div>
@@ -488,17 +446,20 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>101 Mbit/s</dd>
+<dd>187 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>14000</dd>
+<dd>19000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -512,7 +473,7 @@ SURF B.V. -
 <a href="../as_number/AS1101.html">AS1101</a>
 (<a href='https://bgp.he.net/AS1101'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-03-06 12:53:11</dd>
+<dd>2024-04-08 22:27:50</dd>
 
 <dt>Country</dt>
 <dd>

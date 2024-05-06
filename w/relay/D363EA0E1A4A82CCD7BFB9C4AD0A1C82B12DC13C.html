@@ -55,18 +55,20 @@ your@e-mail</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-45.156.26.111:666
+45.95.202.48:666
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>171.33.234.140 185.13.202.146 86.106.2.184 86.106.2.31</dd>
+<dd>45.95.202.48</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  25-26
+  465
+  587
 </pre>
 </dd>
 
@@ -82,6 +84,10 @@ your@e-mail</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:25
+ reject *:26
+ reject *:465
+ reject *:587
  accept *:*
 </pre></dd>
 </dd>
@@ -109,14 +115,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>14 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>600</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,14 +132,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre>none</pre>
+<pre class="unverified-hostname" title="unverified hostname">vm2711500.firstbyte.club</pre>
 <dt>Autonomous System</dt>
 <dd>
-CGI GLOBAL LIMITED - 
-<a href="../as_number/AS56971.html">AS56971</a>
-(<a href='https://bgp.he.net/AS56971'>BGP</a>)
+FIRST SERVER LIMITED - 
+<a href="../as_number/AS205090.html">AS205090</a>
+(<a href='https://bgp.he.net/AS205090'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-04-05 19:31:28</dd>
+<dd>2024-05-02 19:51:39</dd>
 
 <dt>Country</dt>
 <dd>

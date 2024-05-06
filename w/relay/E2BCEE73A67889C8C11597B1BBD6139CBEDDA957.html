@@ -63,11 +63,21 @@
 <dd>179.43.167.205</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  465
-  587
-  8333
+<pre class="pre-scrollable">accept: 
+  20-22
+  53
+  80
+  110
+  143
+  220
+  443
+  873
+  989-990
+  992-993
+  995
+  1194
+  5222-5223
+  8443
 </pre>
 </dd>
 
@@ -83,11 +93,22 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:465
- reject *:587
- reject *:8333
- accept *:*
+ accept *:20-22
+ accept *:53
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:5222-5223
+ accept *:8443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -114,10 +135,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>190 Mbit/s</dd>
+<dd>136 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>30000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -141,7 +162,7 @@ Private Layer INC -
 <a href="../as_number/AS51852.html">AS51852</a>
 (<a href='https://bgp.he.net/AS51852'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-04-01 09:03:23</dd>
+<dd>2024-04-18 07:11:01</dd>
 
 <dt>Country</dt>
 <dd>

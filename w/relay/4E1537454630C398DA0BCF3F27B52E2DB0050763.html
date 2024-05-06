@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: SpookySum69694</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "SpookySum69694"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>SpookySum69694</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/5a49c8f6e387236850ae8ee97c0763b0.html">all relays with this contact</a>)</dt>
+<dd>
+(Blo&gt;ck&gt;)Gov(surveil@proton&gt;mail(&lt;.ch&gt;&gt;&gt;))</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+45.134.173.197:9001
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>45.134.173.197</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  1-26
+  110-111
+  119
+  135-140
+  142-143
+  161
+  194
+  375
+  425
+  444-450
+  465
+  515
+  520
+  547
+  563
+  587
+  593
+  631
+  666
+  993-995
+  1080
+  1412
+  1433-1434
+  1503
+  1723
+  1863
+  1900
+  2197
+  2208
+  2222
+  2323
+  2412
+  2525
+  3128
+  3282
+  3306
+  3389
+  4443-4444
+  4661-4662
+  4665
+  5001
+  5050
+  5060-5061
+  5068
+  5090
+  5190
+  5223
+  5432
+  5500
+  5554
+  5631-5632
+  5900
+  5985-5986
+  6346
+  6660-6667
+  6679
+  6697
+  6881-6891
+  6893-6900
+  7080-7081
+  9200
+  9999-10000
+  11211
+  12345
+  18000
+  19000
+  27017
+  42069
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:1
+ reject *:2
+ reject *:3
+ reject *:4
+ reject *:5
+ reject *:6
+ reject *:7
+ reject *:8
+ reject *:9
+ reject *:10
+ reject *:11
+ reject *:12
+ reject *:13
+ reject *:14
+ reject *:15
+ reject *:16
+ reject *:17
+ reject *:18
+ reject *:19
+ reject *:20
+ reject *:21
+ reject *:22
+ reject *:23
+ reject *:24
+ reject *:25
+ reject *:26
+ reject *:110
+ reject *:111
+ reject *:119
+ reject *:135
+ reject *:136
+ reject *:137
+ reject *:138
+ reject *:139
+ reject *:140
+ reject *:142
+ reject *:143
+ reject *:161
+ reject *:194
+ reject *:375
+ reject *:425
+ reject *:444
+ reject *:445
+ reject *:446
+ reject *:447
+ reject *:448
+ reject *:449
+ reject *:450
+ reject *:465
+ reject *:515
+ reject *:520
+ reject *:547
+ reject *:563
+ reject *:587
+ reject *:593
+ reject *:631
+ reject *:666
+ reject *:993
+ reject *:994
+ reject *:995
+ reject *:1080
+ reject *:1412
+ reject *:1433
+ reject *:1434
+ reject *:1503
+ reject *:1723
+ reject *:1863
+ reject *:1900
+ reject *:2197
+ reject *:2208
+ reject *:2222
+ reject *:2323
+ reject *:2412
+ reject *:2525
+ reject *:3128
+ reject *:3282
+ reject *:3306
+ reject *:3389
+ reject *:4443
+ reject *:4444
+ reject *:4661
+ reject *:4662
+ reject *:4665
+ reject *:5001
+ reject *:5050
+ reject *:5060
+ reject *:5061
+ reject *:5068
+ reject *:5090
+ reject *:5190
+ reject *:5223
+ reject *:5432
+ reject *:5500
+ reject *:5554
+ reject *:5631
+ reject *:5632
+ reject *:5900
+ reject *:5985
+ reject *:5986
+ reject *:6346
+ reject *:6660
+ reject *:6661
+ reject *:6662
+ reject *:6663
+ reject *:6664
+ reject *:6665
+ reject *:6666
+ reject *:6667
+ reject *:6679
+ reject *:6697
+ reject *:6881
+ reject *:6882
+ reject *:6883
+ reject *:6884
+ reject *:6885
+ reject *:6886
+ reject *:6887
+ reject *:6888
+ reject *:6889
+ reject *:6890
+ reject *:6891
+ reject *:6893
+ reject *:6894
+ reject *:6895
+ reject *:6896
+ reject *:6897
+ reject *:6898
+ reject *:6899
+ reject *:6900
+ reject *:7080
+ reject *:7081
+ reject *:9200
+ reject *:9999
+ reject *:10000
+ reject *:11211
+ reject *:12345
+ reject *:18000
+ reject *:19000
+ reject *:27017
+ reject *:42069
+ accept *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/ce0ad1d4fe25b1763e12834f766eb4df0ba3f30f9268b4874935717514170294.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="4E1537454630C398DA0BCF3F27B52E2DB0050763.html">4E1537454630C398DA0BCF3F27B52E2DB0050763</a>
+<a href="4EC224666F6285B746272AB53D77546321E0B8F2.html">4EC224666F6285B746272AB53D77546321E0B8F2</a>
+<a href="C9AC67FD2EEB9F51108139232D3070C3C7B388A4.html">C9AC67FD2EEB9F51108139232D3070C3C7B388A4</a>
+<a href="E90358865078E8C9B01287DC21913ED4D74F1A35.html">E90358865078E8C9B01287DC21913ED4D74F1A35</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2024-04-16">2024-04-16 01:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.8.11
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>111 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>14000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit-f0ur.spooky69.eu</pre>
+<dt>Autonomous System</dt>
+<dd>
+Virtual Systems LLC - 
+<a href="../as_number/AS30860.html">AS30860</a>
+(<a href='https://bgp.he.net/AS30860'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2024-05-02 22:55:09</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/ua.html"><img src="../static/images/cc/ua.png" title="Ukraine" alt="Ukraine"></a> Ukraine
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>4E1537454630C398DA0BCF3F27B52E2DB0050763</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
