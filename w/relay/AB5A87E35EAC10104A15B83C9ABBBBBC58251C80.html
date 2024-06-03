@@ -63,11 +63,20 @@ postboxzookeeper@morke.org (XMR:...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>66.78.40.147</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -77,12 +86,29 @@ postboxzookeeper@morke.org (XMR:...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/01e351ad9120d358c2e6700770bc88360efbc1c687bec8b93fcc7002b2557975.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="40D096BD3E2B600209F0AA3B3FCDA5015706F587.html">40D096BD3E2B600209F0AA3B3FCDA5015706F587</a>
+<dt>Effective Family Members (<a href="../family/561b9a5228f554d3d850477e595fe20377cdbb2dd83ef0011833cebe377624e4.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="236B66F2D27BAB9517214624C256FF5929AEFEB9.html">236B66F2D27BAB9517214624C256FF5929AEFEB9</a>
+<a href="40D096BD3E2B600209F0AA3B3FCDA5015706F587.html">40D096BD3E2B600209F0AA3B3FCDA5015706F587</a>
 <a href="76481B969E0D9B9AD7CCC5EE604FDF11DD60F927.html">76481B969E0D9B9AD7CCC5EE604FDF11DD60F927</a>
 <a href="AB5A87E35EAC10104A15B83C9ABBBBBC58251C80.html">AB5A87E35EAC10104A15B83C9ABBBBBC58251C80</a>
 <a href="E5BD6422FEB2405BC7758A0D2525A88FBF3AD3B8.html">E5BD6422FEB2405BC7758A0D2525A88FBF3AD3B8</a>
@@ -107,14 +133,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>20 Mbit/s</dd>
+<dd>6 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1900</dd>
+<dd>180</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -131,7 +159,7 @@ Aokigahara SRL -
 <a href="../as_number/AS215659.html">AS215659</a>
 (<a href='https://bgp.he.net/AS215659'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-05-06 03:46:39</dd>
+<dd>2024-05-09 00:15:17</dd>
 
 <dt>Country</dt>
 <dd>

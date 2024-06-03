@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: OtterRelayPL2</title>
+    <title>Tor Relays :: OtterRelayMIA2</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,50 +39,247 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "OtterRelayPL2"</h2>
+<h2><a href="../">Home</a> :: Relay "OtterRelayMIA2"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>OtterRelayPL2</dd>
+<dd>OtterRelayMIA2</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/5b0e04df4a46fe3da84a9eb0091dc87a.html">all relays with this contact</a>)</dt>
+(<a href="../contact/beb36b09ecc8a4ed13665b731cc8e2f3.html">all relays with this contact</a>)</dt>
 <dd>
-&lt;sunshinecowboy56 at protonmail dot com&gt;</a></dd>
+&lt;sunshinecowboy56 AT protonmail dot com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-194.61.121.11:8443
-[2a10:1fc0:e::b703:1a73]
+45.61.187.200:8443
+[2605:6400:40:fde8:11c7:119b:aaf9:2722]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>45.61.187.200</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  563
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6679
+  8000
+  8008
+  8074
+  8080
+  8087-8088
+  8332-8333
+  8443
+  8888
+  9418
+  10000
+  11371
+  12350
+  19294
+  19638
+  23456
+  33033
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464
+  531
+  543-544
+  554
+  563
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6679
+  8000
+  8008
+  8074
+  8080
+  8087-8088
+  8332-8333
+  8443
+  8888
+  9418
+  10000
+  11371
+  12350
+  19294
+  19638
+  23456
+  33033
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:43
+ accept *:53
+ accept *:79-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082
+ accept *:2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3389
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:6679
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8087-8088
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:10000
+ accept *:11371
+ accept *:12350
+ accept *:19294
+ accept *:19638
+ accept *:23456
+ accept *:33033
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/72c2b29e9d01b9d197cdabdb820e39fe2dafc0f68a6aabb5a5b970f3a7fd2143.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/2dd9351c1b407986f71f4f2a2b81ce8ba20c204391fb257214b845cd5fb6b502.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="019DCBA50AF7E2800A24F6FF8C54FA0147C26E15.html">019DCBA50AF7E2800A24F6FF8C54FA0147C26E15</a>
+<a href="0E3FC018E191A5BEF15BF0959C777580FCC6E7E6.html">0E3FC018E191A5BEF15BF0959C777580FCC6E7E6</a>
 <a href="16BDBB0724B8DAE232715891B41F970D6574D413.html">16BDBB0724B8DAE232715891B41F970D6574D413</a>
 <a href="296945DF92438A8F4EBB7D45A80795AF19D93391.html">296945DF92438A8F4EBB7D45A80795AF19D93391</a>
 <a href="2CEC453DFA5DC89E9133C9951ED4E5327BFA29C0.html">2CEC453DFA5DC89E9133C9951ED4E5327BFA29C0</a>
@@ -94,8 +291,6 @@
 <a href="42997F9CA19F47DABA648ECDA084995CA4587FF2.html">42997F9CA19F47DABA648ECDA084995CA4587FF2</a>
 <a href="50948E310AA94F2B2365779FA539FF6CD578A0A0.html">50948E310AA94F2B2365779FA539FF6CD578A0A0</a>
 <a href="5BE374169172A47623BCA945C8237F5751960FE9.html">5BE374169172A47623BCA945C8237F5751960FE9</a>
-<a href="65A17EC46C1D2CA97F0DA8DCAA67302C8CCEC746.html">65A17EC46C1D2CA97F0DA8DCAA67302C8CCEC746</a>
-<a href="6CCE2BB8F6E2E9370E55C26E572367C3AB878F64.html">6CCE2BB8F6E2E9370E55C26E572367C3AB878F64</a>
 <a href="7CC71730D3EB4AAE381AD02E4E95195B83FB96CF.html">7CC71730D3EB4AAE381AD02E4E95195B83FB96CF</a>
 <a href="8562FA385BA69A96CA2BB701C79E7F2F3A9FBCFB.html">8562FA385BA69A96CA2BB701C79E7F2F3A9FBCFB</a>
 <a href="8C2C92C36BF96EC3D09B78B574FF09497CA09C94.html">8C2C92C36BF96EC3D09B78B574FF09497CA09C94</a>
@@ -115,6 +310,8 @@
 <pre class="pre-scrollable"><a href="165C8E6662F0FC0B8057DDA01734F4AE9A2299B9.html">165C8E6662F0FC0B8057DDA01734F4AE9A2299B9</a>
 <a href="428CB593D776BDE6E59E8C27801D46CE68747BB8.html">428CB593D776BDE6E59E8C27801D46CE68747BB8</a>
 <a href="449DCF0409145D754A9D9999B0411E8E7B7BE4CE.html">449DCF0409145D754A9D9999B0411E8E7B7BE4CE</a>
+<a href="65A17EC46C1D2CA97F0DA8DCAA67302C8CCEC746.html">65A17EC46C1D2CA97F0DA8DCAA67302C8CCEC746</a>
+<a href="6CCE2BB8F6E2E9370E55C26E572367C3AB878F64.html">6CCE2BB8F6E2E9370E55C26E572367C3AB878F64</a>
 <a href="6E9D9A460FDDE0DD7678B049EA19129D262700FA.html">6E9D9A460FDDE0DD7678B049EA19129D262700FA</a>
 <a href="88C77AEB214871330A7FC2BC7C8BB198049C53B4.html">88C77AEB214871330A7FC2BC7C8BB198049C53B4</a>
 <a href="8925DF55BAD2C4347DDE20355A25FF11524C56A1.html">8925DF55BAD2C4347DDE20355A25FF11524C56A1</a>
@@ -128,19 +325,20 @@
 <dd><a href="../first_seen/2024-01-22">2024-01-22 20:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.9.0-alpha-dev
+<dd> Tor 0.4.8.10
 on
-<a href='../osfam/Linux.html'>Linux</a>
+<a href='../osfam/BSD.html'>BSD</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>62 Mbit/s</dd>
+<dd>32 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>5500</dd>
+<dd>1000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
@@ -153,18 +351,18 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">glucolipin.store</pre>
+<pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-BlueVPS OU - 
-<a href="../as_number/AS62005.html">AS62005</a>
-(<a href='https://bgp.he.net/AS62005'>BGP</a>)
+FranTech Solutions - 
+<a href="../as_number/AS53667.html">AS53667</a>
+(<a href='https://bgp.he.net/AS53667'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-04-28 19:34:18</dd>
+<dd>2024-05-19 03:26:27</dd>
 
 <dt>Country</dt>
 <dd>
-<a href="../country/pl.html"><img src="../static/images/cc/pl.png" title="Poland" alt="Poland"></a> Poland
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
 </dd>
 
 <dt>Fingerprint</dt>
