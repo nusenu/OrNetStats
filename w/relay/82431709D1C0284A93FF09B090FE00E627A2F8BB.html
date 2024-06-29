@@ -56,32 +56,46 @@ rgzxwythod (at) p (dot) monash [dot] edu</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 51.222.136.218:9001
+[2607:5300:205:200::3dde]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>51.222.136.218</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  587
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  587
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:587
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">82431709D1C0284A93FF09B090FE00E627A2F8BB
+<dt>Effective Family Members (<a href="../family/5f218d901aa1b2a5bb70564083ec1bc2519650c9434efcf220c4209ec860e6ee.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="4301E79746B5EF274F97D2ABEDFDBBD787A2E760.html">4301E79746B5EF274F97D2ABEDFDBBD787A2E760</a>
+<a href="82431709D1C0284A93FF09B090FE00E627A2F8BB.html">82431709D1C0284A93FF09B090FE00E627A2F8BB</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -97,19 +111,25 @@ rgzxwythod (at) p (dot) monash [dot] edu</a></dd>
 <dd><a href="../first_seen/2024-06-01">2024-06-01 02:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.11
+<dd> Tor 0.4.8.12
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>16 Mbit/s</dd>
+<dd>92 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>14000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -125,7 +145,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-06-01 02:03:13</dd>
+<dd>2024-06-23 10:55:35</dd>
 
 <dt>Country</dt>
 <dd>

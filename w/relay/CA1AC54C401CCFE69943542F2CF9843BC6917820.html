@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: NTH41R2</title>
+    <title>Tor Relays :: NTH101R4</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "NTH41R2"</h2>
+<h2><a href="../">Home</a> :: Relay "NTH101R4"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>NTH41R2</dd>
+<dd>NTH101R4</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd><a href="https://nusenu.github.io/OrNetStats/nothingtohide.nl.html">
@@ -69,106 +69,28 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-192.42.116.204:9001
-[2001:67c:6ec:203:192:42:116:204]
+94.142.241.43:443
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>192.42.116.204</dd>
+<dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80
-  110
-  143
-  194
-  220
-  443
-  873
-  991
-  993-995
-  1194
-  1293
-  3690
-  4321
-  5222-5223
-  5228
-  6660-6669
-  6679
-  6697
-  9418
-  11371
-  64738
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80
-  110
-  143
-  194
-  220
-  443
-  873
-  991
-  993-995
-  1194
-  1293
-  3690
-  4321
-  5222-5223
-  5228
-  6660-6669
-  6679
-  6697
-  9418
-  11371
-  64738
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:43
- accept *:53
- accept *:80
- accept *:110
- accept *:143
- accept *:194
- accept *:220
- accept *:443
- accept *:873
- accept *:991
- accept *:993
- accept *:994
- accept *:995
- accept *:1194
- accept *:1293
- accept *:3690
- accept *:4321
- accept *:5222-5223
- accept *:5228
- accept *:6660-6669
- accept *:6679
- accept *:6697
- accept *:9418
- accept *:11371
- accept *:64738
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
@@ -482,37 +404,39 @@ email:mail[]nothingtohide.nl url:nothingtohide.nl proof:uri-rsa...</a></dd>
 <dd><a href="../first_seen/2023-03-23">2023-03-23 00:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.11
+<dd> Tor 0.4.8.12
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/BSD.html'>BSD</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>83 Mbit/s</dd>
+<dd>101 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>8700</dd>
+<dd>16000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">41.tor-exit.nothingtohide.nl</pre>
+<pre class="verified-hostname" title="verified hostname">101.tor-relay.nothingtohide.nl</pre>
 <dt>Autonomous System</dt>
 <dd>
-SURF B.V. - 
-<a href="../as_number/AS1101.html">AS1101</a>
-(<a href='https://bgp.he.net/AS1101'>BGP</a>)
+Netwerkvereniging Coloclue - 
+<a href="../as_number/AS8283.html">AS8283</a>
+(<a href='https://bgp.he.net/AS8283'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-05-07 08:51:55</dd>
+<dd>2024-06-28 22:13:28</dd>
 
 <dt>Country</dt>
 <dd>

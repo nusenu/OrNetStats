@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/8e6d6235e87369c7bfe1c7bc238fd7e7.html">all relays with this contact</a>)</dt>
+(<a href="../contact/3d3e78e7754218443006d65d703ac942.html">all relays with this contact</a>)</dt>
 <dd>
-George Orwell</a></dd>
+0xFFFFFFFF George Orwell &lt;1984 AT is happening right now dot com&gt;</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -65,7 +65,7 @@ George Orwell</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
+<pre class="pre-scrollable">accept: 
   1-65535
 </pre>
 </dd>
@@ -76,7 +76,13 @@ George Orwell</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -106,10 +112,11 @@ on
 <dd>21 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1000</dd>
+<dd>1500</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
@@ -124,11 +131,11 @@ on
 <pre>none</pre>
 <dt>Autonomous System</dt>
 <dd>
-ORANGE ROMANIA COMMUNICATION S.A - 
-<a href="../as_number/AS9050.html">AS9050</a>
-(<a href='https://bgp.he.net/AS9050'>BGP</a>)
+INTERKVM HOST SRL - 
+<a href="../as_number/AS25198.html">AS25198</a>
+(<a href='https://bgp.he.net/AS25198'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-05-30 01:16:48</dd>
+<dd>2024-06-17 08:10:03</dd>
 
 <dt>Country</dt>
 <dd>
