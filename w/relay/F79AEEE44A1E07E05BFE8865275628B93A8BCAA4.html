@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: signal69</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "signal69"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>signal69</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/cc00ad580bb11e3507e92f4458835fa1.html">all relays with this contact</a>)</dt>
+<dd>
+signal69+tor mail.net</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+179.43.179.58:14002
+[2a02:29b8:dc01:1801:42:b3ff:fe2b:b33a]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>179.43.179.58</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  5222
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:5222
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/7648b2c06bb65690c94786b2ffab3030b34ede497db333b2885f551baa6f8517.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="12C4A80ABAD9715F6B414BDC4EECFC0B542B8A5A.html">12C4A80ABAD9715F6B414BDC4EECFC0B542B8A5A</a>
+<a href="1ECE617ED4F1FF40DE852CC0F163E92E7597520E.html">1ECE617ED4F1FF40DE852CC0F163E92E7597520E</a>
+<a href="1FAC54539B1534A7AC0663A6BCAF4B0B35471929.html">1FAC54539B1534A7AC0663A6BCAF4B0B35471929</a>
+<a href="34DCF06878A0C7C052721E2B7653D5A86F2766E4.html">34DCF06878A0C7C052721E2B7653D5A86F2766E4</a>
+<a href="37F2D71B2AA6264761F9AAB42C218DD6F64493E3.html">37F2D71B2AA6264761F9AAB42C218DD6F64493E3</a>
+<a href="45195617C111AF370921565DA059093969CB8E9E.html">45195617C111AF370921565DA059093969CB8E9E</a>
+<a href="4A89CF4F144C383810736A32D1E37DE75134A0E5.html">4A89CF4F144C383810736A32D1E37DE75134A0E5</a>
+<a href="98FBF76928ABEDC24F34CDEAC9DD35EA9E6F7678.html">98FBF76928ABEDC24F34CDEAC9DD35EA9E6F7678</a>
+<a href="BFE46FF98F4D8EB5C3B34D18E2D18B8629FD548B.html">BFE46FF98F4D8EB5C3B34D18E2D18B8629FD548B</a>
+<a href="CBE70E0DF1A6A32CC2AA654AC10869964ABB0668.html">CBE70E0DF1A6A32CC2AA654AC10869964ABB0668</a>
+<a href="F79AEEE44A1E07E05BFE8865275628B93A8BCAA4.html">F79AEEE44A1E07E05BFE8865275628B93A8BCAA4</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2024-07-22">2024-07-22 15:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.8.12
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>23 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>2200</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="unverified-hostname" title="unverified hostname">hostedby.privatelayer.com</pre>
+<dt>Autonomous System</dt>
+<dd>
+Private Layer INC - 
+<a href="../as_number/AS51852.html">AS51852</a>
+(<a href='https://bgp.he.net/AS51852'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2024-08-02 09:17:05</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/ch.html"><img src="../static/images/cc/ch.png" title="Switzerland" alt="Switzerland"></a> Switzerland
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>F79AEEE44A1E07E05BFE8865275628B93A8BCAA4</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2024-07-12</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../">Home</a> :: 2024-07-12</h2>
+<p>Relays started on 2024-07-12 are responsible for ~1877 Mbit/s of traffic, with 16
+middle relays and 1 exit relay.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Authenticated Relay Operator ID <img title="This icon indicates the operator properly implemented the Authenticated Relay Operator ID (AROI) on a given relay." src="../static/images/flags/valid.png"><br> or ContactInfo (unverified)</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Name</th>
+<th>Country</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/9DB4FE91C01DA51078880A7007BDF5F469C26989.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>198 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/A60CE5972C71AE32F72965A59632199B9FBE27F6.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>161 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/A2E9FAEFABD0C01E06A05FB49BA925C036C30B9D.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>150 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/49367166A01D6F33DF01EFC56467336DCDD47547.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>149 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/2AC7E8A820CD25A1A1EE864987C89FE277FC7886.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>140 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/41F4593A8C82C9F9984B161E076F8E0476046A64.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>132 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Astroglide"><a href="../relay/11FF79F86C2E3152207F06E2271145158A62FFEE.html">Astroglide</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>124 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="BoyButter"><a href="../relay/D021AF81810D5BDACDEB89772960F6082B9E4A5F.html">BoyButter</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>114 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/5D816BF6E9554AC742F476689ED70F44D4D4352D.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>105 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="prsv"><a href="../relay/5A05C484EA2217011D33904E53384B9725D36FE4.html">prsv</a> (<a href="../family/ee37aa5f0cf3c2cd57664d294403dce40a57e556967733a32c3307b7c9b4e4e0.html">216</a>)</td>
+<td><code><a href="../contact/65a4a24bfc53c4c6c0d312ce29ab7883.html"
+title="email:admin[]prsv.ch url:https://prsv.ch/ proof:uri-rsa ciissversion:2">
+email:admin[]prsv.ch...</a></code></td>
+<td>99 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/213.225.236.13">213.225.236.13</a></td>
+
+<td><a href="../as_number/AS215400.html" title="Kaan Kalayci trading as FastLayer">Kaan Kalayci...</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="GunOil"><a href="../relay/413E3AE5AB2371689AE5F4E1A32029037ACDFD22.html">GunOil</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>87 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="KY"><a href="../relay/E0388C2B7B7BC419FBE6AD5E1DEFCF1965D1DD5B.html">KY</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>87 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="MarieBernard"><a href="../relay/4F5D13F8951A1E18BAE1186F9E7849E3DB5B91AD.html">MarieBernard</a></td>
+<td><code><a href="../contact/dae95e54b345f1cc4a1362bfcae626f3.html"
+title="email:denny.obreham[]a-n-o-n-y-m-e.net url:https://a-n-o-n-y-m-e.net proof:uri-rsa donationurl:https://a-n-o-n-y-m-e.net ciissversion:2">
+<img src="../static/images/flags/valid.png"> 
+a-n-o-n-y-m-e.net</a>
+<td>85 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/109.248.147.137">109.248.147.137</a></td>
+
+<td><a href="../as_number/AS52048.html" title="DataClub S.A.">DataClub S.A.</a></td>
+<td><a href="../country/lv.html"><img
+src="../static/images/cc/lv.png" title="Latvia" alt="Latvia"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="LiquidSilk"><a href="../relay/12122843E705F961A87907C5CCFBE8F352B5E5D0.html">LiquidSilk</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>74 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="FuckWater"><a href="../relay/9A3776C96E94D7EEBE2A3FA4CA4EA4E6DC0DC4AF.html">FuckWater</a> (<a href="../family/7342317f7d56b2bfbf442396f4fe069f5879e4adb1a5b47b8661ca2ef5fed96c.html">8</a>)</td>
+<td><code><a href="../contact/2fcfcb32f389884978d67eb534084ec8.html"
+title="mk17hg@brocku.ca">
+mk17hg@brocku.ca</a></code></td>
+<td>71 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/68.71.25.194">68.71.25.194</a></td>
+
+<td><a href="../as_number/AS53486.html" title="Niagara Regional Broadband Networks Limited">Niagara Regional...</a></td>
+<td><a href="../country/ca.html"><img
+src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <img src="../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> <img src="../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="contabochima"><a href="../relay/EA9C6780C311D867E64F209905A593B83E23A15C.html">contabochima</a> (<a href="../family/169987549388bd011fd30ac5842ed73a7163fddece622827c61d0fb39450c910.html">2</a>)</td>
+<td><code><a href="../contact/00c496fdef8f9dc7a1b91d90c3a41436.html"
+title="chimagamer01@gmail.com">
+chimagamer01@gmail.com</a></code></td>
+<td>61 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/158.220.110.89">158.220.110.89</a></td>
+
+<td><a href="../as_number/AS51167.html" title="Contabo GmbH">Contabo GmbH</a></td>
+<td><a href="../country/de.html"><img
+src="../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="SkynetGrissom"><a href="../relay/7DDB14DE180F506A37DE1146BA9C936968F9E584.html">SkynetGrissom</a> (<a href="../family/d22065c814d9a9c7c7acd63d07d7523ddc877a0a662588fc44c0109bfbc9af90.html">3</a>)</td>
+<td><code><a href="../contact/493e8bfc656abfb3ef3917099a69b86a.html"
+title="ssc(dot)dummy(at)mailbox(dot)org">
+ssc(dot)dummy(at)mailbox(dot)org</a></code></td>
+<td>41 Mbit/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/154.12.252.7">154.12.252.7</a></td>
+
+<td><a href="../as_number/AS40021.html" title="Nubes, LLC">Nubes, LLC</a></td>
+<td><a href="../country/us.html"><img
+src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td class="visible-md visible-lg">
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+<img src="../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <img src="../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <img src="../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2024-07-12</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
