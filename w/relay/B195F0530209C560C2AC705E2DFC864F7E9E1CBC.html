@@ -66,28 +66,18 @@ Daniel Winzen &lt;daniel@danwin1210.de&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
+<pre class="pre-scrollable">reject: 
+  1-65535
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-</pre>
+<pre>none</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
- reject 169.254.0.0/16:*
- reject 127.0.0.0/8:*
- reject 192.168.0.0/16:*
- reject 10.0.0.0/8:*
- reject 172.16.0.0/12:*
- accept *:53
- accept 116.202.17.147:443
- reject *:*
+<dd><pre class="pre-scrollable">reject *:*
 </pre></dd>
 </dd>
 
@@ -114,10 +104,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>297 Mbit/s</dd>
+<dd>124 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>50000</dd>
+<dd>26000</dd>
 
 <dt>Flags</dt>
 <dd>
