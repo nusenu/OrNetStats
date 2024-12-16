@@ -48,14 +48,57 @@
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
+<dt>email</dt>
+<dd>hmenscerepig[]pm.me</dd>
+<dt>pgp</dt>
+<dd>0c063fab0d477c7978bbbb8eb94dce06e0e33dcc</dd>
+<dt>hoster</dt>
+<dd>https://gigahost.no</dd>
+<dt>cost</dt>
+<dd>29USD</dd>
+<dt>uplinkbw</dt>
+<dd>1000</dd>
+<dt>memory</dt>
+<dd>7827</dd>
+<dt>cpu</dt>
+<dd>i5-3550</dd>
+<dt>virtualization</dt>
+<dd>baremetal</dd>
+<dt>offlinemasterkey</dt>
+<dd>n</dd>
+<dt>sandbox</dt>
+<dd>y</dd>
+<dt>os</dt>
+<dd>debian/12</dd>
+<dt>tls</dt>
+<dd>openssl</dd>
+<dt>aesni</dt>
+<dd>y</dd>
+<dt>autoupdate</dt>
+<dd>y</dd>
+<dt>confmgmt</dt>
+<dd>manual</dd>
+<dt>dnslocation</dt>
+<dd>local</dd>
+<dt>dnsqname</dt>
+<dd>y</dd>
+<dt>dnssec</dt>
+<dd>y</dd>
+<dt>dnslocalrootzone</dt>
+<dd>y</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>trafficacct</dt>
+<dd>unmetered</dd>
 <dt>Contact
-(<a href="../contact/b59ead1834cb064a9db8754f44bd5a9c.html">all relays with this contact</a>)</dt>
+(<a href="../contact/8de8eb46485cbfbb96398fc045aa1bff.html">all relays with this contact</a>)</dt>
 <dd>
-hmenscerepig@pm.me</a></dd>
+email:hmenscerepig[]pm.me...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 185.40.4.84:9001
+[2a0e:4005:1002:ffff:185:40:4:84]
 </pre></dd>
 
 
@@ -69,23 +112,28 @@ hmenscerepig@pm.me</a></dd>
   21
   43
   53
-  80
+  79-80
   88
   110
   123
   143
   389
   443
+  464
   543-544
+  554
+  636
   749
   873
   989-990
   992-993
   995
   1194
+  1755
   3690
   4321
   5222-5223
+  8080
   9418
   64738
 </pre>
@@ -97,23 +145,28 @@ hmenscerepig@pm.me</a></dd>
   21
   43
   53
-  80
+  79-80
   88
   110
   123
   143
   389
   443
+  464
   543-544
+  554
+  636
   749
   873
   989-990
   992-993
   995
   1194
+  1755
   3690
   4321
   5222-5223
+  8080
   9418
   64738
 </pre>
@@ -126,29 +179,35 @@ hmenscerepig@pm.me</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:53
- accept *:88
- accept *:123
- accept *:80
- accept *:443
- accept *:21
- accept *:43
  accept *:110
+ accept *:1194
+ accept *:123
  accept *:143
+ accept *:1755
+ accept *:21
+ accept *:3690
+ accept *:389
+ accept *:43
+ accept *:4321
+ accept *:443
+ accept *:464
+ accept *:5222-5223
+ accept *:53
+ accept *:543-544
+ accept *:554
+ accept *:636
+ accept *:64738
+ accept *:749
+ accept *:79
+ accept *:80
+ accept *:8080
  accept *:873
+ accept *:88
+ accept *:9418
  accept *:989-990
  accept *:992
  accept *:993
  accept *:995
- accept *:1194
- accept *:4321
- accept *:5222-5223
- accept *:9418
- accept *:64738
- accept *:389
- accept *:543-544
- accept *:749
- accept *:3690
  reject *:*
 </pre></dd>
 </dd>
@@ -177,16 +236,17 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>293 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>0</dd>
+<dd>52000</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/badexit.png" title="BadExit" alt="BadExit"></a> BadExit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -200,11 +260,11 @@ Berdiev Ruslan Mukhabatovich -
 <a href="../as_number/AS214576.html">AS214576</a>
 (<a href='https://bgp.he.net/AS214576'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-11-29 18:39:23</dd>
+<dd>2024-12-03 16:05:48</dd>
 
 <dt>Country</dt>
 <dd>
-unknown
+<a href="../country/ru.html"><img src="../static/images/cc/ru.png" title="Russian Federation" alt="Russian Federation"></a> Russian Federation
 </dd>
 
 <dt>Fingerprint</dt>

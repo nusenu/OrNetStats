@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: angel</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "angel"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>angel</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/null-f.org.html">
+null-f.org</a>
+<a href="https://null-f.org/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>info[]null-f.org</dd>
+<dt>url</dt>
+<dd>https://null-f.org</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>abuse</dt>
+<dd>abuse[]null-f.org</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/31effebbfd96cac71d9a0fdb6440d528.html">all relays with this contact</a>)</dt>
+<dd>
+email:info[]null-f.org url:https://null-f.org proof:uri-rsa...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+108.181.21.99:443
+[2604:6600::4ce]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>none</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">reject: 
+  1-65535
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre>none</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/6eb04323902927207cba9cada8f836bc59250ff568d40d5c2651ad1f174a36ec.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="04743BDBF750E75477ACDE3861BD8FBF53D1C9EE.html">04743BDBF750E75477ACDE3861BD8FBF53D1C9EE</a>
+<a href="1EC4FAEC2478CCC13F71AA6C43285A467E23137D.html">1EC4FAEC2478CCC13F71AA6C43285A467E23137D</a>
+<a href="2B0FCB3B12FBA42B173ED4342CF3E05B3CFCB1BF.html">2B0FCB3B12FBA42B173ED4342CF3E05B3CFCB1BF</a>
+<a href="490A07424D84A8A0D0895CBBAB1B418B66D0CCF7.html">490A07424D84A8A0D0895CBBAB1B418B66D0CCF7</a>
+<a href="585F91724DD4950CC1BCB59FF90DEA8ECA8D5A1D.html">585F91724DD4950CC1BCB59FF90DEA8ECA8D5A1D</a>
+<a href="5B01F84561DB81C0D985899B2BB5A9E7E92541D6.html">5B01F84561DB81C0D985899B2BB5A9E7E92541D6</a>
+<a href="6575A489E8A41EEEAA44B9B16EC3D0F5D3414B20.html">6575A489E8A41EEEAA44B9B16EC3D0F5D3414B20</a>
+<a href="6F60C79EA9A2542B0CD3F8E78DDC04A073F7C7A1.html">6F60C79EA9A2542B0CD3F8E78DDC04A073F7C7A1</a>
+<a href="753243BE8ADFC2C0481DFF8C965865FFD83D8D96.html">753243BE8ADFC2C0481DFF8C965865FFD83D8D96</a>
+<a href="863C7AC7342C05D511A3609091D15CF0311E4C75.html">863C7AC7342C05D511A3609091D15CF0311E4C75</a>
+<a href="87186CE6DD0EB4A70A574FE59F509A6EF0D1553A.html">87186CE6DD0EB4A70A574FE59F509A6EF0D1553A</a>
+<a href="8B971DF7925287FC90AD437F0CA702756EDA5CE2.html">8B971DF7925287FC90AD437F0CA702756EDA5CE2</a>
+<a href="950A888EE8E0C08B2666ED6EB42AB17E27186070.html">950A888EE8E0C08B2666ED6EB42AB17E27186070</a>
+<a href="A4463BE16E61D055904F7F62068B6D4E2DF90749.html">A4463BE16E61D055904F7F62068B6D4E2DF90749</a>
+<a href="B4CA653657FBE0B4A951F51FC42D9DB10AD51485.html">B4CA653657FBE0B4A951F51FC42D9DB10AD51485</a>
+<a href="B9206059AE65B28BACDD44646F0D5DE6F933EB86.html">B9206059AE65B28BACDD44646F0D5DE6F933EB86</a>
+<a href="C3296D88B0121350BB3A3A610FCE639968A719F2.html">C3296D88B0121350BB3A3A610FCE639968A719F2</a>
+<a href="C78A62E01398A147C1978D78F2E265EA8CB3D945.html">C78A62E01398A147C1978D78F2E265EA8CB3D945</a>
+<a href="DA1D5B446D2C158AC26B5793BDF7C409C978272C.html">DA1D5B446D2C158AC26B5793BDF7C409C978272C</a>
+<a href="DD0DC55CD2BEDB21A9070B53D2CBD59C29D7B77C.html">DD0DC55CD2BEDB21A9070B53D2CBD59C29D7B77C</a>
+<a href="FBB0C9E5C07025371620F8C4795D3AD4FE966664.html">FBB0C9E5C07025371620F8C4795D3AD4FE966664</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2024-12-12">2024-12-12 20:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.8.13
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>21 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>950</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">angel.null-f.org</pre>
+<dt>Autonomous System</dt>
+<dd>
+Psychz Networks - 
+<a href="../as_number/AS40676.html">AS40676</a>
+(<a href='https://bgp.he.net/AS40676'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2024-12-12 19:46:29</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/ca.html"><img src="../static/images/cc/ca.png" title="Canada" alt="Canada"></a> Canada
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>490A07424D84A8A0D0895CBBAB1B418B66D0CCF7</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
