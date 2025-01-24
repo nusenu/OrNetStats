@@ -81,25 +81,77 @@ email:abuse[]tuxli.org...</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>185.40.4.95</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  5222-5223
+  6667-7000
+  8008
+  8082
+  8332-8333
+  8888
+  9418
+  18080-18081
+  50002
+  64738
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 45.133.246.46:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:5222-5223
+ accept *:6667-7000
+ accept *:8008
+ accept *:8082
+ accept *:8332-8333
+ accept *:8888
+ accept *:9418
+ accept *:50002
+ accept *:64738
+ accept *:18080-18081
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/b9eea148a53aeceea2be43bda763c29be35f6165ee3c28db1fa77b70a3bbac9a.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/688bf759a396dc0c171b2fcdcf8302cbd4dd913f4a1e29f7d0ac763471968014.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="00CC3A3D92C33E171BBDAEACC4601173BFA24150.html">00CC3A3D92C33E171BBDAEACC4601173BFA24150</a>
 <a href="0145977CF1D2D4AAF98907BF81DAAD8480EFC3FD.html">0145977CF1D2D4AAF98907BF81DAAD8480EFC3FD</a>
 <a href="02EC629306C61EE1D3BDD4DD978514B99E226EA0.html">02EC629306C61EE1D3BDD4DD978514B99E226EA0</a>
@@ -147,6 +199,7 @@ email:abuse[]tuxli.org...</a></dd>
 <a href="7362770CBA5B54C3123CFB243D8217531E2FA036.html">7362770CBA5B54C3123CFB243D8217531E2FA036</a>
 <a href="753F80B173879F749A44AC39C1A45DB174D8BDF6.html">753F80B173879F749A44AC39C1A45DB174D8BDF6</a>
 <a href="766ECE129FFAA701E572A07CD775563205CF5374.html">766ECE129FFAA701E572A07CD775563205CF5374</a>
+<a href="776DCD935AEEAD6FA9EDF8AF9FFE89288F6609BD.html">776DCD935AEEAD6FA9EDF8AF9FFE89288F6609BD</a>
 <a href="791B7C05E2C6D4D9AF61100562595568F5B69A7A.html">791B7C05E2C6D4D9AF61100562595568F5B69A7A</a>
 <a href="7A59487693C59EEF4CF4D49BF0C820064EE91730.html">7A59487693C59EEF4CF4D49BF0C820064EE91730</a>
 <a href="7A6C085A12D90C56C17A9D1A77D9D1D9B9E592D4.html">7A6C085A12D90C56C17A9D1A77D9D1D9B9E592D4</a>
@@ -220,19 +273,19 @@ email:abuse[]tuxli.org...</a></dd>
 
 <dt>Platform</dt>
 <dd> Tor 0.4.8.13
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>458 Mbit/s</dd>
+<dd>368 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>83000</dd>
+<dd>38000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
@@ -252,7 +305,7 @@ Berdiev Ruslan Mukhabatovich -
 <a href="../as_number/AS214576.html">AS214576</a>
 (<a href='https://bgp.he.net/AS214576'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-11-22 15:58:36</dd>
+<dd>2025-01-18 21:08:40</dd>
 
 <dt>Country</dt>
 <dd>
