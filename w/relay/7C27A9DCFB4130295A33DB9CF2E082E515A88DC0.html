@@ -64,15 +64,41 @@
 <dd>209.135.168.90</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  17
+  19
+  25
+  137-139
+  445
+  465
+  587
+  1688
+  1900
+  2525
+  6660-6667
+  6697
+  11211
+  53413
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  1-65535
+<pre class="pre-scrollable">reject: 
+  17
+  19
+  25
+  137-139
+  445
+  465
+  587
+  1688
+  1900
+  2525
+  6660-6667
+  6697
+  11211
+  53413
 </pre>
 </dd>
 
@@ -83,6 +109,22 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ reject *:11211
+ reject *:137
+ reject *:138
+ reject *:139
+ reject *:1688
+ reject *:17
+ reject *:19
+ reject *:1900
+ reject *:25
+ reject *:2525
+ reject *:445
+ reject *:465
+ reject *:53413
+ reject *:587
+ reject *:6660-6667
+ reject *:6697
  accept *:*
 </pre></dd>
 </dd>
@@ -110,14 +152,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>80 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>5800</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -133,7 +177,7 @@ Snaju Development -
 <a href="../as_number/AS399646.html">AS399646</a>
 (<a href='https://bgp.he.net/AS399646'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-01-24 05:19:32</dd>
+<dd>2025-02-26 16:29:18</dd>
 
 <dt>Country</dt>
 <dd>

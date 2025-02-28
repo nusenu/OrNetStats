@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: SkhronSeSto01</title>
+    <title>Tor Relays :: Skhron</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,12 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "SkhronSeSto01"</h2>
+<h2><a href="../">Home</a> :: Relay "Skhron"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>SkhronSeSto01</dd>
+<dd>Skhron</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
@@ -70,6 +70,8 @@ abuse+sto01@skhron.com.ua</a></dd>
   53
   80
   443
+  5222-5223
+  6665-6669
   8333
   9418
   9735
@@ -80,15 +82,10 @@ abuse+sto01@skhron.com.ua</a></dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  53
-  80
-  443
-  8333
-  9418
-  9735
-  18080-18081
-  50002
+<pre class="pre-scrollable">reject: 
+  25
+  465
+  587
 </pre>
 </dd>
 
@@ -102,6 +99,8 @@ abuse+sto01@skhron.com.ua</a></dd>
  accept *:53
  accept *:80
  accept *:443
+ accept *:5222-5223
+ accept *:6665-6669
  accept *:9418
  accept *:8333
  accept *:9735
@@ -134,17 +133,19 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>100 Mbit/s</dd>
+<dd>23 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>18000</dd>
+<dd>1400</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -158,7 +159,7 @@ Skhron OU -
 <a href="../as_number/AS215467.html">AS215467</a>
 (<a href='https://bgp.he.net/AS215467'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-01-20 12:00:02</dd>
+<dd>2025-02-01 16:49:56</dd>
 
 <dt>Country</dt>
 <dd>

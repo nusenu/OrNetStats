@@ -66,29 +66,109 @@ noc@as210630.net</a></dd>
 <dd>23.137.254.137</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22
-  25
-  110
-  143
-  465
-  587
-  993
-  995
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  1080
+  2082-2083
+  2222
+  2323
+  3000
+  3128
+  3478-3497
+  4083-4085
+  4200
+  4244
+  4444
+  5000
+  5222-5223
+  5228-5230
+  5280-5281
+  5353
+  5938
+  6400-6401
+  6660-7000
+  7890
+  8000
+  8008
+  8080
+  8082-8083
+  8090
+  8232-8233
+  8332-8333
+  8443-8444
+  8448
+  8888
+  9000-9001
+  9050-9051
+  9100-9102
+  9332-9333
+  9998-10000
+  12320
+  18080-18081
+  22555-22556
+  27146
+  28380-28381
+  30303
+  50001-50002
+  51235
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22
-  25
-  110
-  143
-  465
-  587
-  993
-  995
+<pre class="pre-scrollable">accept: 
+  20-21
+  43
+  53
+  80-81
+  443
+  1080
+  2082-2083
+  2222
+  2323
+  3000
+  3128
+  3478-3497
+  4083-4085
+  4200
+  4244
+  4444
+  5000
+  5222-5223
+  5228-5230
+  5280-5281
+  5353
+  5938
+  6400-6401
+  6660-7000
+  7890
+  8000
+  8008
+  8080
+  8082-8083
+  8090
+  8232-8233
+  8332-8333
+  8443-8444
+  8448
+  8888
+  9000-9001
+  9050-9051
+  9100-9102
+  9332-9333
+  9998-10000
+  12320
+  18080-18081
+  22555-22556
+  27146
+  28380-28381
+  30303
+  50001-50002
+  51235
 </pre>
 </dd>
 
@@ -99,15 +179,59 @@ noc@as210630.net</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:22
- reject *:25
- reject *:587
- reject *:465
- reject *:143
- reject *:993
- reject *:110
- reject *:995
- accept *:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80-81
+ accept *:443
+ accept *:5222-5223
+ accept *:6660-7000
+ accept *:8008
+ accept *:2222
+ accept *:10000
+ accept *:8443
+ accept *:2082-2083
+ accept *:4083-4085
+ accept *:12320
+ accept *:9000
+ accept *:8888
+ accept *:8090
+ accept *:8083
+ accept *:8448
+ accept *:8082
+ accept *:8332-8333
+ accept *:50001-50002
+ accept *:18080-18081
+ accept *:9332-9333
+ accept *:9998-9999
+ accept *:22555-22556
+ accept *:8232-8233
+ accept *:30303
+ accept *:51235
+ accept *:3000
+ accept *:27146
+ accept *:8000
+ accept *:4200
+ accept *:9100-9102
+ accept *:4444
+ accept *:28380-28381
+ accept *:2323
+ accept *:3478-3497
+ accept *:5228-5230
+ accept *:4244
+ accept *:5280-5281
+ accept *:1080
+ accept *:7890
+ accept *:6400-6401
+ accept *:5938
+ accept *:8080
+ accept *:8444
+ accept *:3128
+ accept *:9050-9051
+ accept *:5353
+ accept *:5000
+ accept *:9001
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -137,16 +261,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>99 Mbit/s</dd>
+<dd>74 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>9400</dd>
+<dd>6600</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -163,7 +286,7 @@ IncogNET LLC -
 <a href="../as_number/AS210630.html">AS210630</a>
 (<a href='https://bgp.he.net/AS210630'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-01-23 23:53:32</dd>
+<dd>2025-02-28 09:08:29</dd>
 
 <dt>Country</dt>
 <dd>

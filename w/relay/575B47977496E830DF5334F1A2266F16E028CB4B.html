@@ -65,8 +65,16 @@ WilliDieEnte &lt;tor AT ente dot dev&gt;</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  43
+  53
+  110
+  119
+  220
+  853
+  4321
+  8232-8233
+  30033
 </pre>
 </dd>
 
@@ -76,13 +84,28 @@ WilliDieEnte &lt;tor AT ente dot dev&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:119
+ accept *:110
+ accept *:220
+ accept *:30033
+ accept *:43
+ accept *:4321
+ accept *:53
+ accept *:8232-8233
+ accept *:853
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/2c8ba4b12fb73b0f16c6b735ffabcd35d4f9486347809bdac16842372d35a3a9.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="45452D2AC9F450AB17F52CA6A60CF591EC820C00.html">45452D2AC9F450AB17F52CA6A60CF591EC820C00</a>
-<a href="575B47977496E830DF5334F1A2266F16E028CB4B.html">575B47977496E830DF5334F1A2266F16E028CB4B</a>
+<dt>Effective Family Members (<a href="../family/4c68f1dffb523c20bcbadd64bea0074f4071551ed2cae4ef2940a889f66cfe4d.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="575B47977496E830DF5334F1A2266F16E028CB4B.html">575B47977496E830DF5334F1A2266F16E028CB4B</a>
+<a href="6BFD5E3D2699AC3758BD7827E78F43B42F3FF12B.html">6BFD5E3D2699AC3758BD7827E78F43B42F3FF12B</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -104,10 +127,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>289 Mbit/s</dd>
+<dd>290 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>60000</dd>
+<dd>58000</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -130,7 +153,7 @@ OVH SAS -
 <a href="../as_number/AS16276.html">AS16276</a>
 (<a href='https://bgp.he.net/AS16276'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-12-26 07:51:28</dd>
+<dd>2025-02-24 04:43:25</dd>
 
 <dt>Country</dt>
 <dd>

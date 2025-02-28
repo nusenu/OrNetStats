@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: Citadel</title>
+    <title>Tor Relays :: ice</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,19 +39,19 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "Citadel"</h2>
+<h2><a href="../">Home</a> :: Relay "ice"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>Citadel</dd>
+<dd>ice</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/de5e515b20072d4c783719864ee6d65c.html">all relays with this contact</a>)</dt>
+(<a href="../contact/ec6aea0b8eac823d6cfc1880f3857b10.html">all relays with this contact</a>)</dt>
 <dd>
-citadel@airmail.cc</a></dd>
+contact@cypher.re</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,22 @@ citadel@airmail.cc</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>93.95.227.37</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  465
+  563
+  587
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,12 +87,32 @@ citadel@airmail.cc</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:465
+ reject *:587
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">2ED2665726DE9391254D038742A995C45B64E930
+<dt>Effective Family Members (<a href="../family/5541c0e60cea65c4caa2f117f2beedea9028f9d574d3d40eb3e20aaed513362c.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="010D853EA9DC7BEAA3BF9B1910D0AF6439C43CAC.html">010D853EA9DC7BEAA3BF9B1910D0AF6439C43CAC</a>
+<a href="2ED2665726DE9391254D038742A995C45B64E930.html">2ED2665726DE9391254D038742A995C45B64E930</a>
+<a href="F5363557308690DE3F1FB22444FB80DC7703CEBD.html">F5363557308690DE3F1FB22444FB80DC7703CEBD</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -104,16 +135,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>59 Mbit/s</dd>
+<dd>99 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>6200</dd>
+<dd>11000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -123,14 +153,14 @@ on
 
 <dt>Host Name</dt>
 <dd>
-<pre class="verified-hostname" title="verified hostname">vps-93-95-227-37.1984.is</pre>
+<pre class="verified-hostname" title="verified hostname">tor-exit.onion.fail</pre>
 <dt>Autonomous System</dt>
 <dd>
 1984 ehf - 
 <a href="../as_number/AS44925.html">AS44925</a>
 (<a href='https://bgp.he.net/AS44925'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2024-11-09 13:11:29</dd>
+<dd>2025-02-26 06:37:09</dd>
 
 <dt>Country</dt>
 <dd>
