@@ -65,17 +65,10 @@ janetmuro@proton.me</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  25
-  119
-  135-139
-  445
-  563
-  1214
-  4661-4666
-  6346-6429
-  6699
-  6881-6999
+<pre class="pre-scrollable">accept: 
+  22
+  80
+  443
 </pre>
 </dd>
 
@@ -91,17 +84,10 @@ janetmuro@proton.me</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:119
- reject *:135-139
- reject *:445
- reject *:563
- reject *:1214
- reject *:4661-4666
- reject *:6346-6429
- reject *:6699
- reject *:6881-6999
- accept *:*
+ accept *:80
+ accept *:443
+ accept *:22
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -122,23 +108,22 @@ janetmuro@proton.me</a></dd>
 <dd><a href="../first_seen/2025-02-11">2025-02-11 10:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.10
+<dd> Tor 0.4.8.14
 <img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>93 Mbit/s</dd>
+<dd>50 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>10000</dd>
+<dd>6500</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -156,7 +141,7 @@ Dolphin 1337 Limited -
 <a href="../as_number/AS215208.html">AS215208</a>
 (<a href='https://bgp.he.net/AS215208'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-02-11 09:24:41</dd>
+<dd>2025-03-10 10:03:52</dd>
 
 <dt>Country</dt>
 <dd>

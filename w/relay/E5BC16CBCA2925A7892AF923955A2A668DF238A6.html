@@ -56,27 +56,64 @@
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 203.51.38.33:9001
+[2001:8003:3c15:1500:ab25:c6e8:f4f4:2a47]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>203.51.38.33</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre>none</pre>
+<pre class="pre-scrollable">reject: 
+  25
+  119
+  135-139
+  445
+  563
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
+</pre>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -97,20 +134,21 @@
 <dd><a href="../first_seen/2024-02-19">2024-02-19 07:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.13
+<dd> Tor 0.4.8.14
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>6 Mbit/s</dd>
+<dd>4 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>110</dd>
+<dd>83</dd>
 
 <dt>Flags</dt>
 <dd>
-<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -127,7 +165,7 @@ Telstra Limited -
 <a href="../as_number/AS1221.html">AS1221</a>
 (<a href='https://bgp.he.net/AS1221'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-02-28 09:09:16</dd>
+<dd>2025-03-23 10:05:02</dd>
 
 <dt>Country</dt>
 <dd>

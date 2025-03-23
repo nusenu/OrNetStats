@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: lunar1</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "lunar1"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>lunar1</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>email</dt>
+<dd>adminsys[]nos-oignons.net</dd>
+<dt>url</dt>
+<dd>https://nos-oignons.net</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>Contact
+(<a href="../contact/0277272dca459ca3b1c82a97610f6e1a.html">all relays with this contact</a>)</dt>
+<dd>
+0x9F29C15D42A8B6F3 Nos oignons &lt;adminsys@nos-oignons.net&gt; -...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+154.41.95.1:443
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>154.41.95.1</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  79-81
+  88
+  110
+  143
+  194
+  220
+  389
+  443
+  464-465
+  531
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  902-904
+  981
+  989-995
+  1194
+  1220
+  1293
+  1500
+  1533
+  1677
+  1723
+  1755
+  1863
+  2082-2083
+  2086-2087
+  2095-2096
+  2102-2104
+  3128
+  3389
+  3690
+  4321
+  4643
+  5050
+  5190
+  5222-5223
+  5228
+  5900
+  6660-6669
+  6679
+  6697
+  8000
+  8008
+  8074
+  8080
+  8082
+  8087-8088
+  8232-8233
+  8332-8333
+  8443
+  8888
+  9418
+  9999-10000
+  11371
+  19294
+  19638
+  50002
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 96.47.225.0/24:*
+ accept *:20-23
+ accept *:43
+ accept *:53
+ accept *:79-81
+ accept *:88
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:465
+ accept *:531
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:902-904
+ accept *:981
+ accept *:989-995
+ accept *:1194
+ accept *:1220
+ accept *:1293
+ accept *:1500
+ accept *:1533
+ accept *:1677
+ accept *:1723
+ accept *:1755
+ accept *:1863
+ accept *:2082-2083
+ accept *:2086-2087
+ accept *:2095-2096
+ accept *:2102-2104
+ accept *:3128
+ accept *:3389
+ accept *:3690
+ accept *:4321
+ accept *:4643
+ accept *:5050
+ accept *:5190
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:8000
+ accept *:8008
+ accept *:8074
+ accept *:8080
+ accept *:8082
+ accept *:8087-8088
+ accept *:8232-8233
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:9999
+ accept *:10000
+ accept *:11371
+ accept *:19294
+ accept *:19638
+ accept *:50002
+ accept *:64738
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">5D9D80195162D7D77506EAF768F00F70A51CD191
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable"><a href="042944E139508E6A8495AA1F6F320D1087D84930.html">042944E139508E6A8495AA1F6F320D1087D84930</a>
+<a href="05A48DCB220236FCCA21B432C3D4A1FCE8AFCEEB.html">05A48DCB220236FCCA21B432C3D4A1FCE8AFCEEB</a>
+<a href="0DC16FEAA5A5E27A974009CBF7748BB6FAAE6DE1.html">0DC16FEAA5A5E27A974009CBF7748BB6FAAE6DE1</a>
+<a href="11C7F8EEEE7445618DD7DE562F7D1218B5DB4B2E.html">11C7F8EEEE7445618DD7DE562F7D1218B5DB4B2E</a>
+<a href="16D3252B519861248FDEABE05A6F3B97BC510557.html">16D3252B519861248FDEABE05A6F3B97BC510557</a>
+<a href="16E09CB06617A7215885B6C7C8436B1F8D07960F.html">16E09CB06617A7215885B6C7C8436B1F8D07960F</a>
+<a href="196C05BF08CC248EE563B49D36CAC89793AFBC5E.html">196C05BF08CC248EE563B49D36CAC89793AFBC5E</a>
+<a href="324053C8A296BF31A4A908CB407545DA92DF32F8.html">324053C8A296BF31A4A908CB407545DA92DF32F8</a>
+<a href="37C984BB069C29573FB8F9F6C610DC14763B5305.html">37C984BB069C29573FB8F9F6C610DC14763B5305</a>
+<a href="42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B.html">42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B</a>
+<a href="44D1929690CF1DEF95C5D1F4F66281CF18311618.html">44D1929690CF1DEF95C5D1F4F66281CF18311618</a>
+<a href="47EC4211A4A66768224BC18912AF8FB6E880003C.html">47EC4211A4A66768224BC18912AF8FB6E880003C</a>
+<a href="4A39E7D2C121F664CFD9B5DF80CE9E70BB8B3C16.html">4A39E7D2C121F664CFD9B5DF80CE9E70BB8B3C16</a>
+<a href="4B8F0F8BB18F1D9ADC1FE7E54B3D3D605C1919A7.html">4B8F0F8BB18F1D9ADC1FE7E54B3D3D605C1919A7</a>
+<a href="4F0C498701A41F4D9CA677EA763FD8CA45348E97.html">4F0C498701A41F4D9CA677EA763FD8CA45348E97</a>
+<a href="5409FECC2C4B59D4573AAE935BE31C5675E81431.html">5409FECC2C4B59D4573AAE935BE31C5675E81431</a>
+<a href="5450CC0E3D08BB001E8229B8990323D11BC63332.html">5450CC0E3D08BB001E8229B8990323D11BC63332</a>
+<a href="578E007E5E4535FBFEF7758D8587B07B4C8C5D06.html">578E007E5E4535FBFEF7758D8587B07B4C8C5D06</a>
+<a href="59F2831A9BEB7AB3D5803445F946EA9FEEEFA217.html">59F2831A9BEB7AB3D5803445F946EA9FEEEFA217</a>
+<a href="5A6976353F19DAB6EB63A2CB95C00039B7D4064A.html">5A6976353F19DAB6EB63A2CB95C00039B7D4064A</a>
+<a href="65935A863C1652AFD7A8FDB7C5D1ACCF562E2BFD.html">65935A863C1652AFD7A8FDB7C5D1ACCF562E2BFD</a>
+<a href="746FDA7D7F633FF88BF735416A42E472D630D868.html">746FDA7D7F633FF88BF735416A42E472D630D868</a>
+<a href="78AD6EAF6904E777103629D6579766DB6466AA3E.html">78AD6EAF6904E777103629D6579766DB6466AA3E</a>
+<a href="8F13B91FA8380842993E7C36EEF88BEC5D695587.html">8F13B91FA8380842993E7C36EEF88BEC5D695587</a>
+<a href="90FD830C357A5109AB3C505287713F1AC811174C.html">90FD830C357A5109AB3C505287713F1AC811174C</a>
+<a href="91B7A9659CDB5ACF0DEB46DAA82C122C39CC4ADF.html">91B7A9659CDB5ACF0DEB46DAA82C122C39CC4ADF</a>
+<a href="9BA84E8C90083676F86C7427C8D105925F13716C.html">9BA84E8C90083676F86C7427C8D105925F13716C</a>
+<a href="A319D6447B2B4107477E126EE4A2B7C38125149E.html">A319D6447B2B4107477E126EE4A2B7C38125149E</a>
+<a href="B8348F1E967D9A432F2D03E572DEF76FB25F04D3.html">B8348F1E967D9A432F2D03E572DEF76FB25F04D3</a>
+<a href="C3AACDE1671FF475D872683359777B082C1C77E6.html">C3AACDE1671FF475D872683359777B082C1C77E6</a>
+<a href="CBCA0D732C95AF4F6A37DCCC4879105E426B80C9.html">CBCA0D732C95AF4F6A37DCCC4879105E426B80C9</a>
+<a href="CD1FD2C1F330A3293DA6068E6A23866D063D6DCB.html">CD1FD2C1F330A3293DA6068E6A23866D063D6DCB</a>
+<a href="CFAB19E23290F5BA1F7FF24494D26FBD4E4DF6CE.html">CFAB19E23290F5BA1F7FF24494D26FBD4E4DF6CE</a>
+<a href="D881FA3C5A642541932ACED4A3C5140742096D11.html">D881FA3C5A642541932ACED4A3C5140742096D11</a>
+<a href="DA380FB801539CCE1A94F9D2F4141F5916DAFB83.html">DA380FB801539CCE1A94F9D2F4141F5916DAFB83</a>
+<a href="E2DA7E67DFC30B19C50F2957C0AAFD226143D7C8.html">E2DA7E67DFC30B19C50F2957C0AAFD226143D7C8</a>
+<a href="EEEFC9F693B3BB72C1069EC8CDAF2E6C40FCC47D.html">EEEFC9F693B3BB72C1069EC8CDAF2E6C40FCC47D</a>
+<a href="EFF127FA3E850B17BF9A980AFB010A172F6C6FAF.html">EFF127FA3E850B17BF9A980AFB010A172F6C6FAF</a>
+<a href="F2A0F204670965A947A1AE5E2867C752E714032F.html">F2A0F204670965A947A1AE5E2867C752E714032F</a>
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2025-03-06">2025-03-06 13:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.8.14
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>147 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>30000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre>none</pre>
+<dt>Autonomous System</dt>
+<dd>
+MOJI SAS - 
+<a href="../as_number/AS213873.html">AS213873</a>
+(<a href='https://bgp.he.net/AS213873'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2025-03-06 16:58:24</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/fr.html"><img src="../static/images/cc/fr.png" title="France" alt="France"></a> France
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>5D9D80195162D7D77506EAF768F00F70A51CD191</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
