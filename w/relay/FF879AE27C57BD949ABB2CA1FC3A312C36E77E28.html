@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/3d9df59891254d6fee26aa9943d520ba.html">all relays with this contact</a>)</dt>
+(<a href="../contact/a6990442feab9e18e0c11bb7f7579578.html">all relays with this contact</a>)</dt>
 <dd>
-emmasams23@proton.me</a></dd>
+emmaiscool@onionmail.org</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -65,8 +65,11 @@ emmasams23@proton.me</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  6881-6889
 </pre>
 </dd>
 
@@ -76,17 +79,28 @@ emmasams23@proton.me</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:6881-6889
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">FF879AE27C57BD949ABB2CA1FC3A312C36E77E28
+<dt>Effective Family Members (<a href="../family/c0f7eebc6a6db22358277846cd9d42898c6a64d2d9b565c392b3c6c7db3b6677.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="4924C03811F4BF4F7DFAC320A1D0C1D68E12B6CB.html">4924C03811F4BF4F7DFAC320A1D0C1D68E12B6CB</a>
+<a href="FF879AE27C57BD949ABB2CA1FC3A312C36E77E28.html">FF879AE27C57BD949ABB2CA1FC3A312C36E77E28</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable">none
+<pre class="pre-scrollable">4BBB3032A9577EF4A11CEB3AF3C115A8FEA11E83
 </pre></dd>
 </dl>
 </div>
@@ -98,20 +112,23 @@ emmasams23@proton.me</a></dd>
 
 <dt>Platform</dt>
 <dd> Tor 0.4.8.14
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>58 Mbit/s</dd>
+<dd>48 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>7900</dd>
+<dd>6400</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -127,7 +144,7 @@ QuickHostUK Limited -
 <a href="../as_number/AS209243.html">AS209243</a>
 (<a href='https://bgp.he.net/AS209243'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-03-22 02:18:48</dd>
+<dd>2025-04-14 11:30:07</dd>
 
 <dt>Country</dt>
 <dd>
