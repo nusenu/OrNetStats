@@ -66,39 +66,33 @@ emmaiscool@tutamail.com</a></dd>
 <dd>45.139.50.204</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80-81
-  443
-  853
-  1194
-  4070
-  5222-5223
-  6667
-  6697
-  8080
-  8333
-  8443
+<pre class="pre-scrollable">reject: 
+  20-23
+  25
+  110
+  123
+  143
+  161-162
+  465
+  587
+  993
+  995
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  43
-  53
-  80-81
-  443
-  853
-  1194
-  4070
-  5222-5223
-  6667
-  6697
-  8080
-  8333
-  8443
+<pre class="pre-scrollable">reject: 
+  20-23
+  25
+  110
+  123
+  143
+  161-162
+  465
+  587
+  993
+  995
 </pre>
 </dd>
 
@@ -109,33 +103,31 @@ emmaiscool@tutamail.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:43
- accept *:53
- accept *:80
- accept *:81
- accept *:443
- accept *:853
- accept *:1194
- accept *:5222
- accept *:5223
- accept *:4070
- accept *:6667
- accept *:6697
- accept *:8080
- accept *:8333
- accept *:8443
- reject *:*
+ reject *:20
+ reject *:21
+ reject *:22
+ reject *:23
+ reject *:25
+ reject *:110
+ reject *:123
+ reject *:143
+ reject *:161
+ reject *:162
+ reject *:465
+ reject *:587
+ reject *:993
+ reject *:995
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/c0f7eebc6a6db22358277846cd9d42898c6a64d2d9b565c392b3c6c7db3b6677.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="4924C03811F4BF4F7DFAC320A1D0C1D68E12B6CB.html">4924C03811F4BF4F7DFAC320A1D0C1D68E12B6CB</a>
-<a href="FF879AE27C57BD949ABB2CA1FC3A312C36E77E28.html">FF879AE27C57BD949ABB2CA1FC3A312C36E77E28</a>
+<dt>Effective Family Members</dt>
+<dd><pre class="pre-scrollable">4924C03811F4BF4F7DFAC320A1D0C1D68E12B6CB
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
 <dd>
-<pre class="pre-scrollable">4BBB3032A9577EF4A11CEB3AF3C115A8FEA11E83
+<pre class="pre-scrollable">FF879AE27C57BD949ABB2CA1FC3A312C36E77E28
 </pre></dd>
 </dl>
 </div>
@@ -152,10 +144,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>50 Mbit/s</dd>
+<dd>76 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>5500</dd>
+<dd>5600</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -176,7 +168,7 @@ RoyaleHosting BV -
 <a href="../as_number/AS212477.html">AS212477</a>
 (<a href='https://bgp.he.net/AS212477'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-04-21 23:14:44</dd>
+<dd>2025-05-14 01:12:50</dd>
 
 <dt>Country</dt>
 <dd>
