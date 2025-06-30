@@ -66,29 +66,19 @@ dontsmitemedown@privacyjam.com / donate.privacyjam.com</a></dd>
 <dd>91.202.5.155</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22-23
-  25
-  445
-  465
-  587
-  2525
-  3389
-  5900-5910
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  22-23
-  25
-  445
-  465
-  587
-  2525
-  3389
-  5900-5910
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
 </pre>
 </dd>
 
@@ -99,16 +89,10 @@ dontsmitemedown@privacyjam.com / donate.privacyjam.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- reject *:25
- reject *:465
- reject *:587
- reject *:2525
- reject *:22
- reject *:23
- reject *:3389
- reject *:5900-5910
- reject *:445
- accept *:*
+ accept *:53
+ accept *:80
+ accept *:443
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -136,10 +120,10 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>219 Mbit/s</dd>
+<dd>203 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>34000</dd>
+<dd>40000</dd>
 
 <dt>Flags</dt>
 <dd>

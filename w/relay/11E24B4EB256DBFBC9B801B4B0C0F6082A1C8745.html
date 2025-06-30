@@ -67,44 +67,84 @@ tor@steven-arnold.eu</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-23
-  25
+  43
   53
-  80
+  79-81
+  88
   110
-  123
   143
+  194
+  220
+  389
   443
-  465
-  587
-  843
-  853
-  993
-  995
+  531
+  543-544
+  563
+  636
+  749
+  873
+  989-995
+  1194
+  1723
+  2083
+  2086-2087
+  4321
   5222-5223
+  5228
+  5900
+  5984
   6660-6669
+  6679
+  6697
+  6984
+  8008
+  8080
+  8332-8333
+  8443
+  8888
+  11371
 </pre>
 </dd>
 
 <dt>IPv6 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  20-23
-  25
+  43
   53
-  80
+  79-81
+  88
   110
-  123
   143
+  194
+  220
+  389
   443
-  465
-  587
-  843
-  853
-  993
-  995
+  531
+  543-544
+  563
+  636
+  749
+  873
+  989-995
+  1194
+  1723
+  2083
+  2086-2087
+  4321
   5222-5223
+  5228
+  5900
+  5984
   6660-6669
+  6679
+  6697
+  6984
+  8008
+  8080
+  8332-8333
+  8443
+  8888
+  11371
 </pre>
 </dd>
 
@@ -115,26 +155,42 @@ tor@steven-arnold.eu</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:20
- accept *:21
- accept *:22
- accept *:23
- accept *:25
+ accept *:43
  accept *:53
- accept *:80
+ accept *:79-81
+ accept *:88
  accept *:110
  accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
  accept *:443
- accept *:465
- accept *:587
- accept *:993
- accept *:995
- accept *:123
- accept *:843
- accept *:853
- accept *:5222
- accept *:5223
+ accept *:531
+ accept *:543-544
+ accept *:563
+ accept *:636
+ accept *:749
+ accept *:873
+ accept *:989-995
+ accept *:1194
+ accept *:1723
+ accept *:2083
+ accept *:2086-2087
+ accept *:4321
+ accept *:5222-5223
+ accept *:5228
+ accept *:5900
+ accept *:5984
  accept *:6660-6669
+ accept *:6679
+ accept *:6697
+ accept *:6984
+ accept *:8008
+ accept *:8080
+ accept *:8332-8333
+ accept *:8443
+ accept *:8888
+ accept *:11371
  reject *:*
 </pre></dd>
 </dd>
@@ -162,15 +218,18 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>61 Mbit/s</dd>
+<dd>184 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>14000</dd>
+<dd>42000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -186,7 +245,7 @@ aurologic GmbH -
 <a href="../as_number/AS30823.html">AS30823</a>
 (<a href='https://bgp.he.net/AS30823'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-05-16 06:16:43</dd>
+<dd>2025-06-22 12:09:16</dd>
 
 <dt>Country</dt>
 <dd>
