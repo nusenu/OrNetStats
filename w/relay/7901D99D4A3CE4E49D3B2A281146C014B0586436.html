@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: ageis</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "ageis"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>ageis</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd><a href="https://nusenu.github.io/OrNetStats/emeraldonion.org.html">
+emeraldonion.org</a>
+<a href="https://emeraldonion.org/.well-known/tor-relay/rsa-fingerprint.txt">
+<img src="../static/images/flags/valid.png"></a>
+</dd>
+<dt>email</dt>
+<dd>tech[]emeraldonion.org</dd>
+<dt>url</dt>
+<dd>https://emeraldonion.org</dd>
+<dt>proof</dt>
+<dd>uri-rsa</dd>
+<dt>abuse</dt>
+<dd>tech[]emeraldonion.org</dd>
+<dt>mastodon</dt>
+<dd>https://disobey.net/@emeraldonion</dd>
+<dt>cost</dt>
+<dd>460USD</dd>
+<dt>uplinkbw</dt>
+<dd>10000</dd>
+<dt>virtualization</dt>
+<dd>kvm</dd>
+<dt>zec</dt>
+<dd>t1JShsaJADLKHkcK8Yv9tTE1zPUiQJ4DoQr</dd>
+<dt>donationurl</dt>
+<dd>https://emeraldonion.org/donate</dd>
+<dt>offlinemasterkey</dt>
+<dd>y</dd>
+<dt>signingkeylifetime</dt>
+<dd>30</dd>
+<dt>ciissversion</dt>
+<dd>2</dd>
+<dt>trafficacct</dt>
+<dd>unmetered</dd>
+<dt>Contact
+(<a href="../contact/42fef02abaff4a3876ff9c6201eb7924.html">all relays with this contact</a>)</dt>
+<dd>
+email:tech[]emeraldonion.org url:https://emeraldonion.org...</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+23.129.64.130:443
+[2620:18c:0:192::e0:130]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>23.129.64.130</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  1-65535
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  1-65535
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/be4810873cbaec17c00eb0d557d35dd5ff572305378560cca33fc768af467cbd.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="06F0BB4CDF4D75E5E8265A6270C10D2FDFE64AAA.html">06F0BB4CDF4D75E5E8265A6270C10D2FDFE64AAA</a>
+<a href="14E346846C87A8844D5A2E7C17855A891AA6D7FB.html">14E346846C87A8844D5A2E7C17855A891AA6D7FB</a>
+<a href="186F046D8895E13626B363B879BD15F38A52C6BC.html">186F046D8895E13626B363B879BD15F38A52C6BC</a>
+<a href="1EFC296FB22DD28B072A82F72765D540E2BB3AF8.html">1EFC296FB22DD28B072A82F72765D540E2BB3AF8</a>
+<a href="213A1F918ED228F5F3AC37E7E4938F5A3A487FBF.html">213A1F918ED228F5F3AC37E7E4938F5A3A487FBF</a>
+<a href="2262911C53618EFF610356BC40B9A298FEC1DA37.html">2262911C53618EFF610356BC40B9A298FEC1DA37</a>
+<a href="273135C4EC736A1E88DB82103A179C3C36467019.html">273135C4EC736A1E88DB82103A179C3C36467019</a>
+<a href="2B9121BA18DF8A0F9A0057A9066F8122F459F8CF.html">2B9121BA18DF8A0F9A0057A9066F8122F459F8CF</a>
+<a href="310E446A31DE089752FCC02F06B071F4F8CCAE89.html">310E446A31DE089752FCC02F06B071F4F8CCAE89</a>
+<a href="3407C5CF6A78BA476BF17AE20635F4B22A00CB17.html">3407C5CF6A78BA476BF17AE20635F4B22A00CB17</a>
+<a href="502962EC885769DC3D286E3D28A7AAC2304DDB19.html">502962EC885769DC3D286E3D28A7AAC2304DDB19</a>
+<a href="521390FDAD861AB8F0F7727D51E595D50F9C754B.html">521390FDAD861AB8F0F7727D51E595D50F9C754B</a>
+<a href="5321DFAA6D5977EB05B80EE9D9C8A489391E3566.html">5321DFAA6D5977EB05B80EE9D9C8A489391E3566</a>
+<a href="5927A517EF1DA3542E44D2CEB9B9DED31D8CEAC1.html">5927A517EF1DA3542E44D2CEB9B9DED31D8CEAC1</a>
+<a href="6B2EBB550EF8B9D2693740167EE759A1AFF0BE39.html">6B2EBB550EF8B9D2693740167EE759A1AFF0BE39</a>
+<a href="7901D99D4A3CE4E49D3B2A281146C014B0586436.html">7901D99D4A3CE4E49D3B2A281146C014B0586436</a>
+<a href="7E3365150065E4442549AED4211ACCC72F7EFBC7.html">7E3365150065E4442549AED4211ACCC72F7EFBC7</a>
+<a href="86C7A9A256A1ECB034FCFEAC820C638958455DCB.html">86C7A9A256A1ECB034FCFEAC820C638958455DCB</a>
+<a href="8E69F219C12A5F7585CF645E4E9AE720C3E6CC2B.html">8E69F219C12A5F7585CF645E4E9AE720C3E6CC2B</a>
+<a href="97A7D10BB2B886695BA766966DE897B5E8B74FB1.html">97A7D10BB2B886695BA766966DE897B5E8B74FB1</a>
+<a href="97E7C409D4EAF9819AF6D3E141770A3118A2E845.html">97E7C409D4EAF9819AF6D3E141770A3118A2E845</a>
+<a href="9A89B6DEF58EE1E44251B2B4597826C7686AF35F.html">9A89B6DEF58EE1E44251B2B4597826C7686AF35F</a>
+<a href="9EA0B7BFEE623443D3715BA1483C8A52433402D8.html">9EA0B7BFEE623443D3715BA1483C8A52433402D8</a>
+<a href="A38A12641B6C7084E354D469F9FE828372001E63.html">A38A12641B6C7084E354D469F9FE828372001E63</a>
+<a href="A5BC908B524D974DD8BB9BD51ABDDF2798F1257F.html">A5BC908B524D974DD8BB9BD51ABDDF2798F1257F</a>
+<a href="A78346A01EED3EF66D2BA5E34A96493D1B43C048.html">A78346A01EED3EF66D2BA5E34A96493D1B43C048</a>
+<a href="B9DBF5F2D74FDE5D7F6278B226D39E3FD745DED4.html">B9DBF5F2D74FDE5D7F6278B226D39E3FD745DED4</a>
+<a href="BA1DA8A343F16ECAD66C87201C9CE3007F297BB6.html">BA1DA8A343F16ECAD66C87201C9CE3007F297BB6</a>
+<a href="C00CEE661E7267E363D1294B04DAF7820057CB75.html">C00CEE661E7267E363D1294B04DAF7820057CB75</a>
+<a href="C7268876AE84FF84659AE211E8E03E68A610B48B.html">C7268876AE84FF84659AE211E8E03E68A610B48B</a>
+<a href="C98CD99E2BF5F1D7EFA5ED90646AF809CE8F75DF.html">C98CD99E2BF5F1D7EFA5ED90646AF809CE8F75DF</a>
+<a href="D6AB89A1396774E87A309682008B26645B03A21F.html">D6AB89A1396774E87A309682008B26645B03A21F</a>
+<a href="D79488447BA28A21134CECCEB39AFA2E6E42F693.html">D79488447BA28A21134CECCEB39AFA2E6E42F693</a>
+<a href="EC49C40A2B0B5E2DEF699D3664E033C9E51A6C31.html">EC49C40A2B0B5E2DEF699D3664E033C9E51A6C31</a>
+<a href="F1F7D98D9896CFF88C5D4D31AC7D8C10C756FEDA.html">F1F7D98D9896CFF88C5D4D31AC7D8C10C756FEDA</a>
+<a href="FE052DD60181591984085065C05931ABD4826603.html">FE052DD60181591984085065C05931ABD4826603</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2025-07-18">2025-07-18 20:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.8.17
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>0 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>1000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="unverified-hostname" title="unverified hostname">emeraldonion.net</pre>
+<dt>Autonomous System</dt>
+<dd>
+Emerald Onion - 
+<a href="../as_number/AS396507.html">AS396507</a>
+(<a href='https://bgp.he.net/AS396507'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2025-07-30 19:32:26</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/us.html"><img src="../static/images/cc/us.png" title="United States of America" alt="United States of America"></a> United States of America
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>7901D99D4A3CE4E49D3B2A281146C014B0586436</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>

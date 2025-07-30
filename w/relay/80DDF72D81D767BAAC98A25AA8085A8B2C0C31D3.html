@@ -66,9 +66,10 @@ seuemail@exemplo.com</a></dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  22
   80
   443
+  8080
+  8443
 </pre>
 </dd>
 
@@ -85,8 +86,9 @@ seuemail@exemplo.com</a></dd>
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
  accept *:80
+ accept *:8080
  accept *:443
- accept *:22
+ accept *:8443
  reject *:*
 </pre></dd>
 </dd>
@@ -114,15 +116,17 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>49 Mbit/s</dd>
+<dd>32 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2300</dd>
+<dd>1400</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -137,7 +141,7 @@ on
 <a href="../as_number/AS27715.html">AS27715</a>
 (<a href='https://bgp.he.net/AS27715'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-06-29 19:56:20</dd>
+<dd>2025-07-06 17:54:32</dd>
 
 <dt>Country</dt>
 <dd>
