@@ -63,8 +63,15 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-22
+  43
+  53
+  80
+  443
+  873
+  989-990
+  4321
 </pre>
 </dd>
 
@@ -74,12 +81,28 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:22
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:4321
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">95C513E90353EFF00B0F652DB62DE375B68D9E63
+<dt>Effective Family Members (<a href="../family/0ad792d6dc62420fb4fe44848c5cafad5d271dacf1689ac056707fbc3f39c9ef.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="95C513E90353EFF00B0F652DB62DE375B68D9E63.html">95C513E90353EFF00B0F652DB62DE375B68D9E63</a>
+<a href="96F2EEBE918A6819A1AE9DE132A189D6365CA5ED.html">96F2EEBE918A6819A1AE9DE132A189D6365CA5ED</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -102,15 +125,17 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>112 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1</dd>
+<dd>8100</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/badexit.png" title="BadExit" alt="BadExit"></a> BadExit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -124,7 +149,7 @@ on
 <a href="../as_number/AS210558.html">AS210558</a>
 (<a href='https://bgp.he.net/AS210558'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-07-30 06:22:05</dd>
+<dd>2025-08-27 08:09:41</dd>
 
 <dt>Country</dt>
 <dd>

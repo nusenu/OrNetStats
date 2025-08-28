@@ -254,7 +254,7 @@ tor-exit@vrij-heid.nl</a></dd>
  reject 211.171.127.206:*
  reject 1.235.101.0/24:*
  reject 203.233.85.0/24:*
- reject 121.133.126.58:*
+ reject 121.133.126.0/24:*
  reject 203.175.188.53:*
  reject 211.255.200.145:*
  reject 218.38.139.21:*
@@ -287,7 +287,7 @@ tor-exit@vrij-heid.nl</a></dd>
  reject 124.243.61.31:*
  reject 150.242.133.17:*
  reject 211.115.70.35:*
- reject 121.162.155.113:*
+ reject 121.162.155.0/24:*
  reject 219.255.136.0/24:*
  reject 211.108.61.11:*
  reject 110.10.19.114:*
@@ -299,6 +299,9 @@ tor-exit@vrij-heid.nl</a></dd>
  reject 59.11.68.10:*
  reject 59.12.227.29:*
  reject 112.175.78.235:*
+ reject 61.41.206.26:*
+ reject 203.81.8.85:*
+ reject 203.82.219.30:*
  reject 219.91.85.19:*
  reject 5.2.79.74:*
  reject 51.254.50.41:*
@@ -530,6 +533,7 @@ tor-exit@vrij-heid.nl</a></dd>
  reject 87.233.134.87:*
  reject 78.41.116.111:*
  reject 5.135.138.203:3389
+ reject 185.174.168.2:443
  accept *:20-21
  accept *:23
  accept *:43
@@ -637,16 +641,17 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>143 Mbit/s</dd>
+<dd>144 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>27000</dd>
+<dd>24000</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -663,7 +668,7 @@ Netwerkvereniging Coloclue -
 <a href="../as_number/AS8283.html">AS8283</a>
 (<a href='https://bgp.he.net/AS8283'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-07-30 04:18:42</dd>
+<dd>2025-08-13 04:45:06</dd>
 
 <dt>Country</dt>
 <dd>

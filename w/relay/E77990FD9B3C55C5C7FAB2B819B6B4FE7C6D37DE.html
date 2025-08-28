@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/ee64556b6361d1a4953be979df67a02a.html">all relays with this contact</a>)</dt>
+(<a href="../contact/267f3587edc9b64d8e80ee7eca8abbcb.html">all relays with this contact</a>)</dt>
 <dd>
-tuemail@example.com</a></dd>
+email@mail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -62,11 +62,31 @@ tuemail@example.com</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>98.71.178.101</dd>
+<dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
-  1-65535
+  20-21
+  43
+  53
+  80
+  110
+  143
+  220
+  443
+  873
+  989-993
+  995
+  1194
+  1293
+  3690
+  4321
+  5222-5223
+  5228
+  6666-6668
+  9418
+  11371
+  64738
 </pre>
 </dd>
 
@@ -82,7 +102,31 @@ tuemail@example.com</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:*
+ accept *:20-21
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1293
+ accept *:3690
+ accept *:4321
+ accept *:6666-6668
+ accept *:5222-5223
+ accept *:5228
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -103,20 +147,24 @@ tuemail@example.com</a></dd>
 <dd><a href="../first_seen/2025-07-26">2025-07-26 22:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.16
+<dd> Tor 0.4.8.17
+<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>1 Mbit/s</dd>
+<dd>19 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>2</dd>
+<dd>1600</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -132,7 +180,7 @@ Microsoft Corporation -
 <a href="../as_number/AS8075.html">AS8075</a>
 (<a href='https://bgp.he.net/AS8075'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-07-30 12:19:34</dd>
+<dd>2025-08-17 18:58:33</dd>
 
 <dt>Country</dt>
 <dd>
