@@ -63,8 +63,18 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  20-23
+  80
+  110
+  143
+  220
+  443
+  873
+  989-993
+  995
+  1194
+  5222-5223
 </pre>
 </dd>
 
@@ -74,7 +84,27 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-23
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:220
+ accept *:443
+ accept *:873
+ accept *:989-990
+ accept *:991
+ accept *:992
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:5222-5223
+ reject *:*
 </pre></dd>
 </dd>
 
@@ -104,16 +134,14 @@ on
 <dd>35 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>1400</dd>
+<dd>1700</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/badexit.png" title="BadExit" alt="BadExit"></a> BadExit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -127,7 +155,7 @@ SOLLUTIUM EU Sp z.o.o. -
 <a href="../as_number/AS43641.html">AS43641</a>
 (<a href='https://bgp.he.net/AS43641'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-06-17 08:01:52</dd>
+<dd>2025-09-15 06:05:21</dd>
 
 <dt>Country</dt>
 <dd>

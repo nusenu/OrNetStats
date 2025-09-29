@@ -62,11 +62,22 @@ Hobbit &lt;hobbit18@proton.me&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>179.43.134.19</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
-  1-65535
+  25
+  119
+  135-139
+  445
+  465
+  563
+  587
+  1214
+  4661-4666
+  6346-6429
+  6699
+  6881-6999
 </pre>
 </dd>
 
@@ -76,7 +87,25 @@ Hobbit &lt;hobbit18@proton.me&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:465
+ reject *:563
+ reject *:587
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -103,13 +132,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>334 Mbit/s</dd>
+<dd>381 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>71000</dd>
+<dd>76000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
 <img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
@@ -129,7 +159,7 @@ Private Layer INC -
 <a href="../as_number/AS51852.html">AS51852</a>
 (<a href='https://bgp.he.net/AS51852'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-05-27 10:20:08</dd>
+<dd>2025-09-19 09:45:54</dd>
 
 <dt>Country</dt>
 <dd>

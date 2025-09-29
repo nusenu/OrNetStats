@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tor Relays :: 1507</title>
+    <title>Tor Relays :: 1511</title>
     <meta name="description" content="Javascript-free Tor metrics.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,20 +39,18 @@
 <body>
 <div class="container">
 <div id="content">
-<h2><a href="../">Home</a> :: Relay "1507"</h2>
+<h2><a href="../">Home</a> :: Relay "1511"</h2>
 <div class="row">
 <div class="col-md-6">
 <dl>
 <dt>Nickname</dt>
-<dd>1507</dd>
+<dd>1511</dd>
 
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/c56e220cbf8c4f29e94b722ebfe56824.html">all relays with this contact</a>)</dt>
-<dd>
-Random Person &lt;torthingnode@protonmail.com&gt;</a></dd>
-</dd>
+</dt>
+<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 193.237.155.109:9001
@@ -62,11 +60,14 @@ Random Person &lt;torthingnode@protonmail.com&gt;</a></dd>
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>193.237.155.109</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  80
+  119
+  443
+  6660-6667
 </pre>
 </dd>
 
@@ -76,12 +77,23 @@ Random Person &lt;torthingnode@protonmail.com&gt;</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:80
+ accept *:119
+ accept *:443
+ accept *:6660-6667
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">29017335D8E95D164E3FFD8B62EE7E9216A3F9B4
+<dt>Effective Family Members (<a href="../family/c3d1be59dc74c9bfa24a058ede2c6f13b576c449a72ce1df56b9b9a06a18b2ad.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="29017335D8E95D164E3FFD8B62EE7E9216A3F9B4.html">29017335D8E95D164E3FFD8B62EE7E9216A3F9B4</a>
+<a href="F0E6CF387C4EF73C9C4CD4289639CD54B050FB39.html">F0E6CF387C4EF73C9C4CD4289639CD54B050FB39</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -104,13 +116,14 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>8 Mbit/s</dd>
+<dd>11 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>480</dd>
+<dd>560</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
@@ -128,7 +141,7 @@ Vodafone Limited -
 <a href="../as_number/AS5378.html">AS5378</a>
 (<a href='https://bgp.he.net/AS5378'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-08-26 03:33:51</dd>
+<dd>2025-09-29 10:38:46</dd>
 
 <dt>Country</dt>
 <dd>

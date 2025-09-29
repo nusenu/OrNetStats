@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/5ac6cc97f9c232419520a72074566375.html">all relays with this contact</a>)</dt>
+<dd>
+andsmas@proton.me</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 185.28.47.21:443
@@ -64,8 +66,14 @@
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80
+  443
+  4443
+  8000
+  8080
+  8888
 </pre>
 </dd>
 
@@ -75,12 +83,27 @@
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:443
+ accept *:8080
+ accept *:8000
+ accept *:4443
+ accept *:8888
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/32780946d99edf9308c82c4890bad6ab8d34d8b85af34d066559aa4c84d11c67.html">view</a>)</dt>
-<dd><pre class="pre-scrollable"><a href="6A824344ED8C8E5070ABAB3E0981021AE3A6ED30.html">6A824344ED8C8E5070ABAB3E0981021AE3A6ED30</a>
+<dt>Effective Family Members (<a href="../family/f009d0016561cb5a51b2465cb31b1f77669fc0fd570b6145f3ac102734910dee.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="512B4F291D2DAC6779E51DF2FA490B75679CA181.html">512B4F291D2DAC6779E51DF2FA490B75679CA181</a>
+<a href="6A824344ED8C8E5070ABAB3E0981021AE3A6ED30.html">6A824344ED8C8E5070ABAB3E0981021AE3A6ED30</a>
+<a href="83E9A1AE8F1EB70698CCA5A71863CD48476D6F01.html">83E9A1AE8F1EB70698CCA5A71863CD48476D6F01</a>
 <a href="84B0F93452A86A734C7EECA6C03C622FD8266721.html">84B0F93452A86A734C7EECA6C03C622FD8266721</a>
 </pre></dd>
 
@@ -104,18 +127,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>106 Mbit/s</dd>
+<dd>82 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>16000</dd>
+<dd>13000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/badexit.png" title="BadExit" alt="BadExit"></a> BadExit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
-<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
 
 
@@ -129,7 +150,7 @@ SIA RixHost -
 <a href="../as_number/AS52048.html">AS52048</a>
 (<a href='https://bgp.he.net/AS52048'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-08-28 17:18:46</dd>
+<dd>2025-09-24 06:10:33</dd>
 
 <dt>Country</dt>
 <dd>
