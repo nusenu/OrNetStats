@@ -49,8 +49,10 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-</dt>
-<dd><a href="../contact/d41d8cd98f00b204e9800998ecf8427e.html">none</a></dd>
+(<a href="../contact/b37d83611a5eb088e3bd32b921a4526e.html">all relays with this contact</a>)</dt>
+<dd>
+E F &lt;abusetor010@proton.me&gt;</a></dd>
+</dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
 193.237.155.109:9001
@@ -64,10 +66,23 @@
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">accept: 
+  20-22
   80
+  88
+  110
   119
+  143
   443
-  6660-6667
+  464-465
+  563
+  587
+  636
+  989-990
+  993
+  995
+  5222-5223
+  6697
+  8443
 </pre>
 </dd>
 
@@ -83,16 +98,35 @@
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
+ accept *:20
+ accept *:21
+ accept *:22
  accept *:80
+ accept *:88
+ accept *:110
  accept *:119
+ accept *:143
  accept *:443
- accept *:6660-6667
+ accept *:464
+ accept *:465
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:989
+ accept *:990
+ accept *:993
+ accept *:995
+ accept *:5222
+ accept *:5223
+ accept *:6697
+ accept *:8443
  reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/c3d1be59dc74c9bfa24a058ede2c6f13b576c449a72ce1df56b9b9a06a18b2ad.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/2b077bb9347cc9fcd915b6e0e9848d14930908f0c3a78bca582c90dae3830c2c.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="29017335D8E95D164E3FFD8B62EE7E9216A3F9B4.html">29017335D8E95D164E3FFD8B62EE7E9216A3F9B4</a>
+<a href="D6E7C4D6CA7069703E6A6A0A1AABAFD44A8BF856.html">D6E7C4D6CA7069703E6A6A0A1AABAFD44A8BF856</a>
 <a href="F0E6CF387C4EF73C9C4CD4289639CD54B050FB39.html">F0E6CF387C4EF73C9C4CD4289639CD54B050FB39</a>
 </pre></dd>
 
@@ -116,16 +150,15 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>11 Mbit/s</dd>
+<dd>13 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>560</dd>
+<dd>440</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
-<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
 </dd>
@@ -141,7 +174,7 @@ Vodafone Limited -
 <a href="../as_number/AS5378.html">AS5378</a>
 (<a href='https://bgp.he.net/AS5378'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-09-29 10:38:46</dd>
+<dd>2025-10-21 11:23:43</dd>
 
 <dt>Country</dt>
 <dd>

@@ -49,23 +49,41 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd><a href="https://nusenu.github.io/OrNetStats/shadowl1nk.com.html">
 shadowl1nk.com</a>
-<a href="https://dns.google/query?name=61EADA67FAF0C265BA2D7686E5FC6C88EC8382D3.shadowl1nk.com&rr_type=TXT">
+<a href="https://shadowl1nk.com/.well-known/tor-relay/rsa-fingerprint.txt">
 <img src="../static/images/flags/valid.png"></a>
 </dd>
 <dt>email</dt>
 <dd>tor[]shadowl1nk.com</dd>
 <dt>url</dt>
-<dd>shadowl1nk.com</dd>
+<dd>https://shadowl1nk.com</dd>
 <dt>proof</dt>
-<dd>dns-rsa</dd>
+<dd>uri-rsa</dd>
 <dt>abuse</dt>
 <dd>abuse[]shadowl1nk.com</dd>
+<dt>offlinemasterkey</dt>
+<dd>y</dd>
+<dt>signingkeylifetime</dt>
+<dd>30</dd>
+<dt>sandbox</dt>
+<dd>y</dd>
+<dt>confmgmt</dt>
+<dd>ansible</dd>
+<dt>dnslocation</dt>
+<dd>local</dd>
+<dt>dnsqname</dt>
+<dd>y</dd>
+<dt>dnssec</dt>
+<dd>y</dd>
+<dt>dnslocalrootzone</dt>
+<dd>y</dd>
 <dt>ciissversion</dt>
 <dd>2</dd>
+<dt>trafficacct</dt>
+<dd>unmetered</dd>
 <dt>Contact
-(<a href="../contact/a958a4979e14318f8d2b9ddfcb177430.html">all relays with this contact</a>)</dt>
+(<a href="../contact/bcda0867187eea8d647dc4a3bdf823eb.html">all relays with this contact</a>)</dt>
 <dd>
-email:tor[]shadowl1nk.com url:shadowl1nk.com proof:dns-rsa...</a></dd>
+email:tor[]shadowl1nk.com url:https://shadowl1nk.com proof:uri-rsa...</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -79,8 +97,14 @@ email:tor[]shadowl1nk.com url:shadowl1nk.com proof:dns-rsa...</a></dd>
 <dd>none</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">reject: 
-  1-65535
+<pre class="pre-scrollable">accept: 
+  53
+  80-81
+  443
+  5222-5223
+  6667
+  8080
+  8443
 </pre>
 </dd>
 
@@ -90,21 +114,49 @@ email:tor[]shadowl1nk.com url:shadowl1nk.com proof:dns-rsa...</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:53
+ accept *:80
+ accept *:81
+ accept *:443
+ accept *:8080
+ accept *:8443
+ accept *:6667
+ accept *:5222
+ accept *:5223
+ reject *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members (<a href="../family/cec4d2cd8349285557c8d47e2a5e1db0a0774c14a1b8e16527ca88c2d5a78ffd.html">view</a>)</dt>
+<dt>Effective Family Members (<a href="../family/dd99234950ed683f6806c8a689abf5e189b2a2b8958e2ec46d41c195e5ee7eb1.html">view</a>)</dt>
 <dd><pre class="pre-scrollable"><a href="073A3DBAF3671808ADD410840CCA11F12B17E5E0.html">073A3DBAF3671808ADD410840CCA11F12B17E5E0</a>
 <a href="0F265C09B899B551CAE2ECC8E0469D53AB457344.html">0F265C09B899B551CAE2ECC8E0469D53AB457344</a>
+<a href="2541DB27D54C00227872AA37FF8AF9E0B3D60808.html">2541DB27D54C00227872AA37FF8AF9E0B3D60808</a>
 <a href="4E111067786B5473D6259C1BF0C9BFAE34D20760.html">4E111067786B5473D6259C1BF0C9BFAE34D20760</a>
 <a href="53268DBC36F1707F9AD63A3A4E50B9867E5D4596.html">53268DBC36F1707F9AD63A3A4E50B9867E5D4596</a>
 <a href="61EADA67FAF0C265BA2D7686E5FC6C88EC8382D3.html">61EADA67FAF0C265BA2D7686E5FC6C88EC8382D3</a>
+<a href="6E575CBED04AEA9A5F9EEDD1F6ADACACE2840235.html">6E575CBED04AEA9A5F9EEDD1F6ADACACE2840235</a>
+<a href="7C770827288D525762CF1950CD3F7A590C54A88B.html">7C770827288D525762CF1950CD3F7A590C54A88B</a>
+<a href="7DEEEBA7C0D3B1F1077E7EE1B3645CECD398B4D9.html">7DEEEBA7C0D3B1F1077E7EE1B3645CECD398B4D9</a>
+<a href="83D805F4F4573336F0B6020343A898EA5E51CFD6.html">83D805F4F4573336F0B6020343A898EA5E51CFD6</a>
 <a href="85E8B33D75C31E30A0F14D7D5117370E1D45CE2A.html">85E8B33D75C31E30A0F14D7D5117370E1D45CE2A</a>
 <a href="8B57E62D326699737456118C7F6E75978157A3A4.html">8B57E62D326699737456118C7F6E75978157A3A4</a>
+<a href="97DC904F8BAD68106D5B1A96A366DF6C7D6DFC4D.html">97DC904F8BAD68106D5B1A96A366DF6C7D6DFC4D</a>
 <a href="9E4F07B8EFF41EB71C0DEB218ED9D4FFB9C06EC0.html">9E4F07B8EFF41EB71C0DEB218ED9D4FFB9C06EC0</a>
 <a href="A63670FA5DEF61F2EBF774A288F57281278DC034.html">A63670FA5DEF61F2EBF774A288F57281278DC034</a>
+<a href="C1BE36CC3D083788CEB80B96239B8107E383A01F.html">C1BE36CC3D083788CEB80B96239B8107E383A01F</a>
+<a href="CD81C1367BA388581770D0F43D0BCBC3C518502F.html">CD81C1367BA388581770D0F43D0BCBC3C518502F</a>
 <a href="D0CADD2B7EBA4C7C18B40E7A53FDCD72F445F16E.html">D0CADD2B7EBA4C7C18B40E7A53FDCD72F445F16E</a>
+<a href="D1CA73589D7876411AAE13AB64490431E005BD03.html">D1CA73589D7876411AAE13AB64490431E005BD03</a>
+<a href="D9555076873263F4164276373E92D26B80C0EC4E.html">D9555076873263F4164276373E92D26B80C0EC4E</a>
+<a href="DEAAC63D2AD91D31E8C8B093F3731ACEA2334FC8.html">DEAAC63D2AD91D31E8C8B093F3731ACEA2334FC8</a>
+<a href="E9F3E3A07D47A493DA6C399F6E25B8FB2FC13B79.html">E9F3E3A07D47A493DA6C399F6E25B8FB2FC13B79</a>
+<a href="F6EE9D74BCCF922F6D5B682EECA1AF155F7C22DA.html">F6EE9D74BCCF922F6D5B682EECA1AF155F7C22DA</a>
 <a href="F9472017A9A90E3233EFCA31599A3CCF8B4264A7.html">F9472017A9A90E3233EFCA31599A3CCF8B4264A7</a>
 </pre></dd>
 
@@ -122,16 +174,15 @@ email:tor[]shadowl1nk.com url:shadowl1nk.com proof:dns-rsa...</a></dd>
 
 <dt>Platform</dt>
 <dd> Tor 0.4.8.18
-<img src="../static/images/flags/notrecommended.png" title="Vulnerable Tor Version">
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>46 Mbit/s</dd>
+<dd>39 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>6100</dd>
+<dd>2400</dd>
 
 <dt>Flags</dt>
 <dd>
@@ -152,7 +203,7 @@ Internet Magnate (Pty) Ltd -
 <a href="../as_number/AS214209.html">AS214209</a>
 (<a href='https://bgp.he.net/AS214209'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-09-26 13:12:01</dd>
+<dd>2025-10-23 16:01:08</dd>
 
 <dt>Country</dt>
 <dd>
