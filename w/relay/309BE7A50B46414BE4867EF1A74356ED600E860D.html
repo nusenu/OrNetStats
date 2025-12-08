@@ -65,24 +65,10 @@ hi everyone &lt;abusetor010@proton.me&gt;</a></dd>
 <dd>193.237.155.109</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
-<pre class="pre-scrollable">accept: 
-  20-22
-  80
-  88
-  110
-  119
-  143
-  443
-  464-465
-  563
-  587
-  636
-  989-990
-  993
-  995
-  5222-5223
-  6697
-  8443
+<pre class="pre-scrollable">reject: 
+  20-23
+  135-139
+  445
 </pre>
 </dd>
 
@@ -98,34 +84,16 @@ hi everyone &lt;abusetor010@proton.me&gt;</a></dd>
  reject 192.168.0.0/16:*
  reject 10.0.0.0/8:*
  reject 172.16.0.0/12:*
- accept *:20
- accept *:21
- accept *:22
- accept *:80
- accept *:88
- accept *:110
- accept *:119
- accept *:143
- accept *:443
- accept *:464
- accept *:465
- accept *:563
- accept *:587
- accept *:636
- accept *:989
- accept *:990
- accept *:993
- accept *:995
- accept *:5222
- accept *:5223
- accept *:6697
- accept *:8443
- reject *:*
+ reject *:20-23
+ reject *:135-139
+ reject *:445
+ accept *:*
 </pre></dd>
 </dd>
 
-<dt>Effective Family Members</dt>
-<dd><pre class="pre-scrollable">309BE7A50B46414BE4867EF1A74356ED600E860D
+<dt>Effective Family Members (<a href="../family/e263c43d67441b957c8d414ee9a88cd182dcad6786cc9cb1a3e00bfe6323ebe4.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="309BE7A50B46414BE4867EF1A74356ED600E860D.html">309BE7A50B46414BE4867EF1A74356ED600E860D</a>
+<a href="BB463D75803F6C45B598233877A9426AB4657590.html">BB463D75803F6C45B598233877A9426AB4657590</a>
 </pre></dd>
 
 <dt>Alleged Family Members</dt>
@@ -147,15 +115,16 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>13 Mbit/s</dd>
+<dd>12 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>360</dd>
+<dd>330</dd>
 
 <dt>Flags</dt>
 <dd>
 <img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/hsdir.png" title="HSDir" alt="HSDir"></a> HSDir
 <img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -172,7 +141,7 @@ Vodafone Limited -
 <a href="../as_number/AS5378.html">AS5378</a>
 (<a href='https://bgp.he.net/AS5378'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-11-18 22:17:51</dd>
+<dd>2025-12-03 13:15:05</dd>
 
 <dt>Country</dt>
 <dd>
