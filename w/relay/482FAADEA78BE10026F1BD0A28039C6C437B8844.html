@@ -55,15 +55,15 @@ fullfungo+tor+relay@gmail.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
-89.99.115.4:443
-[2001:1c00:5605:8e00:4ec7:6461:a1d7:cc18]
+89.99.115.4:8443
+[2001:1c00:5609:c600:9639:e5ff:fec2:4669]
 </pre></dd>
 
 
 <dt>Dir Address</dt>
 <dd>none</dd>
 <dt>Exit Address</dt>
-<dd>none</dd>
+<dd>89.99.115.4</dd>
 <dt>IPv4 Exit Policy Summary</dt>
 <dd>
 <pre class="pre-scrollable">reject: 
@@ -77,7 +77,31 @@ fullfungo+tor+relay@gmail.com</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ reject 100.64.0.0/10:*
+ reject 192.0.2.0/24:*
+ reject 192.88.99.0/24:*
+ reject 198.18.0.0/15:*
+ reject 198.51.100.0/24:*
+ reject 203.0.113.0/24:*
+ reject 224.0.0.0/4:*
+ reject 240.0.0.0/4:*
+ reject *:25
+ reject *:119
+ reject *:135-139
+ reject *:445
+ reject *:563
+ reject *:1214
+ reject *:4661-4666
+ reject *:6346-6429
+ reject *:6699
+ reject *:6881-6999
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -101,7 +125,7 @@ fullfungo+tor+relay@gmail.com</a></dd>
 <dd><a href="../first_seen/2025-02-09">2025-02-09 17:00:00</a></dd>
 
 <dt>Platform</dt>
-<dd> Tor 0.4.8.21
+<dd> Tor 0.4.8.22
 on
 <a href='../osfam/Linux.html'>Linux</a>
 </dd>
@@ -110,10 +134,11 @@ on
 <dd>17 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
-<dd>810</dd>
+<dd>1000</dd>
 
 <dt>Flags</dt>
 <dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
 <img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
 <img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
 <img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
@@ -130,7 +155,7 @@ Vodafone Libertel B.V. -
 <a href="../as_number/AS33915.html">AS33915</a>
 (<a href='https://bgp.he.net/AS33915'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2025-12-03 20:05:28</dd>
+<dd>2026-02-04 21:51:51</dd>
 
 <dt>Country</dt>
 <dd>
