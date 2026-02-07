@@ -49,9 +49,9 @@
 <dt>Authenticated Relay Operator ID (AROI)</dt>
 <dd>None</dd>
 <dt>Contact
-(<a href="../contact/7bc6e288b32929b0bce0857f5e80481f.html">all relays with this contact</a>)</dt>
+(<a href="../contact/32cb0861adc94fe7853fb21328e94596.html">all relays with this contact</a>)</dt>
 <dd>
-anonymous@torproject.org</a></dd>
+printerexpert@mail2tor.com</a></dd>
 </dd>
 <dt>OR Address</dt>
 <dd><pre class="pre-scrollable">
@@ -76,7 +76,13 @@ anonymous@torproject.org</a></dd>
 </dd>
 
 <dt>Exit Policy</dt>
-<dd><pre class="pre-scrollable">reject *:*
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:*
 </pre></dd>
 </dd>
 
@@ -103,7 +109,7 @@ on
 </dd>
 
 <dt>Observed Bandwidth</dt>
-<dd>0 Mbit/s</dd>
+<dd>1 Mbit/s</dd>
 
 <dt>Consensus Weight</dt>
 <dd>0</dd>
@@ -125,7 +131,7 @@ Virgin Media Limited -
 <a href="../as_number/AS5089.html">AS5089</a>
 (<a href='https://bgp.he.net/AS5089'>BGP</a>)
 <dt>Last Restarted</dt>
-<dd>2026-02-04 06:29:00</dd>
+<dd>2026-02-07 18:14:26</dd>
 
 <dt>Country</dt>
 <dd>
