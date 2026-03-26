@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: TH3</title>
+    <meta name="description" content="Javascript-free Tor metrics.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <style>
+		.circle {
+			display: inline-block;
+			vertical-align: middle;
+			background: #999999;
+			width: 7px;
+			height: 7px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		.circle-online {
+			background: #25d918;
+		}
+
+		.circle-offline {
+			background: #ff1515;
+		}
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div id="content">
+<h2><a href="../">Home</a> :: Relay "TH3"</h2>
+<div class="row">
+<div class="col-md-6">
+<dl>
+<dt>Nickname</dt>
+<dd>TH3</dd>
+
+<dt>Authenticated Relay Operator ID (AROI)</dt>
+<dd>None</dd>
+<dt>Contact
+(<a href="../contact/1548c81a7f34f52bbc385e4e118b987c.html">all relays with this contact</a>)</dt>
+<dd>
+tomas@hofmistr.cz</a></dd>
+</dd>
+<dt>OR Address</dt>
+<dd><pre class="pre-scrollable">
+93.99.104.87:9001
+[2a01:5e0:36:c0b9::1]
+</pre></dd>
+
+
+<dt>Dir Address</dt>
+<dd>none</dd>
+<dt>Exit Address</dt>
+<dd>93.99.104.87</dd>
+<dt>IPv4 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  80
+  110
+  143
+  194
+  220
+  389
+  443
+  464
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  989-990
+  993
+  995
+  1194
+  1723
+  3128
+  3389
+  3690
+  5190
+  5222-5223
+  5900
+  6660-6667
+  6697
+  8080
+  8443
+  8888
+  9418
+  11371
+  64738
+</pre>
+</dd>
+
+<dt>IPv6 Exit Policy Summary</dt>
+<dd>
+<pre class="pre-scrollable">accept: 
+  20-23
+  43
+  53
+  80
+  110
+  143
+  194
+  220
+  389
+  443
+  464
+  543-544
+  554
+  563
+  587
+  636
+  706
+  749
+  873
+  989-990
+  993
+  995
+  1194
+  1723
+  3128
+  3389
+  3690
+  5190
+  5222-5223
+  5900
+  6660-6667
+  6697
+  8080
+  8443
+  8888
+  9418
+  11371
+  64738
+</pre>
+</dd>
+
+<dt>Exit Policy</dt>
+<dd><pre class="pre-scrollable">reject 0.0.0.0/8:*
+ reject 169.254.0.0/16:*
+ reject 127.0.0.0/8:*
+ reject 192.168.0.0/16:*
+ reject 10.0.0.0/8:*
+ reject 172.16.0.0/12:*
+ accept *:20-21
+ accept *:22
+ accept *:23
+ accept *:43
+ accept *:53
+ accept *:80
+ accept *:110
+ accept *:143
+ accept *:194
+ accept *:220
+ accept *:389
+ accept *:443
+ accept *:464
+ accept *:543-544
+ accept *:554
+ accept *:563
+ accept *:587
+ accept *:636
+ accept *:706
+ accept *:749
+ accept *:873
+ accept *:989-990
+ accept *:993
+ accept *:995
+ accept *:1194
+ accept *:1723
+ accept *:3128
+ accept *:3389
+ accept *:3690
+ accept *:5190
+ accept *:5222-5223
+ accept *:5900
+ accept *:6660-6667
+ accept *:6697
+ accept *:8080
+ accept *:8443
+ accept *:8888
+ accept *:9418
+ accept *:11371
+ accept *:64738
+ reject *:*
+</pre></dd>
+</dd>
+
+<dt>Effective Family Members (<a href="../family/09862aa625332b00d1554bec6f24658c32f53fc1f9b7be4d8afe8b77aa17cb56.html">view</a>)</dt>
+<dd><pre class="pre-scrollable"><a href="01AA1A35A0283A489DD4875EE4E19FEB5A68A167.html">01AA1A35A0283A489DD4875EE4E19FEB5A68A167</a>
+<a href="33CCDF0D5A878FE1CD2EAB14D918E0C8E76638DB.html">33CCDF0D5A878FE1CD2EAB14D918E0C8E76638DB</a>
+<a href="4F2A14179CA148B3478FA2C42D6BD4BA196E85CB.html">4F2A14179CA148B3478FA2C42D6BD4BA196E85CB</a>
+</pre></dd>
+
+<dt>Alleged Family Members</dt>
+<dd>
+<pre class="pre-scrollable">none
+</pre></dd>
+</dl>
+</div>
+<div class="col-md-6">
+<dl>
+
+<dt>First Seen</dt>
+<dd><a href="../first_seen/2026-02-22">2026-02-22 16:00:00</a></dd>
+
+<dt>Platform</dt>
+<dd> Tor 0.4.9.6
+on
+<a href='../osfam/Linux.html'>Linux</a>
+</dd>
+
+<dt>Observed Bandwidth</dt>
+<dd>114 Mbit/s</dd>
+
+<dt>Consensus Weight</dt>
+<dd>14000</dd>
+
+<dt>Flags</dt>
+<dd>
+<img src="../static/images/flags/exit.png" title="Exit" alt="Exit"></a> Exit
+<img src="../static/images/flags/fast.png" title="Fast" alt="Fast"></a> Fast
+<img src="../static/images/flags/guard.png" title="Guard" alt="Guard"></a> Guard
+<img src="../static/images/flags/stable.png" title="Stable" alt="Stable"></a> Stable
+<img src="../static/images/flags/valid.png" title="Valid" alt="Valid"></a> Valid
+<img src="../static/images/flags/v2dir.png" title="V2Dir" alt="V2Dir"></a> V2Dir
+</dd>
+
+
+
+<dt>Host Name</dt>
+<dd>
+<pre class="verified-hostname" title="verified hostname">tor-exit.hofmistr.cz</pre>
+<dt>Autonomous System</dt>
+<dd>
+Vodafone Czech Republic a.s. - 
+<a href="../as_number/AS16019.html">AS16019</a>
+(<a href='https://bgp.he.net/AS16019'>BGP</a>)
+<dt>Last Restarted</dt>
+<dd>2026-03-26 10:19:25</dd>
+
+<dt>Country</dt>
+<dd>
+<a href="../country/cz.html"><img src="../static/images/cc/cz.png" title="Czechia" alt="Czechia"></a> Czechia
+</dd>
+
+<dt>Fingerprint</dt>
+<dd><pre>4F2A14179CA148B3478FA2C42D6BD4BA196E85CB</pre></dd>
+
+</dl>
+</div>
+</div>
+</div>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated with <a href="https://github.com/tempname1024/allium">allium</a> based templates</p>
+</div>
+</footer>
+</html>
